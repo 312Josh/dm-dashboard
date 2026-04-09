@@ -241,6 +241,84 @@ def generate(data_dir):
 </div>
 """)
 
+    # ---- MBO Tracker ----
+    # Compute MBO metrics from data
+    total_opps = sum(int(r.get("Opps", "0") or 0) for r in metrics)
+    total_demos = sum(int(r.get("Demos", "0") or 0) for r in metrics)
+    total_ss = sum(int(r.get("Self-Sourced Created Opps", "0") or 0) for r in metrics)
+    total_nbr = sum(int(r.get("NB Referral Created Opps", "0") or 0) for r in metrics)
+    avg_arr_per_opp = (team_arr / team_wins_count) if team_wins_count else 0
+    reps_at_quota = sum(1 for r in metrics if parse_pct(r.get("ARR % to Goal (Xactly)", "0")) >= 100)
+    accountable_reps = sum(1 for r in metrics if parse_money(r.get("Booked SaaS Quota (Xactly)", "0")) > 0)
+    opps_per_rep = total_opps / len(metrics) if metrics else 0
+
+    # Opp:Win and Opp:Demo conversion (team averages)
+    opp_win_vals = [parse_pct(r.get("Opp to Win", "0")) for r in metrics if r.get("Opp to Win")]
+    opp_demo_vals = [parse_pct(r.get("Opp:Demo", "0")) for r in metrics if r.get("Opp:Demo")]
+    team_opp_win = (sum(opp_win_vals) / len(opp_win_vals)) if opp_win_vals else 0
+    team_opp_demo = (sum(opp_demo_vals) / len(opp_demo_vals)) if opp_demo_vals else 0
+
+    # Payroll ARR as % of total ARR
+    total_ec_arr = sum(parse_money(r.get("EC ARR", "0")) for r in metrics)
+    payroll_pct_of_arr = (total_ec_arr / team_arr * 100) if team_arr else 0
+
+    # NB Referral Demo:Win — use Demo:Win column for reps with NBR activity
+    demo_win_vals = [parse_pct(r.get("Demo:Win", "0")) for r in metrics if int(r.get("NB Referral Created Opps", "0") or 0) > 0]
+    nbr_demo_win = (sum(demo_win_vals) / len(demo_win_vals)) if demo_win_vals else 0
+
+    # Headcount / People (configurable)
+    total_headcount = len(metrics)
+    total_seats = 7  # current team size = filled seats
+    aes_in_pm = 1  # manually tracked
+    attrition = 0
+
+    html.append("""
+<div class="section">
+  <div class="section-title">&#x1F3C5; MBO Tracker — District Scorecard</div>
+  <div class="two-col">
+    <div>
+      <table>
+        <thead><tr><th>Attainment to Quota</th><th>Goal</th><th>Actual</th><th>District % to Goal</th></tr></thead>
+        <tbody>
+""")
+    html.append(f'<tr><td>Total ARR (Controlled)</td><td>{fmt_money(team_quota)}</td><td>{fmt_money(team_arr)}</td><td style="color:{pct_color(team_attainment, 100, 80)};font-weight:600">{fmt_pct(team_attainment)}</td></tr>\n')
+    html.append(f'<tr><td>% of AEs at ARR Quota</td><td>100%</td><td>{reps_at_quota}/{accountable_reps}</td><td style="font-weight:600">{fmt_pct(reps_at_quota/accountable_reps*100) if accountable_reps else "N/A"}</td></tr>\n')
+    html.append("""        </tbody></table>
+      <table style="margin-top:12px">
+        <thead><tr><th>MBOs</th><th>Goal</th><th>Actual</th><th>Status</th></tr></thead>
+        <tbody>
+""")
+    payroll_goal_pct = 40  # 36%/40% — using 40% as target
+    payroll_color = pct_color(payroll_pct_of_arr, 40, 36)
+    html.append(f'<tr><td>Payroll ARR as % of Total ARR</td><td>36% / 40%</td><td style="font-weight:600">{fmt_pct(payroll_pct_of_arr)}</td><td style="color:{payroll_color};font-weight:600">{"&#x2705;" if payroll_pct_of_arr >= 36 else "&#x26A0;&#xFE0F;"}</td></tr>\n')
+    nbr_goal = 83  # 80%/83%
+    nbr_color = pct_color(nbr_demo_win, 83, 80)
+    html.append(f'<tr><td>NB Referral Demo:Win Conv</td><td>80% / 83%</td><td style="font-weight:600">{fmt_pct(nbr_demo_win)}</td><td style="color:{nbr_color};font-weight:600">{"&#x2705;" if nbr_demo_win >= 80 else "&#x26A0;&#xFE0F;"}</td></tr>\n')
+    html.append("        </tbody></table>\n    </div>\n    <div>\n")
+
+    html.append("""      <table>
+        <thead><tr><th>Key Metrics</th><th>Goal</th><th>Actual</th><th>District % to Goal</th></tr></thead>
+        <tbody>
+""")
+    html.append(f'<tr><td>Total Opps Created</td><td></td><td>{total_opps}</td><td></td></tr>\n')
+    html.append(f'<tr><td>Opps Created Per Rep</td><td></td><td>{opps_per_rep:.1f}</td><td></td></tr>\n')
+    avg_arr_color = pct_color(avg_arr_per_opp / 1800 * 100, 100, 80)
+    html.append(f'<tr><td>Avg ARR</td><td>$1,800</td><td style="font-weight:600">{fmt_money(avg_arr_per_opp)}</td><td style="color:{avg_arr_color};font-weight:600">{fmt_pct(avg_arr_per_opp/1800*100)}</td></tr>\n')
+    html.append(f'<tr><td>Opp:Win Conversion</td><td></td><td>{fmt_pct(team_opp_win)}</td><td></td></tr>\n')
+    html.append(f'<tr><td>Opp:Demo Conversion</td><td></td><td>{fmt_pct(team_opp_demo)}</td><td></td></tr>\n')
+    html.append(f'<tr><td>NBR Referral Opps (total)</td><td></td><td>{total_nbr}</td><td></td></tr>\n')
+    html.append(f'<tr><td>SS Opps (total)</td><td></td><td>{total_ss}</td><td></td></tr>\n')
+    html.append("""        </tbody></table>
+      <table style="margin-top:12px">
+        <thead><tr><th>People</th><th>Goal</th><th>Actual</th><th>Status</th></tr></thead>
+        <tbody>
+""")
+    html.append(f'<tr><td>Headcount</td><td>{total_seats}</td><td>{total_headcount}/{total_seats}</td><td style="color:var(--green);font-weight:600">&#x2705;</td></tr>\n')
+    html.append(f'<tr><td>OOT Attrition</td><td>0</td><td>{attrition}</td><td style="color:var(--green);font-weight:600">&#x2705;</td></tr>\n')
+    pm_color = "var(--red)" if aes_in_pm > 0 else "var(--green)"
+    html.append(f'<tr><td>AEs in PM</td><td>0</td><td>{aes_in_pm}</td><td style="color:{pm_color};font-weight:600">{"&#x26A0;&#xFE0F;" if aes_in_pm > 0 else "&#x2705;"}</td></tr>\n')
+    html.append("        </tbody></table>\n    </div>\n  </div>\n</div>\n")
+
     # ---- Team Overview Table ----
     html.append("""
 <div class="section">
