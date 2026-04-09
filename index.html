@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Growth Sales Team Dashboard — Josh Mellender</title>
+<style>
+  :root {
+    --toast-orange: #FF6600; --toast-orange-light: #FF8533;
+    --toast-dark: #1A1A2E; --toast-dark-light: #2D2D44;
+    --green: #22C55E; --green-bg: #F0FDF4;
+    --yellow: #EAB308; --yellow-bg: #FEFCE8;
+    --red: #EF4444; --red-bg: #FEF2F2;
+    --blue: #3B82F6; --blue-bg: #EFF6FF;
+    --gray-50: #F9FAFB; --gray-100: #F3F4F6; --gray-200: #E5E7EB;
+    --gray-300: #D1D5DB; --gray-400: #9CA3AF; --gray-500: #6B7280;
+    --gray-600: #4B5563; --gray-700: #374151; --gray-800: #1F2937;
+    --shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--gray-50); color: var(--gray-800); line-height: 1.5; }
+  .header { background: linear-gradient(135deg, var(--toast-dark) 0%, var(--toast-dark-light) 100%); color: white; padding: 24px 32px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+  .header-left h1 { font-size: 24px; font-weight: 700; }
+  .header-left h1 span { color: var(--toast-orange); }
+  .header-left p { font-size: 14px; color: var(--gray-400); margin-top: 2px; }
+  .header-right { text-align: right; font-size: 13px; color: var(--gray-400); }
+  .header-right .date { font-size: 16px; color: white; font-weight: 600; }
+  .kpi-banner { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; padding: 20px 32px; background: white; border-bottom: 1px solid var(--gray-200); box-shadow: var(--shadow); }
+  .kpi-card { text-align: center; padding: 12px; }
+  .kpi-card .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray-500); font-weight: 600; }
+  .kpi-card .value { font-size: 28px; font-weight: 800; margin: 4px 0; color: var(--toast-dark); }
+  .kpi-card .sub { font-size: 12px; color: var(--gray-500); }
+  .section { padding: 24px 32px; }
+  .section-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+  table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow); margin-bottom: 8px; }
+  th { background: var(--gray-100); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray-600); font-weight: 600; padding: 10px 14px; text-align: left; }
+  td { padding: 10px 14px; border-top: 1px solid var(--gray-100); font-size: 13px; }
+  tr:hover { background: var(--gray-50); }
+  .progress-bar { background: var(--gray-200); border-radius: 999px; height: 8px; width: 100px; display: inline-block; vertical-align: middle; }
+  .progress-fill { height: 100%; border-radius: 999px; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; }
+  .badge-green { background: var(--green-bg); color: var(--green); }
+  .badge-yellow { background: var(--yellow-bg); color: var(--yellow); }
+  .badge-red { background: var(--red-bg); color: var(--red); }
+  .badge-blue { background: var(--blue-bg); color: var(--blue); }
+  .forecast-bar { display: flex; align-items: center; gap: 8px; margin: 8px 0; }
+  .forecast-bar-track { flex: 1; background: var(--gray-200); border-radius: 4px; height: 24px; position: relative; }
+  .forecast-bar-fill { height: 100%; border-radius: 4px; }
+  .forecast-bar-label { font-size: 13px; font-weight: 600; min-width: 50px; text-align: right; }
+  .forecast-bar-name { font-size: 14px; font-weight: 600; min-width: 130px; }
+  .pace-line { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--gray-700); z-index: 2; }
+  .pace-line::after { content: "\25BC"; position: absolute; top: -14px; left: -4px; font-size: 9px; color: var(--gray-700); }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+  .footer { text-align: center; padding: 16px; font-size: 12px; color: var(--gray-400); }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>&#x1F35E; <span>Toast</span> Growth Sales Dashboard</h1>
+    <p>Josh Mellender — Growth Sales District Manager | Reports to Katie Patterson (RVP)</p>
+  </div>
+  <div class="header-right">
+    <div class="date">April 2026 — MTD Performance</div>
+    <div>Data as of Apr 8, 2026</div>
+  </div>
+</div>
+
+<div class="kpi-banner">
+  <div class="kpi-card"><div class="label">Team MTD ACV</div><div class="value">$102,333</div><div class="sub">of $385,320 quota</div></div>
+  <div class="kpi-card"><div class="label">Attainment</div><div class="value">26.6%</div><div class="sub">Day 8/22</div></div>
+  <div class="kpi-card"><div class="label">Team Pacing</div><div class="value" style="color:var(--red)">26.6%</div><div class="sub">Behind pace</div></div>
+  <div class="kpi-card"><div class="label">Closed Deals</div><div class="value">59</div><div class="sub">MTD</div></div>
+  <div class="kpi-card"><div class="label">Open Pipeline</div><div class="value">$405,178</div><div class="sub">166 opps</div></div>
+  <div class="kpi-card"><div class="label">Stale (&gt;30d)</div><div class="value" style="color: var(--red)">43</div><div class="sub">stuck deals</div></div>
+</div>
+
+<div class="section">
+  <div class="section-title">&#x1F4CA; Team Overview — MTD ACV vs Quota</div>
+  <table>
+    <thead><tr><th>Rep</th><th>Role</th><th>Quota</th><th>MTD ACV</th><th>%</th><th>Progress</th><th>Wins</th><th>Pacing</th></tr></thead>
+    <tbody>
+<tr><td><strong>Chris Byrnes</strong></td><td style="font-size:12px;color:var(--gray-500)">AE</td><td>$62,000</td><td><strong>$17,625</strong></td><td>28.4%</td><td><div class="progress-bar"><div class="progress-fill" style="width:28.4%;background:var(--green)"></div></div></td><td>13</td><td><span class="badge badge-green">On Track</span></td></tr>
+<tr><td><strong>Danny Martinez</strong></td><td style="font-size:12px;color:var(--gray-500)">AE (7-9 Months)</td><td>$55,440</td><td><strong>$2,736</strong></td><td>4.9%</td><td><div class="progress-bar"><div class="progress-fill" style="width:4.9%;background:var(--red)"></div></div></td><td>2</td><td><span class="badge badge-red">Behind</span></td></tr>
+<tr><td><strong>Eleni Lembesis</strong></td><td style="font-size:12px;color:var(--gray-500)">AE (7-9 Months)</td><td>$55,440</td><td><strong>$5,297</strong></td><td>9.6%</td><td><div class="progress-bar"><div class="progress-fill" style="width:9.6%;background:var(--red)"></div></div></td><td>3</td><td><span class="badge badge-red">Behind</span></td></tr>
+<tr><td><strong>Jasmine Rieger</strong></td><td style="font-size:12px;color:var(--gray-500)">AE</td><td>$62,000</td><td><strong>$21,339</strong></td><td>34.4%</td><td><div class="progress-bar"><div class="progress-fill" style="width:34.4%;background:var(--green)"></div></div></td><td>16</td><td><span class="badge badge-green">On Track</span></td></tr>
+<tr><td><strong>Max Linder</strong></td><td style="font-size:12px;color:var(--gray-500)">AE (7-9 Months)</td><td>$55,440</td><td><strong>$21,792</strong></td><td>39.3%</td><td><div class="progress-bar"><div class="progress-fill" style="width:39.3%;background:var(--green)"></div></div></td><td>8</td><td><span class="badge badge-green">On Track</span></td></tr>
+<tr><td><strong>Thomas Jensen</strong></td><td style="font-size:12px;color:var(--gray-500)">AE (1-3 Months)</td><td>$0.00</td><td><strong>$3,240</strong></td><td>0.0%</td><td><div class="progress-bar"><div class="progress-fill" style="width:0.0%;background:var(--red)"></div></div></td><td>2</td><td><span class="badge badge-red">Behind</span></td></tr>
+<tr><td><strong>Tyler Stevens</strong></td><td style="font-size:12px;color:var(--gray-500)">Principal I</td><td>$95,000</td><td><strong>$30,304</strong></td><td>31.9%</td><td><div class="progress-bar"><div class="progress-fill" style="width:31.9%;background:var(--green)"></div></div></td><td>15</td><td><span class="badge badge-green">On Track</span></td></tr>
+<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>7 AEs</td><td>$385,320</td><td>$102,333</td><td>26.6%</td><td></td><td>59</td><td></td></tr>
+    </tbody></table>
+</div>
+
+<div class="section">
+  <div class="two-col">
+    <div>
+      <div class="section-title">&#x1F3AF; Self-Sourced Opps Created</div>
+      <table>
+        <thead><tr><th>Rep</th><th>Created</th><th>Goal</th><th>% to Goal</th></tr></thead>
+        <tbody>
+<tr><td><strong>Chris Byrnes</strong></td><td>10</td><td>36</td><td style="color:var(--red);font-weight:600">27.8%</td></tr>
+<tr><td><strong>Danny Martinez</strong></td><td>4</td><td>36</td><td style="color:var(--red);font-weight:600">11.1%</td></tr>
+<tr><td><strong>Eleni Lembesis</strong></td><td>11</td><td>36</td><td style="color:var(--red);font-weight:600">30.6%</td></tr>
+<tr><td><strong>Jasmine Rieger</strong></td><td>14</td><td>36</td><td style="color:var(--red);font-weight:600">38.9%</td></tr>
+<tr><td><strong>Max Linder</strong></td><td>6</td><td>36</td><td style="color:var(--red);font-weight:600">16.7%</td></tr>
+<tr><td><strong>Thomas Jensen</strong></td><td>4</td><td>36</td><td style="color:var(--red);font-weight:600">11.1%</td></tr>
+<tr><td><strong>Tyler Stevens</strong></td><td>23</td><td>36</td><td style="color:var(--green);font-weight:600">63.9%</td></tr>
+<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>72</td><td>252</td><td></td></tr>
+        </tbody></table>
+    </div>
+    <div>
+      <div class="section-title">&#x1F91D; NBR Referrals</div>
+      <table>
+        <thead><tr><th>Rep</th><th>Created</th><th>Closed Won</th></tr></thead>
+        <tbody>
+<tr><td><strong>Chris Byrnes</strong></td><td>5</td><td>3</td></tr>
+<tr><td><strong>Danny Martinez</strong></td><td>0</td><td>0</td></tr>
+<tr><td><strong>Eleni Lembesis</strong></td><td>0</td><td>0</td></tr>
+<tr><td><strong>Jasmine Rieger</strong></td><td>3</td><td>1</td></tr>
+<tr><td><strong>Max Linder</strong></td><td>1</td><td>0</td></tr>
+<tr><td><strong>Thomas Jensen</strong></td><td>0</td><td>0</td></tr>
+<tr><td><strong>Tyler Stevens</strong></td><td>1</td><td>1</td></tr>
+<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>10</td><td>5</td></tr>
+        </tbody></table>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">&#x1F4B3; Employee Cloud / Payroll (EC) Sales</div>
+  <table>
+    <thead><tr><th>Rep</th><th>EC Units</th><th>EC ARR</th><th>EC Goal</th><th>EC % to Goal</th></tr></thead>
+    <tbody>
+<tr><td><strong>Chris Byrnes</strong></td><td>1</td><td>$588.00</td><td>$31,000</td><td style="color:var(--red);font-weight:600">1.9%</td></tr>
+<tr><td><strong>Danny Martinez</strong></td><td>0</td><td>$0.00</td><td>$27,720</td><td style="color:var(--red);font-weight:600">0.0%</td></tr>
+<tr><td><strong>Eleni Lembesis</strong></td><td>0</td><td>$0.00</td><td>$27,720</td><td style="color:var(--red);font-weight:600">0.0%</td></tr>
+<tr><td><strong>Jasmine Rieger</strong></td><td>0</td><td>$0.00</td><td>$31,000</td><td style="color:var(--red);font-weight:600">0.0%</td></tr>
+<tr><td><strong>Max Linder</strong></td><td>1</td><td>$2,160</td><td>$27,720</td><td style="color:var(--red);font-weight:600">7.8%</td></tr>
+<tr><td><strong>Thomas Jensen</strong></td><td>1</td><td>$1,620</td><td>$10,333</td><td style="color:var(--red);font-weight:600">15.7%</td></tr>
+<tr><td><strong>Tyler Stevens</strong></td><td>2</td><td>$7,150</td><td>$47,500</td><td style="color:var(--red);font-weight:600">15.1%</td></tr>
+    </tbody></table>
+</div>
+
+<div class="section">
+  <div class="section-title">&#x1F52E; Pipeline Health</div>
+  <table>
+    <thead><tr><th>Rep</th><th>Open Deals</th><th>Pipeline Value</th><th>Stale (&gt;30d)</th><th>Health</th></tr></thead>
+    <tbody>
+<tr><td><strong>Chris Byrnes</strong></td><td>0</td><td>$0.00</td><td style="color:var(--gray-600)">0</td><td><span class="badge badge-green">Healthy</span></td></tr>
+<tr><td><strong>Danny Martinez</strong></td><td>25</td><td>$36,714</td><td style="color:var(--red)">4</td><td><span class="badge badge-yellow">Monitor</span></td></tr>
+<tr><td><strong>Eleni Lembesis</strong></td><td>26</td><td>$125,504</td><td style="color:var(--red)">5</td><td><span class="badge badge-yellow">Monitor</span></td></tr>
+<tr><td><strong>Jasmine Rieger</strong></td><td>27</td><td>$63,854</td><td style="color:var(--red)">8</td><td><span class="badge badge-red">Needs attention</span></td></tr>
+<tr><td><strong>Max Linder</strong></td><td>12</td><td>$56,244</td><td style="color:var(--red)">4</td><td><span class="badge badge-red">Needs attention</span></td></tr>
+<tr><td><strong>Thomas Jensen</strong></td><td>11</td><td>$24,298</td><td style="color:var(--gray-600)">0</td><td><span class="badge badge-green">Healthy</span></td></tr>
+<tr><td><strong>Tyler Stevens</strong></td><td>43</td><td>$74,550</td><td style="color:var(--red)">9</td><td><span class="badge badge-yellow">Monitor</span></td></tr>
+<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>144</td><td>$381,163</td><td>30</td><td></td></tr>
+    </tbody></table>
+</div>
+
+<div class="section">
+  <div class="two-col">
+    <div>
+      <div class="section-title">&#x1F4DE; Calls Activity</div>
+      <table>
+        <thead><tr><th>Rep</th><th>Calls</th><th>Avg/Day</th><th>Conversations</th><th>Conv Rate</th><th>Avg Duration</th></tr></thead>
+        <tbody>
+<tr><td><strong>Chris Byrnes</strong></td><td>60</td><td>20.0</td><td>11</td><td>18.3%</td><td>1m 31s</td></tr>
+<tr><td><strong>Danny Martinez</strong></td><td>68</td><td>22.7</td><td>13</td><td>19.1%</td><td>1m 48s</td></tr>
+<tr><td><strong>Eleni Lembesis</strong></td><td>26</td><td>8.7</td><td>8</td><td>30.8%</td><td>1m 1s</td></tr>
+<tr><td><strong>Jasmine Rieger</strong></td><td>72</td><td>24.0</td><td>12</td><td>16.7%</td><td>0m 53s</td></tr>
+<tr><td><strong>Max Linder</strong></td><td>49</td><td>16.3</td><td>12</td><td>24.5%</td><td>1m 8s</td></tr>
+<tr><td><strong>Thomas Jensen</strong></td><td>0</td><td>0.0</td><td>0</td><td>%</td><td>N/A</td></tr>
+<tr><td><strong>Tyler Stevens</strong></td><td>14</td><td>4.7</td><td>14</td><td>100.0%</td><td>1m 35s</td></tr>
+        </tbody></table>
+    </div>
+    <div>
+      <div class="section-title">&#x1F4E7; Email Activity</div>
+      <table>
+        <thead><tr><th>Rep</th><th>Sent</th><th>Opened</th><th>Open Rate</th><th>Replied</th><th>Reply Rate</th></tr></thead>
+        <tbody>
+<tr><td><strong>Chris Byrnes</strong></td><td>57</td><td>25</td><td>44.6%</td><td>5</td><td>8.9%</td></tr>
+<tr><td><strong>Danny Martinez</strong></td><td>75</td><td>30</td><td>42.3%</td><td>5</td><td>7.0%</td></tr>
+<tr><td><strong>Eleni Lembesis</strong></td><td>16</td><td>9</td><td>60.0%</td><td>5</td><td>33.3%</td></tr>
+<tr><td><strong>Jasmine Rieger</strong></td><td>30</td><td>22</td><td>73.3%</td><td>11</td><td>36.7%</td></tr>
+<tr><td><strong>Max Linder</strong></td><td>41</td><td>22</td><td>53.7%</td><td>7</td><td>17.1%</td></tr>
+<tr><td><strong>Thomas Jensen</strong></td><td>2</td><td>2</td><td>100.0%</td><td>0</td><td>0.0%</td></tr>
+<tr><td><strong>Tyler Stevens</strong></td><td>0</td><td>0</td><td>%</td><td>0</td><td>%</td></tr>
+        </tbody></table>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">&#x1F3C6; Recent Wins</div>
+  <table>
+    <thead><tr><th>Account</th><th>Type</th><th>ARR</th><th>Close Date</th><th>Rep</th></tr></thead>
+    <tbody>
+<tr><td><strong>K Bistro - Sarasota</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$3,948</td><td>4/8/2026</td><td>Christopher Byrnes</td></tr>
+<tr><td><strong>560 Mission Lobby</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,776</td><td>4/8/2026</td><td>Danny Martinez</td></tr>
+<tr><td><strong>The Standard Restaurant and Lounge</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$2,669</td><td>4/8/2026</td><td>Eleni Lembesis</td></tr>
+<tr><td><strong>Truxton's - Westchester</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$2,400</td><td>4/8/2026</td><td>Jasmine Rieger</td></tr>
+<tr><td><strong>La Nortena Tamales Factory - Pecos 1</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,788</td><td>4/8/2026</td><td>Max Linder</td></tr>
+<tr><td><strong>La Nortena Tamale Factory - Odessa</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,788</td><td>4/8/2026</td><td>Max Linder</td></tr>
+<tr><td><strong>La Nortena Tamales Factory - Pecos 2</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,788</td><td>4/8/2026</td><td>Max Linder</td></tr>
+<tr><td><strong>Prospect at Scribner's Lodge</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$600.00</td><td>4/8/2026</td><td>Max Linder</td></tr>
+<tr><td><strong>Once Upon A Time In France</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$3,048</td><td>4/8/2026</td><td>Tyler Stevens</td></tr>
+<tr><td><strong>Curry Boys</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,065</td><td>4/8/2026</td><td>Tyler Stevens</td></tr>
+<tr><td><strong>Tantisimo Sylvan Park</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$2,100</td><td>4/8/2026</td><td>Tyler Stevens</td></tr>
+<tr><td><strong>Flanagan's Irish Pub</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$240.00</td><td>4/7/2026</td><td>Christopher Byrnes</td></tr>
+<tr><td><strong>T'asia Sushi and Thai - Parent Account</strong></td><td style="font-size:12px">Payroll</td><td>$588.00</td><td>4/7/2026</td><td>Christopher Byrnes</td></tr>
+<tr><td><strong>Zaika - Capitol Hill</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$960.00</td><td>4/7/2026</td><td>Danny Martinez</td></tr>
+<tr><td><strong>The Olympia</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$2,148</td><td>4/7/2026</td><td>Eleni Lembesis</td></tr>
+<tr><td><strong>The Craftsman - Redondo 2025</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$714.00</td><td>4/7/2026</td><td>Jasmine Rieger</td></tr>
+<tr><td><strong>Great White - Venice</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$0.00</td><td>4/7/2026</td><td>Jasmine Rieger</td></tr>
+<tr><td><strong>Avatar Coffee</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$3,348</td><td>4/7/2026</td><td>Max Linder</td></tr>
+<tr><td><strong>Tutti da Gio - Hendersonville</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$600.00</td><td>4/7/2026</td><td>Tyler Stevens</td></tr>
+<tr><td><strong>Epice - Birmingham</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$600.00</td><td>4/7/2026</td><td>Tyler Stevens</td></tr>
+    </tbody></table>
+</div>
+
+<div class="section">
+  <div class="section-title">&#x1F4C8; Forecast vs Quota — Pacing</div>
+<div class="forecast-bar"><div class="forecast-bar-name">Chris Byrnes</div><div class="forecast-bar-track"><div class="forecast-bar-fill" style="width:28.4%;background:var(--green)"></div><div class="pace-line" style="left:26.7%"></div></div><div class="forecast-bar-label">$62,000</div><div class="forecast-bar-label">28.4%</div></div>
+<div class="forecast-bar"><div class="forecast-bar-name">Danny Martinez</div><div class="forecast-bar-track"><div class="forecast-bar-fill" style="width:4.9%;background:var(--red)"></div><div class="pace-line" style="left:26.7%"></div></div><div class="forecast-bar-label">$55,440</div><div class="forecast-bar-label">4.9%</div></div>
+<div class="forecast-bar"><div class="forecast-bar-name">Eleni Lembesis</div><div class="forecast-bar-track"><div class="forecast-bar-fill" style="width:9.6%;background:var(--red)"></div><div class="pace-line" style="left:26.7%"></div></div><div class="forecast-bar-label">$55,440</div><div class="forecast-bar-label">9.6%</div></div>
+<div class="forecast-bar"><div class="forecast-bar-name">Jasmine Rieger</div><div class="forecast-bar-track"><div class="forecast-bar-fill" style="width:34.4%;background:var(--green)"></div><div class="pace-line" style="left:26.7%"></div></div><div class="forecast-bar-label">$62,000</div><div class="forecast-bar-label">34.4%</div></div>
+<div class="forecast-bar"><div class="forecast-bar-name">Max Linder</div><div class="forecast-bar-track"><div class="forecast-bar-fill" style="width:39.3%;background:var(--green)"></div><div class="pace-line" style="left:26.7%"></div></div><div class="forecast-bar-label">$55,440</div><div class="forecast-bar-label">39.3%</div></div>
+<div class="forecast-bar"><div class="forecast-bar-name">Thomas Jensen</div><div class="forecast-bar-track"><div class="forecast-bar-fill" style="width:0.0%;background:var(--red)"></div><div class="pace-line" style="left:26.7%"></div></div><div class="forecast-bar-label">$0.00</div><div class="forecast-bar-label">0.0%</div></div>
+<div class="forecast-bar"><div class="forecast-bar-name">Tyler Stevens</div><div class="forecast-bar-track"><div class="forecast-bar-fill" style="width:31.9%;background:var(--green)"></div><div class="pace-line" style="left:26.7%"></div></div><div class="forecast-bar-label">$95,000</div><div class="forecast-bar-label">31.9%</div></div>
+<div class="forecast-bar" style="margin-top:12px;padding-top:12px;border-top:2px solid var(--gray-300)"><div class="forecast-bar-name" style="font-weight:800">TEAM TOTAL</div><div class="forecast-bar-track"><div class="forecast-bar-fill" style="width:26.6%;background:var(--toast-orange)"></div><div class="pace-line" style="left:26.7%"></div></div><div class="forecast-bar-label">$385,320</div><div class="forecast-bar-label">26.6%</div></div>
+  <p style="margin-top:12px;font-size:13px;color:var(--gray-500)">&#x25BC; = Expected pace (Day 8/22)</p>
+</div>
+
+<div class="footer">Growth Sales Team Dashboard — Built for Josh Mellender | Data: Sigma + Xactly + SalesLoft | Generated Apr 08, 2026</div>
+</body></html>
