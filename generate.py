@@ -300,6 +300,31 @@ def generate(data_dir):
 </div>
 """)
 
+    # ---- Team Overview Table ----
+    html.append("""
+<div class="section">
+  <div class="section-title"><img src="assets/bar-chart.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Team Overview — MTD ACV vs Quota</div>
+  <table>
+    <thead><tr><th>Rep</th><th>Role</th><th>Quota</th><th>MTD ACV</th><th>%</th><th>Progress</th><th>Wins</th><th>Pacing</th></tr></thead>
+    <tbody>
+""")
+    for r in metrics:
+        name = r["Rep Name"]
+        role = r.get("Role in Month", "AE")
+        cohort = r.get("Ramping Cohort", "")
+        role_display = f"{role} ({cohort})" if cohort and cohort != "-" else role
+        quota = parse_money(r.get("Booked SaaS Quota (Xactly)", "0"))
+        arr = parse_money(r.get("Total Booked Saas ARR", "0"))
+        pct = parse_pct(r.get("ARR % to Goal (Xactly)", "0"))
+        wins_count = int(r.get("Wins", "0") or 0)
+        bar_w = min(pct, 100)
+        color = bar_color(pct, expected_pct)
+        badge = pacing_badge(pct, biz_days_passed, total_biz_days)
+        html.append(f'<tr><td><strong>{rep_link(name)}</strong></td><td style="font-size:12px;color:var(--gray-500)">{role_display}</td><td>{fmt_money(quota)}</td><td><strong>{fmt_money(arr)}</strong></td><td>{fmt_pct(pct)}</td><td><div class="progress-bar"><div class="progress-fill" style="width:{bar_w:.1f}%;background:{color}"></div></div></td><td>{wins_count}</td><td>{badge}</td></tr>\n')
+
+    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{len(metrics)} AEs</td><td>{fmt_money(team_quota)}</td><td>{fmt_money(team_arr)}</td><td>{fmt_pct(team_attainment)}</td><td></td><td>{team_wins_count}</td><td></td></tr>\n')
+    html.append("    </tbody></table>\n</div>\n")
+
     # ---- MBO Tracker ----
     # Compute MBO metrics from data
     total_opps = sum(int(r.get("Opps", "0") or 0) for r in metrics)
@@ -395,31 +420,6 @@ def generate(data_dir):
     pm_badge = BADGE_AT_RISK if aes_in_pm > 0 else BADGE_ON_TRACK
     html.append(f'<tr><td>AEs in PM</td><td>0</td><td>{aes_in_pm}</td><td>{pm_badge}</td></tr>\n')
     html.append("        </tbody></table>\n    </div>\n  </div>\n</div>\n")
-
-    # ---- Team Overview Table ----
-    html.append("""
-<div class="section">
-  <div class="section-title"><img src="assets/bar-chart.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Team Overview — MTD ACV vs Quota</div>
-  <table>
-    <thead><tr><th>Rep</th><th>Role</th><th>Quota</th><th>MTD ACV</th><th>%</th><th>Progress</th><th>Wins</th><th>Pacing</th></tr></thead>
-    <tbody>
-""")
-    for r in metrics:
-        name = r["Rep Name"]
-        role = r.get("Role in Month", "AE")
-        cohort = r.get("Ramping Cohort", "")
-        role_display = f"{role} ({cohort})" if cohort and cohort != "-" else role
-        quota = parse_money(r.get("Booked SaaS Quota (Xactly)", "0"))
-        arr = parse_money(r.get("Total Booked Saas ARR", "0"))
-        pct = parse_pct(r.get("ARR % to Goal (Xactly)", "0"))
-        wins_count = int(r.get("Wins", "0") or 0)
-        bar_w = min(pct, 100)
-        color = bar_color(pct, expected_pct)
-        badge = pacing_badge(pct, biz_days_passed, total_biz_days)
-        html.append(f'<tr><td><strong>{rep_link(name)}</strong></td><td style="font-size:12px;color:var(--gray-500)">{role_display}</td><td>{fmt_money(quota)}</td><td><strong>{fmt_money(arr)}</strong></td><td>{fmt_pct(pct)}</td><td><div class="progress-bar"><div class="progress-fill" style="width:{bar_w:.1f}%;background:{color}"></div></div></td><td>{wins_count}</td><td>{badge}</td></tr>\n')
-
-    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{len(metrics)} AEs</td><td>{fmt_money(team_quota)}</td><td>{fmt_money(team_arr)}</td><td>{fmt_pct(team_attainment)}</td><td></td><td>{team_wins_count}</td><td></td></tr>\n')
-    html.append("    </tbody></table>\n</div>\n")
 
     # ---- Self-Sourced + NBR Referrals (two-col) ----
     html.append("""
