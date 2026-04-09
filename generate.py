@@ -9,6 +9,7 @@ Reads the 5 CSVs from the data folder and outputs index.html in this script's di
 """
 
 import csv
+import json
 import os
 import sys
 from datetime import datetime, date
@@ -404,6 +405,44 @@ def generate(data_dir):
         color = pct_color(ec_pct, 50, 25)
         html.append(f'<tr><td><strong>{name}</strong></td><td>{units}</td><td>{fmt_money(ec_arr)}</td><td>{fmt_money(ec_goal)}</td><td style="color:{color};font-weight:600">{fmt_pct(ec_pct)}</td></tr>\n')
     html.append("    </tbody></table>\n</div>\n")
+
+    # ---- Enablement MBO Tracker (from WorkRamp data) ----
+    enablement_path = Path(__file__).parent / "data" / "enablement.json"
+    if enablement_path.exists():
+        with open(enablement_path) as f:
+            enablement = json.load(f)
+
+        e_date = enablement.get("scraped_date", "unknown")
+        team_comp = enablement.get("team_completion", 0)
+        team_grade = enablement.get("team_avg_grade", 0)
+        mbo_threshold = 85
+        mbo_met = team_comp >= mbo_threshold
+
+        html.append(f"""
+<div class="section">
+  <div class="section-title">&#x1F4DA; Enablement MBO Tracker <span style="font-size:12px;color:var(--gray-500);font-weight:400">(WorkRamp — as of {e_date})</span></div>
+  <table>
+    <thead><tr><th>Rep</th><th>Completion</th><th>Avg Grade</th><th>Failed</th><th>Overdue</th><th>Needs Grading</th></tr></thead>
+    <tbody>
+""")
+        for rep in enablement.get("reps", []):
+            comp = rep["completion"]
+            grade = rep["avg_grade"]
+            failed = rep.get("failed", 0)
+            overdue = rep.get("overdue", 0)
+            needs = rep.get("needs_grading", 0)
+            comp_color = pct_color(comp, 85, 75)
+            grade_color = pct_color(grade, 85, 75)
+            fail_color = "var(--red)" if failed > 0 else "var(--gray-600)"
+            over_color = "var(--red)" if overdue > 0 else "var(--gray-600)"
+            html.append(f'<tr><td><strong>{rep["name"]}</strong></td><td style="color:{comp_color};font-weight:600">{comp}%</td><td>{grade}%</td><td style="color:{fail_color}">{failed}</td><td style="color:{over_color}">{overdue}</td><td>{needs}</td></tr>\n')
+
+        team_comp_color = "var(--green)" if mbo_met else "var(--red)"
+        mbo_icon = "&#x2705;" if mbo_met else "&#x26A0;&#xFE0F;"
+        html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td style="color:{team_comp_color}">{team_comp}%</td><td>{team_grade}%</td><td></td><td></td><td></td></tr>\n')
+        html.append("    </tbody></table>\n")
+        html.append(f'  <p style="margin-top:8px;font-size:12px;color:var(--gray-500)">{mbo_icon} MBO threshold: {mbo_threshold}% team completion. Currently at {team_comp}% — {"meeting target" if mbo_met else "below target"}.</p>\n')
+        html.append("</div>\n")
 
     # ---- Pipeline Health ----
     html.append("""
