@@ -717,23 +717,37 @@ def generate(data_dir):
         quota = rep_data["quota"]
         arr_pct = rep_data["arr_pct"]
 
-        # Behavior analysis (activity)
-        behavior_items = []
-        call_goal = int(r.get("Call Goal", "0") or 0)
-        call_actual = rep_data["calls"]
-        call_pct = (call_actual / call_goal * 100) if call_goal else 0
-        if call_pct < 70:
-            behavior_items.append(f"Calls at {call_actual}/{call_goal} ({call_pct:.0f}%) — significantly behind. Are there time management barriers?")
-        elif call_pct < 90:
-            behavior_items.append(f"Calls at {call_actual}/{call_goal} ({call_pct:.0f}%) — slightly behind pace.")
+        # Behavior analysis (activity) — pace by working day
+        # ~22 working days/month, figure out how many working days have passed
+        biz_days_passed = day_of_month  # rough; could refine with actual calendar
+        biz_days_in_month = total_biz_days  # 22
+        pace_factor = biz_days_passed / biz_days_in_month if biz_days_in_month else 1
 
-        demo_goal = int(r.get("Total Demo Goal", "0") or 0)
+        behavior_items = []
+        call_goal_mo = int(r.get("Call Goal", "0") or 0)
+        call_goal_daily = round(call_goal_mo / biz_days_in_month) if biz_days_in_month else 0
+        call_goal_weekly = call_goal_daily * 5
+        call_expected = round(call_goal_mo * pace_factor)
+        call_actual = rep_data["calls"]
+        call_pace_pct = (call_actual / call_expected * 100) if call_expected else 0
+        if call_expected > 0 and call_pace_pct < 70:
+            behavior_items.append(f"Calls at {call_actual}/{call_expected} expected by day {biz_days_passed} ({call_pace_pct:.0f}% to pace) — significantly behind. Goal: {call_goal_daily}/day, {call_goal_weekly}/week. Are there time management barriers?")
+        elif call_expected > 0 and call_pace_pct < 90:
+            behavior_items.append(f"Calls at {call_actual}/{call_expected} expected by day {biz_days_passed} ({call_pace_pct:.0f}% to pace) — slightly behind. Goal: {call_goal_daily}/day, {call_goal_weekly}/week.")
+        elif call_expected > 0:
+            behavior_items.append(f"Calls at {call_actual}/{call_expected} expected ({call_pace_pct:.0f}% to pace) — on track. Goal: {call_goal_daily}/day, {call_goal_weekly}/week.")
+
+        demo_goal_mo = int(r.get("Total Demo Goal", "0") or 0)
+        demo_goal_weekly = round(demo_goal_mo / 4.3) if demo_goal_mo else 0
+        demo_expected = round(demo_goal_mo * pace_factor)
         demo_actual = rep_data["demos"]
-        demo_pct_goal = parse_pct(r.get("Demos Held % to Goal", "0"))
-        if demo_pct_goal < 70:
-            behavior_items.append(f"Demos at {demo_actual}/{demo_goal} ({demo_pct_goal:.0f}%) — not getting enough at-bats. Focus on booking more demos.")
-        elif demo_pct_goal < 90:
-            behavior_items.append(f"Demos at {demo_actual}/{demo_goal} ({demo_pct_goal:.0f}%) — close to pace, push for more.")
+        demo_pace_pct = (demo_actual / demo_expected * 100) if demo_expected else 0
+        if demo_expected > 0 and demo_pace_pct < 70:
+            behavior_items.append(f"Demos at {demo_actual}/{demo_expected} expected by day {biz_days_passed} ({demo_pace_pct:.0f}% to pace) — not getting enough at-bats. Goal: ~{demo_goal_weekly}/week. Focus on booking more demos.")
+        elif demo_expected > 0 and demo_pace_pct < 90:
+            behavior_items.append(f"Demos at {demo_actual}/{demo_expected} expected by day {biz_days_passed} ({demo_pace_pct:.0f}% to pace) — close. Goal: ~{demo_goal_weekly}/week.")
+        elif demo_expected > 0:
+            behavior_items.append(f"Demos at {demo_actual}/{demo_expected} expected ({demo_pace_pct:.0f}% to pace) — on track. Goal: ~{demo_goal_weekly}/week.")
 
         emails_sent = rep_data["emails_sent"]
         if emails_sent < 20:
@@ -899,7 +913,7 @@ def generate(data_dir):
             rp.append('        <li>"After your last demo, what was the prospect\'s commitment? Did you get a clear next step?"</li>\n')
         if stale_count_rep > 3:
             rp.append(f'        <li>"You have {stale_count_rep} deals sitting >14 days. Which ones are real and which should we close out?"</li>\n')
-        if call_pct < 80:
+        if call_pace_pct < 80:
             rp.append('        <li>"What does your daily call block look like? Are you protecting that time?"</li>\n')
         if avg_arr > 0 and avg_arr < 1800:
             rp.append('        <li>"On your last few deals, did you explore EC/Payroll and all available product bundles?"</li>\n')
