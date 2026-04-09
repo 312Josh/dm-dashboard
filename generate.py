@@ -813,8 +813,8 @@ def generate(data_dir):
   .header-left h1 {{ font-size: 20px; font-weight: 700; }}
   .header-right {{ font-size: 13px; color: var(--gray-400); }}
   .content {{ max-width: 1200px; margin: 0 auto; padding: 24px 32px; }}
-  .scorecard {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 24px; }}
-  .sc-card {{ background: white; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 16px; text-align: center; }}
+  .scorecard {{ display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 28px; }}
+  .sc-card {{ background: white; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 20px 16px; text-align: center; }}
   .sc-card .label {{ font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--gray-500); font-weight: 700; }}
   .sc-card .value {{ font-size: 22px; font-weight: 800; margin: 4px 0; color: var(--toast-dark); }}
   .sc-card .sub {{ font-size: 11px; color: var(--gray-500); }}
