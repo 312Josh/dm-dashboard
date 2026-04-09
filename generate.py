@@ -56,6 +56,31 @@ def pacing_badge(pct, day_of_month, total_days):
         return '<span class="badge badge-red">Behind</span>'
 
 
+def pace_actual_vs_expected(actual, monthly_goal, biz_days_passed, biz_days_total):
+    """Return (expected_by_now, pace_pct, daily_goal, weekly_goal)."""
+    if not monthly_goal or not biz_days_total:
+        return (0, 0, 0, 0)
+    daily = monthly_goal / biz_days_total
+    weekly = daily * 5
+    expected = daily * biz_days_passed
+    pace_pct = (actual / expected * 100) if expected else 0
+    return (round(expected), pace_pct, round(daily), round(weekly))
+
+
+def pace_color_and_label(actual, monthly_goal, biz_days_passed, biz_days_total):
+    """Return HTML showing actual/expected with pace color."""
+    expected, pace_pct, daily, weekly = pace_actual_vs_expected(actual, monthly_goal, biz_days_passed, biz_days_total)
+    if not expected:
+        return f'{actual}'
+    if pace_pct >= 100:
+        color = "var(--green)"
+    elif pace_pct >= 80:
+        color = "var(--yellow)"
+    else:
+        color = "var(--red)"
+    return f'<span style="color:{color};font-weight:600">{actual}/{expected}</span> <span style="font-size:11px;color:var(--gray-400)">({pace_pct:.0f}%)</span>'
+
+
 # Normalize name mismatches across CSVs (Salesforce uses full names, others use short)
 NAME_MAP = {
     "Christopher Byrnes": "Chris Byrnes",
@@ -137,6 +162,10 @@ def generate(data_dir):
     opps = read_csv(opps_file)
     calls = read_csv(calls_file)
     emails = read_csv(emails_file)
+
+    # Pre-build lookup dicts
+    calls_by_name = {r["user_name"]: r for r in calls}
+    emails_by_name = {r["user_name"]: r for r in emails}
 
     # Rep order from metrics
     reps = [r["Rep Name"] for r in metrics]
@@ -273,6 +302,7 @@ def generate(data_dir):
     total_opps = sum(int(r.get("Opps", "0") or 0) for r in metrics)
     total_demos = sum(int(r.get("Demos", "0") or 0) for r in metrics)
     total_ss = sum(int(r.get("Self-Sourced Created Opps", "0") or 0) for r in metrics)
+    team_ss_goal = sum(int(r.get("Total SS Opp Goal", "0") or 0) for r in metrics)
     total_nbr = sum(int(r.get("NB Referral Created Opps", "0") or 0) for r in metrics)
     avg_arr_per_opp = (team_arr / team_wins_count) if team_wins_count else 0
     reps_at_quota = sum(1 for r in metrics if parse_pct(r.get("ARR % to Goal (Xactly)", "0")) >= 100)
@@ -325,18 +355,33 @@ def generate(data_dir):
     html.append(f'<tr><td>NB Referral Demo:Win Conv</td><td>80% / 83%</td><td style="font-weight:600">{fmt_pct(nbr_demo_win)}</td><td>{nbr_badge}</td></tr>\n')
     html.append("        </tbody></table>\n    </div>\n    <div>\n")
 
+    total_opp_goal = sum(int(r.get("Opp Goal", "0") or 0) for r in metrics)
+    total_demo_goal = sum(int(r.get("Total Demo Goal", "0") or 0) for r in metrics)
+    total_wins_goal = sum(int(r.get("Total Wins Goal", "0") or 0) for r in metrics)
+    total_call_goal = sum(int(r.get("Call Goal", "0") or 0) for r in metrics)
+
     html.append("""      <table>
-        <thead><tr><th>Key Metrics</th><th>Goal</th><th>Actual</th><th>District % to Goal</th></tr></thead>
+        <thead><tr><th>Key Metrics</th><th>Goal (Mo)</th><th>Actual</th><th>% to Goal</th><th>Pace</th></tr></thead>
         <tbody>
 """)
-    html.append(f'<tr><td>Total Opps Created</td><td></td><td>{total_opps}</td><td></td></tr>\n')
-    html.append(f'<tr><td>Opps Created Per Rep</td><td></td><td>{opps_per_rep:.1f}</td><td></td></tr>\n')
+    opp_pct = (total_opps / total_opp_goal * 100) if total_opp_goal else 0
+    html.append(f'<tr><td>Total Opps Created</td><td>{total_opp_goal}</td><td>{total_opps}</td><td>{fmt_pct(opp_pct)}</td><td>{pacing_badge(opp_pct, day_of_month, 30)}</td></tr>\n')
+    html.append(f'<tr><td>Opps Created Per Rep</td><td>{total_opp_goal/len(metrics):.0f}</td><td>{opps_per_rep:.1f}</td><td></td><td></td></tr>\n')
     avg_arr_color = pct_color(avg_arr_per_opp / 1800 * 100, 100, 80)
-    html.append(f'<tr><td>Avg ARR</td><td>$1,800</td><td style="font-weight:600">{fmt_money(avg_arr_per_opp)}</td><td style="color:{avg_arr_color};font-weight:600">{fmt_pct(avg_arr_per_opp/1800*100)}</td></tr>\n')
-    html.append(f'<tr><td>Opp:Win Conversion</td><td></td><td>{fmt_pct(team_opp_win)}</td><td></td></tr>\n')
-    html.append(f'<tr><td>Opp:Demo Conversion</td><td></td><td>{fmt_pct(team_opp_demo)}</td><td></td></tr>\n')
-    html.append(f'<tr><td>NBR Referral Opps (total)</td><td></td><td>{total_nbr}</td><td></td></tr>\n')
-    html.append(f'<tr><td>SS Opps (total)</td><td></td><td>{total_ss}</td><td></td></tr>\n')
+    html.append(f'<tr><td>Avg ARR</td><td>$1,800</td><td style="font-weight:600">{fmt_money(avg_arr_per_opp)}</td><td style="color:{avg_arr_color};font-weight:600">{fmt_pct(avg_arr_per_opp/1800*100)}</td><td></td></tr>\n')
+    html.append(f'<tr><td>Opp:Win Conversion</td><td></td><td>{fmt_pct(team_opp_win)}</td><td></td><td></td></tr>\n')
+    html.append(f'<tr><td>Opp:Demo Conversion</td><td></td><td>{fmt_pct(team_opp_demo)}</td><td></td><td></td></tr>\n')
+    html.append(f'<tr><td>NBR Referral Opps (total)</td><td></td><td>{total_nbr}</td><td></td><td></td></tr>\n')
+    ss_pct = (total_ss / team_ss_goal * 100) if team_ss_goal else 0
+    html.append(f'<tr><td>SS Opps (total)</td><td>{team_ss_goal}</td><td>{total_ss}</td><td>{fmt_pct(ss_pct)}</td><td>{pacing_badge(ss_pct, day_of_month, 30)}</td></tr>\n')
+    wins_pct = (team_wins_count / total_wins_goal * 100) if total_wins_goal else 0
+    html.append(f'<tr><td>Total Wins</td><td>{total_wins_goal}</td><td>{team_wins_count}</td><td>{fmt_pct(wins_pct)}</td><td>{pacing_badge(wins_pct, day_of_month, 30)}</td></tr>\n')
+    total_demos_actual = sum(int(r.get("Demos", "0") or 0) for r in metrics)
+    demos_pct = (total_demos_actual / total_demo_goal * 100) if total_demo_goal else 0
+    html.append(f'<tr><td>Total Demos</td><td>{total_demo_goal}</td><td>{total_demos_actual}</td><td>{fmt_pct(demos_pct)}</td><td>{pacing_badge(demos_pct, day_of_month, 30)}</td></tr>\n')
+    total_calls_actual = sum(int(calls_by_name.get(r["Rep Name"], {}).get("calls", "0") or 0) for r in metrics)
+    calls_pct = (total_calls_actual / total_call_goal * 100) if total_call_goal else 0
+    html.append(f'<tr><td>Total Calls</td><td>{total_call_goal}</td><td>{total_calls_actual}</td><td>{fmt_pct(calls_pct)}</td><td>{pacing_badge(calls_pct, day_of_month, 30)}</td></tr>\n')
     html.append("""        </tbody></table>
       <table style="margin-top:12px">
         <thead><tr><th>People</th><th>Goal</th><th>Actual</th><th>Status</th></tr></thead>
@@ -380,7 +425,7 @@ def generate(data_dir):
     <div>
       <div class="section-title"><img src="assets/star.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Self-Sourced Opps Created</div>
       <table>
-        <thead><tr><th>Rep</th><th>Created</th><th>Goal</th><th>% to Goal</th></tr></thead>
+        <thead><tr><th>Rep</th><th>Created</th><th>Goal</th><th>% to Goal</th><th>Pace</th></tr></thead>
         <tbody>
 """)
     team_ss = 0
@@ -390,11 +435,12 @@ def generate(data_dir):
         ss = int(r.get("Self-Sourced Created Opps", "0") or 0)
         goal = int(r.get("Total SS Opp Goal", "0") or 0)
         pct = parse_pct(r.get("SS Opps Created % to Goal", "0"))
-        color = pct_color(pct, 60, 40)
         team_ss += ss
         team_ss_goal += goal
-        html.append(f'<tr><td><strong>{name}</strong></td><td>{ss}</td><td>{goal}</td><td style="color:{color};font-weight:600">{fmt_pct(pct)}</td></tr>\n')
-    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{team_ss}</td><td>{team_ss_goal}</td><td></td></tr>\n')
+        _, ss_pace, _, _ = pace_actual_vs_expected(ss, goal, day_of_month, total_biz_days)
+        pace_badge = pacing_badge(pct, day_of_month, 30)
+        html.append(f'<tr><td><strong>{name}</strong></td><td>{ss}</td><td>{goal}</td><td>{fmt_pct(pct)}</td><td>{pace_badge}</td></tr>\n')
+    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{team_ss}</td><td>{team_ss_goal}</td><td></td><td></td></tr>\n')
     html.append("        </tbody></table>\n    </div>\n")
 
     # NBR Referrals
@@ -434,7 +480,7 @@ def generate(data_dir):
 <div class="section">
   <div class="section-title"><img src="assets/pay-check.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Employee Cloud / Payroll (EC) Sales</div>
   <table>
-    <thead><tr><th>Rep</th><th>EC Units</th><th>EC ARR</th><th>EC Goal</th><th>EC % to Goal</th></tr></thead>
+    <thead><tr><th>Rep</th><th>EC Units</th><th>EC ARR</th><th>EC Goal</th><th>% to Goal</th><th>Pace</th></tr></thead>
     <tbody>
 """)
     total_ec_units = 0
@@ -446,13 +492,13 @@ def generate(data_dir):
         ec_arr = parse_money(r.get("EC ARR", "0"))
         ec_goal = parse_money(r.get("EC ARR Goal", "0"))
         ec_pct = parse_pct(r.get("EC ARR % to Goal", "0"))
-        color = pct_color(ec_pct, 50, 25)
         total_ec_units += units
         total_ec_arr_sum += ec_arr
         total_ec_goal_sum += ec_goal
-        html.append(f'<tr><td><strong>{name}</strong></td><td>{units}</td><td>{fmt_money(ec_arr)}</td><td>{fmt_money(ec_goal)}</td><td style="color:{color};font-weight:600">{fmt_pct(ec_pct)}</td></tr>\n')
+        ec_badge = pacing_badge(ec_pct, day_of_month, 30)
+        html.append(f'<tr><td><strong>{name}</strong></td><td>{units}</td><td>{fmt_money(ec_arr)}</td><td>{fmt_money(ec_goal)}</td><td>{fmt_pct(ec_pct)}</td><td>{ec_badge}</td></tr>\n')
     total_ec_pct = (total_ec_arr_sum / total_ec_goal_sum * 100) if total_ec_goal_sum else 0
-    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{total_ec_units}</td><td>{fmt_money(total_ec_arr_sum)}</td><td>{fmt_money(total_ec_goal_sum)}</td><td>{fmt_pct(total_ec_pct)}</td></tr>\n')
+    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{total_ec_units}</td><td>{fmt_money(total_ec_arr_sum)}</td><td>{fmt_money(total_ec_goal_sum)}</td><td>{fmt_pct(total_ec_pct)}</td><td></td></tr>\n')
     html.append("    </tbody></table>\n")
     ec_pct_of_total = (total_ec_arr_sum / team_arr * 100) if team_arr else 0
     ec_mbo_color = pct_color(ec_pct_of_total, 40, 36)
@@ -543,7 +589,6 @@ def generate(data_dir):
         <thead><tr><th>Rep</th><th>Calls</th><th>Avg/Day</th><th>Conversations</th><th>Conv Rate</th><th>Avg Duration</th></tr></thead>
         <tbody>
 """)
-    calls_by_name = {r["user_name"]: r for r in calls}
     for name in reps:
         c = calls_by_name.get(name, {})
         total = c.get("calls", "0")
@@ -561,7 +606,6 @@ def generate(data_dir):
         <thead><tr><th>Rep</th><th>Sent</th><th>Opened</th><th>Open Rate</th><th>Replied</th><th>Reply Rate</th></tr></thead>
         <tbody>
 """)
-    emails_by_name = {r["user_name"]: r for r in emails}
     for name in reps:
         e = emails_by_name.get(name, {})
         sent = e.get("sent", "0")
@@ -632,8 +676,6 @@ def generate(data_dir):
         "team_open_deals": total_open_deals,
         "reps": {}
     }
-    calls_by_name = {r["user_name"]: r for r in calls}
-    emails_by_name = {r["user_name"]: r for r in emails}
     for r in metrics:
         name = r["Rep Name"]
         snapshot["reps"][name] = {
