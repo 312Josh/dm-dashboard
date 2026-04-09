@@ -117,7 +117,14 @@ def generate(data_dir):
 
     # --- Compute KPI totals ---
     team_arr = sum(parse_money(r.get("Total Booked Saas ARR", "0")) for r in metrics)
-    team_quota = sum(parse_money(r.get("Booked SaaS Quota (Xactly)", "0")) for r in metrics)
+    # Team quota by month (includes waterfall adjustments)
+    m = int(month_num)
+    if m <= 3:  # Jan-Mar
+        team_quota = 400440
+    elif m <= 6:  # Apr-Jun
+        team_quota = 447320
+    else:  # Jul-Dec
+        team_quota = 467000
     team_attainment = (team_arr / team_quota * 100) if team_quota else 0
     team_wins_count = sum(int(r.get("Wins", "0") or 0) for r in metrics)
 
