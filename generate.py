@@ -396,20 +396,33 @@ def generate(data_dir):
     html.append("""    <div>
       <div class="section-title"><img src="assets/restaurant-group.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> NBR Referrals</div>
       <table>
-        <thead><tr><th>Rep</th><th>Created</th><th>Closed Won</th></tr></thead>
+        <thead><tr><th>Rep</th><th>Created</th><th>Closed Won</th><th>Demo:Win %</th></tr></thead>
         <tbody>
 """)
     team_nbr_created = 0
     team_nbr_won = 0
+    team_demos_total = 0
+    team_wins_from_demos = 0
     for r in metrics:
         name = r["Rep Name"]
         created = int(r.get("NB Referral Created Opps", "0") or 0)
         won = int(r.get("NB Referral Closed Won", "0") or 0)
+        demo_win = parse_pct(r.get("Demo:Win", "0"))
+        demos = int(r.get("Demos", "0") or 0)
+        wins_count = int(r.get("Wins", "0") or 0)
         team_nbr_created += created
         team_nbr_won += won
-        html.append(f'<tr><td><strong>{name}</strong></td><td>{created}</td><td>{won}</td></tr>\n')
-    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{team_nbr_created}</td><td>{team_nbr_won}</td></tr>\n')
-    html.append("        </tbody></table>\n    </div>\n  </div>\n</div>\n")
+        team_demos_total += demos
+        team_wins_from_demos += wins_count
+        dw_color = pct_color(demo_win, 80, 60)
+        html.append(f'<tr><td><strong>{name}</strong></td><td>{created}</td><td>{won}</td><td style="color:{dw_color};font-weight:600">{fmt_pct(demo_win)}</td></tr>\n')
+    team_demo_win = (team_wins_from_demos / team_demos_total * 100) if team_demos_total else 0
+    team_dw_color = pct_color(team_demo_win, 80, 60)
+    nbr_mbo_badge = BADGE_ON_TRACK if team_demo_win >= 80 else BADGE_AT_RISK
+    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{team_nbr_created}</td><td>{team_nbr_won}</td><td style="color:{team_dw_color}">{fmt_pct(team_demo_win)}</td></tr>\n')
+    html.append(f'    </tbody></table>\n')
+    html.append(f'    <p style="margin-top:6px;font-size:12px;color:var(--gray-500)">MBO Target: Demo:Win 80% / 83% — Currently {fmt_pct(team_demo_win)} {nbr_mbo_badge}</p>\n')
+    html.append("    </div>\n  </div>\n</div>\n")
 
     # ---- EC / Payroll Sales ----
     html.append("""
@@ -419,6 +432,9 @@ def generate(data_dir):
     <thead><tr><th>Rep</th><th>EC Units</th><th>EC ARR</th><th>EC Goal</th><th>EC % to Goal</th></tr></thead>
     <tbody>
 """)
+    total_ec_units = 0
+    total_ec_arr_sum = 0
+    total_ec_goal_sum = 0
     for r in metrics:
         name = r["Rep Name"]
         units = int(r.get("EC Units", "0") or 0)
@@ -426,8 +442,18 @@ def generate(data_dir):
         ec_goal = parse_money(r.get("EC ARR Goal", "0"))
         ec_pct = parse_pct(r.get("EC ARR % to Goal", "0"))
         color = pct_color(ec_pct, 50, 25)
+        total_ec_units += units
+        total_ec_arr_sum += ec_arr
+        total_ec_goal_sum += ec_goal
         html.append(f'<tr><td><strong>{name}</strong></td><td>{units}</td><td>{fmt_money(ec_arr)}</td><td>{fmt_money(ec_goal)}</td><td style="color:{color};font-weight:600">{fmt_pct(ec_pct)}</td></tr>\n')
-    html.append("    </tbody></table>\n</div>\n")
+    total_ec_pct = (total_ec_arr_sum / total_ec_goal_sum * 100) if total_ec_goal_sum else 0
+    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{total_ec_units}</td><td>{fmt_money(total_ec_arr_sum)}</td><td>{fmt_money(total_ec_goal_sum)}</td><td>{fmt_pct(total_ec_pct)}</td></tr>\n')
+    html.append("    </tbody></table>\n")
+    ec_pct_of_total = (total_ec_arr_sum / team_arr * 100) if team_arr else 0
+    ec_mbo_color = pct_color(ec_pct_of_total, 40, 36)
+    ec_mbo_badge = BADGE_ON_TRACK if ec_pct_of_total >= 36 else BADGE_AT_RISK
+    html.append(f'  <p style="margin-top:6px;font-size:12px;color:var(--gray-500)">MBO Target: EC ARR as % of Total ARR — 36% / 40% — Currently <span style="color:{ec_mbo_color};font-weight:700">{fmt_pct(ec_pct_of_total)}</span> {ec_mbo_badge}</p>\n')
+    html.append("</div>\n")
 
     # ---- Enablement MBO Tracker (from WorkRamp data) ----
     enablement_path = Path(__file__).parent / "data" / "enablement.json"
