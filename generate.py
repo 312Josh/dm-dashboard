@@ -55,6 +55,17 @@ def pacing_badge(pct, day_of_month, total_days):
         return '<span class="badge badge-red">Behind</span>'
 
 
+# Normalize name mismatches across CSVs (Salesforce uses full names, others use short)
+NAME_MAP = {
+    "Christopher Byrnes": "Chris Byrnes",
+    "Chris Donovan": "Chris Donovan",  # separate person, kept as-is
+}
+
+
+def normalize_name(name):
+    return NAME_MAP.get(name, name)
+
+
 def pct_color(pct, good=70, warn=50):
     if pct >= good:
         return "var(--green)"
@@ -128,12 +139,13 @@ def generate(data_dir):
     team_attainment = (team_arr / team_quota * 100) if team_quota else 0
     team_wins_count = sum(int(r.get("Wins", "0") or 0) for r in metrics)
 
-    # Pipeline from open opps
-    total_pipeline = sum(parse_money(r.get("Software (Annual)", "0")) for r in opps)
-    total_open_deals = len(opps)
+    # Pipeline from open opps (only current team members)
+    team_opps = [r for r in opps if normalize_name(r.get("Opportunity Owner", "")) in reps]
+    total_pipeline = sum(parse_money(r.get("Software (Annual)", "0")) for r in team_opps)
+    total_open_deals = len(team_opps)
 
     # Stale deals (>30 days old based on stage duration)
-    stale_count = sum(1 for r in opps if float(r.get("Stage Duration", "0") or 0) > 30)
+    stale_count = sum(1 for r in team_opps if float(r.get("Stage Duration", "0") or 0) > 30)
 
     # Pacing
     team_pacing_val = (team_arr / team_quota * 100) if team_quota else 0
@@ -323,10 +335,12 @@ def generate(data_dir):
     <thead><tr><th>Rep</th><th>Open Deals</th><th>Pipeline Value</th><th>Stale (&gt;30d)</th><th>Health</th></tr></thead>
     <tbody>
 """)
-    # Group open opps by rep
+    # Group open opps by rep (normalize names to match Key Metrics)
     rep_pipeline = {}
     for r in opps:
-        owner = r.get("Opportunity Owner", "Unknown")
+        owner = normalize_name(r.get("Opportunity Owner", "Unknown"))
+        if owner not in reps:
+            continue  # skip people no longer on the team
         if owner not in rep_pipeline:
             rep_pipeline[owner] = {"deals": 0, "value": 0.0, "stale": 0}
         rep_pipeline[owner]["deals"] += 1
@@ -402,7 +416,7 @@ def generate(data_dir):
         wtype = w.get("Type", "")
         arr = parse_money(w.get("Software (Annual)", "0"))
         close = w.get("Close Date", "")
-        owner = w.get("Opportunity Owner", "")
+        owner = normalize_name(w.get("Opportunity Owner", ""))
         html.append(f'<tr><td><strong>{acct}</strong></td><td style="font-size:12px">{wtype}</td><td>{fmt_money(arr)}</td><td>{close}</td><td>{owner}</td></tr>\n')
     html.append("    </tbody></table>\n</div>\n")
 
