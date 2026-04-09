@@ -825,7 +825,22 @@ def generate(data_dir):
         pace_ratio = arr_pct / expected_pct if expected_pct and not is_ramping else 0
 
         if is_ramping:
-            results_items.append(f"Ramping rep ({cohort if cohort and cohort != '-' else 'new'}). {fmt_money(rep_data['arr'])} booked with {rep_data['wins']} wins so far. Focus on building pipeline, learning the sales process, and hitting activity goals.")
+            results_items.append(f"Ramping rep ({cohort if cohort and cohort != '-' else 'new'}). {fmt_money(rep_data['arr'])} booked with {rep_data['wins']} wins so far. No ARR quota yet — focus on hitting activity and EC goals.")
+            # Still check EC and demo pacing for ramping reps
+            rep_ec_goal = parse_money(r.get("EC ARR Goal", "0"))
+            rep_ec_arr = rep_data["ec_arr"]
+            if rep_ec_goal:
+                _, ec_p, _, _ = pace_actual_vs_expected(rep_ec_arr, rep_ec_goal, biz_days_passed, total_biz_days)
+                if ec_p < 80:
+                    results_items.append(f"EC ARR at {fmt_money(rep_ec_arr)} of {fmt_money(rep_ec_goal)} goal — behind pace. Push EC conversations.")
+                else:
+                    results_items.append(f"EC ARR at {fmt_money(rep_ec_arr)} of {fmt_money(rep_ec_goal)} goal — on track.")
+            rep_demo_goal = int(r.get("Total Demo Goal", "0") or 0)
+            rep_demos = rep_data["demos"]
+            if rep_demo_goal:
+                _, demo_p, _, demo_wk = pace_actual_vs_expected(rep_demos, rep_demo_goal, biz_days_passed, total_biz_days)
+                if demo_p < 80:
+                    results_items.append(f"Demos at {rep_demos}/{rep_demo_goal} monthly goal — behind pace. Target ~{demo_wk}/week.")
         elif arr_pct >= 100:
             results_items.append(f"At {arr_pct:.0f}% to quota — already hit goal. What's working that we can share with the team?")
         elif pace_ratio >= 1.2:
