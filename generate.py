@@ -296,7 +296,7 @@ def generate(data_dir):
 
     html.append("""
 <div class="section">
-  <div class="section-title">{icon('Other_Award')} MBO Tracker — District Scorecard</div>
+  <div class="section-title"><img src="assets/Other_Award.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> MBO Tracker — District Scorecard</div>
   <div class="two-col">
     <div>
       <table>
@@ -346,7 +346,7 @@ def generate(data_dir):
     # ---- Team Overview Table ----
     html.append("""
 <div class="section">
-  <div class="section-title">{icon('bar-chart')} Team Overview — MTD ACV vs Quota</div>
+  <div class="section-title"><img src="assets/bar-chart.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Team Overview — MTD ACV vs Quota</div>
   <table>
     <thead><tr><th>Rep</th><th>Role</th><th>Quota</th><th>MTD ACV</th><th>%</th><th>Progress</th><th>Wins</th><th>Pacing</th></tr></thead>
     <tbody>
@@ -373,7 +373,7 @@ def generate(data_dir):
 <div class="section">
   <div class="two-col">
     <div>
-      <div class="section-title">{icon('star')} Self-Sourced Opps Created</div>
+      <div class="section-title"><img src="assets/star.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Self-Sourced Opps Created</div>
       <table>
         <thead><tr><th>Rep</th><th>Created</th><th>Goal</th><th>% to Goal</th></tr></thead>
         <tbody>
@@ -394,7 +394,7 @@ def generate(data_dir):
 
     # NBR Referrals
     html.append("""    <div>
-      <div class="section-title">{icon('restaurant-group')} NBR Referrals</div>
+      <div class="section-title"><img src="assets/restaurant-group.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> NBR Referrals</div>
       <table>
         <thead><tr><th>Rep</th><th>Created</th><th>Closed Won</th></tr></thead>
         <tbody>
@@ -414,7 +414,7 @@ def generate(data_dir):
     # ---- EC / Payroll Sales ----
     html.append("""
 <div class="section">
-  <div class="section-title">{icon('pay-check')} Employee Cloud / Payroll (EC) Sales</div>
+  <div class="section-title"><img src="assets/pay-check.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Employee Cloud / Payroll (EC) Sales</div>
   <table>
     <thead><tr><th>Rep</th><th>EC Units</th><th>EC ARR</th><th>EC Goal</th><th>EC % to Goal</th></tr></thead>
     <tbody>
@@ -443,7 +443,7 @@ def generate(data_dir):
 
         html.append(f"""
 <div class="section">
-  <div class="section-title">{icon('analytics-check')} Enablement MBO Tracker <span style="font-size:12px;color:var(--gray-500);font-weight:400">(WorkRamp — as of {e_date})</span></div>
+  <div class="section-title"><img src="assets/analytics-check.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Enablement MBO Tracker <span style="font-size:12px;color:var(--gray-500);font-weight:400">(WorkRamp — as of {e_date})</span></div>
   <table>
     <thead><tr><th>Rep</th><th>Completion</th><th>Avg Grade</th><th>Failed</th><th>Overdue</th><th>Needs Grading</th></tr></thead>
     <tbody>
@@ -470,7 +470,7 @@ def generate(data_dir):
     # ---- Pipeline Health ----
     html.append("""
 <div class="section">
-  <div class="section-title">{icon('percentage')} Pipeline Health</div>
+  <div class="section-title"><img src="assets/percentage.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Pipeline Health</div>
   <table>
     <thead><tr><th>Rep</th><th>Open Deals</th><th>Pipeline Value</th><th>Stale (&gt;30d)</th><th>Health</th></tr></thead>
     <tbody>
@@ -507,7 +507,7 @@ def generate(data_dir):
 <div class="section">
   <div class="two-col">
     <div>
-      <div class="section-title">{icon('phone')} Calls Activity</div>
+      <div class="section-title"><img src="assets/phone.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Calls Activity</div>
       <table>
         <thead><tr><th>Rep</th><th>Calls</th><th>Avg/Day</th><th>Conversations</th><th>Conv Rate</th><th>Avg Duration</th></tr></thead>
         <tbody>
@@ -525,7 +525,7 @@ def generate(data_dir):
 
     # Emails
     html.append("""    <div>
-      <div class="section-title">{icon('email')} Email Activity</div>
+      <div class="section-title"><img src="assets/email.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Email Activity</div>
       <table>
         <thead><tr><th>Rep</th><th>Sent</th><th>Opened</th><th>Open Rate</th><th>Replied</th><th>Reply Rate</th></tr></thead>
         <tbody>
@@ -544,7 +544,7 @@ def generate(data_dir):
     # ---- Recent Wins ----
     html.append("""
 <div class="section">
-  <div class="section-title">{icon('dollar')} Recent Wins</div>
+  <div class="section-title"><img src="assets/dollar.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Recent Wins</div>
   <table>
     <thead><tr><th>Account</th><th>Type</th><th>ARR</th><th>Close Date</th><th>Rep</th></tr></thead>
     <tbody>
@@ -564,7 +564,7 @@ def generate(data_dir):
     pace_pct = (day_of_month / 30) * 100
     html.append("""
 <div class="section">
-  <div class="section-title">{icon('trending-up')} Forecast vs Quota — Pacing</div>
+  <div class="section-title"><img src="assets/trending-up.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Forecast vs Quota — Pacing</div>
 """)
     for r in metrics:
         name = r["Rep Name"]
