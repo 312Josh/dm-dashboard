@@ -213,45 +213,42 @@ def generate(data_dir):
 <style>
   :root {
     --toast-orange: #FF4C00; --toast-orange-light: #FF6A2B; --toast-orange-bg: #FFF3ED;
-    --toast-navy: #2B4FB9; --toast-navy-light: #3D63D4;
-    --toast-dark: #2B2E35; --toast-dark-light: #3A3D45;
+    --toast-navy: #2B4FB9;
+    --toast-dark: #252525;
     --green: #22C55E; --green-bg: #F0FDF4;
     --yellow: #EAB308; --yellow-bg: #FEFCE8;
     --red: #EF4444; --red-bg: #FEF2F2;
     --blue: #3B82F6; --blue-bg: #EFF6FF;
     --warm-50: #F9F5F3; --warm-100: #F6F1EE;
-    --gray-50: #F7FAFC; --gray-100: #F3F4F6; --gray-200: #E1E7EE;
+    --gray-50: #F7FAFC; --gray-100: #F3F4F6; --gray-200: #E5E7EB;
     --gray-300: #D1D5DB; --gray-400: #9CA3AF; --gray-500: #6B7280;
     --gray-600: #4B5563; --gray-700: #374151; --gray-800: #252525;
-    --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
-    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -1px rgba(0,0,0,0.04);
-    --radius: 12px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.06);
+    --radius: 8px;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Source Sans 3', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--warm-50); color: var(--gray-800); line-height: 1.5; }
-  .header { background: var(--toast-dark); color: white; padding: 20px 32px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; border-bottom: 3px solid var(--toast-orange); }
+  body { font-family: 'Source Sans 3', 'Source Sans Pro', system-ui, -apple-system, sans-serif; background: var(--warm-50); color: var(--gray-800); line-height: 1.5; font-size: 16px; }
+  .header { background: white; color: var(--toast-dark); padding: 18px 32px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; border-bottom: 1px solid var(--gray-200); }
   .header-left { display: flex; align-items: center; gap: 16px; }
-  .header-left .logo { width: 36px; height: 36px; }
-  .header-left h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
-  .header-left h1 span { color: var(--toast-orange); }
-  .header-left p { font-size: 13px; color: var(--gray-400); margin-top: 2px; }
-  .header-right { text-align: right; font-size: 13px; color: var(--gray-400); }
-  .header-right .date { font-size: 15px; color: white; font-weight: 600; }
-  .kpi-banner { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; padding: 20px 32px; background: white; border-bottom: 1px solid var(--gray-200); box-shadow: var(--shadow); }
+  .header-left .logo { height: 28px; width: auto; }
+  .header-left h1 { font-size: 22px; font-weight: 500; letter-spacing: -0.3px; color: var(--toast-dark); }
+  .header-left p { font-size: 14px; color: var(--gray-500); margin-top: 2px; }
+  .header-right { text-align: right; font-size: 14px; color: var(--gray-500); }
+  .header-right .date { font-size: 16px; color: var(--toast-dark); font-weight: 600; }
+  .kpi-banner { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; padding: 20px 32px; background: white; border-bottom: 1px solid var(--gray-200); }
   .kpi-card { text-align: center; padding: 14px 12px; border-radius: var(--radius); border: 1px solid var(--gray-200); }
-  .kpi-card .label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--gray-500); font-weight: 700; }
-  .kpi-card .value { font-size: 26px; font-weight: 800; margin: 4px 0; color: var(--toast-dark); }
-  .kpi-card .sub { font-size: 11px; color: var(--gray-500); }
+  .kpi-card .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray-500); font-weight: 600; }
+  .kpi-card .value { font-size: 24px; font-weight: 600; margin: 4px 0; color: var(--toast-dark); }
+  .kpi-card .sub { font-size: 12px; color: var(--gray-500); }
   .section { padding: 24px 32px; }
-  .section-title { font-size: 16px; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; color: var(--toast-dark); letter-spacing: -0.2px; }
-  .section-title .accent { color: var(--toast-orange); }
+  .section-title { font-size: 18px; font-weight: 500; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; color: var(--toast-dark); }
   table { width: 100%; border-collapse: collapse; background: white; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); margin-bottom: 8px; }
-  th { background: var(--toast-dark); font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: rgba(255,255,255,0.85); font-weight: 700; padding: 10px 14px; text-align: left; }
-  td { padding: 10px 14px; border-top: 1px solid var(--gray-100); font-size: 13px; }
+  th { background: var(--gray-50); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray-600); font-weight: 600; padding: 10px 14px; text-align: left; border-bottom: 2px solid var(--gray-200); }
+  td { padding: 10px 14px; border-top: 1px solid var(--gray-100); font-size: 14px; }
   tr:hover { background: var(--warm-100); }
   .progress-bar { background: var(--gray-200); border-radius: 999px; height: 8px; width: 100px; display: inline-block; vertical-align: middle; }
   .progress-fill { height: 100%; border-radius: 999px; }
-  .badge { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 600; }
   .badge-green { background: var(--green-bg); color: var(--green); }
   .badge-yellow { background: var(--yellow-bg); color: var(--yellow); }
   .badge-red { background: var(--red-bg); color: var(--red); }
@@ -260,13 +257,13 @@ def generate(data_dir):
   .forecast-bar { display: flex; align-items: center; gap: 8px; margin: 8px 0; }
   .forecast-bar-track { flex: 1; background: var(--gray-200); border-radius: 6px; height: 24px; position: relative; }
   .forecast-bar-fill { height: 100%; border-radius: 6px; }
-  .forecast-bar-label { font-size: 13px; font-weight: 600; min-width: 50px; text-align: right; }
-  .forecast-bar-name { font-size: 14px; font-weight: 600; min-width: 130px; }
-  .pace-line { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--gray-700); z-index: 2; }
-  .pace-line::after { content: "\\25BC"; position: absolute; top: -14px; left: -4px; font-size: 9px; color: var(--gray-700); }
+  .forecast-bar-label { font-size: 14px; font-weight: 600; min-width: 50px; text-align: right; }
+  .forecast-bar-name { font-size: 15px; font-weight: 500; min-width: 130px; }
+  .pace-line { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--toast-orange); z-index: 2; }
+  .pace-line::after { content: "\\25BC"; position: absolute; top: -14px; left: -4px; font-size: 9px; color: var(--toast-orange); }
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
   @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
-  .footer { text-align: center; padding: 20px; font-size: 12px; color: var(--gray-400); border-top: 1px solid var(--gray-200); margin-top: 8px; }
+  .footer { text-align: center; padding: 20px; font-size: 13px; color: var(--gray-400); border-top: 1px solid var(--gray-200); margin-top: 8px; }
 </style>
 </head>
 <body>
@@ -276,7 +273,7 @@ def generate(data_dir):
     html.append(f"""
 <div class="header">
   <div class="header-left">
-    <img class="logo" src="assets/toast-logo_white.svg" alt="Toast" style="height:28px;width:auto;">
+    <img class="logo" src="assets/toast-logo_color.svg" alt="Toast" style="height:28px;width:auto;">
     <div>
       <h1>Growth Sales Dashboard</h1>
       <p>Josh Mellender — Growth Sales District Manager | Reports to Katie Patterson (RVP)</p>
@@ -851,49 +848,49 @@ def generate(data_dir):
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {{
-    --toast-orange: #FF4C00; --toast-orange-light: #FF6A2B; --toast-orange-bg: #FFF3ED;
+    --toast-orange: #FF4C00; --toast-orange-bg: #FFF3ED;
     --toast-navy: #2B4FB9;
-    --toast-dark: #2B2E35; --toast-dark-light: #3A3D45;
+    --toast-dark: #252525;
     --green: #22C55E; --green-bg: #F0FDF4;
     --yellow: #EAB308; --yellow-bg: #FEFCE8;
     --red: #EF4444; --red-bg: #FEF2F2;
     --blue: #3B82F6; --blue-bg: #EFF6FF;
     --warm-50: #F9F5F3; --warm-100: #F6F1EE;
-    --gray-50: #F7FAFC; --gray-100: #F3F4F6; --gray-200: #E1E7EE;
+    --gray-50: #F7FAFC; --gray-100: #F3F4F6; --gray-200: #E5E7EB;
     --gray-300: #D1D5DB; --gray-400: #9CA3AF; --gray-500: #6B7280;
     --gray-600: #4B5563; --gray-700: #374151; --gray-800: #252525;
-    --shadow: 0 1px 3px rgba(0,0,0,0.08); --radius: 12px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.06); --radius: 8px;
   }}
   * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-  body {{ font-family: 'Source Sans 3', sans-serif; background: var(--warm-50); color: var(--gray-800); line-height: 1.5; }}
-  .header {{ background: var(--toast-dark); color: white; padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid var(--toast-orange); }}
+  body {{ font-family: 'Source Sans 3', 'Source Sans Pro', system-ui, sans-serif; background: var(--warm-50); color: var(--gray-800); line-height: 1.5; font-size: 16px; }}
+  .header {{ background: white; color: var(--toast-dark); padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--gray-200); }}
   .header-left {{ display: flex; align-items: center; gap: 16px; }}
-  .header-left a {{ color: var(--gray-400); text-decoration: none; font-size: 13px; }}
-  .header-left a:hover {{ color: white; }}
-  .header-left h1 {{ font-size: 20px; font-weight: 700; }}
-  .header-right {{ font-size: 13px; color: var(--gray-400); }}
+  .header-left a {{ color: var(--toast-orange); text-decoration: none; font-size: 14px; font-weight: 600; }}
+  .header-left a:hover {{ color: var(--toast-dark); }}
+  .header-left h1 {{ font-size: 20px; font-weight: 500; color: var(--toast-dark); }}
+  .header-right {{ font-size: 14px; color: var(--gray-500); }}
   .content {{ max-width: 1200px; margin: 0 auto; padding: 24px 32px; }}
   .scorecard {{ display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 28px; }}
   .sc-card {{ background: white; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 20px 16px; text-align: center; }}
-  .sc-card .label {{ font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--gray-500); font-weight: 700; }}
-  .sc-card .value {{ font-size: 22px; font-weight: 800; margin: 4px 0; color: var(--toast-dark); }}
-  .sc-card .sub {{ font-size: 11px; color: var(--gray-500); }}
+  .sc-card .label {{ font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray-500); font-weight: 600; }}
+  .sc-card .value {{ font-size: 22px; font-weight: 600; margin: 4px 0; color: var(--toast-dark); }}
+  .sc-card .sub {{ font-size: 12px; color: var(--gray-500); }}
   .section {{ background: white; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 20px; margin-bottom: 20px; box-shadow: var(--shadow); }}
-  .section h2 {{ font-size: 15px; font-weight: 700; margin-bottom: 14px; color: var(--toast-dark); display: flex; align-items: center; gap: 8px; }}
+  .section h2 {{ font-size: 16px; font-weight: 500; margin-bottom: 14px; color: var(--toast-dark); display: flex; align-items: center; gap: 8px; }}
   .two-col {{ display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }}
   @media (max-width: 900px) {{ .two-col {{ grid-template-columns: 1fr; }} }}
-  table {{ width: 100%; border-collapse: collapse; font-size: 13px; }}
-  th {{ background: var(--toast-dark); color: rgba(255,255,255,0.85); font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; font-weight: 700; padding: 8px 12px; text-align: left; }}
+  table {{ width: 100%; border-collapse: collapse; font-size: 14px; }}
+  th {{ background: var(--gray-50); color: var(--gray-600); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; padding: 8px 12px; text-align: left; border-bottom: 2px solid var(--gray-200); }}
   td {{ padding: 8px 12px; border-top: 1px solid var(--gray-100); }}
   tr:hover {{ background: var(--warm-100); }}
-  .badge {{ display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }}
+  .badge {{ display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 600; }}
   .badge-green {{ background: var(--green-bg); color: var(--green); }}
   .badge-yellow {{ background: var(--yellow-bg); color: var(--yellow); }}
   .badge-red {{ background: var(--red-bg); color: var(--red); }}
   .coaching {{ list-style: none; }}
-  .coaching li {{ padding: 8px 0; border-bottom: 1px solid var(--gray-100); font-size: 13px; line-height: 1.6; }}
+  .coaching li {{ padding: 8px 0; border-bottom: 1px solid var(--gray-100); font-size: 14px; line-height: 1.6; }}
   .coaching li:last-child {{ border-bottom: none; }}
-  .coaching-label {{ font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; padding: 4px 10px; border-radius: 4px; display: inline-block; }}
+  .coaching-label {{ font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; padding: 4px 10px; border-radius: 4px; display: inline-block; }}
   .c-behavior {{ background: var(--blue-bg); color: var(--blue); }}
   .c-technique {{ background: var(--toast-orange-bg); color: var(--toast-orange); }}
   .c-results {{ background: var(--green-bg); color: var(--green); }}
