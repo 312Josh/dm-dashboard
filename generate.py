@@ -83,6 +83,15 @@ def bar_color(pct, expected_pct):
     return "var(--red)"
 
 
+BADGE_ON_TRACK = '<span class="badge badge-green">On Track</span>'
+BADGE_AT_RISK = '<span class="badge badge-red">At Risk</span>'
+
+
+def icon(name, size=18):
+    """Return an inline img tag for a Toast icon asset."""
+    return f'<img src="assets/{name}.svg" alt="" style="width:{size}px;height:{size}px;vertical-align:middle;opacity:0.7;">'
+
+
 def pipeline_health(stale, total):
     if total == 0:
         return '<span class="badge badge-green">Healthy</span>'
@@ -227,9 +236,9 @@ def generate(data_dir):
     html.append(f"""
 <div class="header">
   <div class="header-left">
-    <svg class="logo" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 2C5.46 2 3 4.46 3 7.5v13c0 3.04 2.46 5.5 5.5 5.5h2.25v7.75c0 .69.56 1.25 1.25 1.25s1.25-.56 1.25-1.25V26h1.5v7.75c0 .69.56 1.25 1.25 1.25s1.25-.56 1.25-1.25V26H19.5c3.04 0 5.5-2.46 5.5-5.5v-13C25 4.46 22.54 2 19.5 2h-11zM7 10.5a2 2 0 114 0 2 2 0 01-4 0zm10 0a2 2 0 114 0 2 2 0 01-4 0z" fill="#FF4C00"/></svg>
+    <img class="logo" src="assets/toast-logo_white.svg" alt="Toast" style="height:28px;width:auto;">
     <div>
-      <h1><span>Toast</span> Growth Sales Dashboard</h1>
+      <h1>Growth Sales Dashboard</h1>
       <p>Josh Mellender — Growth Sales District Manager | Reports to Katie Patterson (RVP)</p>
     </div>
   </div>
@@ -287,7 +296,7 @@ def generate(data_dir):
 
     html.append("""
 <div class="section">
-  <div class="section-title">&#x1F3C5; MBO Tracker — District Scorecard</div>
+  <div class="section-title">{icon('Other_Award')} MBO Tracker — District Scorecard</div>
   <div class="two-col">
     <div>
       <table>
@@ -303,10 +312,12 @@ def generate(data_dir):
 """)
     payroll_goal_pct = 40  # 36%/40% — using 40% as target
     payroll_color = pct_color(payroll_pct_of_arr, 40, 36)
-    html.append(f'<tr><td>Payroll ARR as % of Total ARR</td><td>36% / 40%</td><td style="font-weight:600">{fmt_pct(payroll_pct_of_arr)}</td><td style="color:{payroll_color};font-weight:600">{"&#x2705;" if payroll_pct_of_arr >= 36 else "&#x26A0;&#xFE0F;"}</td></tr>\n')
+    payroll_badge = BADGE_ON_TRACK if payroll_pct_of_arr >= 36 else BADGE_AT_RISK
+    html.append(f'<tr><td>Payroll ARR as % of Total ARR</td><td>36% / 40%</td><td style="font-weight:600">{fmt_pct(payroll_pct_of_arr)}</td><td>{payroll_badge}</td></tr>\n')
     nbr_goal = 83  # 80%/83%
     nbr_color = pct_color(nbr_demo_win, 83, 80)
-    html.append(f'<tr><td>NB Referral Demo:Win Conv</td><td>80% / 83%</td><td style="font-weight:600">{fmt_pct(nbr_demo_win)}</td><td style="color:{nbr_color};font-weight:600">{"&#x2705;" if nbr_demo_win >= 80 else "&#x26A0;&#xFE0F;"}</td></tr>\n')
+    nbr_badge = BADGE_ON_TRACK if nbr_demo_win >= 80 else BADGE_AT_RISK
+    html.append(f'<tr><td>NB Referral Demo:Win Conv</td><td>80% / 83%</td><td style="font-weight:600">{fmt_pct(nbr_demo_win)}</td><td>{nbr_badge}</td></tr>\n')
     html.append("        </tbody></table>\n    </div>\n    <div>\n")
 
     html.append("""      <table>
@@ -326,16 +337,16 @@ def generate(data_dir):
         <thead><tr><th>People</th><th>Goal</th><th>Actual</th><th>Status</th></tr></thead>
         <tbody>
 """)
-    html.append(f'<tr><td>Headcount</td><td>{total_seats}</td><td>{total_headcount}/{total_seats}</td><td style="color:var(--green);font-weight:600">&#x2705;</td></tr>\n')
-    html.append(f'<tr><td>OOT Attrition</td><td>0</td><td>{attrition}</td><td style="color:var(--green);font-weight:600">&#x2705;</td></tr>\n')
-    pm_color = "var(--red)" if aes_in_pm > 0 else "var(--green)"
-    html.append(f'<tr><td>AEs in PM</td><td>0</td><td>{aes_in_pm}</td><td style="color:{pm_color};font-weight:600">{"&#x26A0;&#xFE0F;" if aes_in_pm > 0 else "&#x2705;"}</td></tr>\n')
+    html.append(f'<tr><td>Headcount</td><td>{total_seats}</td><td>{total_headcount}/{total_seats}</td><td>{BADGE_ON_TRACK}</td></tr>\n')
+    html.append(f'<tr><td>OOT Attrition</td><td>0</td><td>{attrition}</td><td>{BADGE_ON_TRACK}</td></tr>\n')
+    pm_badge = BADGE_AT_RISK if aes_in_pm > 0 else BADGE_ON_TRACK
+    html.append(f'<tr><td>AEs in PM</td><td>0</td><td>{aes_in_pm}</td><td>{pm_badge}</td></tr>\n')
     html.append("        </tbody></table>\n    </div>\n  </div>\n</div>\n")
 
     # ---- Team Overview Table ----
     html.append("""
 <div class="section">
-  <div class="section-title">&#x1F4CA; Team Overview — MTD ACV vs Quota</div>
+  <div class="section-title">{icon('bar-chart')} Team Overview — MTD ACV vs Quota</div>
   <table>
     <thead><tr><th>Rep</th><th>Role</th><th>Quota</th><th>MTD ACV</th><th>%</th><th>Progress</th><th>Wins</th><th>Pacing</th></tr></thead>
     <tbody>
@@ -362,7 +373,7 @@ def generate(data_dir):
 <div class="section">
   <div class="two-col">
     <div>
-      <div class="section-title">&#x1F3AF; Self-Sourced Opps Created</div>
+      <div class="section-title">{icon('star')} Self-Sourced Opps Created</div>
       <table>
         <thead><tr><th>Rep</th><th>Created</th><th>Goal</th><th>% to Goal</th></tr></thead>
         <tbody>
@@ -383,7 +394,7 @@ def generate(data_dir):
 
     # NBR Referrals
     html.append("""    <div>
-      <div class="section-title">&#x1F91D; NBR Referrals</div>
+      <div class="section-title">{icon('restaurant-group')} NBR Referrals</div>
       <table>
         <thead><tr><th>Rep</th><th>Created</th><th>Closed Won</th></tr></thead>
         <tbody>
@@ -403,7 +414,7 @@ def generate(data_dir):
     # ---- EC / Payroll Sales ----
     html.append("""
 <div class="section">
-  <div class="section-title">&#x1F4B3; Employee Cloud / Payroll (EC) Sales</div>
+  <div class="section-title">{icon('pay-check')} Employee Cloud / Payroll (EC) Sales</div>
   <table>
     <thead><tr><th>Rep</th><th>EC Units</th><th>EC ARR</th><th>EC Goal</th><th>EC % to Goal</th></tr></thead>
     <tbody>
@@ -432,7 +443,7 @@ def generate(data_dir):
 
         html.append(f"""
 <div class="section">
-  <div class="section-title">&#x1F4DA; Enablement MBO Tracker <span style="font-size:12px;color:var(--gray-500);font-weight:400">(WorkRamp — as of {e_date})</span></div>
+  <div class="section-title">{icon('analytics-check')} Enablement MBO Tracker <span style="font-size:12px;color:var(--gray-500);font-weight:400">(WorkRamp — as of {e_date})</span></div>
   <table>
     <thead><tr><th>Rep</th><th>Completion</th><th>Avg Grade</th><th>Failed</th><th>Overdue</th><th>Needs Grading</th></tr></thead>
     <tbody>
@@ -450,7 +461,7 @@ def generate(data_dir):
             html.append(f'<tr><td><strong>{rep["name"]}</strong></td><td style="color:{comp_color};font-weight:600">{comp}%</td><td>{grade}%</td><td style="color:{fail_color}">{failed}</td><td style="color:{over_color}">{overdue}</td><td>{needs}</td></tr>\n')
 
         team_comp_color = "var(--green)" if mbo_met else "var(--red)"
-        mbo_icon = "&#x2705;" if mbo_met else "&#x26A0;&#xFE0F;"
+        mbo_icon = BADGE_ON_TRACK if mbo_met else BADGE_AT_RISK
         html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td style="color:{team_comp_color}">{team_comp}%</td><td>{team_grade}%</td><td></td><td></td><td></td></tr>\n')
         html.append("    </tbody></table>\n")
         html.append(f'  <p style="margin-top:8px;font-size:12px;color:var(--gray-500)">{mbo_icon} MBO threshold: {mbo_threshold}% team completion. Currently at {team_comp}% — {"meeting target" if mbo_met else "below target"}.</p>\n')
@@ -459,7 +470,7 @@ def generate(data_dir):
     # ---- Pipeline Health ----
     html.append("""
 <div class="section">
-  <div class="section-title">&#x1F52E; Pipeline Health</div>
+  <div class="section-title">{icon('percentage')} Pipeline Health</div>
   <table>
     <thead><tr><th>Rep</th><th>Open Deals</th><th>Pipeline Value</th><th>Stale (&gt;30d)</th><th>Health</th></tr></thead>
     <tbody>
@@ -496,7 +507,7 @@ def generate(data_dir):
 <div class="section">
   <div class="two-col">
     <div>
-      <div class="section-title">&#x1F4DE; Calls Activity</div>
+      <div class="section-title">{icon('phone')} Calls Activity</div>
       <table>
         <thead><tr><th>Rep</th><th>Calls</th><th>Avg/Day</th><th>Conversations</th><th>Conv Rate</th><th>Avg Duration</th></tr></thead>
         <tbody>
@@ -514,7 +525,7 @@ def generate(data_dir):
 
     # Emails
     html.append("""    <div>
-      <div class="section-title">&#x1F4E7; Email Activity</div>
+      <div class="section-title">{icon('email')} Email Activity</div>
       <table>
         <thead><tr><th>Rep</th><th>Sent</th><th>Opened</th><th>Open Rate</th><th>Replied</th><th>Reply Rate</th></tr></thead>
         <tbody>
@@ -533,7 +544,7 @@ def generate(data_dir):
     # ---- Recent Wins ----
     html.append("""
 <div class="section">
-  <div class="section-title">&#x1F3C6; Recent Wins</div>
+  <div class="section-title">{icon('dollar')} Recent Wins</div>
   <table>
     <thead><tr><th>Account</th><th>Type</th><th>ARR</th><th>Close Date</th><th>Rep</th></tr></thead>
     <tbody>
@@ -553,7 +564,7 @@ def generate(data_dir):
     pace_pct = (day_of_month / 30) * 100
     html.append("""
 <div class="section">
-  <div class="section-title">&#x1F4C8; Forecast vs Quota — Pacing</div>
+  <div class="section-title">{icon('trending-up')} Forecast vs Quota — Pacing</div>
 """)
     for r in metrics:
         name = r["Rep Name"]
