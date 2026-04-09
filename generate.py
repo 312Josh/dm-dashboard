@@ -821,8 +821,12 @@ def generate(data_dir):
 
         # Results analysis — compare against working day pace, not raw monthly %
         results_items = []
-        pace_ratio = arr_pct / expected_pct if expected_pct else 0  # >1 = ahead of pace
-        if arr_pct >= 100:
+        is_ramping = quota == 0 or (cohort and cohort.startswith("1-3"))
+        pace_ratio = arr_pct / expected_pct if expected_pct and not is_ramping else 0
+
+        if is_ramping:
+            results_items.append(f"Ramping rep ({cohort if cohort and cohort != '-' else 'new'}). {fmt_money(rep_data['arr'])} booked with {rep_data['wins']} wins so far. Focus on building pipeline, learning the sales process, and hitting activity goals.")
+        elif arr_pct >= 100:
             results_items.append(f"At {arr_pct:.0f}% to quota — already hit goal. What's working that we can share with the team?")
         elif pace_ratio >= 1.2:
             results_items.append(f"At {arr_pct:.0f}% to quota ({pace_ratio:.1f}x pace on working day {biz_days_passed}/{total_biz_days}) — well ahead of pace. Keep momentum.")
