@@ -159,56 +159,65 @@ def generate(data_dir):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Growth Sales Team Dashboard — Josh Mellender</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --toast-orange: #FF6600; --toast-orange-light: #FF8533;
-    --toast-dark: #1A1A2E; --toast-dark-light: #2D2D44;
+    --toast-orange: #FF4C00; --toast-orange-light: #FF6A2B; --toast-orange-bg: #FFF3ED;
+    --toast-navy: #2B4FB9; --toast-navy-light: #3D63D4;
+    --toast-dark: #2B2E35; --toast-dark-light: #3A3D45;
     --green: #22C55E; --green-bg: #F0FDF4;
     --yellow: #EAB308; --yellow-bg: #FEFCE8;
     --red: #EF4444; --red-bg: #FEF2F2;
     --blue: #3B82F6; --blue-bg: #EFF6FF;
-    --gray-50: #F9FAFB; --gray-100: #F3F4F6; --gray-200: #E5E7EB;
+    --warm-50: #F9F5F3; --warm-100: #F6F1EE;
+    --gray-50: #F7FAFC; --gray-100: #F3F4F6; --gray-200: #E1E7EE;
     --gray-300: #D1D5DB; --gray-400: #9CA3AF; --gray-500: #6B7280;
-    --gray-600: #4B5563; --gray-700: #374151; --gray-800: #1F2937;
-    --shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
-    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    --gray-600: #4B5563; --gray-700: #374151; --gray-800: #252525;
+    --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -1px rgba(0,0,0,0.04);
+    --radius: 12px;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--gray-50); color: var(--gray-800); line-height: 1.5; }
-  .header { background: linear-gradient(135deg, var(--toast-dark) 0%, var(--toast-dark-light) 100%); color: white; padding: 24px 32px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
-  .header-left h1 { font-size: 24px; font-weight: 700; }
+  body { font-family: 'Source Sans 3', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--warm-50); color: var(--gray-800); line-height: 1.5; }
+  .header { background: var(--toast-dark); color: white; padding: 20px 32px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; border-bottom: 3px solid var(--toast-orange); }
+  .header-left { display: flex; align-items: center; gap: 16px; }
+  .header-left .logo { width: 36px; height: 36px; }
+  .header-left h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
   .header-left h1 span { color: var(--toast-orange); }
-  .header-left p { font-size: 14px; color: var(--gray-400); margin-top: 2px; }
+  .header-left p { font-size: 13px; color: var(--gray-400); margin-top: 2px; }
   .header-right { text-align: right; font-size: 13px; color: var(--gray-400); }
-  .header-right .date { font-size: 16px; color: white; font-weight: 600; }
-  .kpi-banner { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; padding: 20px 32px; background: white; border-bottom: 1px solid var(--gray-200); box-shadow: var(--shadow); }
-  .kpi-card { text-align: center; padding: 12px; }
-  .kpi-card .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray-500); font-weight: 600; }
-  .kpi-card .value { font-size: 28px; font-weight: 800; margin: 4px 0; color: var(--toast-dark); }
-  .kpi-card .sub { font-size: 12px; color: var(--gray-500); }
+  .header-right .date { font-size: 15px; color: white; font-weight: 600; }
+  .kpi-banner { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; padding: 20px 32px; background: white; border-bottom: 1px solid var(--gray-200); box-shadow: var(--shadow); }
+  .kpi-card { text-align: center; padding: 14px 12px; border-radius: var(--radius); border: 1px solid var(--gray-200); }
+  .kpi-card .label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--gray-500); font-weight: 700; }
+  .kpi-card .value { font-size: 26px; font-weight: 800; margin: 4px 0; color: var(--toast-dark); }
+  .kpi-card .sub { font-size: 11px; color: var(--gray-500); }
   .section { padding: 24px 32px; }
-  .section-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
-  table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow); margin-bottom: 8px; }
-  th { background: var(--gray-100); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray-600); font-weight: 600; padding: 10px 14px; text-align: left; }
+  .section-title { font-size: 16px; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; color: var(--toast-dark); letter-spacing: -0.2px; }
+  .section-title .accent { color: var(--toast-orange); }
+  table { width: 100%; border-collapse: collapse; background: white; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); margin-bottom: 8px; }
+  th { background: var(--toast-dark); font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: rgba(255,255,255,0.85); font-weight: 700; padding: 10px 14px; text-align: left; }
   td { padding: 10px 14px; border-top: 1px solid var(--gray-100); font-size: 13px; }
-  tr:hover { background: var(--gray-50); }
+  tr:hover { background: var(--warm-100); }
   .progress-bar { background: var(--gray-200); border-radius: 999px; height: 8px; width: 100px; display: inline-block; vertical-align: middle; }
   .progress-fill { height: 100%; border-radius: 999px; }
-  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
   .badge-green { background: var(--green-bg); color: var(--green); }
   .badge-yellow { background: var(--yellow-bg); color: var(--yellow); }
   .badge-red { background: var(--red-bg); color: var(--red); }
   .badge-blue { background: var(--blue-bg); color: var(--blue); }
+  .badge-orange { background: var(--toast-orange-bg); color: var(--toast-orange); }
   .forecast-bar { display: flex; align-items: center; gap: 8px; margin: 8px 0; }
-  .forecast-bar-track { flex: 1; background: var(--gray-200); border-radius: 4px; height: 24px; position: relative; }
-  .forecast-bar-fill { height: 100%; border-radius: 4px; }
+  .forecast-bar-track { flex: 1; background: var(--gray-200); border-radius: 6px; height: 24px; position: relative; }
+  .forecast-bar-fill { height: 100%; border-radius: 6px; }
   .forecast-bar-label { font-size: 13px; font-weight: 600; min-width: 50px; text-align: right; }
   .forecast-bar-name { font-size: 14px; font-weight: 600; min-width: 130px; }
   .pace-line { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--gray-700); z-index: 2; }
   .pace-line::after { content: "\\25BC"; position: absolute; top: -14px; left: -4px; font-size: 9px; color: var(--gray-700); }
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
   @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
-  .footer { text-align: center; padding: 16px; font-size: 12px; color: var(--gray-400); }
+  .footer { text-align: center; padding: 20px; font-size: 12px; color: var(--gray-400); border-top: 1px solid var(--gray-200); margin-top: 8px; }
 </style>
 </head>
 <body>
@@ -218,8 +227,11 @@ def generate(data_dir):
     html.append(f"""
 <div class="header">
   <div class="header-left">
-    <h1>&#x1F35E; <span>Toast</span> Growth Sales Dashboard</h1>
-    <p>Josh Mellender — Growth Sales District Manager | Reports to Katie Patterson (RVP)</p>
+    <svg class="logo" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 2C5.46 2 3 4.46 3 7.5v13c0 3.04 2.46 5.5 5.5 5.5h2.25v7.75c0 .69.56 1.25 1.25 1.25s1.25-.56 1.25-1.25V26h1.5v7.75c0 .69.56 1.25 1.25 1.25s1.25-.56 1.25-1.25V26H19.5c3.04 0 5.5-2.46 5.5-5.5v-13C25 4.46 22.54 2 19.5 2h-11zM7 10.5a2 2 0 114 0 2 2 0 01-4 0zm10 0a2 2 0 114 0 2 2 0 01-4 0z" fill="#FF4C00"/></svg>
+    <div>
+      <h1><span>Toast</span> Growth Sales Dashboard</h1>
+      <p>Josh Mellender — Growth Sales District Manager | Reports to Katie Patterson (RVP)</p>
+    </div>
   </div>
   <div class="header-right">
     <div class="date">{month_name} — MTD Performance</div>
