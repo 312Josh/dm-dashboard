@@ -83,6 +83,11 @@ def bar_color(pct, expected_pct):
     return "var(--red)"
 
 
+def rep_link(name):
+    slug = name.lower().replace(" ", "-")
+    return f'<a href="reps/{slug}.html" style="color:inherit;text-decoration:none;border-bottom:1px dashed var(--gray-300)">{name}</a>'
+
+
 BADGE_ON_TRACK = '<span class="badge badge-green">On Track</span>'
 BADGE_AT_RISK = '<span class="badge badge-red">At Risk</span>'
 
@@ -363,7 +368,7 @@ def generate(data_dir):
         bar_w = min(pct, 100)
         color = bar_color(pct, expected_pct)
         badge = pacing_badge(pct, day_of_month, 30)
-        html.append(f'<tr><td><strong>{name}</strong></td><td style="font-size:12px;color:var(--gray-500)">{role_display}</td><td>{fmt_money(quota)}</td><td><strong>{fmt_money(arr)}</strong></td><td>{fmt_pct(pct)}</td><td><div class="progress-bar"><div class="progress-fill" style="width:{bar_w:.1f}%;background:{color}"></div></div></td><td>{wins_count}</td><td>{badge}</td></tr>\n')
+        html.append(f'<tr><td><strong>{rep_link(name)}</strong></td><td style="font-size:12px;color:var(--gray-500)">{role_display}</td><td>{fmt_money(quota)}</td><td><strong>{fmt_money(arr)}</strong></td><td>{fmt_pct(pct)}</td><td><div class="progress-bar"><div class="progress-fill" style="width:{bar_w:.1f}%;background:{color}"></div></div></td><td>{wins_count}</td><td>{badge}</td></tr>\n')
 
     html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{len(metrics)} AEs</td><td>{fmt_money(team_quota)}</td><td>{fmt_money(team_arr)}</td><td>{fmt_pct(team_attainment)}</td><td></td><td>{team_wins_count}</td><td></td></tr>\n')
     html.append("    </tbody></table>\n</div>\n")
@@ -607,13 +612,380 @@ def generate(data_dir):
     generated = datetime.now().strftime("%b %d, %Y")
     html.append(f'\n<div class="footer">Growth Sales Team Dashboard — Built for Josh Mellender | Data: Sigma + Xactly + SalesLoft | Generated {generated}</div>\n</body></html>\n')
 
-    # Write output
+    # Write main dashboard
     out_path = Path(__file__).parent / "index.html"
     out_path.write_text("".join(html))
     print(f"Dashboard generated: {out_path}")
     print(f"  Month: {month_name} | Data date: {data_date}")
     print(f"  Team ARR: {fmt_money(team_arr)} / {fmt_money(team_quota)} ({fmt_pct(team_attainment)})")
     print(f"  Wins: {team_wins_count} | Pipeline: {fmt_money(total_pipeline)} ({total_open_deals} opps)")
+
+    # ========== SAVE HISTORICAL SNAPSHOT ==========
+    history_dir = Path(__file__).parent / "data" / "history"
+    history_dir.mkdir(parents=True, exist_ok=True)
+    snapshot = {
+        "date": f"{now.year}-{month_num}-{day_num.zfill(2)}",
+        "team_arr": team_arr,
+        "team_quota": team_quota,
+        "team_wins": team_wins_count,
+        "team_pipeline": total_pipeline,
+        "team_open_deals": total_open_deals,
+        "reps": {}
+    }
+    calls_by_name = {r["user_name"]: r for r in calls}
+    emails_by_name = {r["user_name"]: r for r in emails}
+    for r in metrics:
+        name = r["Rep Name"]
+        snapshot["reps"][name] = {
+            "arr": parse_money(r.get("Total Booked Saas ARR", "0")),
+            "quota": parse_money(r.get("Booked SaaS Quota (Xactly)", "0")),
+            "arr_pct": parse_pct(r.get("ARR % to Goal (Xactly)", "0")),
+            "wins": int(r.get("Wins", "0") or 0),
+            "demos": int(r.get("Demos", "0") or 0),
+            "opps": int(r.get("Opps", "0") or 0),
+            "opp_demo": parse_pct(r.get("Opp:Demo", "0")),
+            "opp_win": parse_pct(r.get("Opp to Win", "0")),
+            "demo_win": parse_pct(r.get("Demo:Win", "0")),
+            "avg_arr_per_opp": parse_money(r.get("ARR Won per Opp", "0")),
+            "ss_opps": int(r.get("Self-Sourced Created Opps", "0") or 0),
+            "nbr_created": int(r.get("NB Referral Created Opps", "0") or 0),
+            "nbr_won": int(r.get("NB Referral Closed Won", "0") or 0),
+            "ec_units": int(r.get("EC Units", "0") or 0),
+            "ec_arr": parse_money(r.get("EC ARR", "0")),
+            "calls": int(calls_by_name.get(name, {}).get("calls", "0") or 0),
+            "conversations": int(calls_by_name.get(name, {}).get("conversations", "0") or 0),
+            "emails_sent": int(emails_by_name.get(name, {}).get("sent", "0") or 0),
+            "emails_replied": int(emails_by_name.get(name, {}).get("replied", "0") or 0),
+        }
+    snap_path = history_dir / f"{now.year}-{month_num}-{day_num.zfill(2)}.json"
+    snap_path.write_text(json.dumps(snapshot, indent=2))
+    print(f"  Snapshot saved: {snap_path.name}")
+
+    # ========== LOAD HISTORICAL DATA FOR TRENDS ==========
+    history_files = sorted(history_dir.glob("*.json"))
+    all_history = []
+    for hf in history_files:
+        with open(hf) as f:
+            all_history.append(json.load(f))
+
+    # Get previous week's data (7+ days ago) for comparison
+    prev_snap = None
+    if len(all_history) >= 2:
+        prev_snap = all_history[-2]  # most recent before today
+
+    # ========== GENERATE REP DETAIL PAGES ==========
+    reps_dir = Path(__file__).parent / "reps"
+    reps_dir.mkdir(parents=True, exist_ok=True)
+
+    for r in metrics:
+        name = r["Rep Name"]
+        slug = name.lower().replace(" ", "-")
+        rep_data = snapshot["reps"][name]
+        prev_rep = prev_snap["reps"].get(name, {}) if prev_snap else {}
+
+        # Get rep's open opps (stale = >14 days)
+        rep_opps_all = [o for o in opps if normalize_name(o.get("Opportunity Owner", "")) == name]
+        rep_stale = [o for o in rep_opps_all if float(o.get("Stage Duration", "0") or 0) > 14]
+        rep_stale.sort(key=lambda o: float(o.get("Stage Duration", "0") or 0), reverse=True)
+
+        # Get rep's wins
+        rep_wins = [w for w in wins if normalize_name(w.get("Opportunity Owner", "")) == name]
+        rep_wins.sort(key=lambda w: w.get("Close Date", ""), reverse=True)
+
+        # Calls/emails data
+        c = calls_by_name.get(name, {})
+        e = emails_by_name.get(name, {})
+
+        # Compute deltas vs previous snapshot
+        def delta(key, fmt="num"):
+            cur = rep_data.get(key, 0)
+            prev = prev_rep.get(key, 0)
+            diff = cur - prev
+            if diff == 0 or not prev_rep:
+                return ""
+            sign = "+" if diff > 0 else ""
+            if fmt == "money":
+                return f' <span style="font-size:11px;color:{"var(--green)" if diff > 0 else "var(--red)"}">{sign}{fmt_money(diff)}</span>'
+            elif fmt == "pct":
+                return f' <span style="font-size:11px;color:{"var(--green)" if diff > 0 else "var(--red)"}">{sign}{diff:.1f}pp</span>'
+            else:
+                return f' <span style="font-size:11px;color:{"var(--green)" if diff > 0 else "var(--red)"}">{sign}{diff}</span>'
+
+        # ---- Sandler Coach to Success Analysis ----
+        role = r.get("Role in Month", "AE")
+        cohort = r.get("Ramping Cohort", "")
+        quota = rep_data["quota"]
+        arr_pct = rep_data["arr_pct"]
+
+        # Behavior analysis (activity)
+        behavior_items = []
+        call_goal = int(r.get("Call Goal", "0") or 0)
+        call_actual = rep_data["calls"]
+        call_pct = (call_actual / call_goal * 100) if call_goal else 0
+        if call_pct < 70:
+            behavior_items.append(f"Calls at {call_actual}/{call_goal} ({call_pct:.0f}%) — significantly behind. Are there time management barriers?")
+        elif call_pct < 90:
+            behavior_items.append(f"Calls at {call_actual}/{call_goal} ({call_pct:.0f}%) — slightly behind pace.")
+
+        demo_goal = int(r.get("Total Demo Goal", "0") or 0)
+        demo_actual = rep_data["demos"]
+        demo_pct_goal = parse_pct(r.get("Demos Held % to Goal", "0"))
+        if demo_pct_goal < 70:
+            behavior_items.append(f"Demos at {demo_actual}/{demo_goal} ({demo_pct_goal:.0f}%) — not getting enough at-bats. Focus on booking more demos.")
+        elif demo_pct_goal < 90:
+            behavior_items.append(f"Demos at {demo_actual}/{demo_goal} ({demo_pct_goal:.0f}%) — close to pace, push for more.")
+
+        emails_sent = rep_data["emails_sent"]
+        if emails_sent < 20:
+            behavior_items.append(f"Only {emails_sent} emails sent this week — low outbound volume.")
+
+        if not behavior_items:
+            behavior_items.append("Activity levels are strong. Maintain current cadence.")
+
+        # Technique analysis (conversion rates)
+        technique_items = []
+        opp_demo = rep_data["opp_demo"]
+        if opp_demo > 0 and opp_demo < 70:
+            technique_items.append(f"Opp:Demo conversion at {opp_demo:.0f}% — opps not converting to demos. Qualify harder upfront or improve scheduling follow-up.")
+        demo_win = rep_data["demo_win"]
+        if demo_win > 0 and demo_win < 50:
+            technique_items.append(f"Demo:Win at {demo_win:.0f}% — low close rate from demos. Work on post-demo follow-up, urgency, and handling stalls.")
+        elif demo_win > 0 and demo_win < 70:
+            technique_items.append(f"Demo:Win at {demo_win:.0f}% — room to improve close rate. Focus on commitment at end of demo.")
+
+        avg_arr = rep_data["avg_arr_per_opp"]
+        if avg_arr > 0 and avg_arr < 1500:
+            technique_items.append(f"Avg ARR per opp ${avg_arr:,.0f} (goal: $1,800) — selling smaller deals. Coach on attaching more products/bundling.")
+        elif avg_arr > 0 and avg_arr < 1800:
+            technique_items.append(f"Avg ARR per opp ${avg_arr:,.0f} — close to $1,800 target. Look for upsell opportunities.")
+
+        if not technique_items:
+            technique_items.append("Conversion rates and deal size are solid. Focus on maintaining consistency.")
+
+        # Results analysis
+        results_items = []
+        if arr_pct >= 100:
+            results_items.append(f"At {arr_pct:.0f}% to quota — crushing it. What's working that we can share with the team?")
+        elif arr_pct >= 80:
+            results_items.append(f"At {arr_pct:.0f}% to quota — in striking distance. What deals can we push to close this month?")
+        elif arr_pct >= 50:
+            results_items.append(f"At {arr_pct:.0f}% to quota — needs acceleration. Review pipeline and prioritize highest-probability deals.")
+        else:
+            results_items.append(f"At {arr_pct:.0f}% to quota — significantly behind. Need to diagnose: is it activity, pipeline, or conversion?")
+
+        stale_count_rep = len(rep_stale)
+        if stale_count_rep > 5:
+            results_items.append(f"{stale_count_rep} deals stale >14 days — pipeline needs cleaning. Which should be closed-lost vs. re-engaged?")
+        elif stale_count_rep > 0:
+            results_items.append(f"{stale_count_rep} deals stale >14 days — review next steps on each.")
+
+        # Build rep page HTML
+        rp = []
+        rp.append(f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{name} — Growth Sales Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {{
+    --toast-orange: #FF4C00; --toast-orange-light: #FF6A2B; --toast-orange-bg: #FFF3ED;
+    --toast-navy: #2B4FB9;
+    --toast-dark: #2B2E35; --toast-dark-light: #3A3D45;
+    --green: #22C55E; --green-bg: #F0FDF4;
+    --yellow: #EAB308; --yellow-bg: #FEFCE8;
+    --red: #EF4444; --red-bg: #FEF2F2;
+    --blue: #3B82F6; --blue-bg: #EFF6FF;
+    --warm-50: #F9F5F3; --warm-100: #F6F1EE;
+    --gray-50: #F7FAFC; --gray-100: #F3F4F6; --gray-200: #E1E7EE;
+    --gray-300: #D1D5DB; --gray-400: #9CA3AF; --gray-500: #6B7280;
+    --gray-600: #4B5563; --gray-700: #374151; --gray-800: #252525;
+    --shadow: 0 1px 3px rgba(0,0,0,0.08); --radius: 12px;
+  }}
+  * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+  body {{ font-family: 'Source Sans 3', sans-serif; background: var(--warm-50); color: var(--gray-800); line-height: 1.5; }}
+  .header {{ background: var(--toast-dark); color: white; padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid var(--toast-orange); }}
+  .header-left {{ display: flex; align-items: center; gap: 16px; }}
+  .header-left a {{ color: var(--gray-400); text-decoration: none; font-size: 13px; }}
+  .header-left a:hover {{ color: white; }}
+  .header-left h1 {{ font-size: 20px; font-weight: 700; }}
+  .header-right {{ font-size: 13px; color: var(--gray-400); }}
+  .content {{ max-width: 1200px; margin: 0 auto; padding: 24px 32px; }}
+  .scorecard {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 24px; }}
+  .sc-card {{ background: white; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 16px; text-align: center; }}
+  .sc-card .label {{ font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--gray-500); font-weight: 700; }}
+  .sc-card .value {{ font-size: 22px; font-weight: 800; margin: 4px 0; color: var(--toast-dark); }}
+  .sc-card .sub {{ font-size: 11px; color: var(--gray-500); }}
+  .section {{ background: white; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 20px; margin-bottom: 20px; box-shadow: var(--shadow); }}
+  .section h2 {{ font-size: 15px; font-weight: 700; margin-bottom: 14px; color: var(--toast-dark); display: flex; align-items: center; gap: 8px; }}
+  .two-col {{ display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }}
+  @media (max-width: 900px) {{ .two-col {{ grid-template-columns: 1fr; }} }}
+  table {{ width: 100%; border-collapse: collapse; font-size: 13px; }}
+  th {{ background: var(--toast-dark); color: rgba(255,255,255,0.85); font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; font-weight: 700; padding: 8px 12px; text-align: left; }}
+  td {{ padding: 8px 12px; border-top: 1px solid var(--gray-100); }}
+  tr:hover {{ background: var(--warm-100); }}
+  .badge {{ display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }}
+  .badge-green {{ background: var(--green-bg); color: var(--green); }}
+  .badge-yellow {{ background: var(--yellow-bg); color: var(--yellow); }}
+  .badge-red {{ background: var(--red-bg); color: var(--red); }}
+  .coaching {{ list-style: none; }}
+  .coaching li {{ padding: 8px 0; border-bottom: 1px solid var(--gray-100); font-size: 13px; line-height: 1.6; }}
+  .coaching li:last-child {{ border-bottom: none; }}
+  .coaching-label {{ font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; padding: 4px 10px; border-radius: 4px; display: inline-block; }}
+  .c-behavior {{ background: var(--blue-bg); color: var(--blue); }}
+  .c-technique {{ background: var(--toast-orange-bg); color: var(--toast-orange); }}
+  .c-results {{ background: var(--green-bg); color: var(--green); }}
+  .footer {{ text-align: center; padding: 20px; font-size: 12px; color: var(--gray-400); }}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-left">
+    <a href="../index.html">&larr; Back to Dashboard</a>
+    <h1>{name}</h1>
+  </div>
+  <div class="header-right">{month_name} — Data as of {data_date}</div>
+</div>
+<div class="content">
+""")
+
+        # Rep Scorecard Cards
+        rp.append('<div class="scorecard">\n')
+        rp.append(f'<div class="sc-card"><div class="label">MTD ARR</div><div class="value">{fmt_money(rep_data["arr"])}</div><div class="sub">of {fmt_money(rep_data["quota"])}{delta("arr", "money")}</div></div>\n')
+        rp.append(f'<div class="sc-card"><div class="label">Attainment</div><div class="value">{fmt_pct(rep_data["arr_pct"])}</div><div class="sub">to quota{delta("arr_pct", "pct")}</div></div>\n')
+        rp.append(f'<div class="sc-card"><div class="label">Wins</div><div class="value">{rep_data["wins"]}</div><div class="sub">closed deals{delta("wins")}</div></div>\n')
+        rp.append(f'<div class="sc-card"><div class="label">Demos</div><div class="value">{rep_data["demos"]}</div><div class="sub">held{delta("demos")}</div></div>\n')
+        rp.append(f'<div class="sc-card"><div class="label">Opps</div><div class="value">{rep_data["opps"]}</div><div class="sub">created{delta("opps")}</div></div>\n')
+        rp.append(f'<div class="sc-card"><div class="label">Avg ARR</div><div class="value">{fmt_money(rep_data["avg_arr_per_opp"])}</div><div class="sub">per opp{delta("avg_arr_per_opp", "money")}</div></div>\n')
+        rp.append(f'<div class="sc-card"><div class="label">Demo:Win</div><div class="value">{fmt_pct(rep_data["demo_win"])}</div><div class="sub">conversion{delta("demo_win", "pct")}</div></div>\n')
+        rp.append(f'<div class="sc-card"><div class="label">EC ARR</div><div class="value">{fmt_money(rep_data["ec_arr"])}</div><div class="sub">{rep_data["ec_units"]} units{delta("ec_arr", "money")}</div></div>\n')
+        rp.append('</div>\n')
+
+        # Sandler Coaching Section
+        rp.append('<div class="section">\n')
+        rp.append(f'  <h2><img src="../assets/Other_Award.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> 1:1 Coaching — Sandler Coach to Success</h2>\n')
+        rp.append('  <div class="two-col">\n')
+
+        # Left column: Behavior + Technique
+        rp.append('    <div>\n')
+        rp.append('      <div class="coaching-label c-behavior">Behavior (Activity)</div>\n')
+        rp.append('      <ul class="coaching">\n')
+        for item in behavior_items:
+            rp.append(f'        <li>{item}</li>\n')
+        rp.append('      </ul>\n')
+        rp.append('      <div class="coaching-label c-technique" style="margin-top:16px">Technique (Conversion)</div>\n')
+        rp.append('      <ul class="coaching">\n')
+        for item in technique_items:
+            rp.append(f'        <li>{item}</li>\n')
+        rp.append('      </ul>\n')
+        rp.append('    </div>\n')
+
+        # Right column: Results + Suggested Questions
+        rp.append('    <div>\n')
+        rp.append('      <div class="coaching-label c-results">Results (Outcomes)</div>\n')
+        rp.append('      <ul class="coaching">\n')
+        for item in results_items:
+            rp.append(f'        <li>{item}</li>\n')
+        rp.append('      </ul>\n')
+
+        # Sandler coaching questions based on data
+        rp.append('      <div class="coaching-label" style="margin-top:16px;background:var(--gray-100);color:var(--gray-700)">Suggested Coaching Questions</div>\n')
+        rp.append('      <ul class="coaching">\n')
+        if arr_pct < 80:
+            rp.append('        <li>"Walk me through your top 3 deals this month — what needs to happen to close each one?"</li>\n')
+        if demo_win > 0 and demo_win < 60:
+            rp.append('        <li>"After your last demo, what was the prospect\'s commitment? Did you get a clear next step?"</li>\n')
+        if stale_count_rep > 3:
+            rp.append(f'        <li>"You have {stale_count_rep} deals sitting >14 days. Which ones are real and which should we close out?"</li>\n')
+        if call_pct < 80:
+            rp.append('        <li>"What does your daily call block look like? Are you protecting that time?"</li>\n')
+        if avg_arr > 0 and avg_arr < 1800:
+            rp.append('        <li>"On your last few deals, did you explore EC/Payroll and all available product bundles?"</li>\n')
+        rp.append('        <li>"What\'s one thing you want to improve this week, and how can I help?"</li>\n')
+        rp.append('      </ul>\n')
+        rp.append('    </div>\n')
+        rp.append('  </div>\n')
+        rp.append('</div>\n')
+
+        # Activity Metrics
+        rp.append('<div class="two-col">\n')
+        rp.append('<div class="section">\n')
+        rp.append(f'  <h2><img src="../assets/phone.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Calls</h2>\n')
+        rp.append('  <table>\n')
+        rp.append(f'    <tr><td>Total Calls</td><td style="font-weight:600">{c.get("calls", "0")}</td></tr>\n')
+        rp.append(f'    <tr><td>Avg/Day</td><td>{c.get("average_calls_logged_per_day", "0")}</td></tr>\n')
+        rp.append(f'    <tr><td>Conversations</td><td>{c.get("conversations", "0")}</td></tr>\n')
+        rp.append(f'    <tr><td>Conv Rate</td><td>{c.get("conversations_rate", "0")}%</td></tr>\n')
+        rp.append(f'    <tr><td>Avg Duration</td><td>{c.get("average_calls_duration", "N/A")}</td></tr>\n')
+        rp.append(f'    <tr><td>Voicemails</td><td>{c.get("voicemails", "0")}</td></tr>\n')
+        rp.append('  </table>\n</div>\n')
+
+        rp.append('<div class="section">\n')
+        rp.append(f'  <h2><img src="../assets/email.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Emails</h2>\n')
+        rp.append('  <table>\n')
+        rp.append(f'    <tr><td>Sent</td><td style="font-weight:600">{e.get("sent", "0")}</td></tr>\n')
+        rp.append(f'    <tr><td>Opened</td><td>{e.get("opened", "0")} ({e.get("opened_rate", "0")}%)</td></tr>\n')
+        rp.append(f'    <tr><td>Replied</td><td>{e.get("replied", "0")} ({e.get("replied_rate", "0")}%)</td></tr>\n')
+        rp.append(f'    <tr><td>Positive Replies</td><td>{e.get("replied_positive", "0")}</td></tr>\n')
+        rp.append(f'    <tr><td>Personalization</td><td>{e.get("personalized_rate", "0")}%</td></tr>\n')
+        rp.append(f'    <tr><td>Clicked</td><td>{e.get("clicked", "0")} ({e.get("clicked_rate", "0")}%)</td></tr>\n')
+        rp.append('  </table>\n</div>\n')
+        rp.append('</div>\n')
+
+        # Stale Deals (>14 days)
+        if rep_stale:
+            rp.append('<div class="section">\n')
+            rp.append(f'  <h2><img src="../assets/percentage.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Stale Deals ({len(rep_stale)} deals &gt; 14 days)</h2>\n')
+            rp.append('  <table>\n')
+            rp.append('    <thead><tr><th>Account</th><th>Opportunity</th><th>Stage</th><th>Days</th><th>ARR</th><th>Next Step</th></tr></thead>\n')
+            rp.append('    <tbody>\n')
+            for o in rep_stale[:15]:
+                acct = o.get("Account Name", "")
+                opp_name = o.get("Opportunity Name", "")[:40]
+                stage = o.get("Stage", "")
+                days = int(float(o.get("Stage Duration", "0") or 0))
+                opp_arr = parse_money(o.get("Software (Annual)", "0"))
+                next_step = (o.get("Next Step", "") or "")[:60]
+                days_color = "var(--red)" if days > 30 else "var(--yellow)"
+                rp.append(f'      <tr><td><strong>{acct}</strong></td><td style="font-size:12px">{opp_name}</td><td style="font-size:12px">{stage}</td><td style="color:{days_color};font-weight:600">{days}d</td><td>{fmt_money(opp_arr)}</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">{next_step}</td></tr>\n')
+            rp.append('    </tbody>\n  </table>\n</div>\n')
+
+        # Recent Wins
+        if rep_wins:
+            rp.append('<div class="section">\n')
+            rp.append(f'  <h2><img src="../assets/dollar.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Recent Wins ({len(rep_wins)} this month)</h2>\n')
+            rp.append('  <table>\n')
+            rp.append('    <thead><tr><th>Account</th><th>Type</th><th>ARR</th><th>Close Date</th></tr></thead>\n')
+            rp.append('    <tbody>\n')
+            for w in rep_wins[:10]:
+                acct = w.get("Account Name", "")
+                wtype = w.get("Type", "")
+                w_arr = parse_money(w.get("Software (Annual)", "0"))
+                close = w.get("Close Date", "")
+                rp.append(f'      <tr><td><strong>{acct}</strong></td><td style="font-size:12px">{wtype}</td><td>{fmt_money(w_arr)}</td><td>{close}</td></tr>\n')
+            rp.append('    </tbody>\n  </table>\n</div>\n')
+
+        # Week-over-week trend table (if history exists)
+        if len(all_history) > 1:
+            rp.append('<div class="section">\n')
+            rp.append(f'  <h2><img src="../assets/trending-up.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Week-over-Week Trend</h2>\n')
+            rp.append('  <table>\n')
+            rp.append('    <thead><tr><th>Date</th><th>ARR</th><th>Wins</th><th>Demos</th><th>Opps</th><th>Calls</th><th>Emails</th><th>Demo:Win</th></tr></thead>\n')
+            rp.append('    <tbody>\n')
+            for h in reversed(all_history[-8:]):
+                hr = h.get("reps", {}).get(name, {})
+                if hr:
+                    rp.append(f'      <tr><td>{h["date"]}</td><td>{fmt_money(hr.get("arr", 0))}</td><td>{hr.get("wins", 0)}</td><td>{hr.get("demos", 0)}</td><td>{hr.get("opps", 0)}</td><td>{hr.get("calls", 0)}</td><td>{hr.get("emails_sent", 0)}</td><td>{fmt_pct(hr.get("demo_win", 0))}</td></tr>\n')
+            rp.append('    </tbody>\n  </table>\n</div>\n')
+
+        rp.append(f'\n<div class="footer">Growth Sales Dashboard — {name} | Generated {generated}</div>\n</body></html>\n')
+
+        rep_path = reps_dir / f"{slug}.html"
+        rep_path.write_text("".join(rp))
+
+    print(f"  Rep pages generated: {len(metrics)} pages in reps/")
 
 
 if __name__ == "__main__":

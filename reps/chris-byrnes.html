@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chris Byrnes — Growth Sales Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --toast-orange: #FF4C00; --toast-orange-light: #FF6A2B; --toast-orange-bg: #FFF3ED;
+    --toast-navy: #2B4FB9;
+    --toast-dark: #2B2E35; --toast-dark-light: #3A3D45;
+    --green: #22C55E; --green-bg: #F0FDF4;
+    --yellow: #EAB308; --yellow-bg: #FEFCE8;
+    --red: #EF4444; --red-bg: #FEF2F2;
+    --blue: #3B82F6; --blue-bg: #EFF6FF;
+    --warm-50: #F9F5F3; --warm-100: #F6F1EE;
+    --gray-50: #F7FAFC; --gray-100: #F3F4F6; --gray-200: #E1E7EE;
+    --gray-300: #D1D5DB; --gray-400: #9CA3AF; --gray-500: #6B7280;
+    --gray-600: #4B5563; --gray-700: #374151; --gray-800: #252525;
+    --shadow: 0 1px 3px rgba(0,0,0,0.08); --radius: 12px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Source Sans 3', sans-serif; background: var(--warm-50); color: var(--gray-800); line-height: 1.5; }
+  .header { background: var(--toast-dark); color: white; padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid var(--toast-orange); }
+  .header-left { display: flex; align-items: center; gap: 16px; }
+  .header-left a { color: var(--gray-400); text-decoration: none; font-size: 13px; }
+  .header-left a:hover { color: white; }
+  .header-left h1 { font-size: 20px; font-weight: 700; }
+  .header-right { font-size: 13px; color: var(--gray-400); }
+  .content { max-width: 1200px; margin: 0 auto; padding: 24px 32px; }
+  .scorecard { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .sc-card { background: white; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 16px; text-align: center; }
+  .sc-card .label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--gray-500); font-weight: 700; }
+  .sc-card .value { font-size: 22px; font-weight: 800; margin: 4px 0; color: var(--toast-dark); }
+  .sc-card .sub { font-size: 11px; color: var(--gray-500); }
+  .section { background: white; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 20px; margin-bottom: 20px; box-shadow: var(--shadow); }
+  .section h2 { font-size: 15px; font-weight: 700; margin-bottom: 14px; color: var(--toast-dark); display: flex; align-items: center; gap: 8px; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: var(--toast-dark); color: rgba(255,255,255,0.85); font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; font-weight: 700; padding: 8px 12px; text-align: left; }
+  td { padding: 8px 12px; border-top: 1px solid var(--gray-100); }
+  tr:hover { background: var(--warm-100); }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+  .badge-green { background: var(--green-bg); color: var(--green); }
+  .badge-yellow { background: var(--yellow-bg); color: var(--yellow); }
+  .badge-red { background: var(--red-bg); color: var(--red); }
+  .coaching { list-style: none; }
+  .coaching li { padding: 8px 0; border-bottom: 1px solid var(--gray-100); font-size: 13px; line-height: 1.6; }
+  .coaching li:last-child { border-bottom: none; }
+  .coaching-label { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; padding: 4px 10px; border-radius: 4px; display: inline-block; }
+  .c-behavior { background: var(--blue-bg); color: var(--blue); }
+  .c-technique { background: var(--toast-orange-bg); color: var(--toast-orange); }
+  .c-results { background: var(--green-bg); color: var(--green); }
+  .footer { text-align: center; padding: 20px; font-size: 12px; color: var(--gray-400); }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-left">
+    <a href="../index.html">&larr; Back to Dashboard</a>
+    <h1>Chris Byrnes</h1>
+  </div>
+  <div class="header-right">April 2026 — Data as of Apr 8, 2026</div>
+</div>
+<div class="content">
+<div class="scorecard">
+<div class="sc-card"><div class="label">MTD ARR</div><div class="value">$17,625</div><div class="sub">of $62,000</div></div>
+<div class="sc-card"><div class="label">Attainment</div><div class="value">28.4%</div><div class="sub">to quota</div></div>
+<div class="sc-card"><div class="label">Wins</div><div class="value">13</div><div class="sub">closed deals</div></div>
+<div class="sc-card"><div class="label">Demos</div><div class="value">13</div><div class="sub">held</div></div>
+<div class="sc-card"><div class="label">Opps</div><div class="value">17</div><div class="sub">created</div></div>
+<div class="sc-card"><div class="label">Avg ARR</div><div class="value">$1,356</div><div class="sub">per opp</div></div>
+<div class="sc-card"><div class="label">Demo:Win</div><div class="value">100.0%</div><div class="sub">conversion</div></div>
+<div class="sc-card"><div class="label">EC ARR</div><div class="value">$588.00</div><div class="sub">1 units</div></div>
+</div>
+<div class="section">
+  <h2><img src="../assets/Other_Award.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> 1:1 Coaching — Sandler Coach to Success</h2>
+  <div class="two-col">
+    <div>
+      <div class="coaching-label c-behavior">Behavior (Activity)</div>
+      <ul class="coaching">
+        <li>Calls at 60/440 (14%) — significantly behind. Are there time management barriers?</li>
+        <li>Demos at 13/44 (30%) — not getting enough at-bats. Focus on booking more demos.</li>
+      </ul>
+      <div class="coaching-label c-technique" style="margin-top:16px">Technique (Conversion)</div>
+      <ul class="coaching">
+        <li>Avg ARR per opp $1,356 (goal: $1,800) — selling smaller deals. Coach on attaching more products/bundling.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="coaching-label c-results">Results (Outcomes)</div>
+      <ul class="coaching">
+        <li>At 28% to quota — significantly behind. Need to diagnose: is it activity, pipeline, or conversion?</li>
+        <li>6 deals stale >14 days — pipeline needs cleaning. Which should be closed-lost vs. re-engaged?</li>
+      </ul>
+      <div class="coaching-label" style="margin-top:16px;background:var(--gray-100);color:var(--gray-700)">Suggested Coaching Questions</div>
+      <ul class="coaching">
+        <li>"Walk me through your top 3 deals this month — what needs to happen to close each one?"</li>
+        <li>"You have 6 deals sitting >14 days. Which ones are real and which should we close out?"</li>
+        <li>"What does your daily call block look like? Are you protecting that time?"</li>
+        <li>"On your last few deals, did you explore EC/Payroll and all available product bundles?"</li>
+        <li>"What's one thing you want to improve this week, and how can I help?"</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="two-col">
+<div class="section">
+  <h2><img src="../assets/phone.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Calls</h2>
+  <table>
+    <tr><td>Total Calls</td><td style="font-weight:600">60</td></tr>
+    <tr><td>Avg/Day</td><td>20.0</td></tr>
+    <tr><td>Conversations</td><td>11</td></tr>
+    <tr><td>Conv Rate</td><td>18.3%</td></tr>
+    <tr><td>Avg Duration</td><td>1m 31s</td></tr>
+    <tr><td>Voicemails</td><td>23</td></tr>
+  </table>
+</div>
+<div class="section">
+  <h2><img src="../assets/email.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Emails</h2>
+  <table>
+    <tr><td>Sent</td><td style="font-weight:600">57</td></tr>
+    <tr><td>Opened</td><td>25 (44.6%)</td></tr>
+    <tr><td>Replied</td><td>5 (8.9%)</td></tr>
+    <tr><td>Positive Replies</td><td>6</td></tr>
+    <tr><td>Personalization</td><td>16.1%</td></tr>
+    <tr><td>Clicked</td><td>3 (5.4%)</td></tr>
+  </table>
+</div>
+</div>
+<div class="section">
+  <h2><img src="../assets/percentage.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Stale Deals (6 deals &gt; 14 days)</h2>
+  <table>
+    <thead><tr><th>Account</th><th>Opportunity</th><th>Stage</th><th>Days</th><th>ARR</th><th>Next Step</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Rotis Indian Restaurant & bar</strong></td><td style="font-size:12px">UE Amendment for contract #00590104</td><td style="font-size:12px">Open</td><td style="color:var(--red);font-weight:600">106d</td><td>$3,088</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Went ghost but great candidate for uber promo. Followed up 2</td></tr>
+      <tr><td><strong>Agrigento</strong></td><td style="font-size:12px">Amendment for contract #00722052</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--red);font-weight:600">62d</td><td>$300.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">CX: needs to sign. AE: customer does not want to pay for har</td></tr>
+      <tr><td><strong>gRub Tropical BBQ</strong></td><td style="font-size:12px">TipsAmendment for contract #00740704</td><td style="font-size:12px">Open</td><td style="color:var(--red);font-weight:600">57d</td><td>$1,198</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Cx: going over quote with wife. AE: follow up before EOW (2/</td></tr>
+      <tr><td><strong>gRub Tropical BBQ - Parent Account</strong></td><td style="font-size:12px">gRub Tropical BBQ - Parent Account - Pay</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--red);font-weight:600">57d</td><td>$1,080</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Cx: review with wife. AE: follow up by EOW (2/12)</td></tr>
+      <tr><td><strong>22 Moons Tea Room</strong></td><td style="font-size:12px">UE Promo Amendment for contract #0076714</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">54d</td><td>$720.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">NBR referral, not much interest but following up 3/3 to see </td></tr>
+      <tr><td><strong>Michaels On East</strong></td><td style="font-size:12px">Amendment for contract #00693628</td><td style="font-size:12px">Open</td><td style="color:var(--yellow);font-weight:600">30d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal"></td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="section">
+  <h2><img src="../assets/dollar.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Recent Wins (13 this month)</h2>
+  <table>
+    <thead><tr><th>Account</th><th>Type</th><th>ARR</th><th>Close Date</th></tr></thead>
+    <tbody>
+      <tr><td><strong>K Bistro - Sarasota</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$3,948</td><td>4/8/2026</td></tr>
+      <tr><td><strong>Flanagan's Irish Pub</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$240.00</td><td>4/7/2026</td></tr>
+      <tr><td><strong>T'asia Sushi and Thai - Parent Account</strong></td><td style="font-size:12px">Payroll</td><td>$588.00</td><td>4/7/2026</td></tr>
+      <tr><td><strong>Rosie's Tavern - NPR</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$240.00</td><td>4/6/2026</td></tr>
+      <tr><td><strong>Arts and Central</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,296</td><td>4/3/2026</td></tr>
+      <tr><td><strong>Cafe Gala</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$840.00</td><td>4/3/2026</td></tr>
+      <tr><td><strong>Grillsmith-Carrollwood</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,785</td><td>4/2/2026</td></tr>
+      <tr><td><strong>GrillSmith Lakeland</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,785</td><td>4/2/2026</td></tr>
+      <tr><td><strong>GrillSmith Sarasota</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,785</td><td>4/2/2026</td></tr>
+      <tr><td><strong>GrillSmith Wesley Chapel</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,785</td><td>4/2/2026</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="footer">Growth Sales Dashboard — Chris Byrnes | Generated Apr 08, 2026</div>
+</body></html>

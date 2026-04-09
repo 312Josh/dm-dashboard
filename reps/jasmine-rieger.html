@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jasmine Rieger — Growth Sales Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --toast-orange: #FF4C00; --toast-orange-light: #FF6A2B; --toast-orange-bg: #FFF3ED;
+    --toast-navy: #2B4FB9;
+    --toast-dark: #2B2E35; --toast-dark-light: #3A3D45;
+    --green: #22C55E; --green-bg: #F0FDF4;
+    --yellow: #EAB308; --yellow-bg: #FEFCE8;
+    --red: #EF4444; --red-bg: #FEF2F2;
+    --blue: #3B82F6; --blue-bg: #EFF6FF;
+    --warm-50: #F9F5F3; --warm-100: #F6F1EE;
+    --gray-50: #F7FAFC; --gray-100: #F3F4F6; --gray-200: #E1E7EE;
+    --gray-300: #D1D5DB; --gray-400: #9CA3AF; --gray-500: #6B7280;
+    --gray-600: #4B5563; --gray-700: #374151; --gray-800: #252525;
+    --shadow: 0 1px 3px rgba(0,0,0,0.08); --radius: 12px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Source Sans 3', sans-serif; background: var(--warm-50); color: var(--gray-800); line-height: 1.5; }
+  .header { background: var(--toast-dark); color: white; padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid var(--toast-orange); }
+  .header-left { display: flex; align-items: center; gap: 16px; }
+  .header-left a { color: var(--gray-400); text-decoration: none; font-size: 13px; }
+  .header-left a:hover { color: white; }
+  .header-left h1 { font-size: 20px; font-weight: 700; }
+  .header-right { font-size: 13px; color: var(--gray-400); }
+  .content { max-width: 1200px; margin: 0 auto; padding: 24px 32px; }
+  .scorecard { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .sc-card { background: white; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 16px; text-align: center; }
+  .sc-card .label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--gray-500); font-weight: 700; }
+  .sc-card .value { font-size: 22px; font-weight: 800; margin: 4px 0; color: var(--toast-dark); }
+  .sc-card .sub { font-size: 11px; color: var(--gray-500); }
+  .section { background: white; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 20px; margin-bottom: 20px; box-shadow: var(--shadow); }
+  .section h2 { font-size: 15px; font-weight: 700; margin-bottom: 14px; color: var(--toast-dark); display: flex; align-items: center; gap: 8px; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: var(--toast-dark); color: rgba(255,255,255,0.85); font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; font-weight: 700; padding: 8px 12px; text-align: left; }
+  td { padding: 8px 12px; border-top: 1px solid var(--gray-100); }
+  tr:hover { background: var(--warm-100); }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+  .badge-green { background: var(--green-bg); color: var(--green); }
+  .badge-yellow { background: var(--yellow-bg); color: var(--yellow); }
+  .badge-red { background: var(--red-bg); color: var(--red); }
+  .coaching { list-style: none; }
+  .coaching li { padding: 8px 0; border-bottom: 1px solid var(--gray-100); font-size: 13px; line-height: 1.6; }
+  .coaching li:last-child { border-bottom: none; }
+  .coaching-label { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; padding: 4px 10px; border-radius: 4px; display: inline-block; }
+  .c-behavior { background: var(--blue-bg); color: var(--blue); }
+  .c-technique { background: var(--toast-orange-bg); color: var(--toast-orange); }
+  .c-results { background: var(--green-bg); color: var(--green); }
+  .footer { text-align: center; padding: 20px; font-size: 12px; color: var(--gray-400); }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-left">
+    <a href="../index.html">&larr; Back to Dashboard</a>
+    <h1>Jasmine Rieger</h1>
+  </div>
+  <div class="header-right">April 2026 — Data as of Apr 8, 2026</div>
+</div>
+<div class="content">
+<div class="scorecard">
+<div class="sc-card"><div class="label">MTD ARR</div><div class="value">$21,339</div><div class="sub">of $62,000</div></div>
+<div class="sc-card"><div class="label">Attainment</div><div class="value">34.4%</div><div class="sub">to quota</div></div>
+<div class="sc-card"><div class="label">Wins</div><div class="value">16</div><div class="sub">closed deals</div></div>
+<div class="sc-card"><div class="label">Demos</div><div class="value">25</div><div class="sub">held</div></div>
+<div class="sc-card"><div class="label">Opps</div><div class="value">22</div><div class="sub">created</div></div>
+<div class="sc-card"><div class="label">Avg ARR</div><div class="value">$1,334</div><div class="sub">per opp</div></div>
+<div class="sc-card"><div class="label">Demo:Win</div><div class="value">64.0%</div><div class="sub">conversion</div></div>
+<div class="sc-card"><div class="label">EC ARR</div><div class="value">$0.00</div><div class="sub">0 units</div></div>
+</div>
+<div class="section">
+  <h2><img src="../assets/Other_Award.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> 1:1 Coaching — Sandler Coach to Success</h2>
+  <div class="two-col">
+    <div>
+      <div class="coaching-label c-behavior">Behavior (Activity)</div>
+      <ul class="coaching">
+        <li>Calls at 72/440 (16%) — significantly behind. Are there time management barriers?</li>
+        <li>Demos at 25/44 (57%) — not getting enough at-bats. Focus on booking more demos.</li>
+      </ul>
+      <div class="coaching-label c-technique" style="margin-top:16px">Technique (Conversion)</div>
+      <ul class="coaching">
+        <li>Demo:Win at 64% — room to improve close rate. Focus on commitment at end of demo.</li>
+        <li>Avg ARR per opp $1,334 (goal: $1,800) — selling smaller deals. Coach on attaching more products/bundling.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="coaching-label c-results">Results (Outcomes)</div>
+      <ul class="coaching">
+        <li>At 34% to quota — significantly behind. Need to diagnose: is it activity, pipeline, or conversion?</li>
+        <li>10 deals stale >14 days — pipeline needs cleaning. Which should be closed-lost vs. re-engaged?</li>
+      </ul>
+      <div class="coaching-label" style="margin-top:16px;background:var(--gray-100);color:var(--gray-700)">Suggested Coaching Questions</div>
+      <ul class="coaching">
+        <li>"Walk me through your top 3 deals this month — what needs to happen to close each one?"</li>
+        <li>"You have 10 deals sitting >14 days. Which ones are real and which should we close out?"</li>
+        <li>"What does your daily call block look like? Are you protecting that time?"</li>
+        <li>"On your last few deals, did you explore EC/Payroll and all available product bundles?"</li>
+        <li>"What's one thing you want to improve this week, and how can I help?"</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="two-col">
+<div class="section">
+  <h2><img src="../assets/phone.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Calls</h2>
+  <table>
+    <tr><td>Total Calls</td><td style="font-weight:600">72</td></tr>
+    <tr><td>Avg/Day</td><td>24.0</td></tr>
+    <tr><td>Conversations</td><td>12</td></tr>
+    <tr><td>Conv Rate</td><td>16.7%</td></tr>
+    <tr><td>Avg Duration</td><td>0m 53s</td></tr>
+    <tr><td>Voicemails</td><td>13</td></tr>
+  </table>
+</div>
+<div class="section">
+  <h2><img src="../assets/email.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Emails</h2>
+  <table>
+    <tr><td>Sent</td><td style="font-weight:600">30</td></tr>
+    <tr><td>Opened</td><td>22 (73.3%)</td></tr>
+    <tr><td>Replied</td><td>11 (36.7%)</td></tr>
+    <tr><td>Positive Replies</td><td>4</td></tr>
+    <tr><td>Personalization</td><td>86.7%</td></tr>
+    <tr><td>Clicked</td><td>2 (6.7%)</td></tr>
+  </table>
+</div>
+</div>
+<div class="section">
+  <h2><img src="../assets/percentage.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Stale Deals (10 deals &gt; 14 days)</h2>
+  <table>
+    <thead><tr><th>Account</th><th>Opportunity</th><th>Stage</th><th>Days</th><th>ARR</th><th>Next Step</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Back 9 Burgers LLC</strong></td><td style="font-size:12px">Back 9 Burgers - Mobile Order & Pay + KD</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">77d</td><td>$1,124</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Follow up with Shellie on 4/13. Cx NS: Review pricing</td></tr>
+      <tr><td><strong>Los Cebollines Grill - Parent Account</strong></td><td style="font-size:12px">Los Cebollines Grill - Parent Account - </td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--red);font-weight:600">58d</td><td>$1,680</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Sent break up email on 4/7. Continue follow ups. Cx N</td></tr>
+      <tr><td><strong>Los Cebollines Grill</strong></td><td style="font-size:12px">Los Cebollines Grill - Team Management A</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">56d</td><td>$1,788</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Sent break up email on 4/7. Continue follow ups. Cx N</td></tr>
+      <tr><td><strong>Taverna Tony</strong></td><td style="font-size:12px">Taverna Tony - Tips Manager (HOLDS LIST)</td><td style="font-size:12px">Open</td><td style="color:var(--red);font-weight:600">50d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Cx had to reschedule twice, but asked me to stay in touch be</td></tr>
+      <tr><td><strong>Cielo Karaoke Y Mas! Parent</strong></td><td style="font-size:12px">Cielo Karaoke Y Mas! Parent - Payroll - </td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">40d</td><td>$1,836</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Connected w/ Evan on 4/3 and asked him to confirm fol</td></tr>
+      <tr><td><strong>Truxton's - PARENT</strong></td><td style="font-size:12px">Truxton's - PARENT - Payroll - Parent</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">35d</td><td>$22,680</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Connected with Yelitza via email on 4/6. Addressed qu</td></tr>
+      <tr><td><strong>Smog City Long Beach</strong></td><td style="font-size:12px">Smog City Long Beach - Mobile Order & Pa</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--red);font-weight:600">35d</td><td>$828.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Follow up w/ Laurie and Greg on 4/8. Separate check i</td></tr>
+      <tr><td><strong>Papas and dogs restaurant</strong></td><td style="font-size:12px">Papas and Dogs Restaurant - Account Revi</td><td style="font-size:12px">Open</td><td style="color:var(--red);font-weight:600">33d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Cx ghosting. Working on reschedule.</td></tr>
+      <tr><td><strong>Wild Roots - Torrance</strong></td><td style="font-size:12px">Wild Roots - Torrance - Account Review</td><td style="font-size:12px">Open</td><td style="color:var(--yellow);font-weight:600">15d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Follow up on 4/8. Cx NS: Confirm availability for her</td></tr>
+      <tr><td><strong>Gin Rummy</strong></td><td style="font-size:12px">Gin Rummy - C&E + Sling Amendment</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">15d</td><td>$1,566</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Follow up w/ Monica and Dave on 4/9. Confirm they vie</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="section">
+  <h2><img src="../assets/dollar.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Recent Wins (16 this month)</h2>
+  <table>
+    <thead><tr><th>Account</th><th>Type</th><th>ARR</th><th>Close Date</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Truxton's - Westchester</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$2,400</td><td>4/8/2026</td></tr>
+      <tr><td><strong>The Craftsman - Redondo 2025</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$714.00</td><td>4/7/2026</td></tr>
+      <tr><td><strong>Great White - Venice</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$0.00</td><td>4/7/2026</td></tr>
+      <tr><td><strong>Paradise Bowls Manhattan Beach</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,365</td><td>4/3/2026</td></tr>
+      <tr><td><strong>Paradise Bowls - Marina Del Rey</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,365</td><td>4/3/2026</td></tr>
+      <tr><td><strong>Paradise Bowls - Hermosa Beach</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,365</td><td>4/3/2026</td></tr>
+      <tr><td><strong>Rutts Hawaiian Cafe</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,260</td><td>4/3/2026</td></tr>
+      <tr><td><strong>Rutts Hawaiian Cafe and Catering - Gardena</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,260</td><td>4/3/2026</td></tr>
+      <tr><td><strong>Tuts Egyptian Cuisine</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,260</td><td>4/3/2026</td></tr>
+      <tr><td><strong>Proudly Serving - Redondo Beach</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$390.00</td><td>4/3/2026</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="footer">Growth Sales Dashboard — Jasmine Rieger | Generated Apr 08, 2026</div>
+</body></html>
