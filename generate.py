@@ -144,11 +144,17 @@ def generate(data_dir):
     month_name = datetime(now.year, int(month_num), 1).strftime("%B %Y")
     data_date = f"{month_name[:3]} {int(day_num)}, {now.year}"
 
-    # Figure out business days in month for pacing
+    # Calculate actual business days (Mon-Fri) in the month and how many have passed
+    import calendar
+    year = now.year
+    m = int(month_num)
     day_of_month = int(day_num)
-    # Approximate business days in a month
-    total_biz_days = 22
-    expected_pct = (day_of_month / 30) * 100  # rough pacing expectation
+    total_days_in_month = calendar.monthrange(year, m)[1]
+    total_biz_days = sum(1 for d in range(1, total_days_in_month + 1)
+                         if calendar.weekday(year, m, d) < 5)
+    biz_days_passed = sum(1 for d in range(1, day_of_month + 1)
+                          if calendar.weekday(year, m, d) < 5)
+    expected_pct = (biz_days_passed / total_biz_days) * 100 if total_biz_days else 0
 
     # Read CSVs
     km_file = list(data_dir.glob(f"*Key.Metrics*"))[0]
@@ -289,7 +295,7 @@ def generate(data_dir):
     html.append(f"""
 <div class="kpi-banner">
   <div class="kpi-card"><div class="label">Team MTD ACV</div><div class="value">{fmt_money(team_arr)}</div><div class="sub">of {fmt_money(team_quota)} quota</div></div>
-  <div class="kpi-card"><div class="label">Attainment</div><div class="value">{fmt_pct(team_attainment)}</div><div class="sub">Day {day_of_month}/{total_biz_days}</div></div>
+  <div class="kpi-card"><div class="label">Attainment</div><div class="value">{fmt_pct(team_attainment)}</div><div class="sub">Working Day {biz_days_passed}/{total_biz_days}</div></div>
   <div class="kpi-card"><div class="label">Team Pacing</div><div class="value" style="color:{pacing_color}">{fmt_pct(team_pacing_val)}</div><div class="sub">{pacing_label}</div></div>
   <div class="kpi-card"><div class="label">Closed Deals</div><div class="value">{team_wins_count}</div><div class="sub">MTD</div></div>
   <div class="kpi-card"><div class="label">Open Pipeline</div><div class="value">{fmt_money(total_pipeline)}</div><div class="sub">{total_open_deals} opps</div></div>
@@ -365,7 +371,7 @@ def generate(data_dir):
         <tbody>
 """)
     opp_pct = (total_opps / total_opp_goal * 100) if total_opp_goal else 0
-    html.append(f'<tr><td>Total Opps Created</td><td>{total_opp_goal}</td><td>{total_opps}</td><td>{fmt_pct(opp_pct)}</td><td>{pacing_badge(opp_pct, day_of_month, 30)}</td></tr>\n')
+    html.append(f'<tr><td>Total Opps Created</td><td>{total_opp_goal}</td><td>{total_opps}</td><td>{fmt_pct(opp_pct)}</td><td>{pacing_badge(opp_pct, biz_days_passed, total_biz_days)}</td></tr>\n')
     html.append(f'<tr><td>Opps Created Per Rep</td><td>{total_opp_goal/len(metrics):.0f}</td><td>{opps_per_rep:.1f}</td><td></td><td></td></tr>\n')
     avg_arr_color = pct_color(avg_arr_per_opp / 1800 * 100, 100, 80)
     html.append(f'<tr><td>Avg ARR</td><td>$1,800</td><td style="font-weight:600">{fmt_money(avg_arr_per_opp)}</td><td style="color:{avg_arr_color};font-weight:600">{fmt_pct(avg_arr_per_opp/1800*100)}</td><td></td></tr>\n')
@@ -373,15 +379,15 @@ def generate(data_dir):
     html.append(f'<tr><td>Opp:Demo Conversion</td><td></td><td>{fmt_pct(team_opp_demo)}</td><td></td><td></td></tr>\n')
     html.append(f'<tr><td>NBR Referral Opps (total)</td><td></td><td>{total_nbr}</td><td></td><td></td></tr>\n')
     ss_pct = (total_ss / team_ss_goal * 100) if team_ss_goal else 0
-    html.append(f'<tr><td>SS Opps (total)</td><td>{team_ss_goal}</td><td>{total_ss}</td><td>{fmt_pct(ss_pct)}</td><td>{pacing_badge(ss_pct, day_of_month, 30)}</td></tr>\n')
+    html.append(f'<tr><td>SS Opps (total)</td><td>{team_ss_goal}</td><td>{total_ss}</td><td>{fmt_pct(ss_pct)}</td><td>{pacing_badge(ss_pct, biz_days_passed, total_biz_days)}</td></tr>\n')
     wins_pct = (team_wins_count / total_wins_goal * 100) if total_wins_goal else 0
-    html.append(f'<tr><td>Total Wins</td><td>{total_wins_goal}</td><td>{team_wins_count}</td><td>{fmt_pct(wins_pct)}</td><td>{pacing_badge(wins_pct, day_of_month, 30)}</td></tr>\n')
+    html.append(f'<tr><td>Total Wins</td><td>{total_wins_goal}</td><td>{team_wins_count}</td><td>{fmt_pct(wins_pct)}</td><td>{pacing_badge(wins_pct, biz_days_passed, total_biz_days)}</td></tr>\n')
     total_demos_actual = sum(int(r.get("Demos", "0") or 0) for r in metrics)
     demos_pct = (total_demos_actual / total_demo_goal * 100) if total_demo_goal else 0
-    html.append(f'<tr><td>Total Demos</td><td>{total_demo_goal}</td><td>{total_demos_actual}</td><td>{fmt_pct(demos_pct)}</td><td>{pacing_badge(demos_pct, day_of_month, 30)}</td></tr>\n')
+    html.append(f'<tr><td>Total Demos</td><td>{total_demo_goal}</td><td>{total_demos_actual}</td><td>{fmt_pct(demos_pct)}</td><td>{pacing_badge(demos_pct, biz_days_passed, total_biz_days)}</td></tr>\n')
     total_calls_actual = sum(int(calls_by_name.get(r["Rep Name"], {}).get("calls", "0") or 0) for r in metrics)
     calls_pct = (total_calls_actual / total_call_goal * 100) if total_call_goal else 0
-    html.append(f'<tr><td>Total Calls</td><td>{total_call_goal}</td><td>{total_calls_actual}</td><td>{fmt_pct(calls_pct)}</td><td>{pacing_badge(calls_pct, day_of_month, 30)}</td></tr>\n')
+    html.append(f'<tr><td>Total Calls</td><td>{total_call_goal}</td><td>{total_calls_actual}</td><td>{fmt_pct(calls_pct)}</td><td>{pacing_badge(calls_pct, biz_days_passed, total_biz_days)}</td></tr>\n')
     html.append("""        </tbody></table>
       <table style="margin-top:12px">
         <thead><tr><th>People</th><th>Goal</th><th>Actual</th><th>Status</th></tr></thead>
@@ -412,7 +418,7 @@ def generate(data_dir):
         wins_count = int(r.get("Wins", "0") or 0)
         bar_w = min(pct, 100)
         color = bar_color(pct, expected_pct)
-        badge = pacing_badge(pct, day_of_month, 30)
+        badge = pacing_badge(pct, biz_days_passed, total_biz_days)
         html.append(f'<tr><td><strong>{rep_link(name)}</strong></td><td style="font-size:12px;color:var(--gray-500)">{role_display}</td><td>{fmt_money(quota)}</td><td><strong>{fmt_money(arr)}</strong></td><td>{fmt_pct(pct)}</td><td><div class="progress-bar"><div class="progress-fill" style="width:{bar_w:.1f}%;background:{color}"></div></div></td><td>{wins_count}</td><td>{badge}</td></tr>\n')
 
     html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{len(metrics)} AEs</td><td>{fmt_money(team_quota)}</td><td>{fmt_money(team_arr)}</td><td>{fmt_pct(team_attainment)}</td><td></td><td>{team_wins_count}</td><td></td></tr>\n')
@@ -437,8 +443,8 @@ def generate(data_dir):
         pct = parse_pct(r.get("SS Opps Created % to Goal", "0"))
         team_ss += ss
         team_ss_goal += goal
-        _, ss_pace, _, _ = pace_actual_vs_expected(ss, goal, day_of_month, total_biz_days)
-        pace_badge = pacing_badge(pct, day_of_month, 30)
+        _, ss_pace, _, _ = pace_actual_vs_expected(ss, goal, biz_days_passed, total_biz_days)
+        pace_badge = pacing_badge(pct, biz_days_passed, total_biz_days)
         html.append(f'<tr><td><strong>{name}</strong></td><td>{ss}</td><td>{goal}</td><td>{fmt_pct(pct)}</td><td>{pace_badge}</td></tr>\n')
     html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{team_ss}</td><td>{team_ss_goal}</td><td></td><td></td></tr>\n')
     html.append("        </tbody></table>\n    </div>\n")
@@ -495,7 +501,7 @@ def generate(data_dir):
         total_ec_units += units
         total_ec_arr_sum += ec_arr
         total_ec_goal_sum += ec_goal
-        ec_badge = pacing_badge(ec_pct, day_of_month, 30)
+        ec_badge = pacing_badge(ec_pct, biz_days_passed, total_biz_days)
         html.append(f'<tr><td><strong>{name}</strong></td><td>{units}</td><td>{fmt_money(ec_arr)}</td><td>{fmt_money(ec_goal)}</td><td>{fmt_pct(ec_pct)}</td><td>{ec_badge}</td></tr>\n')
     total_ec_pct = (total_ec_arr_sum / total_ec_goal_sum * 100) if total_ec_goal_sum else 0
     html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{total_ec_units}</td><td>{fmt_money(total_ec_arr_sum)}</td><td>{fmt_money(total_ec_goal_sum)}</td><td>{fmt_pct(total_ec_pct)}</td><td></td></tr>\n')
@@ -650,7 +656,7 @@ def generate(data_dir):
         html.append(f'<div class="forecast-bar"><div class="forecast-bar-name">{name}</div><div class="forecast-bar-track"><div class="forecast-bar-fill" style="width:{bar_w:.1f}%;background:{color}"></div><div class="pace-line" style="left:{pace_pct:.1f}%"></div></div><div class="forecast-bar-label">{fmt_money(quota)}</div><div class="forecast-bar-label">{fmt_pct(pct)}</div></div>\n')
 
     html.append(f'<div class="forecast-bar" style="margin-top:12px;padding-top:12px;border-top:2px solid var(--gray-300)"><div class="forecast-bar-name" style="font-weight:800">TEAM TOTAL</div><div class="forecast-bar-track"><div class="forecast-bar-fill" style="width:{min(team_attainment, 100):.1f}%;background:var(--toast-orange)"></div><div class="pace-line" style="left:{pace_pct:.1f}%"></div></div><div class="forecast-bar-label">{fmt_money(team_quota)}</div><div class="forecast-bar-label">{fmt_pct(team_attainment)}</div></div>\n')
-    html.append(f'  <p style="margin-top:12px;font-size:13px;color:var(--gray-500)">&#x25BC; = Expected pace (Day {day_of_month}/{total_biz_days})</p>\n</div>\n')
+    html.append(f'  <p style="margin-top:12px;font-size:13px;color:var(--gray-500)">&#x25BC; = Expected pace (Working Day {biz_days_passed}/{total_biz_days})</p>\n</div>\n')
 
     # Footer
     generated = datetime.now().strftime("%b %d, %Y")
@@ -761,13 +767,11 @@ def generate(data_dir):
 
         # Behavior analysis (activity) — pace by working day
         # ~22 working days/month, figure out how many working days have passed
-        biz_days_passed = day_of_month  # rough; could refine with actual calendar
-        biz_days_in_month = total_biz_days  # 22
-        pace_factor = biz_days_passed / biz_days_in_month if biz_days_in_month else 1
+        pace_factor = biz_days_passed / total_biz_days if total_biz_days else 1
 
         behavior_items = []
         call_goal_mo = int(r.get("Call Goal", "0") or 0)
-        call_goal_daily = round(call_goal_mo / biz_days_in_month) if biz_days_in_month else 0
+        call_goal_daily = round(call_goal_mo / total_biz_days) if total_biz_days else 0
         call_goal_weekly = call_goal_daily * 5
         call_expected = round(call_goal_mo * pace_factor)
         call_actual = rep_data["calls"]
