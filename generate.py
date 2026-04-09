@@ -819,16 +819,19 @@ def generate(data_dir):
         if not technique_items:
             technique_items.append("Conversion rates and deal size are solid. Focus on maintaining consistency.")
 
-        # Results analysis
+        # Results analysis — compare against working day pace, not raw monthly %
         results_items = []
+        pace_ratio = arr_pct / expected_pct if expected_pct else 0  # >1 = ahead of pace
         if arr_pct >= 100:
-            results_items.append(f"At {arr_pct:.0f}% to quota — crushing it. What's working that we can share with the team?")
-        elif arr_pct >= 80:
-            results_items.append(f"At {arr_pct:.0f}% to quota — in striking distance. What deals can we push to close this month?")
-        elif arr_pct >= 50:
-            results_items.append(f"At {arr_pct:.0f}% to quota — needs acceleration. Review pipeline and prioritize highest-probability deals.")
+            results_items.append(f"At {arr_pct:.0f}% to quota — already hit goal. What's working that we can share with the team?")
+        elif pace_ratio >= 1.2:
+            results_items.append(f"At {arr_pct:.0f}% to quota ({pace_ratio:.1f}x pace on working day {biz_days_passed}/{total_biz_days}) — well ahead of pace. Keep momentum.")
+        elif pace_ratio >= 1.0:
+            results_items.append(f"At {arr_pct:.0f}% to quota (on pace for working day {biz_days_passed}/{total_biz_days}) — tracking well. What deals can we push to close this month?")
+        elif pace_ratio >= 0.8:
+            results_items.append(f"At {arr_pct:.0f}% to quota ({pace_ratio:.1f}x pace on working day {biz_days_passed}/{total_biz_days}) — slightly behind pace. Review pipeline and prioritize highest-probability deals.")
         else:
-            results_items.append(f"At {arr_pct:.0f}% to quota — significantly behind. Need to diagnose: is it activity, pipeline, or conversion?")
+            results_items.append(f"At {arr_pct:.0f}% to quota ({pace_ratio:.1f}x pace on working day {biz_days_passed}/{total_biz_days}) — behind pace. Need to diagnose: is it activity, pipeline, or conversion?")
 
         stale_count_rep = len(rep_stale)
         if stale_count_rep > 5:
@@ -950,7 +953,7 @@ def generate(data_dir):
         # Sandler coaching questions based on data
         rp.append('      <div class="coaching-label" style="margin-top:16px;background:var(--gray-100);color:var(--gray-700)">Suggested Coaching Questions</div>\n')
         rp.append('      <ul class="coaching">\n')
-        if arr_pct < 80:
+        if pace_ratio < 0.8:
             rp.append('        <li>"Walk me through your top 3 deals this month — what needs to happen to close each one?"</li>\n')
         if demo_win > 0 and demo_win < 60:
             rp.append('        <li>"After your last demo, what was the prospect\'s commitment? Did you get a clear next step?"</li>\n')
