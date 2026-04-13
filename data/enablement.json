@@ -1,14 +1,14 @@
 {
-  "scraped_date": "2026-04-08",
-  "team_completion": 87,
+  "scraped_date": "2026-04-13",
+  "team_completion": 86,
   "team_avg_grade": 86,
   "reps": [
-    {"name": "Chris Byrnes", "completion": 98, "avg_grade": 92, "failed": 0, "overdue": 0, "needs_grading": 0},
-    {"name": "Danny Martinez", "completion": 82, "avg_grade": 87, "failed": 1, "overdue": 0, "needs_grading": 2},
-    {"name": "Eleni Lembesis", "completion": 86, "avg_grade": 85, "failed": 0, "overdue": 1, "needs_grading": 1},
-    {"name": "Jasmine Rieger", "completion": 91, "avg_grade": 95, "failed": 0, "overdue": 0, "needs_grading": 0},
-    {"name": "Max Linder", "completion": 84, "avg_grade": 91, "failed": 0, "overdue": 0, "needs_grading": 0},
-    {"name": "Thomas Jensen", "completion": 75, "avg_grade": 86, "failed": 0, "overdue": 0, "needs_grading": 0},
-    {"name": "Tyler Stevens", "completion": 83, "avg_grade": 73, "failed": 0, "overdue": 0, "needs_grading": 0}
+    {"name": "Chris Byrnes", "completion": 96, "avg_grade": 92, "failed": 0, "overdue": 0, "needs_grading": 0},
+    {"name": "Danny Martinez", "completion": 80, "avg_grade": 87, "failed": 1, "overdue": 0, "needs_grading": 2},
+    {"name": "Eleni Lembesis", "completion": 83, "avg_grade": 85, "failed": 0, "overdue": 1, "needs_grading": 1},
+    {"name": "Jasmine Rieger", "completion": 90, "avg_grade": 95, "failed": 0, "overdue": 0, "needs_grading": 0},
+    {"name": "Max Linder", "completion": 81, "avg_grade": 91, "failed": 0, "overdue": 0, "needs_grading": 0},
+    {"name": "Thomas Jensen", "completion": 76, "avg_grade": 86, "failed": 0, "overdue": 0, "needs_grading": 0},
+    {"name": "Tyler Stevens", "completion": 82, "avg_grade": 73, "failed": 0, "overdue": 0, "needs_grading": 0}
   ]
 }
