@@ -639,7 +639,7 @@ def generate(data_dir):
     html.append("    </tbody></table>\n</div>\n")
 
     # ---- Forecast vs Quota bars ----
-    pace_pct = (day_of_month / 30) * 100
+    pace_pct = expected_pct
     html.append("""
 <div class="section">
   <div class="section-title"><img src="assets/trending-up.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Forecast vs Quota — Pacing</div>
