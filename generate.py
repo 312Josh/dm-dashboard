@@ -22,10 +22,14 @@ def read_csv(path):
 
 
 def parse_pct(s):
-    """Parse '28.4%' -> 28.4, or return 0.0"""
+    """Parse '28.4%' -> 28.4, or decimal fraction '0.284' -> 28.4, or return 0.0"""
     if not s:
         return 0.0
-    return float(s.replace("%", "").replace(",", ""))
+    has_pct_sign = "%" in s
+    val = float(s.replace("%", "").replace(",", ""))
+    if not has_pct_sign and -1 <= val <= 1:
+        val *= 100
+    return val
 
 
 def parse_money(s):
