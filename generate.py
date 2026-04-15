@@ -292,12 +292,17 @@ def generate(data_dir):
 
     # KPI Banner
     pacing_color = "var(--red)" if team_pacing_val < expected_pct else "var(--green)"
-    pacing_label = "Behind pace" if team_pacing_val < expected_pct else "On track"
+    pace_target = team_quota * expected_pct / 100
+    pace_delta = team_arr - pace_target
+    if pace_delta < 0:
+        pacing_label = f"Behind by {fmt_money(-pace_delta)}"
+    else:
+        pacing_label = f"Ahead by {fmt_money(pace_delta)}"
     html.append(f"""
 <div class="kpi-banner">
   <div class="kpi-card"><div class="label">Team MTD ACV</div><div class="value">{fmt_money(team_arr)}</div><div class="sub">of {fmt_money(team_quota)} quota</div></div>
   <div class="kpi-card"><div class="label">Attainment</div><div class="value">{fmt_pct(team_attainment)}</div><div class="sub">Working Day {biz_days_passed}/{total_biz_days}</div></div>
-  <div class="kpi-card"><div class="label">Team Pacing</div><div class="value" style="color:{pacing_color}">{fmt_pct(team_pacing_val)}</div><div class="sub">{pacing_label}</div></div>
+  <div class="kpi-card"><div class="label">Pace Target</div><div class="value">{fmt_money(pace_target)}</div><div class="sub" style="color:{pacing_color};font-weight:600">{pacing_label}</div></div>
   <div class="kpi-card"><div class="label">Closed Deals</div><div class="value">{team_wins_count}</div><div class="sub">MTD</div></div>
   <div class="kpi-card"><div class="label">Open Pipeline</div><div class="value">{fmt_money(total_pipeline)}</div><div class="sub">{total_open_deals} opps</div></div>
   <div class="kpi-card"><div class="label">Stale (&gt;30d)</div><div class="value" style="color: var(--red)">{stale_count}</div><div class="sub">stuck deals</div></div>
