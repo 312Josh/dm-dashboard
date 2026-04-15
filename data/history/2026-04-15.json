@@ -1,16 +1,16 @@
 {
   "date": "2026-04-15",
-  "team_arr": 182250.12,
+  "team_arr": 204373.32,
   "team_quota": 447320,
-  "team_wins": 101,
+  "team_wins": 107,
   "team_pipeline": 399740.37000000005,
   "team_open_deals": 154,
   "reps": {
     "Chris Byrnes": {
-      "arr": 28500.96,
+      "arr": 46676.16,
       "quota": 62000.0,
-      "arr_pct": 45.96929032258064,
-      "wins": 19,
+      "arr_pct": 75.2841,
+      "wins": 24,
       "demos": 20,
       "opps": 24,
       "opp_demo": 83.3333,
@@ -91,10 +91,10 @@
       "emails_replied": 6
     },
     "Max Linder": {
-      "arr": 33531.0,
+      "arr": 37479.0,
       "quota": 55440.0,
-      "arr_pct": 60.48160173160173,
-      "wins": 13,
+      "arr_pct": 67.6028,
+      "wins": 14,
       "demos": 17,
       "opps": 20,
       "opp_demo": 85.0,
