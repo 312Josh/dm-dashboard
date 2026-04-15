@@ -1,15 +1,15 @@
 {
   "date": "2026-04-15",
-  "team_arr": 204373.32,
+  "team_arr": 183541.32,
   "team_quota": 447320,
   "team_wins": 107,
   "team_pipeline": 399740.37000000005,
   "team_open_deals": 154,
   "reps": {
     "Chris Byrnes": {
-      "arr": 46676.16,
+      "arr": 25844.16,
       "quota": 62000.0,
-      "arr_pct": 75.2841,
+      "arr_pct": 41.6841,
       "wins": 24,
       "demos": 20,
       "opps": 24,
