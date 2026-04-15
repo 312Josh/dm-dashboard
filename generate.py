@@ -301,7 +301,7 @@ def generate(data_dir):
     html.append(f"""
 <div class="kpi-banner">
   <div class="kpi-card"><div class="label">Team MTD ACV</div><div class="value">{fmt_money(team_arr)}</div><div class="sub">of {fmt_money(team_quota)} quota</div></div>
-  <div class="kpi-card"><div class="label">Attainment</div><div class="value">{fmt_pct(team_attainment)}</div><div class="sub">Working Day {biz_days_passed}/{total_biz_days}</div></div>
+  <div class="kpi-card"><div class="label">Attainment</div><div class="value">{fmt_pct(team_attainment)}</div><div class="sub">Working Day {biz_days_passed}/{total_biz_days} &middot; pace {fmt_pct(expected_pct)}</div></div>
   <div class="kpi-card"><div class="label">Pace Target</div><div class="value">{fmt_money(pace_target)}</div><div class="sub" style="color:{pacing_color};font-weight:600">{pacing_label}</div></div>
   <div class="kpi-card"><div class="label">Closed Deals</div><div class="value">{team_wins_count}</div><div class="sub">MTD</div></div>
   <div class="kpi-card"><div class="label">Open Pipeline</div><div class="value">{fmt_money(total_pipeline)}</div><div class="sub">{total_open_deals} opps</div></div>
