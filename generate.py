@@ -36,7 +36,11 @@ def parse_money(s):
     """Parse '$17,625' or '17625.00' -> 17625.0"""
     if not s:
         return 0.0
-    return float(s.replace("$", "").replace(",", ""))
+    cleaned = s.replace("$", "").replace(",", "")
+    try:
+        return float(cleaned)
+    except ValueError:
+        return 0.0
 
 
 def fmt_money(v):
