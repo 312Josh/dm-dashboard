@@ -16,10 +16,50 @@
     "Noble Rice- Sparkmans",
     "Kinjo"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.noblericeco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.noblericeco.com/": {
+      "url": "https://www.noblericeco.com/",
+      "html_bytes": 138131,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/noble-rice-sparkmans-615-channelside-dr-ste-112/giftcards"
+      }
+    },
+    "https://www.noblericeco.com/menu": {
+      "url": "https://www.noblericeco.com/menu",
+      "html_bytes": 87858,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.noblericeco.com/gift-cards": {
+      "url": "https://www.noblericeco.com/gift-cards",
+      "html_bytes": 78273,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/noble-rice-sparkmans-615-channelside-dr-ste-112/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/noble-rice-sparkmans-615-channelside-dr-ste-112/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

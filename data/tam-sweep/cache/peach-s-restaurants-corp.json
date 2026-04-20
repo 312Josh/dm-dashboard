@@ -19,10 +19,40 @@
     "Peach's 10 SR64",
     "Peach's 4 University"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://peachs.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://peachs.net/": {
+      "url": "https://peachs.net/",
+      "html_bytes": 119851,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/peachs-1-manatee",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://peachs.net/menu/": {
+      "url": "https://peachs.net/menu/",
+      "html_bytes": 129352,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/peachs-1-manatee",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/peachs-1-manatee",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

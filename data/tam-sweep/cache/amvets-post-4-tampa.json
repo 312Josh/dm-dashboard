@@ -14,9 +14,20 @@
   "location_names": [
     "AmVets Post 4 Tampa"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://amvetspost4tampa.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://amvetspost4tampa.org/": {
+      "url": "https://amvetspost4tampa.org/",
+      "html_bytes": 75025,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

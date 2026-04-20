@@ -14,10 +14,26 @@
   "location_names": [
     "The Wharf Pass-A-Grille"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://wharfpag.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wharfpag.com/": {
+      "url": "https://wharfpag.com/",
+      "html_bytes": 111278,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

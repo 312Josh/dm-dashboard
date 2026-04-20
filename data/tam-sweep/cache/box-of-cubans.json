@@ -16,9 +16,20 @@
     "Box Of Cubans NEW MUO 2024",
     "Box of Cubans 2"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://boxofcubans.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://boxofcubans.com/": {
+      "url": "https://boxofcubans.com/",
+      "html_bytes": 182091,
+      "fingerprints": {
+        "website_cms": "SpotHopper"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

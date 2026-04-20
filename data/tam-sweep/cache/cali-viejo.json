@@ -14,9 +14,28 @@
   "location_names": [
     "Cali Viejo"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://caliviejo.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://caliviejo.com": {
+      "url": "https://caliviejo.com",
+      "html_bytes": 209904,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://caliviejo.com/menu": {
+      "url": "https://caliviejo.com/menu",
+      "html_bytes": 383475,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

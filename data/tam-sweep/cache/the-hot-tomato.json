@@ -15,9 +15,18 @@
     "The Sandwich Shop of Lithia",
     "The hot tomato"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://thehottomato.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thehottomato.com/": {
+      "url": "https://thehottomato.com/",
+      "html_bytes": 4843,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

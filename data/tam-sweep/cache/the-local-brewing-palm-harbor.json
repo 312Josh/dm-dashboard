@@ -15,10 +15,34 @@
     "The Local Brewing Company 2",
     "The Local Brewing Company - Palm Harbor"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://lbcpalmharbor.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lbcpalmharbor.com/": {
+      "url": "https://lbcpalmharbor.com/",
+      "html_bytes": 163798,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-local-brewing-company-palm-harbo-35631-us-highway-19-north",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/the-local-brewing-company-palm-harbo-35631-us-highway-19-north/giftcards",
+        "toast_loyalty": "toasttab.com/the-local-brewing-company-palm-harbo-35631-us-highway-19-north/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/the-local-brewing-company-palm-harbo-35631-us-highway-19-north",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/the-local-brewing-company-palm-harbo-35631-us-highway-19-north/giftcards",
+    "toast_loyalty": "toasttab.com/the-local-brewing-company-palm-harbo-35631-us-highway-19-north/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

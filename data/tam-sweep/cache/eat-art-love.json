@@ -14,10 +14,53 @@
   "location_names": [
     "Eat Art Love"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://eatartlovestpete.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eatartlovestpete.com/": {
+      "url": "https://eatartlovestpete.com/",
+      "html_bytes": 180381,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/eatartlovestpete/giftcards"
+      }
+    },
+    "https://eatartlovestpete.com/menu/": {
+      "url": "https://eatartlovestpete.com/menu/",
+      "html_bytes": 65398,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/eatartlovestpete/giftcards"
+      }
+    },
+    "http://eatartlovestpete.com/menu/": {
+      "url": "http://eatartlovestpete.com/menu/",
+      "html_bytes": 65398,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/eatartlovestpete/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/eatartlovestpete/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

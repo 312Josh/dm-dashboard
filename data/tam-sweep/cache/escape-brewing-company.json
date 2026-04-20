@@ -15,9 +15,20 @@
     "Escape Brewing Company",
     "The Collective"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.escapebrewingcompany.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.escapebrewingcompany.com/": {
+      "url": "https://www.escapebrewingcompany.com/",
+      "html_bytes": 349476,
+      "fingerprints": {
+        "website_cms": "Squarespace"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

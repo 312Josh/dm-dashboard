@@ -14,9 +14,30 @@
   "location_names": [
     "The Golden Egg Cafe"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://goldnyolk.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://goldnyolk.com/": {
+      "url": "https://goldnyolk.com/",
+      "html_bytes": 209592,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "gift_cards": "Square Gift"
+      },
+      "toast": {}
+    },
+    "https://goldnyolk.com/menus/": {
+      "url": "https://goldnyolk.com/menus/",
+      "html_bytes": 156018,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "gift_cards": "Square Gift"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

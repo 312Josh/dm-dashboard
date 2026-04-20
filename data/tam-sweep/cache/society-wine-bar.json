@@ -16,9 +16,20 @@
     "Society Wine Bar",
     "Apollo Beach Wine Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://thesocietywinebar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thesocietywinebar.com/": {
+      "url": "https://thesocietywinebar.com/",
+      "html_bytes": 165347,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

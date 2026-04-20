@@ -14,9 +14,57 @@
   "location_names": [
     "Onward Reserve"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://onwardreserve.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://onwardreserve.com/": {
+      "url": "https://onwardreserve.com/",
+      "html_bytes": 578737,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    },
+    "https://onwardreserve.com/collections/books": {
+      "url": "https://onwardreserve.com/collections/books",
+      "html_bytes": 419644,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    },
+    "https://onwardreserve.com/collections/gift-cards": {
+      "url": "https://onwardreserve.com/collections/gift-cards",
+      "html_bytes": 249324,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    },
+    "https://onwardreserve.com/pages/rewards": {
+      "url": "https://onwardreserve.com/pages/rewards",
+      "html_bytes": 238424,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    },
+    "https://onwardreserve.com/pages/reserve-sale": {
+      "url": "https://onwardreserve.com/pages/reserve-sale",
+      "html_bytes": 1004320,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "The Brunchery"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://mybrunchery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mybrunchery.com/": {
+      "url": "https://mybrunchery.com/",
+      "html_bytes": 4842,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

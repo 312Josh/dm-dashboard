@@ -14,10 +14,57 @@
   "location_names": [
     "The Sacred Pepper"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://sacredpepper.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sacredpepper.com/": {
+      "url": "https://sacredpepper.com/",
+      "html_bytes": 136417,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-sacred-pepper-15405-north-dale-mabry-highway/giftcards"
+      }
+    },
+    "https://sacredpepper.com/menu/": {
+      "url": "https://sacredpepper.com/menu/",
+      "html_bytes": 181367,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-sacred-pepper-15405-north-dale-mabry-highway/giftcards"
+      }
+    },
+    "https://sacredpepper.com/reservations/": {
+      "url": "https://sacredpepper.com/reservations/",
+      "html_bytes": 128731,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-sacred-pepper-15405-north-dale-mabry-highway/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-sacred-pepper-15405-north-dale-mabry-highway/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -14,9 +14,18 @@
   "location_names": [
     "Lakewood Ranch Elks Lodge"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://lwrelks.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lwrelks.org/": {
+      "url": "https://lwrelks.org/",
+      "html_bytes": 141421,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

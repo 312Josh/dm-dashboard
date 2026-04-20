@@ -14,10 +14,53 @@
   "location_names": [
     "Tarpon Turtle Grill & Marina"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.tarponturtle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tarponturtle.com/": {
+      "url": "https://www.tarponturtle.com/",
+      "html_bytes": 487904,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tarpon-turtle-grill-marina-1513-lake-tarpon-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/436939f0-8fe5-4e31-a8c6-3ef34ea3bdf0"
+      }
+    },
+    "https://www.tarponturtle.com/menus": {
+      "url": "https://www.tarponturtle.com/menus",
+      "html_bytes": 345687,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tarpon-turtle-grill-marina-1513-lake-tarpon-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/436939f0-8fe5-4e31-a8c6-3ef34ea3bdf0"
+      }
+    },
+    "https://www.tarponturtle.com/reservations": {
+      "url": "https://www.tarponturtle.com/reservations",
+      "html_bytes": 433719,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tarpon-turtle-grill-marina-1513-lake-tarpon-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/436939f0-8fe5-4e31-a8c6-3ef34ea3bdf0"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/tarpon-turtle-grill-marina-1513-lake-tarpon-ave",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/436939f0-8fe5-4e31-a8c6-3ef34ea3bdf0"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

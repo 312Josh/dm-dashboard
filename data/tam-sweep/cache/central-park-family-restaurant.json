@@ -14,10 +14,41 @@
   "location_names": [
     "Central Park Family Restaurant"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.centralparkfamilyrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.centralparkfamilyrestaurant.com/": {
+      "url": "https://www.centralparkfamilyrestaurant.com/",
+      "html_bytes": 433524,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_loyalty": "toasttab.com/central-park-family-restaurant/rewardsSignup",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.centralparkfamilyrestaurant.com/menus": {
+      "url": "https://www.centralparkfamilyrestaurant.com/menus",
+      "html_bytes": 381468,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_loyalty": "toasttab.com/central-park-family-restaurant/rewardsSignup",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -14,9 +14,18 @@
   "location_names": [
     "Munchin Meals LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://munchin-meals.square.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://munchin-meals.square.site/": {
+      "url": "https://munchin-meals.square.site/",
+      "html_bytes": 45196,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

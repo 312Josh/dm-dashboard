@@ -14,9 +14,68 @@
   "location_names": [
     "Best NY Pizza Inc"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.bestnypizza.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bestnypizza.com": {
+      "url": "https://www.bestnypizza.com",
+      "html_bytes": 1263507,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.bestnypizza.com/menu": {
+      "url": "https://www.bestnypizza.com/menu",
+      "html_bytes": 1189908,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.bestnypizza.com/menu/nycheesepizza": {
+      "url": "https://www.bestnypizza.com/menu/nycheesepizza",
+      "html_bytes": 987370,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.bestnypizza.com/menu/meatpizza": {
+      "url": "https://www.bestnypizza.com/menu/meatpizza",
+      "html_bytes": 982877,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.bestnypizza.com/menu/veggiepizza": {
+      "url": "https://www.bestnypizza.com/menu/veggiepizza",
+      "html_bytes": 987891,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.bestnypizza.com/menu/bestpizza": {
+      "url": "https://www.bestnypizza.com/menu/bestpizza",
+      "html_bytes": 966886,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.bestnypizza.com/menu/margheritapizza": {
+      "url": "https://www.bestnypizza.com/menu/margheritapizza",
+      "html_bytes": 964126,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,10 +14,77 @@
   "location_names": [
     "Donnelly’s Dockside LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.donnellysdockside.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.donnellysdockside.com/": {
+      "url": "https://www.donnellysdockside.com/",
+      "html_bytes": 117098,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/donnellys-dockside-1050-deep-creek-ave/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.donnellysdockside.com/menus": {
+      "url": "https://www.donnellysdockside.com/menus",
+      "html_bytes": 103456,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/donnellys-dockside-1050-deep-creek-ave/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.donnellysdockside.com/menu": {
+      "url": "https://www.donnellysdockside.com/menu",
+      "html_bytes": 103456,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/donnellys-dockside-1050-deep-creek-ave/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.donnellysdockside.com/reservations": {
+      "url": "https://www.donnellysdockside.com/reservations",
+      "html_bytes": 108171,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/donnellys-dockside-1050-deep-creek-ave/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_gift": "toasttab.com/donnellys-dockside-1050-deep-creek-ave/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

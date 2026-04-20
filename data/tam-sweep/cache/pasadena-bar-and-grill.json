@@ -14,9 +14,20 @@
   "location_names": [
     "Pasadena Bar and Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://pasadenabar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pasadenabar.com/": {
+      "url": "https://pasadenabar.com/",
+      "html_bytes": 101474,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -15,10 +15,41 @@
     "The Social",
     "Seafire Grill - New"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.thesocialnpr.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thesocialnpr.com/": {
+      "url": "https://www.thesocialnpr.com/",
+      "html_bytes": 33618,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-social-5650-main-st/giftcards"
+      }
+    },
+    "https://www.thesocialnpr.com/menus/": {
+      "url": "https://www.thesocialnpr.com/menus/",
+      "html_bytes": 239000,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-social-5650-main-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-social-5650-main-st/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

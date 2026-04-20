@@ -15,9 +15,29 @@
     "Intermezzo Coffee and Cocktails",
     "Bar Mezzo"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.intermezzo.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.intermezzo.co/": {
+      "url": "https://www.intermezzo.co/",
+      "html_bytes": 107327,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.intermezzo.co/book-our-space": {
+      "url": "https://www.intermezzo.co/book-our-space",
+      "html_bytes": 92480,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "Cheesecake Chicks"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://thecheesecakechick.square.site"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thecheesecakechick.square.site": {
+      "url": "https://thecheesecakechick.square.site",
+      "html_bytes": 45130,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

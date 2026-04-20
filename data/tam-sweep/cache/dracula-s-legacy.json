@@ -15,9 +15,20 @@
     "Dracula's Legacy Wine Bar Tampa",
     "Dracula's Legacy Wine Bar St. Pete"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.draculaslegacywinebar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.draculaslegacywinebar.com/": {
+      "url": "https://www.draculaslegacywinebar.com/",
+      "html_bytes": 390026,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

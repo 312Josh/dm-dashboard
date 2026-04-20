@@ -14,9 +14,32 @@
   "location_names": [
     "Flavio's Brick Oven Pizza & Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.flaviosbrickovenandbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.flaviosbrickovenandbar.com/": {
+      "url": "https://www.flaviosbrickovenandbar.com/",
+      "html_bytes": 29360,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.flaviosbrickovenandbar.com/menu-flavios-siesta-key/menu-flavios-siesta-key": {
+      "url": "https://www.flaviosbrickovenandbar.com/menu-flavios-siesta-key/menu-flavios-siesta-key",
+      "html_bytes": 47970,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.flaviosbrickovenandbar.com/menu-flavios-siesta-key/happy-hour": {
+      "url": "https://www.flaviosbrickovenandbar.com/menu-flavios-siesta-key/happy-hour",
+      "html_bytes": 25643,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

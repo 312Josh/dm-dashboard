@@ -14,9 +14,36 @@
   "location_names": [
     "Cajun Cafe On the Bayou"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.cafeonthebayou.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cafeonthebayou.com": {
+      "url": "https://www.cafeonthebayou.com",
+      "html_bytes": 454361,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.cafeonthebayou.com/reservations": {
+      "url": "https://www.cafeonthebayou.com/reservations",
+      "html_bytes": 563300,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.cafeonthebayou.com/menu": {
+      "url": "https://www.cafeonthebayou.com/menu",
+      "html_bytes": 1269957,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

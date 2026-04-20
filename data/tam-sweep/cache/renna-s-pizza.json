@@ -16,9 +16,24 @@
     "Renna's Pizza - Jax Beach",
     "Renna's Pizza - Neptune Beach"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.rennaspizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.rennaspizza.com/": {
+      "url": "https://www.rennaspizza.com/",
+      "html_bytes": 33016,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.rennaspizza.com/menu/": {
+      "url": "https://www.rennaspizza.com/menu/",
+      "html_bytes": 43596,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

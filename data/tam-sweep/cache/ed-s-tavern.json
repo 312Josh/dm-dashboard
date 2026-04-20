@@ -16,10 +16,39 @@
     "Ed's Tavern 64",
     "Ed's Tavern - Parrish NEW"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://edstavernfl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://edstavernfl.com/": {
+      "url": "https://edstavernfl.com/",
+      "html_bytes": 116518,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/eds-tavern-lakewood-ranch-10719-rodeo-drive/giftcards"
+      }
+    },
+    "https://edstavernfl.com/menu/": {
+      "url": "https://edstavernfl.com/menu/",
+      "html_bytes": 204206,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/eds-tavern-lakewood-ranch-10719-rodeo-drive/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/eds-tavern-lakewood-ranch-10719-rodeo-drive/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

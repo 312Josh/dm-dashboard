@@ -16,9 +16,18 @@
     "Himes Breakfast House",
     "Himes Breakfast House - Riverview"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://himesbreakfasthouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://himesbreakfasthouse.com/": {
+      "url": "https://himesbreakfasthouse.com/",
+      "html_bytes": 4872,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

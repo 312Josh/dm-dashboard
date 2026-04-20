@@ -14,9 +14,18 @@
   "location_names": [
     "Shamrock's Ale House"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://shamrocksalehouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://shamrocksalehouse.com/": {
+      "url": "https://shamrocksalehouse.com/",
+      "html_bytes": 7220,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

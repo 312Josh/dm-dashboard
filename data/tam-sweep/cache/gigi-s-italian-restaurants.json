@@ -15,9 +15,20 @@
     "Gigi's Italian Restaurant - SPB",
     "Gigi's Italian Restaurant - Treasure Island"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://gigisstpete.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gigisstpete.com/": {
+      "url": "https://gigisstpete.com/",
+      "html_bytes": 40079,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

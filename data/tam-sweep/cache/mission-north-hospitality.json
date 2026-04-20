@@ -16,13 +16,76 @@
     "Mimi",
     "Lucky 8"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://1592srq.com/",
+    "https://mimisrq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://1592srq.com/": {
+      "url": "https://1592srq.com/",
+      "html_bytes": 128027,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/1592-wood-fired-kitchen-cocktails-1592-main-street/giftcards"
+      }
+    },
+    "https://1592srq.com/menu/": {
+      "url": "https://1592srq.com/menu/",
+      "html_bytes": 92516,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/1592-wood-fired-kitchen-cocktails-1592-main-street/giftcards"
+      }
+    },
+    "https://1592srq.com/reservations/": {
+      "url": "https://1592srq.com/reservations/",
+      "html_bytes": 101801,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/1592-wood-fired-kitchen-cocktails-1592-main-street/giftcards"
+      }
+    },
+    "https://mimisrq.com/": {
+      "url": "https://mimisrq.com/",
+      "html_bytes": 773376,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/1592-wood-fired-kitchen-cocktails-1592-main-street/giftcards",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_local": "toasttab.com/local/order"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "1592": "https://1592srq.com/",
+    "mimi": "https://mimisrq.com/"
+  }
 }

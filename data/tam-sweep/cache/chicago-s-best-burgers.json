@@ -14,9 +14,24 @@
   "location_names": [
     "Chicago's Best Burgers - FT"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://chicagosbestburgers.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://chicagosbestburgers.com/": {
+      "url": "https://chicagosbestburgers.com/",
+      "html_bytes": 625547,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://chicagosbestburgers.com/Content/reserve-cssec92ec92.css?v=": {
+      "url": "https://chicagosbestburgers.com/Content/reserve-cssec92ec92.css?v=",
+      "html_bytes": 625547,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

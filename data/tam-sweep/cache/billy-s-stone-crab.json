@@ -14,9 +14,18 @@
   "location_names": [
     "Billy's Stone Crab"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://billysstonecrab.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://billysstonecrab.com/": {
+      "url": "https://billysstonecrab.com/",
+      "html_bytes": 4868,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -16,13 +16,57 @@
     "Sam's pizza & Daily Cafe",
     "Atlas Pizza"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://thefountainheadtampa.com/",
+    "https://www.atlasgourmetpizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thefountainheadtampa.com/": {
+      "url": "https://thefountainheadtampa.com/",
+      "html_bytes": 83927,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://thefountainheadtampa.com/menus/": {
+      "url": "https://thefountainheadtampa.com/menus/",
+      "html_bytes": 63833,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://thefountainheadtampa.com/book-events/": {
+      "url": "https://thefountainheadtampa.com/book-events/",
+      "html_bytes": 69742,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.atlasgourmetpizza.com/": {
+      "url": "https://www.atlasgourmetpizza.com/",
+      "html_bytes": 102437,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.atlasgourmetpizza.com/assets/frontend/assets/css/tc/menu_product_modal.css": {
+      "url": "https://www.atlasgourmetpizza.com/assets/frontend/assets/css/tc/menu_product_modal.css",
+      "html_bytes": 8683,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "atlas": "https://www.atlasgourmetpizza.com/",
+    "fountainhead": "https://thefountainheadtampa.com/"
+  }
 }

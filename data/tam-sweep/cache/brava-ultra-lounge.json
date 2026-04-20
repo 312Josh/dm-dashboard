@@ -14,9 +14,39 @@
   "location_names": [
     "Brava Ultra Lounge"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.bravaultralounge.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bravaultralounge.com/": {
+      "url": "https://www.bravaultralounge.com/",
+      "html_bytes": 172259,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.bravaultralounge.com/menu-1": {
+      "url": "https://www.bravaultralounge.com/menu-1",
+      "html_bytes": 119508,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.bravaultralounge.com/menu-2": {
+      "url": "https://www.bravaultralounge.com/menu-2",
+      "html_bytes": 117470,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

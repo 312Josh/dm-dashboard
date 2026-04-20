@@ -14,10 +14,31 @@
   "location_names": [
     "JB's Seafood Food Truck"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.orderjbsseafood.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.orderjbsseafood.com/": {
+      "url": "https://www.orderjbsseafood.com/",
+      "html_bytes": 137398,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "http://order.chownow.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/34f3fe0f-f115-4df1-9278-413104f0d9bd",
+        "toast_oo_whitelabel_confirmed": "order.chownow.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "http://order.chownow.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/34f3fe0f-f115-4df1-9278-413104f0d9bd",
+    "toast_oo_whitelabel_confirmed": "order.chownow.com + toasttab string in HTML"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

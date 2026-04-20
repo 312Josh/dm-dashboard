@@ -15,9 +15,20 @@
     "Cafe Epicure",
     "Mediterraneo"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://cafeepicure.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cafeepicure.com/": {
+      "url": "https://cafeepicure.com/",
+      "html_bytes": 310531,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

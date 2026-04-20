@@ -14,10 +14,27 @@
   "location_names": [
     "The 1818 Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://the1818grill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://the1818grill.com/": {
+      "url": "https://the1818grill.com/",
+      "html_bytes": 303163,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-1818-grill/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-1818-grill/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

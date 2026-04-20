@@ -14,10 +14,50 @@
   "location_names": [
     "The Wine Vault"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.thewinevaultwc.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thewinevaultwc.com/": {
+      "url": "https://www.thewinevaultwc.com/",
+      "html_bytes": 77301,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-wine-bar-of-westchase-10112-montague-street/giftcards",
+        "toast_loyalty": "toasttab.com/the-wine-bar-of-westchase-10112-montague-street/rewardsSignup"
+      }
+    },
+    "https://www.thewinevaultwc.com/gift-cards-loyalty-program/": {
+      "url": "https://www.thewinevaultwc.com/gift-cards-loyalty-program/",
+      "html_bytes": 60719,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-wine-bar-of-westchase-10112-montague-street/giftcards",
+        "toast_loyalty": "toasttab.com/the-wine-bar-of-westchase-10112-montague-street/rewardsSignup"
+      }
+    },
+    "https://www.thewinevaultwc.com/wp-content/uploads/2025/06/Menu-PDF.pdf": {
+      "url": "https://www.thewinevaultwc.com/wp-content/uploads/2025/06/Menu-PDF.pdf",
+      "html_bytes": 10596725,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-wine-bar-of-westchase-10112-montague-street/giftcards",
+    "toast_loyalty": "toasttab.com/the-wine-bar-of-westchase-10112-montague-street/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

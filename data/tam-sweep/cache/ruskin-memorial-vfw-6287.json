@@ -14,9 +14,18 @@
   "location_names": [
     "Ruskin Memorial VFW 6287"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://vfw6287.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://vfw6287.org/": {
+      "url": "https://vfw6287.org/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

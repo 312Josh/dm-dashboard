@@ -15,10 +15,28 @@
     "The Urban Stillhouse",
     "The Urban Stillhouse - Somerset"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.theurbanstillhouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.theurbanstillhouse.com/": {
+      "url": "https://www.theurbanstillhouse.com/",
+      "html_bytes": 64197,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-urban-stillhouse-2232-5th-ave-s/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-urban-stillhouse-2232-5th-ave-s/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

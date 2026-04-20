@@ -14,10 +14,27 @@
   "location_names": [
     "Coco Wood Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://cocowoodgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cocowoodgrill.com/": {
+      "url": "https://cocowoodgrill.com/",
+      "html_bytes": 424589,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/cocowoodgrill/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/cocowoodgrill/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

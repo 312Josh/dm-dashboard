@@ -15,10 +15,39 @@
     "HaleLife Bakery South Tampa-New",
     "HaleLife Bakery Bayview"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.halelifebakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.halelifebakery.com/": {
+      "url": "https://www.halelifebakery.com/",
+      "html_bytes": 880097,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/halelife-bakery-bayview-11270-4th-st-n/giftcards"
+      }
+    },
+    "https://www.halelifebakery.com/order-online": {
+      "url": "https://www.halelifebakery.com/order-online",
+      "html_bytes": 1487518,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/halelife-bakery-bayview-11270-4th-st-n/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/halelife-bakery-bayview-11270-4th-st-n/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

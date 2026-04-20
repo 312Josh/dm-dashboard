@@ -14,9 +14,28 @@
   "location_names": [
     "Ambrosia Private Chef & Catering"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://ambrosiapcc.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ambrosiapcc.com": {
+      "url": "https://ambrosiapcc.com",
+      "html_bytes": 379920,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://ambrosiapcc.com/menu/": {
+      "url": "https://ambrosiapcc.com/menu/",
+      "html_bytes": 344718,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

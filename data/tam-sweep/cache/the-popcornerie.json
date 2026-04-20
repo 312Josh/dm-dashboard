@@ -15,9 +15,20 @@
     "Carmen M Torres dba The Popcornerie",
     "The Popcornerie"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://order.toasttab.com/online/the-popcornerie-9205-little-rd"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/the-popcornerie-9205-little-rd": {
+      "url": "https://order.toasttab.com/online/the-popcornerie-9205-little-rd",
+      "html_bytes": 5042,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -17,10 +17,32 @@
     "Kacey's Seafood & More - Fruitville",
     "Lazy Lobster - Longboat Key"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://lazylobsteroflongboat.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lazylobsteroflongboat.com/": {
+      "url": "https://lazylobsteroflongboat.com/",
+      "html_bytes": 168737,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/260dbd97-2cca-4314-80bc-7edd2e565945",
+        "toast_gift": "toasttab.com/lazy-lobster/giftcards",
+        "toast_loyalty": "toasttab.com/lazy-lobster/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/260dbd97-2cca-4314-80bc-7edd2e565945",
+    "toast_gift": "toasttab.com/lazy-lobster/giftcards",
+    "toast_loyalty": "toasttab.com/lazy-lobster/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

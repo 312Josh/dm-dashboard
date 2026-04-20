@@ -14,9 +14,28 @@
   "location_names": [
     "Jack Willies"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://jackwilliesbarandgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://jackwilliesbarandgrill.com/": {
+      "url": "https://jackwilliesbarandgrill.com/",
+      "html_bytes": 116774,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://jackwilliesbarandgrill.com/menu": {
+      "url": "https://jackwilliesbarandgrill.com/menu",
+      "html_bytes": 218979,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

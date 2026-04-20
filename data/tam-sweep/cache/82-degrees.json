@@ -14,9 +14,24 @@
   "location_names": [
     "82 Degrees Bar - Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.eatat82.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatat82.com": {
+      "url": "https://www.eatat82.com",
+      "html_bytes": 224767,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.eatat82.com/Content/reserve-css?v=": {
+      "url": "https://www.eatat82.com/Content/reserve-css?v=",
+      "html_bytes": 224434,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

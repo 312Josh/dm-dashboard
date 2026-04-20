@@ -16,10 +16,73 @@
     "Carmelita's Mexican Restaurant",
     "Christina's Restaurant"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.carmelitas.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.carmelitas.net/": {
+      "url": "https://www.carmelitas.net/",
+      "html_bytes": 49692,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/carmelitas-mexican-restaurant-st-pete-5211-park-st-n/giftcards",
+        "toast_oo_whitelabel_host": "https://order.spoton.com/",
+        "toast_oo_whitelabel_confirmed": "order.spoton.com + toasttab string in HTML"
+      }
+    },
+    "https://www.carmelitas.net/menus/": {
+      "url": "https://www.carmelitas.net/menus/",
+      "html_bytes": 153270,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/carmelitas-mexican-restaurant-st-pete-5211-park-st-n/giftcards"
+      }
+    },
+    "https://www.carmelitas.net/menu/dunedins-menu/": {
+      "url": "https://www.carmelitas.net/menu/dunedins-menu/",
+      "html_bytes": 113979,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/carmelitas-mexican-restaurant-st-pete-5211-park-st-n/giftcards"
+      }
+    },
+    "https://www.carmelitas.net/order-online/": {
+      "url": "https://www.carmelitas.net/order-online/",
+      "html_bytes": 35930,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.spoton.com/",
+        "toast_gift": "toasttab.com/carmelitas-mexican-restaurant-st-pete-5211-park-st-n/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.spoton.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/carmelitas-mexican-restaurant-st-pete-5211-park-st-n/giftcards",
+    "toast_oo_whitelabel_host": "https://order.spoton.com/",
+    "toast_oo_whitelabel_confirmed": "order.spoton.com + toasttab string in HTML"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

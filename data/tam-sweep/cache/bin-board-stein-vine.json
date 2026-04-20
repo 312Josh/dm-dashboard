@@ -15,13 +15,33 @@
     "Bin and Board",
     "The Stein & Vine"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.binandboard.com/",
+    "https://steinandvine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.binandboard.com/": {
+      "url": "https://www.binandboard.com/",
+      "html_bytes": 7154,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://steinandvine.com/": {
+      "url": "https://steinandvine.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "bin": "https://www.binandboard.com/",
+    "stein": "https://steinandvine.com/"
+  }
 }

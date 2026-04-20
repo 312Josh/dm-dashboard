@@ -14,10 +14,31 @@
   "location_names": [
     "Green Parrot"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://greenparrotrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://greenparrotrestaurant.com/": {
+      "url": "https://greenparrotrestaurant.com/",
+      "html_bytes": 255761,
+      "fingerprints": {},
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.spoton.com/"
+      }
+    },
+    "https://greenparrotrestaurant.com/menu": {
+      "url": "https://greenparrotrestaurant.com/menu",
+      "html_bytes": 1389271,
+      "fingerprints": {},
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.spoton.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.spoton.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

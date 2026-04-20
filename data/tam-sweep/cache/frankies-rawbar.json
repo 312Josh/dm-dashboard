@@ -14,9 +14,28 @@
   "location_names": [
     "Frankies Rawbar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://frankiesrawbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://frankiesrawbar.com/": {
+      "url": "https://frankiesrawbar.com/",
+      "html_bytes": 119809,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://frankiesrawbar.com/menu-2/": {
+      "url": "https://frankiesrawbar.com/menu-2/",
+      "html_bytes": 92712,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "Bella Java Cafe"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://bellajavadessertcafe.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bellajavadessertcafe.com": {
+      "url": "https://bellajavadessertcafe.com",
+      "html_bytes": 147,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

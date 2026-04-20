@@ -14,10 +14,27 @@
   "location_names": [
     "Pizza Joe's"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://pizza-joes.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pizza-joes.com/": {
+      "url": "https://pizza-joes.com/",
+      "html_bytes": 259837,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pizza-joes-a-taste-of-buffalo",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/pizza-joes-a-taste-of-buffalo",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

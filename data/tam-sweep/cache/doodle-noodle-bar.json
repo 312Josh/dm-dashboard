@@ -15,10 +15,38 @@
     "Doodle Noodle Bar",
     "Doodle Noodle Bar Fowler Ave"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.doodlenoodlebar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.doodlenoodlebar.com/": {
+      "url": "https://www.doodlenoodlebar.com/",
+      "html_bytes": 159725,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/doodlenoodlebar/giftcards"
+      }
+    },
+    "https://www.doodlenoodlebar.com/menu": {
+      "url": "https://www.doodlenoodlebar.com/menu",
+      "html_bytes": 116464,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/doodlenoodlebar/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

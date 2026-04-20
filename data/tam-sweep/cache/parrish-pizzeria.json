@@ -14,9 +14,28 @@
   "location_names": [
     "Parish Pizzeria new"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://parrishpizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://parrishpizza.com/": {
+      "url": "https://parrishpizza.com/",
+      "html_bytes": 107163,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://parrishpizza.com/menu/": {
+      "url": "https://parrishpizza.com/menu/",
+      "html_bytes": 88546,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

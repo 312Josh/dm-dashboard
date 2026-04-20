@@ -14,9 +14,36 @@
   "location_names": [
     "Skipper's Smokehouse"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://skipperssmokehouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://skipperssmokehouse.com/": {
+      "url": "https://skipperssmokehouse.com/",
+      "html_bytes": 83809,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://skipperssmokehouse.com/menu/": {
+      "url": "https://skipperssmokehouse.com/menu/",
+      "html_bytes": 204159,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://skipperssmokehouse.com/booking-agency/": {
+      "url": "https://skipperssmokehouse.com/booking-agency/",
+      "html_bytes": 59849,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

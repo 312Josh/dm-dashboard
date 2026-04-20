@@ -14,9 +14,20 @@
   "location_names": [
     "American Legion Post 273"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://amleg273.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://amleg273.com/": {
+      "url": "https://amleg273.com/",
+      "html_bytes": 249643,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "ARIPEKA ELKS"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://elks2520.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://elks2520.com/": {
+      "url": "https://elks2520.com/",
+      "html_bytes": 1717,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

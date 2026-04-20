@@ -14,9 +14,21 @@
   "location_names": [
     "The Oxbow"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://helmtampabay.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://helmtampabay.com/": {
+      "url": "https://helmtampabay.com/",
+      "html_bytes": 126807,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "reservations": "Tock"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

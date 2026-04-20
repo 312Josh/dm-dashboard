@@ -14,9 +14,24 @@
   "location_names": [
     "Mirnas Cuban Cuisine US 41"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.mirnascubancuisine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mirnascubancuisine.com/": {
+      "url": "https://www.mirnascubancuisine.com/",
+      "html_bytes": 26092,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.mirnascubancuisine.com/menu": {
+      "url": "https://www.mirnascubancuisine.com/menu",
+      "html_bytes": 23936,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

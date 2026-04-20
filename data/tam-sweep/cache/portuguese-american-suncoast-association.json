@@ -14,9 +14,18 @@
   "location_names": [
     "Portuguese American Suncoast Association"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "http://portuguese-suncoast.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://portuguese-suncoast.org/": {
+      "url": "http://portuguese-suncoast.org/",
+      "html_bytes": 5506,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

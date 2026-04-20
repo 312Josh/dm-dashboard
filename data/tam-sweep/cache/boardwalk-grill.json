@@ -14,9 +14,28 @@
   "location_names": [
     "Boardwalk Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://theboardwalkgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://theboardwalkgrill.com/": {
+      "url": "https://theboardwalkgrill.com/",
+      "html_bytes": 298701,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://theboardwalkgrill.com/menu": {
+      "url": "https://theboardwalkgrill.com/menu",
+      "html_bytes": 200513,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

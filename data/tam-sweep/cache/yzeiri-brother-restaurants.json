@@ -16,13 +16,56 @@
     "Apollonia Grill - Landings",
     "POST Kitchen Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.apolloniagrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.apolloniagrill.com/": {
+      "url": "https://www.apolloniagrill.com/",
+      "html_bytes": 46046,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/apollonia-grill-utc-8235-cooper-creek-blvd/giftcards"
+      }
+    },
+    "https://www.apolloniagrill.com/gift-cards/": {
+      "url": "https://www.apolloniagrill.com/gift-cards/",
+      "html_bytes": 37326,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/apollonia-grill-utc-8235-cooper-creek-blvd/giftcards"
+      }
+    },
+    "https://www.apolloniagrill.com/reservations/": {
+      "url": "https://www.apolloniagrill.com/reservations/",
+      "html_bytes": 37742,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/apollonia-grill-utc-8235-cooper-creek-blvd/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "apollonia": "https://www.apolloniagrill.com/"
+  }
 }

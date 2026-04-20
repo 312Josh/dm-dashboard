@@ -14,9 +14,21 @@
   "location_names": [
     "Post Card Inn On The Beach"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.pcibeachbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pcibeachbar.com/": {
+      "url": "https://www.pcibeachbar.com/",
+      "html_bytes": 31423,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

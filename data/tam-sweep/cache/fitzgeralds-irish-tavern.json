@@ -14,9 +14,24 @@
   "location_names": [
     "Fitzgeralds Irish Tavern"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://fitzgeraldstavern.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://fitzgeraldstavern.com/": {
+      "url": "https://fitzgeraldstavern.com/",
+      "html_bytes": 210559,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://fitzgeraldstavern.com/reservations": {
+      "url": "https://fitzgeraldstavern.com/reservations",
+      "html_bytes": 72620,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

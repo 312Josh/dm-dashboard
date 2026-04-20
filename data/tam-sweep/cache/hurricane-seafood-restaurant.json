@@ -14,10 +14,27 @@
   "location_names": [
     "Hurricane Seafood Restaurant"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://thehurricane.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thehurricane.com/": {
+      "url": "https://thehurricane.com/",
+      "html_bytes": 129511,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/hurricane-seafood-restaurant/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/hurricane-seafood-restaurant/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

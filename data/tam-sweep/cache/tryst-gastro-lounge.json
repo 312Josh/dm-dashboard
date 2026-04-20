@@ -14,9 +14,20 @@
   "location_names": [
     "Tryst Gastro Lounge"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://dinetryst.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dinetryst.com/": {
+      "url": "https://dinetryst.com/",
+      "html_bytes": 161479,
+      "fingerprints": {
+        "website_cms": "SpotHopper"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

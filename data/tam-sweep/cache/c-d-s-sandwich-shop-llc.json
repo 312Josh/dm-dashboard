@@ -14,9 +14,18 @@
   "location_names": [
     "C & D's Sandwich Shop LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "http://www.cdssandwichshop.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.cdssandwichshop.com": {
+      "url": "http://www.cdssandwichshop.com",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

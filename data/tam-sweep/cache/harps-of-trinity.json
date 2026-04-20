@@ -14,10 +14,39 @@
   "location_names": [
     "Harps Of Trinity"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://harpsoftrinity101.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://harpsoftrinity101.com/": {
+      "url": "https://harpsoftrinity101.com/",
+      "html_bytes": 822421,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/harps-of-trinity/giftcards"
+      }
+    },
+    "https://harpsoftrinity101.com/menu/": {
+      "url": "https://harpsoftrinity101.com/menu/",
+      "html_bytes": 823020,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/harps-of-trinity/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/harps-of-trinity/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

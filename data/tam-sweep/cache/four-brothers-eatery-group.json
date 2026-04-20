@@ -15,9 +15,18 @@
     "Pita Plus",
     "Grape Leaf Express"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.fourbrotherseatery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fourbrotherseatery.com/": {
+      "url": "https://www.fourbrotherseatery.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

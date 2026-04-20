@@ -14,9 +14,24 @@
   "location_names": [
     "The Ozona Pig"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://theozonapig.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://theozonapig.com/": {
+      "url": "https://theozonapig.com/",
+      "html_bytes": 28042,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://theozonapig.com/menus.html": {
+      "url": "https://theozonapig.com/menus.html",
+      "html_bytes": 24016,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

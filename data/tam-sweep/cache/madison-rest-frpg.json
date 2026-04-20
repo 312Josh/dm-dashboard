@@ -14,9 +14,28 @@
   "location_names": [
     "MADISON REST. FRPG"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.madisonnpr.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.madisonnpr.com/": {
+      "url": "https://www.madisonnpr.com/",
+      "html_bytes": 689518,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.madisonnpr.com/menu": {
+      "url": "https://www.madisonnpr.com/menu",
+      "html_bytes": 381333,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

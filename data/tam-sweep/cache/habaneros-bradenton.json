@@ -14,9 +14,18 @@
   "location_names": [
     "Avocado's Cocina Mexicana & Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "http://www.habanerosbradenton.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.habanerosbradenton.com/": {
+      "url": "http://www.habanerosbradenton.com/",
+      "html_bytes": 15014,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

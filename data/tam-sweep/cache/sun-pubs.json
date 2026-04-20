@@ -26,14 +26,191 @@
     "Caddy's John's Pass"
   ],
   "websites": [
-    ""
+    "https://caddys.com/",
+    "https://macdintons.com/",
+    "https://grovesoho.com/",
+    "https://www.lilrudys.com/",
+    "https://madbeachcantina.com/"
   ],
   "website_discovery_status": "found",
-  "fingerprints": {},
-  "toast_products": {},
+  "fingerprints": {
+    "https://caddys.com/": {
+      "url": "https://caddys.com/",
+      "html_bytes": 165765,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.chownow.com/"
+      }
+    },
+    "https://caddys.com/menus/": {
+      "url": "https://caddys.com/menus/",
+      "html_bytes": 228745,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.chownow.com/"
+      }
+    },
+    "https://caddys.com/rewards/": {
+      "url": "https://caddys.com/rewards/",
+      "html_bytes": 168533,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.chownow.com/"
+      }
+    },
+    "https://macdintons.com/": {
+      "url": "https://macdintons.com/",
+      "html_bytes": 76095,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://macdintons.com/menu/": {
+      "url": "https://macdintons.com/menu/",
+      "html_bytes": 122105,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://grovesoho.com/": {
+      "url": "https://grovesoho.com/",
+      "html_bytes": 84779,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/grove-soho/rewardsSignup",
+        "toast_gift": "toasttab.com/grove-soho/giftcards"
+      }
+    },
+    "https://grovesoho.com/menu/": {
+      "url": "https://grovesoho.com/menu/",
+      "html_bytes": 101990,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow"
+      },
+      "toast": {}
+    },
+    "https://grovesoho.com/rewards/": {
+      "url": "https://grovesoho.com/rewards/",
+      "html_bytes": 68355,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/grove-soho/rewardsSignup"
+      }
+    },
+    "https://grovesoho.com/gift-cards/": {
+      "url": "https://grovesoho.com/gift-cards/",
+      "html_bytes": 67290,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/grove-soho/giftcards"
+      }
+    },
+    "https://www.lilrudys.com/": {
+      "url": "https://www.lilrudys.com/",
+      "html_bytes": 977840,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://madbeachcantina.com/": {
+      "url": "https://madbeachcantina.com/",
+      "html_bytes": 59887,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/mad-beach-cantina/giftcards",
+        "toast_loyalty": "toasttab.com/mad-beach-cantina/rewardsSignup"
+      }
+    },
+    "https://madbeachcantina.com/menu/": {
+      "url": "https://madbeachcantina.com/menu/",
+      "html_bytes": 136531,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://madbeachcantina.com/gift-cards/": {
+      "url": "https://madbeachcantina.com/gift-cards/",
+      "html_bytes": 50365,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/mad-beach-cantina/giftcards"
+      }
+    },
+    "https://madbeachcantina.com/rewards/": {
+      "url": "https://madbeachcantina.com/rewards/",
+      "html_bytes": 51633,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/mad-beach-cantina/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.chownow.com/",
+    "toast_loyalty": "toasttab.com/grove-soho/rewardsSignup",
+    "toast_gift": "toasttab.com/grove-soho/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "caddy": "https://caddys.com/",
+    "macdinton": "https://macdintons.com/",
+    "grove": "https://grovesoho.com/",
+    "lil rudy": "https://www.lilrudys.com/",
+    "mad beach": "https://madbeachcantina.com/"
+  }
 }

@@ -14,10 +14,29 @@
   "location_names": [
     "Focaccia Sandwich & Bakery"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.focacciasandwich.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.focacciasandwich.com/": {
+      "url": "https://www.focacciasandwich.com/",
+      "html_bytes": 1104366,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/eatatfocacciasandwich",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/eatatfocacciasandwich",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

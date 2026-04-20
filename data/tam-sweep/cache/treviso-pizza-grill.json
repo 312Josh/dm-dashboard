@@ -14,10 +14,42 @@
   "location_names": [
     "Treviso Pizza Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.trevisopizzaseminole.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.trevisopizzaseminole.com/": {
+      "url": "https://www.trevisopizzaseminole.com/",
+      "html_bytes": 36754,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/treviso-pizza-grill-10801-starkey-rd-bardmoor-promenade",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.trevisopizzaseminole.com/menus/": {
+      "url": "https://www.trevisopizzaseminole.com/menus/",
+      "html_bytes": 114753,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/treviso-pizza-grill-10801-starkey-rd-bardmoor-promenade",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/treviso-pizza-grill-10801-starkey-rd-bardmoor-promenade",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -15,10 +15,67 @@
     "Florence and the Spice Boys",
     "Florence and the Spice Boys - Cattlemen Rd"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.florenceandthespiceboys.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.florenceandthespiceboys.com/": {
+      "url": "https://www.florenceandthespiceboys.com/",
+      "html_bytes": 39976,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/florence-and-the-spice-boys-landings/giftcards",
+        "toast_loyalty": "toasttab.com/florence-and-the-spice-boys-landings/rewardsSignup",
+        "toast_oo_native": "order.toasttab.com/online/florence-and-the-spice-boys-cattlemen-rd-new-257-north-cattlemen-road",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.florenceandthespiceboys.com/reservations/": {
+      "url": "https://www.florenceandthespiceboys.com/reservations/",
+      "html_bytes": 31975,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/florence-and-the-spice-boys-landings/giftcards",
+        "toast_loyalty": "toasttab.com/florence-and-the-spice-boys-landings/rewardsSignup"
+      }
+    },
+    "https://www.florenceandthespiceboys.com/order-online/": {
+      "url": "https://www.florenceandthespiceboys.com/order-online/",
+      "html_bytes": 32494,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/florence-and-the-spice-boys-cattlemen-rd-new-257-north-cattlemen-road",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/florence-and-the-spice-boys-landings/giftcards",
+        "toast_loyalty": "toasttab.com/florence-and-the-spice-boys-landings/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/florence-and-the-spice-boys-landings/giftcards",
+    "toast_loyalty": "toasttab.com/florence-and-the-spice-boys-landings/rewardsSignup",
+    "toast_oo_native": "order.toasttab.com/online/florence-and-the-spice-boys-cattlemen-rd-new-257-north-cattlemen-road",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

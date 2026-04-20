@@ -14,9 +14,20 @@
   "location_names": [
     "The Big Catch at Salt Creek - Saint Pete"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.thebigcatchatsaltcreek.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thebigcatchatsaltcreek.com/": {
+      "url": "https://www.thebigcatchatsaltcreek.com/",
+      "html_bytes": 194668,
+      "fingerprints": {
+        "reservations": "Yelp Reservations"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

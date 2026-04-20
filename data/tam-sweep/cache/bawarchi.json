@@ -14,10 +14,33 @@
   "location_names": [
     "Bawarchi"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://bawarchiwesleychapel.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bawarchiwesleychapel.com": {
+      "url": "https://bawarchiwesleychapel.com",
+      "html_bytes": 33623,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bawarchi-wesleychapel",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://bawarchiwesleychapel.com/menu": {
+      "url": "https://bawarchiwesleychapel.com/menu",
+      "html_bytes": 355,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/bawarchi-wesleychapel",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

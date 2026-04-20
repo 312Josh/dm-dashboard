@@ -14,9 +14,18 @@
   "location_names": [
     "Kennedy Hill Pub"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://kennedyhillpub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kennedyhillpub.com/": {
+      "url": "https://kennedyhillpub.com/",
+      "html_bytes": 117833,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

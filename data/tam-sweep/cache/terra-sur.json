@@ -16,10 +16,48 @@
     "Cepas Tapas Bar",
     "Terra Sur Cafe"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.terrasurcafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.terrasurcafe.com/": {
+      "url": "https://www.terrasurcafe.com/",
+      "html_bytes": 942023,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/terra-sur-cafe/giftcards"
+      }
+    },
+    "https://www.terrasurcafe.com/order-online": {
+      "url": "https://www.terrasurcafe.com/order-online",
+      "html_bytes": 870948,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.terrasurcafe.com/giftcards": {
+      "url": "https://www.terrasurcafe.com/giftcards",
+      "html_bytes": 861218,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/terra-sur-cafe/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/terra-sur-cafe/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

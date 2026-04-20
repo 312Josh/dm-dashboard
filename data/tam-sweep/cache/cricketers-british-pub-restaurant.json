@@ -14,9 +14,18 @@
   "location_names": [
     "Cricketers British Pub & Restaurant"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://cricketerspub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cricketerspub.com/": {
+      "url": "https://cricketerspub.com/",
+      "html_bytes": 4844,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

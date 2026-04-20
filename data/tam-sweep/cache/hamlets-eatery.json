@@ -14,9 +14,28 @@
   "location_names": [
     "Hamlets Eatery"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.hamletseatery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hamletseatery.com/": {
+      "url": "https://www.hamletseatery.com/",
+      "html_bytes": 741144,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.hamletseatery.com/menu": {
+      "url": "https://www.hamletseatery.com/menu",
+      "html_bytes": 707634,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

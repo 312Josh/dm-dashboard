@@ -14,10 +14,28 @@
   "location_names": [
     "Michaels Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://michaelsgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://michaelsgrill.com/": {
+      "url": "https://michaelsgrill.com/",
+      "html_bytes": 21795,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/michaels-grill-11720-north-dale-mabry",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/michaels-grill-11720-north-dale-mabry",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

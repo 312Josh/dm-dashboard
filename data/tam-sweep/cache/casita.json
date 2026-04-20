@@ -16,10 +16,47 @@
     "Casita Taqueria - Central Ave.",
     "Casita Taqueria - 4th St."
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.casitatacos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.casitatacos.com/": {
+      "url": "https://www.casitatacos.com/",
+      "html_bytes": 283491,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/casita-taqueria-central-ave/giftcards"
+      }
+    },
+    "https://www.casitatacos.com/menu": {
+      "url": "https://www.casitatacos.com/menu",
+      "html_bytes": 130547,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/casita-taqueria-central-ave/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/casita-taqueria-central-ave/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

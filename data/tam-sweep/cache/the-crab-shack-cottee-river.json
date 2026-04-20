@@ -14,9 +14,18 @@
   "location_names": [
     "The Crab Shack - Cottee River"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://crabshackportrichey.telwink.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://crabshackportrichey.telwink.com/": {
+      "url": "https://crabshackportrichey.telwink.com/",
+      "html_bytes": 28007,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

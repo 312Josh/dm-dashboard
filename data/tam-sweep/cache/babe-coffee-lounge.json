@@ -14,9 +14,24 @@
   "location_names": [
     "Babe Coffee Lounge"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.babecoffeelounge.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.babecoffeelounge.com/": {
+      "url": "https://www.babecoffeelounge.com/",
+      "html_bytes": 44773,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.babecoffeelounge.com/menu": {
+      "url": "https://www.babecoffeelounge.com/menu",
+      "html_bytes": 33678,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

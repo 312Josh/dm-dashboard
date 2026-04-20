@@ -14,9 +14,39 @@
   "location_names": [
     "Euphemia Haye Restaurant & The Haye Loft"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.euphemiahaye.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.euphemiahaye.com/": {
+      "url": "https://www.euphemiahaye.com/",
+      "html_bytes": 124139,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.euphemiahaye.com/menus": {
+      "url": "https://www.euphemiahaye.com/menus",
+      "html_bytes": 153998,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.euphemiahaye.com/reservations": {
+      "url": "https://www.euphemiahaye.com/reservations",
+      "html_bytes": 101348,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

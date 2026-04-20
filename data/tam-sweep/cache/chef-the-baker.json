@@ -14,10 +14,43 @@
   "location_names": [
     "Chef & The Baker Tampa"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.chefandthebaker.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.chefandthebaker.com": {
+      "url": "https://www.chefandthebaker.com",
+      "html_bytes": 444452,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/chef-and-the-baker-south-tampa",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/chef-and-the-baker-south-tampa/rewardsSignup"
+      }
+    },
+    "https://www.chefandthebaker.com/menu": {
+      "url": "https://www.chefandthebaker.com/menu",
+      "html_bytes": 233723,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/chef-and-the-baker-south-tampa",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/chef-and-the-baker-south-tampa/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/chef-and-the-baker-south-tampa",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/chef-and-the-baker-south-tampa/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -14,9 +14,39 @@
   "location_names": [
     "Cafe soleil"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.cafesoleilbakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cafesoleilbakery.com/": {
+      "url": "https://www.cafesoleilbakery.com/",
+      "html_bytes": 315783,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.cafesoleilbakery.com/giftcards": {
+      "url": "https://www.cafesoleilbakery.com/giftcards",
+      "html_bytes": 211675,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.cafesoleilbakery.com/menu": {
+      "url": "https://www.cafesoleilbakery.com/menu",
+      "html_bytes": 238461,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

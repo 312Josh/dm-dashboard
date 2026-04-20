@@ -14,9 +14,21 @@
   "location_names": [
     "Fifty Three Fifty Pourhouse"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://hurricanehanks.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hurricanehanks.com/": {
+      "url": "https://hurricanehanks.com/",
+      "html_bytes": 292544,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

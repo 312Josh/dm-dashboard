@@ -14,9 +14,18 @@
   "location_names": [
     "CJs Backstage"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://cjsbackstage.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cjsbackstage.com": {
+      "url": "https://cjsbackstage.com",
+      "html_bytes": 158709,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

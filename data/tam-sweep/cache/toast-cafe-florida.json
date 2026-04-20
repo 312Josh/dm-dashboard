@@ -15,9 +15,18 @@
     "TOAST - Odessa",
     "TOAST - New Port Richey"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.facebook.com/gettoastNPR"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/gettoastNPR": {
+      "url": "https://www.facebook.com/gettoastNPR",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

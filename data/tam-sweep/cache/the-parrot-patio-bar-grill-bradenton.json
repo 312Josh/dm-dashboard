@@ -15,10 +15,71 @@
     "The Parrot Patio Bar & Grill - Webber St",
     "The Parrot Patio Bar & Grill - Bradenton"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://theparrots.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://theparrots.com/": {
+      "url": "https://theparrots.com/",
+      "html_bytes": 172254,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_oo_native": "order.toasttab.com/online/the-parrot-patio-bar-grill-bradenton"
+      }
+    },
+    "https://theparrots.com/menu-%7C-bradenton": {
+      "url": "https://theparrots.com/menu-%7C-bradenton",
+      "html_bytes": 316482,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-parrot-patio-bar-grill-bradenton",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://theparrots.com/order-online-bradenton": {
+      "url": "https://theparrots.com/order-online-bradenton",
+      "html_bytes": 96490,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-parrot-patio-bar-grill-bradenton",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://theparrots.com/menu-%7C-sarasota": {
+      "url": "https://theparrots.com/menu-%7C-sarasota",
+      "html_bytes": 318141,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-parrot-patio-bar-grill-webber-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://theparrots.com/order-online-sarasota-1": {
+      "url": "https://theparrots.com/order-online-sarasota-1",
+      "html_bytes": 96970,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-parrot-patio-bar-grill-webber-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_oo_native": "order.toasttab.com/online/the-parrot-patio-bar-grill-bradenton"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

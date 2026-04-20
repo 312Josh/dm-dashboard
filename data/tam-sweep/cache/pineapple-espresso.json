@@ -14,9 +14,28 @@
   "location_names": [
     "Pineapple Espresso"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://pineappleespressostpete.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pineappleespressostpete.com/": {
+      "url": "https://pineappleespressostpete.com/",
+      "html_bytes": 98223,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://pineappleespressostpete.com/menu/": {
+      "url": "https://pineappleespressostpete.com/menu/",
+      "html_bytes": 65685,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

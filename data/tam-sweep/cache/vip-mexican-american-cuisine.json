@@ -16,9 +16,18 @@
     "VIP Mexican - TI",
     "VIP Mexican Indian Rocks"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "http://www.viplounge-fla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.viplounge-fla.com/": {
+      "url": "http://www.viplounge-fla.com/",
+      "html_bytes": 45030,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -16,9 +16,21 @@
     "South Philly Cheesesteak",
     "South Philly Cheesesteaks 34th"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.thecheapestwaytophilly.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thecheapestwaytophilly.com/": {
+      "url": "https://www.thecheapestwaytophilly.com/",
+      "html_bytes": 162894,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

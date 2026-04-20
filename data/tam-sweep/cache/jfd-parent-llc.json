@@ -15,9 +15,18 @@
     "The Original Wolfie's Restaurant, Deli and The Rascal House Bar",
     "The Original Wolfies Bakery and Box Office - LWR"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://originalwolfies.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://originalwolfies.com/": {
+      "url": "https://originalwolfies.com/",
+      "html_bytes": 4825,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

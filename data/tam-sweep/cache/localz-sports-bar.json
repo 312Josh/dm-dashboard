@@ -14,9 +14,18 @@
   "location_names": [
     "Localz Sports Bar & Grill St Pete"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://localzsportsbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://localzsportsbar.com/": {
+      "url": "https://localzsportsbar.com/",
+      "html_bytes": 134492,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

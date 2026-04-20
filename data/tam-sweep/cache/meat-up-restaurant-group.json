@@ -14,9 +14,18 @@
   "location_names": [
     "Flamestone Grill - Oldsmar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.beachwoodseafoodkitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.beachwoodseafoodkitchen.com/": {
+      "url": "https://www.beachwoodseafoodkitchen.com/",
+      "html_bytes": 21,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -16,13 +16,25 @@
     "Who's on First",
     "There Goes the Neighborhood"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.dublindropstpete.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.dublindropstpete.com/": {
+      "url": "https://www.dublindropstpete.com/",
+      "html_bytes": 146198,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "dublin drop": "https://www.dublindropstpete.com/"
+  }
 }

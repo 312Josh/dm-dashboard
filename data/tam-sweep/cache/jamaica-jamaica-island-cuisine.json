@@ -15,10 +15,47 @@
     "Jamaica Jamaica Island Cuisine",
     "Wha Gwaan Jamaica Jamaica"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.jamaicajamaicaislandcuisine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.jamaicajamaicaislandcuisine.com/": {
+      "url": "https://www.jamaicajamaicaislandcuisine.com/",
+      "html_bytes": 44136,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jamaica-jamaica-island-cuisine-13910-w-hillsborough-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/jamaica-jamaica-island-cuisine-13910-w-hillsborough-ave/giftcards"
+      }
+    },
+    "https://www.jamaicajamaicaislandcuisine.com/order-online/": {
+      "url": "https://www.jamaicajamaicaislandcuisine.com/order-online/",
+      "html_bytes": 32424,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jamaica-jamaica-island-cuisine-13910-w-hillsborough-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/jamaica-jamaica-island-cuisine-13910-w-hillsborough-ave/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/jamaica-jamaica-island-cuisine-13910-w-hillsborough-ave",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/jamaica-jamaica-island-cuisine-13910-w-hillsborough-ave/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

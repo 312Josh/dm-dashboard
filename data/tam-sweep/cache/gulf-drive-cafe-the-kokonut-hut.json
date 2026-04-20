@@ -14,9 +14,20 @@
   "location_names": [
     "Gulf Drive Cafe & The Kokonut Hut"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://gulfdrivetiki.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gulfdrivetiki.com/": {
+      "url": "https://gulfdrivetiki.com/",
+      "html_bytes": 150406,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

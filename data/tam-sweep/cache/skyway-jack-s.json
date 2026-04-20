@@ -14,9 +14,20 @@
   "location_names": [
     "Skyway Jack's - Saint Petersburg"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://skywayjacksstpete.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://skywayjacksstpete.com/": {
+      "url": "https://skywayjacksstpete.com/",
+      "html_bytes": 139615,
+      "fingerprints": {
+        "website_cms": "SpotHopper"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

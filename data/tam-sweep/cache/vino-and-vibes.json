@@ -14,9 +14,36 @@
   "location_names": [
     "Vino & Vibes"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://vinoandvibesbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://vinoandvibesbar.com/": {
+      "url": "https://vinoandvibesbar.com/",
+      "html_bytes": 193411,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://vinoandvibesbar.com/menu": {
+      "url": "https://vinoandvibesbar.com/menu",
+      "html_bytes": 143336,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://vinoandvibesbar.com/gift-cards": {
+      "url": "https://vinoandvibesbar.com/gift-cards",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://vinoandvibesbar.com/m/bookings": {
+      "url": "https://vinoandvibesbar.com/m/bookings",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

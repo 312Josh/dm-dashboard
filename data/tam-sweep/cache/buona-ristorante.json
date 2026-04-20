@@ -14,10 +14,25 @@
   "location_names": [
     "NEW Buona Ristorante"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.buonaristorante.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.buonaristorante.com": {
+      "url": "https://www.buonaristorante.com",
+      "html_bytes": 151825,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.buonaristorante.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.buonaristorante.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

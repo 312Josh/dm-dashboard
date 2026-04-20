@@ -14,9 +14,24 @@
   "location_names": [
     "Shellys Cafe"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://shellyscafetampa.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://shellyscafetampa.com/": {
+      "url": "https://shellyscafetampa.com/",
+      "html_bytes": 155293,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://shellyscafetampa.com/menu": {
+      "url": "https://shellyscafetampa.com/menu",
+      "html_bytes": 288544,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -15,9 +15,28 @@
     "Ride 'Em Cowboy",
     "Thirsty First - DTSP"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://thirstyfirstdtsp.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thirstyfirstdtsp.com/": {
+      "url": "https://thirstyfirstdtsp.com/",
+      "html_bytes": 388315,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://thirstyfirstdtsp.com/menu/": {
+      "url": "https://thirstyfirstdtsp.com/menu/",
+      "html_bytes": 343456,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

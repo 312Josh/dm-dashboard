@@ -17,10 +17,45 @@
     "High Ridge Food Truck",
     "High Ridge Smokehouse"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://hungryharrysbbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hungryharrysbbq.com/": {
+      "url": "https://hungryharrysbbq.com/",
+      "html_bytes": 198166,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/hungry-harrys-3116-land-o-lakes-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/hungry-harrys-3116-land-o-lakes-blvd/rewardsSignup"
+      }
+    },
+    "https://hungryharrysbbq.com/menu/": {
+      "url": "https://hungryharrysbbq.com/menu/",
+      "html_bytes": 206293,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/hungry-harrys-3116-land-o-lakes-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/hungry-harrys-3116-land-o-lakes-blvd/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/hungry-harrys-3116-land-o-lakes-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/hungry-harrys-3116-land-o-lakes-blvd/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

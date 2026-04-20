@@ -15,9 +15,20 @@
     "Paradise Grille - 2",
     "Paradise Grille - St. Pete Beach"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.paradisegrille.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.paradisegrille.com/": {
+      "url": "https://www.paradisegrille.com/",
+      "html_bytes": 767801,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

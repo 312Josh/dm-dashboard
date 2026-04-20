@@ -16,10 +16,29 @@
     "K Bistro - Sarasota",
     "Kompose Kissimmee - Food & Beverage"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://kbistrofl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kbistrofl.com/": {
+      "url": "https://kbistrofl.com/",
+      "html_bytes": 135223,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/kitchen-bistro-kompose-miami-3401-northwest-25th-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/kitchen-bistro-kompose-miami-3401-northwest-25th-street",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

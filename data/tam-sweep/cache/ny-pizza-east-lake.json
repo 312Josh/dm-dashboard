@@ -14,9 +14,20 @@
   "location_names": [
     "NY PIZZA EAST LAKE"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.nypizzaeastlake.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.nypizzaeastlake.com/": {
+      "url": "https://www.nypizzaeastlake.com/",
+      "html_bytes": 68801,
+      "fingerprints": {
+        "oo": "Slice"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

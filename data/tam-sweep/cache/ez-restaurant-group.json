@@ -16,13 +16,42 @@
     "Twisted Pit BBQ",
     "Percoco"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://twistedpitbbq.com/",
+    "https://peculiarpublwr.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://twistedpitbbq.com/": {
+      "url": "https://twistedpitbbq.com/",
+      "html_bytes": 204587,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/twisted-pit-bbq-8130-lakewood-main-street-ste-104",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://peculiarpublwr.com/": {
+      "url": "https://peculiarpublwr.com/",
+      "html_bytes": 118942,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/twisted-pit-bbq-8130-lakewood-main-street-ste-104",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "peculiar": "https://peculiarpublwr.com/",
+    "twisted pit": "https://twistedpitbbq.com/"
+  }
 }

@@ -15,13 +15,53 @@
     "Point Chaud Coffee & Crepes - St. Pete Beach",
     "Point Chaud Coffee & Crepes"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://pointchaudcafe.com/",
+    "https://www.ordercrepesagogo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pointchaudcafe.com/": {
+      "url": "https://pointchaudcafe.com/",
+      "html_bytes": 85133,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://pointchaudcafe.com/menu/": {
+      "url": "https://pointchaudcafe.com/menu/",
+      "html_bytes": 101253,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.ordercrepesagogo.com/": {
+      "url": "https://www.ordercrepesagogo.com/",
+      "html_bytes": 37258,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    },
+    "https://www.OrderCrepesAGoGo.com/order": {
+      "url": "https://www.OrderCrepesAGoGo.com/order",
+      "html_bytes": 26962,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "point chaud": "https://pointchaudcafe.com/",
+    "crepes": "https://www.ordercrepesagogo.com/"
+  }
 }

@@ -14,9 +14,18 @@
   "location_names": [
     "Hugo II"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.hugo2restaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hugo2restaurant.com/": {
+      "url": "https://www.hugo2restaurant.com/",
+      "html_bytes": 4351,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -15,10 +15,40 @@
     "Sparta Express",
     "Sparta Seafood"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://spartaseafoodandgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://spartaseafoodandgrill.com/": {
+      "url": "https://spartaseafoodandgrill.com/",
+      "html_bytes": 161117,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sparta-express",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://spartaseafoodandgrill.com/reservations": {
+      "url": "https://spartaseafoodandgrill.com/reservations",
+      "html_bytes": 73624,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sparta-express",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/sparta-express",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

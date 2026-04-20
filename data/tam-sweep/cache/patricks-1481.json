@@ -14,9 +14,32 @@
   "location_names": [
     "Patricks 1481 NEW"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.patricks1481.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.patricks1481.com/": {
+      "url": "https://www.patricks1481.com/",
+      "html_bytes": 657452,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "ChowNow",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.patricks1481.com/menu": {
+      "url": "https://www.patricks1481.com/menu",
+      "html_bytes": 260105,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "ChowNow",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

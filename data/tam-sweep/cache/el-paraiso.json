@@ -14,9 +14,18 @@
   "location_names": [
     "EL PARAISO"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://elparaisomexicanrestaurantbarfl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://elparaisomexicanrestaurantbarfl.com/": {
+      "url": "https://elparaisomexicanrestaurantbarfl.com/",
+      "html_bytes": 14847,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

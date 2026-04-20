@@ -14,9 +14,18 @@
   "location_names": [
     "Acapulco Mexican Restaurant"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://acapulcolwr.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://acapulcolwr.com/": {
+      "url": "https://acapulcolwr.com/",
+      "html_bytes": 117967,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

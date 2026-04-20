@@ -14,9 +14,24 @@
   "location_names": [
     "McCurdy's Comedy Theatre NEW"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.mccurdyscomedy.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mccurdyscomedy.com/": {
+      "url": "https://www.mccurdyscomedy.com/",
+      "html_bytes": 18004,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.mccurdyscomedy.com/images/menus/mccurdys-full_menu.pdf": {
+      "url": "https://www.mccurdyscomedy.com/images/menus/mccurdys-full_menu.pdf",
+      "html_bytes": 946089,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -20,14 +20,35 @@
     "Trophy Fish - Seminole Heights"
   ],
   "websites": [
-    ""
+    "",
+    "https://trophyfish.com/"
   ],
   "website_discovery_status": "found",
-  "fingerprints": {},
+  "fingerprints": {
+    "https://trophyfish.com/": {
+      "url": "https://trophyfish.com/",
+      "html_bytes": 95462,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://trophyfish.com/menus/": {
+      "url": "https://trophyfish.com/menus/",
+      "html_bytes": 57311,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "trophy fish": "https://trophyfish.com/"
+  }
 }

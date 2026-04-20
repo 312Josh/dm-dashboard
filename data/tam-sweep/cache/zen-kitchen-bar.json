@@ -14,9 +14,18 @@
   "location_names": [
     "Zen Kitchen and Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://zenkitchenandbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://zenkitchenandbar.com/": {
+      "url": "https://zenkitchenandbar.com/",
+      "html_bytes": 4848,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

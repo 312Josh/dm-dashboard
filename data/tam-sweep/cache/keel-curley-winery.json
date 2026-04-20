@@ -14,10 +14,27 @@
   "location_names": [
     "Keel & Curley Winery"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.keelfarms.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.keelfarms.com/": {
+      "url": "https://www.keelfarms.com/",
+      "html_bytes": 431246,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/b4499b66-077f-41ed-9104-4d49aa55dc7b"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/b4499b66-077f-41ed-9104-4d49aa55dc7b"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

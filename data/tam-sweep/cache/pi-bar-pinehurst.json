@@ -15,13 +15,31 @@
     "Pi Pizza Bar",
     "Pinehurst Pub"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://pipizzabar.gotoeat.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pipizzabar.gotoeat.net/": {
+      "url": "https://pipizzabar.gotoeat.net/",
+      "html_bytes": 30846,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://pipizzabar.gotoeat.net/menu": {
+      "url": "https://pipizzabar.gotoeat.net/menu",
+      "html_bytes": 14649,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "pi pizza": "https://pipizzabar.gotoeat.net/"
+  }
 }

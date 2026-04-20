@@ -14,10 +14,29 @@
   "location_names": [
     "Arts and Central"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://artsandcentral.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://artsandcentral.com": {
+      "url": "https://artsandcentral.com",
+      "html_bytes": 215174,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/arts-and-central-611-central-avenue/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/arts-and-central-611-central-avenue/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

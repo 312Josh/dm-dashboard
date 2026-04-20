@@ -14,9 +14,30 @@
   "location_names": [
     "Chuck’s"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.eatchucks.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatchucks.com": {
+      "url": "https://www.eatchucks.com",
+      "html_bytes": 176046,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.eatchucks.com/menu": {
+      "url": "https://www.eatchucks.com/menu",
+      "html_bytes": 206121,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

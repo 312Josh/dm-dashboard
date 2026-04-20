@@ -14,9 +14,21 @@
   "location_names": [
     "Malios ST PETE"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://maliosbeachhouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://maliosbeachhouse.com/": {
+      "url": "https://maliosbeachhouse.com/",
+      "html_bytes": 175238,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

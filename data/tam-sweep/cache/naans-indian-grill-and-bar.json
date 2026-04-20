@@ -14,9 +14,24 @@
   "location_names": [
     "Bindaas Bistro Naans India Grill and Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://naansatbrandon.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://naansatbrandon.com/": {
+      "url": "https://naansatbrandon.com/",
+      "html_bytes": 77079,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://naansatbrandon.com/Menu?promos=1&amp;pid=9410": {
+      "url": "https://naansatbrandon.com/Menu?promos=1&amp;pid=9410",
+      "html_bytes": 63960,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

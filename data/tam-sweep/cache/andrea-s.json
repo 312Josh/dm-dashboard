@@ -15,9 +15,28 @@
     "Andrea's",
     "MALMOSTO"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.andreasrestaurantsrq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.andreasrestaurantsrq.com/": {
+      "url": "https://www.andreasrestaurantsrq.com/",
+      "html_bytes": 184713,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.andreasrestaurantsrq.com/menu.pdf": {
+      "url": "https://www.andreasrestaurantsrq.com/menu.pdf",
+      "html_bytes": 91029,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

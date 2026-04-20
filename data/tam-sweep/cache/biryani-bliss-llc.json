@@ -14,9 +14,18 @@
   "location_names": [
     "Biryani Bliss, LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.biryani-bliss.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.biryani-bliss.com": {
+      "url": "https://www.biryani-bliss.com",
+      "html_bytes": 40799,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

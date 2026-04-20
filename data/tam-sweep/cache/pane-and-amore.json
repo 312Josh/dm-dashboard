@@ -14,9 +14,24 @@
   "location_names": [
     "Pane and Amore"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://paneeamoreitaliancafe.gotoeat.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://paneeamoreitaliancafe.gotoeat.net/": {
+      "url": "https://paneeamoreitaliancafe.gotoeat.net/",
+      "html_bytes": 37881,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://paneeamoreitaliancafe.gotoeat.net/menu": {
+      "url": "https://paneeamoreitaliancafe.gotoeat.net/menu",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

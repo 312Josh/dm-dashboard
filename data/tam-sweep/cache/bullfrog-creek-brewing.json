@@ -14,10 +14,28 @@
   "location_names": [
     "Bullfrog Creek Brewing"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://bullfrogcreekbrewing.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bullfrogcreekbrewing.com": {
+      "url": "https://bullfrogcreekbrewing.com",
+      "html_bytes": 123861,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bullfrogcreek",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/bullfrogcreek",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

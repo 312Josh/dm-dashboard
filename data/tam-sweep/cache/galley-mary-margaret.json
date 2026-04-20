@@ -15,13 +15,27 @@
     "The Galley",
     "Mary Margaret's Olde Irish Tavern"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://thegalleystpete.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thegalleystpete.com/": {
+      "url": "https://thegalleystpete.com/",
+      "html_bytes": 156295,
+      "fingerprints": {
+        "website_cms": "SpotHopper"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "galley": "https://thegalleystpete.com/"
+  }
 }

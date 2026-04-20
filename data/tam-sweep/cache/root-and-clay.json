@@ -14,9 +14,18 @@
   "location_names": [
     "Root and Clay"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://rootandclaystpete.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://rootandclaystpete.com/": {
+      "url": "https://rootandclaystpete.com/",
+      "html_bytes": 4870,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

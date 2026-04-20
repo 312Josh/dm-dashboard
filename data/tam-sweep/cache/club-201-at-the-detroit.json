@@ -14,9 +14,18 @@
   "location_names": [
     "Club 201 at the Detroit"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://detroit201.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://detroit201.com/": {
+      "url": "https://detroit201.com/",
+      "html_bytes": 259840,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

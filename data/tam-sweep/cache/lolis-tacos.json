@@ -17,10 +17,49 @@
     "Lolis Tacos - Benjamin Rd.",
     "Lolis Tacos - Hillsborough"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://lolistacos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lolistacos.com/": {
+      "url": "https://lolistacos.com/",
+      "html_bytes": 161475,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lolis-tacos-benjamin-rd-8005-benjamin-road",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://lolistacos.com/ordernow/": {
+      "url": "https://lolistacos.com/ordernow/",
+      "html_bytes": 206485,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lolis-tacos-benjamin-rd-8005-benjamin-road",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://lolistacos.com/menu/": {
+      "url": "https://lolistacos.com/menu/",
+      "html_bytes": 155000,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/lolis-tacos-benjamin-rd-8005-benjamin-road",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

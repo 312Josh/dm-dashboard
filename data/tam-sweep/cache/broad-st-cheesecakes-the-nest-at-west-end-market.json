@@ -15,9 +15,60 @@
     "Broad St Cheesesteaks & The Nest",
     "Spoons at Dunedin mix"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.thenestdunedin.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thenestdunedin.com/": {
+      "url": "https://www.thenestdunedin.com/",
+      "html_bytes": 1141672,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.thenestdunedin.com/reservations": {
+      "url": "https://www.thenestdunedin.com/reservations",
+      "html_bytes": 925878,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.thenestdunedin.com/menu": {
+      "url": "https://www.thenestdunedin.com/menu",
+      "html_bytes": 101816,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.thenestdunedin.com/book-online": {
+      "url": "https://www.thenestdunedin.com/book-online",
+      "html_bytes": 864223,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.thenestdunedin.com/booking-calendar/corporate-gatherings": {
+      "url": "https://www.thenestdunedin.com/booking-calendar/corporate-gatherings",
+      "html_bytes": 1205811,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.thenestdunedin.com/booking-calendar/group-night-out": {
+      "url": "https://www.thenestdunedin.com/booking-calendar/group-night-out",
+      "html_bytes": 1205250,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

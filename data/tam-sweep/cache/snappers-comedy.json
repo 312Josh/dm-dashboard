@@ -14,9 +14,24 @@
   "location_names": [
     "Snappers - Palm Harbor"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.snapperscomedyclub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.snapperscomedyclub.com/": {
+      "url": "https://www.snapperscomedyclub.com/",
+      "html_bytes": 208551,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.snapperscomedyclub.com/pages/menu": {
+      "url": "https://www.snapperscomedyclub.com/pages/menu",
+      "html_bytes": 9827,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

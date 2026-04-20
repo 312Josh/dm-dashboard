@@ -17,13 +17,141 @@
     "Red Mesa Mercado",
     "Red Mesa Mercado - West"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://redmesarestaurant.com/",
+    "https://redmesacantina.com/",
+    "https://redmesamercado.com/",
+    "https://redmesagroup.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://redmesarestaurant.com/": {
+      "url": "https://redmesarestaurant.com/",
+      "html_bytes": 519836,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Resy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/red-mesa/giftcards"
+      }
+    },
+    "https://redmesarestaurant.com/gift-cards/": {
+      "url": "https://redmesarestaurant.com/gift-cards/",
+      "html_bytes": 212227,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/red-mesa/giftcards"
+      }
+    },
+    "https://redmesacantina.com/": {
+      "url": "https://redmesacantina.com/",
+      "html_bytes": 76655,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Resy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/red-mesa-cantina/giftcards"
+      }
+    },
+    "https://redmesacantina.com/menus/": {
+      "url": "https://redmesacantina.com/menus/",
+      "html_bytes": 63232,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    },
+    "https://redmesacantina.com/gift-cards/": {
+      "url": "https://redmesacantina.com/gift-cards/",
+      "html_bytes": 62887,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/red-mesa-cantina/giftcards"
+      }
+    },
+    "https://redmesamercado.com/": {
+      "url": "https://redmesamercado.com/",
+      "html_bytes": 51900,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/red-mesa-mercado",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/7f5819ea-020b-42dc-9094-aa8b0a52ea42",
+        "toast_gift": "toasttab.com/red-mesa-mercado/giftcards"
+      }
+    },
+    "https://redmesamercado.com/gift-cards/": {
+      "url": "https://redmesamercado.com/gift-cards/",
+      "html_bytes": 42624,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/7f5819ea-020b-42dc-9094-aa8b0a52ea42",
+        "toast_gift": "toasttab.com/red-mesa-mercado/giftcards"
+      }
+    },
+    "https://redmesagroup.com/": {
+      "url": "https://redmesagroup.com/",
+      "html_bytes": 409610,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/red-mesa-cantina/giftcards"
+      }
+    },
+    "https://redmesagroup.com/gift-cards/": {
+      "url": "https://redmesagroup.com/gift-cards/",
+      "html_bytes": 342975,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/red-mesa-cantina/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/red-mesa/giftcards",
+    "toast_oo_native": "order.toasttab.com/online/red-mesa-mercado",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/7f5819ea-020b-42dc-9094-aa8b0a52ea42"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "red mesa restaurant": "https://redmesarestaurant.com/",
+    "cantina": "https://redmesacantina.com/",
+    "mercado": "https://redmesamercado.com/"
+  }
 }

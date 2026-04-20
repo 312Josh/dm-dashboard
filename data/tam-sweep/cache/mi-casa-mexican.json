@@ -15,9 +15,34 @@
     "Mi casa mexican restaurant - Riverview",
     "Mi Casa Mexican w Payroll"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.micasamex.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.micasamex.com/": {
+      "url": "https://www.micasamex.com/",
+      "html_bytes": 139765,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.micasamex.com/order-online": {
+      "url": "https://www.micasamex.com/order-online",
+      "html_bytes": 79539,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.micasamex.com/menu": {
+      "url": "https://www.micasamex.com/menu",
+      "html_bytes": 337217,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

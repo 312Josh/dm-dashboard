@@ -14,9 +14,30 @@
   "location_names": [
     "Mangos and Marley"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.mangosandmarleycafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mangosandmarleycafe.com/": {
+      "url": "https://www.mangosandmarleycafe.com/",
+      "html_bytes": 688038,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.mangosandmarleycafe.com/menu-1": {
+      "url": "https://www.mangosandmarleycafe.com/menu-1",
+      "html_bytes": 779405,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,10 +14,27 @@
   "location_names": [
     "Siegfried's Restaurant and Bier Garden"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.siegfrieds-restaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.siegfrieds-restaurant.com/": {
+      "url": "https://www.siegfrieds-restaurant.com/",
+      "html_bytes": 96075,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/siegfrieds-restaurant-and-bier-garden/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/siegfrieds-restaurant-and-bier-garden/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

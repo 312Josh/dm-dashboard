@@ -14,10 +14,42 @@
   "location_names": [
     "gRub Tropical BBQ"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.grubami.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.grubami.com/": {
+      "url": "https://www.grubami.com/",
+      "html_bytes": 177535,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/grub-tropical-bbq-415-pine-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.grubami.com/menu": {
+      "url": "https://www.grubami.com/menu",
+      "html_bytes": 145952,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/grub-tropical-bbq-415-pine-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/grub-tropical-bbq-415-pine-ave",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

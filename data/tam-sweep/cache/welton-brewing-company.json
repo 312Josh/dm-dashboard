@@ -14,9 +14,18 @@
   "location_names": [
     "Welton Brewing Company"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://weltonbrewingcompany.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://weltonbrewingcompany.com/": {
+      "url": "https://weltonbrewingcompany.com/",
+      "html_bytes": 203413,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

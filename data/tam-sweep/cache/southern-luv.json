@@ -15,10 +15,28 @@
     "Southern Luv C-Store",
     "Southern Luv"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://southernluvbbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://southernluvbbq.com/": {
+      "url": "https://southernluvbbq.com/",
+      "html_bytes": 181598,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/southern-luv-8019-citrus-park-dr",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/southern-luv-8019-citrus-park-dr",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

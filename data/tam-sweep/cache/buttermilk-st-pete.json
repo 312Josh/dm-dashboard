@@ -15,9 +15,18 @@
     "Buttermilk - St. Pete",
     "Buttermilk - Pinellas Park"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.buttermilkeat.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.buttermilkeat.com/": {
+      "url": "https://www.buttermilkeat.com/",
+      "html_bytes": 7177,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

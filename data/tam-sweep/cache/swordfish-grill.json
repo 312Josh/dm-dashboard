@@ -15,10 +15,78 @@
     "Swordfish Grill",
     "Cortez Kitchen"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.swordfishgrillcortez.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.swordfishgrillcortez.com/": {
+      "url": "https://www.swordfishgrillcortez.com/",
+      "html_bytes": 166747,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/swordfishgrill/giftcards"
+      }
+    },
+    "https://www.swordfishgrillcortez.com/menus/": {
+      "url": "https://www.swordfishgrillcortez.com/menus/",
+      "html_bytes": 107947,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/swordfishgrill/giftcards"
+      }
+    },
+    "https://www.swordfishgrillcortez.com/order-online/": {
+      "url": "https://www.swordfishgrillcortez.com/order-online/",
+      "html_bytes": 61335,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/swordfishgrill/giftcards"
+      }
+    },
+    "https://www.swordfishgrillcortez.com/booknow/": {
+      "url": "https://www.swordfishgrillcortez.com/booknow/",
+      "html_bytes": 61797,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/swordfishgrill/giftcards"
+      }
+    },
+    "https://www.swordfishgrillcortez.com/gift-cards/": {
+      "url": "https://www.swordfishgrillcortez.com/gift-cards/",
+      "html_bytes": 61315,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/swordfishgrill/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/swordfishgrill/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

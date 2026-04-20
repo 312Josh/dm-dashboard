@@ -15,10 +15,36 @@
     "HOB Brewing Co.",
     "Dunedin House of Beer"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://hob.beer/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hob.beer/": {
+      "url": "https://hob.beer/",
+      "html_bytes": 163253,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/hob-brewing-co/giftcards"
+      }
+    },
+    "https://hob.beer/gift-cards": {
+      "url": "https://hob.beer/gift-cards",
+      "html_bytes": 4985,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/hob-brewing-co/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

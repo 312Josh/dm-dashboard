@@ -14,9 +14,21 @@
   "location_names": [
     "Sugar champagne bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.sugarbarsrq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sugarbarsrq.com/": {
+      "url": "https://www.sugarbarsrq.com/",
+      "html_bytes": 595715,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "Wild Life Acai"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://wildlifeacai.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wildlifeacai.com/": {
+      "url": "https://wildlifeacai.com/",
+      "html_bytes": 105600,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

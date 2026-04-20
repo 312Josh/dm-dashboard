@@ -15,9 +15,26 @@
     "88 Live Food Truck",
     "88 Live"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.88livebradenton.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.88livebradenton.com/": {
+      "url": "https://www.88livebradenton.com/",
+      "html_bytes": 173683,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.88livebradenton.com/menu/": {
+      "url": "https://www.88livebradenton.com/menu/",
+      "html_bytes": 6438552,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

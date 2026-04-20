@@ -14,10 +14,39 @@
   "location_names": [
     "Salty Soul Island Kitchen"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.saltysouldunedin.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.saltysouldunedin.com/": {
+      "url": "https://www.saltysouldunedin.com/",
+      "html_bytes": 32988,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://www.saltysouldunedin.com/menus/": {
+      "url": "https://www.saltysouldunedin.com/menus/",
+      "html_bytes": 116977,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

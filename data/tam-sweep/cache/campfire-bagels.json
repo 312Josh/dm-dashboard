@@ -14,10 +14,29 @@
   "location_names": [
     "Campfired"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.campfired.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.campfired.com/": {
+      "url": "https://www.campfired.com/",
+      "html_bytes": 88716,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/campfire-bagels-6302-e-dr-martin-luther-king-jr-blvd-suite-480",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/99e3ba57-d0f3-4267-a7aa-a344c2b8e7c7"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/campfire-bagels-6302-e-dr-martin-luther-king-jr-blvd-suite-480",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/99e3ba57-d0f3-4267-a7aa-a344c2b8e7c7"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

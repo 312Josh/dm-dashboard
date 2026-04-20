@@ -14,9 +14,18 @@
   "location_names": [
     "eb Breakfast Deli Co"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://brooklynbridgedeli.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://brooklynbridgedeli.com/": {
+      "url": "https://brooklynbridgedeli.com/",
+      "html_bytes": 4685,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

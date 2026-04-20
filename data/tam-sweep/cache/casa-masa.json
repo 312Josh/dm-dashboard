@@ -15,9 +15,21 @@
     "Casa Masa Siesta Key",
     "Casa Masa Landings"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.casamasa-srq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.casamasa-srq.com/": {
+      "url": "https://www.casamasa-srq.com/",
+      "html_bytes": 425874,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

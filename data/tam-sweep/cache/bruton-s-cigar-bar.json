@@ -14,9 +14,18 @@
   "location_names": [
     "Bruton's Cigar Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://brutonscigarshop.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://brutonscigarshop.com/": {
+      "url": "https://brutonscigarshop.com/",
+      "html_bytes": 13731,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,21 @@
   "location_names": [
     "Nonno Umberto Italian. Seafood. Steakhouse"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.nonnoumbertorestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.nonnoumbertorestaurant.com/": {
+      "url": "https://www.nonnoumbertorestaurant.com/",
+      "html_bytes": 166783,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

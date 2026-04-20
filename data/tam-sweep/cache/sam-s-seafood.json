@@ -16,10 +16,35 @@
     "Sam's Seafood & Grill - Tampa",
     "Sam's Seafood & Grill - Bradenton"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.samsseafoodgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.samsseafoodgrill.com/": {
+      "url": "https://www.samsseafoodgrill.com/",
+      "html_bytes": 559368,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.samsseafoodgrill.com/menu-bradenton": {
+      "url": "https://www.samsseafoodgrill.com/menu-bradenton",
+      "html_bytes": 777486,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

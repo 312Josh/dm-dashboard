@@ -15,10 +15,28 @@
     "The Crumb Factory- Dunedin",
     "The Crumb Factory"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://crumbfactorybakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://crumbfactorybakery.com/": {
+      "url": "https://crumbfactorybakery.com/",
+      "html_bytes": 153735,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-crumb-factory-5701-central-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/the-crumb-factory-5701-central-ave",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

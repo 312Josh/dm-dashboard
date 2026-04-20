@@ -14,9 +14,18 @@
   "location_names": [
     "Marker 8 new"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.rustylyon.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.rustylyon.com/": {
+      "url": "https://www.rustylyon.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

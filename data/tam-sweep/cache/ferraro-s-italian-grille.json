@@ -14,10 +14,26 @@
   "location_names": [
     "Ferraro's Italian Grille"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.ferrarositaliangrille.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ferrarositaliangrille.com/": {
+      "url": "https://www.ferrarositaliangrille.com/",
+      "html_bytes": 26563,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/ferraros-italian-grille-8348-us-301/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/ferraros-italian-grille-8348-us-301/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

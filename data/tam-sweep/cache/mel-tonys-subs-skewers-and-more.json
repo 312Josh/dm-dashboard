@@ -14,10 +14,27 @@
   "location_names": [
     "Mel & Tonys Subs, Skewers, and more"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://meltonyssubskewersandmore.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://meltonyssubskewersandmore.com/": {
+      "url": "https://meltonyssubskewersandmore.com/",
+      "html_bytes": 167905,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mel-tonys-subs-skewers-and-more-12625-4th-isle",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/mel-tonys-subs-skewers-and-more-12625-4th-isle",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

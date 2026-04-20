@@ -14,9 +14,24 @@
   "location_names": [
     "JJ's Bar and Grille"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://jjsbargrille.gotoeat.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://jjsbargrille.gotoeat.net/": {
+      "url": "https://jjsbargrille.gotoeat.net/",
+      "html_bytes": 34191,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://jjsbargrille.gotoeat.net/menu": {
+      "url": "https://jjsbargrille.gotoeat.net/menu",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

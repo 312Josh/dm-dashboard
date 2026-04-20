@@ -14,10 +14,59 @@
   "location_names": [
     "Good Intentions"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.goodintentionsfl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.goodintentionsfl.com/": {
+      "url": "https://www.goodintentionsfl.com/",
+      "html_bytes": 31006,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/good-intentions-1900-first-ave-s/giftcards",
+        "toast_oo_native": "order.toasttab.com/online/good-intentions-1900-first-ave-s",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/61d69af3-2b95-47ce-85d7-2c101cc4056e"
+      }
+    },
+    "https://www.goodintentionsfl.com/order-online-now.html": {
+      "url": "https://www.goodintentionsfl.com/order-online-now.html",
+      "html_bytes": 27497,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/good-intentions-1900-first-ave-s",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.goodintentionsfl.com/menus.html": {
+      "url": "https://www.goodintentionsfl.com/menus.html",
+      "html_bytes": 32899,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.goodintentionsfl.com/reservations.html": {
+      "url": "https://www.goodintentionsfl.com/reservations.html",
+      "html_bytes": 27521,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/61d69af3-2b95-47ce-85d7-2c101cc4056e"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/good-intentions-1900-first-ave-s/giftcards",
+    "toast_oo_native": "order.toasttab.com/online/good-intentions-1900-first-ave-s",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/61d69af3-2b95-47ce-85d7-2c101cc4056e"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

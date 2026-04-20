@@ -14,9 +14,20 @@
   "location_names": [
     "Black Sheep American Pub"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://blacksheepap.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://blacksheepap.com/": {
+      "url": "https://blacksheepap.com/",
+      "html_bytes": 300428,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

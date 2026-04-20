@@ -14,9 +14,18 @@
   "location_names": [
     "Pig Out BBQ & Southern Soul Food"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://pigout-bbq-southern-soul-food.eatat.us/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pigout-bbq-southern-soul-food.eatat.us/": {
+      "url": "https://pigout-bbq-southern-soul-food.eatat.us/",
+      "html_bytes": 85785,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

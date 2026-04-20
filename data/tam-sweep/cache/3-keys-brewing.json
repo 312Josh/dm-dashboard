@@ -14,10 +14,80 @@
   "location_names": [
     "3 Keys Brewing"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.3keysbrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.3keysbrewing.com/": {
+      "url": "https://www.3keysbrewing.com/",
+      "html_bytes": 38538,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.tapmango.com/",
+        "toast_gift": "toasttab.com/3-keys-brewing/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.tapmango.com + toasttab string in HTML"
+      }
+    },
+    "https://www.3keysbrewing.com/menus/": {
+      "url": "https://www.3keysbrewing.com/menus/",
+      "html_bytes": 73018,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.tapmango.com/"
+      }
+    },
+    "https://www.3keysbrewing.com/reservations/": {
+      "url": "https://www.3keysbrewing.com/reservations/",
+      "html_bytes": 46370,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.tapmango.com/"
+      }
+    },
+    "https://www.3keysbrewing.com/loyalty-program/": {
+      "url": "https://www.3keysbrewing.com/loyalty-program/",
+      "html_bytes": 37586,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.tapmango.com/"
+      }
+    },
+    "https://www.3keysbrewing.com/store/gift-cards/": {
+      "url": "https://www.3keysbrewing.com/store/gift-cards/",
+      "html_bytes": 33825,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.tapmango.com/",
+        "toast_gift": "toasttab.com/3-keys-brewing/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.tapmango.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.tapmango.com/",
+    "toast_gift": "toasttab.com/3-keys-brewing/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.tapmango.com + toasttab string in HTML"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

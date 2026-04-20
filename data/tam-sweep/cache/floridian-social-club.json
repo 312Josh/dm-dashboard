@@ -14,9 +14,20 @@
   "location_names": [
     "Floridian Social Club"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://thefloridiansocial.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thefloridiansocial.com/": {
+      "url": "https://thefloridiansocial.com/",
+      "html_bytes": 85167,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

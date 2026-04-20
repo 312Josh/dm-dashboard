@@ -14,9 +14,18 @@
   "location_names": [
     "Sage Sushi Lounge"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://sagesushilounge.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sagesushilounge.com/": {
+      "url": "https://sagesushilounge.com/",
+      "html_bytes": 4847,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

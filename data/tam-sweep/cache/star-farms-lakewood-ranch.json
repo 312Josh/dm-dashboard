@@ -15,9 +15,20 @@
     "Trade Route Coffee",
     "Palm Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://starfarmslwr.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://starfarmslwr.com/": {
+      "url": "https://starfarmslwr.com/",
+      "html_bytes": 117668,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

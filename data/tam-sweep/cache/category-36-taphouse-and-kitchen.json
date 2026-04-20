@@ -14,9 +14,28 @@
   "location_names": [
     "Category 36 Saint Pete Beach"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.category36taphouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.category36taphouse.com/": {
+      "url": "https://www.category36taphouse.com/",
+      "html_bytes": 810995,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.category36taphouse.com/menus": {
+      "url": "https://www.category36taphouse.com/menus",
+      "html_bytes": 1448904,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,10 +14,26 @@
   "location_names": [
     "Bacchus Wine Bistro"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://bacchusstpete.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bacchusstpete.com/": {
+      "url": "https://bacchusstpete.com/",
+      "html_bytes": 204108,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

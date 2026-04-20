@@ -14,9 +14,28 @@
   "location_names": [
     "Dream Earth Bowls"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://dreamearthbowl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dreamearthbowl.com/": {
+      "url": "https://dreamearthbowl.com/",
+      "html_bytes": 161504,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://dreamearthbowl.com/menu/": {
+      "url": "https://dreamearthbowl.com/menu/",
+      "html_bytes": 180915,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

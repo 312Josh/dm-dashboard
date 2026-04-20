@@ -15,9 +15,18 @@
     "Don Julios - Bearss",
     "Don Julios- Tampa Palms"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://donjuliosmexican.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://donjuliosmexican.com/": {
+      "url": "https://donjuliosmexican.com/",
+      "html_bytes": 4848,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

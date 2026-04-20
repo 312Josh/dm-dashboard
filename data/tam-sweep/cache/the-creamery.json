@@ -15,9 +15,24 @@
     "The Creamery",
     "The creamery"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://thecreameryhomemade.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thecreameryhomemade.com/": {
+      "url": "https://thecreameryhomemade.com/",
+      "html_bytes": 35286,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://thecreameryhomemade.com/giftcards": {
+      "url": "https://thecreameryhomemade.com/giftcards",
+      "html_bytes": 10391,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

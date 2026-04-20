@@ -18,10 +18,67 @@
     "Pappas Marketplace - Trinity",
     "Louis Pappas Fresh Greek - Sarasota"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://louispappas.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://louispappas.com/": {
+      "url": "https://louispappas.com/",
+      "html_bytes": 90806,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/louis-pappas-marketplace-bay-to-bay/rewardsSignup",
+        "toast_oo_native": "order.toasttab.com/online/pappas-marketplace-trinity-3294-redeemer-way",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://louispappas.com/menu/": {
+      "url": "https://louispappas.com/menu/",
+      "html_bytes": 112667,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://louispappas.com/rewards/": {
+      "url": "https://louispappas.com/rewards/",
+      "html_bytes": 67910,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/louis-pappas-marketplace-bay-to-bay/rewardsSignup"
+      }
+    },
+    "https://louispappas.com/order-online/": {
+      "url": "https://louispappas.com/order-online/",
+      "html_bytes": 78363,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pappas-marketplace-trinity-3294-redeemer-way",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/louis-pappas-marketplace-bay-to-bay/rewardsSignup",
+    "toast_oo_native": "order.toasttab.com/online/pappas-marketplace-trinity-3294-redeemer-way",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_local": "toasttab.com/local/order"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

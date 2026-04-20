@@ -14,13 +14,43 @@
   "location_names": [
     "Wild Child & Slim Charmer"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.wildchildstpete.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.wildchildstpete.com/": {
+      "url": "https://www.wildchildstpete.com/",
+      "html_bytes": 168841,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/wild-child/giftcards"
+      }
+    },
+    "https://www.wildchildstpete.com/menu": {
+      "url": "https://www.wildchildstpete.com/menu",
+      "html_bytes": 108977,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/wild-child/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "wild child": "https://www.wildchildstpete.com/"
+  }
 }

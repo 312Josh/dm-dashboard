@@ -14,9 +14,28 @@
   "location_names": [
     "Sushi Rock Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://sushirockgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sushirockgrill.com/": {
+      "url": "https://sushirockgrill.com/",
+      "html_bytes": 53554,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://sushirockgrill.com/sushi-rock-grill/menu/": {
+      "url": "https://sushirockgrill.com/sushi-rock-grill/menu/",
+      "html_bytes": 51201,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "Dunedin Blue Jays - 2024 Season"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.milb.com/dunedin/ballpark/springtrainingconcessions"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.milb.com/dunedin/ballpark/springtrainingconcessions": {
+      "url": "https://www.milb.com/dunedin/ballpark/springtrainingconcessions",
+      "html_bytes": 271696,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

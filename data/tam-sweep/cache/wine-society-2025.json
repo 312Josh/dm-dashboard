@@ -14,10 +14,26 @@
   "location_names": [
     "Wine Society - 2025"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://winesocietyfl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://winesocietyfl.com/": {
+      "url": "https://winesocietyfl.com/",
+      "html_bytes": 213401,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

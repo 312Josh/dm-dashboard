@@ -16,9 +16,30 @@
     "Nautilus Cafe",
     "Boatyard Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://saltbarandtable.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://saltbarandtable.com/": {
+      "url": "https://saltbarandtable.com/",
+      "html_bytes": 123411,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    },
+    "https://saltbarandtable.com/menu/": {
+      "url": "https://saltbarandtable.com/menu/",
+      "html_bytes": 134242,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

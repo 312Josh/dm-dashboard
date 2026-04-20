@@ -14,9 +14,28 @@
   "location_names": [
     "Toula's Trailside Cafe"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://toulastrailsidecafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://toulastrailsidecafe.com/": {
+      "url": "https://toulastrailsidecafe.com/",
+      "html_bytes": 115290,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://toulastrailsidecafe.com/menus/": {
+      "url": "https://toulastrailsidecafe.com/menus/",
+      "html_bytes": 95929,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "The Reserve by Chef Antonio"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://thereservebychefantonio.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thereservebychefantonio.com/": {
+      "url": "https://thereservebychefantonio.com/",
+      "html_bytes": 129467,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

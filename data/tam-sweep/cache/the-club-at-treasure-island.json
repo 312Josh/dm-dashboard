@@ -14,9 +14,18 @@
   "location_names": [
     "Sonata Restaurant at the Maheffey"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://theclubti.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://theclubti.com/": {
+      "url": "https://theclubti.com/",
+      "html_bytes": 167091,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

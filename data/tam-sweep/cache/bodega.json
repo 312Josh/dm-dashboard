@@ -15,9 +15,21 @@
     "Bodega on Central",
     "Baba on Central"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://eatatbodega.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eatatbodega.com/": {
+      "url": "https://eatatbodega.com/",
+      "html_bytes": 157020,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

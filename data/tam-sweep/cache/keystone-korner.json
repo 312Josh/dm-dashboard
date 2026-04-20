@@ -14,9 +14,18 @@
   "location_names": [
     "Keystone Korner"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.thekeystonekorner.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thekeystonekorner.com/": {
+      "url": "https://www.thekeystonekorner.com/",
+      "html_bytes": 4849,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

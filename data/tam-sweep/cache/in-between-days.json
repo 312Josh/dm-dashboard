@@ -14,10 +14,50 @@
   "location_names": [
     "In Between Days"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.inbetweendays.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.inbetweendays.co/": {
+      "url": "https://www.inbetweendays.co/",
+      "html_bytes": 108353,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/in-between-days-2340-1st-ave-s/giftcards"
+      }
+    },
+    "https://www.inbetweendays.co/reservations": {
+      "url": "https://www.inbetweendays.co/reservations",
+      "html_bytes": 99430,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.inbetweendays.co/gift-cards-1": {
+      "url": "https://www.inbetweendays.co/gift-cards-1",
+      "html_bytes": 103220,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/in-between-days-2340-1st-ave-s/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/in-between-days-2340-1st-ave-s/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

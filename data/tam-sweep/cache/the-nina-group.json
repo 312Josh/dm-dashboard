@@ -14,9 +14,20 @@
   "location_names": [
     "Jack Pallinos"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://nina-hospitality.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://nina-hospitality.com/": {
+      "url": "https://nina-hospitality.com/",
+      "html_bytes": 259816,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -17,10 +17,53 @@
     "Five Bucks Drinkery - Seminole, FL",
     "Five Buck Drinkery - Pinellas Park"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://fivebucksdrinkery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://fivebucksdrinkery.com/": {
+      "url": "https://fivebucksdrinkery.com/",
+      "html_bytes": 162655,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://fivebucksdrinkery.com/menus/": {
+      "url": "https://fivebucksdrinkery.com/menus/",
+      "html_bytes": 121769,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://fivebucksdrinkery.com/book-party/": {
+      "url": "https://fivebucksdrinkery.com/book-party/",
+      "html_bytes": 130712,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://fivebucksdrinkery.com/order-online": {
+      "url": "https://fivebucksdrinkery.com/order-online",
+      "html_bytes": 118240,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

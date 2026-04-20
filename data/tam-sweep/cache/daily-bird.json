@@ -17,9 +17,28 @@
     "Caraguilo's Italian American Restaurant",
     "Owen's Fish Camp - Lakewood Ranch"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://owensfishcamp.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://owensfishcamp.com/": {
+      "url": "https://owensfishcamp.com/",
+      "html_bytes": 56136,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://owensfishcamp.com/menu-copy/": {
+      "url": "https://owensfishcamp.com/menu-copy/",
+      "html_bytes": 54487,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

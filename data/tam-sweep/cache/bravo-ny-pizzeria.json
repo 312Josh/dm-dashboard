@@ -14,10 +14,27 @@
   "location_names": [
     "Bravo NY Pizzeria"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.bravosnypizzeria.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bravosnypizzeria.com": {
+      "url": "https://www.bravosnypizzeria.com",
+      "html_bytes": 22275,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bravo-ny-pizzeria-764-e-lake-rd-s",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/bravo-ny-pizzeria-764-e-lake-rd-s",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -15,10 +15,39 @@
     "3 Daughters Brewing",
     "3 Daughters Brewing - Clearwater"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://3dbrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://3dbrewing.com/": {
+      "url": "https://3dbrewing.com/",
+      "html_bytes": 206646,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/3daughtersbrewing-stpete/giftcards"
+      }
+    },
+    "https://3dbrewing.com/giftcards/": {
+      "url": "https://3dbrewing.com/giftcards/",
+      "html_bytes": 101150,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/3daughtersbrewing-stpete/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/3daughtersbrewing-stpete/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

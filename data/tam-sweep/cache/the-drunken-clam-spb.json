@@ -14,9 +14,18 @@
   "location_names": [
     "The Drunken Clam - SPB"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.drunkenclambar.com/index.php"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.drunkenclambar.com/index.php": {
+      "url": "https://www.drunkenclambar.com/index.php",
+      "html_bytes": 9211,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -15,9 +15,18 @@
     "Juno & The Peacock",
     "300 Beach Dr N LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.volethospitality.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.volethospitality.com/": {
+      "url": "https://www.volethospitality.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

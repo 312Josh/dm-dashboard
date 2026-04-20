@@ -14,9 +14,27 @@
   "location_names": [
     "Esposito's Italian Restaurant"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://espositositaliantampa.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://espositositaliantampa.com/": {
+      "url": "https://espositositaliantampa.com/",
+      "html_bytes": 126992,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://espositositaliantampa.com/wp-content/uploads/2025/04/menu-04-28-25.pdf": {
+      "url": "https://espositositaliantampa.com/wp-content/uploads/2025/04/menu-04-28-25.pdf",
+      "html_bytes": 3276022,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

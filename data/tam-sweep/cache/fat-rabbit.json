@@ -15,9 +15,20 @@
     "Fat Rabbit Pub - TPA",
     "Fat Rabbit Pub - SRQ"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://fatrabbitpub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://fatrabbitpub.com/": {
+      "url": "https://fatrabbitpub.com/",
+      "html_bytes": 241953,
+      "fingerprints": {
+        "website_cms": "SpotHopper"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

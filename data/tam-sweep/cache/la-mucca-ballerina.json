@@ -14,10 +14,39 @@
   "location_names": [
     "La Mucca Ballerina"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://lamuccaballerina.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lamuccaballerina.com/": {
+      "url": "https://lamuccaballerina.com/",
+      "html_bytes": 266968,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/b7937cd9-0f7f-4998-8e72-907364df4fff"
+      }
+    },
+    "https://lamuccaballerina.com/menu-a-la-carte/": {
+      "url": "https://lamuccaballerina.com/menu-a-la-carte/",
+      "html_bytes": 204702,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/b7937cd9-0f7f-4998-8e72-907364df4fff"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/b7937cd9-0f7f-4998-8e72-907364df4fff"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

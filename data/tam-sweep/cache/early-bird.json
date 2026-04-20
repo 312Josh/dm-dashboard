@@ -15,9 +15,18 @@
     "Early Bird",
     "Early Bird - New Port Ritchey"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://early-bird.res-menu.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://early-bird.res-menu.net/": {
+      "url": "https://early-bird.res-menu.net/",
+      "html_bytes": 4872,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

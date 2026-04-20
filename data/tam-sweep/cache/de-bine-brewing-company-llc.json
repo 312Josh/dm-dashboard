@@ -14,9 +14,20 @@
   "location_names": [
     "De Bine Brewing Company LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.debinebrewingco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.debinebrewingco.com/": {
+      "url": "https://www.debinebrewingco.com/",
+      "html_bytes": 124618,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

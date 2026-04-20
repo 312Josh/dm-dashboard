@@ -14,9 +14,28 @@
   "location_names": [
     "Chicken & Taco Loco Bar and Grille"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://chickentacoloco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://chickentacoloco.com/": {
+      "url": "https://chickentacoloco.com/",
+      "html_bytes": 49489,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://chickentacoloco.com/menu/": {
+      "url": "https://chickentacoloco.com/menu/",
+      "html_bytes": 75258,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

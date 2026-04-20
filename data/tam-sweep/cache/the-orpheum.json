@@ -14,9 +14,18 @@
   "location_names": [
     "The Orpheum"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.theorpheum.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.theorpheum.com/": {
+      "url": "https://www.theorpheum.com/",
+      "html_bytes": 59418,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

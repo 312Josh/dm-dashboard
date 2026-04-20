@@ -15,13 +15,25 @@
     "Trinity Sports Grill",
     "Urban Grounds"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://trinitysportsgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://trinitysportsgrill.com/": {
+      "url": "https://trinitysportsgrill.com/",
+      "html_bytes": 89238,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "trinity": "https://trinitysportsgrill.com/"
+  }
 }

@@ -14,9 +14,30 @@
   "location_names": [
     "Hot sands bar and grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.hotsandstiki.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hotsandstiki.com/": {
+      "url": "https://www.hotsandstiki.com/",
+      "html_bytes": 177585,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.hotsandstiki.com/menu": {
+      "url": "https://www.hotsandstiki.com/menu",
+      "html_bytes": 116018,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,10 +14,39 @@
   "location_names": [
     "4th Street Shrimp Store"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.theshrimpstore.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.theshrimpstore.com/": {
+      "url": "https://www.theshrimpstore.com/",
+      "html_bytes": 615819,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/4th-street-shrimp-store-1006-4th-street-north/giftcards"
+      }
+    },
+    "https://www.theshrimpstore.com/menu-1": {
+      "url": "https://www.theshrimpstore.com/menu-1",
+      "html_bytes": 1329142,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/4th-street-shrimp-store-1006-4th-street-north/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/4th-street-shrimp-store-1006-4th-street-north/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

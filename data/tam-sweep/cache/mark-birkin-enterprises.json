@@ -17,9 +17,18 @@
     "Ichiban",
     "Wexford Irish Pub New"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://birkinssteakhouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://birkinssteakhouse.com/": {
+      "url": "https://birkinssteakhouse.com/",
+      "html_bytes": 4849,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

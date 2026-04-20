@@ -15,13 +15,47 @@
     "Whitney's",
     "Floridays Woodfire Grill and Tiki Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.floridays-annamaria.com/",
+    "https://www.whitneylbk.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.floridays-annamaria.com/": {
+      "url": "https://www.floridays-annamaria.com/",
+      "html_bytes": 284652,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.whitneylbk.com/": {
+      "url": "https://www.whitneylbk.com/",
+      "html_bytes": 195743,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.whitneylbk.com/menu": {
+      "url": "https://www.whitneylbk.com/menu",
+      "html_bytes": 128062,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "floridays": "https://www.floridays-annamaria.com/",
+    "whitney": "https://www.whitneylbk.com/"
+  }
 }

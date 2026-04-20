@@ -14,9 +14,30 @@
   "location_names": [
     "Jimmy's Sports Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.jimmysstpete.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.jimmysstpete.com/": {
+      "url": "https://www.jimmysstpete.com/",
+      "html_bytes": 111289,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.jimmysstpete.com/menu": {
+      "url": "https://www.jimmysstpete.com/menu",
+      "html_bytes": 134064,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

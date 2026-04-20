@@ -14,9 +14,18 @@
   "location_names": [
     "Latin Quarters - Downtown SRQ"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://latinquarters.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://latinquarters.toast.site/": {
+      "url": "https://latinquarters.toast.site/",
+      "html_bytes": 4873,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

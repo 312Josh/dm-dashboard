@@ -14,9 +14,20 @@
   "location_names": [
     "2 Guys Grilling"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.whenpigsflyfamilybbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.whenpigsflyfamilybbq.com/": {
+      "url": "https://www.whenpigsflyfamilybbq.com/",
+      "html_bytes": 256674,
+      "fingerprints": {
+        "website_cms": "Shopify"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,10 +14,39 @@
   "location_names": [
     "Harry's Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.harrysgrillami.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.harrysgrillami.com/": {
+      "url": "https://www.harrysgrillami.com/",
+      "html_bytes": 632618,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/harrys-grill-9903-gulf-drive",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.harrysgrillami.com/menus": {
+      "url": "https://www.harrysgrillami.com/menus",
+      "html_bytes": 203507,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/harrys-grill-9903-gulf-drive",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -14,9 +14,36 @@
   "location_names": [
     "Sponge City Brewing, LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.spongecitybrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.spongecitybrewing.com/": {
+      "url": "https://www.spongecitybrewing.com/",
+      "html_bytes": 628359,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.spongecitybrewing.com/menu": {
+      "url": "https://www.spongecitybrewing.com/menu",
+      "html_bytes": 452370,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.spongecitybrewing.com/booking": {
+      "url": "https://www.spongecitybrewing.com/booking",
+      "html_bytes": 458281,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

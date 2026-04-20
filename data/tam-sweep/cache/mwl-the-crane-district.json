@@ -15,13 +15,31 @@
     "Mangosteen",
     "The Glass Noodle"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://mangosteenfl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mangosteenfl.com/": {
+      "url": "https://mangosteenfl.com/",
+      "html_bytes": 200150,
+      "fingerprints": {
+        "website_cms": "SpotHopper"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.spoton.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.spoton.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "mangosteen": "https://mangosteenfl.com/"
+  }
 }

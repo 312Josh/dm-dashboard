@@ -15,13 +15,25 @@
     "Zafeera Tampa",
     "Nura Hookah"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.facebook.com/p/Nura-Hookah-61567709301628/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/Nura-Hookah-61567709301628/": {
+      "url": "https://www.facebook.com/p/Nura-Hookah-61567709301628/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "nura": "https://www.facebook.com/p/Nura-Hookah-61567709301628/"
+  }
 }

@@ -15,9 +15,25 @@
     "Frog Pond SPB",
     "Frog Pond - DTSP"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://frogpondspb.com/",
+    "https://frogponddtsp.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://frogpondspb.com/": {
+      "url": "https://frogpondspb.com/",
+      "html_bytes": 32959,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://frogponddtsp.com/": {
+      "url": "https://frogponddtsp.com/",
+      "html_bytes": 33388,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

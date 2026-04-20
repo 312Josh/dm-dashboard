@@ -15,9 +15,38 @@
     "Masa",
     "Sam's Sushi"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.samssushi.com/home"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.samssushi.com/home": {
+      "url": "https://www.samssushi.com/home",
+      "html_bytes": 162535,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    },
+    "https://www.samssushi.com/menus/lunch": {
+      "url": "https://www.samssushi.com/menus/lunch",
+      "html_bytes": 130102,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.samssushi.com/menus/dinner": {
+      "url": "https://www.samssushi.com/menus/dinner",
+      "html_bytes": 133277,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.samssushi.com/menus/happy-hour": {
+      "url": "https://www.samssushi.com/menus/happy-hour",
+      "html_bytes": 129999,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

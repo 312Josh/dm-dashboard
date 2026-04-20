@@ -14,10 +14,32 @@
   "location_names": [
     "Amar middle eastern cuisine"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.amarcuisine.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.amarcuisine.com": {
+      "url": "https://www.amarcuisine.com",
+      "html_bytes": 267035,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/amar-middle-eastern-cuisine-12350-us-301-s",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/amar-middle-eastern-cuisine-12350-us-301-s/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/amar-middle-eastern-cuisine-12350-us-301-s",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/amar-middle-eastern-cuisine-12350-us-301-s/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

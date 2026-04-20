@@ -14,9 +14,28 @@
   "location_names": [
     "Bella Roma Pizza Inc"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://liveloveeatpizza.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://liveloveeatpizza.com": {
+      "url": "https://liveloveeatpizza.com",
+      "html_bytes": 153029,
+      "fingerprints": {
+        "oo": "ChowNow"
+      },
+      "toast": {}
+    },
+    "https://liveloveeatpizza.com/menu": {
+      "url": "https://liveloveeatpizza.com/menu",
+      "html_bytes": 189729,
+      "fingerprints": {
+        "oo": "ChowNow"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

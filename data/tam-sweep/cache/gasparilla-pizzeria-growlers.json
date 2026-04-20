@@ -15,9 +15,18 @@
     "Gasparilla Pizzeria & Growlers",
     "Gasparilla & Growlers-New-Valrico"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://gasparillarestaurants.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gasparillarestaurants.com/": {
+      "url": "https://gasparillarestaurants.com/",
+      "html_bytes": 4874,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

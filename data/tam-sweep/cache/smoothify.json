@@ -14,9 +14,28 @@
   "location_names": [
     "Smoothify"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.smoothifysmoothies.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.smoothifysmoothies.com/": {
+      "url": "https://www.smoothifysmoothies.com/",
+      "html_bytes": 528269,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.smoothifysmoothies.com/menus": {
+      "url": "https://www.smoothifysmoothies.com/menus",
+      "html_bytes": 1192891,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

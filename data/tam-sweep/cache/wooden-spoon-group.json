@@ -14,9 +14,28 @@
   "location_names": [
     "The Wooden Spoon Diner"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://woodenspoontoo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://woodenspoontoo.com/": {
+      "url": "https://woodenspoontoo.com/",
+      "html_bytes": 85621,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://woodenspoontoo.com/menu/": {
+      "url": "https://woodenspoontoo.com/menu/",
+      "html_bytes": 262576,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

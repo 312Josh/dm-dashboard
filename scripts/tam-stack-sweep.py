@@ -320,12 +320,42 @@ def curl_fingerprint(slug: str, url: str) -> None:
         print("    no fingerprints matched")
 
 
+def is_multi_brand(data: dict) -> bool:
+    """A parent is multi-brand if its locations have >1 distinctly-named brands.
+    Normalize names: strip '- {city}' / '- {region}' / ' 1'-' N' suffixes that denote
+    same-brand multi-location."""
+    locs = data.get("location_names", [])
+    if len(locs) <= 1:
+        return False
+    normalized = set()
+    for l in locs:
+        n = re.sub(r"\s*-\s*[A-Za-z\s\.\']+$", "", l)  # strip trailing "- City"
+        n = re.sub(r"\s+\d+$", "", n)  # strip trailing location number
+        n = re.sub(r"[^a-z0-9]+", "", n.lower())
+        if n:
+            normalized.add(n)
+    return len(normalized) > 1
+
+
 def set_website(slug: str, urls: list[str]) -> None:
     data = load_cache(slug)
     if not data:
         print(f"ERROR: no cache for {slug}", file=sys.stderr)
         sys.exit(1)
     clean = [u for u in urls if u]
+    # Guard: refuse to mark a multi-brand parent as "not_found" with no URLs —
+    # each brand needs its own per-location website discovery.
+    if not clean and is_multi_brand(data):
+        locs = data.get("location_names", [])
+        print(
+            f"  REFUSED: {slug} is multi-brand with {len(locs)} distinct locations. "
+            f"Use set-brand-website for each brand instead of marking not_found.\n"
+            f"  Distinct location names: {locs}",
+            file=sys.stderr,
+        )
+        data["website_discovery_status"] = "needs_per_location_discovery"
+        save_cache(slug, data)
+        sys.exit(2)
     data["websites"] = clean
     data["website_discovery_status"] = "found" if clean else "not_found"
     save_cache(slug, data)

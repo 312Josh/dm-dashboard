@@ -14,9 +14,32 @@
   "location_names": [
     "Old Castle Restaurant Inc."
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.oldcastlerestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.oldcastlerestaurant.com/": {
+      "url": "https://www.oldcastlerestaurant.com/",
+      "html_bytes": 34544,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    },
+    "https://www.oldcastlerestaurant.com/menus/": {
+      "url": "https://www.oldcastlerestaurant.com/menus/",
+      "html_bytes": 101138,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

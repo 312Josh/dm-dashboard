@@ -20,14 +20,57 @@
     "Surf Shack Coastal Kitchen"
   ],
   "websites": [
-    ""
+    "",
+    "https://surfshackkitchen.com/",
+    "https://www.bourbonandbones.com/"
   ],
   "website_discovery_status": "found",
-  "fingerprints": {},
+  "fingerprints": {
+    "https://surfshackkitchen.com/": {
+      "url": "https://surfshackkitchen.com/",
+      "html_bytes": 177253,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.bourbonandbones.com/": {
+      "url": "https://www.bourbonandbones.com/",
+      "html_bytes": 184406,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.bourbonandbones.com/menu-gallery-2/": {
+      "url": "https://www.bourbonandbones.com/menu-gallery-2/",
+      "html_bytes": 159999,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.bourbonandbones.com/reserve-whiskey-collection/": {
+      "url": "https://www.bourbonandbones.com/reserve-whiskey-collection/",
+      "html_bytes": 270816,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "surf shack": "https://surfshackkitchen.com/",
+    "bourbon": "https://www.bourbonandbones.com/"
+  }
 }

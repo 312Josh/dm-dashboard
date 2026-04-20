@@ -15,9 +15,48 @@
     "LALA St Pete",
     "LALA Tampa - Updated CSD"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://lalakaraoke.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lalakaraoke.com/": {
+      "url": "https://lalakaraoke.com/",
+      "html_bytes": 84677,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://lalakaraoke.com/reservations/": {
+      "url": "https://lalakaraoke.com/reservations/",
+      "html_bytes": 99316,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://lalakaraoke.com/book-a-room/": {
+      "url": "https://lalakaraoke.com/book-a-room/",
+      "html_bytes": 99207,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://lalakaraoke.com/menu/": {
+      "url": "https://lalakaraoke.com/menu/",
+      "html_bytes": 76260,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,10 +14,39 @@
   "location_names": [
     "Calusa Pizza & Craft"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.calusapizza.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.calusapizza.com": {
+      "url": "https://www.calusapizza.com",
+      "html_bytes": 562631,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/calusa-pizza-craft-17695-n-dale-mabry-hwy/giftcards"
+      }
+    },
+    "https://www.calusapizza.com/menu": {
+      "url": "https://www.calusapizza.com/menu",
+      "html_bytes": 1409920,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/calusa-pizza-craft-17695-n-dale-mabry-hwy/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/calusa-pizza-craft-17695-n-dale-mabry-hwy/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -15,10 +15,29 @@
     "Green Zebra Cafe - 476 John Ringling Blvd",
     "Green Zebra Cafe - 1377 Main St"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://greenzebracafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://greenzebracafe.com/": {
+      "url": "https://greenzebracafe.com/",
+      "html_bytes": 164739,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/maingreenzebracafe",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/maingreenzebracafe",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

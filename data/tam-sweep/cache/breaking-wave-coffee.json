@@ -14,9 +14,18 @@
   "location_names": [
     "Breaking Wave Coffee"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://breakingwavecoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://breakingwavecoffee.com/": {
+      "url": "https://breakingwavecoffee.com/",
+      "html_bytes": 194844,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

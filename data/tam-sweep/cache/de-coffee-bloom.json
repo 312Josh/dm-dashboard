@@ -14,9 +14,20 @@
   "location_names": [
     "De Coffee Bloom"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.decoffeebloom.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.decoffeebloom.com/": {
+      "url": "https://www.decoffeebloom.com/",
+      "html_bytes": 3060,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

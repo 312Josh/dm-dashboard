@@ -14,9 +14,18 @@
   "location_names": [
     "Agrigento"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://agrigento-pizzeria-caffe.res-menu.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://agrigento-pizzeria-caffe.res-menu.net/": {
+      "url": "https://agrigento-pizzeria-caffe.res-menu.net/",
+      "html_bytes": 4928,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

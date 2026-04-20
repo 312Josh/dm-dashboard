@@ -15,9 +15,21 @@
     "Strand Hill Public",
     "Strand Hill Public - The Pearl"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://strandhillpublic.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://strandhillpublic.com/": {
+      "url": "https://strandhillpublic.com/",
+      "html_bytes": 172558,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

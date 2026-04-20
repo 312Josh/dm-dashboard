@@ -14,9 +14,38 @@
   "location_names": [
     "Baker & Wife - Sarasota"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.bakerwife.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bakerwife.com/": {
+      "url": "https://www.bakerwife.com/",
+      "html_bytes": 59972,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.bakerwife.com/menu/": {
+      "url": "https://www.bakerwife.com/menu/",
+      "html_bytes": 92604,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.bakerwife.com/reservations/": {
+      "url": "https://www.bakerwife.com/reservations/",
+      "html_bytes": 51195,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

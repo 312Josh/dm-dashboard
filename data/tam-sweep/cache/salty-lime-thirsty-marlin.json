@@ -15,13 +15,28 @@
     "Senor Ritas",
     "Thirsty Marlin Inc"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://thirstymarlin.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thirstymarlin.com/": {
+      "url": "https://thirstymarlin.com/",
+      "html_bytes": 87288,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "thirsty marlin": "https://thirstymarlin.com/"
+  }
 }

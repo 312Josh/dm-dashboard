@@ -16,10 +16,38 @@
     "Mi Pueblo - Bee Ridge",
     "Mi Pueblo - University"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.mipueblomexican.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mipueblomexican.com/": {
+      "url": "https://www.mipueblomexican.com/",
+      "html_bytes": 42959,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mipueblobeeridge",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.mipueblomexican.com/orderonline": {
+      "url": "https://www.mipueblomexican.com/orderonline",
+      "html_bytes": 37617,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mipueblobeeridge",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/mipueblobeeridge",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

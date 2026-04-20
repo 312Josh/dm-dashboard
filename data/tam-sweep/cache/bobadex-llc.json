@@ -14,9 +14,18 @@
   "location_names": [
     "Bobadex LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://boba-dex.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://boba-dex.com": {
+      "url": "https://boba-dex.com",
+      "html_bytes": 4818,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

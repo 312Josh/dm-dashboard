@@ -14,9 +14,18 @@
   "location_names": [
     "Fat Beet Farm"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.fatbeetfarm.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fatbeetfarm.com/": {
+      "url": "https://www.fatbeetfarm.com/",
+      "html_bytes": 7154,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

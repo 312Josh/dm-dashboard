@@ -14,9 +14,20 @@
   "location_names": [
     "Esposito's ESPO Pizza"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.espositopizzamenu.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.espositopizzamenu.com/": {
+      "url": "https://www.espositopizzamenu.com/",
+      "html_bytes": 6371,
+      "fingerprints": {
+        "oo": "Slice"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

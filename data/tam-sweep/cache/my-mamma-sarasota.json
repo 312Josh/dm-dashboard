@@ -14,9 +14,51 @@
   "location_names": [
     "My Mamma - Sarasota"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://my-mamma.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://my-mamma.com/": {
+      "url": "https://my-mamma.com/",
+      "html_bytes": 287108,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://my-mamma.com/gift-card-2/": {
+      "url": "https://my-mamma.com/gift-card-2/",
+      "html_bytes": 240423,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://my-mamma.com/rewards/": {
+      "url": "https://my-mamma.com/rewards/",
+      "html_bytes": 239888,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://my-mamma.com/order-pickup/": {
+      "url": "https://my-mamma.com/order-pickup/",
+      "html_bytes": 307677,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://my-mamma.com/menu-mymamma-jan-2026/": {
+      "url": "https://my-mamma.com/menu-mymamma-jan-2026/",
+      "html_bytes": 4770023,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

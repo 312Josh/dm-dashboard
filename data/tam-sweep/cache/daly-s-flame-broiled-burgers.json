@@ -14,9 +14,24 @@
   "location_names": [
     "Daly’s Flame-Broiled Burgers"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://dalysflamebroiled.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dalysflamebroiled.com/": {
+      "url": "https://dalysflamebroiled.com/",
+      "html_bytes": 179554,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://dalysflamebroiled.com/m/orders": {
+      "url": "https://dalysflamebroiled.com/m/orders",
+      "html_bytes": 95527,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

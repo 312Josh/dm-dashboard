@@ -16,10 +16,37 @@
     "Wicked Cantina - Bradenton Beach",
     "Wicked Cantina - Saint Petersburg"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://wickedcantina.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wickedcantina.com/": {
+      "url": "https://wickedcantina.com/",
+      "html_bytes": 228941,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/wicked-cantina-bradenton-beach/giftcards"
+      }
+    },
+    "https://wickedcantina.com/gift-cards-2": {
+      "url": "https://wickedcantina.com/gift-cards-2",
+      "html_bytes": 145117,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/wicked-cantina-bradenton-beach/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/wicked-cantina-bradenton-beach/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

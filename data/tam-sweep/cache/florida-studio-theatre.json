@@ -14,9 +14,18 @@
   "location_names": [
     "Florida Studio Theatre"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.floridastudiotheatre.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.floridastudiotheatre.org/": {
+      "url": "https://www.floridastudiotheatre.org/",
+      "html_bytes": 230948,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

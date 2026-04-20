@@ -16,13 +16,35 @@
     "Trip's Diner - St. Pete",
     "Lonni's Sandwiches"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://tripsdiner.com/",
+    "https://lonnisdowntownstpete.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tripsdiner.com/": {
+      "url": "https://tripsdiner.com/",
+      "html_bytes": 81932,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://lonnisdowntownstpete.com/": {
+      "url": "https://lonnisdowntownstpete.com/",
+      "html_bytes": 4873,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "trip": "https://tripsdiner.com/",
+    "lonni": "https://lonnisdowntownstpete.com/"
+  }
 }

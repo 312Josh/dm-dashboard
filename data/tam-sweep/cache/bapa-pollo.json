@@ -14,10 +14,30 @@
   "location_names": [
     "Bapa Pollo"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://bapapollo.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bapapollo.com": {
+      "url": "https://bapapollo.com",
+      "html_bytes": 169706,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bapa-pollo-1210-8th-ave-w",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/bapa-pollo-1210-8th-ave-w/rewardsLookup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/bapa-pollo-1210-8th-ave-w",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/bapa-pollo-1210-8th-ave-w/rewardsLookup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

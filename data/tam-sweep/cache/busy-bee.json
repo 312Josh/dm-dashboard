@@ -15,9 +15,75 @@
     "Busy Bee",
     "Busy Bee 2"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://busybeediner.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://busybeediner.com/": {
+      "url": "https://busybeediner.com/",
+      "html_bytes": 177028,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://busybeediner.com/menu-item/texan-omelet/": {
+      "url": "https://busybeediner.com/menu-item/texan-omelet/",
+      "html_bytes": 47735,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://busybeediner.com/menu-item/vegetarian-omelet/": {
+      "url": "https://busybeediner.com/menu-item/vegetarian-omelet/",
+      "html_bytes": 47816,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://busybeediner.com/menu-item/buttermilk-pancakes/": {
+      "url": "https://busybeediner.com/menu-item/buttermilk-pancakes/",
+      "html_bytes": 47806,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://busybeediner.com/menu-item/blueberry-or-chocolate-chip-pancakes/": {
+      "url": "https://busybeediner.com/menu-item/blueberry-or-chocolate-chip-pancakes/",
+      "html_bytes": 48157,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://busybeediner.com/menu-item/belgian-waffle/": {
+      "url": "https://busybeediner.com/menu-item/belgian-waffle/",
+      "html_bytes": 47805,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://busybeediner.com/menu-item/busy-bee-222-breakfast/": {
+      "url": "https://busybeediner.com/menu-item/busy-bee-222-breakfast/",
+      "html_bytes": 48029,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

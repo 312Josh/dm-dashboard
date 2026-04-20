@@ -15,9 +15,18 @@
     "Scarpino's of Lutz",
     "Scarpino's of Bradenton"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://scarpinosclassicitalian.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://scarpinosclassicitalian.com/": {
+      "url": "https://scarpinosclassicitalian.com/",
+      "html_bytes": 4876,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -35,6 +35,15 @@
       "html_bytes": 165604,
       "fingerprints": {},
       "toast": {}
+    },
+    "https://www.beachhousedining.com/": {
+      "url": "https://www.beachhousedining.com/",
+      "html_bytes": 518098,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
     }
   },
   "toast_products": {},

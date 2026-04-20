@@ -17,10 +17,26 @@
     "Crafty Squirrel",
     "The Oyster Bar - Saint Pete"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.craftysquirrel.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.craftysquirrel.com/": {
+      "url": "https://www.craftysquirrel.com/",
+      "html_bytes": 62050,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/the-crafty-squirrel/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/the-crafty-squirrel/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

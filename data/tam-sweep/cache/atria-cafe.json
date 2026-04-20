@@ -14,10 +14,28 @@
   "location_names": [
     "Atria Cafe"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.atria.cafe/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.atria.cafe/": {
+      "url": "https://www.atria.cafe/",
+      "html_bytes": 117090,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/atria-cafe-lwr/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/atria-cafe-lwr/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

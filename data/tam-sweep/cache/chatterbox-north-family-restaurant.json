@@ -14,9 +14,18 @@
   "location_names": [
     "BLISS FAMILY RESTAURANT & CAFE"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://chatterboxnorthfamilyrestaurant.netwaiter.com/palm-harbor/about"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://chatterboxnorthfamilyrestaurant.netwaiter.com/palm-harbor/about": {
+      "url": "https://chatterboxnorthfamilyrestaurant.netwaiter.com/palm-harbor/about",
+      "html_bytes": 44749,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

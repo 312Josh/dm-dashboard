@@ -15,10 +15,26 @@
     "Tsunami Restaurant - Lakewood Ranch",
     "Hanami"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://tsunamifl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tsunamifl.com/": {
+      "url": "https://tsunamifl.com/",
+      "html_bytes": 70785,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/1a933f9d-f41d-49ec-bbbd-0580429988df"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/1a933f9d-f41d-49ec-bbbd-0580429988df"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

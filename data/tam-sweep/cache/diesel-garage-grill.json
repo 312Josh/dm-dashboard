@@ -14,9 +14,30 @@
   "location_names": [
     "Diesel Garage Grill - Palm Harbor"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://dieselgaragegrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dieselgaragegrill.com/": {
+      "url": "https://dieselgaragegrill.com/",
+      "html_bytes": 94469,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://dieselgaragegrill.com/menu/": {
+      "url": "https://dieselgaragegrill.com/menu/",
+      "html_bytes": 86872,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

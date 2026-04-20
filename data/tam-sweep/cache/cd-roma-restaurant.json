@@ -14,9 +14,18 @@
   "location_names": [
     "CD Roma Restaurant"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.cdromas.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cdromas.com/": {
+      "url": "https://www.cdromas.com/",
+      "html_bytes": 7150,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

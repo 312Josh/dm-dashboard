@@ -15,13 +15,25 @@
     "Bali hai beach resort",
     "Eden House"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.balihaibeachresort.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.balihaibeachresort.com/": {
+      "url": "https://www.balihaibeachresort.com/",
+      "html_bytes": 66429,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "bali hai": "https://www.balihaibeachresort.com/"
+  }
 }

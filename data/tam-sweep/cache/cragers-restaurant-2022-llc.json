@@ -14,9 +14,24 @@
   "location_names": [
     "Cragers Restaurant 2022 LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://cragers-restaurant.hey-restaurants.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cragers-restaurant.hey-restaurants.com/": {
+      "url": "https://cragers-restaurant.hey-restaurants.com/",
+      "html_bytes": 34003,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://cragers-restaurant.hey-restaurants.com/menu": {
+      "url": "https://cragers-restaurant.hey-restaurants.com/menu",
+      "html_bytes": 70244,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

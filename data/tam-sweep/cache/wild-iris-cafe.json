@@ -14,9 +14,30 @@
   "location_names": [
     "Wild Iris Cafe"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://wildiriscafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wildiriscafe.com/": {
+      "url": "https://wildiriscafe.com/",
+      "html_bytes": 54698,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://wildiriscafe.com/menus/": {
+      "url": "https://wildiriscafe.com/menus/",
+      "html_bytes": 49669,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

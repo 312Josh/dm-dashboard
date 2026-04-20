@@ -15,10 +15,51 @@
     "Engine No. 9",
     "Engine No. 9 - St. Pete"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.no9burgers.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.no9burgers.com/": {
+      "url": "https://www.no9burgers.com/",
+      "html_bytes": 33528,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "ChowNow",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/engine-no-9-st-pete/giftcards"
+      }
+    },
+    "https://www.no9burgers.com/menus/": {
+      "url": "https://www.no9burgers.com/menus/",
+      "html_bytes": 70244,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "ChowNow",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    },
+    "https://www.no9burgers.com/store/gift-cards/": {
+      "url": "https://www.no9burgers.com/store/gift-cards/",
+      "html_bytes": 30205,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/engine-no-9-st-pete/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/engine-no-9-st-pete/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

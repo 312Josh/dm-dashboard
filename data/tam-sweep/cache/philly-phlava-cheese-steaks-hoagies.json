@@ -14,9 +14,18 @@
   "location_names": [
     "Philly Phlava Cheese Steaks-Hoagies"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.phillyphlava.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.phillyphlava.com/": {
+      "url": "https://www.phillyphlava.com/",
+      "html_bytes": 19103,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

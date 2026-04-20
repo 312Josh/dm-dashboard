@@ -15,10 +15,59 @@
     "Captain Jacks",
     "Catches Waterfront Grille"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://captainjackstarpon.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://captainjackstarpon.com/": {
+      "url": "https://captainjackstarpon.com/",
+      "html_bytes": 23733,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/captain-jacks-21-oscar-hill-road/giftcards"
+      }
+    },
+    "https://captainjackstarpon.com/menus/take-out-menu.html": {
+      "url": "https://captainjackstarpon.com/menus/take-out-menu.html",
+      "html_bytes": 49,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://captainjackstarpon.com/menus.html": {
+      "url": "https://captainjackstarpon.com/menus.html",
+      "html_bytes": 13295,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://captainjackstarpon.com/menus/drinks-menu.html": {
+      "url": "https://captainjackstarpon.com/menus/drinks-menu.html",
+      "html_bytes": 16136,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://captainjackstarpon.com/gift-cards.html": {
+      "url": "https://captainjackstarpon.com/gift-cards.html",
+      "html_bytes": 15525,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/captain-jacks-21-oscar-hill-road/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/captain-jacks-21-oscar-hill-road/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

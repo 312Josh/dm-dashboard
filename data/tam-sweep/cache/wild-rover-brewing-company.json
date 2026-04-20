@@ -14,10 +14,27 @@
   "location_names": [
     "Wild Rover Brewing Company"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://wildroverbrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wildroverbrewing.com/": {
+      "url": "https://wildroverbrewing.com/",
+      "html_bytes": 210986,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/wild-rover-brewing-company",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/wild-rover-brewing-company",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

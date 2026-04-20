@@ -14,9 +14,18 @@
   "location_names": [
     "Kaffeina Coffee Co"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://kaffeina.cafe/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kaffeina.cafe/": {
+      "url": "https://kaffeina.cafe/",
+      "html_bytes": 10881,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

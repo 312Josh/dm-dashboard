@@ -14,9 +14,18 @@
   "location_names": [
     "Coffee on Gulf"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://coastalpizzakitchen.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://coastalpizzakitchen.com": {
+      "url": "https://coastalpizzakitchen.com",
+      "html_bytes": 4872,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

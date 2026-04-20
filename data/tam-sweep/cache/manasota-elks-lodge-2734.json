@@ -14,9 +14,18 @@
   "location_names": [
     "Manasota Elks Lodge 2734"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://manasota-elks-2734.square.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://manasota-elks-2734.square.site/": {
+      "url": "https://manasota-elks-2734.square.site/",
+      "html_bytes": 41670,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

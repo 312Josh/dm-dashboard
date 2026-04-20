@@ -14,9 +14,24 @@
   "location_names": [
     "Hooks Waterfront Bar and Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://hookswaterfrontbargrill.shop/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hookswaterfrontbargrill.shop/": {
+      "url": "https://hookswaterfrontbargrill.shop/",
+      "html_bytes": 28303,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://hookswaterfrontbargrill.shop/menu": {
+      "url": "https://hookswaterfrontbargrill.shop/menu",
+      "html_bytes": 28141,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
