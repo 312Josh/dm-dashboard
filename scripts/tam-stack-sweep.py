@@ -325,10 +325,35 @@ def set_website(slug: str, urls: list[str]) -> None:
     if not data:
         print(f"ERROR: no cache for {slug}", file=sys.stderr)
         sys.exit(1)
-    data["websites"] = urls
-    data["website_discovery_status"] = "found" if urls else "not_found"
+    clean = [u for u in urls if u]
+    data["websites"] = clean
+    data["website_discovery_status"] = "found" if clean else "not_found"
     save_cache(slug, data)
-    print(f"  {slug} websites set: {urls}")
+    print(f"  {slug} websites set: {clean or '[]'}")
+
+
+def set_brand_website(slug: str, brand_key: str, url: str) -> None:
+    """Attach a website to a specific brand/location-name pattern within a parent.
+
+    brand_key is a substring that identifies location names belonging to this
+    brand (case-insensitive). E.g., parent "Pineapple Hospitality" can have:
+      brand 'Agave' → eatagavesocial.com
+      brand 'Craft Street' → craftstreetkitchen.com
+      brand 'Shaker' → shakerandpeel.com
+      brand 'ZimZari' → zimzari.com
+    """
+    data = load_cache(slug)
+    if not data:
+        print(f"ERROR: no cache for {slug}", file=sys.stderr)
+        sys.exit(1)
+    brands = data.setdefault("brand_websites", {})
+    brands[brand_key.lower()] = url
+    # Also track URL in websites list so curl stage picks it up
+    if url and url not in data.get("websites", []):
+        data.setdefault("websites", []).append(url)
+    data["website_discovery_status"] = "found"
+    save_cache(slug, data)
+    print(f"  {slug} brand '{brand_key}' → {url}")
 
 
 def set_marketplaces(slug: str, mp_json: str) -> None:
@@ -439,13 +464,55 @@ def confidence(d: dict[str, Any]) -> str:
     return "high"
 
 
-def aggregate_fingerprints(d: dict[str, Any]) -> dict[str, str]:
+def aggregate_fingerprints(d: dict[str, Any], url_filter: set[str] | None = None) -> dict[str, str]:
     agg: dict[str, str] = {}
-    for fpdata in d.get("fingerprints", {}).values():
+    for url, fpdata in d.get("fingerprints", {}).items():
+        if url_filter is not None and url not in url_filter:
+            continue
         if isinstance(fpdata, dict) and "fingerprints" in fpdata:
             for cat, vendor in fpdata["fingerprints"].items():
                 agg.setdefault(cat, vendor)
     return agg
+
+
+def aggregate_toast(d: dict[str, Any], url_filter: set[str] | None = None) -> dict[str, str]:
+    agg: dict[str, str] = {}
+    for url, fpdata in d.get("fingerprints", {}).items():
+        if url_filter is not None and url not in url_filter:
+            continue
+        if isinstance(fpdata, dict) and "toast" in fpdata:
+            for k, v in fpdata["toast"].items():
+                agg.setdefault(k, v)
+    return agg
+
+
+def pick_brand_urls(d: dict[str, Any], location_name: str) -> set[str]:
+    """For a given location name, return the set of URLs (brand sites + subpages)
+    that apply. If parent has no brand_websites mapping, all URLs apply."""
+    brands = d.get("brand_websites", {})
+    if not brands:
+        return set(d.get("fingerprints", {}).keys())
+
+    loc_lc = location_name.lower()
+    matched_root_url: str | None = None
+    # Longest brand_key match wins
+    best = (0, None)
+    for bkey, burl in brands.items():
+        if bkey in loc_lc and len(bkey) > best[0]:
+            best = (len(bkey), burl)
+    matched_root_url = best[1]
+    if not matched_root_url:
+        # No match — use all URLs so we don't blank the row
+        return set(d.get("fingerprints", {}).keys())
+
+    # Include that brand's root URL and any subpages under its host
+    from urllib.parse import urlparse
+    target_host = urlparse(matched_root_url).netloc.lower()
+    out = set()
+    for url in d.get("fingerprints", {}).keys():
+        if urlparse(url).netloc.lower() == target_host:
+            out.add(url)
+    return out
 
 
 def assemble() -> None:
@@ -480,9 +547,12 @@ def assemble() -> None:
         writer.writeheader()
         for row in reader:
             parent = row["Parent Account Name"].strip()
+            loc = row.get("Location Name", "").strip()
             d = parent_data.get(parent, {})
-            agg_fp = aggregate_fingerprints(d) if d else {}
-            toast = d.get("toast_products", {}) if d else {}
+            # Per-location attribution: pick URLs matching this location's brand
+            url_filter = pick_brand_urls(d, loc) if d else None
+            agg_fp = aggregate_fingerprints(d, url_filter) if d else {}
+            toast = aggregate_toast(d, url_filter) if d else {}
             mp = d.get("marketplaces", {}) if d else {}
 
             # Toast OO — only count confirmed native or confirmed whitelabel
@@ -641,8 +711,20 @@ def main() -> None:
         extract_parents()
     elif cmd == "curl":
         curl_fingerprint(sys.argv[2], sys.argv[3])
+    elif cmd == "curl-all":
+        # Curl every URL already set on this slug, serially (no race).
+        slug = sys.argv[2]
+        data = load_cache(slug)
+        if not data:
+            print(f"ERROR: no cache for {slug}", file=sys.stderr)
+            sys.exit(1)
+        for url in data.get("websites", []):
+            if url:
+                curl_fingerprint(slug, url)
     elif cmd == "set-website":
         set_website(sys.argv[2], sys.argv[3:])
+    elif cmd == "set-brand-website":
+        set_brand_website(sys.argv[2], sys.argv[3], sys.argv[4])
     elif cmd == "set-marketplaces":
         set_marketplaces(sys.argv[2], sys.argv[3])
     elif cmd == "set-hr":

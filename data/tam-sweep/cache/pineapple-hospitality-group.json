@@ -60,14 +60,167 @@
       "toast": {
         "toast_gift": "toasttab.com/zimzari/giftcards"
       }
+    },
+    "https://www.eatagavesocial.com/": {
+      "url": "https://www.eatagavesocial.com/",
+      "html_bytes": 301559,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/agave-social-dale-maby-14803-north-dale-mabry-highway",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/26d72b04-d043-4ccc-9f48-f7513f02a351",
+        "toast_gift": "toasttab.com/shaker-and-peel/giftcards"
+      }
+    },
+    "https://www.eatagavesocial.com/menu": {
+      "url": "https://www.eatagavesocial.com/menu",
+      "html_bytes": 195860,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/agave-social-dale-maby-14803-north-dale-mabry-highway",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/26d72b04-d043-4ccc-9f48-f7513f02a351"
+      }
+    },
+    "https://www.eatagavesocial.com/gift-cards": {
+      "url": "https://www.eatagavesocial.com/gift-cards",
+      "html_bytes": 198308,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/agave-social-dale-maby-14803-north-dale-mabry-highway",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/26d72b04-d043-4ccc-9f48-f7513f02a351",
+        "toast_gift": "toasttab.com/shaker-and-peel/giftcards"
+      }
+    },
+    "https://www.shakerandpeel.com/": {
+      "url": "https://www.shakerandpeel.com/",
+      "html_bytes": 421985,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/shaker-and-peel/giftcards"
+      }
+    },
+    "https://www.shakerandpeel.com/menus": {
+      "url": "https://www.shakerandpeel.com/menus",
+      "html_bytes": 186308,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.shakerandpeel.com/gift-cards": {
+      "url": "https://www.shakerandpeel.com/gift-cards",
+      "html_bytes": 222560,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/shaker-and-peel/giftcards"
+      }
+    },
+    "https://www.craftstreetkitchen.com/": {
+      "url": "https://www.craftstreetkitchen.com/",
+      "html_bytes": 411631,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/craft-street-kitchen-trinity",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/15df5445-e80e-494c-a7cf-c1d61aa4b3da",
+        "toast_gift": "toasttab.com/craft-street-kitchen-oldsmar/giftcards"
+      }
+    },
+    "https://www.craftstreetkitchen.com/menu-4": {
+      "url": "https://www.craftstreetkitchen.com/menu-4",
+      "html_bytes": 220650,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/craft-street-kitchen-trinity",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/15df5445-e80e-494c-a7cf-c1d61aa4b3da"
+      }
+    },
+    "https://www.craftstreetkitchen.com/menu-4-3": {
+      "url": "https://www.craftstreetkitchen.com/menu-4-3",
+      "html_bytes": 220795,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/craft-street-kitchen-trinity",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/15df5445-e80e-494c-a7cf-c1d61aa4b3da"
+      }
+    },
+    "https://www.craftstreetkitchen.com/gift-cards": {
+      "url": "https://www.craftstreetkitchen.com/gift-cards",
+      "html_bytes": 250634,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/craft-street-kitchen-trinity",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/15df5445-e80e-494c-a7cf-c1d61aa4b3da",
+        "toast_gift": "toasttab.com/craft-street-kitchen-oldsmar/giftcards"
+      }
     }
   },
   "toast_products": {
-    "toast_gift": "toasttab.com/zimzari/giftcards"
+    "toast_gift": "toasttab.com/zimzari/giftcards",
+    "toast_oo_native": "order.toasttab.com/online/agave-social-dale-maby-14803-north-dale-mabry-highway",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/26d72b04-d043-4ccc-9f48-f7513f02a351"
   },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "brand_websites": {
+    "agave": "https://www.eatagavesocial.com/",
+    "shaker": "https://www.shakerandpeel.com/",
+    "craft street": "https://www.craftstreetkitchen.com/",
+    "zimzari": "https://www.zimzari.com/",
+    "zim zari": "https://www.zimzari.com/"
+  }
 }
