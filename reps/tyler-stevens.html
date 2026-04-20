@@ -55,6 +55,27 @@
   .c-technique { background: var(--toast-orange-bg); color: var(--toast-orange); }
   .c-results { background: var(--green-bg); color: var(--green); }
   .footer { text-align: center; padding: 20px; font-size: 12px; color: var(--gray-400); }
+  @media print {
+    body { background: white; font-size: 11px; }
+    .header { padding: 8px 16px; border-bottom: 2px solid #000; }
+    .header-left a { display: none; }
+    .content { padding: 8px 16px; }
+    .scorecard { grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 12px; }
+    .sc-card { padding: 8px 6px; border: 1px solid #ccc; }
+    .sc-card .label { font-size: 9px; }
+    .sc-card .value { font-size: 16px; }
+    .sc-card .sub { font-size: 9px; }
+    .section { padding: 10px; margin-bottom: 8px; box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
+    .section h2 { font-size: 13px; margin-bottom: 8px; }
+    .two-col { grid-template-columns: 1fr 1fr; gap: 8px; }
+    table { font-size: 11px; }
+    th { padding: 4px 6px; font-size: 9px; }
+    td { padding: 4px 6px; }
+    .coaching li { padding: 4px 0; font-size: 11px; line-height: 1.4; }
+    .badge { font-size: 9px; padding: 1px 6px; }
+    .footer { font-size: 9px; padding: 8px; }
+    @page { margin: 0.5in; size: letter; }
+  }
 </style>
 </head>
 <body>
@@ -63,18 +84,18 @@
     <a href="../index.html">&larr; Back to Dashboard</a>
     <h1>Tyler Stevens</h1>
   </div>
-  <div class="header-right">April 2026 — Data as of Apr 17, 2026</div>
+  <div class="header-right">April 2026 — Data as of Apr 20, 2026</div>
 </div>
 <div class="content">
 <div class="scorecard">
-<div class="sc-card"><div class="label">MTD ARR</div><div class="value">$60,274</div><div class="sub">of $95,000 <span style="font-size:11px;color:var(--green)">+$3,060</span></div></div>
-<div class="sc-card"><div class="label">Attainment</div><div class="value">63.4%</div><div class="sub">to quota <span style="font-size:11px;color:var(--green)">+3.2pp</span></div></div>
-<div class="sc-card"><div class="label">Wins</div><div class="value">29</div><div class="sub">closed deals <span style="font-size:11px;color:var(--green)">+2</span></div></div>
-<div class="sc-card"><div class="label">Demos</div><div class="value">46</div><div class="sub">held <span style="font-size:11px;color:var(--green)">+7</span></div></div>
-<div class="sc-card"><div class="label">Opps</div><div class="value">55</div><div class="sub">created <span style="font-size:11px;color:var(--green)">+9</span></div></div>
-<div class="sc-card"><div class="label">Avg ARR</div><div class="value">$2,078</div><div class="sub">per opp <span style="font-size:11px;color:var(--red)">$-40.62</span></div></div>
-<div class="sc-card"><div class="label">Demo:Win</div><div class="value">63.0%</div><div class="sub">conversion <span style="font-size:11px;color:var(--red)">-6.2pp</span></div></div>
-<div class="sc-card"><div class="label">EC ARR</div><div class="value">$20,230</div><div class="sub">14 units <span style="font-size:11px;color:var(--green)">+$1,080</span></div></div>
+<div class="sc-card"><div class="label">MTD ARR</div><div class="value">$66,622</div><div class="sub">of $95,000 <span style="font-size:11px;color:var(--green)">+$6,348</span></div></div>
+<div class="sc-card"><div class="label">Attainment</div><div class="value">70.1%</div><div class="sub">to quota <span style="font-size:11px;color:var(--green)">+6.7pp</span></div></div>
+<div class="sc-card"><div class="label">Wins</div><div class="value">33</div><div class="sub">closed deals <span style="font-size:11px;color:var(--green)">+4</span></div></div>
+<div class="sc-card"><div class="label">Demos</div><div class="value">50</div><div class="sub">held <span style="font-size:11px;color:var(--green)">+22</span></div></div>
+<div class="sc-card"><div class="label">Opps</div><div class="value">56</div><div class="sub">created <span style="font-size:11px;color:var(--green)">+21</span></div></div>
+<div class="sc-card"><div class="label">Avg ARR</div><div class="value">$2,019</div><div class="sub">per opp <span style="font-size:11px;color:var(--red)">$-59.57</span></div></div>
+<div class="sc-card"><div class="label">Demo:Win</div><div class="value">66.0%</div><div class="sub">conversion <span style="font-size:11px;color:var(--red)">-37.6pp</span></div></div>
+<div class="sc-card"><div class="label">EC ARR</div><div class="value">$20,230</div><div class="sub">14 units <span style="font-size:11px;color:var(--green)">+$10,230</span></div></div>
 </div>
 <div class="section">
   <h2><img src="../assets/Other_Award.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> 1:1 Coaching — Sandler Coach to Success</h2>
@@ -82,20 +103,21 @@
     <div>
       <div class="coaching-label c-behavior">Behavior (Activity)</div>
       <ul class="coaching">
-        <li>Calls at 31/260 expected by day 13 (12% to pace) — significantly behind. Goal: 20/day, 100/week. Are there time management barriers?</li>
-        <li>Demos at 46/32 expected (144% to pace) — on track. Goal: ~13/week.</li>
+        <li>Calls at 0/280 expected by day 14 (0% to pace) — significantly behind. Goal: 20/day, 100/week. Are there time management barriers?</li>
+        <li>Demos at 50/34 expected (147% to pace) — on track. Goal: ~13/week.</li>
         <li>Only 0 emails sent this week — low outbound volume.</li>
       </ul>
       <div class="coaching-label c-technique" style="margin-top:16px">Technique (Conversion)</div>
       <ul class="coaching">
-        <li>Demo:Win at 63% — room to improve close rate. Focus on commitment at end of demo.</li>
+        <li>Demo:Win at 66% — room to improve close rate. Focus on commitment at end of demo.</li>
       </ul>
     </div>
     <div>
       <div class="coaching-label c-results">Results (Outcomes)</div>
       <ul class="coaching">
-        <li>At 63% to quota (on pace for working day 13/22) — tracking well. What deals can we push to close this month?</li>
-        <li>1 deals stale >14 days — review next steps on each.</li>
+        <li>At 70% to quota (on pace for working day 14/22) — tracking well. What deals can we push to close this month?</li>
+        <li>2 deals stale >14 days — review next steps on each.</li>
+        <li><strong>Close the Gap:</strong> Need $28,378 more → 14.1 deals (@ $2,019 avg) → 21 demos (@ 66% D:W) → <strong>13.3 demos/week</strong> for remaining 8 working days.</li>
       </ul>
       <div class="coaching-label" style="margin-top:16px;background:var(--gray-100);color:var(--gray-700)">Suggested Coaching Questions</div>
       <ul class="coaching">
@@ -109,11 +131,11 @@
 <div class="section">
   <h2><img src="../assets/phone.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Calls</h2>
   <table>
-    <tr><td>Total Calls</td><td style="font-weight:600">31</td></tr>
-    <tr><td>Avg/Day</td><td>6.2</td></tr>
-    <tr><td>Conversations</td><td>31</td></tr>
-    <tr><td>Conv Rate</td><td>100.0%</td></tr>
-    <tr><td>Avg Duration</td><td>0m 26s</td></tr>
+    <tr><td>Total Calls</td><td style="font-weight:600">0</td></tr>
+    <tr><td>Avg/Day</td><td>0</td></tr>
+    <tr><td>Conversations</td><td>0</td></tr>
+    <tr><td>Conv Rate</td><td>0%</td></tr>
+    <tr><td>Avg Duration</td><td>N/A</td></tr>
     <tr><td>Voicemails</td><td>0</td></tr>
   </table>
 </div>
@@ -121,25 +143,26 @@
   <h2><img src="../assets/email.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Emails</h2>
   <table>
     <tr><td>Sent</td><td style="font-weight:600">0</td></tr>
-    <tr><td>Opened</td><td>0 (%)</td></tr>
-    <tr><td>Replied</td><td>0 (%)</td></tr>
+    <tr><td>Opened</td><td>0 (0%)</td></tr>
+    <tr><td>Replied</td><td>0 (0%)</td></tr>
     <tr><td>Positive Replies</td><td>0</td></tr>
-    <tr><td>Personalization</td><td>%</td></tr>
-    <tr><td>Clicked</td><td>0 (%)</td></tr>
+    <tr><td>Personalization</td><td>0%</td></tr>
+    <tr><td>Clicked</td><td>0 (0%)</td></tr>
   </table>
 </div>
 </div>
 <div class="section">
-  <h2><img src="../assets/percentage.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Stale Deals (1 deals &gt; 14 days)</h2>
+  <h2><img src="../assets/percentage.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Stale Deals (2 deals &gt; 14 days)</h2>
   <table>
     <thead><tr><th>Account</th><th>Opportunity</th><th>Stage</th><th>Days</th><th>ARR</th><th>Next Step</th></tr></thead>
     <tbody>
-      <tr><td><strong>Andolini's Group</strong></td><td style="font-size:12px">Andolini's Group - Payroll -[EOYPAYROLL2</td><td style="font-size:12px">Lead</td><td style="color:var(--red);font-weight:600">59d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Placeholder - Customer plans on moving forward in March</td></tr>
+      <tr><td><strong>Andolini's Group</strong></td><td style="font-size:12px">Andolini's Group - Payroll -[EOYPAYROLL2</td><td style="font-size:12px">Lead</td><td style="color:var(--red);font-weight:600">62d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Placeholder - Customer plans on moving forward in March</td></tr>
+      <tr><td><strong>NW Hospitality Group</strong></td><td style="font-size:12px">NW Hospitality Group - Payroll - [3MF]</td><td style="font-size:12px">7. Quote Revised</td><td style="color:var(--yellow);font-weight:600">17d</td><td>$24,264</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Overview 4/16</td></tr>
     </tbody>
   </table>
 </div>
 <div class="section">
-  <h2><img src="../assets/dollar.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Recent Wins (29 this month)</h2>
+  <h2><img src="../assets/dollar.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Recent Wins (33 this month)</h2>
   <table>
     <thead><tr><th>Account</th><th>Type</th><th>ARR</th><th>Close Date</th></tr></thead>
     <tbody>
@@ -161,17 +184,17 @@
   <table>
     <thead><tr><th>Date</th><th>ARR</th><th>Wins</th><th>Demos</th><th>Opps</th><th>Calls</th><th>Emails</th><th>Demo:Win</th></tr></thead>
     <tbody>
-      <tr><td>2026-04-17</td><td>$60,274</td><td>29</td><td>46</td><td>55</td><td>31</td><td>0</td><td>63.0%</td></tr>
+      <tr><td>2026-04-20</td><td>$66,622</td><td>33</td><td>50</td><td>56</td><td>0</td><td>0</td><td>66.0%</td></tr>
+      <tr><td>2026-04-17</td><td>$60,274</td><td>29</td><td>28</td><td>35</td><td>210</td><td>95</td><td>103.6%</td></tr>
       <tr><td>2026-04-16</td><td>$57,214</td><td>27</td><td>39</td><td>46</td><td>6</td><td>0</td><td>69.2%</td></tr>
       <tr><td>2026-04-15</td><td>$57,214</td><td>27</td><td>39</td><td>46</td><td>6</td><td>0</td><td>69.2%</td></tr>
       <tr><td>2026-04-14</td><td>$54,826</td><td>25</td><td>35</td><td>38</td><td>3</td><td>0</td><td>71.4%</td></tr>
       <tr><td>2026-04-13</td><td>$54,826</td><td>25</td><td>32</td><td>37</td><td>14</td><td>0</td><td>78.1%</td></tr>
       <tr><td>2026-04-10</td><td>$52,126</td><td>22</td><td>27</td><td>35</td><td>14</td><td>0</td><td>77.8%</td></tr>
       <tr><td>2026-04-09</td><td>$30,304</td><td>15</td><td>26</td><td>33</td><td>14</td><td>0</td><td>57.7%</td></tr>
-      <tr><td>2026-04-08</td><td>$30,304</td><td>15</td><td>24</td><td>31</td><td>14</td><td>0</td><td>62.5%</td></tr>
     </tbody>
   </table>
 </div>
 
-<div class="footer">Growth Sales Dashboard — Tyler Stevens | Generated Apr 17, 2026</div>
+<div class="footer">Growth Sales Dashboard — Tyler Stevens | Generated Apr 20, 2026</div>
 </body></html>

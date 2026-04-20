@@ -1,0 +1,26 @@
+{
+  "parent": "Cassis St. Pete Parent",
+  "slug": "cassis-st-pete",
+  "total_headroom": "$29,128",
+  "non_ec_headroom": "$15,072",
+  "est_ec_headroom": "$14,056",
+  "employee_count": "84",
+  "non_ec_arr": "$17,562",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "chef@cassisab.com",
+  "location_count": 1,
+  "location_names": [
+    "Cassis St. Pete"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "Casita Corporate",
+  "slug": "casita",
+  "total_headroom": "$68,820",
+  "non_ec_headroom": "$58,320",
+  "est_ec_headroom": "$10,500",
+  "employee_count": "63",
+  "non_ec_arr": "$5,796",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "tacopusher@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Casita Taqueria - Tyrone",
+    "Casita Taqueria - Central Ave.",
+    "Casita Taqueria - 4th St."
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

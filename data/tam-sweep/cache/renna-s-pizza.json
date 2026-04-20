@@ -1,0 +1,28 @@
+{
+  "parent": "Renna's Pizza Corporate",
+  "slug": "renna-s-pizza",
+  "total_headroom": "$54,960",
+  "non_ec_headroom": "$54,960",
+  "est_ec_headroom": "$0",
+  "employee_count": "45",
+  "non_ec_arr": "$9,103",
+  "state": "FL",
+  "city": "Jacksonville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "msnober@rennaspizza.com",
+  "location_count": 3,
+  "location_names": [
+    "Renna's Pizza - Deerwood Baymeadows",
+    "Renna's Pizza - Jax Beach",
+    "Renna's Pizza - Neptune Beach"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

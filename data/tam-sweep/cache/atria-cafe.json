@@ -1,0 +1,26 @@
+{
+  "parent": "Atria Cafe",
+  "slug": "atria-cafe",
+  "total_headroom": "$22,060",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$3,220",
+  "employee_count": "19",
+  "non_ec_arr": "$1,546",
+  "state": "FL",
+  "city": "BRADENTON",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jim.angus@atria.cafe",
+  "location_count": 1,
+  "location_names": [
+    "Atria Cafe"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

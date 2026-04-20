@@ -1,0 +1,26 @@
+{
+  "parent": "Club 201 at the Detroit - Parent",
+  "slug": "club-201-at-the-detroit",
+  "total_headroom": "$19,392",
+  "non_ec_headroom": "$19,392",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$3,348",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "todd.bulkhalter@driveplanning.com",
+  "location_count": 1,
+  "location_names": [
+    "Club 201 at the Detroit"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

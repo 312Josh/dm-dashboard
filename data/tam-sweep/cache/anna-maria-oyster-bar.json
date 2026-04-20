@@ -1,0 +1,91 @@
+{
+  "parent": "Anna Maria Oyster Bar Corporate",
+  "slug": "anna-maria-oyster-bar",
+  "total_headroom": "$155,860",
+  "non_ec_headroom": "$81,156",
+  "est_ec_headroom": "$74,704",
+  "employee_count": "445",
+  "non_ec_arr": "$151,552",
+  "state": "FL",
+  "city": "North Port",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "john@oysterbar.net",
+  "location_count": 7,
+  "location_names": [
+    "Anna Maria Oyster Bar - North Port",
+    "Anna Maria Oyster Bar - Ellenton",
+    "Anna Maria Oyster Bar - Bridge St. Pier",
+    "Cafe L'Europe AMOB",
+    "Anna Maria Oyster Bar - Landside",
+    "Anna Maria Oyster Bar - Cortez",
+    "Anna Maria Oyster Bar - University"
+  ],
+  "websites": [
+    "https://www.oysterbar.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.oysterbar.net/": {
+      "url": "https://www.oysterbar.net/",
+      "html_bytes": 82672,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/anna-maria-oyster-bar-cortez/giftcards",
+        "toast_oo_native": "order.toasttab.com/online/anna-maria-oyster-bar-utc",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.oysterbar.net/order/": {
+      "url": "https://www.oysterbar.net/order/",
+      "html_bytes": 86253,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/anna-maria-oyster-bar-utc",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/anna-maria-oyster-bar-cortez/giftcards"
+      }
+    },
+    "https://www.oysterbar.net/menus/": {
+      "url": "https://www.oysterbar.net/menus/",
+      "html_bytes": 64254,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/anna-maria-oyster-bar-cortez/giftcards"
+      }
+    },
+    "https://www.oysterbar.net/menu": {
+      "url": "https://www.oysterbar.net/menu",
+      "html_bytes": 64254,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/anna-maria-oyster-bar-cortez/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/anna-maria-oyster-bar-cortez/giftcards",
+    "toast_oo_native": "order.toasttab.com/online/anna-maria-oyster-bar-utc",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

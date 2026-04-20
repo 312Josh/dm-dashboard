@@ -1,0 +1,26 @@
+{
+  "parent": "Brava Ultra Lounge - Parent Account",
+  "slug": "brava-ultra-lounge",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$600",
+  "state": "FL",
+  "city": "Oldsmar",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "thomas@truthnightlife.com",
+  "location_count": 1,
+  "location_names": [
+    "Brava Ultra Lounge"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

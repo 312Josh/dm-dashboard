@@ -1,0 +1,26 @@
+{
+  "parent": "Dave's Reataurants, Inc dba Frescos Waterfront Bistro",
+  "slug": "dave-s-reataurants-inc-dba-frescos-waterfront-bistro",
+  "total_headroom": "$18,060",
+  "non_ec_headroom": "$18,060",
+  "est_ec_headroom": "$0",
+  "employee_count": "81",
+  "non_ec_arr": "$21,719",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "sockolpa@sockol.com",
+  "location_count": 1,
+  "location_names": [
+    "Frescos Waterfront Bistro"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

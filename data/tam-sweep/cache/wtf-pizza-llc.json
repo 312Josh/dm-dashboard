@@ -1,0 +1,26 @@
+{
+  "parent": "WTF Pizza LLC.",
+  "slug": "wtf-pizza-llc",
+  "total_headroom": "$20,264",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$224",
+  "employee_count": "1",
+  "non_ec_arr": "$420",
+  "state": "FL",
+  "city": "Ayntown",
+  "restaurant_type": "Unknown",
+  "contact_email": "wtfpizza2024@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "WTF Pizza LLC."
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

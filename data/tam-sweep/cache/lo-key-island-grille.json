@@ -1,0 +1,26 @@
+{
+  "parent": "Lo'Key Island Grille - Parent Account",
+  "slug": "lo-key-island-grille",
+  "total_headroom": "$9,696",
+  "non_ec_headroom": "$9,696",
+  "est_ec_headroom": "$0",
+  "employee_count": "43",
+  "non_ec_arr": "$12,354",
+  "state": "FL",
+  "city": "Longboat Key",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "courtneyr@lokeylbk.com",
+  "location_count": 1,
+  "location_names": [
+    "Lo'Key Island Grille"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

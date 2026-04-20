@@ -1,0 +1,56 @@
+{
+  "parent": "Michelangelos x Sal's Parent",
+  "slug": "michelangelos-x-sal-s",
+  "total_headroom": "$92,200",
+  "non_ec_headroom": "$76,800",
+  "est_ec_headroom": "$15,400",
+  "employee_count": "92",
+  "non_ec_arr": "$17,274",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "bartolottaandsons@gmail.com",
+  "location_count": 4,
+  "location_names": [
+    "Michelangelo Pizza - Lakewood Ranch",
+    "Sal's Italian Ristorante",
+    "Michelangelos - Sarasota",
+    "Sal's Express Italian Restaurant & Pizza"
+  ],
+  "websites": [
+    "https://www.michelangelopizzarestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.michelangelopizzarestaurant.com/": {
+      "url": "https://www.michelangelopizzarestaurant.com/",
+      "html_bytes": 206571,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/michelangelos-pizza-braden-river-11517-palmbrush-trail/giftcards"
+      }
+    },
+    "https://www.michelangelopizzarestaurant.com/menu": {
+      "url": "https://www.michelangelopizzarestaurant.com/menu",
+      "html_bytes": 176885,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/michelangelos-pizza-braden-river-11517-palmbrush-trail/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/michelangelos-pizza-braden-river-11517-palmbrush-trail/giftcards"
+  },
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

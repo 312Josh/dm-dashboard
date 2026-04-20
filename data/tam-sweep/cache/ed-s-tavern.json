@@ -1,0 +1,28 @@
+{
+  "parent": "Ed's Tavern Parent",
+  "slug": "ed-s-tavern",
+  "total_headroom": "$38,376",
+  "non_ec_headroom": "$38,376",
+  "est_ec_headroom": "$0",
+  "employee_count": "246",
+  "non_ec_arr": "$43,644",
+  "state": "FL",
+  "city": "Lakewood Ranch",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bobb56@rcn.com",
+  "location_count": 3,
+  "location_names": [
+    "Ed's Tavern Lakewood Ranch",
+    "Ed's Tavern 64",
+    "Ed's Tavern - Parrish NEW"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

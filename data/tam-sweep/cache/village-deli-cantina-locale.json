@@ -1,0 +1,27 @@
+{
+  "parent": "VIllage Deli / Cantina Locale Parent",
+  "slug": "village-deli-cantina-locale",
+  "total_headroom": "$50,388",
+  "non_ec_headroom": "$38,880",
+  "est_ec_headroom": "$11,508",
+  "employee_count": "69",
+  "non_ec_arr": "$6,607",
+  "state": "GA",
+  "city": "Forest Hills",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "heather@villagedeli.us",
+  "location_count": 2,
+  "location_names": [
+    "Village Deli",
+    "Cantina Locale"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

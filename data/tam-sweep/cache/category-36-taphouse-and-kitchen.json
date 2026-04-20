@@ -1,0 +1,26 @@
+{
+  "parent": "Category 36 Taphouse and Kitchen Parent",
+  "slug": "category-36-taphouse-and-kitchen",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$1,200",
+  "state": "FL",
+  "city": "St. Pete Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "36taps@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Category 36 Saint Pete Beach"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

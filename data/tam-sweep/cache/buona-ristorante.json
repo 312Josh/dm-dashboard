@@ -1,0 +1,26 @@
+{
+  "parent": "Buona Ristorante - Parent Account",
+  "slug": "buona-ristorante",
+  "total_headroom": "$17,712",
+  "non_ec_headroom": "$17,712",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$5,148",
+  "state": "FL",
+  "city": "St. Pete Beach",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "estia.hosp@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "NEW Buona Ristorante"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

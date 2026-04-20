@@ -1,0 +1,27 @@
+{
+  "parent": "Buttermilk - St. Pete- Parent Account",
+  "slug": "buttermilk-st-pete",
+  "total_headroom": "$27,768",
+  "non_ec_headroom": "$27,768",
+  "est_ec_headroom": "$0",
+  "employee_count": "24",
+  "non_ec_arr": "$50,707",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nufriasani@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Buttermilk - St. Pete",
+    "Buttermilk - Pinellas Park"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

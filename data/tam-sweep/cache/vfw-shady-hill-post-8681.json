@@ -1,0 +1,26 @@
+{
+  "parent": "VFW Shady Hill Post 8681 Parent",
+  "slug": "vfw-shady-hill-post-8681",
+  "total_headroom": "$22,004",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,064",
+  "employee_count": "6",
+  "non_ec_arr": "$1,080",
+  "state": "FL",
+  "city": "Spring Hill",
+  "restaurant_type": "Unknown",
+  "contact_email": "post8681@vfwfl.org",
+  "location_count": 1,
+  "location_names": [
+    "VFW Shady Hill Post 8681"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

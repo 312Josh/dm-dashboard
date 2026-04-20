@@ -1,0 +1,26 @@
+{
+  "parent": "Vino and Vibes - PARENT",
+  "slug": "vino-and-vibes",
+  "total_headroom": "$20,176",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$1,036",
+  "employee_count": "6",
+  "non_ec_arr": "$2,328",
+  "state": "MI",
+  "city": "Utica",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "anolan.vinoclass@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Vino & Vibes"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

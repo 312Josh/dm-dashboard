@@ -1,0 +1,31 @@
+{
+  "parent": "Peach's Restaurants Corp.",
+  "slug": "peach-s-restaurants-corp",
+  "total_headroom": "$84,300",
+  "non_ec_headroom": "$84,300",
+  "est_ec_headroom": "$0",
+  "employee_count": "121",
+  "non_ec_arr": "$42,600",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "jennifer@peachs.net",
+  "location_count": 6,
+  "location_names": [
+    "Peach's Office",
+    "Peach's 9 - Venice",
+    "Peachs 5 - Bee Ridge",
+    "Peach's 1 - Manatee",
+    "Peach's 10 SR64",
+    "Peach's 4 University"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

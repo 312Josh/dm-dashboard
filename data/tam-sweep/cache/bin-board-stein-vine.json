@@ -1,0 +1,27 @@
+{
+  "parent": "Bin + Board/ Stein + Vine Parent",
+  "slug": "bin-board-stein-vine",
+  "total_headroom": "$34,572",
+  "non_ec_headroom": "$34,572",
+  "est_ec_headroom": "$0",
+  "employee_count": "45",
+  "non_ec_arr": "$7,262",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "lacey@thesteinandvine.com",
+  "location_count": 2,
+  "location_names": [
+    "Bin and Board",
+    "The Stein & Vine"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

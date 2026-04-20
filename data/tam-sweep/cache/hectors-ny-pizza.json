@@ -1,0 +1,26 @@
+{
+  "parent": "HECTORS NY PIZZA",
+  "slug": "hectors-ny-pizza",
+  "total_headroom": "$18,276",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Carrollwood",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "hectorsnypizza@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "HECTORS NY PIZZA"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

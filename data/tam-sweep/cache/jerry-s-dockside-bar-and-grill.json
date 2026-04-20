@@ -1,0 +1,26 @@
+{
+  "parent": "Jerry's Dockside Bar and Grill - Parent Account",
+  "slug": "jerry-s-dockside-bar-and-grill",
+  "total_headroom": "$15,684",
+  "non_ec_headroom": "$15,684",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Gibsonton",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "patrickclark8@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Jerry's Dockside Bar and Grill"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "Busy Bee - Parent Account",
+  "slug": "busy-bee",
+  "total_headroom": "$45,660",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$3,780",
+  "employee_count": "23",
+  "non_ec_arr": "$6,900",
+  "state": "FL",
+  "city": "Pinellas Park",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "agori25@aol.com",
+  "location_count": 2,
+  "location_names": [
+    "Busy Bee",
+    "Busy Bee 2"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

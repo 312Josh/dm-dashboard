@@ -1,0 +1,26 @@
+{
+  "parent": "The Club at Treasure Island - Parent",
+  "slug": "the-club-at-treasure-island",
+  "total_headroom": "$21,220",
+  "non_ec_headroom": "$14,892",
+  "est_ec_headroom": "$6,328",
+  "employee_count": "38",
+  "non_ec_arr": "$9,000",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "bedwards@edwardsgp.com",
+  "location_count": 1,
+  "location_names": [
+    "Sonata Restaurant at the Maheffey"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

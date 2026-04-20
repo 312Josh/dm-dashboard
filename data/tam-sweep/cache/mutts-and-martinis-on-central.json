@@ -1,0 +1,26 @@
+{
+  "parent": "Mutts and Martinis on Central - Parent Account",
+  "slug": "mutts-and-martinis-on-central",
+  "total_headroom": "$17,664",
+  "non_ec_headroom": "$17,664",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$5,328",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "natalie@lovemydogresort.com",
+  "location_count": 1,
+  "location_names": [
+    "Mutts and Martinis on Central"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

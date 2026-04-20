@@ -1,0 +1,42 @@
+{
+  "parent": "The Feinstein Group FL-Parent",
+  "slug": "the-feinstein-group-fl-parent",
+  "total_headroom": "$91,512",
+  "non_ec_headroom": "$91,512",
+  "est_ec_headroom": "$0",
+  "employee_count": "166",
+  "non_ec_arr": "$24,665",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "zach@tfg.ventures",
+  "location_count": 5,
+  "location_names": [
+    "Sonder Social",
+    "The Black Pearl of Dunedin",
+    "The Living Room",
+    "The Living Room 2",
+    "Highland House"
+  ],
+  "websites": [
+    "https://www.tfg.ventures/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tfg.ventures/": {
+      "url": "https://www.tfg.ventures/",
+      "html_bytes": 70180,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

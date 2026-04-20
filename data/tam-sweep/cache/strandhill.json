@@ -1,0 +1,27 @@
+{
+  "parent": "Strandhill Corporate",
+  "slug": "strandhill",
+  "total_headroom": "$29,388",
+  "non_ec_headroom": "$29,388",
+  "est_ec_headroom": "$0",
+  "employee_count": "72",
+  "non_ec_arr": "$17,515",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "rory@martinsitalian.com",
+  "location_count": 2,
+  "location_names": [
+    "Strand Hill Public",
+    "Strand Hill Public - The Pearl"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

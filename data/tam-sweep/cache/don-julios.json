@@ -1,0 +1,27 @@
+{
+  "parent": "Don Julios Parent",
+  "slug": "don-julios",
+  "total_headroom": "$39,484",
+  "non_ec_headroom": "$30,720",
+  "est_ec_headroom": "$8,764",
+  "employee_count": "52",
+  "non_ec_arr": "$14,928",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "donjuliosmexican@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Don Julios - Bearss",
+    "Don Julios- Tampa Palms"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

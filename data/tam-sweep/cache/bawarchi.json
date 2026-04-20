@@ -1,0 +1,26 @@
+{
+  "parent": "Bawarchi Parent - Parent Account",
+  "slug": "bawarchi",
+  "total_headroom": "$16,908",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$3,194",
+  "state": "FL",
+  "city": "Wesley Chapel",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kumar.wesleychapelfeast@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bawarchi"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

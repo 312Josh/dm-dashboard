@@ -1,0 +1,26 @@
+{
+  "parent": "Gigi's Pizzeria - Parent Account",
+  "slug": "gigi-s-pizzeria",
+  "total_headroom": "$16,860",
+  "non_ec_headroom": "$16,860",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$5,340",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "ginat1428@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Gigi's Pizzeria"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

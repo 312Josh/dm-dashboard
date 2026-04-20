@@ -1,0 +1,28 @@
+{
+  "parent": "First Avenue Entertainment LLC",
+  "slug": "first-avenue-entertainment-llc",
+  "total_headroom": "$56,280",
+  "non_ec_headroom": "$56,280",
+  "est_ec_headroom": "$0",
+  "employee_count": "32",
+  "non_ec_arr": "$14,460",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "firstavestpete@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Dublin Drop",
+    "Who's on First",
+    "There Goes the Neighborhood"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

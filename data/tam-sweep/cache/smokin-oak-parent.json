@@ -1,0 +1,58 @@
+{
+  "parent": "Smokin' Oak -Parent-",
+  "slug": "smokin-oak-parent",
+  "total_headroom": "$180,660",
+  "non_ec_headroom": "$155,460",
+  "est_ec_headroom": "$25,200",
+  "employee_count": "150",
+  "non_ec_arr": "$26,940",
+  "state": "NE",
+  "city": "Omaha",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "dsyaksich@gmail.com",
+  "location_count": 8,
+  "location_names": [
+    "Smokin' Oak Wood Fire Pizza - Omaha",
+    "Smokin' Oak Wood Fire Pizza - Warner Robins",
+    "Smokin' Oak Wood-Fired Pizza - Clifton",
+    "Smokin' Oak Wood Fired Pizza - Grand Junction",
+    "Smokin' Oak Wood Fired Pizza - Washington, MO",
+    "Smokin' Oak Wood-Fired Pizza - Fayetteville",
+    "Smokin' Oak Wood-Fired Pizza - Brooksville",
+    "Smokin' Oak Wood Fired Pizza - Brooksville Food Truck"
+  ],
+  "websites": [
+    "https://smokinoakpizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://smokinoakpizza.com/": {
+      "url": "https://smokinoakpizza.com/",
+      "html_bytes": 88539,
+      "fingerprints": {
+        "loyalty": "Thanx"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.thanx.com/"
+      }
+    },
+    "https://smokinoakpizza.com/menu.html": {
+      "url": "https://smokinoakpizza.com/menu.html",
+      "html_bytes": 91089,
+      "fingerprints": {
+        "loyalty": "Thanx"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.thanx.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.thanx.com/"
+  },
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

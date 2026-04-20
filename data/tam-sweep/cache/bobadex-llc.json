@@ -1,0 +1,26 @@
+{
+  "parent": "Bobadex LLC - Parent Account",
+  "slug": "bobadex-llc",
+  "total_headroom": "$14,424",
+  "non_ec_headroom": "$14,424",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$7,362",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "minhn0324@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bobadex LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Cedar Fox Coffee - Parent Account",
+  "slug": "cedar-fox-coffee",
+  "total_headroom": "$14,772",
+  "non_ec_headroom": "$14,772",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$6,528",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "allen@cedarfoxcoffee.com",
+  "location_count": 1,
+  "location_names": [
+    "Cedar Fox Coffee"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

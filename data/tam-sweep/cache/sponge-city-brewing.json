@@ -1,0 +1,26 @@
+{
+  "parent": "Sponge City Brewing Parent",
+  "slug": "sponge-city-brewing",
+  "total_headroom": "$19,512",
+  "non_ec_headroom": "$19,512",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$3,528",
+  "state": "FL",
+  "city": "Tarpon Springs",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "billh@spongecitybrewing.com",
+  "location_count": 1,
+  "location_names": [
+    "Sponge City Brewing, LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Patriot Palms BBQ LLC",
+  "slug": "patriot-palms-bbq-llc",
+  "total_headroom": "$14,556",
+  "non_ec_headroom": "$14,052",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$600",
+  "state": "FL",
+  "city": "Dover",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "heath@hhfamilybaybbq.com",
+  "location_count": 1,
+  "location_names": [
+    "Patriot Palms BBQ LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "Carmelitas Parent",
+  "slug": "carmelitas",
+  "total_headroom": "$69,244",
+  "non_ec_headroom": "$57,960",
+  "est_ec_headroom": "$11,284",
+  "employee_count": "67",
+  "non_ec_arr": "$11,088",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "carmcorp@carmelitas.net",
+  "location_count": 3,
+  "location_names": [
+    "Carmelita's Mexican Restaurant St Pete",
+    "Carmelita's Mexican Restaurant",
+    "Christina's Restaurant"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

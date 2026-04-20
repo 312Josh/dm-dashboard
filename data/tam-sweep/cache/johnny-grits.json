@@ -1,0 +1,26 @@
+{
+  "parent": "Johnny grits- Parent Account",
+  "slug": "johnny-grits",
+  "total_headroom": "$19,016",
+  "non_ec_headroom": "$17,532",
+  "est_ec_headroom": "$1,484",
+  "employee_count": "9",
+  "non_ec_arr": "$5,757",
+  "state": "FL",
+  "city": "Tarpon Springs",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "maechan1981@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Johnny grits"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

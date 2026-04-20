@@ -1,0 +1,26 @@
+{
+  "parent": "OneZo Bradenton - Parent Account",
+  "slug": "onezo-bradenton",
+  "total_headroom": "$16,740",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$8,528",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "onezobradenton@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "OneZo Bradenton"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

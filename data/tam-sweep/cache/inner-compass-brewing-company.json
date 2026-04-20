@@ -1,0 +1,26 @@
+{
+  "parent": "Inner Compass Brewing Company Parent",
+  "slug": "inner-compass-brewing-company",
+  "total_headroom": "$18,180",
+  "non_ec_headroom": "$18,180",
+  "est_ec_headroom": "$0",
+  "employee_count": "30",
+  "non_ec_arr": "$6,254",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "scarrubba059@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Inner Compass Brewing Company - Bradenton"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

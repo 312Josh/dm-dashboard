@@ -1,0 +1,27 @@
+{
+  "parent": "HaleLife Parent",
+  "slug": "halelife",
+  "total_headroom": "$34,392",
+  "non_ec_headroom": "$34,392",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$8,683",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "laura@halelifebakery.com",
+  "location_count": 2,
+  "location_names": [
+    "HaleLife Bakery South Tampa-New",
+    "HaleLife Bakery Bayview"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

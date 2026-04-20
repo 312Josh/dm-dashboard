@@ -1,0 +1,26 @@
+{
+  "parent": "Martin’s Italian - Parent Account",
+  "slug": "martin-s-italian",
+  "total_headroom": "$16,344",
+  "non_ec_headroom": "$16,344",
+  "est_ec_headroom": "$0",
+  "employee_count": "36",
+  "non_ec_arr": "$4,714",
+  "state": "FL",
+  "city": "Oldsmar",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "rory@martinsitalian.com",
+  "location_count": 1,
+  "location_names": [
+    "Martin’s Italian"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

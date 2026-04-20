@@ -1,0 +1,26 @@
+{
+  "parent": "Cajun Cafe On the Bayou - Parent Account",
+  "slug": "cajun-cafe-on-the-bayou",
+  "total_headroom": "$17,480",
+  "non_ec_headroom": "$16,500",
+  "est_ec_headroom": "$980",
+  "employee_count": "6",
+  "non_ec_arr": "$6,960",
+  "state": "FL",
+  "city": "Pinellas Park",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jsak9069@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Cajun Cafe On the Bayou"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

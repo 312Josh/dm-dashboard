@@ -1,0 +1,26 @@
+{
+  "parent": "Lila - Parent Account",
+  "slug": "lila",
+  "total_headroom": "$16,344",
+  "non_ec_headroom": "$13,824",
+  "est_ec_headroom": "$2,520",
+  "employee_count": "15",
+  "non_ec_arr": "$8,436",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "angelkauf@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Lila"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

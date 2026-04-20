@@ -1,0 +1,26 @@
+{
+  "parent": "Ruskin Memorial VFW 6287 - Parent Account",
+  "slug": "ruskin-memorial-vfw-6287",
+  "total_headroom": "$18,936",
+  "non_ec_headroom": "$17,592",
+  "est_ec_headroom": "$1,344",
+  "employee_count": "8",
+  "non_ec_arr": "$1,620",
+  "state": "FL",
+  "city": "Apollo Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "post6287@vfwfl.org",
+  "location_count": 1,
+  "location_names": [
+    "Ruskin Memorial VFW 6287"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

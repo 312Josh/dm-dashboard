@@ -1,0 +1,27 @@
+{
+  "parent": "The Local Brewing - Palm Harbor - Parent",
+  "slug": "the-local-brewing-palm-harbor",
+  "total_headroom": "$28,356",
+  "non_ec_headroom": "$28,356",
+  "est_ec_headroom": "$0",
+  "employee_count": "108",
+  "non_ec_arr": "$29,606",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "davisincorporated2@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "The Local Brewing Company 2",
+    "The Local Brewing Company - Palm Harbor"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

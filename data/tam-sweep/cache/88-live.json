@@ -1,0 +1,27 @@
+{
+  "parent": "88 Live - Parent Account",
+  "slug": "88-live",
+  "total_headroom": "$40,920",
+  "non_ec_headroom": "$40,920",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$4,920",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "sherryelliott88live@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "88 Live Food Truck",
+    "88 Live"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

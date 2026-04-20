@@ -1,0 +1,26 @@
+{
+  "parent": "Skyway Vibes Seafood Parent",
+  "slug": "skyway-vibes-seafood",
+  "total_headroom": "$16,692",
+  "non_ec_headroom": "$16,692",
+  "est_ec_headroom": "$0",
+  "employee_count": "47",
+  "non_ec_arr": "$8,088",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "briane.c.rose@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mullets Fish Camp & Market"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

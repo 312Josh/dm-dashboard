@@ -1,0 +1,26 @@
+{
+  "parent": "Bella Java Cafe",
+  "slug": "bella-java-cafe",
+  "total_headroom": "null",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Riverview",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "bellajavacafe@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bella Java Cafe"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Hickory/Catcher's Net Parent",
+  "slug": "hickory-catcher-s-net",
+  "total_headroom": "$18,612",
+  "non_ec_headroom": "$18,612",
+  "est_ec_headroom": "$0",
+  "employee_count": "12",
+  "non_ec_arr": "$5,412",
+  "state": "FL",
+  "city": "Ellenton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "hickoryhallowcatering@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Hickory Hollow"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

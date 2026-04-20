@@ -1,0 +1,27 @@
+{
+  "parent": "Roots Parent",
+  "slug": "roots",
+  "total_headroom": "$33,396",
+  "non_ec_headroom": "$33,396",
+  "est_ec_headroom": "$0",
+  "employee_count": "55",
+  "non_ec_arr": "$11,190",
+  "state": "FL",
+  "city": "Plant City",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "brandon@rootsofplantcity.com",
+  "location_count": 2,
+  "location_names": [
+    "Roots Tap Room & Wine Bar",
+    "NEW - Propagation Whiskey Bar and Kitchen"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

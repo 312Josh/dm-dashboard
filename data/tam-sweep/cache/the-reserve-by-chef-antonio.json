@@ -1,0 +1,26 @@
+{
+  "parent": "The Reserve by Chef Antonio - Parent Account",
+  "slug": "the-reserve-by-chef-antonio",
+  "total_headroom": "$21,696",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$756",
+  "employee_count": "5",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "antonioterzuoli@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Reserve by Chef Antonio"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

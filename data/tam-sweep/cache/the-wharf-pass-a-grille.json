@@ -1,0 +1,26 @@
+{
+  "parent": "The Wharf Pass-A-Grille - Parent Account",
+  "slug": "the-wharf-pass-a-grille",
+  "total_headroom": "$21,988",
+  "non_ec_headroom": "$15,492",
+  "est_ec_headroom": "$6,496",
+  "employee_count": "39",
+  "non_ec_arr": "$20,019",
+  "state": "FL",
+  "city": "St. Pete Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "wharf2022@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Wharf Pass-A-Grille"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

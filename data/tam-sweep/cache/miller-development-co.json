@@ -1,0 +1,38 @@
+{
+  "parent": "Miller Development Co",
+  "slug": "miller-development-co",
+  "total_headroom": "$107,112",
+  "non_ec_headroom": "$57,720",
+  "est_ec_headroom": "$49,392",
+  "employee_count": "295",
+  "non_ec_arr": "$16,452",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "hugh@millerinvesting.com",
+  "location_count": 3,
+  "location_names": [
+    "Pier 22",
+    "Grove - Lakewood Ranch",
+    "Corwins Ice Cream"
+  ],
+  "websites": [
+    "https://millerinvesting.com/",
+    "https://www.pier22dining.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pier22dining.com/": {
+      "url": "https://www.pier22dining.com/",
+      "html_bytes": 7176,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Flavio's Group - Parent Account",
+  "slug": "flavio-s-group",
+  "total_headroom": "$24,832",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$3,892",
+  "employee_count": "23",
+  "non_ec_arr": "$4,716",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "cristofoli3537@comcast.net",
+  "location_count": 1,
+  "location_names": [
+    "Flavio's Brick Oven Pizza & Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

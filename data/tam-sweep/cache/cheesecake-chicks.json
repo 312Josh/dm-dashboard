@@ -1,0 +1,26 @@
+{
+  "parent": "Cheesecake Chicks - Parent Account",
+  "slug": "cheesecake-chicks",
+  "total_headroom": "$13,944",
+  "non_ec_headroom": "$13,944",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$4,488",
+  "state": "FL",
+  "city": "Jasmine Estates",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "rachelmullin1986@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Cheesecake Chicks"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

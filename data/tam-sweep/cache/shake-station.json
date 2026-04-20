@@ -1,0 +1,26 @@
+{
+  "parent": "SHAKE STATION Parent",
+  "slug": "shake-station",
+  "total_headroom": "$27,660",
+  "non_ec_headroom": "$18,420",
+  "est_ec_headroom": "$9,240",
+  "employee_count": "55",
+  "non_ec_arr": "$8,592",
+  "state": "FL",
+  "city": "Ellenton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "andyameres@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "SHAKE STATION"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

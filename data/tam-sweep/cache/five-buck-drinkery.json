@@ -1,0 +1,29 @@
+{
+  "parent": "Five Buck Drinkery Parent",
+  "slug": "five-buck-drinkery",
+  "total_headroom": "$66,384",
+  "non_ec_headroom": "$66,384",
+  "est_ec_headroom": "$0",
+  "employee_count": "147",
+  "non_ec_arr": "$47,808",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "josh.connell@fivebucksdrinkery.com",
+  "location_count": 4,
+  "location_names": [
+    "Salty J's",
+    "Five Buck Drinkery",
+    "Five Bucks Drinkery - Seminole, FL",
+    "Five Buck Drinkery - Pinellas Park"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "George A.D. Wood Restaurant Group",
+  "slug": "george-a-d-wood-restaurant-group",
+  "total_headroom": "$23,728",
+  "non_ec_headroom": "$16,812",
+  "est_ec_headroom": "$6,916",
+  "employee_count": "41",
+  "non_ec_arr": "$6,972",
+  "state": "FL",
+  "city": "Naples",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tony@anthonywood.com",
+  "location_count": 2,
+  "location_names": [
+    "Jane's Cafe",
+    "Georgie's"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

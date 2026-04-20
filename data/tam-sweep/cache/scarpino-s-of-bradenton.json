@@ -1,0 +1,27 @@
+{
+  "parent": "Scarpino's of Bradenton - Parent Account",
+  "slug": "scarpino-s-of-bradenton",
+  "total_headroom": "$36,012",
+  "non_ec_headroom": "$36,012",
+  "est_ec_headroom": "$0",
+  "employee_count": "58",
+  "non_ec_arr": "$18,168",
+  "state": "FL",
+  "city": "Lutz",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "daniel@cheesecartel.org",
+  "location_count": 2,
+  "location_names": [
+    "Scarpino's of Lutz",
+    "Scarpino's of Bradenton"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

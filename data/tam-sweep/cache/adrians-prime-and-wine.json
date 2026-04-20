@@ -1,0 +1,26 @@
+{
+  "parent": "Adrians Prime And Wine - Parent Account",
+  "slug": "adrians-prime-and-wine",
+  "total_headroom": "$10,596",
+  "non_ec_headroom": "$10,596",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$8,616",
+  "state": "FL",
+  "city": "St. Pete Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "alex.r.talcott@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Adrians Prime And Wine"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

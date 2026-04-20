@@ -1,0 +1,26 @@
+{
+  "parent": "Best NY Pizza Inc Parent",
+  "slug": "best-ny-pizza-inc",
+  "total_headroom": "$16,944",
+  "non_ec_headroom": "$16,944",
+  "est_ec_headroom": "$0",
+  "employee_count": "12",
+  "non_ec_arr": "$5,346",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "bestnyp@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Best NY Pizza Inc"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

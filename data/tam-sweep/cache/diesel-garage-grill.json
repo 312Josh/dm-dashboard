@@ -1,0 +1,26 @@
+{
+  "parent": "Diesel Garage Grill Parent",
+  "slug": "diesel-garage-grill",
+  "total_headroom": "$22,624",
+  "non_ec_headroom": "$17,220",
+  "est_ec_headroom": "$5,404",
+  "employee_count": "32",
+  "non_ec_arr": "$6,822",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "martin.seleem@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Diesel Garage Grill - Palm Harbor"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

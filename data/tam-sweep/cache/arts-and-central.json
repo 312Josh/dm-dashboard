@@ -1,0 +1,26 @@
+{
+  "parent": "Arts and Central - Parent Account",
+  "slug": "arts-and-central",
+  "total_headroom": "$10,764",
+  "non_ec_headroom": "$10,764",
+  "est_ec_headroom": "$0",
+  "employee_count": "60",
+  "non_ec_arr": "$15,245",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "dan@artsandcentral.com",
+  "location_count": 1,
+  "location_names": [
+    "Arts and Central"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "O'Brien's Irish Pub - Brandon Parent",
+  "slug": "o-brien-s-irish-pub-brandon",
+  "total_headroom": "$15,720",
+  "non_ec_headroom": "$15,720",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$9,960",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "derrickdavisinc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "O'Brien's Irish Pub - 701 W Lumsden Rd"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

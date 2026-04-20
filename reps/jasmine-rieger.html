@@ -55,6 +55,27 @@
   .c-technique { background: var(--toast-orange-bg); color: var(--toast-orange); }
   .c-results { background: var(--green-bg); color: var(--green); }
   .footer { text-align: center; padding: 20px; font-size: 12px; color: var(--gray-400); }
+  @media print {
+    body { background: white; font-size: 11px; }
+    .header { padding: 8px 16px; border-bottom: 2px solid #000; }
+    .header-left a { display: none; }
+    .content { padding: 8px 16px; }
+    .scorecard { grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 12px; }
+    .sc-card { padding: 8px 6px; border: 1px solid #ccc; }
+    .sc-card .label { font-size: 9px; }
+    .sc-card .value { font-size: 16px; }
+    .sc-card .sub { font-size: 9px; }
+    .section { padding: 10px; margin-bottom: 8px; box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
+    .section h2 { font-size: 13px; margin-bottom: 8px; }
+    .two-col { grid-template-columns: 1fr 1fr; gap: 8px; }
+    table { font-size: 11px; }
+    th { padding: 4px 6px; font-size: 9px; }
+    td { padding: 4px 6px; }
+    .coaching li { padding: 4px 0; font-size: 11px; line-height: 1.4; }
+    .badge { font-size: 9px; padding: 1px 6px; }
+    .footer { font-size: 9px; padding: 8px; }
+    @page { margin: 0.5in; size: letter; }
+  }
 </style>
 </head>
 <body>
@@ -63,18 +84,18 @@
     <a href="../index.html">&larr; Back to Dashboard</a>
     <h1>Jasmine Rieger</h1>
   </div>
-  <div class="header-right">April 2026 — Data as of Apr 17, 2026</div>
+  <div class="header-right">April 2026 — Data as of Apr 20, 2026</div>
 </div>
 <div class="content">
 <div class="scorecard">
-<div class="sc-card"><div class="label">MTD ARR</div><div class="value">$36,572</div><div class="sub">of $62,000</div></div>
-<div class="sc-card"><div class="label">Attainment</div><div class="value">59.0%</div><div class="sub">to quota</div></div>
+<div class="sc-card"><div class="label">MTD ARR</div><div class="value">$36,572</div><div class="sub">of $62,000 <span style="font-size:11px;color:var(--green)">+$0.40</span></div></div>
+<div class="sc-card"><div class="label">Attainment</div><div class="value">59.0%</div><div class="sub">to quota <span style="font-size:11px;color:var(--red)">-0.0pp</span></div></div>
 <div class="sc-card"><div class="label">Wins</div><div class="value">24</div><div class="sub">closed deals</div></div>
-<div class="sc-card"><div class="label">Demos</div><div class="value">31</div><div class="sub">held</div></div>
-<div class="sc-card"><div class="label">Opps</div><div class="value">30</div><div class="sub">created</div></div>
-<div class="sc-card"><div class="label">Avg ARR</div><div class="value">$1,524</div><div class="sub">per opp</div></div>
-<div class="sc-card"><div class="label">Demo:Win</div><div class="value">77.4%</div><div class="sub">conversion</div></div>
-<div class="sc-card"><div class="label">EC ARR</div><div class="value">$0.00</div><div class="sub">0 units</div></div>
+<div class="sc-card"><div class="label">Demos</div><div class="value">32</div><div class="sub">held <span style="font-size:11px;color:var(--green)">+10</span></div></div>
+<div class="sc-card"><div class="label">Opps</div><div class="value">31</div><div class="sub">created <span style="font-size:11px;color:var(--green)">+3</span></div></div>
+<div class="sc-card"><div class="label">Avg ARR</div><div class="value">$1,524</div><div class="sub">per opp <span style="font-size:11px;color:var(--green)">+$0.02</span></div></div>
+<div class="sc-card"><div class="label">Demo:Win</div><div class="value">75.0%</div><div class="sub">conversion <span style="font-size:11px;color:var(--red)">-15.9pp</span></div></div>
+<div class="sc-card"><div class="label">EC ARR</div><div class="value">$0.00</div><div class="sub">0 units <span style="font-size:11px;color:var(--red)">$-5,200.00</span></div></div>
 </div>
 <div class="section">
   <h2><img src="../assets/Other_Award.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> 1:1 Coaching — Sandler Coach to Success</h2>
@@ -82,9 +103,9 @@
     <div>
       <div class="coaching-label c-behavior">Behavior (Activity)</div>
       <ul class="coaching">
-        <li>Calls at 48/260 expected by day 13 (18% to pace) — significantly behind. Goal: 20/day, 100/week. Are there time management barriers?</li>
-        <li>Demos at 31/26 expected (119% to pace) — on track. Goal: ~10/week.</li>
-        <li>Only 17 emails sent this week — low outbound volume.</li>
+        <li>Calls at 0/280 expected by day 14 (0% to pace) — significantly behind. Goal: 20/day, 100/week. Are there time management barriers?</li>
+        <li>Demos at 32/28 expected (114% to pace) — on track. Goal: ~10/week.</li>
+        <li>Only 1 emails sent this week — low outbound volume.</li>
       </ul>
       <div class="coaching-label c-technique" style="margin-top:16px">Technique (Conversion)</div>
       <ul class="coaching">
@@ -95,8 +116,9 @@
     <div>
       <div class="coaching-label c-results">Results (Outcomes)</div>
       <ul class="coaching">
-        <li>At 59% to quota (1.0x pace on working day 13/22) — slightly behind pace. Review pipeline and prioritize highest-probability deals.</li>
+        <li>At 59% to quota (0.9x pace on working day 14/22) — slightly behind pace. Review pipeline and prioritize highest-probability deals.</li>
         <li>17 deals stale >14 days — pipeline needs cleaning. Which should be closed-lost vs. re-engaged?</li>
+        <li><strong>Close the Gap:</strong> Need $25,428 more → 16.7 deals (@ $1,524 avg) → 22 demos (@ 75% D:W) → <strong>13.9 demos/week</strong> for remaining 8 working days.</li>
       </ul>
       <div class="coaching-label" style="margin-top:16px;background:var(--gray-100);color:var(--gray-700)">Suggested Coaching Questions</div>
       <ul class="coaching">
@@ -112,23 +134,23 @@
 <div class="section">
   <h2><img src="../assets/phone.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Calls</h2>
   <table>
-    <tr><td>Total Calls</td><td style="font-weight:600">48</td></tr>
-    <tr><td>Avg/Day</td><td>9.6</td></tr>
-    <tr><td>Conversations</td><td>9</td></tr>
-    <tr><td>Conv Rate</td><td>18.8%</td></tr>
-    <tr><td>Avg Duration</td><td>0m 44s</td></tr>
-    <tr><td>Voicemails</td><td>7</td></tr>
+    <tr><td>Total Calls</td><td style="font-weight:600">0</td></tr>
+    <tr><td>Avg/Day</td><td>0.0</td></tr>
+    <tr><td>Conversations</td><td>0</td></tr>
+    <tr><td>Conv Rate</td><td>%</td></tr>
+    <tr><td>Avg Duration</td><td>N/A</td></tr>
+    <tr><td>Voicemails</td><td>0</td></tr>
   </table>
 </div>
 <div class="section">
   <h2><img src="../assets/email.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Emails</h2>
   <table>
-    <tr><td>Sent</td><td style="font-weight:600">17</td></tr>
-    <tr><td>Opened</td><td>6 (35.3%)</td></tr>
-    <tr><td>Replied</td><td>6 (35.3%)</td></tr>
-    <tr><td>Positive Replies</td><td>5</td></tr>
-    <tr><td>Personalization</td><td>52.9%</td></tr>
-    <tr><td>Clicked</td><td>1 (5.9%)</td></tr>
+    <tr><td>Sent</td><td style="font-weight:600">1</td></tr>
+    <tr><td>Opened</td><td>0 (0.0%)</td></tr>
+    <tr><td>Replied</td><td>0 (0.0%)</td></tr>
+    <tr><td>Positive Replies</td><td>0</td></tr>
+    <tr><td>Personalization</td><td>0.0%</td></tr>
+    <tr><td>Clicked</td><td>0 (0.0%)</td></tr>
   </table>
 </div>
 </div>
@@ -137,21 +159,21 @@
   <table>
     <thead><tr><th>Account</th><th>Opportunity</th><th>Stage</th><th>Days</th><th>ARR</th><th>Next Step</th></tr></thead>
     <tbody>
-      <tr><td><strong>Back 9 Burgers LLC</strong></td><td style="font-size:12px">Back 9 Burgers - Mobile Order & Pay + KD</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">86d</td><td>$1,124</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Follow up with Shellie on 4/13. Cx NS: Review pricing</td></tr>
-      <tr><td><strong>Los Cebollines Grill - Parent Account</strong></td><td style="font-size:12px">Los Cebollines Grill - Parent Account - </td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--red);font-weight:600">67d</td><td>$1,680</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Sent break up email on 4/7. Continue follow ups. Cx N</td></tr>
-      <tr><td><strong>Los Cebollines Grill</strong></td><td style="font-size:12px">Los Cebollines Grill - Team Management A</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">65d</td><td>$1,788</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Sent break up email on 4/7. Continue follow ups. Cx N</td></tr>
-      <tr><td><strong>Taverna Tony</strong></td><td style="font-size:12px">Taverna Tony - Tips Manager (HOLDS LIST)</td><td style="font-size:12px">Open</td><td style="color:var(--red);font-weight:600">59d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Cx had to reschedule twice, but asked me to stay in touch be</td></tr>
-      <tr><td><strong>Cielo Karaoke Y Mas! Parent</strong></td><td style="font-size:12px">Cielo Karaoke Y Mas! Parent - Payroll - </td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">49d</td><td>$1,836</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Connected w/ Evan on 4/3 and asked him to confirm fol</td></tr>
-      <tr><td><strong>Truxton's - PARENT</strong></td><td style="font-size:12px">Truxton's - PARENT - Payroll - Parent</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">44d</td><td>$22,680</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Connected with Yelitza via email on 4/6. Addressed qu</td></tr>
-      <tr><td><strong>Smog City Long Beach</strong></td><td style="font-size:12px">Smog City Long Beach - Mobile Order & Pa</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--red);font-weight:600">44d</td><td>$828.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Follow up w/ Laurie and Greg on 4/8. Separate check i</td></tr>
-      <tr><td><strong>Papas and dogs restaurant</strong></td><td style="font-size:12px">Papas and Dogs Restaurant - Account Revi</td><td style="font-size:12px">Open</td><td style="color:var(--red);font-weight:600">42d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Cx ghosting. Working on reschedule.</td></tr>
-      <tr><td><strong>Wild Roots - Torrance</strong></td><td style="font-size:12px">Wild Roots - Torrance - Account Review</td><td style="font-size:12px">Open</td><td style="color:var(--yellow);font-weight:600">24d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Follow up on 4/8. Cx NS: Confirm availability for her</td></tr>
-      <tr><td><strong>Cassidys Corner Cafe GROUP</strong></td><td style="font-size:12px">Cassidys Corner Cafe GROUP - Payroll - P</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">22d</td><td>$588.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Connected w/ cx on 4/8. Said she was on vacation but </td></tr>
-      <tr><td><strong>Torrance Bakery - Original</strong></td><td style="font-size:12px">Torrance Bakery - Hardware Amendment</td><td style="font-size:12px">Open</td><td style="color:var(--yellow);font-weight:600">21d</td><td>$240.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Working on scheduling demo. NBR referral</td></tr>
-      <tr><td><strong>The Empanada Shop</strong></td><td style="font-size:12px">The Empanada Shop - C&E Amendment</td><td style="font-size:12px">Open</td><td style="color:var(--yellow);font-weight:600">21d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Cx ghosted demo. Working on reschedule.</td></tr>
-      <tr><td><strong>Stoa Wine Bar - Parent Account</strong></td><td style="font-size:12px">Stoa Wine Bar - Parent Account - Payroll</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$3,564</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Check on break violations issue for Constantine. Cx w</td></tr>
-      <tr><td><strong>Stoa Wine Bar</strong></td><td style="font-size:12px">Stoa Wine Bar - Team Management Amendmen</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$1,162</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Check on break violations issue for Constantine. Cx w</td></tr>
-      <tr><td><strong>Waka Sakura - Gardena</strong></td><td style="font-size:12px">Waka Sakura - Gardena - Marketing + DSF/</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">16d</td><td>$6,115</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Connected w/ team on 4/7 and they said they need more</td></tr>
+      <tr><td><strong>Back 9 Burgers LLC</strong></td><td style="font-size:12px">Back 9 Burgers - Mobile Order & Pay + KD</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">89d</td><td>$1,124</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Follow up with Shellie on 4/13. Cx NS: Review pricing</td></tr>
+      <tr><td><strong>Los Cebollines Grill - Parent Account</strong></td><td style="font-size:12px">Los Cebollines Grill - Parent Account - </td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--red);font-weight:600">70d</td><td>$1,680</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Sent break up email on 4/7. Continue follow ups. Cx N</td></tr>
+      <tr><td><strong>Los Cebollines Grill</strong></td><td style="font-size:12px">Los Cebollines Grill - Team Management A</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">68d</td><td>$1,788</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Sent break up email on 4/7. Continue follow ups. Cx N</td></tr>
+      <tr><td><strong>Taverna Tony</strong></td><td style="font-size:12px">Taverna Tony - Tips Manager (HOLDS LIST)</td><td style="font-size:12px">Open</td><td style="color:var(--red);font-weight:600">62d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Cx had to reschedule twice, but asked me to stay in touch be</td></tr>
+      <tr><td><strong>Cielo Karaoke Y Mas! Parent</strong></td><td style="font-size:12px">Cielo Karaoke Y Mas! Parent - Payroll - </td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">52d</td><td>$1,836</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Connected w/ Evan on 4/3 and asked him to confirm fol</td></tr>
+      <tr><td><strong>Truxton's - PARENT</strong></td><td style="font-size:12px">Truxton's - PARENT - Payroll - Parent</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">47d</td><td>$22,680</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Connected with Yelitza via email on 4/6. Addressed qu</td></tr>
+      <tr><td><strong>Smog City Long Beach</strong></td><td style="font-size:12px">Smog City Long Beach - Mobile Order & Pa</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--red);font-weight:600">47d</td><td>$828.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Follow up w/ Laurie and Greg on 4/8. Separate check i</td></tr>
+      <tr><td><strong>Papas and dogs restaurant</strong></td><td style="font-size:12px">Papas and Dogs Restaurant - Account Revi</td><td style="font-size:12px">Open</td><td style="color:var(--red);font-weight:600">45d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Cx ghosting. Working on reschedule.</td></tr>
+      <tr><td><strong>Wild Roots - Torrance</strong></td><td style="font-size:12px">Wild Roots - Torrance - Account Review</td><td style="font-size:12px">Open</td><td style="color:var(--yellow);font-weight:600">27d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Follow up on 4/8. Cx NS: Confirm availability for her</td></tr>
+      <tr><td><strong>Cassidys Corner Cafe GROUP</strong></td><td style="font-size:12px">Cassidys Corner Cafe GROUP - Payroll - P</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">25d</td><td>$588.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Connected w/ cx on 4/8. Said she was on vacation but </td></tr>
+      <tr><td><strong>Torrance Bakery - Original</strong></td><td style="font-size:12px">Torrance Bakery - Hardware Amendment</td><td style="font-size:12px">Open</td><td style="color:var(--yellow);font-weight:600">24d</td><td>$240.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Working on scheduling demo. NBR referral</td></tr>
+      <tr><td><strong>The Empanada Shop</strong></td><td style="font-size:12px">The Empanada Shop - C&E Amendment</td><td style="font-size:12px">Open</td><td style="color:var(--yellow);font-weight:600">24d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">Cx ghosted demo. Working on reschedule.</td></tr>
+      <tr><td><strong>Stoa Wine Bar - Parent Account</strong></td><td style="font-size:12px">Stoa Wine Bar - Parent Account - Payroll</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">21d</td><td>$3,564</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Check on break violations issue for Constantine. Cx w</td></tr>
+      <tr><td><strong>Stoa Wine Bar</strong></td><td style="font-size:12px">Stoa Wine Bar - Team Management Amendmen</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">21d</td><td>$1,162</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Check on break violations issue for Constantine. Cx w</td></tr>
+      <tr><td><strong>Waka Sakura - Gardena</strong></td><td style="font-size:12px">Waka Sakura - Gardena - Marketing + DSF/</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">19d</td><td>$6,115</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: Connected w/ team on 4/7 and they said they need more</td></tr>
     </tbody>
   </table>
 </div>
@@ -178,17 +200,17 @@
   <table>
     <thead><tr><th>Date</th><th>ARR</th><th>Wins</th><th>Demos</th><th>Opps</th><th>Calls</th><th>Emails</th><th>Demo:Win</th></tr></thead>
     <tbody>
-      <tr><td>2026-04-17</td><td>$36,572</td><td>24</td><td>31</td><td>30</td><td>48</td><td>17</td><td>77.4%</td></tr>
+      <tr><td>2026-04-20</td><td>$36,572</td><td>24</td><td>32</td><td>31</td><td>0</td><td>1</td><td>75.0%</td></tr>
+      <tr><td>2026-04-17</td><td>$36,572</td><td>24</td><td>22</td><td>28</td><td>180</td><td>75</td><td>90.9%</td></tr>
       <tr><td>2026-04-16</td><td>$36,572</td><td>24</td><td>31</td><td>30</td><td>48</td><td>15</td><td>77.4%</td></tr>
       <tr><td>2026-04-15</td><td>$33,440</td><td>23</td><td>31</td><td>30</td><td>48</td><td>13</td><td>74.2%</td></tr>
       <tr><td>2026-04-14</td><td>$33,440</td><td>23</td><td>30</td><td>30</td><td>26</td><td>8</td><td>76.7%</td></tr>
       <tr><td>2026-04-13</td><td>$33,440</td><td>23</td><td>30</td><td>30</td><td>72</td><td>0</td><td>76.7%</td></tr>
       <tr><td>2026-04-10</td><td>$25,796</td><td>20</td><td>27</td><td>26</td><td>72</td><td>39</td><td>74.1%</td></tr>
       <tr><td>2026-04-09</td><td>$21,339</td><td>16</td><td>25</td><td>23</td><td>72</td><td>31</td><td>64.0%</td></tr>
-      <tr><td>2026-04-08</td><td>$21,339</td><td>16</td><td>25</td><td>22</td><td>72</td><td>30</td><td>64.0%</td></tr>
     </tbody>
   </table>
 </div>
 
-<div class="footer">Growth Sales Dashboard — Jasmine Rieger | Generated Apr 17, 2026</div>
+<div class="footer">Growth Sales Dashboard — Jasmine Rieger | Generated Apr 20, 2026</div>
 </body></html>

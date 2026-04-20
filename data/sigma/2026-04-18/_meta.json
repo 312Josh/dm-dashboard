@@ -1,0 +1,40 @@
+{
+  "extracted_at": "2026-04-18T08:04:02Z",
+  "date": "2026-04-18",
+  "workbooks_pulled": {
+    "key-metrics": {
+      "tabs_succeeded": 0,
+      "tabs_failed": 3,
+      "error": "NO_CANVAS: Workbook uses pivot/KPI renderer, canvas not rendered in extension context"
+    },
+    "5k-deals-2product": {
+      "tabs_succeeded": 3,
+      "tabs_failed": 0,
+      "rows": {"pipeline": 655, "wins": 274, "losses": 55}
+    },
+    "forecast-pipeline": {
+      "tabs_succeeded": 0,
+      "tabs_failed": 1,
+      "error": "NO_TABLE_CANVAS: Workbook uses chart/visualization canvases without tableInfo.renderResult"
+    },
+    "funnel-metrics": {
+      "tabs_succeeded": 1,
+      "tabs_failed": 7,
+      "rows": {"power-rankings": 127},
+      "error": "6 tabs use chart/dashboard canvases; Refresh Cadences is text-only docs tab"
+    }
+  },
+  "errors": [
+    "key-metrics/rvp: NO_CANVAS - pivot renderer",
+    "key-metrics/manager: NO_CANVAS - pivot renderer",
+    "key-metrics/rep: NO_CANVAS - pivot renderer",
+    "forecast-pipeline/forecast-and-pipeline: NO_TABLE_CANVAS - chart renderer",
+    "funnel-metrics/growth-sales-funnel: NO_CANVAS - dashboard",
+    "funnel-metrics/funnel-breakouts-by-rep-cohorts: NO_CANVAS - dashboard",
+    "funnel-metrics/headcount: NO_TABLE_CANVAS - chart renderer",
+    "funnel-metrics/discounting: NO_TABLE_CANVAS - chart renderer",
+    "funnel-metrics/fast-start: NO_TABLE_CANVAS - chart renderer",
+    "funnel-metrics/high-level-funnel: NO_TABLE_CANVAS - chart renderer"
+  ],
+  "notes": "Canvas rendering requires tab to be in foreground (AppleScript workaround used). Dashboard-style workbooks use non-extractable chart canvases. Only standard data-table workbooks yield CSV extraction."
+}

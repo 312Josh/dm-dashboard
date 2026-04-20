@@ -1,0 +1,26 @@
+{
+  "parent": "Thai5 Largo - Parent Account",
+  "slug": "thai5-largo",
+  "total_headroom": "$17,592",
+  "non_ec_headroom": "$17,592",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$5,688",
+  "state": "FL",
+  "city": "Largo",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "thai5kc2010@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Thai5 Largo"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

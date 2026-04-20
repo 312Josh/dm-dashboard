@@ -1,0 +1,26 @@
+{
+  "parent": "Roberts Smokin BBQ2 - Parent Account",
+  "slug": "roberts-smokin-bbq2",
+  "total_headroom": "$14,652",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$6,142",
+  "state": "FL",
+  "city": "Holiday",
+  "restaurant_type": "Unknown",
+  "contact_email": "roberts.smokinbbq@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Roberts Smokin BBQ2"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

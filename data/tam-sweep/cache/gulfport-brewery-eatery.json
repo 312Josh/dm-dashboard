@@ -1,0 +1,26 @@
+{
+  "parent": "Gulfport Brewery + Eatery - Parent",
+  "slug": "gulfport-brewery-eatery",
+  "total_headroom": "$18,180",
+  "non_ec_headroom": "$18,180",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$4,692",
+  "state": "FL",
+  "city": "Gulfport",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "matt@gulfport-brewing.com",
+  "location_count": 1,
+  "location_names": [
+    "Gulfport Brewery and Eatery"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

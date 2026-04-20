@@ -1,0 +1,27 @@
+{
+  "parent": "Andrea's - Parent Account",
+  "slug": "andrea-s",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "null",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "andreabozzolo71@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Andrea's",
+    "MALMOSTO"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

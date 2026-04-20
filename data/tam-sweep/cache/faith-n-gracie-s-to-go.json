@@ -1,0 +1,26 @@
+{
+  "parent": "Faith N Gracie’s to go",
+  "slug": "faith-n-gracie-s-to-go",
+  "total_headroom": "$14,820",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "faithngracietogo@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Faith N Gracie’s to go"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

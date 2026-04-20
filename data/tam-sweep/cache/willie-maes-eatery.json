@@ -1,0 +1,26 @@
+{
+  "parent": "Willie Maes Eatery",
+  "slug": "willie-maes-eatery",
+  "total_headroom": "null",
+  "non_ec_headroom": "$15,732",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "towanrush@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Willie Maes Eatery"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

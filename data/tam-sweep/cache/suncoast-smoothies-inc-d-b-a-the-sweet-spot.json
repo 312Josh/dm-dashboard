@@ -1,0 +1,26 @@
+{
+  "parent": "Suncoast Smoothies, Inc. d.b.a. The Sweet Spot - Parent Account",
+  "slug": "suncoast-smoothies-inc-d-b-a-the-sweet-spot",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$600",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "floridasweetspotllc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Suncoast Smoothies, Inc. d.b.a. The Sweet Spot"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

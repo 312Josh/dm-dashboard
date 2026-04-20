@@ -1,0 +1,26 @@
+{
+  "parent": "Sweetberries Inc",
+  "slug": "sweetberries-inc",
+  "total_headroom": "$21,124",
+  "non_ec_headroom": "$19,080",
+  "est_ec_headroom": "$2,044",
+  "employee_count": "12",
+  "non_ec_arr": "$2,940",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "cin4gators@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "SweetBerries Bradenton"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

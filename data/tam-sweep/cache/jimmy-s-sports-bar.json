@@ -1,0 +1,26 @@
+{
+  "parent": "Jimmy's Sports Bar",
+  "slug": "jimmy-s-sports-bar",
+  "total_headroom": "$21,304",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$364",
+  "employee_count": "2",
+  "non_ec_arr": "$600",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "kozetarrgalla@icloud.com",
+  "location_count": 1,
+  "location_names": [
+    "Jimmy's Sports Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

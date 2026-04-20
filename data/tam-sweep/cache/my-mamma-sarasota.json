@@ -1,0 +1,26 @@
+{
+  "parent": "My Mamma - Sarasota - Parent Account",
+  "slug": "my-mamma-sarasota",
+  "total_headroom": "$20,868",
+  "non_ec_headroom": "$19,860",
+  "est_ec_headroom": "$1,008",
+  "employee_count": "6",
+  "non_ec_arr": "$3,258",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mymammasarasota@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "My Mamma - Sarasota"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

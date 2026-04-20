@@ -1,0 +1,26 @@
+{
+  "parent": "Chicken & Taco Loco Bar and Grille - Parent Account",
+  "slug": "chicken-taco-loco-bar-and-grille",
+  "total_headroom": "$23,824",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$2,884",
+  "employee_count": "17",
+  "non_ec_arr": "$1,632",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jaquemireles@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Chicken & Taco Loco Bar and Grille"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

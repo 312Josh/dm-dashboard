@@ -1,0 +1,27 @@
+{
+  "parent": "Nura Hookah - Parent",
+  "slug": "nura-hookah",
+  "total_headroom": "$42,288",
+  "non_ec_headroom": "$41,280",
+  "est_ec_headroom": "$1,008",
+  "employee_count": "6",
+  "non_ec_arr": "$2,400",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "kenliu86@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Zafeera Tampa",
+    "Nura Hookah"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

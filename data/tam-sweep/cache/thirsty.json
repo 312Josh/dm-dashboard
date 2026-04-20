@@ -1,0 +1,27 @@
+{
+  "parent": "Thirsty - Parent Account",
+  "slug": "thirsty",
+  "total_headroom": "$33,144",
+  "non_ec_headroom": "$33,144",
+  "est_ec_headroom": "$0",
+  "employee_count": "37",
+  "non_ec_arr": "$19,776",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "greg.mikurak@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Ride 'Em Cowboy",
+    "Thirsty First - DTSP"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

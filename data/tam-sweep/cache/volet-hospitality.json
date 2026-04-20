@@ -1,0 +1,27 @@
+{
+  "parent": "Volet Hospitality",
+  "slug": "volet-hospitality",
+  "total_headroom": "$70,624",
+  "non_ec_headroom": "$39,180",
+  "est_ec_headroom": "$31,444",
+  "employee_count": "187",
+  "non_ec_arr": "$22,848",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "scdamk@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Juno & The Peacock",
+    "300 Beach Dr N LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

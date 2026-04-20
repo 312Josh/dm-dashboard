@@ -1,0 +1,26 @@
+{
+  "parent": "Par Bar Parent",
+  "slug": "par-bar",
+  "total_headroom": "$18,540",
+  "non_ec_headroom": "$18,540",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$3,000",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "kurt@parparstp.com",
+  "location_count": 1,
+  "location_names": [
+    "Par Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

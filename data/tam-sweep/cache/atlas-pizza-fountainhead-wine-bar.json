@@ -1,0 +1,28 @@
+{
+  "parent": "Atlas Pizza / Fountainhead Wine Bar Parent",
+  "slug": "atlas-pizza-fountainhead-wine-bar",
+  "total_headroom": "$55,152",
+  "non_ec_headroom": "$55,152",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$13,064",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "angiebalch@hotmail.com",
+  "location_count": 3,
+  "location_names": [
+    "The Fountainhead Wine & Beer Bar",
+    "Sam's pizza & Daily Cafe",
+    "Atlas Pizza"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

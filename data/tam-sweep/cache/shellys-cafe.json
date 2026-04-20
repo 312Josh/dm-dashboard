@@ -1,0 +1,26 @@
+{
+  "parent": "Shellys Cafe",
+  "slug": "shellys-cafe",
+  "total_headroom": "$23,236",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$2,296",
+  "employee_count": "14",
+  "non_ec_arr": "$540",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kmjusainv@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Shellys Cafe"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

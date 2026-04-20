@@ -1,0 +1,27 @@
+{
+  "parent": "Gasparilla Pizzeria & Growlers - Parent Account",
+  "slug": "gasparilla-pizzeria-growlers",
+  "total_headroom": "$39,376",
+  "non_ec_headroom": "$30,612",
+  "est_ec_headroom": "$8,764",
+  "employee_count": "52",
+  "non_ec_arr": "$17,403",
+  "state": "FL",
+  "city": "Valrico",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "tlittle@jkreel.com",
+  "location_count": 2,
+  "location_names": [
+    "Gasparilla Pizzeria & Growlers",
+    "Gasparilla & Growlers-New-Valrico"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

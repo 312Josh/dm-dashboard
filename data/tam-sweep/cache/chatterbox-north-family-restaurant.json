@@ -1,0 +1,26 @@
+{
+  "parent": "Chatterbox North Family Restaurant - Parent Account",
+  "slug": "chatterbox-north-family-restaurant",
+  "total_headroom": "$21,640",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$700",
+  "employee_count": "4",
+  "non_ec_arr": "$1,200",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "connie.bakesoficial@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "BLISS FAMILY RESTAURANT & CAFE"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Gadi's Bakery & Deli",
+  "slug": "gadi-s-bakery-deli",
+  "total_headroom": "$18,100",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$280",
+  "employee_count": "2",
+  "non_ec_arr": "$120",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "office@gadisbakery.com",
+  "location_count": 1,
+  "location_names": [
+    "Gadi's Bakery & Deli"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

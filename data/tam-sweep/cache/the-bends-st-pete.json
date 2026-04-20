@@ -1,0 +1,27 @@
+{
+  "parent": "The Bends - St. Pete - Parent Account",
+  "slug": "the-bends-st-pete",
+  "total_headroom": "$44,652",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$2,772",
+  "employee_count": "17",
+  "non_ec_arr": "$2,400",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "craig.dragoonis@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Easy Tiger",
+    "The Bends - St. Pete"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

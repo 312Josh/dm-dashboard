@@ -1,0 +1,26 @@
+{
+  "parent": "Bravo NY Pizzeria - Parent Account",
+  "slug": "bravo-ny-pizzeria",
+  "total_headroom": "$18,604",
+  "non_ec_headroom": "$18,072",
+  "est_ec_headroom": "$532",
+  "employee_count": "3",
+  "non_ec_arr": "$4,428",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "florencbardhii@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bravo NY Pizzeria"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

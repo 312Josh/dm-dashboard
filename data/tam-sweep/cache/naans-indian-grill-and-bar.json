@@ -1,0 +1,26 @@
+{
+  "parent": "Naans Indian Grill and Bar - Parent Account",
+  "slug": "naans-indian-grill-and-bar",
+  "total_headroom": "$19,128",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$4,125",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sriharshasampara@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "Bindaas Bistro Naans India Grill and Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

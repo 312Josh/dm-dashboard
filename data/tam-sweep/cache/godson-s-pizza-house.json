@@ -1,0 +1,26 @@
+{
+  "parent": "Godson's Pizza House - Parent Account",
+  "slug": "godson-s-pizza-house",
+  "total_headroom": "$20,152",
+  "non_ec_headroom": "$19,620",
+  "est_ec_headroom": "$532",
+  "employee_count": "3",
+  "non_ec_arr": "$2,640",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "flavazsliceandspice@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Flavaz slice and spice"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

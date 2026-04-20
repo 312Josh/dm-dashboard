@@ -1,0 +1,26 @@
+{
+  "parent": "Gulf Drive Cafe & The Kokonut Hut - Parent Account",
+  "slug": "gulf-drive-cafe-the-kokonut-hut",
+  "total_headroom": "$27,880",
+  "non_ec_headroom": "$16,260",
+  "est_ec_headroom": "$11,620",
+  "employee_count": "69",
+  "non_ec_arr": "$21,168",
+  "state": "FL",
+  "city": "Bradenton Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "contact@beachboxmarket.com",
+  "location_count": 1,
+  "location_names": [
+    "Gulf Drive Cafe & The Kokonut Hut"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

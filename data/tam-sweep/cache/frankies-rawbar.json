@@ -1,0 +1,26 @@
+{
+  "parent": "Frankies Rawbar Parent",
+  "slug": "frankies-rawbar",
+  "total_headroom": "$22,200",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,260",
+  "employee_count": "8",
+  "non_ec_arr": "$962",
+  "state": "FL",
+  "city": "New Port Richey",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rrawbar@tampabay.rr.com",
+  "location_count": 1,
+  "location_names": [
+    "Frankies Rawbar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

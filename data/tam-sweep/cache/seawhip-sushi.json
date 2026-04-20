@@ -1,0 +1,26 @@
+{
+  "parent": "Seawhip Sushi - Parent",
+  "slug": "seawhip-sushi",
+  "total_headroom": "$11,724",
+  "non_ec_headroom": "$11,724",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$5,604",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "princeap75@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Seawhip Sushi Bar LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

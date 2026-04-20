@@ -1,0 +1,27 @@
+{
+  "parent": "Cafe Epicure & Mediterraneo - Parent",
+  "slug": "cafe-epicure-mediterraneo",
+  "total_headroom": "$50,984",
+  "non_ec_headroom": "$38,580",
+  "est_ec_headroom": "$12,404",
+  "employee_count": "74",
+  "non_ec_arr": "$12,048",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cafe-epicure@comcast.net",
+  "location_count": 2,
+  "location_names": [
+    "Cafe Epicure",
+    "Mediterraneo"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

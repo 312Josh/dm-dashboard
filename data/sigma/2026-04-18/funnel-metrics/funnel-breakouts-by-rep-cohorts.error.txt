@@ -1,0 +1,1 @@
+NO_CANVAS: No canvas elements rendered for this tab

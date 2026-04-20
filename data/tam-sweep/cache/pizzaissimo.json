@@ -1,0 +1,26 @@
+{
+  "parent": "Pizzaissimo Parent",
+  "slug": "pizzaissimo",
+  "total_headroom": "$16,632",
+  "non_ec_headroom": "$16,632",
+  "est_ec_headroom": "$0",
+  "employee_count": "2",
+  "non_ec_arr": "$6,720",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "mckinnon.r.jesse@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pizzaissimo"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

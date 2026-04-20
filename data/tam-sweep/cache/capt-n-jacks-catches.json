@@ -1,0 +1,27 @@
+{
+  "parent": "Capt'n Jacks // Catches Parent",
+  "slug": "capt-n-jacks-catches",
+  "total_headroom": "$42,980",
+  "non_ec_headroom": "$26,796",
+  "est_ec_headroom": "$16,184",
+  "employee_count": "96",
+  "non_ec_arr": "$36,060",
+  "state": "FL",
+  "city": "Tarpon Springs",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mjlowe68@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Captain Jacks",
+    "Catches Waterfront Grille"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

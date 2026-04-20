@@ -1,0 +1,26 @@
+{
+  "parent": "Duval's Parent Account",
+  "slug": "duval-s",
+  "total_headroom": "$13,512",
+  "non_ec_headroom": "$13,512",
+  "est_ec_headroom": "$0",
+  "employee_count": "48",
+  "non_ec_arr": "$8,430",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "sabrams@bizzoom.com",
+  "location_count": 1,
+  "location_names": [
+    "Duval's Fresh. Local. Seafood."
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

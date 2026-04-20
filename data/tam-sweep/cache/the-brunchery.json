@@ -1,0 +1,26 @@
+{
+  "parent": "The Brunchery Parent",
+  "slug": "the-brunchery",
+  "total_headroom": "$21,668",
+  "non_ec_headroom": "$17,832",
+  "est_ec_headroom": "$3,836",
+  "employee_count": "23",
+  "non_ec_arr": "$4,983",
+  "state": "FL",
+  "city": "Valrico",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "stamate7777@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Brunchery"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "MWL - The Crane District - Parent",
+  "slug": "mwl-the-crane-district",
+  "total_headroom": "$44,972",
+  "non_ec_headroom": "$37,440",
+  "est_ec_headroom": "$7,532",
+  "employee_count": "45",
+  "non_ec_arr": "$4,470",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@ospherekitchenandbar.com",
+  "location_count": 2,
+  "location_names": [
+    "Mangosteen",
+    "The Glass Noodle"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

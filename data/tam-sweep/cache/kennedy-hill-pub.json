@@ -1,0 +1,26 @@
+{
+  "parent": "Kennedy Hill Pub - Parent Account",
+  "slug": "kennedy-hill-pub",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$552",
+  "state": "FL",
+  "city": "Seffner",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jmoreno@fdpweb.com",
+  "location_count": 1,
+  "location_names": [
+    "Kennedy Hill Pub"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

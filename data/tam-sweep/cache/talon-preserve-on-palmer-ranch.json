@@ -1,0 +1,26 @@
+{
+  "parent": "Talon Preserve on Palmer Ranch - Parent Account",
+  "slug": "talon-preserve-on-palmer-ranch",
+  "total_headroom": "$17,004",
+  "non_ec_headroom": "$15,492",
+  "est_ec_headroom": "$1,512",
+  "employee_count": "9",
+  "non_ec_arr": "$6,876",
+  "state": "FL",
+  "city": "Nokomis",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "rose.wallace@pulte.com",
+  "location_count": 1,
+  "location_names": [
+    "Talon Preserve on Palmer Ranch"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

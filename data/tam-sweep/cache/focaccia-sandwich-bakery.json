@@ -1,0 +1,26 @@
+{
+  "parent": "Focaccia Sandwich & Bakery - Parent Account",
+  "slug": "focaccia-sandwich-bakery",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$1,500",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "eat@focacciasandwich.com",
+  "location_count": 1,
+  "location_names": [
+    "Focaccia Sandwich & Bakery"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

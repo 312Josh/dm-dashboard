@@ -1,0 +1,26 @@
+{
+  "parent": "Amicis Catering - Parent Account",
+  "slug": "amicis-catering",
+  "total_headroom": "$20,376",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$2,940",
+  "state": "FL",
+  "city": "Oldsmar",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "phillip@amiciscatering.com",
+  "location_count": 1,
+  "location_names": [
+    "Amicis Catering"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

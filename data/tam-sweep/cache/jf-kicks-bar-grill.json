@@ -1,0 +1,26 @@
+{
+  "parent": "JF Kicks Bar & Grill Parent",
+  "slug": "jf-kicks-bar-grill",
+  "total_headroom": "$16,260",
+  "non_ec_headroom": "$16,260",
+  "est_ec_headroom": "$0",
+  "employee_count": "34",
+  "non_ec_arr": "$7,104",
+  "state": "FL",
+  "city": "Valrico",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "johnny@lordbradleystavern.com",
+  "location_count": 1,
+  "location_names": [
+    "JF Kicks Restaurant and Patio Bar NEW"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

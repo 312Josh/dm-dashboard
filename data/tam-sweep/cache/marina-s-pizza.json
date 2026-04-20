@@ -1,0 +1,26 @@
+{
+  "parent": "Marina's Pizza Parent",
+  "slug": "marina-s-pizza",
+  "total_headroom": "$17,424",
+  "non_ec_headroom": "$15,492",
+  "est_ec_headroom": "$1,932",
+  "employee_count": "12",
+  "non_ec_arr": "$3,840",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "office@marinaspizzatampa.com",
+  "location_count": 1,
+  "location_names": [
+    "Marina's Pizza"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

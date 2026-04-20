@@ -1,0 +1,26 @@
+{
+  "parent": "Bapa Pollo - Parent Account",
+  "slug": "bapa-pollo",
+  "total_headroom": "$16,020",
+  "non_ec_headroom": "$16,020",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$6,660",
+  "state": "FL",
+  "city": "Palmetto",
+  "restaurant_type": "Unknown",
+  "contact_email": "wiseretailnow@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bapa Pollo"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

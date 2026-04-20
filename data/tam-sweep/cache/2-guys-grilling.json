@@ -1,0 +1,26 @@
+{
+  "parent": "2 Guys Grilling",
+  "slug": "2-guys-grilling",
+  "total_headroom": "$20,748",
+  "non_ec_headroom": "$20,580",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$720",
+  "state": "FL",
+  "city": "Spring Hill",
+  "restaurant_type": "Unknown",
+  "contact_email": "montano@2guysgrilling.coc",
+  "location_count": 1,
+  "location_names": [
+    "2 Guys Grilling"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

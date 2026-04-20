@@ -1,0 +1,26 @@
+{
+  "parent": "Shamrock's Ale House",
+  "slug": "shamrock-s-ale-house",
+  "total_headroom": "$18,960",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$6,420",
+  "state": "FL",
+  "city": "Temple Terrace",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "trs@taxrefundservices.com",
+  "location_count": 1,
+  "location_names": [
+    "Shamrock's Ale House"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

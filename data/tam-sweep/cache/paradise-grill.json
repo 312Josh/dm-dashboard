@@ -1,0 +1,27 @@
+{
+  "parent": "Paradise Grill Parent",
+  "slug": "paradise-grill",
+  "total_headroom": "$39,720",
+  "non_ec_headroom": "$39,720",
+  "est_ec_headroom": "$0",
+  "employee_count": "48",
+  "non_ec_arr": "$7,661",
+  "state": "FL",
+  "city": "St. Pete Beach",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "mpjanecek@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Paradise Grille - 2",
+    "Paradise Grille - St. Pete Beach"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

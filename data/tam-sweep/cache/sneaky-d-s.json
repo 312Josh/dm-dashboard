@@ -1,0 +1,26 @@
+{
+  "parent": "Sneaky D's - Parent Account",
+  "slug": "sneaky-d-s",
+  "total_headroom": "$22,200",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,260",
+  "employee_count": "8",
+  "non_ec_arr": "$1,200",
+  "state": "FL",
+  "city": "St Petersburg",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "dyann1943@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sneaky D's"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Tarpon Turtle Grill & Marina - Parent Account",
+  "slug": "tarpon-turtle-grill-marina",
+  "total_headroom": "$23,516",
+  "non_ec_headroom": "$14,052",
+  "est_ec_headroom": "$9,464",
+  "employee_count": "56",
+  "non_ec_arr": "$12,142",
+  "state": "FL",
+  "city": "Tarpon Springs",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gkats19@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tarpon Turtle Grill & Marina"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

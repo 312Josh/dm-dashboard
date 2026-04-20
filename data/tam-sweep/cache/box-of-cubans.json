@@ -1,0 +1,28 @@
+{
+  "parent": "BOX OF CUBANS- Parent Account",
+  "slug": "box-of-cubans",
+  "total_headroom": "$44,496",
+  "non_ec_headroom": "$44,496",
+  "est_ec_headroom": "$0",
+  "employee_count": "41",
+  "non_ec_arr": "$12,755",
+  "state": "FL",
+  "city": "Valrico",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "marcos@boxofcubans.com",
+  "location_count": 3,
+  "location_names": [
+    "Box of Cubans- Valrico 2025",
+    "Box Of Cubans NEW MUO 2024",
+    "Box of Cubans 2"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

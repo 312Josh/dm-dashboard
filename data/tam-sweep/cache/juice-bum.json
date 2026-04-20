@@ -1,0 +1,26 @@
+{
+  "parent": "Juice bum",
+  "slug": "juice-bum",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$300",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "corey.j17@icloud.com",
+  "location_count": 1,
+  "location_names": [
+    "Juice bum"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

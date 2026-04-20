@@ -1,0 +1,1 @@
+NO_TABLE_CANVAS: Tab uses chart/visualization canvases without tableInfo.renderResult (dashboard-style, not tabular data)

@@ -1,0 +1,27 @@
+{
+  "parent": "Mi Casa Mexican - Parent",
+  "slug": "mi-casa-mexican",
+  "total_headroom": "$28,368",
+  "non_ec_headroom": "$28,368",
+  "est_ec_headroom": "$0",
+  "employee_count": "65",
+  "non_ec_arr": "$19,606",
+  "state": "FL",
+  "city": "Riverview",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "adriana@elmirasol.net",
+  "location_count": 2,
+  "location_names": [
+    "Mi casa mexican restaurant - Riverview",
+    "Mi Casa Mexican w Payroll"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

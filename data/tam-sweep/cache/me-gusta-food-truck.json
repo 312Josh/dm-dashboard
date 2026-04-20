@@ -1,0 +1,26 @@
+{
+  "parent": "Me Gusta Food Truck - Parent Account",
+  "slug": "me-gusta-food-truck",
+  "total_headroom": "$21,276",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$1,020",
+  "state": "FL",
+  "city": "Plant City",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "ramonarguinzoni1987@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Me Gusta Food Truck - 2024 Account"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

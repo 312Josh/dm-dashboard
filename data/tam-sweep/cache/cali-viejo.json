@@ -1,0 +1,26 @@
+{
+  "parent": "Cali Viejo Corporate",
+  "slug": "cali-viejo",
+  "total_headroom": "$16,804",
+  "non_ec_headroom": "$13,752",
+  "est_ec_headroom": "$3,052",
+  "employee_count": "18",
+  "non_ec_arr": "$12,108",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "caliviejorestaurant@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Cali Viejo"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

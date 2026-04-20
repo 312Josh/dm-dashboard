@@ -1,0 +1,26 @@
+{
+  "parent": "Eagles Aerie 4351 F.O.E. Inc.",
+  "slug": "eagles-aerie-4351-f-o-e-inc",
+  "total_headroom": "$21,432",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$1,092",
+  "employee_count": "7",
+  "non_ec_arr": "$1,020",
+  "state": "FL",
+  "city": "Ruskin",
+  "restaurant_type": "Unknown",
+  "contact_email": "natasha1029@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Eagles Aerie 4351 F.O.E. Inc."
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

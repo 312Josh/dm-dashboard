@@ -1,0 +1,26 @@
+{
+  "parent": "Skidders - Parent",
+  "slug": "skidders",
+  "total_headroom": "$10,536",
+  "non_ec_headroom": "$10,536",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$14,004",
+  "state": "FL",
+  "city": "St. Pete Beach",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "tess.boros@borosenterprises.com",
+  "location_count": 1,
+  "location_names": [
+    "Skidders"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

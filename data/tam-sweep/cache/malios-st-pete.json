@@ -1,0 +1,26 @@
+{
+  "parent": "Malios ST PETE - Parent Account",
+  "slug": "malios-st-pete",
+  "total_headroom": "$23,168",
+  "non_ec_headroom": "$15,972",
+  "est_ec_headroom": "$7,196",
+  "employee_count": "43",
+  "non_ec_arr": "$3,672",
+  "state": "FL",
+  "city": "St.Pete",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "derek@maliosprime.com",
+  "location_count": 1,
+  "location_names": [
+    "Malios ST PETE"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

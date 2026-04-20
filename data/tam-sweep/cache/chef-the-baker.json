@@ -1,0 +1,26 @@
+{
+  "parent": "Chef & The Baker Parent",
+  "slug": "chef-the-baker",
+  "total_headroom": "$10,104",
+  "non_ec_headroom": "$10,104",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$9,108",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "chefricardocastro@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Chef & The Baker Tampa"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

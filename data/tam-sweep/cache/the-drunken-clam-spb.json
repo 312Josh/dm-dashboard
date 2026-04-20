@@ -1,0 +1,26 @@
+{
+  "parent": "The Drunken Clam - SPB - Parent Account",
+  "slug": "the-drunken-clam-spb",
+  "total_headroom": "$22,804",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$2,464",
+  "employee_count": "15",
+  "non_ec_arr": "$2,400",
+  "state": "FL",
+  "city": "St. Pete Beach",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jkaiser803@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "The Drunken Clam - SPB"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

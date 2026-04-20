@@ -1,0 +1,26 @@
+{
+  "parent": "The Bearded Turtle - Parent Account",
+  "slug": "the-bearded-turtle",
+  "total_headroom": "$17,172",
+  "non_ec_headroom": "$17,172",
+  "est_ec_headroom": "$0",
+  "employee_count": "24",
+  "non_ec_arr": "$14,748",
+  "state": "FL",
+  "city": "Tarpon Springs",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "rich@accompacting.com",
+  "location_count": 1,
+  "location_names": [
+    "The Bearded Turtle"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

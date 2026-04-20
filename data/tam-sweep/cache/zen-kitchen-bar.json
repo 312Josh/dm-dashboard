@@ -1,0 +1,26 @@
+{
+  "parent": "Zen Kitchen & Bar - Parent",
+  "slug": "zen-kitchen-bar",
+  "total_headroom": "$25,472",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$5,432",
+  "employee_count": "32",
+  "non_ec_arr": "$4,623",
+  "state": "FL",
+  "city": "New Port Richey",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jay@zenkitchenandbar.com",
+  "location_count": 1,
+  "location_names": [
+    "Zen Kitchen and Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

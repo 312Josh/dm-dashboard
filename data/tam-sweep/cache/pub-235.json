@@ -1,0 +1,26 @@
+{
+  "parent": "Pub 235 - Parent",
+  "slug": "pub-235",
+  "total_headroom": "$16,452",
+  "non_ec_headroom": "$16,452",
+  "est_ec_headroom": "$0",
+  "employee_count": "39",
+  "non_ec_arr": "$10,008",
+  "state": "NY",
+  "city": "Webster",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "bill@pub235.com",
+  "location_count": 1,
+  "location_names": [
+    "Pub 235"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

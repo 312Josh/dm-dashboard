@@ -1,0 +1,28 @@
+{
+  "parent": "Modern Chop/The Sage Biscuit Cafe Parent",
+  "slug": "modern-chop-the-sage-biscuit-cafe",
+  "total_headroom": "$69,256",
+  "non_ec_headroom": "$57,300",
+  "est_ec_headroom": "$11,956",
+  "employee_count": "71",
+  "non_ec_arr": "$13,440",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "josemoreta2015@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Modern Chop Steakhouse",
+    "The Sage Biscuit Cafe- Downtown",
+    "The Sage Biscuit Cafe- Cortez"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

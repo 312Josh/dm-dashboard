@@ -1,0 +1,26 @@
+{
+  "parent": "CBTF Inc. - Parent Account",
+  "slug": "cbtf-inc",
+  "total_headroom": "$21,556",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$616",
+  "employee_count": "4",
+  "non_ec_arr": "$1,020",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "steve@cateringbythefamily.com",
+  "location_count": 1,
+  "location_names": [
+    "CBTF Inc."
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

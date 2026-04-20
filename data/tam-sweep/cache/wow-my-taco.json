@@ -1,0 +1,26 @@
+{
+  "parent": "Wow my taco",
+  "slug": "wow-my-taco",
+  "total_headroom": "$16,020",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "hrodriguezharry@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Wow my taco"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

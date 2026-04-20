@@ -1,0 +1,26 @@
+{
+  "parent": "Trattoria Bella Napoli - Parent Account",
+  "slug": "trattoria-bella-napoli",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$2,190",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "cesarino92@libero.it",
+  "location_count": 1,
+  "location_names": [
+    "Trattoria Bella Napoli"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

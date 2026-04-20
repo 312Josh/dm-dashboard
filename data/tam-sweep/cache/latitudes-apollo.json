@@ -1,0 +1,26 @@
+{
+  "parent": "Latitudes Apollo",
+  "slug": "latitudes-apollo",
+  "total_headroom": "$23,556",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$4,116",
+  "employee_count": "25",
+  "non_ec_arr": "$1,140",
+  "state": "FL",
+  "city": "Apollo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "grothfeldt@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Latitudes Apollo"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

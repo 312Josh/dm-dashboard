@@ -1,0 +1,27 @@
+{
+  "parent": "The Crumb Factory Parent",
+  "slug": "the-crumb-factory",
+  "total_headroom": "$39,460",
+  "non_ec_headroom": "$33,132",
+  "est_ec_headroom": "$6,328",
+  "employee_count": "38",
+  "non_ec_arr": "$8,120",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "pablo@crumbfactorybakery.com",
+  "location_count": 2,
+  "location_names": [
+    "The Crumb Factory- Dunedin",
+    "The Crumb Factory"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

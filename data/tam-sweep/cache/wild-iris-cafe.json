@@ -1,0 +1,26 @@
+{
+  "parent": "Wild Iris Cafe Parent",
+  "slug": "wild-iris-cafe",
+  "total_headroom": "$23,192",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$3,752",
+  "employee_count": "22",
+  "non_ec_arr": "$1,320",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jodypucello@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Wild Iris Cafe"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Vino & Vibes NPR PARENT",
+  "slug": "vino-vibes-npr",
+  "total_headroom": "$15,252",
+  "non_ec_headroom": "$15,252",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$7,428",
+  "state": "FL",
+  "city": "New Port Richey",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "beyourbestalways1964@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Vino & Vibes - NPR"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

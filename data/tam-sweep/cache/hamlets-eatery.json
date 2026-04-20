@@ -1,0 +1,26 @@
+{
+  "parent": "Hamlets Eatery",
+  "slug": "hamlets-eatery",
+  "total_headroom": "$21,276",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kimlivengood3@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Hamlets Eatery"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

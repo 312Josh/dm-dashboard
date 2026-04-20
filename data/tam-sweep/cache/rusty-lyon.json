@@ -1,0 +1,26 @@
+{
+  "parent": "Rusty Lyon Parent",
+  "slug": "rusty-lyon",
+  "total_headroom": "$24,804",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$3,864",
+  "employee_count": "23",
+  "non_ec_arr": "$3,816",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "digitalnetsales@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Marker 8 new"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

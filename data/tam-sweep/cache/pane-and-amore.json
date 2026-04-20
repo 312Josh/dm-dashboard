@@ -1,0 +1,26 @@
+{
+  "parent": "Pane and Amore - Parent Account",
+  "slug": "pane-and-amore",
+  "total_headroom": "$20,208",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$900",
+  "state": "FL",
+  "city": "Bradenton Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mp.sunchoice@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pane and Amore"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Stone Mill - Bradenton - Parent Account",
+  "slug": "stone-mill-bradenton",
+  "total_headroom": "$20,508",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$510",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "support@stonemillbakerycafe.com",
+  "location_count": 1,
+  "location_names": [
+    "Stone Mill - Bradenton"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

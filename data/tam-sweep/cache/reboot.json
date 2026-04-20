@@ -1,0 +1,26 @@
+{
+  "parent": "Reboot",
+  "slug": "reboot",
+  "total_headroom": "$20,476",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$1,036",
+  "employee_count": "6",
+  "non_ec_arr": "$1,800",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "courtney.george@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Reboot"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

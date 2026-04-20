@@ -1,0 +1,26 @@
+{
+  "parent": "V & I'd Snacks and Products Llc",
+  "slug": "v-i-d-snacks-and-products-llc",
+  "total_headroom": "$19,156",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$196",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "Unknown",
+  "contact_email": "vrampersad1@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "V & I'd Snacks and Products Llc"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

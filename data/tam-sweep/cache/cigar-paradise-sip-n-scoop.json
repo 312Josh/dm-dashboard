@@ -1,0 +1,49 @@
+{
+  "parent": "Cigar Paradise/Sip n Scoop Parent",
+  "slug": "cigar-paradise-sip-n-scoop",
+  "total_headroom": "$103,932",
+  "non_ec_headroom": "$103,932",
+  "est_ec_headroom": "$0",
+  "employee_count": "48",
+  "non_ec_arr": "$38,418",
+  "state": "FL",
+  "city": "Madeira Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "marcosdiaz@cigarparadise.com",
+  "location_count": 6,
+  "location_names": [
+    "Mad Pub",
+    "Cigar Paradise Royal Lounge",
+    "Cuban Paradise - St. Armands",
+    "Cuban Paradise",
+    "Sip n Scoop",
+    "Clearwater Beach Cigar Lounge"
+  ],
+  "websites": [
+    "https://cigarparadise.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cigarparadise.com/": {
+      "url": "https://cigarparadise.com/",
+      "html_bytes": 567462,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cuban-paradise-cigar-cafe",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/cuban-paradise-cigar-cafe",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

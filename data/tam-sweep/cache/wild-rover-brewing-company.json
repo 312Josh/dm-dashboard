@@ -1,0 +1,26 @@
+{
+  "parent": "Wild Rover Brewing Company",
+  "slug": "wild-rover-brewing-company",
+  "total_headroom": "$20,916",
+  "non_ec_headroom": "$18,060",
+  "est_ec_headroom": "$2,856",
+  "employee_count": "17",
+  "non_ec_arr": "$6,990",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "linda.wells@tampbay.rr.com",
+  "location_count": 1,
+  "location_names": [
+    "Wild Rover Brewing Company"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

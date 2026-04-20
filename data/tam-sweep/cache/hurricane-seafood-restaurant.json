@@ -1,0 +1,26 @@
+{
+  "parent": "Hurricane Seafood Restaurant",
+  "slug": "hurricane-seafood-restaurant",
+  "total_headroom": "$23,204",
+  "non_ec_headroom": "$15,504",
+  "est_ec_headroom": "$7,700",
+  "employee_count": "46",
+  "non_ec_arr": "$14,436",
+  "state": "FL",
+  "city": "St. pete beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "56domonick@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Hurricane Seafood Restaurant"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

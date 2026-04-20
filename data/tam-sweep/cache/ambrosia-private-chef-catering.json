@@ -1,0 +1,26 @@
+{
+  "parent": "Ambrosia Private Chef & Catering",
+  "slug": "ambrosia-private-chef-catering",
+  "total_headroom": "$14,820",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Gainesville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "jesuisfor85@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ambrosia Private Chef & Catering"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

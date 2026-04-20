@@ -1,0 +1,26 @@
+{
+  "parent": "Tandoor Indian - SRQ - Parent Account",
+  "slug": "tandoor-indian-srq",
+  "total_headroom": "$16,572",
+  "non_ec_headroom": "$13,464",
+  "est_ec_headroom": "$3,108",
+  "employee_count": "19",
+  "non_ec_arr": "$6,543",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "shubi.maini@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Tandoor Indian - SRQ"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

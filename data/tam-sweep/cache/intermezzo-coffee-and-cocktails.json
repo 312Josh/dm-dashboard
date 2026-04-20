@@ -1,0 +1,27 @@
+{
+  "parent": "Intermezzo Coffee and Cocktails - Parent",
+  "slug": "intermezzo-coffee-and-cocktails",
+  "total_headroom": "$44,552",
+  "non_ec_headroom": "$40,380",
+  "est_ec_headroom": "$4,172",
+  "employee_count": "25",
+  "non_ec_arr": "$3,600",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "jarrettsab@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Intermezzo Coffee and Cocktails",
+    "Bar Mezzo"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

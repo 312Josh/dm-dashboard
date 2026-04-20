@@ -1,0 +1,26 @@
+{
+  "parent": "Keystone Korner - Parent Account",
+  "slug": "keystone-korner",
+  "total_headroom": "$20,592",
+  "non_ec_headroom": "$19,920",
+  "est_ec_headroom": "$672",
+  "employee_count": "4",
+  "non_ec_arr": "$2,760",
+  "state": "FL",
+  "city": "Odessa",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "tristynaferlita@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Keystone Korner"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

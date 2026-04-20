@@ -1,0 +1,27 @@
+{
+  "parent": "Floridays - Parent",
+  "slug": "floridays",
+  "total_headroom": "$43,372",
+  "non_ec_headroom": "$35,364",
+  "est_ec_headroom": "$8,008",
+  "employee_count": "47",
+  "non_ec_arr": "$14,467",
+  "state": "FL",
+  "city": "Longboat Key",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "hey@whitneylbk.com",
+  "location_count": 2,
+  "location_names": [
+    "Whitney's",
+    "Floridays Woodfire Grill and Tiki Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

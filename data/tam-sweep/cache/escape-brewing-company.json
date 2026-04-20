@@ -1,0 +1,27 @@
+{
+  "parent": "Escape Brewing Company - Parent Account",
+  "slug": "escape-brewing-company",
+  "total_headroom": "$33,084",
+  "non_ec_headroom": "$33,084",
+  "est_ec_headroom": "$0",
+  "employee_count": "29",
+  "non_ec_arr": "$11,586",
+  "state": "FL",
+  "city": "New Port Richey",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "john@escapebrewingcompany.com",
+  "location_count": 2,
+  "location_names": [
+    "Escape Brewing Company",
+    "The Collective"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Sushi Planet",
+  "slug": "sushi-planet",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "ilovesushiplanet@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sushi Planet"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

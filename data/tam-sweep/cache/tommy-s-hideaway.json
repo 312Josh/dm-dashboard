@@ -1,0 +1,26 @@
+{
+  "parent": "Tommy’s Hideaway - Parent Account",
+  "slug": "tommy-s-hideaway",
+  "total_headroom": "$17,520",
+  "non_ec_headroom": "$17,520",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$5,737",
+  "state": "FL",
+  "city": "Gulfport",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "lussianianoenterprise@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tommy’s Hideaway"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

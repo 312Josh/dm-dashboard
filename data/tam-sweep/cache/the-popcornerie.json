@@ -1,0 +1,27 @@
+{
+  "parent": "The Popcornerie - Parent Account",
+  "slug": "the-popcornerie",
+  "total_headroom": "$40,224",
+  "non_ec_headroom": "$38,880",
+  "est_ec_headroom": "$1,344",
+  "employee_count": "8",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Port Richey",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "ladonacarmen@aol.com",
+  "location_count": 2,
+  "location_names": [
+    "Carmen M Torres dba The Popcornerie",
+    "The Popcornerie"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

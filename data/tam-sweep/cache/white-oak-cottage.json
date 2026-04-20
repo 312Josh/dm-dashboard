@@ -1,0 +1,26 @@
+{
+  "parent": "White Oak Cottage",
+  "slug": "white-oak-cottage",
+  "total_headroom": "$11,256",
+  "non_ec_headroom": "$11,256",
+  "est_ec_headroom": "$0",
+  "employee_count": "40",
+  "non_ec_arr": "$9,055",
+  "state": "FL",
+  "city": "Lithia",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "shaunessy23@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The White Oak Cottage"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

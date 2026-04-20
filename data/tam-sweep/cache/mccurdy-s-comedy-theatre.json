@@ -1,0 +1,26 @@
+{
+  "parent": "McCurdy's Comedy Theatre - Parent",
+  "slug": "mccurdy-s-comedy-theatre",
+  "total_headroom": "$27,660",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$6,720",
+  "employee_count": "40",
+  "non_ec_arr": "$9,816",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "pam@mccurdyscomedy.com",
+  "location_count": 1,
+  "location_names": [
+    "McCurdy's Comedy Theatre NEW"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

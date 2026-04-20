@@ -1,0 +1,27 @@
+{
+  "parent": "Early Bird Parent",
+  "slug": "early-bird",
+  "total_headroom": "$43,464",
+  "non_ec_headroom": "$41,280",
+  "est_ec_headroom": "$2,184",
+  "employee_count": "14",
+  "non_ec_arr": "$2,429",
+  "state": "FL",
+  "city": "Pinellas Park",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mehmedi.drini@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Early Bird",
+    "Early Bird - New Port Ritchey"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

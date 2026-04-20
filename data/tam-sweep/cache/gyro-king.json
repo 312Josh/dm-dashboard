@@ -1,0 +1,26 @@
+{
+  "parent": "Gyro King - Parent Account",
+  "slug": "gyro-king",
+  "total_headroom": "$14,220",
+  "non_ec_headroom": "$14,052",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$6,056",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jtpllc8@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Gyro King"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

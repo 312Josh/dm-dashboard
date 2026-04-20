@@ -1,0 +1,26 @@
+{
+  "parent": "Taming Hogz Flaming Grill - Parent Account",
+  "slug": "taming-hogz-flaming-grill",
+  "total_headroom": "$14,232",
+  "non_ec_headroom": "$14,064",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$5,196",
+  "state": "FL",
+  "city": "Ellenton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "dmarcojh@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Taming Hogz Flaming Grill"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

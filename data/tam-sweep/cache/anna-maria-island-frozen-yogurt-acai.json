@@ -1,0 +1,26 @@
+{
+  "parent": "Anna Maria Island Frozen Yogurt & Acai - Parent Account",
+  "slug": "anna-maria-island-frozen-yogurt-acai",
+  "total_headroom": "$16,932",
+  "non_ec_headroom": "$16,932",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$2,478",
+  "state": "FL",
+  "city": "Holmes Beach",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "sarajalmy2@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Anna Maria Island Frozen Yogurt & Acai"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

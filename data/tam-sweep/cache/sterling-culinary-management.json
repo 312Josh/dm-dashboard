@@ -1,0 +1,43 @@
+{
+  "parent": "Sterling Culinary Management",
+  "slug": "sterling-culinary-management",
+  "total_headroom": "$125,100",
+  "non_ec_headroom": "$106,872",
+  "est_ec_headroom": "$18,228",
+  "employee_count": "108",
+  "non_ec_arr": "$55,476",
+  "state": "FL",
+  "city": "Port Saint Lucie",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "brabren@metzcorp.com",
+  "location_count": 6,
+  "location_names": [
+    "The Grove Kitchen and Bar",
+    "Oasis at Valencia Bonita",
+    "Valencia Grand Prime 9250",
+    "Valencia Walk Prime 772",
+    "Riverfresh Cafe",
+    "Bistro Del Sol"
+  ],
+  "websites": [
+    "https://www.sterlingculinarymanagement.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sterlingculinarymanagement.com/": {
+      "url": "https://www.sterlingculinarymanagement.com/",
+      "html_bytes": 88697,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

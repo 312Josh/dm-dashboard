@@ -1,0 +1,27 @@
+{
+  "parent": "Fat Rabbit Parent",
+  "slug": "fat-rabbit",
+  "total_headroom": "$46,980",
+  "non_ec_headroom": "$40,680",
+  "est_ec_headroom": "$6,300",
+  "employee_count": "38",
+  "non_ec_arr": "$6,477",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "john@fatrabbitpub.com",
+  "location_count": 2,
+  "location_names": [
+    "Fat Rabbit Pub - TPA",
+    "Fat Rabbit Pub - SRQ"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

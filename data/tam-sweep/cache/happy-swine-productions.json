@@ -1,0 +1,26 @@
+{
+  "parent": "Happy Swine Productions",
+  "slug": "happy-swine-productions",
+  "total_headroom": "$12,204",
+  "non_ec_headroom": "$12,204",
+  "est_ec_headroom": "$0",
+  "employee_count": "26",
+  "non_ec_arr": "$11,064",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mfiroszpnbrunh@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tchochke"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

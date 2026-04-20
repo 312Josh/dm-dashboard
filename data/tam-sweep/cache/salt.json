@@ -1,0 +1,28 @@
+{
+  "parent": "SALT - Parent Account",
+  "slug": "salt",
+  "total_headroom": "$70,852",
+  "non_ec_headroom": "$61,920",
+  "est_ec_headroom": "$8,932",
+  "employee_count": "53",
+  "non_ec_arr": "$4,740",
+  "state": "FL",
+  "city": "Bradenton Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "shawnkaleta@yahoo.com",
+  "location_count": 3,
+  "location_names": [
+    "SALT",
+    "Nautilus Cafe",
+    "Boatyard Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

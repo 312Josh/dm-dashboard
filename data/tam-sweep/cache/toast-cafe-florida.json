@@ -1,0 +1,27 @@
+{
+  "parent": "Toast Cafe Florida",
+  "slug": "toast-cafe-florida",
+  "total_headroom": "$45,008",
+  "non_ec_headroom": "$40,080",
+  "est_ec_headroom": "$4,928",
+  "employee_count": "29",
+  "non_ec_arr": "$5,628",
+  "state": "FL",
+  "city": "Odessa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "smouratos@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "TOAST - Odessa",
+    "TOAST - New Port Richey"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

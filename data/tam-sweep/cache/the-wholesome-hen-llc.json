@@ -1,0 +1,26 @@
+{
+  "parent": "The Wholesome Hen LLC",
+  "slug": "the-wholesome-hen-llc",
+  "total_headroom": "$20,320",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$280",
+  "employee_count": "2",
+  "non_ec_arr": "$3,000",
+  "state": "FL",
+  "city": "Keystone",
+  "restaurant_type": "Unknown",
+  "contact_email": "justin@raprager.com",
+  "location_count": 1,
+  "location_names": [
+    "The Wholesome Hen LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

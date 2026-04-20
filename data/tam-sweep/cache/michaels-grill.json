@@ -1,0 +1,26 @@
+{
+  "parent": "Michaels Grill - Parent Account",
+  "slug": "michaels-grill",
+  "total_headroom": "$19,312",
+  "non_ec_headroom": "$14,832",
+  "est_ec_headroom": "$4,480",
+  "employee_count": "27",
+  "non_ec_arr": "$5,670",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "redmtdog@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Michaels Grill"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

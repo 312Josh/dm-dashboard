@@ -1,0 +1,28 @@
+{
+  "parent": "Benson Hospitality Group",
+  "slug": "benson-hospitality-group",
+  "total_headroom": "$53,352",
+  "non_ec_headroom": "$53,352",
+  "est_ec_headroom": "$0",
+  "employee_count": "93",
+  "non_ec_arr": "$22,548",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "shanbakrac@yahoo.com",
+  "location_count": 3,
+  "location_names": [
+    "Fortu - St Pete",
+    "Top Slice Pizzeria",
+    "Black Cattle Burger Company"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "SaddleBred Provisions, LLC - Parent Account",
+  "slug": "saddlebred-provisions-llc",
+  "total_headroom": "$14,052",
+  "non_ec_headroom": "$14,052",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$1,620",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "info@saddlebred.coffee",
+  "location_count": 1,
+  "location_names": [
+    "SaddleBred Provisions, LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

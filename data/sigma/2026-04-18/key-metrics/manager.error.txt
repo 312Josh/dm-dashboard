@@ -1,0 +1,2 @@
+NO_CANVAS: Canvas not rendered. Workbook may use pivot/KPI renderer incompatible with background tab rendering. Page text captured instead.
+Cx Growth - Key Metrics & PacingRVP NameSelect valuesManager NameSelect valuesRep NameSelect valuesFilters:Role in Month (Rep Level Only)Select valuesRamping Cohort (Rep Level Only)Select valuesBootcamp Month (Rep Level Only)Select valuesMonthInfoSelect date rangeThis month (04/2026)ClearGoals & PacingRVP level includes Flex reps in totals. RVPManagerRepScroll leftScroll right

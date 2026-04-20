@@ -1,0 +1,26 @@
+{
+  "parent": "Patricks 1481 Parent",
+  "slug": "patricks-1481",
+  "total_headroom": "$26,620",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$6,580",
+  "employee_count": "39",
+  "non_ec_arr": "$7,116",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@patricks1481.com",
+  "location_count": 1,
+  "location_names": [
+    "Patricks 1481 NEW"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

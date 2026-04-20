@@ -1,0 +1,26 @@
+{
+  "parent": "El original food services inc",
+  "slug": "el-original-food-services-inc",
+  "total_headroom": "$16,068",
+  "non_ec_headroom": "$15,732",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "luisflucambiost@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "El original food services inc"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

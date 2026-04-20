@@ -55,6 +55,27 @@
   .c-technique { background: var(--toast-orange-bg); color: var(--toast-orange); }
   .c-results { background: var(--green-bg); color: var(--green); }
   .footer { text-align: center; padding: 20px; font-size: 12px; color: var(--gray-400); }
+  @media print {
+    body { background: white; font-size: 11px; }
+    .header { padding: 8px 16px; border-bottom: 2px solid #000; }
+    .header-left a { display: none; }
+    .content { padding: 8px 16px; }
+    .scorecard { grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 12px; }
+    .sc-card { padding: 8px 6px; border: 1px solid #ccc; }
+    .sc-card .label { font-size: 9px; }
+    .sc-card .value { font-size: 16px; }
+    .sc-card .sub { font-size: 9px; }
+    .section { padding: 10px; margin-bottom: 8px; box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
+    .section h2 { font-size: 13px; margin-bottom: 8px; }
+    .two-col { grid-template-columns: 1fr 1fr; gap: 8px; }
+    table { font-size: 11px; }
+    th { padding: 4px 6px; font-size: 9px; }
+    td { padding: 4px 6px; }
+    .coaching li { padding: 4px 0; font-size: 11px; line-height: 1.4; }
+    .badge { font-size: 9px; padding: 1px 6px; }
+    .footer { font-size: 9px; padding: 8px; }
+    @page { margin: 0.5in; size: letter; }
+  }
 </style>
 </head>
 <body>
@@ -63,18 +84,18 @@
     <a href="../index.html">&larr; Back to Dashboard</a>
     <h1>Thomas Jensen</h1>
   </div>
-  <div class="header-right">April 2026 — Data as of Apr 17, 2026</div>
+  <div class="header-right">April 2026 — Data as of Apr 20, 2026</div>
 </div>
 <div class="content">
 <div class="scorecard">
-<div class="sc-card"><div class="label">MTD ARR</div><div class="value">$5,403</div><div class="sub">of $0.00</div></div>
+<div class="sc-card"><div class="label">MTD ARR</div><div class="value">$7,323</div><div class="sub">of $0.00 <span style="font-size:11px;color:var(--green)">+$1,920</span></div></div>
 <div class="sc-card"><div class="label">Attainment</div><div class="value">0.0%</div><div class="sub">to quota</div></div>
-<div class="sc-card"><div class="label">Wins</div><div class="value">4</div><div class="sub">closed deals</div></div>
-<div class="sc-card"><div class="label">Demos</div><div class="value">5</div><div class="sub">held <span style="font-size:11px;color:var(--green)">+1</span></div></div>
-<div class="sc-card"><div class="label">Opps</div><div class="value">8</div><div class="sub">created <span style="font-size:11px;color:var(--green)">+2</span></div></div>
-<div class="sc-card"><div class="label">Avg ARR</div><div class="value">$1,351</div><div class="sub">per opp</div></div>
-<div class="sc-card"><div class="label">Demo:Win</div><div class="value">80.0%</div><div class="sub">conversion <span style="font-size:11px;color:var(--red)">-20.0pp</span></div></div>
-<div class="sc-card"><div class="label">EC ARR</div><div class="value">$2,208</div><div class="sub">2 units</div></div>
+<div class="sc-card"><div class="label">Wins</div><div class="value">6</div><div class="sub">closed deals <span style="font-size:11px;color:var(--green)">+2</span></div></div>
+<div class="sc-card"><div class="label">Demos</div><div class="value">8</div><div class="sub">held <span style="font-size:11px;color:var(--green)">+2</span></div></div>
+<div class="sc-card"><div class="label">Opps</div><div class="value">11</div><div class="sub">created <span style="font-size:11px;color:var(--red)">-1</span></div></div>
+<div class="sc-card"><div class="label">Avg ARR</div><div class="value">$1,221</div><div class="sub">per opp <span style="font-size:11px;color:var(--red)">$-130.19</span></div></div>
+<div class="sc-card"><div class="label">Demo:Win</div><div class="value">75.0%</div><div class="sub">conversion <span style="font-size:11px;color:var(--green)">+8.3pp</span></div></div>
+<div class="sc-card"><div class="label">EC ARR</div><div class="value">$2,208</div><div class="sub">2 units <span style="font-size:11px;color:var(--green)">+$208.00</span></div></div>
 </div>
 <div class="section">
   <h2><img src="../assets/Other_Award.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> 1:1 Coaching — Sandler Coach to Success</h2>
@@ -82,21 +103,20 @@
     <div>
       <div class="coaching-label c-behavior">Behavior (Activity)</div>
       <ul class="coaching">
-        <li>Calls at 1/260 expected by day 13 (0% to pace) — significantly behind. Goal: 20/day, 100/week. Are there time management barriers?</li>
-        <li>Demos at 5/13 expected by day 13 (38% to pace) — not getting enough at-bats. Goal: ~5/week. Focus on booking more demos.</li>
-        <li>Only 4 emails sent this week — low outbound volume.</li>
+        <li>Calls at 0/280 expected by day 14 (0% to pace) — significantly behind. Goal: 20/day, 100/week. Are there time management barriers?</li>
+        <li>Demos at 8/14 expected by day 14 (57% to pace) — not getting enough at-bats. Goal: ~5/week. Focus on booking more demos.</li>
+        <li>Only 0 emails sent this week — low outbound volume.</li>
       </ul>
       <div class="coaching-label c-technique" style="margin-top:16px">Technique (Conversion)</div>
       <ul class="coaching">
-        <li>Opp:Demo conversion at 62% — opps not converting to demos. Qualify harder upfront or improve scheduling follow-up.</li>
-        <li>Avg ARR per opp $1,351 (goal: $1,800) — selling smaller deals. Coach on attaching more products/bundling.</li>
+        <li>Avg ARR per opp $1,221 (goal: $1,800) — selling smaller deals. Coach on attaching more products/bundling.</li>
       </ul>
     </div>
     <div>
       <div class="coaching-label c-results">Results (Outcomes)</div>
       <ul class="coaching">
-        <li>Ramping rep (1-3 Months). $5,403 booked with 4 wins so far. No ARR quota yet — focus on hitting activity and EC goals.</li>
-        <li>Demos: 5/18 expected by day 13 (goal: 30/mo, ~7/wk) — behind pace.</li>
+        <li>Ramping rep (1-3 Months). $7,323 booked with 6 wins so far. No ARR quota yet — focus on hitting activity and EC goals.</li>
+        <li>Demos: 8/19 expected by day 14 (goal: 30/mo, ~7/wk) — behind pace.</li>
         <li>EC Units: 2/3 goal — on pace.</li>
         <li>6 deals stale >14 days — pipeline needs cleaning. Which should be closed-lost vs. re-engaged?</li>
       </ul>
@@ -115,23 +135,23 @@
 <div class="section">
   <h2><img src="../assets/phone.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Calls</h2>
   <table>
-    <tr><td>Total Calls</td><td style="font-weight:600">1</td></tr>
-    <tr><td>Avg/Day</td><td>0.2</td></tr>
-    <tr><td>Conversations</td><td>1</td></tr>
-    <tr><td>Conv Rate</td><td>100.0%</td></tr>
-    <tr><td>Avg Duration</td><td>2m 12s</td></tr>
+    <tr><td>Total Calls</td><td style="font-weight:600">0</td></tr>
+    <tr><td>Avg/Day</td><td>0</td></tr>
+    <tr><td>Conversations</td><td>0</td></tr>
+    <tr><td>Conv Rate</td><td>0%</td></tr>
+    <tr><td>Avg Duration</td><td>N/A</td></tr>
     <tr><td>Voicemails</td><td>0</td></tr>
   </table>
 </div>
 <div class="section">
   <h2><img src="../assets/email.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Emails</h2>
   <table>
-    <tr><td>Sent</td><td style="font-weight:600">4</td></tr>
-    <tr><td>Opened</td><td>1 (25.0%)</td></tr>
-    <tr><td>Replied</td><td>0 (0.0%)</td></tr>
+    <tr><td>Sent</td><td style="font-weight:600">0</td></tr>
+    <tr><td>Opened</td><td>0 (0%)</td></tr>
+    <tr><td>Replied</td><td>0 (0%)</td></tr>
     <tr><td>Positive Replies</td><td>0</td></tr>
-    <tr><td>Personalization</td><td>0.0%</td></tr>
-    <tr><td>Clicked</td><td>0 (0.0%)</td></tr>
+    <tr><td>Personalization</td><td>0%</td></tr>
+    <tr><td>Clicked</td><td>0 (0%)</td></tr>
   </table>
 </div>
 </div>
@@ -140,20 +160,22 @@
   <table>
     <thead><tr><th>Account</th><th>Opportunity</th><th>Stage</th><th>Days</th><th>ARR</th><th>Next Step</th></tr></thead>
     <tbody>
-      <tr><td><strong>Fino Parent</strong></td><td style="font-size:12px">Fino Parent - Payroll - Parent</td><td style="font-size:12px">6. Quote Sent</td><td style="color:var(--yellow);font-weight:600">30d</td><td>$11,760</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">MNS - Send quote, send videos, one sheeters, follow up call </td></tr>
-      <tr><td><strong>Lansdowne Social - Parent Account</strong></td><td style="font-size:12px">Lansdowne Social - Parent Account - Payr</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal"></td></tr>
-      <tr><td><strong>PDXWL - Good Coffee - Woodlark Hotel</strong></td><td style="font-size:12px">Amendment for contract #00548547</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal"></td></tr>
-      <tr><td><strong>PDXWL - Good Coffee - Woodlark Hotel</strong></td><td style="font-size:12px">xtraCHEF - Good Coffee - April 2026</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">17d</td><td>$2,511</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal"></td></tr>
-      <tr><td><strong>PDXWL - Bullard - Woodlark Hotel</strong></td><td style="font-size:12px">xtraCHEF - Bullard - April 2026</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">17d</td><td>$2,511</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal"></td></tr>
-      <tr><td><strong>PDXWL - Abigail Hall - Woodlark Hotel</strong></td><td style="font-size:12px">xtraCHEF - Abigail Hall - April 2026</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">15d</td><td>$2,511</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal"></td></tr>
+      <tr><td><strong>Fino Parent</strong></td><td style="font-size:12px">Fino Parent - Payroll - Parent</td><td style="font-size:12px">6. Quote Sent</td><td style="color:var(--red);font-weight:600">33d</td><td>$11,760</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">MNS - Send quote, send videos, one sheeters, follow up call </td></tr>
+      <tr><td><strong>Lansdowne Social - Parent Account</strong></td><td style="font-size:12px">Lansdowne Social - Parent Account - Payr</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">21d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal"></td></tr>
+      <tr><td><strong>PDXWL - Good Coffee - Woodlark Hotel</strong></td><td style="font-size:12px">Amendment for contract #00548547</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">21d</td><td>$0.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal"></td></tr>
+      <tr><td><strong>PDXWL - Good Coffee - Woodlark Hotel</strong></td><td style="font-size:12px">xtraCHEF - Good Coffee - April 2026</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">20d</td><td>$2,511</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal"></td></tr>
+      <tr><td><strong>PDXWL - Bullard - Woodlark Hotel</strong></td><td style="font-size:12px">xtraCHEF - Bullard - April 2026</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">20d</td><td>$2,511</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal"></td></tr>
+      <tr><td><strong>PDXWL - Abigail Hall - Woodlark Hotel</strong></td><td style="font-size:12px">xtraCHEF - Abigail Hall - April 2026</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$2,511</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal"></td></tr>
     </tbody>
   </table>
 </div>
 <div class="section">
-  <h2><img src="../assets/dollar.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Recent Wins (4 this month)</h2>
+  <h2><img src="../assets/dollar.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Recent Wins (6 this month)</h2>
   <table>
     <thead><tr><th>Account</th><th>Type</th><th>ARR</th><th>Close Date</th></tr></thead>
     <tbody>
+      <tr><td><strong>Dockside Saloon & Restaurant</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,200</td><td>4/17/2026</td></tr>
+      <tr><td><strong>Fire on the Mountain Buffalo Wings - Burnside</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$720.00</td><td>4/17/2026</td></tr>
       <tr><td><strong>The Dog House PDX - Parent Account</strong></td><td style="font-size:12px">Payroll</td><td>$588.00</td><td>4/13/2026</td></tr>
       <tr><td><strong>Sunday Sauce</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,575</td><td>4/10/2026</td></tr>
       <tr><td><strong>Lilia - Parent Account</strong></td><td style="font-size:12px">Payroll</td><td>$1,620</td><td>4/1/2026</td></tr>
@@ -166,17 +188,17 @@
   <table>
     <thead><tr><th>Date</th><th>ARR</th><th>Wins</th><th>Demos</th><th>Opps</th><th>Calls</th><th>Emails</th><th>Demo:Win</th></tr></thead>
     <tbody>
-      <tr><td>2026-04-17</td><td>$5,403</td><td>4</td><td>5</td><td>8</td><td>1</td><td>4</td><td>80.0%</td></tr>
+      <tr><td>2026-04-20</td><td>$7,323</td><td>6</td><td>8</td><td>11</td><td>0</td><td>0</td><td>75.0%</td></tr>
+      <tr><td>2026-04-17</td><td>$5,403</td><td>4</td><td>6</td><td>12</td><td>80</td><td>40</td><td>66.7%</td></tr>
       <tr><td>2026-04-16</td><td>$5,403</td><td>4</td><td>4</td><td>6</td><td>0</td><td>2</td><td>100.0%</td></tr>
       <tr><td>2026-04-15</td><td>$5,403</td><td>4</td><td>4</td><td>6</td><td>0</td><td>2</td><td>100.0%</td></tr>
       <tr><td>2026-04-14</td><td>$5,403</td><td>4</td><td>4</td><td>6</td><td>0</td><td>1</td><td>100.0%</td></tr>
       <tr><td>2026-04-13</td><td>$4,815</td><td>3</td><td>4</td><td>6</td><td>0</td><td>0</td><td>75.0%</td></tr>
       <tr><td>2026-04-10</td><td>$3,240</td><td>2</td><td>4</td><td>6</td><td>0</td><td>2</td><td>50.0%</td></tr>
       <tr><td>2026-04-09</td><td>$3,240</td><td>2</td><td>4</td><td>6</td><td>0</td><td>2</td><td>50.0%</td></tr>
-      <tr><td>2026-04-08</td><td>$3,240</td><td>2</td><td>3</td><td>5</td><td>0</td><td>2</td><td>66.7%</td></tr>
     </tbody>
   </table>
 </div>
 
-<div class="footer">Growth Sales Dashboard — Thomas Jensen | Generated Apr 17, 2026</div>
+<div class="footer">Growth Sales Dashboard — Thomas Jensen | Generated Apr 20, 2026</div>
 </body></html>

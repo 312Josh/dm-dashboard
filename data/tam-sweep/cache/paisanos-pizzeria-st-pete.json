@@ -1,0 +1,26 @@
+{
+  "parent": "Paisanos Pizzeria - St. Pete Parent",
+  "slug": "paisanos-pizzeria-st-pete",
+  "total_headroom": "$23,708",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$5,768",
+  "employee_count": "34",
+  "non_ec_arr": "$3,720",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "foucciano@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Paisanos Pizzeria - St. Pete"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "Prime Vacations",
+  "slug": "prime-vacations",
+  "total_headroom": "$42,720",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$840",
+  "employee_count": "5",
+  "non_ec_arr": "null",
+  "state": "FL",
+  "city": "Holmes Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "shawnkaleta@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Bali hai beach resort",
+    "Eden House"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

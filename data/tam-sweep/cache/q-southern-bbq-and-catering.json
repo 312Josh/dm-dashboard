@@ -1,0 +1,27 @@
+{
+  "parent": "\"Q\" Southern BBQ and Catering - Parent Account",
+  "slug": "q-southern-bbq-and-catering",
+  "total_headroom": "$36,316",
+  "non_ec_headroom": "$32,592",
+  "est_ec_headroom": "$3,724",
+  "employee_count": "23",
+  "non_ec_arr": "$10,482",
+  "state": "FL",
+  "city": "Oldsmar",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "cameron@qbycapri.com",
+  "location_count": 2,
+  "location_names": [
+    "Q Southern BBQ",
+    "Q Southern BBQ and Catering"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Sage Sushi Lounge Parent",
+  "slug": "sage-sushi-lounge",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$600",
+  "state": "FL",
+  "city": "Sun City Center",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "uyen0208@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Sage Sushi Lounge"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

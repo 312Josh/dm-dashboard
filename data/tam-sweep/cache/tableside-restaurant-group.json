@@ -1,0 +1,28 @@
+{
+  "parent": "Tableside Restaurant Group",
+  "slug": "tableside-restaurant-group",
+  "total_headroom": "$36,132",
+  "non_ec_headroom": "$36,132",
+  "est_ec_headroom": "$0",
+  "employee_count": "137",
+  "non_ec_arr": "$38,435",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "asabella@cpasm.com",
+  "location_count": 3,
+  "location_names": [
+    "Libby's Neighborhood Brasserie - Hillview",
+    "Libby's Neighborhood Brasserie - Lakewood Ranch",
+    "Circo"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

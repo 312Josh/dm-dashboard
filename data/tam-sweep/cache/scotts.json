@@ -1,0 +1,26 @@
+{
+  "parent": "Scotts - Parent - Parent Account",
+  "slug": "scotts",
+  "total_headroom": "$21,572",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$1,232",
+  "employee_count": "7",
+  "non_ec_arr": "$1,200",
+  "state": "FL",
+  "city": "Bradenton Beach",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "scott_mason88@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "SCOTTS"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

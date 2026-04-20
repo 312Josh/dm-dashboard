@@ -1,0 +1,27 @@
+{
+  "parent": "Bodega Corporate",
+  "slug": "bodega",
+  "total_headroom": "$47,868",
+  "non_ec_headroom": "$34,932",
+  "est_ec_headroom": "$12,936",
+  "employee_count": "77",
+  "non_ec_arr": "$5,760",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "george@bodegaoncentral.com",
+  "location_count": 2,
+  "location_names": [
+    "Bodega on Central",
+    "Baba on Central"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

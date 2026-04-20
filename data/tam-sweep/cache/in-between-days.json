@@ -1,0 +1,26 @@
+{
+  "parent": "In Between Days Parent",
+  "slug": "in-between-days",
+  "total_headroom": "$22,000",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$1,960",
+  "employee_count": "12",
+  "non_ec_arr": "$2,100",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "zach@inbetweendays.co",
+  "location_count": 1,
+  "location_names": [
+    "In Between Days"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Jana's Cafe - Parent Account",
+  "slug": "jana-s-cafe",
+  "total_headroom": "$15,852",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Oldsmar",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "gabriela.s.cunha21@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Jana's Cafe"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

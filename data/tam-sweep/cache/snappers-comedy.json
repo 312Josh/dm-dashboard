@@ -1,0 +1,26 @@
+{
+  "parent": "Snappers Comedy - Parent",
+  "slug": "snappers-comedy",
+  "total_headroom": "$20,996",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$4,256",
+  "employee_count": "25",
+  "non_ec_arr": "$5,370",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "georgeibrahim13@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Snappers - Palm Harbor"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

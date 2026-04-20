@@ -1,0 +1,27 @@
+{
+  "parent": "Polce - Corporate",
+  "slug": "polce",
+  "total_headroom": "$46,500",
+  "non_ec_headroom": "$38,352",
+  "est_ec_headroom": "$8,148",
+  "employee_count": "49",
+  "non_ec_arr": "$5,688",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "andy@hob.beer",
+  "location_count": 2,
+  "location_names": [
+    "HOB Brewing Co.",
+    "Dunedin House of Beer"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

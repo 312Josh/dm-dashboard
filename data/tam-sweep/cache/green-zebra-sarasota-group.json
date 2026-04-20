@@ -1,0 +1,27 @@
+{
+  "parent": "Green Zebra - Sarasota Group Parent",
+  "slug": "green-zebra-sarasota-group",
+  "total_headroom": "$34,500",
+  "non_ec_headroom": "$34,500",
+  "est_ec_headroom": "$0",
+  "employee_count": "42",
+  "non_ec_arr": "$13,416",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ianakiev123@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Green Zebra Cafe - 476 John Ringling Blvd",
+    "Green Zebra Cafe - 1377 Main St"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

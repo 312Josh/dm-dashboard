@@ -1,0 +1,26 @@
+{
+  "parent": "Dunedin Blue Jays Parent",
+  "slug": "dunedin-blue-jays",
+  "total_headroom": "$22,830",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,890",
+  "employee_count": "11",
+  "non_ec_arr": "$20,088",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "wevents1@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Dunedin Blue Jays - 2024 Season"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

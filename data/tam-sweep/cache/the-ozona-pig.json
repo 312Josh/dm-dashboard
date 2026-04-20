@@ -1,0 +1,26 @@
+{
+  "parent": "The Ozona Pig",
+  "slug": "the-ozona-pig",
+  "total_headroom": "$24,664",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$3,724",
+  "employee_count": "22",
+  "non_ec_arr": "$480",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "bpainter22@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "The Ozona Pig"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

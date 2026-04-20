@@ -1,0 +1,26 @@
+{
+  "parent": "Lakewood Ranch Elks Lodge",
+  "slug": "lakewood-ranch-elks-lodge",
+  "total_headroom": "$21,752",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$812",
+  "employee_count": "5",
+  "non_ec_arr": "$1,140",
+  "state": "FL",
+  "city": "Lakewood Ranch",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "null",
+  "location_count": 1,
+  "location_names": [
+    "Lakewood Ranch Elks Lodge"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

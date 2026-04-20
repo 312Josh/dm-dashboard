@@ -1,0 +1,26 @@
+{
+  "parent": "Keel & Curley Winery Parent",
+  "slug": "keel-curley-winery",
+  "total_headroom": "$29,860",
+  "non_ec_headroom": "$17,652",
+  "est_ec_headroom": "$12,208",
+  "employee_count": "73",
+  "non_ec_arr": "$3,531",
+  "state": "FL",
+  "city": "Plant City",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "clay@keelandcurleywinery.com",
+  "location_count": 1,
+  "location_names": [
+    "Keel & Curley Winery"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

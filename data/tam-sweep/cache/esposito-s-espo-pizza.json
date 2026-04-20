@@ -1,0 +1,26 @@
+{
+  "parent": "Esposito's ESPO Pizza",
+  "slug": "esposito-s-espo-pizza",
+  "total_headroom": "$22,064",
+  "non_ec_headroom": "$20,580",
+  "est_ec_headroom": "$1,484",
+  "employee_count": "9",
+  "non_ec_arr": "$1,320",
+  "state": "FL",
+  "city": "Plant City",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "ffautas43@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Esposito's ESPO Pizza"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

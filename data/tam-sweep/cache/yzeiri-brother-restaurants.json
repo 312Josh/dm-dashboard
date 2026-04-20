@@ -1,0 +1,28 @@
+{
+  "parent": "Yzeiri Brother Restaurants",
+  "slug": "yzeiri-brother-restaurants",
+  "total_headroom": "$68,716",
+  "non_ec_headroom": "$50,460",
+  "est_ec_headroom": "$18,256",
+  "employee_count": "109",
+  "non_ec_arr": "$20,676",
+  "state": "FL",
+  "city": "University Park",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "eddie@postkitchenandbar.com",
+  "location_count": 3,
+  "location_names": [
+    "Apollonia Grill - UTC",
+    "Apollonia Grill - Landings",
+    "POST Kitchen Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

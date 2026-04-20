@@ -1,0 +1,28 @@
+{
+  "parent": "Sam's Seafood Parent",
+  "slug": "sam-s-seafood",
+  "total_headroom": "$50,484",
+  "non_ec_headroom": "$50,484",
+  "est_ec_headroom": "$0",
+  "employee_count": "69",
+  "non_ec_arr": "$15,581",
+  "state": "AL",
+  "city": "Mobile",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "samir.layeb@yahoo.com",
+  "location_count": 3,
+  "location_names": [
+    "Sam's Seafood & Grill - Mobile",
+    "Sam's Seafood & Grill - Tampa",
+    "Sam's Seafood & Grill - Bradenton"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

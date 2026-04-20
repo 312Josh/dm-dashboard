@@ -1,0 +1,26 @@
+{
+  "parent": "Florida Studio Theatre - Parent Account",
+  "slug": "florida-studio-theatre",
+  "total_headroom": "$26,272",
+  "non_ec_headroom": "$17,592",
+  "est_ec_headroom": "$8,680",
+  "employee_count": "52",
+  "non_ec_arr": "$11,220",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Unknown",
+  "contact_email": "rebecca@floridastudiotheatre.org",
+  "location_count": 1,
+  "location_names": [
+    "Florida Studio Theatre"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

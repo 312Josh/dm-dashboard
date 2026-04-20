@@ -1,0 +1,26 @@
+{
+  "parent": "Sushi Alive - Parent Account",
+  "slug": "sushi-alive",
+  "total_headroom": "$16,272",
+  "non_ec_headroom": "$16,272",
+  "est_ec_headroom": "$0",
+  "employee_count": "59",
+  "non_ec_arr": "$14,874",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sushialive1@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sushi Alive Race Track Rd"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

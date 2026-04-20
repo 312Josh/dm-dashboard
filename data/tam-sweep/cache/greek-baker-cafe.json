@@ -1,0 +1,26 @@
+{
+  "parent": "Greek Baker Cafe",
+  "slug": "greek-baker-cafe",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Holiday",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "greekbakercafe@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Greek Baker Cafe"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

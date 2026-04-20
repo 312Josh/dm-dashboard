@@ -1,0 +1,27 @@
+{
+  "parent": "LALA St Pete Parent",
+  "slug": "lala-st-pete",
+  "total_headroom": "$37,680",
+  "non_ec_headroom": "$37,680",
+  "est_ec_headroom": "$0",
+  "employee_count": "95",
+  "non_ec_arr": "$20,106",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "lucas@lalastpete.com",
+  "location_count": 2,
+  "location_names": [
+    "LALA St Pete",
+    "LALA Tampa - Updated CSD"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

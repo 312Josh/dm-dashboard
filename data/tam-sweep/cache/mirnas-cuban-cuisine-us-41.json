@@ -1,0 +1,26 @@
+{
+  "parent": "Mirnas Cuban Cuisine US 41 - Parent Account",
+  "slug": "mirnas-cuban-cuisine-us-41",
+  "total_headroom": "$22,812",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$2,772",
+  "employee_count": "17",
+  "non_ec_arr": "$5,016",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mirnascubancuisine@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mirnas Cuban Cuisine US 41"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

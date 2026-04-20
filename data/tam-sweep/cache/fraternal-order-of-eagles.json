@@ -1,0 +1,26 @@
+{
+  "parent": "Fraternal Order of Eagles - Parent Account",
+  "slug": "fraternal-order-of-eagles",
+  "total_headroom": "$21,920",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$980",
+  "employee_count": "6",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Hudson",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "gnedwetzky@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "FOE 3997"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

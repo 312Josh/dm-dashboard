@@ -1,0 +1,26 @@
+{
+  "parent": "Brother's Kitchen Parent",
+  "slug": "brother-s-kitchen",
+  "total_headroom": "$23,504",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$3,164",
+  "employee_count": "19",
+  "non_ec_arr": "$1,992",
+  "state": "FL",
+  "city": "Niceville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nicardoh5@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Brother's Kitchen"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

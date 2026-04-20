@@ -1,0 +1,46 @@
+{
+  "parent": "MWL - Beachside Hospitality Group - Parent",
+  "slug": "mwl-beachside-hospitality-group",
+  "total_headroom": "$107,044",
+  "non_ec_headroom": "$55,020",
+  "est_ec_headroom": "$52,024",
+  "employee_count": "310",
+  "non_ec_arr": "$96,248",
+  "state": "FL",
+  "city": "Bradenton Beach",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "greg@bshgrp.com",
+  "location_count": 3,
+  "location_names": [
+    "The Beach House",
+    "Crabby’s Beachside Pavillion",
+    "Mar Vista Dockside Restaurant"
+  ],
+  "websites": [
+    "https://bshgrp.com/",
+    "https://www.beachhousedining.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bshgrp.com/": {
+      "url": "https://bshgrp.com/",
+      "html_bytes": 209963,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://bshgrp.com/gift-cards": {
+      "url": "https://bshgrp.com/gift-cards",
+      "html_bytes": 165604,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

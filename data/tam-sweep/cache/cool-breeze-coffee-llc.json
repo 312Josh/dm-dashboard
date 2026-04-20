@@ -1,0 +1,26 @@
+{
+  "parent": "Cool Breeze Coffee Llc",
+  "slug": "cool-breeze-coffee-llc",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "null",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "travisratzlaff89@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cool Breeze Coffee Llc"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "Jubes Corporate",
+  "slug": "jubes",
+  "total_headroom": "$65,256",
+  "non_ec_headroom": "$65,256",
+  "est_ec_headroom": "$0",
+  "employee_count": "95",
+  "non_ec_arr": "$29,832",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "josh.cameron@outlook.com",
+  "location_count": 4,
+  "location_names": [
+    "The Henley St Pete",
+    "Wheres Jubes Downtown St. Pete",
+    "Crafty Squirrel",
+    "The Oyster Bar - Saint Pete"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "Mission North Hospitality",
+  "slug": "mission-north-hospitality",
+  "total_headroom": "$63,505",
+  "non_ec_headroom": "$53,772",
+  "est_ec_headroom": "$9,733",
+  "employee_count": "59",
+  "non_ec_arr": "$20,493",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "edwardzaki@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "1592 Wood Fired Kitchen & Cocktails",
+    "Mimi",
+    "Lucky 8"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

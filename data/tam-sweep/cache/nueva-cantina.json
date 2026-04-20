@@ -1,0 +1,28 @@
+{
+  "parent": "Nueva Cantina Parent",
+  "slug": "nueva-cantina",
+  "total_headroom": "$78,092",
+  "non_ec_headroom": "$50,400",
+  "est_ec_headroom": "$27,692",
+  "employee_count": "166",
+  "non_ec_arr": "$52,740",
+  "state": "FL",
+  "city": "TAMPA",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "rmedina.tm@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Nueva Cantina - Downtown Tampa",
+    "Nueva Cantina - Brandon",
+    "Nueva Cantina St. Pete"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "The 1818 Grill - Parent",
+  "slug": "the-1818-grill",
+  "total_headroom": "$19,380",
+  "non_ec_headroom": "$19,380",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$2,940",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tlovelljr@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The 1818 Grill"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

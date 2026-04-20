@@ -1,0 +1,26 @@
+{
+  "parent": "Mad Beach Craft Brewing Company - Parent",
+  "slug": "mad-beach-craft-brewing-company",
+  "total_headroom": "$23,628",
+  "non_ec_headroom": "$18,252",
+  "est_ec_headroom": "$5,376",
+  "employee_count": "32",
+  "non_ec_arr": "$7,449",
+  "state": "FL",
+  "city": "Madeira Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "twilliams@madbeachbrewing.com",
+  "location_count": 1,
+  "location_names": [
+    "Mad Beach Craft Brewing Company"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "The Bier Boutique - Parent",
+  "slug": "the-bier-boutique",
+  "total_headroom": "$23,792",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$3,752",
+  "employee_count": "22",
+  "non_ec_arr": "$4,452",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "hbrookey@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "the bier boutique"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

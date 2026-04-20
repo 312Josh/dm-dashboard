@@ -1,0 +1,26 @@
+{
+  "parent": "Latitude 28 - Parent Account",
+  "slug": "latitude-28",
+  "total_headroom": "$16,392",
+  "non_ec_headroom": "$16,392",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$4,320",
+  "state": "FL",
+  "city": "New Port Richey",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "latitude28npr@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Latitude 28"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

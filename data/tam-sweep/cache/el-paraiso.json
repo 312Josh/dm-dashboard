@@ -1,0 +1,26 @@
+{
+  "parent": "EL PARAISO - Parent Account",
+  "slug": "el-paraiso",
+  "total_headroom": "$19,524",
+  "non_ec_headroom": "$17,760",
+  "est_ec_headroom": "$1,764",
+  "employee_count": "11",
+  "non_ec_arr": "$8,280",
+  "state": "FL",
+  "city": "Oldsmar",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "elparaisomexicanrestaurant2023@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "EL PARAISO"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

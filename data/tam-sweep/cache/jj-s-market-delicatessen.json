@@ -1,0 +1,26 @@
+{
+  "parent": "JJ's Market & Delicatessen - Parent Account",
+  "slug": "jj-s-market-delicatessen",
+  "total_headroom": "$16,112",
+  "non_ec_headroom": "$13,872",
+  "est_ec_headroom": "$2,240",
+  "employee_count": "13",
+  "non_ec_arr": "$5,981",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "rtzeller@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "JJ's Market & Delicatessen"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

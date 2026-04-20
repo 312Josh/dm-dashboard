@@ -1,0 +1,26 @@
+{
+  "parent": "Billy's Stone Crab - Parent Account",
+  "slug": "billy-s-stone-crab",
+  "total_headroom": "$24,784",
+  "non_ec_headroom": "$11,904",
+  "est_ec_headroom": "$12,880",
+  "employee_count": "77",
+  "non_ec_arr": "$17,808",
+  "state": "FL",
+  "city": "Tierra Verde",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "edsyacht@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Billy's Stone Crab"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

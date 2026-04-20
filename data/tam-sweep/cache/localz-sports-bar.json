@@ -1,0 +1,26 @@
+{
+  "parent": "Localz Sports Bar - Parent",
+  "slug": "localz-sports-bar",
+  "total_headroom": "$19,824",
+  "non_ec_headroom": "$15,540",
+  "est_ec_headroom": "$4,284",
+  "employee_count": "26",
+  "non_ec_arr": "$12,360",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "pete@localzsportsbar.com",
+  "location_count": 1,
+  "location_names": [
+    "Localz Sports Bar & Grill St Pete"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

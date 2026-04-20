@@ -1,0 +1,44 @@
+{
+  "parent": "Senior Tequila Mexican - Corporate",
+  "slug": "senior-tequila-mexican",
+  "total_headroom": "$91,620",
+  "non_ec_headroom": "$77,760",
+  "est_ec_headroom": "$13,860",
+  "employee_count": "84",
+  "non_ec_arr": "$12,000",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "alvaromellado@yahoo.com",
+  "location_count": 4,
+  "location_names": [
+    "Senor Tequila Mexican Grill - Westchase",
+    "Senior Tequila Mexican Grill - Winter Springs",
+    "Senor Tequila Mexican Restaurant - Tampa",
+    "Senor Tequila Mexican Grill - Wesley Chapel"
+  ],
+  "websites": [
+    "https://www.thesenortequila.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thesenortequila.com/": {
+      "url": "https://www.thesenortequila.com/",
+      "html_bytes": 112358,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.thesenortequila.com/menu": {
+      "url": "https://www.thesenortequila.com/menu",
+      "html_bytes": 99795,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Café soleil - Parent Account",
+  "slug": "caf-soleil",
+  "total_headroom": "$22,596",
+  "non_ec_headroom": "$20,580",
+  "est_ec_headroom": "$2,016",
+  "employee_count": "12",
+  "non_ec_arr": "$1,560",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "laurenchezaud@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cafe soleil"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

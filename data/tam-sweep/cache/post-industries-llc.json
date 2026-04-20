@@ -1,0 +1,26 @@
+{
+  "parent": "Post Industries, LLC",
+  "slug": "post-industries-llc",
+  "total_headroom": "$12,624",
+  "non_ec_headroom": "$12,624",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$10,404",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "joseph.harris17@icloud.com",
+  "location_count": 1,
+  "location_names": [
+    "Gourmet Pizza Co."
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Nonno Umberto Italian. Seafood. Steakhouse - Parent Account",
+  "slug": "nonno-umberto-italian-seafood-steakhouse",
+  "total_headroom": "$19,392",
+  "non_ec_headroom": "$19,392",
+  "est_ec_headroom": "$0",
+  "employee_count": "38",
+  "non_ec_arr": "$2,700",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "nonnoumbertorestaurant@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Nonno Umberto Italian. Seafood. Steakhouse"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

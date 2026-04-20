@@ -1,0 +1,26 @@
+{
+  "parent": "La Mucca Ballerina - Parent Account",
+  "slug": "la-mucca-ballerina",
+  "total_headroom": "$20,528",
+  "non_ec_headroom": "$17,952",
+  "est_ec_headroom": "$2,576",
+  "employee_count": "15",
+  "non_ec_arr": "$4,128",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "info@lamuccaballerina.it",
+  "location_count": 1,
+  "location_names": [
+    "La Mucca Ballerina"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

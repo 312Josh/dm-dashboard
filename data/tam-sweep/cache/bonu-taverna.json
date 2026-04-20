@@ -1,0 +1,26 @@
+{
+  "parent": "Bonu Taverna - Parent Account",
+  "slug": "bonu-taverna",
+  "total_headroom": "$15,252",
+  "non_ec_headroom": "$15,252",
+  "est_ec_headroom": "$0",
+  "employee_count": "51",
+  "non_ec_arr": "$10,224",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mariomacc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bonu Taverna"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

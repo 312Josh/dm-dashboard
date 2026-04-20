@@ -1,0 +1,27 @@
+{
+  "parent": "Urban Grounds - Parent (T Springs)",
+  "slug": "urban-grounds-parent-t-springs",
+  "total_headroom": "$45,772",
+  "non_ec_headroom": "$39,360",
+  "est_ec_headroom": "$6,412",
+  "employee_count": "38",
+  "non_ec_arr": "$5,580",
+  "state": "FL",
+  "city": "New Port Richey",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jimicappy@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Trinity Sports Grill",
+    "Urban Grounds"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

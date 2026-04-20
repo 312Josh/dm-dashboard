@@ -1,0 +1,27 @@
+{
+  "parent": "Ventura's Italian- Parent Account",
+  "slug": "ventura-s-italian",
+  "total_headroom": "$36,192",
+  "non_ec_headroom": "$36,192",
+  "est_ec_headroom": "$0",
+  "employee_count": "47",
+  "non_ec_arr": "$13,610",
+  "state": "FL",
+  "city": "Longboat Key",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "venturaslbk@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Ventura's Italian",
+    "Ventura's Italian - Cortez"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

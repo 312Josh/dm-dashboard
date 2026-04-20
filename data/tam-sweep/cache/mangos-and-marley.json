@@ -1,0 +1,26 @@
+{
+  "parent": "Mangos and Marley Parent",
+  "slug": "mangos-and-marley",
+  "total_headroom": "$19,140",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$2,040",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ninaricci.johnston@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mangos and Marley"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

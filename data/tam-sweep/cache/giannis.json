@@ -1,0 +1,26 @@
+{
+  "parent": "Giannis Parent",
+  "slug": "giannis",
+  "total_headroom": "$13,464",
+  "non_ec_headroom": "$13,464",
+  "est_ec_headroom": "$0",
+  "employee_count": "22",
+  "non_ec_arr": "$13,056",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "sodakgroup.giannis@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Gianni's Pizza & More"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Roam Steakhouse - Parent Account",
+  "slug": "roam-steakhouse",
+  "total_headroom": "$16,936",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$196",
+  "employee_count": "1",
+  "non_ec_arr": "$6,840",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "cramonej@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Roam Steakhouse"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

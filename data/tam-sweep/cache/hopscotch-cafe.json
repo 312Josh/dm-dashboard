@@ -1,0 +1,27 @@
+{
+  "parent": "HopScotch Cafe Parent",
+  "slug": "hopscotch-cafe",
+  "total_headroom": "$36,252",
+  "non_ec_headroom": "$36,252",
+  "est_ec_headroom": "$0",
+  "employee_count": "15",
+  "non_ec_arr": "$6,948",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "erikbergped@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "HopScotch Cafe",
+    "HopScotch Cafe - New"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

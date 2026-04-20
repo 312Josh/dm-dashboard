@@ -1,0 +1,26 @@
+{
+  "parent": "Wooden Spoon Group",
+  "slug": "wooden-spoon-group",
+  "total_headroom": "$28,236",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$7,896",
+  "employee_count": "47",
+  "non_ec_arr": "$900",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mroussos9191@yahoo.gr",
+  "location_count": 1,
+  "location_names": [
+    "The Wooden Spoon Diner"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

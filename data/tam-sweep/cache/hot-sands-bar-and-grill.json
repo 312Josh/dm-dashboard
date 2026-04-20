@@ -1,0 +1,26 @@
+{
+  "parent": "Hot sands bar and grill - Parent Account",
+  "slug": "hot-sands-bar-and-grill",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "37",
+  "non_ec_arr": "$4,872",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "treasurer@sahibshrine.org",
+  "location_count": 1,
+  "location_names": [
+    "Hot sands bar and grill"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

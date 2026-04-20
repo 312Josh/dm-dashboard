@@ -1,0 +1,26 @@
+{
+  "parent": "MOWGLIS TIFFIN PNTO - Parent Account",
+  "slug": "mowglis-tiffin-pnto",
+  "total_headroom": "$18,032",
+  "non_ec_headroom": "$17,052",
+  "est_ec_headroom": "$980",
+  "employee_count": "6",
+  "non_ec_arr": "$4,308",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Unknown",
+  "contact_email": "amitajmuk@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "MOWGLIS TIFFIN PNTO"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

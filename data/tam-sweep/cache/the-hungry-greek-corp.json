@@ -1,0 +1,77 @@
+{
+  "parent": "The Hungry Greek - Corp",
+  "slug": "the-hungry-greek-corp",
+  "total_headroom": "$267,084",
+  "non_ec_headroom": "$267,084",
+  "est_ec_headroom": "$0",
+  "employee_count": "241",
+  "non_ec_arr": "$40,462",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "georfe@thehungrygreek.com",
+  "location_count": 14,
+  "location_names": [
+    "The Hungry Greek - Tampa",
+    "Hungry Greek - Dale Mabry",
+    "The Hungry Greek - Land O' Lakes",
+    "The Hungry Greek Odessa",
+    "Hungry Greek- Van Dyke",
+    "Hungry Greek - Wesley Chapel",
+    "Hungry Greek - Franklin",
+    "The Hungry Greek- Sun City Center",
+    "Hungry Greek - Lutz",
+    "Hungry Greek - Parrish",
+    "Hungry Greek - Apollo Beach",
+    "Hungry Greek south tampa",
+    "The Hungry Greek Zephyrhills",
+    "Hunrgry Greek - San Antonio FL"
+  ],
+  "websites": [
+    "https://thehungrygreek.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thehungrygreek.com/": {
+      "url": "https://thehungrygreek.com/",
+      "html_bytes": 135897,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "loyalty": "Incentivio"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.incentivio.com/"
+      }
+    },
+    "https://thehungrygreek.com/menu/": {
+      "url": "https://thehungrygreek.com/menu/",
+      "html_bytes": 248384,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "loyalty": "Incentivio"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.incentivio.com/"
+      }
+    },
+    "https://thehungrygreek.com/giftcards/": {
+      "url": "https://thehungrygreek.com/giftcards/",
+      "html_bytes": 98046,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "loyalty": "Incentivio"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.incentivio.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.incentivio.com/"
+  },
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

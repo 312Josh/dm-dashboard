@@ -1,0 +1,26 @@
+{
+  "parent": "Slice of the burg - Parent Account",
+  "slug": "slice-of-the-burg",
+  "total_headroom": "$15,192",
+  "non_ec_headroom": "$15,192",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$8,268",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "micantley@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Slice of the burg"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Onward Reserve Parent",
+  "slug": "onward-reserve",
+  "total_headroom": "$22,676",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,736",
+  "employee_count": "10",
+  "non_ec_arr": "null",
+  "state": "GA",
+  "city": "Athens",
+  "restaurant_type": "Unknown",
+  "contact_email": "charles@onwardreserve.com",
+  "location_count": 1,
+  "location_names": [
+    "Onward Reserve"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

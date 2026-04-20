@@ -1,0 +1,26 @@
+{
+  "parent": "Mother Shuckers 813",
+  "slug": "mother-shuckers-813",
+  "total_headroom": "$14,820",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "romei.hentz@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mother Shuckers 813"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

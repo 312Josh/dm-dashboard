@@ -1,0 +1,26 @@
+{
+  "parent": "Floridian Social Club - Parent",
+  "slug": "floridian-social-club",
+  "total_headroom": "$21,572",
+  "non_ec_headroom": "$16,392",
+  "est_ec_headroom": "$5,180",
+  "employee_count": "31",
+  "non_ec_arr": "$4,741",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "kwchadwick@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Floridian Social Club"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

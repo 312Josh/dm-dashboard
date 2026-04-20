@@ -1,0 +1,25 @@
+NO_TABLE_CANVAS: Forecast & Pipeline workbook uses chart/visualization canvases (pivot charts, KPI tiles) 
+without standard tableInfo.renderResult structure. 5 canvases found, none are data table canvases.
+
+Page text captured (labels only, numeric values rendered in canvas):
+
+Cx Growth - Forecast & Pipeline
+
+Current Month OPEN Pipeline Totals By Category
+Lauren: Commit / Upside / Pipeline / No Category
+Katie: Commit / Upside / Pipeline / No Category
+Dave: Commit / Upside / Pipeline / No Category
+Drew: Commit / Upside / Pipeline / No Category
+AM's: Commit / Upside / Pipeline / No Category
+
+Forecasted Totals & Actuals
+Working Month Completed, Working Days Completed, % of April 2025 Attained by Working Day 12
+Timeframe: This month (04/2026)
+
+RVP / DM toggle
+
+Monthly Opp View (*Excludes negative ARR opps. Flex Reps included in roll-up RVP level only)
+
+Org Projected Month-End Actuals & Comparison to LY
+Pipeline Pacing for April: Opps / ARR / Wins
+

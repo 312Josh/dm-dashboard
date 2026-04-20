@@ -1,0 +1,26 @@
+{
+  "parent": "Campfire Bagels - Parent Account",
+  "slug": "campfire-bagels",
+  "total_headroom": "$19,392",
+  "non_ec_headroom": "$17,292",
+  "est_ec_headroom": "$2,100",
+  "employee_count": "13",
+  "non_ec_arr": "$8,208",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "hv@lovconcepts.com",
+  "location_count": 1,
+  "location_names": [
+    "Campfired"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

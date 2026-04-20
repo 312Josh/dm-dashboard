@@ -1,0 +1,33 @@
+{
+  "parent": "Mandrin Corporate",
+  "slug": "mandrin",
+  "total_headroom": "$151,512",
+  "non_ec_headroom": "$117,492",
+  "est_ec_headroom": "$34,020",
+  "employee_count": "203",
+  "non_ec_arr": "$23,487",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ryang@jpfirm.com",
+  "location_count": 6,
+  "location_names": [
+    "Saint Pete Museum and Cafe",
+    "El Cap Restaurant",
+    "Trophy Fish",
+    "The Mandarin Hide - St. Pete",
+    "Mandarin Heights - Tampa",
+    "Trophy Fish - Seminole Heights"
+  ],
+  "websites": [
+    ""
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "MADISON REST. (FRPG) - Parent Account",
+  "slug": "madison-rest-frpg",
+  "total_headroom": "$21,808",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$868",
+  "employee_count": "5",
+  "non_ec_arr": "$1,350",
+  "state": "FL",
+  "city": "New Port Richey",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "clappas59@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "MADISON REST. FRPG"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Capital Tacos - Parent Account",
+  "slug": "capital-tacos",
+  "total_headroom": "$15,160",
+  "non_ec_headroom": "$14,040",
+  "est_ec_headroom": "$1,120",
+  "employee_count": "7",
+  "non_ec_arr": "$6,481",
+  "state": "FL",
+  "city": "Land O' Lakes",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "psharif1980@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Capital Tacos - Land O' Lakes"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

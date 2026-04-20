@@ -1,0 +1,26 @@
+{
+  "parent": "Rose and Ivy - Parent Account",
+  "slug": "rose-and-ivy",
+  "total_headroom": "$10,296",
+  "non_ec_headroom": "$10,296",
+  "est_ec_headroom": "$0",
+  "employee_count": "40",
+  "non_ec_arr": "$14,160",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nickperdue@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Rose & Ivy NEW"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

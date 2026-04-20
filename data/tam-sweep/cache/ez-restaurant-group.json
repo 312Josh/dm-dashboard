@@ -1,0 +1,28 @@
+{
+  "parent": "EZ Restaurant Group",
+  "slug": "ez-restaurant-group",
+  "total_headroom": "$47,424",
+  "non_ec_headroom": "$47,424",
+  "est_ec_headroom": "$0",
+  "employee_count": "75",
+  "non_ec_arr": "$32,352",
+  "state": "FL",
+  "city": "Lakewood Ranch",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "zach@zellerinvestment.com",
+  "location_count": 3,
+  "location_names": [
+    "Peculiar Pub",
+    "Twisted Pit BBQ",
+    "Percoco"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

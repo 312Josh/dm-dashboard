@@ -1,0 +1,28 @@
+{
+  "parent": "Beach Pizza Plus Corporate",
+  "slug": "beach-pizza-plus",
+  "total_headroom": "$57,340",
+  "non_ec_headroom": "$43,368",
+  "est_ec_headroom": "$13,972",
+  "employee_count": "83",
+  "non_ec_arr": "$22,164",
+  "state": "FL",
+  "city": "Redington Shores",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "beachpizzaplu@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Beach Pizza - Redington",
+    "Beach Pizza - Seminole",
+    "Beach Pizza - Largo"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

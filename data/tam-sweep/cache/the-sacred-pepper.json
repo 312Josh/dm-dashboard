@@ -1,0 +1,26 @@
+{
+  "parent": "The Sacred Pepper - Parent Account",
+  "slug": "the-sacred-pepper",
+  "total_headroom": "$24,628",
+  "non_ec_headroom": "$10,404",
+  "est_ec_headroom": "$14,224",
+  "employee_count": "85",
+  "non_ec_arr": "$24,776",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "lbiederman@debartoloholdings.com",
+  "location_count": 1,
+  "location_names": [
+    "The Sacred Pepper"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

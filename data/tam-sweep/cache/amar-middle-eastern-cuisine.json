@@ -1,0 +1,26 @@
+{
+  "parent": "Amar middle eastern cuisine - Parent Account",
+  "slug": "amar-middle-eastern-cuisine",
+  "total_headroom": "$18,532",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$1,792",
+  "employee_count": "11",
+  "non_ec_arr": "$7,200",
+  "state": "FL",
+  "city": "Riverview",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "amar.riverview@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Amar middle eastern cuisine"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

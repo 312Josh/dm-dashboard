@@ -1,0 +1,39 @@
+{
+  "parent": "Poppo's Taqueria - Parent",
+  "slug": "poppo-s-taqueria",
+  "total_headroom": "$102,576",
+  "non_ec_headroom": "$88,800",
+  "est_ec_headroom": "$13,776",
+  "employee_count": "83",
+  "non_ec_arr": "$22,968",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "micheal@poppostacos.com",
+  "location_count": 5,
+  "location_names": [
+    "Poppo's Taqueria - Northwest Promenade",
+    "Poppo's Taqueria - Lockwood Commons",
+    "Poppo's Taqueria - University Center",
+    "Poppo's Taqueria - Anna Maria",
+    "Poppo's Taqueria - St. Pete"
+  ],
+  "websites": [
+    "https://www.poppostacos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.poppostacos.com/": {
+      "url": "https://www.poppostacos.com/",
+      "html_bytes": 7154,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

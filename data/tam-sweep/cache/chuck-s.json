@@ -1,0 +1,26 @@
+{
+  "parent": "Chuck’s",
+  "slug": "chuck-s",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Port Charlotte",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "eatchucka@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Chuck’s"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

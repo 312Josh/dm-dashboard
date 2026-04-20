@@ -1,0 +1,26 @@
+{
+  "parent": "AMVET Post #26 - Parent Account",
+  "slug": "amvet-post-26",
+  "total_headroom": "$20,980",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$1,540",
+  "employee_count": "9",
+  "non_ec_arr": "$2,353",
+  "state": "FL",
+  "city": "Dover",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "nihl47@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "AMVET Post 26"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

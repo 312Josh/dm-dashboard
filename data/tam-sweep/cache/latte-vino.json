@@ -1,0 +1,26 @@
+{
+  "parent": "Latte Vino - Parent Account",
+  "slug": "latte-vino",
+  "total_headroom": "$14,352",
+  "non_ec_headroom": "$14,352",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$2,953",
+  "state": "FL",
+  "city": "Lutz",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "lattevinoflorida@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Latte Vino - Restaurant"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

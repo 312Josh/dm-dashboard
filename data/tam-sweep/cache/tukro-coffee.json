@@ -1,0 +1,26 @@
+{
+  "parent": "Tukro Coffee - Parent Account",
+  "slug": "tukro-coffee",
+  "total_headroom": "$17,052",
+  "non_ec_headroom": "$17,052",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$2,111",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "lgibbings@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tukro Coffee"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

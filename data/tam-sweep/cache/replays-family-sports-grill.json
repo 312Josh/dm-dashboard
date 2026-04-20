@@ -1,0 +1,26 @@
+{
+  "parent": "Replays Family Sports Grill - Parent Account",
+  "slug": "replays-family-sports-grill",
+  "total_headroom": "$17,100",
+  "non_ec_headroom": "$17,100",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$4,260",
+  "state": "FL",
+  "city": "Sun City Center",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "replaysgrill@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Replays Family Sports Grill"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

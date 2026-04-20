@@ -1,0 +1,26 @@
+{
+  "parent": "Pork Roll Pete's - Parent Account",
+  "slug": "pork-roll-pete-s",
+  "total_headroom": "$14,456",
+  "non_ec_headroom": "$13,224",
+  "est_ec_headroom": "$1,232",
+  "employee_count": "7",
+  "non_ec_arr": "$6,474",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "pferraro@diggingdeepconstruction.com",
+  "location_count": 1,
+  "location_names": [
+    "Pork Roll Pete's"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

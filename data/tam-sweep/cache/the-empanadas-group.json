@@ -1,0 +1,26 @@
+{
+  "parent": "The Empanadas Group",
+  "slug": "the-empanadas-group",
+  "total_headroom": "$16,188",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Port Richey",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "thempanadasgroup@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Empanadas Group"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,99 @@
+{
+  "parent": "DalMoros - Parent",
+  "slug": "dalmoros",
+  "total_headroom": "$115,260",
+  "non_ec_headroom": "$115,260",
+  "est_ec_headroom": "$0",
+  "employee_count": "81",
+  "non_ec_arr": "$37,146",
+  "state": "FL",
+  "city": "Lakewood Ranch",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "david@dalmoros.us",
+  "location_count": 8,
+  "location_names": [
+    "Dalmoros - Mobile",
+    "Dalmoros - Cambridge - Canal Side Food Hall",
+    "Dalmoros - Boston - Faneuil Hall",
+    "DalMoros - St. Petersburg",
+    "DalMoros - Orlando - Conroy Rd",
+    "DalMoros Armature Works",
+    "DalMoros - Gainesville",
+    "DalMoros - Delray Beach"
+  ],
+  "websites": [
+    "https://dalmoros.us/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dalmoros.us/": {
+      "url": "https://dalmoros.us/",
+      "html_bytes": 84358,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://dalmoros.us/menu/": {
+      "url": "https://dalmoros.us/menu/",
+      "html_bytes": 82450,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://dalmoros.us/loyalty-page/": {
+      "url": "https://dalmoros.us/loyalty-page/",
+      "html_bytes": 248742,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://dalmoros.us/menu_items/name-placeholder-1/": {
+      "url": "https://dalmoros.us/menu_items/name-placeholder-1/",
+      "html_bytes": 84358,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://dalmoros.us/menu_items/name-placeholder-2/": {
+      "url": "https://dalmoros.us/menu_items/name-placeholder-2/",
+      "html_bytes": 84358,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://dalmoros.us/menu_items/name-placeholder-5/": {
+      "url": "https://dalmoros.us/menu_items/name-placeholder-5/",
+      "html_bytes": 84358,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://dalmoros.us/menu_items/name-placeholder-3/": {
+      "url": "https://dalmoros.us/menu_items/name-placeholder-3/",
+      "html_bytes": 84358,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

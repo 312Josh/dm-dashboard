@@ -1,0 +1,73 @@
+{
+  "parent": "Pineapple Hospitality Group",
+  "slug": "pineapple-hospitality-group",
+  "total_headroom": "$145,096",
+  "non_ec_headroom": "$86,100",
+  "est_ec_headroom": "$58,996",
+  "employee_count": "351",
+  "non_ec_arr": "$44,998",
+  "state": "FL",
+  "city": "Oldsmar",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jmmyrehm@gmail.com",
+  "location_count": 5,
+  "location_names": [
+    "Craft Street Kitchen - Oldsmar",
+    "Shaker and Peel",
+    "Agave Social - Dale Mabry",
+    "Craft Street Kitchen - Trinity",
+    "ZimZari"
+  ],
+  "websites": [
+    "https://www.eatagavesocial.com/",
+    "https://www.shakerandpeel.com/",
+    "https://www.craftstreetkitchen.com/",
+    "https://www.zimzari.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.zimzari.com/": {
+      "url": "https://www.zimzari.com/",
+      "html_bytes": 437074,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/zimzari/giftcards"
+      }
+    },
+    "https://www.zimzari.com/menus": {
+      "url": "https://www.zimzari.com/menus",
+      "html_bytes": 279751,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.zimzari.com/gift-cards": {
+      "url": "https://www.zimzari.com/gift-cards",
+      "html_bytes": 202048,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/zimzari/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/zimzari/giftcards"
+  },
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Cantina Viajero Parent",
+  "slug": "cantina-viajero",
+  "total_headroom": "$15,744",
+  "non_ec_headroom": "$15,744",
+  "est_ec_headroom": "$0",
+  "employee_count": "53",
+  "non_ec_arr": "$10,980",
+  "state": "FL",
+  "city": "Trinity",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rithea.som@cantinaviajero.com",
+  "location_count": 1,
+  "location_names": [
+    "Cantina Viajero"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

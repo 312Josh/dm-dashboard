@@ -1,0 +1,26 @@
+{
+  "parent": "T'asia Sushi and Thai - Parent Account",
+  "slug": "t-asia-sushi-and-thai",
+  "total_headroom": "$16,632",
+  "non_ec_headroom": "$16,632",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$10,056",
+  "state": "FL",
+  "city": "Pinellas Park",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "lindahuynhhhh@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "T'asia Sushi and Thai"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

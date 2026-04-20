@@ -1,0 +1,26 @@
+{
+  "parent": "AmVets Post 4 Tampa",
+  "slug": "amvets-post-4-tampa",
+  "total_headroom": "$21,836",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$896",
+  "employee_count": "5",
+  "non_ec_arr": "null",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "amvets4@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "AmVets Post 4 Tampa"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

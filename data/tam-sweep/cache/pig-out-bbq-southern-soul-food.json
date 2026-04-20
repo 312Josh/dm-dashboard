@@ -1,0 +1,26 @@
+{
+  "parent": "Pig Out BBQ & Southern Soul Food",
+  "slug": "pig-out-bbq-southern-soul-food",
+  "total_headroom": "$22,360",
+  "non_ec_headroom": "$19,980",
+  "est_ec_headroom": "$2,380",
+  "employee_count": "14",
+  "non_ec_arr": "$1,056",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "pigoutbbq5718@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pig Out BBQ & Southern Soul Food"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

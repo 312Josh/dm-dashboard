@@ -1,0 +1,26 @@
+{
+  "parent": "Hot Spot Diner - Parent Account",
+  "slug": "hot-spot-diner",
+  "total_headroom": "$19,824",
+  "non_ec_headroom": "$19,320",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$3,546",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "lavaenergy@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Hot Spot Diner"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

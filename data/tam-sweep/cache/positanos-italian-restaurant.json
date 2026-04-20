@@ -1,0 +1,26 @@
+{
+  "parent": "Positanos Italian Restaurant - Parent Account",
+  "slug": "positanos-italian-restaurant",
+  "total_headroom": "$14,484",
+  "non_ec_headroom": "$14,484",
+  "est_ec_headroom": "$0",
+  "employee_count": "17",
+  "non_ec_arr": "$10,782",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bachiprevalla@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Positanos Italian Restaurant"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

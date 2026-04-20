@@ -1,0 +1,28 @@
+{
+  "parent": "Tampa Hospitality Group",
+  "slug": "tampa-hospitality-group",
+  "total_headroom": "$58,048",
+  "non_ec_headroom": "$50,124",
+  "est_ec_headroom": "$7,924",
+  "employee_count": "48",
+  "non_ec_arr": "$16,968",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "nathan@tampahospitalitygroup.com",
+  "location_count": 3,
+  "location_names": [
+    "3 Corners Pizza- Water Street",
+    "Corner Lab, LLC",
+    "Gangchu"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

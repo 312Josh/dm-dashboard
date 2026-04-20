@@ -1,0 +1,26 @@
+{
+  "parent": "Crab House - Parent Account",
+  "slug": "crab-house",
+  "total_headroom": "$21,276",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$600",
+  "state": "FL",
+  "city": "ST PETERSBURG",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "mlkcrabhouse@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Crab House"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

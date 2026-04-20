@@ -1,0 +1,26 @@
+{
+  "parent": "Jersey Girl Bagels - Parent",
+  "slug": "jersey-girl-bagels",
+  "total_headroom": "$16,728",
+  "non_ec_headroom": "$13,872",
+  "est_ec_headroom": "$2,856",
+  "employee_count": "17",
+  "non_ec_arr": "$5,997",
+  "state": "FL",
+  "city": "Parrish",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "efishman123@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Jersey Girl Bagels - Parrish"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

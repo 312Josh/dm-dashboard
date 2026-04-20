@@ -1,0 +1,26 @@
+{
+  "parent": "Lake Como - Parent",
+  "slug": "lake-como",
+  "total_headroom": "$17,292",
+  "non_ec_headroom": "$15,192",
+  "est_ec_headroom": "$2,100",
+  "employee_count": "13",
+  "non_ec_arr": "$5,820",
+  "state": "FL",
+  "city": "Lutz",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "wmoore@lakecomonaturally.com",
+  "location_count": 1,
+  "location_names": [
+    "Lake Como - New"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

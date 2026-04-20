@@ -1,0 +1,26 @@
+{
+  "parent": "Fangtastic Greek Eats - Parent Account",
+  "slug": "fangtastic-greek-eats",
+  "total_headroom": "$19,260",
+  "non_ec_headroom": "$19,260",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$3,840",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cadinna7@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Truly Greek"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

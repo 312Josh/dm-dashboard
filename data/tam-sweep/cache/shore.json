@@ -1,0 +1,26 @@
+{
+  "parent": "Shore Parent",
+  "slug": "shore",
+  "total_headroom": "$17,652",
+  "non_ec_headroom": "$17,652",
+  "est_ec_headroom": "$0",
+  "employee_count": "105",
+  "non_ec_arr": "$13,011",
+  "state": "FL",
+  "city": "Longboat Key",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "john@dineshore.com",
+  "location_count": 1,
+  "location_names": [
+    "Shore - Longboat Key"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

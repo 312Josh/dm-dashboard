@@ -1,0 +1,29 @@
+{
+  "parent": "Lolis Tacos - Parent Account",
+  "slug": "lolis-tacos",
+  "total_headroom": "$45,666",
+  "non_ec_headroom": "$39,492",
+  "est_ec_headroom": "$6,174",
+  "employee_count": "37",
+  "non_ec_arr": "$34,232",
+  "state": "FL",
+  "city": "Citrus Park",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "tortaschepo@gmail.com",
+  "location_count": 4,
+  "location_names": [
+    "Tortas Chepo",
+    "Lolis Tacos - Gandy Blvd",
+    "Lolis Tacos - Benjamin Rd.",
+    "Lolis Tacos - Hillsborough"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

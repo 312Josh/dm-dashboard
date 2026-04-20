@@ -1,0 +1,26 @@
+{
+  "parent": "Root and Clay",
+  "slug": "root-and-clay",
+  "total_headroom": "$19,292",
+  "non_ec_headroom": "$17,052",
+  "est_ec_headroom": "$2,240",
+  "employee_count": "13",
+  "non_ec_arr": "$2,508",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "stwyandt@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Root and Clay"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

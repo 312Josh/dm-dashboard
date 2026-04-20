@@ -1,0 +1,76 @@
+{
+  "parent": "Breakfast Company Parent",
+  "slug": "breakfast-company",
+  "total_headroom": "$92,100",
+  "non_ec_headroom": "$92,100",
+  "est_ec_headroom": "$0",
+  "employee_count": "168",
+  "non_ec_arr": "$37,418",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "dns271@nyu.edu",
+  "location_count": 6,
+  "location_names": [
+    "El Greco",
+    "The Breakfast Company - Rosemary District",
+    "The Breakfast Company",
+    "The Breakfast Company - Landings",
+    "The Breakfast Company - Braden River",
+    "The Breakfast Company - University Park"
+  ],
+  "websites": [
+    "https://www.thebreakfastcompanyfl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thebreakfastcompanyfl.com/": {
+      "url": "https://www.thebreakfastcompanyfl.com/",
+      "html_bytes": 44760,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-breakfast-company-rosemary-district",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.thebreakfastcompanyfl.com/menus/": {
+      "url": "https://www.thebreakfastcompanyfl.com/menus/",
+      "html_bytes": 141495,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-breakfast-company-rosemary-district",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.thebreakfastcompanyfl.com/store/gift-cards/": {
+      "url": "https://www.thebreakfastcompanyfl.com/store/gift-cards/",
+      "html_bytes": 48697,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-breakfast-company-rosemary-district",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/the-breakfast-company-rosemary-district",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

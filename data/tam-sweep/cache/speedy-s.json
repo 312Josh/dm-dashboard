@@ -1,0 +1,26 @@
+{
+  "parent": "Speedy’s",
+  "slug": "speedy-s",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "null",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Unknown",
+  "contact_email": "speedyss2024@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Speedy’s"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

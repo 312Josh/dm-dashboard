@@ -1,0 +1,26 @@
+{
+  "parent": "OCC Parent Account",
+  "slug": "occ",
+  "total_headroom": "$16,140",
+  "non_ec_headroom": "$16,140",
+  "est_ec_headroom": "$0",
+  "employee_count": "83",
+  "non_ec_arr": "$28,872",
+  "state": "FL",
+  "city": "Clearwater",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "lrau@occroadhouse.com",
+  "location_count": 1,
+  "location_names": [
+    "Orange County Choppers - Roadhouse"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

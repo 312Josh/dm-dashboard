@@ -1,0 +1,26 @@
+{
+  "parent": "ARIPEKA ELKS- Parent Account",
+  "slug": "aripeka-elks",
+  "total_headroom": "$21,740",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$1,400",
+  "employee_count": "8",
+  "non_ec_arr": "$2,998",
+  "state": "FL",
+  "city": "Hudson",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "crssmith2@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "ARIPEKA ELKS"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

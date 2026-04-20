@@ -1,0 +1,27 @@
+{
+  "parent": "Sams Sushi Parent Account",
+  "slug": "sams-sushi",
+  "total_headroom": "$37,920",
+  "non_ec_headroom": "$37,920",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$6,300",
+  "state": "FL",
+  "city": "Boynton Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "masaboynton@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Masa",
+    "Sam's Sushi"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

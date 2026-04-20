@@ -1,0 +1,26 @@
+{
+  "parent": "Shugar champagne bar - Parent Account",
+  "slug": "shugar-champagne-bar",
+  "total_headroom": "$19,740",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$4,020",
+  "state": "FL",
+  "city": "SARASOTA",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "ronnie@sugarbarsrq.com",
+  "location_count": 1,
+  "location_names": [
+    "Sugar champagne bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

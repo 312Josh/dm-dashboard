@@ -1,0 +1,27 @@
+{
+  "parent": "Four Brothers Eatery Group",
+  "slug": "four-brothers-eatery-group",
+  "total_headroom": "$38,100",
+  "non_ec_headroom": "$36,840",
+  "est_ec_headroom": "$1,260",
+  "employee_count": "8",
+  "non_ec_arr": "$6,531",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "abrahim301@aol.com",
+  "location_count": 2,
+  "location_names": [
+    "Pita Plus",
+    "Grape Leaf Express"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

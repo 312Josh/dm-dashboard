@@ -55,6 +55,27 @@
   .c-technique { background: var(--toast-orange-bg); color: var(--toast-orange); }
   .c-results { background: var(--green-bg); color: var(--green); }
   .footer { text-align: center; padding: 20px; font-size: 12px; color: var(--gray-400); }
+  @media print {
+    body { background: white; font-size: 11px; }
+    .header { padding: 8px 16px; border-bottom: 2px solid #000; }
+    .header-left a { display: none; }
+    .content { padding: 8px 16px; }
+    .scorecard { grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 12px; }
+    .sc-card { padding: 8px 6px; border: 1px solid #ccc; }
+    .sc-card .label { font-size: 9px; }
+    .sc-card .value { font-size: 16px; }
+    .sc-card .sub { font-size: 9px; }
+    .section { padding: 10px; margin-bottom: 8px; box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
+    .section h2 { font-size: 13px; margin-bottom: 8px; }
+    .two-col { grid-template-columns: 1fr 1fr; gap: 8px; }
+    table { font-size: 11px; }
+    th { padding: 4px 6px; font-size: 9px; }
+    td { padding: 4px 6px; }
+    .coaching li { padding: 4px 0; font-size: 11px; line-height: 1.4; }
+    .badge { font-size: 9px; padding: 1px 6px; }
+    .footer { font-size: 9px; padding: 8px; }
+    @page { margin: 0.5in; size: letter; }
+  }
 </style>
 </head>
 <body>
@@ -63,18 +84,18 @@
     <a href="../index.html">&larr; Back to Dashboard</a>
     <h1>Eleni Lembesis</h1>
   </div>
-  <div class="header-right">April 2026 — Data as of Apr 17, 2026</div>
+  <div class="header-right">April 2026 — Data as of Apr 20, 2026</div>
 </div>
 <div class="content">
 <div class="scorecard">
-<div class="sc-card"><div class="label">MTD ARR</div><div class="value">$13,892</div><div class="sub">of $55,440</div></div>
-<div class="sc-card"><div class="label">Attainment</div><div class="value">25.1%</div><div class="sub">to quota</div></div>
-<div class="sc-card"><div class="label">Wins</div><div class="value">8</div><div class="sub">closed deals</div></div>
-<div class="sc-card"><div class="label">Demos</div><div class="value">25</div><div class="sub">held <span style="font-size:11px;color:var(--green)">+4</span></div></div>
-<div class="sc-card"><div class="label">Opps</div><div class="value">32</div><div class="sub">created <span style="font-size:11px;color:var(--green)">+4</span></div></div>
-<div class="sc-card"><div class="label">Avg ARR</div><div class="value">$1,736</div><div class="sub">per opp</div></div>
-<div class="sc-card"><div class="label">Demo:Win</div><div class="value">32.0%</div><div class="sub">conversion <span style="font-size:11px;color:var(--red)">-6.1pp</span></div></div>
-<div class="sc-card"><div class="label">EC ARR</div><div class="value">$3,132</div><div class="sub">2 units</div></div>
+<div class="sc-card"><div class="label">MTD ARR</div><div class="value">$15,551</div><div class="sub">of $55,440 <span style="font-size:11px;color:var(--green)">+$1,659</span></div></div>
+<div class="sc-card"><div class="label">Attainment</div><div class="value">28.0%</div><div class="sub">to quota <span style="font-size:11px;color:var(--green)">+3.0pp</span></div></div>
+<div class="sc-card"><div class="label">Wins</div><div class="value">10</div><div class="sub">closed deals <span style="font-size:11px;color:var(--green)">+2</span></div></div>
+<div class="sc-card"><div class="label">Demos</div><div class="value">38</div><div class="sub">held <span style="font-size:11px;color:var(--green)">+26</span></div></div>
+<div class="sc-card"><div class="label">Opps</div><div class="value">38</div><div class="sub">created <span style="font-size:11px;color:var(--green)">+20</span></div></div>
+<div class="sc-card"><div class="label">Avg ARR</div><div class="value">$1,555</div><div class="sub">per opp <span style="font-size:11px;color:var(--red)">$-181.42</span></div></div>
+<div class="sc-card"><div class="label">Demo:Win</div><div class="value">26.3%</div><div class="sub">conversion <span style="font-size:11px;color:var(--red)">-40.4pp</span></div></div>
+<div class="sc-card"><div class="label">EC ARR</div><div class="value">$3,132</div><div class="sub">2 units <span style="font-size:11px;color:var(--green)">+$132.00</span></div></div>
 </div>
 <div class="section">
   <h2><img src="../assets/Other_Award.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> 1:1 Coaching — Sandler Coach to Success</h2>
@@ -82,26 +103,28 @@
     <div>
       <div class="coaching-label c-behavior">Behavior (Activity)</div>
       <ul class="coaching">
-        <li>Calls at 63/260 expected by day 13 (24% to pace) — significantly behind. Goal: 20/day, 100/week. Are there time management barriers?</li>
-        <li>Demos at 25/26 expected (96% to pace) — on track. Goal: ~10/week.</li>
+        <li>Calls at 0/280 expected by day 14 (0% to pace) — significantly behind. Goal: 20/day, 100/week. Are there time management barriers?</li>
+        <li>Demos at 38/28 expected (136% to pace) — on track. Goal: ~10/week.</li>
+        <li>Only 0 emails sent this week — low outbound volume.</li>
       </ul>
       <div class="coaching-label c-technique" style="margin-top:16px">Technique (Conversion)</div>
       <ul class="coaching">
-        <li>Demo:Win at 32% — low close rate from demos. Work on post-demo follow-up, urgency, and handling stalls.</li>
-        <li>Avg ARR per opp $1,736 — close to $1,800 target. Look for upsell opportunities.</li>
+        <li>Demo:Win at 26% — low close rate from demos. Work on post-demo follow-up, urgency, and handling stalls.</li>
+        <li>Avg ARR per opp $1,555 — close to $1,800 target. Look for upsell opportunities.</li>
       </ul>
     </div>
     <div>
       <div class="coaching-label c-results">Results (Outcomes)</div>
       <ul class="coaching">
-        <li>At 25% to quota (0.4x pace on working day 13/22) — behind pace. Need to diagnose: is it activity, pipeline, or conversion?</li>
-        <li>12 deals stale >14 days — pipeline needs cleaning. Which should be closed-lost vs. re-engaged?</li>
+        <li>At 28% to quota (0.4x pace on working day 14/22) — behind pace. Need to diagnose: is it activity, pipeline, or conversion?</li>
+        <li>13 deals stale >14 days — pipeline needs cleaning. Which should be closed-lost vs. re-engaged?</li>
+        <li><strong>Close the Gap:</strong> Need $39,889 more → 25.7 deals (@ $1,555 avg) → 97 demos (@ 26% D:W) → <strong>60.9 demos/week</strong> for remaining 8 working days.</li>
       </ul>
       <div class="coaching-label" style="margin-top:16px;background:var(--gray-100);color:var(--gray-700)">Suggested Coaching Questions</div>
       <ul class="coaching">
         <li>"Walk me through your top 3 deals this month — what needs to happen to close each one?"</li>
         <li>"After your last demo, what was the prospect's commitment? Did you get a clear next step?"</li>
-        <li>"You have 12 deals sitting >14 days. Which ones are real and which should we close out?"</li>
+        <li>"You have 13 deals sitting >14 days. Which ones are real and which should we close out?"</li>
         <li>"What does your daily call block look like? Are you protecting that time?"</li>
         <li>"On your last few deals, did you explore EC/Payroll and all available product bundles?"</li>
         <li>"What's one thing you want to improve this week, and how can I help?"</li>
@@ -113,48 +136,49 @@
 <div class="section">
   <h2><img src="../assets/phone.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Calls</h2>
   <table>
-    <tr><td>Total Calls</td><td style="font-weight:600">63</td></tr>
-    <tr><td>Avg/Day</td><td>12.6</td></tr>
-    <tr><td>Conversations</td><td>15</td></tr>
-    <tr><td>Conv Rate</td><td>23.8%</td></tr>
-    <tr><td>Avg Duration</td><td>1m 28s</td></tr>
-    <tr><td>Voicemails</td><td>2</td></tr>
+    <tr><td>Total Calls</td><td style="font-weight:600">0</td></tr>
+    <tr><td>Avg/Day</td><td>0</td></tr>
+    <tr><td>Conversations</td><td>0</td></tr>
+    <tr><td>Conv Rate</td><td>0%</td></tr>
+    <tr><td>Avg Duration</td><td>N/A</td></tr>
+    <tr><td>Voicemails</td><td>0</td></tr>
   </table>
 </div>
 <div class="section">
   <h2><img src="../assets/email.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Emails</h2>
   <table>
-    <tr><td>Sent</td><td style="font-weight:600">188</td></tr>
-    <tr><td>Opened</td><td>69 (39.0%)</td></tr>
-    <tr><td>Replied</td><td>13 (7.3%)</td></tr>
-    <tr><td>Positive Replies</td><td>5</td></tr>
-    <tr><td>Personalization</td><td>19.2%</td></tr>
-    <tr><td>Clicked</td><td>6 (3.4%)</td></tr>
+    <tr><td>Sent</td><td style="font-weight:600">0</td></tr>
+    <tr><td>Opened</td><td>0 (0%)</td></tr>
+    <tr><td>Replied</td><td>0 (0%)</td></tr>
+    <tr><td>Positive Replies</td><td>0</td></tr>
+    <tr><td>Personalization</td><td>0%</td></tr>
+    <tr><td>Clicked</td><td>0 (0%)</td></tr>
   </table>
 </div>
 </div>
 <div class="section">
-  <h2><img src="../assets/percentage.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Stale Deals (12 deals &gt; 14 days)</h2>
+  <h2><img src="../assets/percentage.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Stale Deals (13 deals &gt; 14 days)</h2>
   <table>
     <thead><tr><th>Account</th><th>Opportunity</th><th>Stage</th><th>Days</th><th>ARR</th><th>Next Step</th></tr></thead>
     <tbody>
-      <tr><td><strong>Everk Hospitality Parent Account</strong></td><td style="font-size:12px">Everk Hospitality Parent Account - Payro</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">53d</td><td>$14,400</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: demo 4/23 CX NS: review with owner T: 8/10</td></tr>
-      <tr><td><strong>Sunset Nightclub</strong></td><td style="font-size:12px">Sunset Nightclub - TM</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">53d</td><td>$894.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: follow up with customer by eom CX NS: review with tea</td></tr>
-      <tr><td><strong>MIA Nightclub</strong></td><td style="font-size:12px">MIA Nightclub- TM</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">53d</td><td>$894.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: follow up with customer by EOM CX NS: review with tea</td></tr>
-      <tr><td><strong>Vyxn Fresno</strong></td><td style="font-size:12px">Vyxn Fresno - TM</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">53d</td><td>$894.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: follow up with customer by eom CX NS: review with tea</td></tr>
-      <tr><td><strong>Roadhouse - Kingsburg</strong></td><td style="font-size:12px">Roadhouse - TT, xtraCHEF and Loyalty</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$5,227</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: send contract CX NS: review with team T: 10/10</td></tr>
-      <tr><td><strong>HANGRY'S Parent</strong></td><td style="font-size:12px">HANGRY'S Parent - Payroll - Parent</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">17d</td><td>$1,620</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: customer to fill out docusign CX NS: review with lead</td></tr>
-      <tr><td><strong>Hammy's Smash Burgers - 2</strong></td><td style="font-size:12px">Hammy's Smash Burgers - 2 tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">15d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
-      <tr><td><strong>Hammy's Smash Burgers - E Shaw</strong></td><td style="font-size:12px">Hammy's Smash Burgers - E Shaw Tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">15d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
-      <tr><td><strong>Hammy's Smash Burger - LA</strong></td><td style="font-size:12px">Hammy's Smash Burger - LA tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">15d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
-      <tr><td><strong>Hammy's Smash Burgers</strong></td><td style="font-size:12px">Hammy's Smash Burgers - Tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">15d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
-      <tr><td><strong>Hammy's Smash Burgers - 3</strong></td><td style="font-size:12px">Hammy's Smash Burgers - 3 - Tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">15d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
-      <tr><td><strong>Hammy's Smash Burgers - LA</strong></td><td style="font-size:12px">Hammy's Smash Burgers - LA - Tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">15d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
+      <tr><td><strong>Everk Hospitality Parent Account</strong></td><td style="font-size:12px">Everk Hospitality Parent Account - Payro</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">56d</td><td>$14,400</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: demo 4/23 CX NS: review with owner T: 8/10</td></tr>
+      <tr><td><strong>Sunset Nightclub</strong></td><td style="font-size:12px">Sunset Nightclub - TM</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">56d</td><td>$894.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: follow up with customer by eom CX NS: review with tea</td></tr>
+      <tr><td><strong>MIA Nightclub</strong></td><td style="font-size:12px">MIA Nightclub- TM</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">56d</td><td>$894.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: follow up with customer by EOM CX NS: review with tea</td></tr>
+      <tr><td><strong>Vyxn Fresno</strong></td><td style="font-size:12px">Vyxn Fresno - TM</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--red);font-weight:600">56d</td><td>$894.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: follow up with customer by eom CX NS: review with tea</td></tr>
+      <tr><td><strong>Roadhouse - Kingsburg</strong></td><td style="font-size:12px">Roadhouse - TT, xtraCHEF and Loyalty</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">21d</td><td>$4,302</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: send contract CX NS: review with team T: 10/10</td></tr>
+      <tr><td><strong>HANGRY'S Parent</strong></td><td style="font-size:12px">HANGRY'S Parent - Payroll - Parent</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">20d</td><td>$1,620</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: customer to fill out docusign CX NS: review with lead</td></tr>
+      <tr><td><strong>Hammy's Smash Burgers - 2</strong></td><td style="font-size:12px">Hammy's Smash Burgers - 2 tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
+      <tr><td><strong>Hammy's Smash Burgers - E Shaw</strong></td><td style="font-size:12px">Hammy's Smash Burgers - E Shaw Tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
+      <tr><td><strong>Hammy's Smash Burger - LA</strong></td><td style="font-size:12px">Hammy's Smash Burger - LA tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
+      <tr><td><strong>Hammy's Smash Burgers</strong></td><td style="font-size:12px">Hammy's Smash Burgers - Tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
+      <tr><td><strong>Hammy's Smash Burgers - 3</strong></td><td style="font-size:12px">Hammy's Smash Burgers - 3 - Tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
+      <tr><td><strong>Hammy's Smash Burgers - LA</strong></td><td style="font-size:12px">Hammy's Smash Burgers - LA - Tips</td><td style="font-size:12px">9. Agreement Sent</td><td style="color:var(--yellow);font-weight:600">18d</td><td>$711.00</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: sent contract CX: sign T: 10/10</td></tr>
+      <tr><td><strong>Twigs Bistro and Martini Bar - River Park Square</strong></td><td style="font-size:12px">Twigs Bistro - River Park Square - C+E p</td><td style="font-size:12px">4. Demo Complete</td><td style="color:var(--yellow);font-weight:600">17d</td><td>$5,448</td><td style="font-size:11px;color:var(--gray-500);max-width:200px;white-space:normal">My NS: follow up with customer by 5/6 CX NS: review with tea</td></tr>
     </tbody>
   </table>
 </div>
 <div class="section">
-  <h2><img src="../assets/dollar.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Recent Wins (8 this month)</h2>
+  <h2><img src="../assets/dollar.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Recent Wins (10 this month)</h2>
   <table>
     <thead><tr><th>Account</th><th>Type</th><th>ARR</th><th>Close Date</th></tr></thead>
     <tbody>
@@ -162,6 +186,8 @@
       <tr><td><strong>The Standard Restaurant and Lounge</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$2,669</td><td>4/8/2026</td></tr>
       <tr><td><strong>The Olympia</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$2,148</td><td>4/7/2026</td></tr>
       <tr><td><strong>Twigs Bistro and Martini Bar - Wandermere</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$480.00</td><td>4/4/2026</td></tr>
+      <tr><td><strong>Kaged</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$711.00</td><td>4/17/2026</td></tr>
+      <tr><td><strong>Sarap Filipino BBQ & Grill</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$948.00</td><td>4/17/2026</td></tr>
       <tr><td><strong>4 Starters Bowl and Juice Bar</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$3,948</td><td>4/14/2026</td></tr>
       <tr><td><strong>Decoy - Parent Account</strong></td><td style="font-size:12px">Payroll</td><td>$756.00</td><td>4/14/2026</td></tr>
       <tr><td><strong>Yemandi</strong></td><td style="font-size:12px">Existing Business (Upsell)</td><td>$1,200</td><td>4/13/2026</td></tr>
@@ -174,17 +200,17 @@
   <table>
     <thead><tr><th>Date</th><th>ARR</th><th>Wins</th><th>Demos</th><th>Opps</th><th>Calls</th><th>Emails</th><th>Demo:Win</th></tr></thead>
     <tbody>
-      <tr><td>2026-04-17</td><td>$13,892</td><td>8</td><td>25</td><td>32</td><td>63</td><td>188</td><td>32.0%</td></tr>
+      <tr><td>2026-04-20</td><td>$15,551</td><td>10</td><td>38</td><td>38</td><td>0</td><td>0</td><td>26.3%</td></tr>
+      <tr><td>2026-04-17</td><td>$13,892</td><td>8</td><td>12</td><td>18</td><td>140</td><td>188</td><td>66.7%</td></tr>
       <tr><td>2026-04-16</td><td>$13,892</td><td>8</td><td>21</td><td>28</td><td>45</td><td>39</td><td>38.1%</td></tr>
       <tr><td>2026-04-15</td><td>$13,892</td><td>8</td><td>21</td><td>28</td><td>20</td><td>24</td><td>38.1%</td></tr>
       <tr><td>2026-04-14</td><td>$9,188</td><td>6</td><td>18</td><td>25</td><td>9</td><td>14</td><td>33.3%</td></tr>
       <tr><td>2026-04-13</td><td>$7,988</td><td>5</td><td>16</td><td>17</td><td>26</td><td>0</td><td>31.2%</td></tr>
       <tr><td>2026-04-10</td><td>$7,673</td><td>4</td><td>15</td><td>15</td><td>26</td><td>21</td><td>26.7%</td></tr>
       <tr><td>2026-04-09</td><td>$7,673</td><td>4</td><td>15</td><td>15</td><td>26</td><td>18</td><td>26.7%</td></tr>
-      <tr><td>2026-04-08</td><td>$5,297</td><td>3</td><td>15</td><td>15</td><td>26</td><td>16</td><td>20.0%</td></tr>
     </tbody>
   </table>
 </div>
 
-<div class="footer">Growth Sales Dashboard — Eleni Lembesis | Generated Apr 17, 2026</div>
+<div class="footer">Growth Sales Dashboard — Eleni Lembesis | Generated Apr 20, 2026</div>
 </body></html>

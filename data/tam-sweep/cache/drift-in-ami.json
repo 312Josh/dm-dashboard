@@ -1,0 +1,26 @@
+{
+  "parent": "Drift-In AMI - Parent Account",
+  "slug": "drift-in-ami",
+  "total_headroom": "$12,144",
+  "non_ec_headroom": "$12,144",
+  "est_ec_headroom": "$0",
+  "employee_count": "12",
+  "non_ec_arr": "$6,903",
+  "state": "FL",
+  "city": "Bradenton Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "drink@driftinami.com",
+  "location_count": 1,
+  "location_names": [
+    "Drift-In AMI"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

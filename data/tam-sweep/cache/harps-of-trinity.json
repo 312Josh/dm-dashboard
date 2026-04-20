@@ -1,0 +1,26 @@
+{
+  "parent": "Harps Of Trinity",
+  "slug": "harps-of-trinity",
+  "total_headroom": "$24,204",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$3,864",
+  "employee_count": "23",
+  "non_ec_arr": "$2,580",
+  "state": "FL",
+  "city": "Trinity",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "vincelamattina66@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Harps Of Trinity"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

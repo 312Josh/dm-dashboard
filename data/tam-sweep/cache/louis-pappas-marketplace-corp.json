@@ -1,0 +1,30 @@
+{
+  "parent": "Louis Pappas Marketplace Corp",
+  "slug": "louis-pappas-marketplace-corp",
+  "total_headroom": "$79,532",
+  "non_ec_headroom": "$66,960",
+  "est_ec_headroom": "$12,572",
+  "employee_count": "76",
+  "non_ec_arr": "$15,780",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "npappas@louispappas.com",
+  "location_count": 5,
+  "location_names": [
+    "Louis Pappas Marketplace - Citrus",
+    "Louis Pappas Marketplace - Bay to Bay",
+    "Louis Pappas Marketplace - Lakeland",
+    "Pappas Marketplace - Trinity",
+    "Louis Pappas Fresh Greek - Sarasota"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

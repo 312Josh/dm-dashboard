@@ -1,0 +1,26 @@
+{
+  "parent": "Indus Food Corporation",
+  "slug": "indus-food-corporation",
+  "total_headroom": "$19,504",
+  "non_ec_headroom": "$18,720",
+  "est_ec_headroom": "$784",
+  "employee_count": "5",
+  "non_ec_arr": "$4,740",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nagarappu@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Copper Tampa"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

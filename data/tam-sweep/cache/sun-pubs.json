@@ -1,0 +1,39 @@
+{
+  "parent": "Sun Pubs",
+  "slug": "sun-pubs",
+  "total_headroom": "$367,136",
+  "non_ec_headroom": "$220,752",
+  "est_ec_headroom": "$146,384",
+  "employee_count": "873",
+  "non_ec_arr": "$223,083",
+  "state": "FL",
+  "city": "Gainesville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sean@sunpubs.com",
+  "location_count": 12,
+  "location_names": [
+    "MacDinton's Gainsville",
+    "Lil Rudy at Midtown- Gainesville",
+    "MacDinton's - SoHo",
+    "Sculley's Seafood Restaurant",
+    "Caddy's Indian Shores",
+    "The Island Grille & Raw Bar - Sun Pubs",
+    "Caddy's Madeira Beach",
+    "The Grove - Gainesville",
+    "Caddy's on The Beach - Treasure Island",
+    "Grove Soho",
+    "Mad Beach Cantina",
+    "Caddy's John's Pass"
+  ],
+  "websites": [
+    ""
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "Joey D's Corporate",
+  "slug": "joey-d-s",
+  "total_headroom": "$104,756",
+  "non_ec_headroom": "$74,040",
+  "est_ec_headroom": "$30,716",
+  "employee_count": "182",
+  "non_ec_arr": "$25,152",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "bobbydchitown@gmail.com",
+  "location_count": 4,
+  "location_names": [
+    "Joey D's - Bee Ridge",
+    "Joey D's of Manatee",
+    "Joey D's of Venice",
+    "Joey D's of Palmetto"
+  ],
+  "websites": [
+    "https://joeydsfl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://joeydsfl.com/": {
+      "url": "https://joeydsfl.com/",
+      "html_bytes": 238389,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://joeydsfl.com/menu/": {
+      "url": "https://joeydsfl.com/menu/",
+      "html_bytes": 261022,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

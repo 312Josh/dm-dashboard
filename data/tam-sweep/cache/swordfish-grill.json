@@ -1,0 +1,27 @@
+{
+  "parent": "Swordfish Grill Parent",
+  "slug": "swordfish-grill",
+  "total_headroom": "$57,232",
+  "non_ec_headroom": "$36,960",
+  "est_ec_headroom": "$20,272",
+  "employee_count": "121",
+  "non_ec_arr": "$23,003",
+  "state": "FL",
+  "city": "Cortez",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "killerbaits@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Swordfish Grill",
+    "Cortez Kitchen"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

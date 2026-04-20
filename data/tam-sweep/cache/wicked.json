@@ -1,0 +1,28 @@
+{
+  "parent": "Wicked Corporate",
+  "slug": "wicked",
+  "total_headroom": "$44,676",
+  "non_ec_headroom": "$44,676",
+  "est_ec_headroom": "$0",
+  "employee_count": "135",
+  "non_ec_arr": "$29,759",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "md@wickedcantina.com",
+  "location_count": 3,
+  "location_names": [
+    "Wicked Cantina - Sarasota",
+    "Wicked Cantina - Bradenton Beach",
+    "Wicked Cantina - Saint Petersburg"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

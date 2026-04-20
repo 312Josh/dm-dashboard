@@ -1,0 +1,26 @@
+{
+  "parent": "3 Keys Brewing",
+  "slug": "3-keys-brewing",
+  "total_headroom": "$22,680",
+  "non_ec_headroom": "$19,320",
+  "est_ec_headroom": "$3,360",
+  "employee_count": "20",
+  "non_ec_arr": "$7,023",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gabe@3keysbrewing.com",
+  "location_count": 1,
+  "location_names": [
+    "3 Keys Brewing"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

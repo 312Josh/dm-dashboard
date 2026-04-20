@@ -1,0 +1,26 @@
+{
+  "parent": "Pizza Haven - Parent Account",
+  "slug": "pizza-haven",
+  "total_headroom": "$17,720",
+  "non_ec_headroom": "$16,992",
+  "est_ec_headroom": "$728",
+  "employee_count": "4",
+  "non_ec_arr": "$4,909",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "ajp0665@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pizza haven"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

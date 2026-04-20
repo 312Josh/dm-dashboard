@@ -1,0 +1,28 @@
+{
+  "parent": "Annex/Three Birds Parent",
+  "slug": "annex-three-birds",
+  "total_headroom": "$54,960",
+  "non_ec_headroom": "$54,960",
+  "est_ec_headroom": "$0",
+  "employee_count": "64",
+  "non_ec_arr": "$12,432",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "kali@linkingheights.com",
+  "location_count": 3,
+  "location_names": [
+    "Linking Heights",
+    "Annex 400 Beach",
+    "Three Birds Tavern"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

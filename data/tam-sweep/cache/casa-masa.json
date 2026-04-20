@@ -1,0 +1,27 @@
+{
+  "parent": "Casa Masa Parent",
+  "slug": "casa-masa",
+  "total_headroom": "$35,664",
+  "non_ec_headroom": "$35,664",
+  "est_ec_headroom": "$0",
+  "employee_count": "26",
+  "non_ec_arr": "$12,996",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "casamasa.srq@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Casa Masa Siesta Key",
+    "Casa Masa Landings"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

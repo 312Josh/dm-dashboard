@@ -1,0 +1,27 @@
+{
+  "parent": "The Parrot Patio Bar & Grill - Bradenton",
+  "slug": "the-parrot-patio-bar-grill-bradenton",
+  "total_headroom": "$35,280",
+  "non_ec_headroom": "$35,280",
+  "est_ec_headroom": "$0",
+  "employee_count": "79",
+  "non_ec_arr": "$13,680",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jeffgambino@theparrots.com",
+  "location_count": 2,
+  "location_names": [
+    "The Parrot Patio Bar & Grill - Webber St",
+    "The Parrot Patio Bar & Grill - Bradenton"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

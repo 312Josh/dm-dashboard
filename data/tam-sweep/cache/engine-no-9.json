@@ -1,0 +1,27 @@
+{
+  "parent": "Engine No. 9 Parent",
+  "slug": "engine-no-9",
+  "total_headroom": "$35,232",
+  "non_ec_headroom": "$35,232",
+  "est_ec_headroom": "$0",
+  "employee_count": "40",
+  "non_ec_arr": "$6,150",
+  "state": "FL",
+  "city": "SAINT PETERSBURG",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "crescentchef@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Engine No. 9",
+    "Engine No. 9 - St. Pete"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

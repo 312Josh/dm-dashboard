@@ -130,6 +130,29 @@ def icon(name, size=18):
     return f'<img src="assets/{name}.svg" alt="" style="width:{size}px;height:{size}px;vertical-align:middle;opacity:0.7;">'
 
 
+def sparkline(values, width=80, height=20, color="var(--toast-orange)"):
+    """Generate an inline SVG sparkline from a list of numeric values."""
+    if not values or len(values) < 2:
+        return ""
+    vmin, vmax = min(values), max(values)
+    rng = vmax - vmin if vmax > vmin else 1
+    n = len(values)
+    points = []
+    for i, v in enumerate(values):
+        x = (i / (n - 1)) * width
+        y = height - ((v - vmin) / rng) * height
+        points.append(f"{x:.1f},{y:.1f}")
+    points_str = " ".join(points)
+    last_x = width
+    last_y = height - ((values[-1] - vmin) / rng) * height
+    return (
+        f'<svg width="{width}" height="{height}" style="vertical-align:middle;overflow:visible">'
+        f'<polyline points="{points_str}" fill="none" stroke="{color}" stroke-width="1.5" stroke-linejoin="round"/>'
+        f'<circle cx="{last_x:.1f}" cy="{last_y:.1f}" r="2" fill="{color}"/>'
+        f'</svg>'
+    )
+
+
 def pipeline_health(stale, total):
     if total == 0:
         return '<span class="badge badge-green">Healthy</span>'
@@ -204,6 +227,27 @@ def generate(data_dir):
 
     # Stale deals (>30 days old based on stage duration)
     stale_count = sum(1 for r in team_opps if float(r.get("Stage Duration", "0") or 0) > 30)
+
+    # Per-rep pipeline aggregation (used by forecast + pipeline health sections)
+    rep_pipeline = {}
+    for r_opp in opps:
+        owner = normalize_name(r_opp.get("Opportunity Owner", "Unknown"))
+        if owner not in reps:
+            continue
+        if owner not in rep_pipeline:
+            rep_pipeline[owner] = {"deals": 0, "value": 0.0, "stale": 0}
+        rep_pipeline[owner]["deals"] += 1
+        rep_pipeline[owner]["value"] += parse_money(r_opp.get("Software (Annual)", "0"))
+        if float(r_opp.get("Stage Duration", "0") or 0) > 30:
+            rep_pipeline[owner]["stale"] += 1
+
+    # Load historical snapshots early (used by sparklines + forecast + trend tables)
+    history_dir_early = Path(__file__).parent / "data" / "history"
+    all_history = []
+    if history_dir_early.exists():
+        for hf in sorted(history_dir_early.glob("*.json")):
+            with open(hf) as f:
+                all_history.append(json.load(f))
 
     # Pacing
     team_pacing_val = (team_arr / team_quota * 100) if team_quota else 0
@@ -318,7 +362,7 @@ def generate(data_dir):
 <div class="section">
   <div class="section-title"><img src="assets/bar-chart.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Team Overview — MTD ACV vs Quota</div>
   <table>
-    <thead><tr><th>Rep</th><th>Role</th><th>Quota</th><th>MTD ACV</th><th>%</th><th>Progress</th><th>Wins</th><th>Pacing</th></tr></thead>
+    <thead><tr><th>Rep</th><th>Role</th><th>Quota</th><th>MTD ACV</th><th>%</th><th>Progress</th><th>Trend (8d)</th><th>Wins</th><th>Pacing</th></tr></thead>
     <tbody>
 """)
     for r in metrics:
@@ -333,9 +377,159 @@ def generate(data_dir):
         bar_w = min(pct, 100)
         color = bar_color(pct, expected_pct)
         badge = pacing_badge(pct, biz_days_passed, total_biz_days)
-        html.append(f'<tr><td><strong>{rep_link(name)}</strong></td><td style="font-size:12px;color:var(--gray-500)">{role_display}</td><td>{fmt_money(quota)}</td><td><strong>{fmt_money(arr)}</strong></td><td>{fmt_pct(pct)}</td><td><div class="progress-bar"><div class="progress-fill" style="width:{bar_w:.1f}%;background:{color}"></div></div></td><td>{wins_count}</td><td>{badge}</td></tr>\n')
+        # Sparkline: last up-to-8 historical ARR values + today's actual
+        spark_values = [h.get("reps", {}).get(name, {}).get("arr", 0) for h in all_history[-7:]]
+        spark_values.append(arr)
+        spark = sparkline(spark_values, width=90, height=22, color=color)
+        html.append(f'<tr><td><strong>{rep_link(name)}</strong></td><td style="font-size:12px;color:var(--gray-500)">{role_display}</td><td>{fmt_money(quota)}</td><td><strong>{fmt_money(arr)}</strong></td><td>{fmt_pct(pct)}</td><td><div class="progress-bar"><div class="progress-fill" style="width:{bar_w:.1f}%;background:{color}"></div></div></td><td>{spark}</td><td>{wins_count}</td><td>{badge}</td></tr>\n')
 
-    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{len(metrics)} AEs</td><td>{fmt_money(team_quota)}</td><td>{fmt_money(team_arr)}</td><td>{fmt_pct(team_attainment)}</td><td></td><td>{team_wins_count}</td><td></td></tr>\n')
+    team_spark_values = [h.get("team_arr", 0) for h in all_history[-7:]]
+    team_spark_values.append(team_arr)
+    team_spark = sparkline(team_spark_values, width=90, height=22, color="var(--toast-orange)")
+    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{len(metrics)} AEs</td><td>{fmt_money(team_quota)}</td><td>{fmt_money(team_arr)}</td><td>{fmt_pct(team_attainment)}</td><td></td><td>{team_spark}</td><td>{team_wins_count}</td><td></td></tr>\n')
+    html.append("    </tbody></table>\n</div>\n")
+
+    # ---- Close the Gap Calculator ----
+    remaining_biz_days = total_biz_days - biz_days_passed
+    remaining_weeks = remaining_biz_days / 5 if remaining_biz_days > 0 else 0.01
+    html.append("""
+<div class="section">
+  <div class="section-title"><img src="assets/trending-up.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Close the Gap — What It Takes to Hit Quota</div>
+  <p style="font-size:13px;color:var(--gray-500);margin-bottom:14px">Based on each rep's current conversion rates and remaining working days ({remaining} biz days, {weeks:.1f} weeks left).</p>
+  <table>
+    <thead><tr><th>Rep</th><th>Gap to Quota</th><th>Deals Needed</th><th>Demos Needed</th><th>Demos/Week</th><th>Calls/Day</th><th>Feasibility</th></tr></thead>
+    <tbody>
+""".replace("{remaining}", str(remaining_biz_days)).replace("{weeks}", f"{remaining_weeks:.1f}"))
+    for r in metrics:
+        name = r["Rep Name"]
+        quota = parse_money(r.get("Booked SaaS Quota (Xactly)", "0"))
+        arr = parse_money(r.get("Total Booked Saas ARR", "0"))
+        gap = quota - arr
+        if gap <= 0 or quota == 0:
+            html.append(f'<tr><td><strong>{rep_link(name)}</strong></td><td style="color:var(--green);font-weight:600">HIT QUOTA</td><td colspan="5" style="color:var(--green)">At {fmt_pct(arr/quota*100) if quota else 0} — exceeding target</td></tr>\n')
+            continue
+        avg_arr = parse_money(r.get("ARR Won per Opp", "0"))
+        if avg_arr <= 0:
+            avg_arr = (team_arr / team_wins_count) if team_wins_count else 1800
+        demo_win_rate = parse_pct(r.get("Demo:Win", "0")) / 100
+        if demo_win_rate <= 0:
+            demo_win_rate = 0.5
+        deals_needed = gap / avg_arr
+        demos_needed = deals_needed / demo_win_rate
+        demos_per_week = demos_needed / remaining_weeks if remaining_weeks > 0 else 999
+        call_goal_mo = int(r.get("Call Goal", "0") or 0)
+        calls_per_day = round(call_goal_mo / total_biz_days) if total_biz_days else 0
+        demo_goal_mo = int(r.get("Total Demo Goal", "0") or 0)
+        normal_demos_wk = round(demo_goal_mo / 4.3) if demo_goal_mo else 0
+        if demos_per_week <= normal_demos_wk * 1.0:
+            feasibility = '<span class="badge badge-green">Achievable</span>'
+        elif demos_per_week <= normal_demos_wk * 1.5:
+            feasibility = '<span class="badge badge-yellow">Stretch</span>'
+        else:
+            feasibility = '<span class="badge badge-red">Needs Wins Now</span>'
+        html.append(f'<tr><td><strong>{rep_link(name)}</strong></td><td style="font-weight:600">{fmt_money(gap)}</td><td>{deals_needed:.1f} <span style="font-size:11px;color:var(--gray-400)">@ {fmt_money(avg_arr)} avg</span></td><td>{demos_needed:.1f} <span style="font-size:11px;color:var(--gray-400)">@ {demo_win_rate*100:.0f}% D:W</span></td><td style="font-weight:600;color:{pct_color(normal_demos_wk / max(demos_per_week, 0.01) * 100, 100, 67)}">{demos_per_week:.1f}/wk</td><td>{calls_per_day}/day</td><td>{feasibility}</td></tr>\n')
+    html.append("    </tbody></table>\n</div>\n")
+
+    # ---- Month-End Forecast Simulator ----
+    # Compute 3 forecast methodologies per rep:
+    # 1. Linear pace: project current pace to end of month
+    # 2. Recent run-rate: last 3 snapshots' daily delta, extrapolated
+    # 3. Pipeline-based: current ARR + (open pipeline * rep's demo:win rate)
+    history_for_forecast = all_history  # reuse early-loaded history
+    team_forecast_linear = 0
+    team_forecast_runrate = 0
+    team_forecast_pipeline = 0
+    forecast_rows = []
+    for r in metrics:
+        name = r["Rep Name"]
+        quota = parse_money(r.get("Booked SaaS Quota (Xactly)", "0"))
+        arr_cur = parse_money(r.get("Total Booked Saas ARR", "0"))
+
+        # Method 1: Linear pace
+        if biz_days_passed > 0:
+            daily_pace = arr_cur / biz_days_passed
+            forecast_linear = daily_pace * total_biz_days
+        else:
+            forecast_linear = arr_cur
+
+        # Method 2: Recent run-rate (last 3 snapshots)
+        forecast_runrate = arr_cur
+        if len(history_for_forecast) >= 3:
+            recent = history_for_forecast[-3:]
+            first_arr = recent[0].get("reps", {}).get(name, {}).get("arr", arr_cur)
+            last_arr = recent[-1].get("reps", {}).get(name, {}).get("arr", arr_cur)
+            recent_daily = (last_arr - first_arr) / max(len(recent) - 1, 1)
+            remaining_days = total_biz_days - biz_days_passed
+            forecast_runrate = arr_cur + (recent_daily * remaining_days)
+
+        # Method 3: Pipeline-based (arr + pipeline * demo_win)
+        rep_pipe_val = rep_pipeline.get(name, {"value": 0})["value"] if name in rep_pipeline else 0
+        rep_dw = parse_pct(r.get("Demo:Win", "0")) / 100
+        if rep_dw <= 0:
+            rep_dw = 0.3  # conservative default
+        # Assume only a fraction of pipeline can close this month (scaled by time left)
+        time_left_factor = (total_biz_days - biz_days_passed) / max(total_biz_days, 1) * 2  # aggressive: 2x remaining fraction
+        forecast_pipeline = arr_cur + (rep_pipe_val * rep_dw * min(time_left_factor, 0.8))
+
+        team_forecast_linear += forecast_linear
+        team_forecast_runrate += forecast_runrate
+        team_forecast_pipeline += forecast_pipeline
+        forecast_rows.append({
+            "name": name, "quota": quota, "cur": arr_cur,
+            "linear": forecast_linear, "runrate": forecast_runrate, "pipeline": forecast_pipeline
+        })
+
+    team_linear_pct = (team_forecast_linear / team_quota * 100) if team_quota else 0
+    team_runrate_pct = (team_forecast_runrate / team_quota * 100) if team_quota else 0
+    team_pipeline_pct = (team_forecast_pipeline / team_quota * 100) if team_quota else 0
+
+    html.append(f"""
+<div class="section">
+  <div class="section-title"><img src="assets/trending-up.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Month-End Forecast — Where Will We Land?</div>
+  <p style="font-size:13px;color:var(--gray-500);margin-bottom:14px">Three projection methods to bracket the likely outcome at month-end (Working Day {biz_days_passed}/{total_biz_days}).</p>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:16px">
+    <div style="padding:16px;background:var(--blue-bg);border-radius:var(--radius);border-left:4px solid var(--blue)">
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--gray-600);font-weight:600">Linear Pace</div>
+      <div style="font-size:24px;font-weight:600;color:var(--toast-dark);margin:4px 0">{fmt_money(team_forecast_linear)}</div>
+      <div style="font-size:13px;color:{pct_color(team_linear_pct, 100, 80)};font-weight:600">{fmt_pct(team_linear_pct)} of quota</div>
+      <div style="font-size:11px;color:var(--gray-500);margin-top:4px">If today's daily rate continues</div>
+    </div>
+    <div style="padding:16px;background:var(--warm-100);border-radius:var(--radius);border-left:4px solid var(--toast-orange)">
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--gray-600);font-weight:600">Recent Run-Rate</div>
+      <div style="font-size:24px;font-weight:600;color:var(--toast-dark);margin:4px 0">{fmt_money(team_forecast_runrate)}</div>
+      <div style="font-size:13px;color:{pct_color(team_runrate_pct, 100, 80)};font-weight:600">{fmt_pct(team_runrate_pct)} of quota</div>
+      <div style="font-size:11px;color:var(--gray-500);margin-top:4px">Last 3 snapshots daily delta</div>
+    </div>
+    <div style="padding:16px;background:var(--green-bg);border-radius:var(--radius);border-left:4px solid var(--green)">
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--gray-600);font-weight:600">Pipeline-Based</div>
+      <div style="font-size:24px;font-weight:600;color:var(--toast-dark);margin:4px 0">{fmt_money(team_forecast_pipeline)}</div>
+      <div style="font-size:13px;color:{pct_color(team_pipeline_pct, 100, 80)};font-weight:600">{fmt_pct(team_pipeline_pct)} of quota</div>
+      <div style="font-size:11px;color:var(--gray-500);margin-top:4px">Current + pipeline × D:W</div>
+    </div>
+  </div>
+  <table>
+    <thead><tr><th>Rep</th><th>Quota</th><th>Current</th><th>Linear</th><th>Run-Rate</th><th>Pipeline</th><th>Range</th></tr></thead>
+    <tbody>
+""")
+    for fr in forecast_rows:
+        low = min(fr["linear"], fr["runrate"], fr["pipeline"])
+        high = max(fr["linear"], fr["runrate"], fr["pipeline"])
+        if fr["quota"] == 0:
+            pct_of_quota_lo = 0
+            pct_of_quota_hi = 0
+            range_display = f'{fmt_money(low)} – {fmt_money(high)}'
+            range_color = "var(--gray-500)"
+        else:
+            pct_of_quota_lo = low / fr["quota"] * 100
+            pct_of_quota_hi = high / fr["quota"] * 100
+            range_display = f'{fmt_money(low)} – {fmt_money(high)}<br><span style="font-size:11px;color:var(--gray-500)">{fmt_pct(pct_of_quota_lo)} – {fmt_pct(pct_of_quota_hi)}</span>'
+            range_color = pct_color(pct_of_quota_hi, 100, 80)
+        html.append(f'<tr><td><strong>{rep_link(fr["name"])}</strong></td><td>{fmt_money(fr["quota"])}</td><td>{fmt_money(fr["cur"])}</td><td>{fmt_money(fr["linear"])}</td><td>{fmt_money(fr["runrate"])}</td><td>{fmt_money(fr["pipeline"])}</td><td style="color:{range_color};font-weight:600">{range_display}</td></tr>\n')
+    team_low = min(team_forecast_linear, team_forecast_runrate, team_forecast_pipeline)
+    team_high = max(team_forecast_linear, team_forecast_runrate, team_forecast_pipeline)
+    team_range_pct_lo = team_low / team_quota * 100 if team_quota else 0
+    team_range_pct_hi = team_high / team_quota * 100 if team_quota else 0
+    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{fmt_money(team_quota)}</td><td>{fmt_money(team_arr)}</td><td>{fmt_money(team_forecast_linear)}</td><td>{fmt_money(team_forecast_runrate)}</td><td>{fmt_money(team_forecast_pipeline)}</td><td>{fmt_money(team_low)} – {fmt_money(team_high)}<br><span style="font-size:11px">{fmt_pct(team_range_pct_lo)} – {fmt_pct(team_range_pct_hi)}</span></td></tr>\n')
     html.append("    </tbody></table>\n</div>\n")
 
     # ---- MBO Tracker ----
@@ -491,14 +685,8 @@ def generate(data_dir):
     html.append(f'    <p style="margin-top:6px;font-size:12px;color:var(--gray-500)">MBO Target: Demo:Win 80% / 83% — Currently {fmt_pct(team_demo_win)} {nbr_mbo_badge}</p>\n')
     html.append("    </div>\n  </div>\n</div>\n")
 
-    # ---- EC / Payroll Sales ----
-    html.append("""
-<div class="section">
-  <div class="section-title"><img src="assets/pay-check.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Employee Cloud / Payroll (EC) Sales</div>
-  <table>
-    <thead><tr><th>Rep</th><th>EC Units</th><th>EC ARR</th><th>EC Goal</th><th>% to Goal</th><th>Pace</th></tr></thead>
-    <tbody>
-""")
+    # ---- EC / Payroll Leaderboard ----
+    ec_data = []
     total_ec_units = 0
     total_ec_arr_sum = 0
     total_ec_goal_sum = 0
@@ -508,19 +696,41 @@ def generate(data_dir):
         ec_arr = parse_money(r.get("EC ARR", "0"))
         ec_goal = parse_money(r.get("EC ARR Goal", "0"))
         ec_pct = parse_pct(r.get("EC ARR % to Goal", "0"))
+        rep_arr = parse_money(r.get("Total Booked Saas ARR", "0"))
+        rep_ec_attach = (ec_arr / rep_arr * 100) if rep_arr else 0
         total_ec_units += units
         total_ec_arr_sum += ec_arr
         total_ec_goal_sum += ec_goal
-        ec_badge = pacing_badge(ec_pct, biz_days_passed, total_biz_days)
-        html.append(f'<tr><td><strong>{name}</strong></td><td>{units}</td><td>{fmt_money(ec_arr)}</td><td>{fmt_money(ec_goal)}</td><td>{fmt_pct(ec_pct)}</td><td>{ec_badge}</td></tr>\n')
+        ec_data.append({"name": name, "units": units, "ec_arr": ec_arr, "ec_goal": ec_goal, "ec_pct": ec_pct, "attach": rep_ec_attach, "rep_arr": rep_arr})
+    ec_data.sort(key=lambda x: x["ec_arr"], reverse=True)
     total_ec_pct = (total_ec_arr_sum / total_ec_goal_sum * 100) if total_ec_goal_sum else 0
-    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{total_ec_units}</td><td>{fmt_money(total_ec_arr_sum)}</td><td>{fmt_money(total_ec_goal_sum)}</td><td>{fmt_pct(total_ec_pct)}</td><td></td></tr>\n')
-    html.append("    </tbody></table>\n")
     ec_pct_of_total = (total_ec_arr_sum / team_arr * 100) if team_arr else 0
     ec_mbo_color = pct_color(ec_pct_of_total, 40, 36)
     ec_mbo_badge = BADGE_ON_TRACK if ec_pct_of_total >= 36 else BADGE_AT_RISK
-    html.append(f'  <p style="margin-top:6px;font-size:12px;color:var(--gray-500)">MBO Target: EC ARR as % of Total ARR — 36% / 40% — Currently <span style="color:{ec_mbo_color};font-weight:700">{fmt_pct(ec_pct_of_total)}</span> {ec_mbo_badge}</p>\n')
-    html.append("</div>\n")
+    ec_gap_to_36 = max(0, team_arr * 0.36 - total_ec_arr_sum)
+
+    html.append(f"""
+<div class="section">
+  <div class="section-title"><img src="assets/pay-check.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> EC / Payroll Leaderboard <span style="font-size:13px;font-weight:400;color:var(--gray-500)">— MBO Target: 36% / 40% of Total ARR</span></div>
+  <div style="display:flex;gap:16px;margin-bottom:14px;flex-wrap:wrap">
+    <div style="padding:10px 16px;background:{'var(--green-bg)' if ec_pct_of_total >= 36 else 'var(--red-bg)'};border-radius:var(--radius);font-size:14px"><strong style="color:{'var(--green)' if ec_pct_of_total >= 36 else 'var(--red)'}">{fmt_pct(ec_pct_of_total)}</strong> EC Attach Rate {ec_mbo_badge}</div>
+    <div style="padding:10px 16px;background:var(--gray-100);border-radius:var(--radius);font-size:14px"><strong>{fmt_money(total_ec_arr_sum)}</strong> EC ARR of <strong>{fmt_money(team_arr)}</strong> total</div>
+""")
+    if ec_gap_to_36 > 0:
+        html.append(f'    <div style="padding:10px 16px;background:var(--yellow-bg);border-radius:var(--radius);font-size:14px">Need <strong style="color:var(--yellow)">{fmt_money(ec_gap_to_36)}</strong> more EC ARR to hit 36%</div>\n')
+    html.append("""  </div>
+  <table>
+    <thead><tr><th>#</th><th>Rep</th><th>EC Units</th><th>EC ARR</th><th>Attach Rate</th><th>% of Team EC</th><th>EC Goal</th><th>% to Goal</th><th>Pace</th></tr></thead>
+    <tbody>
+""")
+    for rank, ed in enumerate(ec_data, 1):
+        team_contribution = (ed["ec_arr"] / total_ec_arr_sum * 100) if total_ec_arr_sum else 0
+        attach_color = pct_color(ed["attach"], 40, 25)
+        ec_badge = pacing_badge(ed["ec_pct"], biz_days_passed, total_biz_days)
+        medal = {1: " &#x1F947;", 2: " &#x1F948;", 3: " &#x1F949;"}.get(rank, "")
+        html.append(f'<tr><td style="font-weight:700;font-size:16px">{rank}{medal}</td><td><strong>{ed["name"]}</strong></td><td>{ed["units"]}</td><td style="font-weight:600">{fmt_money(ed["ec_arr"])}</td><td style="color:{attach_color};font-weight:600">{fmt_pct(ed["attach"])}</td><td>{fmt_pct(team_contribution)}</td><td>{fmt_money(ed["ec_goal"])}</td><td>{fmt_pct(ed["ec_pct"])}</td><td>{ec_badge}</td></tr>\n')
+    html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td></td><td>TEAM</td><td>{total_ec_units}</td><td>{fmt_money(total_ec_arr_sum)}</td><td style="color:{ec_mbo_color}">{fmt_pct(ec_pct_of_total)}</td><td>100%</td><td>{fmt_money(total_ec_goal_sum)}</td><td>{fmt_pct(total_ec_pct)}</td><td></td></tr>\n')
+    html.append("    </tbody></table>\n</div>\n")
 
     # ---- Enablement MBO Tracker (from WorkRamp data) ----
     enablement_path = Path(__file__).parent / "data" / "enablement.json"
@@ -560,6 +770,46 @@ def generate(data_dir):
         html.append(f'  <p style="margin-top:8px;font-size:12px;color:var(--gray-500)">{mbo_icon} MBO threshold: {mbo_threshold}% team completion. Currently at {team_comp}% — {"meeting target" if mbo_met else "below target"}.</p>\n')
         html.append("</div>\n")
 
+        # ---- Enablement Impact: training completion vs ARR attainment ----
+        impact_rows = []
+        for rep in enablement.get("reps", []):
+            rep_name = rep["name"]
+            metric_row = next((m for m in metrics if m["Rep Name"] == rep_name), None)
+            if not metric_row:
+                continue
+            comp = rep["completion"]
+            grade = rep["avg_grade"]
+            arr_pct_r = parse_pct(metric_row.get("ARR % to Goal (Xactly)", "0"))
+            rep_arr = parse_money(metric_row.get("Total Booked Saas ARR", "0"))
+            dw = parse_pct(metric_row.get("Demo:Win", "0"))
+            impact_rows.append({"name": rep_name, "comp": comp, "grade": grade, "arr_pct": arr_pct_r, "arr": rep_arr, "dw": dw})
+        if impact_rows:
+            html.append("""
+<div class="section">
+  <div class="section-title"><img src="assets/analytics-check.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Enablement Impact — Training vs Performance</div>
+  <p style="font-size:13px;color:var(--gray-500);margin-bottom:14px">Side-by-side view of training completion and performance. Look for reps who are strong on one but weak on the other.</p>
+  <table>
+    <thead><tr><th>Rep</th><th>Completion</th><th>Grade</th><th>ARR % Goal</th><th>Demo:Win</th><th>Pattern</th></tr></thead>
+    <tbody>
+""")
+            for ir in impact_rows:
+                comp_color = pct_color(ir["comp"], 85, 75)
+                arr_color = pct_color(ir["arr_pct"], expected_pct, expected_pct * 0.8)
+                training_strong = ir["comp"] >= 85
+                performing = ir["arr_pct"] >= expected_pct * 0.8
+                if training_strong and performing:
+                    pattern = '<span class="badge badge-green">Aligned — performing</span>'
+                elif training_strong and not performing:
+                    pattern = '<span class="badge badge-orange">Trained, not hitting</span>'
+                elif not training_strong and performing:
+                    pattern = '<span class="badge badge-blue">Hitting despite gap</span>'
+                else:
+                    pattern = '<span class="badge badge-red">Both need attention</span>'
+                html.append(f'<tr><td><strong>{rep_link(ir["name"])}</strong></td><td style="color:{comp_color};font-weight:600">{ir["comp"]}%</td><td>{ir["grade"]}%</td><td style="color:{arr_color};font-weight:600">{fmt_pct(ir["arr_pct"])}</td><td>{fmt_pct(ir["dw"])}</td><td>{pattern}</td></tr>\n')
+            html.append("    </tbody></table>\n")
+            html.append('  <p style="margin-top:8px;font-size:11px;color:var(--gray-400)">Small sample (n=7): use this as a sanity check, not a statistical analysis. If someone is "Trained, not hitting" — the coaching conversation is about application, not skills gap.</p>\n')
+            html.append("</div>\n")
+
     # ---- Pipeline Health ----
     html.append("""
 <div class="section">
@@ -568,19 +818,7 @@ def generate(data_dir):
     <thead><tr><th>Rep</th><th>Open Deals</th><th>Pipeline Value</th><th>Stale (&gt;30d)</th><th>Health</th></tr></thead>
     <tbody>
 """)
-    # Group open opps by rep (normalize names to match Key Metrics)
-    rep_pipeline = {}
-    for r in opps:
-        owner = normalize_name(r.get("Opportunity Owner", "Unknown"))
-        if owner not in reps:
-            continue  # skip people no longer on the team
-        if owner not in rep_pipeline:
-            rep_pipeline[owner] = {"deals": 0, "value": 0.0, "stale": 0}
-        rep_pipeline[owner]["deals"] += 1
-        rep_pipeline[owner]["value"] += parse_money(r.get("Software (Annual)", "0"))
-        if float(r.get("Stage Duration", "0") or 0) > 30:
-            rep_pipeline[owner]["stale"] += 1
-
+    # rep_pipeline is computed earlier (near KPI totals) and reused here
     team_deals = 0
     team_pipe_val = 0
     team_stale = 0
@@ -593,6 +831,128 @@ def generate(data_dir):
         team_stale += p["stale"]
         html.append(f'<tr><td><strong>{name}</strong></td><td>{p["deals"]}</td><td>{fmt_money(p["value"])}</td><td style="color:{stale_color}">{p["stale"]}</td><td>{health}</td></tr>\n')
     html.append(f'<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td><td>{team_deals}</td><td>{fmt_money(team_pipe_val)}</td><td>{team_stale}</td><td></td></tr>\n')
+    html.append("    </tbody></table>\n</div>\n")
+
+    # ---- Pipeline Risk Scoring ----
+    scored_deals = []
+    for o in team_opps:
+        owner = normalize_name(o.get("Opportunity Owner", ""))
+        opp_name = o.get("Opportunity Name", "")
+        acct = o.get("Account Name", "")
+        stage = o.get("Stage", "")
+        days = float(o.get("Stage Duration", "0") or 0)
+        opp_arr = parse_money(o.get("Software (Annual)", "0"))
+        next_step = (o.get("Next Step", "") or "").strip()
+        risk_score = 0
+        risk_flags = []
+        if days > 60:
+            risk_score += 40
+            risk_flags.append("60+ days stale")
+        elif days > 30:
+            risk_score += 25
+            risk_flags.append("30+ days stale")
+        elif days > 14:
+            risk_score += 10
+            risk_flags.append("aging")
+        if not next_step or next_step.lower() in ("", "n/a", "none", "-"):
+            risk_score += 20
+            risk_flags.append("no next step")
+        if opp_arr < 500:
+            risk_score += 10
+            risk_flags.append("low value")
+        late_stages = ["Negotiation", "Closed", "Contract"]
+        early_stages = ["Prospecting", "Qualification", "Discovery"]
+        if any(s.lower() in stage.lower() for s in early_stages) and days > 21:
+            risk_score += 15
+            risk_flags.append("early stage + aging")
+        scored_deals.append({
+            "owner": owner, "name": opp_name[:45], "acct": acct, "stage": stage,
+            "days": int(days), "arr": opp_arr, "next_step": next_step[:60],
+            "risk_score": risk_score, "flags": risk_flags
+        })
+    scored_deals.sort(key=lambda x: x["risk_score"], reverse=True)
+
+    html.append("""
+<div class="section">
+  <div class="section-title"><img src="assets/percentage.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Pipeline Risk — Prioritized Action List</div>
+  <p style="font-size:13px;color:var(--gray-500);margin-bottom:14px">Deals scored by risk (stage duration, missing next steps, value). Focus pipeline reviews on the top of this list.</p>
+  <table>
+    <thead><tr><th>Risk</th><th>Rep</th><th>Account</th><th>Stage</th><th>Days</th><th>ARR</th><th>Flags</th><th>Next Step</th></tr></thead>
+    <tbody>
+""")
+    for d in scored_deals[:15]:
+        if d["risk_score"] >= 30:
+            risk_badge = f'<span class="badge badge-red">{d["risk_score"]}</span>'
+        elif d["risk_score"] >= 15:
+            risk_badge = f'<span class="badge badge-yellow">{d["risk_score"]}</span>'
+        else:
+            risk_badge = f'<span class="badge badge-green">{d["risk_score"]}</span>'
+        days_color = "var(--red)" if d["days"] > 30 else ("var(--yellow)" if d["days"] > 14 else "var(--gray-600)")
+        flags_str = ", ".join(d["flags"]) if d["flags"] else "—"
+        ns_style = 'style="font-size:11px;color:var(--gray-500);max-width:180px;white-space:normal"'
+        ns_text = d["next_step"] if d["next_step"] else '<span style="color:var(--red);font-weight:600">MISSING</span>'
+        html.append(f'<tr><td>{risk_badge}</td><td><strong>{d["owner"]}</strong></td><td>{d["acct"]}</td><td style="font-size:12px">{d["stage"]}</td><td style="color:{days_color};font-weight:600">{d["days"]}d</td><td>{fmt_money(d["arr"])}</td><td style="font-size:11px;color:var(--gray-500)">{flags_str}</td><td {ns_style}>{ns_text}</td></tr>\n')
+    html.append("    </tbody></table>\n")
+    if len(scored_deals) > 15:
+        html.append(f'  <p style="margin-top:8px;font-size:12px;color:var(--gray-400)">Showing top 15 of {len(scored_deals)} open deals by risk score.</p>\n')
+    html.append("</div>\n")
+
+    # ---- Stale Deal Aging Heatmap ----
+    # Bucket each rep's open deals by age: 0-14, 15-30, 31-60, 60+
+    heatmap = {}
+    for r_opp in team_opps:
+        owner = normalize_name(r_opp.get("Opportunity Owner", ""))
+        if owner not in reps:
+            continue
+        days = float(r_opp.get("Stage Duration", "0") or 0)
+        if owner not in heatmap:
+            heatmap[owner] = {"0-14": 0, "15-30": 0, "31-60": 0, "60+": 0, "total": 0}
+        if days <= 14:
+            heatmap[owner]["0-14"] += 1
+        elif days <= 30:
+            heatmap[owner]["15-30"] += 1
+        elif days <= 60:
+            heatmap[owner]["31-60"] += 1
+        else:
+            heatmap[owner]["60+"] += 1
+        heatmap[owner]["total"] += 1
+
+    def heat_cell(count, bucket):
+        if count == 0:
+            return '<td style="text-align:center;color:var(--gray-300)">0</td>'
+        if bucket == "0-14":
+            bg, fg = "var(--green-bg)", "var(--green)"
+        elif bucket == "15-30":
+            bg, fg = "var(--yellow-bg)", "var(--yellow)"
+        elif bucket == "31-60":
+            bg, fg = "var(--toast-orange-bg)", "var(--toast-orange)"
+        else:
+            bg, fg = "var(--red-bg)", "var(--red)"
+        intensity = min(count / 5, 1.0)  # saturate at 5+
+        opacity = 0.3 + intensity * 0.7
+        return f'<td style="text-align:center;background:{bg};color:{fg};font-weight:700;opacity:{opacity:.2f}">{count}</td>'
+
+    html.append("""
+<div class="section">
+  <div class="section-title"><img src="assets/percentage.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Stale Deal Aging Heatmap</div>
+  <p style="font-size:13px;color:var(--gray-500);margin-bottom:14px">Distribution of each rep's open deals by age. Red columns = deals that have been sitting too long.</p>
+  <table>
+    <thead><tr><th>Rep</th><th style="text-align:center">0-14 days<br><span style="font-weight:400;font-size:10px;color:var(--green)">Fresh</span></th><th style="text-align:center">15-30 days<br><span style="font-weight:400;font-size:10px;color:var(--yellow)">Aging</span></th><th style="text-align:center">31-60 days<br><span style="font-weight:400;font-size:10px;color:var(--toast-orange)">Stale</span></th><th style="text-align:center">60+ days<br><span style="font-weight:400;font-size:10px;color:var(--red)">Critical</span></th><th style="text-align:center">Total</th></tr></thead>
+    <tbody>
+""")
+    team_buckets = {"0-14": 0, "15-30": 0, "31-60": 0, "60+": 0, "total": 0}
+    for name in reps:
+        h = heatmap.get(name, {"0-14": 0, "15-30": 0, "31-60": 0, "60+": 0, "total": 0})
+        html.append(f'<tr><td><strong>{rep_link(name)}</strong></td>')
+        for b in ["0-14", "15-30", "31-60", "60+"]:
+            html.append(heat_cell(h[b], b))
+            team_buckets[b] += h[b]
+        team_buckets["total"] += h["total"]
+        html.append(f'<td style="text-align:center;font-weight:600">{h["total"]}</td></tr>\n')
+    html.append('<tr style="background:var(--gray-100);font-weight:700"><td>TEAM</td>')
+    for b in ["0-14", "15-30", "31-60", "60+"]:
+        html.append(f'<td style="text-align:center">{team_buckets[b]}</td>')
+    html.append(f'<td style="text-align:center">{team_buckets["total"]}</td></tr>\n')
     html.append("    </tbody></table>\n</div>\n")
 
     # ---- Calls & Emails Activity (two-col) ----
@@ -631,6 +991,46 @@ def generate(data_dir):
         reply_rate = e.get("replied_rate", "0")
         html.append(f'<tr><td><strong>{name}</strong></td><td>{sent}</td><td>{opened}</td><td>{open_rate}%</td><td>{replied}</td><td>{reply_rate}%</td></tr>\n')
     html.append("        </tbody></table>\n    </div>\n  </div>\n</div>\n")
+
+    # ---- Activity-to-Outcome Correlations ----
+    html.append("""
+<div class="section">
+  <div class="section-title"><img src="assets/analytics-check.svg" alt="" style="width:18px;height:18px;vertical-align:middle;opacity:0.7;"> Activity → Outcome Efficiency</div>
+  <p style="font-size:13px;color:var(--gray-500);margin-bottom:14px">High activity + low conversion = skill gap. Low activity + high conversion = capacity gap. This table helps diagnose where to coach.</p>
+  <table>
+    <thead><tr><th>Rep</th><th>Calls</th><th>Conv %</th><th>Emails</th><th>Reply %</th><th>Opps</th><th>Demo:Win</th><th>ARR/Win</th><th>ARR</th><th>Diagnosis</th></tr></thead>
+    <tbody>
+""")
+    for r in metrics:
+        name = r["Rep Name"]
+        c = calls_by_name.get(name, {})
+        e = emails_by_name.get(name, {})
+        call_total = int(c.get("calls", "0") or 0)
+        conv_rate = float(c.get("conversations_rate", "0") or 0)
+        email_total = int(e.get("sent", "0") or 0)
+        reply_rate = float(e.get("replied_rate", "0") or 0)
+        rep_opps = int(r.get("Opps", "0") or 0)
+        demo_win = parse_pct(r.get("Demo:Win", "0"))
+        arr = parse_money(r.get("Total Booked Saas ARR", "0"))
+        avg_per_win = parse_money(r.get("ARR Won per Opp", "0"))
+        pct = parse_pct(r.get("ARR % to Goal (Xactly)", "0"))
+        call_expected = round(int(r.get("Call Goal", "0") or 0) * biz_days_passed / total_biz_days) if total_biz_days else 0
+        demo_expected = round(int(r.get("Total Demo Goal", "0") or 0) * biz_days_passed / total_biz_days) if total_biz_days else 0
+        activity_ok = call_total >= call_expected * 0.8 if call_expected else True
+        conversion_ok = demo_win >= 50
+        if activity_ok and conversion_ok:
+            diagnosis = '<span class="badge badge-green">Performing</span>'
+        elif activity_ok and not conversion_ok:
+            diagnosis = '<span class="badge badge-orange">Skill Gap</span>'
+        elif not activity_ok and conversion_ok:
+            diagnosis = '<span class="badge badge-blue">Capacity Gap</span>'
+        else:
+            diagnosis = '<span class="badge badge-red">Both</span>'
+        conv_color = pct_color(conv_rate, 15, 8)
+        reply_color = pct_color(reply_rate, 15, 8)
+        dw_color = pct_color(demo_win, 60, 40)
+        html.append(f'<tr><td><strong>{rep_link(name)}</strong></td><td>{call_total}</td><td style="color:{conv_color};font-weight:600">{conv_rate}%</td><td>{email_total}</td><td style="color:{reply_color};font-weight:600">{reply_rate}%</td><td>{rep_opps}</td><td style="color:{dw_color};font-weight:600">{fmt_pct(demo_win)}</td><td>{fmt_money(avg_per_win)}</td><td style="font-weight:600">{fmt_money(arr)}</td><td>{diagnosis}</td></tr>\n')
+    html.append("    </tbody></table>\n</div>\n")
 
     # ---- Recent Wins ----
     html.append("""
@@ -884,6 +1284,15 @@ def generate(data_dir):
         elif stale_count_rep > 0:
             results_items.append(f"{stale_count_rep} deals stale >14 days — review next steps on each.")
 
+        if not is_ramping and arr_pct < 100 and quota > 0 and remaining_biz_days > 0:
+            rep_gap = quota - rep_data["arr"]
+            rep_avg = rep_data["avg_arr_per_opp"] if rep_data["avg_arr_per_opp"] > 0 else (team_arr / team_wins_count if team_wins_count else 1800)
+            rep_dw = rep_data["demo_win"] / 100 if rep_data["demo_win"] > 0 else 0.5
+            rep_deals_need = rep_gap / rep_avg
+            rep_demos_need = rep_deals_need / rep_dw
+            rep_demos_wk = rep_demos_need / remaining_weeks if remaining_weeks > 0 else 999
+            results_items.append(f"<strong>Close the Gap:</strong> Need {fmt_money(rep_gap)} more → {rep_deals_need:.1f} deals (@ {fmt_money(rep_avg)} avg) → {rep_demos_need:.0f} demos (@ {rep_dw*100:.0f}% D:W) → <strong>{rep_demos_wk:.1f} demos/week</strong> for remaining {remaining_biz_days} working days.")
+
         # Build rep page HTML
         rp = []
         rp.append(f"""<!DOCTYPE html>
@@ -943,6 +1352,27 @@ def generate(data_dir):
   .c-technique {{ background: var(--toast-orange-bg); color: var(--toast-orange); }}
   .c-results {{ background: var(--green-bg); color: var(--green); }}
   .footer {{ text-align: center; padding: 20px; font-size: 12px; color: var(--gray-400); }}
+  @media print {{
+    body {{ background: white; font-size: 11px; }}
+    .header {{ padding: 8px 16px; border-bottom: 2px solid #000; }}
+    .header-left a {{ display: none; }}
+    .content {{ padding: 8px 16px; }}
+    .scorecard {{ grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 12px; }}
+    .sc-card {{ padding: 8px 6px; border: 1px solid #ccc; }}
+    .sc-card .label {{ font-size: 9px; }}
+    .sc-card .value {{ font-size: 16px; }}
+    .sc-card .sub {{ font-size: 9px; }}
+    .section {{ padding: 10px; margin-bottom: 8px; box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }}
+    .section h2 {{ font-size: 13px; margin-bottom: 8px; }}
+    .two-col {{ grid-template-columns: 1fr 1fr; gap: 8px; }}
+    table {{ font-size: 11px; }}
+    th {{ padding: 4px 6px; font-size: 9px; }}
+    td {{ padding: 4px 6px; }}
+    .coaching li {{ padding: 4px 0; font-size: 11px; line-height: 1.4; }}
+    .badge {{ font-size: 9px; padding: 1px 6px; }}
+    .footer {{ font-size: 9px; padding: 8px; }}
+    @page {{ margin: 0.5in; size: letter; }}
+  }}
 </style>
 </head>
 <body>

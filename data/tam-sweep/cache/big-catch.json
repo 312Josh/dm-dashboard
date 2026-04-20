@@ -1,0 +1,26 @@
+{
+  "parent": "Big Catch Corporate",
+  "slug": "big-catch",
+  "total_headroom": "$21,928",
+  "non_ec_headroom": "$17,280",
+  "est_ec_headroom": "$4,648",
+  "employee_count": "28",
+  "non_ec_arr": "$7,620",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jessebelle78@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Big Catch at Salt Creek - Saint Pete"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

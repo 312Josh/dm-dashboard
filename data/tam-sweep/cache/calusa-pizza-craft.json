@@ -1,0 +1,26 @@
+{
+  "parent": "Calusa Pizza & Craft Parent",
+  "slug": "calusa-pizza-craft",
+  "total_headroom": "$18,360",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$4,380",
+  "state": "FL",
+  "city": "Lutz",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "tuliotorres7@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Calusa Pizza & Craft"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

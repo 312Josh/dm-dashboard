@@ -1,0 +1,26 @@
+{
+  "parent": "Louie's Wine Bar - Parent Account",
+  "slug": "louie-s-wine-bar",
+  "total_headroom": "$13,584",
+  "non_ec_headroom": "$13,584",
+  "est_ec_headroom": "$0",
+  "employee_count": "2",
+  "non_ec_arr": "$4,008",
+  "state": "FL",
+  "city": "Lutz",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "louieswinebar@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Louie's Wine Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

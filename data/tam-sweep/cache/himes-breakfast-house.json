@@ -1,0 +1,28 @@
+{
+  "parent": "Himes Breakfast House - Parent",
+  "slug": "himes-breakfast-house",
+  "total_headroom": "$34,188",
+  "non_ec_headroom": "$34,188",
+  "est_ec_headroom": "$0",
+  "employee_count": "79",
+  "non_ec_arr": "$37,526",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jc@shellsseafood.com",
+  "location_count": 3,
+  "location_names": [
+    "Himes Breakfast House - Brandon FL",
+    "Himes Breakfast House",
+    "Himes Breakfast House - Riverview"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

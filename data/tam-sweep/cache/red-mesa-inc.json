@@ -1,0 +1,29 @@
+{
+  "parent": "Red Mesa Inc. Parent",
+  "slug": "red-mesa-inc",
+  "total_headroom": "$91,400",
+  "non_ec_headroom": "$60,516",
+  "est_ec_headroom": "$30,884",
+  "employee_count": "184",
+  "non_ec_arr": "$67,139",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "veytia1055@aol.com",
+  "location_count": 4,
+  "location_names": [
+    "Red Mesa Cantina",
+    "Red Mesa Restaurant",
+    "Red Mesa Mercado",
+    "Red Mesa Mercado - West"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

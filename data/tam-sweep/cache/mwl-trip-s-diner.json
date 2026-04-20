@@ -1,0 +1,28 @@
+{
+  "parent": "MWL - Trip's Diner - Parent",
+  "slug": "mwl-trip-s-diner",
+  "total_headroom": "$46,944",
+  "non_ec_headroom": "$46,944",
+  "est_ec_headroom": "$0",
+  "employee_count": "78",
+  "non_ec_arr": "$15,378",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ndemartino@vareton.com",
+  "location_count": 3,
+  "location_names": [
+    "Trip's Diner - Tampa",
+    "Trip's Diner - St. Pete",
+    "Lonni's Sandwiches"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

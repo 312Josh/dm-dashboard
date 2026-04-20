@@ -1,0 +1,26 @@
+{
+  "parent": "Fuego Tequila Lounge - Parent Account",
+  "slug": "fuego-tequila-lounge",
+  "total_headroom": "$18,420",
+  "non_ec_headroom": "$18,420",
+  "est_ec_headroom": "$0",
+  "employee_count": "44",
+  "non_ec_arr": "$11,004",
+  "state": "FL",
+  "city": "Lakewood Ranch",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "fuegotequilalounge@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Fuego Tequila Lounge"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Bruton's Cigar Bar",
+  "slug": "bruton-s-cigar-bar",
+  "total_headroom": "$20,800",
+  "non_ec_headroom": "$19,512",
+  "est_ec_headroom": "$1,288",
+  "employee_count": "8",
+  "non_ec_arr": "$2,628",
+  "state": "FL",
+  "city": "Plant City",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "david@brutonscigarshop.com",
+  "location_count": 1,
+  "location_names": [
+    "Bruton's Cigar Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

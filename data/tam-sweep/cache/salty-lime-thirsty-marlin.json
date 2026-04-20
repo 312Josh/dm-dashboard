@@ -1,0 +1,27 @@
+{
+  "parent": "Salty Lime/Thirsty Marlin Parent",
+  "slug": "salty-lime-thirsty-marlin",
+  "total_headroom": "$36,744",
+  "non_ec_headroom": "$36,744",
+  "est_ec_headroom": "$0",
+  "employee_count": "67",
+  "non_ec_arr": "$11,616",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "allyson.mickool@floridafa.com",
+  "location_count": 2,
+  "location_names": [
+    "Senor Ritas",
+    "Thirsty Marlin Inc"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

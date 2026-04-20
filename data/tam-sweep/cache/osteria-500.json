@@ -1,0 +1,26 @@
+{
+  "parent": "Osteria 500 parent",
+  "slug": "osteria-500",
+  "total_headroom": "$17,652",
+  "non_ec_headroom": "$17,652",
+  "est_ec_headroom": "$0",
+  "employee_count": "51",
+  "non_ec_arr": "$8,461",
+  "state": "FL",
+  "city": "Lakewood Ranch",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "gdelsole77@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Osteria 500"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

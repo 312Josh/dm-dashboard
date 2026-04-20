@@ -1,0 +1,29 @@
+{
+  "parent": "Lazy Lobster Parent",
+  "slug": "lazy-lobster",
+  "total_headroom": "$76,788",
+  "non_ec_headroom": "$61,080",
+  "est_ec_headroom": "$15,708",
+  "employee_count": "93",
+  "non_ec_arr": "$26,751",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "michael@lazylobsterlbk.com",
+  "location_count": 4,
+  "location_names": [
+    "Kacey's Seafood & More - Lockwood Ridge",
+    "Tylers Ice Cream of Longboat Key",
+    "Kacey's Seafood & More - Fruitville",
+    "Lazy Lobster - Longboat Key"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

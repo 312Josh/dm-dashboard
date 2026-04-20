@@ -1,0 +1,26 @@
+{
+  "parent": "Old Castle Restaurant Inc.",
+  "slug": "old-castle-restaurant-inc",
+  "total_headroom": "$23,920",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$4,480",
+  "employee_count": "27",
+  "non_ec_arr": "$4,299",
+  "state": "FL",
+  "city": "Ruskin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "elasun2@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Old Castle Restaurant Inc."
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

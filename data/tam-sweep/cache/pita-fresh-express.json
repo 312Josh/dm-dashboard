@@ -1,0 +1,26 @@
+{
+  "parent": "Pita Fresh Express",
+  "slug": "pita-fresh-express",
+  "total_headroom": "$17,344",
+  "non_ec_headroom": "$16,980",
+  "est_ec_headroom": "$364",
+  "employee_count": "2",
+  "non_ec_arr": "$1,320",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "samira.addi44@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pita Fresh Express"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

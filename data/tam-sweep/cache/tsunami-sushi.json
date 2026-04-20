@@ -1,0 +1,27 @@
+{
+  "parent": "Tsunami Sushi - Parent",
+  "slug": "tsunami-sushi",
+  "total_headroom": "$21,360",
+  "non_ec_headroom": "$21,360",
+  "est_ec_headroom": "$0",
+  "employee_count": "93",
+  "non_ec_arr": "$31,194",
+  "state": "FL",
+  "city": "Lakewood Ranch",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "samuel@hanamisarasota.com",
+  "location_count": 2,
+  "location_names": [
+    "Tsunami Restaurant - Lakewood Ranch",
+    "Hanami"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

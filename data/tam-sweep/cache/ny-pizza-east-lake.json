@@ -1,0 +1,26 @@
+{
+  "parent": "NY PIZZA EAST LAKE - Parent Account",
+  "slug": "ny-pizza-east-lake",
+  "total_headroom": "$19,296",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$3,720",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "cgj.business.solutions@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "NY PIZZA EAST LAKE"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

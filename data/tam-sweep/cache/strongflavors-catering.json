@@ -1,0 +1,26 @@
+{
+  "parent": "StrongFlavors Catering",
+  "slug": "strongflavors-catering",
+  "total_headroom": "$16,188",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$420",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "strongflavorscatering@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "StrongFlavors Catering"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

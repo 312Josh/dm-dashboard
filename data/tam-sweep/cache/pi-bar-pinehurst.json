@@ -1,0 +1,27 @@
+{
+  "parent": "Pi Bar / Pinehurst Parent",
+  "slug": "pi-bar-pinehurst",
+  "total_headroom": "$40,380",
+  "non_ec_headroom": "$40,380",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$2,520",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "barttraviolia@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Pi Pizza Bar",
+    "Pinehurst Pub"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "Sparta Seafood - Parent Account",
+  "slug": "sparta-seafood",
+  "total_headroom": "$35,812",
+  "non_ec_headroom": "$33,600",
+  "est_ec_headroom": "$2,212",
+  "employee_count": "13",
+  "non_ec_arr": "$11,190",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "info@spartaseafoodandgrill.com",
+  "location_count": 2,
+  "location_names": [
+    "Sparta Express",
+    "Sparta Seafood"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

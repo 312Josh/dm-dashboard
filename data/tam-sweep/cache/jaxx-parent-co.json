@@ -1,0 +1,26 @@
+{
+  "parent": "JAXX PARENT CO",
+  "slug": "jaxx-parent-co",
+  "total_headroom": "$17,136",
+  "non_ec_headroom": "$15,792",
+  "est_ec_headroom": "$1,344",
+  "employee_count": "8",
+  "non_ec_arr": "$7,128",
+  "state": "FL",
+  "city": "Palmetto",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jaxxwingco@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Jaxx Wing Company"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Fitzgeralds Irish Tavern - Parent Account",
+  "slug": "fitzgeralds-irish-tavern",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "17",
+  "non_ec_arr": "$2,400",
+  "state": "FL",
+  "city": "New Port Richey",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "bar.dannys@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Fitzgeralds Irish Tavern"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

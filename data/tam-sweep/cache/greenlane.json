@@ -1,0 +1,60 @@
+{
+  "parent": "Greenlane Parent",
+  "slug": "greenlane",
+  "total_headroom": "$104,556",
+  "non_ec_headroom": "$104,556",
+  "est_ec_headroom": "$0",
+  "employee_count": "75",
+  "non_ec_arr": "$40,920",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "erica@gogreenlane.com",
+  "location_count": 6,
+  "location_names": [
+    "Greenlane - Stadium",
+    "Greenlane - Cypress Creek",
+    "Greenlane - Sunlake",
+    "Greenlane - Gandy",
+    "Greenlane - St Pete 4th Street",
+    "NEW - Greenlane - Dale Mabry"
+  ],
+  "websites": [
+    "https://www.gogreenlane.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.gogreenlane.com/": {
+      "url": "https://www.gogreenlane.com/",
+      "html_bytes": 39320,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "loyalty": "Incentivio"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.gogreenlane.com/"
+      }
+    },
+    "https://www.gogreenlane.com/menus/": {
+      "url": "https://www.gogreenlane.com/menus/",
+      "html_bytes": 110754,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "loyalty": "Incentivio"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.gogreenlane.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.gogreenlane.com/"
+  },
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

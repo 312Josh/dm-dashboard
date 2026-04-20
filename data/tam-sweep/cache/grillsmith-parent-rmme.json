@@ -1,0 +1,39 @@
+{
+  "parent": "Grillsmith - Parent RMME",
+  "slug": "grillsmith-parent-rmme",
+  "total_headroom": "$133,596",
+  "non_ec_headroom": "$81,600",
+  "est_ec_headroom": "$51,996",
+  "employee_count": "309",
+  "non_ec_arr": "$48,720",
+  "state": "FL",
+  "city": "Lakeland",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "mjohnston@burger21.com",
+  "location_count": 5,
+  "location_names": [
+    "GrillSmith Lakeland",
+    "GrillSmith Wesley Chapel",
+    "GrillSmith Countryside",
+    "Grillsmith-Carrollwood",
+    "GrillSmith Sarasota"
+  ],
+  "websites": [
+    "https://www.grillsmith.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.grillsmith.com/": {
+      "url": "https://www.grillsmith.com/",
+      "html_bytes": 7153,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Acapulco Mexican Restaurant - Parent Account",
+  "slug": "acapulco-mexican-restaurant",
+  "total_headroom": "$24,416",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$4,676",
+  "employee_count": "28",
+  "non_ec_arr": "$4,950",
+  "state": "FL",
+  "city": "BRADENTON",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "acapulco1833@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Acapulco Mexican Restaurant"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

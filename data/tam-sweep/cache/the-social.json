@@ -1,0 +1,27 @@
+{
+  "parent": "The Social - Parent Account",
+  "slug": "the-social",
+  "total_headroom": "$29,892",
+  "non_ec_headroom": "$29,892",
+  "est_ec_headroom": "$0",
+  "employee_count": "91",
+  "non_ec_arr": "$31,467",
+  "state": "FL",
+  "city": "New Port Richey",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jeffrob1977@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "The Social",
+    "Seafire Grill - New"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

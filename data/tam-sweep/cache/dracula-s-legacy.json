@@ -1,0 +1,27 @@
+{
+  "parent": "Dracula's Legacy Parent",
+  "slug": "dracula-s-legacy",
+  "total_headroom": "$45,968",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$4,088",
+  "employee_count": "24",
+  "non_ec_arr": "$630",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "neamturamona@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Dracula's Legacy Wine Bar Tampa",
+    "Dracula's Legacy Wine Bar St. Pete"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

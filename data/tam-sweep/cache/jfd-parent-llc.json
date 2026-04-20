@@ -1,0 +1,27 @@
+{
+  "parent": "JFD Parent, LLC",
+  "slug": "jfd-parent-llc",
+  "total_headroom": "$40,980",
+  "non_ec_headroom": "$40,980",
+  "est_ec_headroom": "$0",
+  "employee_count": "26",
+  "non_ec_arr": "$7,680",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jem@mitchellinvest.us",
+  "location_count": 2,
+  "location_names": [
+    "The Original Wolfie's Restaurant, Deli and The Rascal House Bar",
+    "The Original Wolfies Bakery and Box Office - LWR"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

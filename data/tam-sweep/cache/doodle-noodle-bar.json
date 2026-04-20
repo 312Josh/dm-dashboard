@@ -1,0 +1,27 @@
+{
+  "parent": "Doodle Noodle Bar - Parent Account",
+  "slug": "doodle-noodle-bar",
+  "total_headroom": "$34,620",
+  "non_ec_headroom": "$34,620",
+  "est_ec_headroom": "$0",
+  "employee_count": "33",
+  "non_ec_arr": "$12,180",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "usf@doodlenoodlebar.com",
+  "location_count": 2,
+  "location_names": [
+    "Doodle Noodle Bar",
+    "Doodle Noodle Bar Fowler Ave"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

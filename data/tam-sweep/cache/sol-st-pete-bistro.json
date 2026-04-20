@@ -1,0 +1,26 @@
+{
+  "parent": "sol st pete bistro - Parent Account",
+  "slug": "sol-st-pete-bistro",
+  "total_headroom": "$20,296",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$1,456",
+  "employee_count": "9",
+  "non_ec_arr": "$5,040",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "admin@solstpete.com",
+  "location_count": 1,
+  "location_names": [
+    "sol st pete bistro"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Sushi Rock Grill - Parent Account",
+  "slug": "sushi-rock-grill",
+  "total_headroom": "$25,476",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$4,536",
+  "employee_count": "27",
+  "non_ec_arr": "$2,208",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "lharris.vi@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sushi Rock Grill"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

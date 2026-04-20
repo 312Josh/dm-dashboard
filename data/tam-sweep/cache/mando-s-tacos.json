@@ -1,0 +1,26 @@
+{
+  "parent": "Mando's Tacos",
+  "slug": "mando-s-tacos",
+  "total_headroom": "$20,816",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$476",
+  "employee_count": "3",
+  "non_ec_arr": "$600",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "kingdomcoolingandheating@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mando's Tacos"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

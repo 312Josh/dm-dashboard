@@ -1,0 +1,26 @@
+{
+  "parent": "Skyway Jack's Parent",
+  "slug": "skyway-jack-s",
+  "total_headroom": "$21,064",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$1,624",
+  "employee_count": "10",
+  "non_ec_arr": "$7,980",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "darrenskywayjacks@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Skyway Jack's - Saint Petersburg"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

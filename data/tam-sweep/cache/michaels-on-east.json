@@ -1,0 +1,82 @@
+{
+  "parent": "Michaels On East - Parent Account",
+  "slug": "michaels-on-east",
+  "total_headroom": "$94,460",
+  "non_ec_headroom": "$77,352",
+  "est_ec_headroom": "$17,108",
+  "employee_count": "102",
+  "non_ec_arr": "$27,324",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "michael.klauber@bestfood.com",
+  "location_count": 4,
+  "location_names": [
+    "Michaels On East",
+    "MOE- Green Orchid",
+    "MOE- Selby Group",
+    "MOE-Selby Catering"
+  ],
+  "websites": [
+    "https://bestfood.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bestfood.com/": {
+      "url": "https://bestfood.com/",
+      "html_bytes": 62728,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/michaels-on-east/rewardsSignup"
+      }
+    },
+    "https://bestfood.com/restaurant/reservations": {
+      "url": "https://bestfood.com/restaurant/reservations",
+      "html_bytes": 39430,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/michaels-on-east/rewardsSignup"
+      }
+    },
+    "https://bestfood.com/gift-cards": {
+      "url": "https://bestfood.com/gift-cards",
+      "html_bytes": 41143,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/michaels-on-east/rewardsSignup"
+      }
+    },
+    "https://bestfood.com/rewards": {
+      "url": "https://bestfood.com/rewards",
+      "html_bytes": 55561,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/michaels-on-east/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/michaels-on-east/rewardsSignup"
+  },
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

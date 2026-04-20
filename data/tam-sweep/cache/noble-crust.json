@@ -1,0 +1,38 @@
+{
+  "parent": "Noble Crust Corporate",
+  "slug": "noble-crust",
+  "total_headroom": "$108,788",
+  "non_ec_headroom": "$65,304",
+  "est_ec_headroom": "$43,484",
+  "employee_count": "259",
+  "non_ec_arr": "$44,658",
+  "state": "FL",
+  "city": "St Petersburg",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jeff@noble-crust.com",
+  "location_count": 4,
+  "location_names": [
+    "Noble Crust - St. Pete",
+    "Noble Crust - Carrollwood",
+    "Noble Crust - Wesley Chapel",
+    "Noble Tavern - St. Pete"
+  ],
+  "websites": [
+    "https://www.noble-crust.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.noble-crust.com/": {
+      "url": "https://www.noble-crust.com/",
+      "html_bytes": 7175,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

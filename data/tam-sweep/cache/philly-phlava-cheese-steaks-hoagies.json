@@ -1,0 +1,26 @@
+{
+  "parent": "Philly Phlava Cheese Steaks-Hoagies Parent",
+  "slug": "philly-phlava-cheese-steaks-hoagies",
+  "total_headroom": "$22,116",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,176",
+  "employee_count": "7",
+  "non_ec_arr": "$3,360",
+  "state": "FL",
+  "city": "Odessa",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "bcoia9@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Philly Phlava Cheese Steaks-Hoagies"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

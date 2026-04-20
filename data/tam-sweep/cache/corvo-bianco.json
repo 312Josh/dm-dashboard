@@ -1,0 +1,26 @@
+{
+  "parent": "Corvo Bianco Parent",
+  "slug": "corvo-bianco",
+  "total_headroom": "$18,132",
+  "non_ec_headroom": "$18,132",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$5,049",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "dena@corvobianco.pizza",
+  "location_count": 1,
+  "location_names": [
+    "Corvo Bianco - Curlew"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Bullfrog Creek Brewing - Parent Account",
+  "slug": "bullfrog-creek-brewing",
+  "total_headroom": "$17,008",
+  "non_ec_headroom": "$14,964",
+  "est_ec_headroom": "$2,044",
+  "employee_count": "12",
+  "non_ec_arr": "$6,322",
+  "state": "FL",
+  "city": "Valrico",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jamie.ratcliff@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bullfrog Creek Brewing"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

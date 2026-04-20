@@ -1,0 +1,27 @@
+{
+  "parent": "The Greyson Bar - Parent Account",
+  "slug": "the-greyson-bar",
+  "total_headroom": "$35,040",
+  "non_ec_headroom": "$35,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "107",
+  "non_ec_arr": "$14,988",
+  "state": "FL",
+  "city": "Lakewood Ranch",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "russell@greysonbar.com",
+  "location_count": 2,
+  "location_names": [
+    "The Greyson - LWR",
+    "The Greyson Bar - Palmetto"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

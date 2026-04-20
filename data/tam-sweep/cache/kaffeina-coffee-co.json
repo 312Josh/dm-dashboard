@@ -1,0 +1,26 @@
+{
+  "parent": "Kaffeina Coffee Co",
+  "slug": "kaffeina-coffee-co",
+  "total_headroom": "$21,780",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$840",
+  "employee_count": "5",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "New Port Richey",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "larry@kaffeinacoffee.com",
+  "location_count": 1,
+  "location_names": [
+    "Kaffeina Coffee Co"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

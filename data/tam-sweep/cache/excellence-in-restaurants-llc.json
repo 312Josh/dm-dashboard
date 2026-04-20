@@ -1,0 +1,33 @@
+{
+  "parent": "Excellence in Restaurants LLC",
+  "slug": "excellence-in-restaurants-llc",
+  "total_headroom": "$138,500",
+  "non_ec_headroom": "$86,448",
+  "est_ec_headroom": "$52,052",
+  "employee_count": "311",
+  "non_ec_arr": "$53,703",
+  "state": "FL",
+  "city": "Land O' Lakes",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "difantealex497@gmail.com",
+  "location_count": 6,
+  "location_names": [
+    "Stonewater Grill",
+    "Island Time Bar & Grill Bridge Street Bistro",
+    "Riviera Dunes Dockside",
+    "Bourbon and Bones",
+    "Slider & Flight",
+    "Surf Shack Coastal Kitchen"
+  ],
+  "websites": [
+    ""
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

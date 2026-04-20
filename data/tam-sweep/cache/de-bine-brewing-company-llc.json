@@ -1,0 +1,26 @@
+{
+  "parent": "De Bine Brewing Company LLC",
+  "slug": "de-bine-brewing-company-llc",
+  "total_headroom": "$18,944",
+  "non_ec_headroom": "$17,880",
+  "est_ec_headroom": "$1,064",
+  "employee_count": "6",
+  "non_ec_arr": "$2,811",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "ben@debine.com",
+  "location_count": 1,
+  "location_names": [
+    "De Bine Brewing Company LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

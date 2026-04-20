@@ -1,0 +1,26 @@
+{
+  "parent": "Cynthana Scoops & Treats",
+  "slug": "cynthana-scoops-treats",
+  "total_headroom": "$16,356",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "cynthanaessentials@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cynthana Scoops & Treats"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

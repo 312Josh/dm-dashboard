@@ -1,0 +1,26 @@
+{
+  "parent": "The Orpheum Parent",
+  "slug": "the-orpheum",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,692",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "lazy108@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Orpheum"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

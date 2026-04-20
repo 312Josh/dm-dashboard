@@ -1,0 +1,26 @@
+{
+  "parent": "Tin Viet & Sushi Bar - Parent Account",
+  "slug": "tin-viet-sushi-bar",
+  "total_headroom": "$18,360",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$5,520",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "tinvietsushibar@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tin Viet & Sushi Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

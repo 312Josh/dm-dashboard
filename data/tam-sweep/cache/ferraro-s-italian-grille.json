@@ -1,0 +1,26 @@
+{
+  "parent": "Ferraro's Italian Grille Parent",
+  "slug": "ferraro-s-italian-grille",
+  "total_headroom": "$27,104",
+  "non_ec_headroom": "$18,480",
+  "est_ec_headroom": "$8,624",
+  "employee_count": "51",
+  "non_ec_arr": "$9,171",
+  "state": "FL",
+  "city": "Parrish",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "anthony.logrande@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Ferraro's Italian Grille"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

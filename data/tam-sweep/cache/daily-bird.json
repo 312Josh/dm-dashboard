@@ -1,0 +1,29 @@
+{
+  "parent": "Daily Bird Corporate",
+  "slug": "daily-bird",
+  "total_headroom": "$65,568",
+  "non_ec_headroom": "$65,568",
+  "est_ec_headroom": "$0",
+  "employee_count": "203",
+  "non_ec_arr": "$23,604",
+  "state": "FL",
+  "city": "SARASOTA",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "caragiulos@verizon.net",
+  "location_count": 4,
+  "location_names": [
+    "Veronica Fish and Oyster",
+    "Owen's Fish Camp",
+    "Caraguilo's Italian American Restaurant",
+    "Owen's Fish Camp - Lakewood Ranch"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

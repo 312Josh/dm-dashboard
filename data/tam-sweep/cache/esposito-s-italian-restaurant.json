@@ -1,0 +1,26 @@
+{
+  "parent": "Esposito's Italian Restaurant - Parent Account",
+  "slug": "esposito-s-italian-restaurant",
+  "total_headroom": "$29,136",
+  "non_ec_headroom": "$18,552",
+  "est_ec_headroom": "$10,584",
+  "employee_count": "63",
+  "non_ec_arr": "$5,388",
+  "state": "FL",
+  "city": "tampa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rocvar48@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Esposito's Italian Restaurant"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

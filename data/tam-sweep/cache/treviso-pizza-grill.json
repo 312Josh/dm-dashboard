@@ -1,0 +1,26 @@
+{
+  "parent": "Treviso Pizza + Grill - Parent Account",
+  "slug": "treviso-pizza-grill",
+  "total_headroom": "$18,960",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$5,100",
+  "state": "FL",
+  "city": "Seminole",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "tasokonstantonis@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Treviso Pizza Grill"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

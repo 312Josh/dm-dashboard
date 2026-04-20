@@ -1,0 +1,29 @@
+{
+  "parent": "Mark Birkin Enterprises",
+  "slug": "mark-birkin-enterprises",
+  "total_headroom": "$82,220",
+  "non_ec_headroom": "$70,992",
+  "est_ec_headroom": "$11,228",
+  "employee_count": "67",
+  "non_ec_arr": "$29,976",
+  "state": "FL",
+  "city": "Lutz",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "markjbirkin@gmail.com",
+  "location_count": 4,
+  "location_names": [
+    "New Tampa Steak & Sushi",
+    "Wexford Irish Pub",
+    "Ichiban",
+    "Wexford Irish Pub New"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

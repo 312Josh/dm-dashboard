@@ -1,0 +1,26 @@
+{
+  "parent": "Remy's On Main - Lakewood Ranch Parent",
+  "slug": "remy-s-on-main-lakewood-ranch",
+  "total_headroom": "$17,112",
+  "non_ec_headroom": "$17,112",
+  "est_ec_headroom": "$0",
+  "employee_count": "22",
+  "non_ec_arr": "$8,520",
+  "state": "FL",
+  "city": "Lakewood Ranch",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "larremington@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Remy's On Main - Lakewood Ranch"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

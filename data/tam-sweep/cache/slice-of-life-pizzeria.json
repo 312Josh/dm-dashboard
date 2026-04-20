@@ -1,0 +1,26 @@
+{
+  "parent": "Slice Of Life Pizzeria Parent",
+  "slug": "slice-of-life-pizzeria",
+  "total_headroom": "$17,280",
+  "non_ec_headroom": "$17,280",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$5,844",
+  "state": "FL",
+  "city": "New Port Richey",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "sliceoflifepizza1@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Slice Of Life Pizzeria"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Donavan's Meatery - Parent",
+  "slug": "donavan-s-meatery",
+  "total_headroom": "$14,604",
+  "non_ec_headroom": "$14,604",
+  "est_ec_headroom": "$0",
+  "employee_count": "30",
+  "non_ec_arr": "$17,136",
+  "state": "FL",
+  "city": "Riverview",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "john@donovansmeatery.com",
+  "location_count": 1,
+  "location_names": [
+    "Donavan's Meatery"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

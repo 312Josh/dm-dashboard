@@ -1,0 +1,26 @@
+{
+  "parent": "Stottlemyer's Smokehouse - Parent Account",
+  "slug": "stottlemyer-s-smokehouse",
+  "total_headroom": "$13,632",
+  "non_ec_headroom": "$13,632",
+  "est_ec_headroom": "$0",
+  "employee_count": "53",
+  "non_ec_arr": "$17,508",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "fruitville.texaco@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Stottlemyer's Smokehouse"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

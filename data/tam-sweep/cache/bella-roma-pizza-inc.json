@@ -1,0 +1,26 @@
+{
+  "parent": "Bella Roma Pizza Inc",
+  "slug": "bella-roma-pizza-inc",
+  "total_headroom": "$17,748",
+  "non_ec_headroom": "$17,580",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$720",
+  "state": "FL",
+  "city": "Lutz",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "bellaroma.lutz@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "Bella Roma Pizza Inc"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

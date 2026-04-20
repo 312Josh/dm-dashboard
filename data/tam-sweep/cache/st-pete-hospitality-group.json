@@ -1,0 +1,28 @@
+{
+  "parent": "St. Pete Hospitality Group",
+  "slug": "st-pete-hospitality-group",
+  "total_headroom": "$48,276",
+  "non_ec_headroom": "$48,276",
+  "est_ec_headroom": "$0",
+  "employee_count": "209",
+  "non_ec_arr": "$48,340",
+  "state": "FL",
+  "city": "St Petersburg",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "cbandel@thedali.org",
+  "location_count": 3,
+  "location_names": [
+    "Cafe Gala",
+    "Parkshore Grill",
+    "The Island Grille & Raw Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "The Hot Tomato- Parent Account",
+  "slug": "the-hot-tomato",
+  "total_headroom": "$38,536",
+  "non_ec_headroom": "$35,484",
+  "est_ec_headroom": "$3,052",
+  "employee_count": "19",
+  "non_ec_arr": "$10,122",
+  "state": "FL",
+  "city": "Lithia",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "tinadetty224@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "The Sandwich Shop of Lithia",
+    "The hot tomato"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

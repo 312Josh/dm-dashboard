@@ -1,0 +1,45 @@
+{
+  "parent": "Carousel's Soft Serve Icery - Parent Account",
+  "slug": "carousel-s-soft-serve-icery",
+  "total_headroom": "$179,420",
+  "non_ec_headroom": "$173,484",
+  "est_ec_headroom": "$5,936",
+  "employee_count": "36",
+  "non_ec_arr": "$16,354",
+  "state": "FL",
+  "city": "Orlando",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "matt@carousels.com",
+  "location_count": 9,
+  "location_names": [
+    "Carousel's - Food Truck 4 - Orlando, FL",
+    "Carousel's - Food Truck 1 - Bradenton, FL",
+    "Carousel's - Food Truck 2 - Bradenton",
+    "Bryan College Station",
+    "Carousel's - Food Truck 5 - Sarasota, FL",
+    "Carousel's - Food Truck 8 - Southlake, TX",
+    "Carousel's - Food Truck 6 - Woodlands, TX",
+    "Carousel's Soft Serve Icery 11 Michigan",
+    "Carousel's Soft Serve Icery"
+  ],
+  "websites": [
+    "https://carousels.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://carousels.com/": {
+      "url": "https://carousels.com/",
+      "html_bytes": 69298,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

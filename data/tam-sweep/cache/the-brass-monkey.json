@@ -1,0 +1,26 @@
+{
+  "parent": "The Brass Monkey - Parent Account",
+  "slug": "the-brass-monkey",
+  "total_headroom": "$15,024",
+  "non_ec_headroom": "$15,024",
+  "est_ec_headroom": "$0",
+  "employee_count": "30",
+  "non_ec_arr": "$12,252",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kellystreib@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "The Brass Monkey"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

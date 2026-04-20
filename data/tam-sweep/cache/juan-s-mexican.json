@@ -1,0 +1,29 @@
+{
+  "parent": "Juan's Mexican Corporate",
+  "slug": "juan-s-mexican",
+  "total_headroom": "$80,400",
+  "non_ec_headroom": "$80,400",
+  "est_ec_headroom": "$0",
+  "employee_count": "39",
+  "non_ec_arr": "$4,793",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "cbr_98@yahoo.com",
+  "location_count": 4,
+  "location_names": [
+    "Juan's Mexican Grill - Dunedin",
+    "Juan's Mexican Grill - Palm Harbor",
+    "Juans Mexican Grill- East Lake",
+    "Juan's Mexican Grill Oldsmar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "Munchin Meals LLC",
+  "slug": "munchin-meals-llc",
+  "total_headroom": "$19,128",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Holiday",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "munchinmealsllc1@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Munchin Meals LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "Broad St Cheesecakes/The Nest at West End Market",
+  "slug": "broad-st-cheesecakes-the-nest-at-west-end-market",
+  "total_headroom": "$40,050",
+  "non_ec_headroom": "$36,732",
+  "est_ec_headroom": "$3,318",
+  "employee_count": "20",
+  "non_ec_arr": "$8,148",
+  "state": "FL",
+  "city": "Dunedin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "perfectplatesbychefshawn@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Broad St Cheesesteaks & The Nest",
+    "Spoons at Dunedin mix"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

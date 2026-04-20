@@ -1,0 +1,26 @@
+{
+  "parent": "Stella's & Salty Nun - FL",
+  "slug": "stella-s-salty-nun-fl",
+  "total_headroom": "$15,792",
+  "non_ec_headroom": "$15,792",
+  "est_ec_headroom": "$0",
+  "employee_count": "36",
+  "non_ec_arr": "$9,984",
+  "state": "FL",
+  "city": "Gulfport",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bbanno916@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Stella's"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

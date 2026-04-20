@@ -1,0 +1,29 @@
+{
+  "parent": "Hungry Harry's Famous BBQ - Parent",
+  "slug": "hungry-harry-s-famous-bbq",
+  "total_headroom": "$89,964",
+  "non_ec_headroom": "$70,980",
+  "est_ec_headroom": "$18,984",
+  "employee_count": "114",
+  "non_ec_arr": "$27,602",
+  "state": "FL",
+  "city": "Land O Lakes",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "chad@hhbbq.com",
+  "location_count": 4,
+  "location_names": [
+    "Hungry Harry's",
+    "High Ridge Adventure & BBQ",
+    "High Ridge Food Truck",
+    "High Ridge Smokehouse"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

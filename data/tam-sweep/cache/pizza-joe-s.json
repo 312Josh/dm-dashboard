@@ -1,0 +1,26 @@
+{
+  "parent": "Pizza Joe's - Parent Account",
+  "slug": "pizza-joe-s",
+  "total_headroom": "$20,756",
+  "non_ec_headroom": "$19,020",
+  "est_ec_headroom": "$1,736",
+  "employee_count": "10",
+  "non_ec_arr": "$3,840",
+  "state": "FL",
+  "city": "Palm Harbor",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "smak219@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pizza Joe's"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

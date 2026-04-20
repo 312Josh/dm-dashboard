@@ -1,0 +1,26 @@
+{
+  "parent": "Eves family restaurant - Parent Account",
+  "slug": "eves-family-restaurant",
+  "total_headroom": "$18,840",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$3,792",
+  "state": "FL",
+  "city": "Oldsmar",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "c.dfalso@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Eves family restaurant"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

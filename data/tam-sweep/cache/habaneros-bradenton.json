@@ -1,0 +1,26 @@
+{
+  "parent": "Habaneros - Bradenton - Parent Account",
+  "slug": "habaneros-bradenton",
+  "total_headroom": "$45,432",
+  "non_ec_headroom": "$38,880",
+  "est_ec_headroom": "$6,552",
+  "employee_count": "39",
+  "non_ec_arr": "$6,600",
+  "state": "FL",
+  "city": "Bradenton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ramirez19161@hotmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Avocado's Cocina Mexicana & Bar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

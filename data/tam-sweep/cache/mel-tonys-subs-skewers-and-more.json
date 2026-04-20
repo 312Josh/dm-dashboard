@@ -1,0 +1,26 @@
+{
+  "parent": "Mel & Tonys Subs, Skewers, and more",
+  "slug": "mel-tonys-subs-skewers-and-more",
+  "total_headroom": "$19,464",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Hudson",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "melanieholmes0520@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mel & Tonys Subs, Skewers, and more"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

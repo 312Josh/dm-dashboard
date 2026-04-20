@@ -1,0 +1,26 @@
+{
+  "parent": "Dave's Smoked BBQ",
+  "slug": "dave-s-smoked-bbq",
+  "total_headroom": "$19,128",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$420",
+  "state": "FL",
+  "city": "Riverview",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jasmine0899@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Dave's Smoked BBQ"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

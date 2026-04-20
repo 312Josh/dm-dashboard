@@ -1,0 +1,26 @@
+{
+  "parent": "Tampa Para Cristo Inc.",
+  "slug": "tampa-para-cristo-inc",
+  "total_headroom": "$21,276",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Seffner",
+  "restaurant_type": "Unknown",
+  "contact_email": "betzalyzelaya@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Tampa Para Cristo Inc."
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

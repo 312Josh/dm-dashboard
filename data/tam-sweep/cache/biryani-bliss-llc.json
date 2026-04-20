@@ -1,0 +1,26 @@
+{
+  "parent": "Biryani Bliss, LLC",
+  "slug": "biryani-bliss-llc",
+  "total_headroom": "$17,328",
+  "non_ec_headroom": "$16,992",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$600",
+  "state": "FL",
+  "city": "Seffner",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "info@biryani-bliss.com",
+  "location_count": 1,
+  "location_names": [
+    "Biryani Bliss, LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

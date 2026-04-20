@@ -1,0 +1,26 @@
+{
+  "parent": "Meat Up Restaurant Group - Parent",
+  "slug": "meat-up-restaurant-group",
+  "total_headroom": "$31,384",
+  "non_ec_headroom": "$19,680",
+  "est_ec_headroom": "$11,704",
+  "employee_count": "70",
+  "non_ec_arr": "$5,112",
+  "state": "FL",
+  "city": "Oldsmar",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "npappas4@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Flamestone Grill - Oldsmar"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

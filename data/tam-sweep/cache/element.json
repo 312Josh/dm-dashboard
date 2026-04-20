@@ -1,0 +1,26 @@
+{
+  "parent": "Element",
+  "slug": "element",
+  "total_headroom": "$23,116",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$3,976",
+  "employee_count": "24",
+  "non_ec_arr": "$3,372",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "ms@elementsrq.com",
+  "location_count": 1,
+  "location_names": [
+    "Element"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

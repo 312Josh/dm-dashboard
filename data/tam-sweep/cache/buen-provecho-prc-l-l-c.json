@@ -1,0 +1,26 @@
+{
+  "parent": "Buen Provecho PRC L.L.C",
+  "slug": "buen-provecho-prc-l-l-c",
+  "total_headroom": "$16,020",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Brandon",
+  "restaurant_type": "Unknown",
+  "contact_email": "yermirahoward@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Buen Provecho PRC L.L.C"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

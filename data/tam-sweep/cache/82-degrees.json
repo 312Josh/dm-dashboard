@@ -1,0 +1,26 @@
+{
+  "parent": "82 Degrees Parent",
+  "slug": "82-degrees",
+  "total_headroom": "$13,884",
+  "non_ec_headroom": "$13,884",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$13,128",
+  "state": "FL",
+  "city": "St. Pete Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "dm@luminary-dc.com",
+  "location_count": 1,
+  "location_names": [
+    "82 Degrees Bar - Grill"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

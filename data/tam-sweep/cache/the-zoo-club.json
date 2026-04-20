@@ -1,0 +1,26 @@
+{
+  "parent": "The Zoo Club - Parent Account",
+  "slug": "the-zoo-club",
+  "total_headroom": "$16,404",
+  "non_ec_headroom": "$12,624",
+  "est_ec_headroom": "$3,780",
+  "employee_count": "23",
+  "non_ec_arr": "$8,280",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "genemyers@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Zoo Club"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

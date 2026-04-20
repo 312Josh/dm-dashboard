@@ -1,0 +1,26 @@
+{
+  "parent": "Aloha Shave Ice",
+  "slug": "aloha-shave-ice",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "null",
+  "state": "FL",
+  "city": "Palmetto",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "alohashaveicetime@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Aloha Shave Ice"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

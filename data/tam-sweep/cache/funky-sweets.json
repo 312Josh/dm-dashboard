@@ -1,0 +1,26 @@
+{
+  "parent": "Funky Sweets - Parent Account",
+  "slug": "funky-sweets",
+  "total_headroom": "$17,520",
+  "non_ec_headroom": "$17,352",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$4,308",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "kalyanramreddy@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Funky Sweets"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

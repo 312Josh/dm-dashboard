@@ -1,0 +1,26 @@
+{
+  "parent": "Precise indication enterprise inc",
+  "slug": "precise-indication-enterprise-inc",
+  "total_headroom": "$14,820",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "FL",
+  "city": "Tampa",
+  "restaurant_type": "Unknown",
+  "contact_email": "preciseindication@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Precise indication enterprise inc"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

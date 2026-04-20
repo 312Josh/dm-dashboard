@@ -1,0 +1,26 @@
+{
+  "parent": "CJs Backstage - Parent Account",
+  "slug": "cjs-backstage",
+  "total_headroom": "$18,060",
+  "non_ec_headroom": "$18,060",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$7,500",
+  "state": "FL",
+  "city": "St. Petersburg",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "jake@cjsroute22.com",
+  "location_count": 1,
+  "location_names": [
+    "CJs Backstage"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

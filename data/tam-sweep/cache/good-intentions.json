@@ -1,0 +1,26 @@
+{
+  "parent": "Good Intentions Parent",
+  "slug": "good-intentions",
+  "total_headroom": "$20,640",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$4,788",
+  "employee_count": "29",
+  "non_ec_arr": "$8,403",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "goodintentionsfl@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Good Intentions"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

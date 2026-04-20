@@ -1,0 +1,26 @@
+{
+  "parent": "CD Roma Restaurant Parent",
+  "slug": "cd-roma-restaurant",
+  "total_headroom": "$19,628",
+  "non_ec_headroom": "$14,112",
+  "est_ec_headroom": "$5,516",
+  "employee_count": "33",
+  "non_ec_arr": "$11,033",
+  "state": "FL",
+  "city": "Saint Petersburg",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "cdromas@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "CD Roma Restaurant"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

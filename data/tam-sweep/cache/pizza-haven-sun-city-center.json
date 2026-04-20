@@ -1,0 +1,26 @@
+{
+  "parent": "Pizza Haven - Sun City Center - Parent Account",
+  "slug": "pizza-haven-sun-city-center",
+  "total_headroom": "$18,084",
+  "non_ec_headroom": "$16,992",
+  "est_ec_headroom": "$1,092",
+  "employee_count": "7",
+  "non_ec_arr": "$8,616",
+  "state": "FL",
+  "city": "Sun City Center",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "pizzahaven122@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pizza Haven - Sun City Center"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

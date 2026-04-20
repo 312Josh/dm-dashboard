@@ -1,0 +1,26 @@
+{
+  "parent": "Pisces Parent",
+  "slug": "pisces",
+  "total_headroom": "$15,912",
+  "non_ec_headroom": "$15,912",
+  "est_ec_headroom": "$0",
+  "employee_count": "49",
+  "non_ec_arr": "$11,233",
+  "state": "FL",
+  "city": "DUNEDIN",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "keenecuisine@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pisces Sushi and Global Bistro"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

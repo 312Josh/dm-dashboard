@@ -1,0 +1,26 @@
+{
+  "parent": "Black Sheep American Pub",
+  "slug": "black-sheep-american-pub",
+  "total_headroom": "$20,572",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$2,212",
+  "employee_count": "13",
+  "non_ec_arr": "$6,300",
+  "state": "FL",
+  "city": "Lutz",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "rjeffrey08@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Black Sheep American Pub"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}

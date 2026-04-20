@@ -1,0 +1,26 @@
+{
+  "parent": "Pastry Art Parent",
+  "slug": "pastry-art",
+  "total_headroom": "$17,520",
+  "non_ec_headroom": "$17,520",
+  "est_ec_headroom": "$0",
+  "employee_count": "17",
+  "non_ec_arr": "$4,560",
+  "state": "FL",
+  "city": "Sarasota",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "david@newpassventures.com",
+  "location_count": 1,
+  "location_names": [
+    "Pastry Art"
+  ],
+  "websites": [],
+  "website_discovery_status": "pending",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": []
+}
