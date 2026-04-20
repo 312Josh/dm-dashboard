@@ -14,9 +14,18 @@
   "location_names": [
     "Patriot Palms BBQ LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://patriotpalmsbbq.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://patriotpalmsbbq.com": {
+      "url": "https://patriotpalmsbbq.com",
+      "html_bytes": 7153,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

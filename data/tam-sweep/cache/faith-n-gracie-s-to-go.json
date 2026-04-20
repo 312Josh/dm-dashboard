@@ -14,9 +14,18 @@
   "location_names": [
     "Faith N Gracie’s to go"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://faithngraciestogo.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://faithngraciestogo.com": {
+      "url": "https://faithngraciestogo.com",
+      "html_bytes": 91847,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "Osteria 500"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.osteria500.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.osteria500.com": {
+      "url": "https://www.osteria500.com",
+      "html_bytes": 7153,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

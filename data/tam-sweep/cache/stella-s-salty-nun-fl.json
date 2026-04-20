@@ -14,10 +14,48 @@
   "location_names": [
     "Stella's"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://stellasingulfport.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://stellasingulfport.com": {
+      "url": "https://stellasingulfport.com",
+      "html_bytes": 168352,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/stellasingulfport",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/255b4e9f-8dab-4b8e-adce-20c4bb2993ab",
+        "toast_gift": "toasttab.com/stellasingulfport/giftcards"
+      }
+    },
+    "https://stellasingulfport.com/menu": {
+      "url": "https://stellasingulfport.com/menu",
+      "html_bytes": 155961,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/stellasingulfport",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/255b4e9f-8dab-4b8e-adce-20c4bb2993ab",
+        "toast_gift": "toasttab.com/stellasingulfport/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/stellasingulfport",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/255b4e9f-8dab-4b8e-adce-20c4bb2993ab",
+    "toast_gift": "toasttab.com/stellasingulfport/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

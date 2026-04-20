@@ -14,9 +14,32 @@
   "location_names": [
     "McDivots Raw Bar and Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.mcdivotstampa.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mcdivotstampa.com": {
+      "url": "https://www.mcdivotstampa.com",
+      "html_bytes": 199875,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.mcdivotstampa.com/menu": {
+      "url": "https://www.mcdivotstampa.com/menu",
+      "html_bytes": 177563,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

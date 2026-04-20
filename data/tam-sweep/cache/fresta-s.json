@@ -14,9 +14,18 @@
   "location_names": [
     "Fresta's"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://frestasitalian.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://frestasitalian.com": {
+      "url": "https://frestasitalian.com",
+      "html_bytes": 4867,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

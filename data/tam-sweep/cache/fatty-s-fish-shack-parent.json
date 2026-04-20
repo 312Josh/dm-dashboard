@@ -14,9 +14,28 @@
   "location_names": [
     "Fattys Fish Shack"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://fattysfishshack.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://fattysfishshack.com": {
+      "url": "https://fattysfishshack.com",
+      "html_bytes": 204567,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://fattysfishshack.com/menu/": {
+      "url": "https://fattysfishshack.com/menu/",
+      "html_bytes": 85669,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

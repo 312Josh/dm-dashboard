@@ -14,9 +14,21 @@
   "location_names": [
     "Martin’s Italian"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://martinsitalianfl.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://martinsitalianfl.com": {
+      "url": "https://martinsitalianfl.com",
+      "html_bytes": 152988,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

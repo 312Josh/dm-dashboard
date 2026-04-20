@@ -14,10 +14,28 @@
   "location_names": [
     "Five Nine Grill and Tavern"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.fiveninegrilltavern.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fiveninegrilltavern.com": {
+      "url": "https://www.fiveninegrilltavern.com",
+      "html_bytes": 121860,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/fiveninegrilltavern/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/fiveninegrilltavern/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

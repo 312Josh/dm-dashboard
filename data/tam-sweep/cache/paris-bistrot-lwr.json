@@ -14,9 +14,21 @@
   "location_names": [
     "Paris Bistrot - LWR"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.parisbistrotlwr.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.parisbistrotlwr.com": {
+      "url": "https://www.parisbistrotlwr.com",
+      "html_bytes": 68918,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

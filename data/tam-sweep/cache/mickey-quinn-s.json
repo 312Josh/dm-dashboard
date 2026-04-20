@@ -14,9 +14,20 @@
   "location_names": [
     "Mickey Quinn's"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://quinns.live"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://quinns.live": {
+      "url": "https://quinns.live",
+      "html_bytes": 120126,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

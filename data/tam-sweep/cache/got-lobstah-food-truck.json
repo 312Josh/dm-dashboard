@@ -14,9 +14,20 @@
   "location_names": [
     "Got Lobstah Food Truck"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://gotlobstahfoodtruck.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gotlobstahfoodtruck.com": {
+      "url": "https://gotlobstahfoodtruck.com",
+      "html_bytes": 257494,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

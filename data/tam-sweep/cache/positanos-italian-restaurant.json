@@ -14,9 +14,34 @@
   "location_names": [
     "Positanos Italian Restaurant"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://positanoph.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://positanoph.com": {
+      "url": "https://positanoph.com",
+      "html_bytes": 389998,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://positanoph.com/reservations-request": {
+      "url": "https://positanoph.com/reservations-request",
+      "html_bytes": 165574,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://positanoph.com/reservations": {
+      "url": "https://positanoph.com/reservations",
+      "html_bytes": 150776,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

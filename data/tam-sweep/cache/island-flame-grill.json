@@ -14,9 +14,18 @@
   "location_names": [
     "Island Flame Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.islandflamegrill.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.islandflamegrill.com": {
+      "url": "https://www.islandflamegrill.com",
+      "html_bytes": 48032,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "Pizzaissimo"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://pizzaissimo.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pizzaissimo.com": {
+      "url": "https://pizzaissimo.com",
+      "html_bytes": 4864,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "SaddleBred Provisions, LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://saddlebred.cafe"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://saddlebred.cafe": {
+      "url": "https://saddlebred.cafe",
+      "html_bytes": 4842,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

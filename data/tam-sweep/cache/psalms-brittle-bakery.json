@@ -14,9 +14,21 @@
   "location_names": [
     "Psalms Brittle Bakery"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://psalmsbrittle.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://psalmsbrittle.com": {
+      "url": "https://psalmsbrittle.com",
+      "html_bytes": 581722,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

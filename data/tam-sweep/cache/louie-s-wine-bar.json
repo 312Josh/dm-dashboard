@@ -14,9 +14,20 @@
   "location_names": [
     "Louie's Wine Bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://louieswinebar.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://louieswinebar.com": {
+      "url": "https://louieswinebar.com",
+      "html_bytes": 139955,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

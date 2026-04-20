@@ -14,9 +14,39 @@
   "location_names": [
     "Patellinis"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "http://www.patellinis.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.patellinis.com": {
+      "url": "http://www.patellinis.com",
+      "html_bytes": 23215,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "http://www.patellinis.com/menu/": {
+      "url": "http://www.patellinis.com/menu/",
+      "html_bytes": 41882,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "http://www.patellinis.com/order-now/": {
+      "url": "http://www.patellinis.com/order-now/",
+      "html_bytes": 17241,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

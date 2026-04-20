@@ -14,9 +14,36 @@
   "location_names": [
     "Rotis Indian Restaurant & bar"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.rotisflorida.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.rotisflorida.com": {
+      "url": "https://www.rotisflorida.com",
+      "html_bytes": 89917,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.rotisflorida.com/Menu?promos=1&amp;pid=11185": {
+      "url": "https://www.rotisflorida.com/Menu?promos=1&amp;pid=11185",
+      "html_bytes": 66858,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.rotisflorida.com/menu?promos=1": {
+      "url": "https://www.rotisflorida.com/menu?promos=1",
+      "html_bytes": 66858,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.rotisflorida.com/Menu": {
+      "url": "https://www.rotisflorida.com/Menu",
+      "html_bytes": 66858,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

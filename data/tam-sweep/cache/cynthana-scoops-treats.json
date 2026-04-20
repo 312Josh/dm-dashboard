@@ -14,9 +14,18 @@
   "location_names": [
     "Cynthana Scoops & Treats"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://cynthanascoopsandtreats.online"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cynthanascoopsandtreats.online": {
+      "url": "https://cynthanascoopsandtreats.online",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

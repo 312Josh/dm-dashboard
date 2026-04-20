@@ -14,9 +14,30 @@
   "location_names": [
     "Eggsperience Eatery"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://eggsperienceeatery.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eggsperienceeatery.com": {
+      "url": "https://eggsperienceeatery.com",
+      "html_bytes": 84559,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://eggsperienceeatery.com/menu/": {
+      "url": "https://eggsperienceeatery.com/menu/",
+      "html_bytes": 72742,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

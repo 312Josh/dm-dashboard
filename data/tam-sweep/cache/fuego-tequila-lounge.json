@@ -14,10 +14,68 @@
   "location_names": [
     "Fuego Tequila Lounge"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.fuegotequilalounge.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fuegotequilalounge.com": {
+      "url": "https://www.fuegotequilalounge.com",
+      "html_bytes": 283358,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/fuego-tequila-lounge-11615-state-road-70-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.fuegotequilalounge.com/menuc43d217b": {
+      "url": "https://www.fuegotequilalounge.com/menuc43d217b",
+      "html_bytes": 197083,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.fuegotequilalounge.com/reserve-online": {
+      "url": "https://www.fuegotequilalounge.com/reserve-online",
+      "html_bytes": 266370,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.fuegotequilalounge.com/order-now": {
+      "url": "https://www.fuegotequilalounge.com/order-now",
+      "html_bytes": 157208,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/fuego-tequila-lounge-11615-state-road-70-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.fuegotequilalounge.com/order-here": {
+      "url": "https://www.fuegotequilalounge.com/order-here",
+      "html_bytes": 150065,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/fuego-tequila-lounge-11615-state-road-70-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/fuego-tequila-lounge-11615-state-road-70-e",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

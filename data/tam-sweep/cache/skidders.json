@@ -14,10 +14,27 @@
   "location_names": [
     "Skidders"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://skdrestaurant.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://skdrestaurant.com": {
+      "url": "https://skdrestaurant.com",
+      "html_bytes": 162581,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

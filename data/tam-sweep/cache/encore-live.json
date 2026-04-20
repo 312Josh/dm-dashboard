@@ -14,9 +14,18 @@
   "location_names": [
     "Encore Live"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://encoresrq.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://encoresrq.com": {
+      "url": "https://encoresrq.com",
+      "html_bytes": 565225,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

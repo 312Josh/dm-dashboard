@@ -14,9 +14,18 @@
   "location_names": [
     "OneZo Bradenton"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://onezobradenton.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://onezobradenton.com": {
+      "url": "https://onezobradenton.com",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

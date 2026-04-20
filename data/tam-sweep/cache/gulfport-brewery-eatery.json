@@ -14,9 +14,28 @@
   "location_names": [
     "Gulfport Brewery and Eatery"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.gulfport-brewing.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.gulfport-brewing.com": {
+      "url": "https://www.gulfport-brewing.com",
+      "html_bytes": 133849,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.gulfport-brewing.com/s/menu_3_7.png": {
+      "url": "https://www.gulfport-brewing.com/s/menu_3_7.png",
+      "html_bytes": 1276571,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

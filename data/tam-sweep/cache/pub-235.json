@@ -14,9 +14,18 @@
   "location_names": [
     "Pub 235"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://pub235.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pub235.com": {
+      "url": "https://pub235.com",
+      "html_bytes": 4816,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "Orange County Choppers - Roadhouse"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.occroadhouse.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.occroadhouse.com": {
+      "url": "https://www.occroadhouse.com",
+      "html_bytes": 4869,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,10 +14,49 @@
   "location_names": [
     "Crema"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.cremacafedunedin.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cremacafedunedin.com": {
+      "url": "https://www.cremacafedunedin.com",
+      "html_bytes": 169551,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.cremacafedunedin.com/menu": {
+      "url": "https://www.cremacafedunedin.com/menu",
+      "html_bytes": 178501,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.cremacafedunedin.com/https/ordertoasttabcom/egiftcards/crema-34218-us-hwy-19-n": {
+      "url": "https://www.cremacafedunedin.com/https/ordertoasttabcom/egiftcards/crema-34218-us-hwy-19-n",
+      "html_bytes": 106236,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

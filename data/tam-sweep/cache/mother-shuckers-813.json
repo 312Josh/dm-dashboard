@@ -14,9 +14,18 @@
   "location_names": [
     "Mother Shuckers 813"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://mothershuckers813.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mothershuckers813.com": {
+      "url": "https://mothershuckers813.com",
+      "html_bytes": 105620,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,18 @@
   "location_names": [
     "Gyro King"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://gyroking.net"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gyroking.net": {
+      "url": "https://gyroking.net",
+      "html_bytes": 4818,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

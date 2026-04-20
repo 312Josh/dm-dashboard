@@ -14,9 +14,36 @@
   "location_names": [
     "Pizza Haven - Sun City Center"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.pizzahavenfl.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pizzahavenfl.com": {
+      "url": "https://www.pizzahavenfl.com",
+      "html_bytes": 45134,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    },
+    "https://www.PizzaHavenFL.com/order": {
+      "url": "https://www.PizzaHavenFL.com/order",
+      "html_bytes": 28432,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    },
+    "https://www.pizzahavenfl.com/order": {
+      "url": "https://www.pizzahavenfl.com/order",
+      "html_bytes": 28432,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,10 +14,43 @@
   "location_names": [
     "Drift-In AMI"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://driftinami.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://driftinami.com": {
+      "url": "https://driftinami.com",
+      "html_bytes": 108035,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/drifters-food-truck",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/drift-120-bridge-street/rewardsSignup"
+      }
+    },
+    "https://driftinami.com/loyalty": {
+      "url": "https://driftinami.com/loyalty",
+      "html_bytes": 44625,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/drifters-food-truck",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/drift-120-bridge-street/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/drifters-food-truck",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/drift-120-bridge-street/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

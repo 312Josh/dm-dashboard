@@ -14,10 +14,54 @@
   "location_names": [
     "Seawhip Sushi Bar LLC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.seawhipsushibar.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.seawhipsushibar.com": {
+      "url": "https://www.seawhipsushibar.com",
+      "html_bytes": 93635,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Yelp Reservations"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/seawhip-sushi-bar-llc-2608-bayshore-boulevard",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.seawhipsushibar.com/reservations": {
+      "url": "https://www.seawhipsushibar.com/reservations",
+      "html_bytes": 79921,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Yelp Reservations"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/seawhip-sushi-bar-llc-2608-bayshore-boulevard",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.seawhipsushibar.com/menu": {
+      "url": "https://www.seawhipsushibar.com/menu",
+      "html_bytes": 87099,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/seawhip-sushi-bar-llc-2608-bayshore-boulevard",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/seawhip-sushi-bar-llc-2608-bayshore-boulevard",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

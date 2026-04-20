@@ -14,10 +14,60 @@
   "location_names": [
     "Shore - Longboat Key"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.dineshore.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.dineshore.com": {
+      "url": "https://www.dineshore.com",
+      "html_bytes": 40698,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/shore-longboat-key-800-broadway-st/giftcards"
+      }
+    },
+    "https://www.dineshore.com/menus-shore-longboat-key/": {
+      "url": "https://www.dineshore.com/menus-shore-longboat-key/",
+      "html_bytes": 133926,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/shore-longboat-key-800-broadway-st/giftcards"
+      }
+    },
+    "https://www.dineshore.com/%E2%80%9Dhttp%3A/www.opentable.ca/restaurant/profile/30445/reserve?rid=####&restref=": {
+      "url": "https://www.dineshore.com/%E2%80%9Dhttp%3A/www.opentable.ca/restaurant/profile/30445/reserve?rid=####&restref=",
+      "html_bytes": 1121,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.dineshore.com/menus": {
+      "url": "https://www.dineshore.com/menus",
+      "html_bytes": 133498,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/shore-longboat-key-800-broadway-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/shore-longboat-key-800-broadway-st/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -14,10 +14,25 @@
   "location_names": [
     "Inner Compass Brewing Company - Bradenton"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://innercompassbrewingcompany.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://innercompassbrewingcompany.com": {
+      "url": "https://innercompassbrewingcompany.com",
+      "html_bytes": 211852,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

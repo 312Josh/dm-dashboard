@@ -14,10 +14,45 @@
   "location_names": [
     "Replays Family Sports Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://replaysgrill.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://replaysgrill.com": {
+      "url": "https://replaysgrill.com",
+      "html_bytes": 198085,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/replays-family-sports-grill-1609-sun-city-center-plaza/giftcards"
+      }
+    },
+    "https://replaysgrill.com/menu": {
+      "url": "https://replaysgrill.com/menu",
+      "html_bytes": 141247,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://replaysgrill.com/gift-cards": {
+      "url": "https://replaysgrill.com/gift-cards",
+      "html_bytes": 124479,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/replays-family-sports-grill-1609-sun-city-center-plaza/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/replays-family-sports-grill-1609-sun-city-center-plaza/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

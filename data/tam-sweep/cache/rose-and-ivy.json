@@ -14,9 +14,20 @@
   "location_names": [
     "Rose & Ivy NEW"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://roseivysrq.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://roseivysrq.com": {
+      "url": "https://roseivysrq.com",
+      "html_bytes": 673852,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

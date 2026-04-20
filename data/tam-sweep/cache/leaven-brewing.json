@@ -14,9 +14,18 @@
   "location_names": [
     "Leaven Brewing"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.leavenbrewing.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.leavenbrewing.com": {
+      "url": "https://www.leavenbrewing.com",
+      "html_bytes": 21951,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

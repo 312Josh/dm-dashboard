@@ -14,10 +14,85 @@
   "location_names": [
     "Duval's Fresh. Local. Seafood."
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.duvalsfreshlocalseafood.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.duvalsfreshlocalseafood.com": {
+      "url": "https://www.duvalsfreshlocalseafood.com",
+      "html_bytes": 124462,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/duvals-fresh-local-seafood/giftcards",
+        "toast_loyalty": "toasttab.com/duvals-fresh-local-seafood/rewardsSignup"
+      }
+    },
+    "https://www.duvalsfreshlocalseafood.com/reservations": {
+      "url": "https://www.duvalsfreshlocalseafood.com/reservations",
+      "html_bytes": 101584,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/duvals-fresh-local-seafood/giftcards"
+      }
+    },
+    "https://www.duvalsfreshlocalseafood.com/menu": {
+      "url": "https://www.duvalsfreshlocalseafood.com/menu",
+      "html_bytes": 121817,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/duvals-fresh-local-seafood/giftcards"
+      }
+    },
+    "https://www.duvalsfreshlocalseafood.com/rewards": {
+      "url": "https://www.duvalsfreshlocalseafood.com/rewards",
+      "html_bytes": 100634,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/duvals-fresh-local-seafood/giftcards",
+        "toast_loyalty": "toasttab.com/duvals-fresh-local-seafood/rewardsSignup"
+      }
+    },
+    "https://www.duvalsfreshlocalseafood.com/menus": {
+      "url": "https://www.duvalsfreshlocalseafood.com/menus",
+      "html_bytes": 121817,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/duvals-fresh-local-seafood/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/duvals-fresh-local-seafood/giftcards",
+    "toast_loyalty": "toasttab.com/duvals-fresh-local-seafood/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

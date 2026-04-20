@@ -14,10 +14,47 @@
   "location_names": [
     "Donavan's Meatery"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://donovansmeatery.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://donovansmeatery.com": {
+      "url": "https://donovansmeatery.com",
+      "html_bytes": 96768,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/donavans-meatery-11206-sullivan-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/donavans-meatery-11206-sullivan-street/giftcards"
+      }
+    },
+    "https://donovansmeatery.com/menu/": {
+      "url": "https://donovansmeatery.com/menu/",
+      "html_bytes": 113137,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/donavans-meatery-11206-sullivan-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/donavans-meatery-11206-sullivan-street/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/donavans-meatery-11206-sullivan-street",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/donavans-meatery-11206-sullivan-street/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

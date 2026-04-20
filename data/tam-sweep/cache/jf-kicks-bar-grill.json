@@ -14,10 +14,73 @@
   "location_names": [
     "JF Kicks Restaurant and Patio Bar NEW"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://jfkicksrestaurant.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://jfkicksrestaurant.com": {
+      "url": "https://jfkicksrestaurant.com",
+      "html_bytes": 64736,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jf-kicks-restaurant-and-patio-bar",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/jf-kicks-restaurant-and-patio-bar/rewardsSignup"
+      }
+    },
+    "https://jfkicksrestaurant.com/menu/": {
+      "url": "https://jfkicksrestaurant.com/menu/",
+      "html_bytes": 59130,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jf-kicks-restaurant-and-patio-bar",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/jf-kicks-restaurant-and-patio-bar/rewardsSignup"
+      }
+    },
+    "https://jfkicksrestaurant.com/menu/happy-hour/": {
+      "url": "https://jfkicksrestaurant.com/menu/happy-hour/",
+      "html_bytes": 61767,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jf-kicks-restaurant-and-patio-bar",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/jf-kicks-restaurant-and-patio-bar/rewardsSignup"
+      }
+    },
+    "https://jfkicksrestaurant.com/book-your-event-or-party/": {
+      "url": "https://jfkicksrestaurant.com/book-your-event-or-party/",
+      "html_bytes": 63824,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jf-kicks-restaurant-and-patio-bar",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/jf-kicks-restaurant-and-patio-bar/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/jf-kicks-restaurant-and-patio-bar",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/jf-kicks-restaurant-and-patio-bar/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -14,9 +14,18 @@
   "location_names": [
     "Pork Roll Pete's"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://porkrollpetes.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://porkrollpetes.com": {
+      "url": "https://porkrollpetes.com",
+      "html_bytes": 4866,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

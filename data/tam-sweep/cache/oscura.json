@@ -14,9 +14,30 @@
   "location_names": [
     "Oscura"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://oscura.live"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://oscura.live": {
+      "url": "https://oscura.live",
+      "html_bytes": 111623,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://oscura.live/booking-1": {
+      "url": "https://oscura.live/booking-1",
+      "html_bytes": 106766,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

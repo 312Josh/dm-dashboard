@@ -14,9 +14,18 @@
   "location_names": [
     "Pita Fresh Express"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://pita-freshexpress.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pita-freshexpress.com": {
+      "url": "https://pita-freshexpress.com",
+      "html_bytes": 4849,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

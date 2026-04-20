@@ -14,10 +14,41 @@
   "location_names": [
     "Slice of the burg"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://sliceoftheburg.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sliceoftheburg.com": {
+      "url": "https://sliceoftheburg.com",
+      "html_bytes": 237247,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/slice-of-the-burg-10484-roosevelt-blvd-n",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/slice-of-the-burg-10484-roosevelt-blvd-n/rewardsSignup"
+      }
+    },
+    "https://sliceoftheburg.com/menu": {
+      "url": "https://sliceoftheburg.com/menu",
+      "html_bytes": 357067,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/slice-of-the-burg-10484-roosevelt-blvd-n",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/slice-of-the-burg-10484-roosevelt-blvd-n",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/slice-of-the-burg-10484-roosevelt-blvd-n/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -14,10 +14,26 @@
   "location_names": [
     "Mutts and Martinis on Central"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://muttsandmartinisoncentral.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://muttsandmartinisoncentral.com": {
+      "url": "https://muttsandmartinisoncentral.com",
+      "html_bytes": 254099,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/mutts-and-martinis/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/mutts-and-martinis/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

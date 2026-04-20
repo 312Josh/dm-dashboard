@@ -14,9 +14,20 @@
   "location_names": [
     "O'Brien's Irish Pub - 701 W Lumsden Rd"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://obrienspubsbrandon.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://obrienspubsbrandon.com": {
+      "url": "https://obrienspubsbrandon.com",
+      "html_bytes": 137790,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,56 @@
   "location_names": [
     "Gigi's Pizzeria"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://gigis-pizzeria.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gigis-pizzeria.com": {
+      "url": "https://gigis-pizzeria.com",
+      "html_bytes": 27906,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://gigis-pizzeria.com/images/menu/appetizers.jpeg": {
+      "url": "https://gigis-pizzeria.com/images/menu/appetizers.jpeg",
+      "html_bytes": 99548,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://gigis-pizzeria.com/images/menu/wings.jpeg": {
+      "url": "https://gigis-pizzeria.com/images/menu/wings.jpeg",
+      "html_bytes": 76461,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://gigis-pizzeria.com/images/menu/salads.jpeg": {
+      "url": "https://gigis-pizzeria.com/images/menu/salads.jpeg",
+      "html_bytes": 93481,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://gigis-pizzeria.com/images/menu/pizza-1.jpg": {
+      "url": "https://gigis-pizzeria.com/images/menu/pizza-1.jpg",
+      "html_bytes": 163113,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://gigis-pizzeria.com/images/menu/calzone.png": {
+      "url": "https://gigis-pizzeria.com/images/menu/calzone.png",
+      "html_bytes": 18235288,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://gigis-pizzeria.com/images/menu/philly.png": {
+      "url": "https://gigis-pizzeria.com/images/menu/philly.png",
+      "html_bytes": 374792,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

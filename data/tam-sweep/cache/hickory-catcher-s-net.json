@@ -14,9 +14,20 @@
   "location_names": [
     "Hickory Hollow"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://hickoryhollowbbq.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hickoryhollowbbq.com": {
+      "url": "https://hickoryhollowbbq.com",
+      "html_bytes": 151831,
+      "fingerprints": {
+        "website_cms": "SpotHopper"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,10 +14,31 @@
   "location_names": [
     "Marina's Pizza"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://marinaspizzatampa.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://marinaspizzatampa.com": {
+      "url": "https://marinaspizzatampa.com",
+      "html_bytes": 143214,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/marinas-pizza",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/marinas-pizza/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/marinas-pizza",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/marinas-pizza/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -14,9 +14,36 @@
   "location_names": [
     "Pizza haven"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.pizzahavenbrandonfl.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pizzahavenbrandonfl.com": {
+      "url": "https://www.pizzahavenbrandonfl.com",
+      "html_bytes": 49127,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    },
+    "https://www.PizzaHavenBrandonFL.com/order": {
+      "url": "https://www.PizzaHavenBrandonFL.com/order",
+      "html_bytes": 29577,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    },
+    "https://www.pizzahavenbrandonfl.com/order": {
+      "url": "https://www.pizzahavenbrandonfl.com/order",
+      "html_bytes": 29577,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,10 +14,42 @@
   "location_names": [
     "Norma's Plant City"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://normasplantcity.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://normasplantcity.com": {
+      "url": "https://normasplantcity.com",
+      "html_bytes": 102784,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/normasplantcity",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://normasplantcity.com/menu-2/": {
+      "url": "https://normasplantcity.com/menu-2/",
+      "html_bytes": 288867,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/normasplantcity",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/normasplantcity",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

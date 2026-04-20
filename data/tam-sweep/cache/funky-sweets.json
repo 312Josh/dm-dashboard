@@ -14,9 +14,18 @@
   "location_names": [
     "Funky Sweets"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://funkysweets.us"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://funkysweets.us": {
+      "url": "https://funkysweets.us",
+      "html_bytes": 4820,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

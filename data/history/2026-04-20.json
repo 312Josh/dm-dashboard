@@ -1,8 +1,8 @@
 {
   "date": "2026-04-20",
-  "team_arr": 261053.91,
+  "team_arr": 275453.91000000003,
   "team_quota": 447320,
-  "team_wins": 126,
+  "team_wins": 127,
   "team_pipeline": 336769.5,
   "team_open_deals": 162,
   "reps": {
@@ -91,16 +91,16 @@
       "emails_replied": 0
     },
     "Max Linder": {
-      "arr": 38237.4,
+      "arr": 52637.4,
       "quota": 55440.0,
-      "arr_pct": 68.97077922077922,
-      "wins": 14,
+      "arr_pct": 94.9448051948052,
+      "wins": 15,
       "demos": 21,
-      "opps": 25,
+      "opps": 26,
       "opp_demo": 84.0,
       "opp_win": 56.00000000000001,
       "demo_win": 66.6667,
-      "avg_arr_per_opp": 2731.24285714,
+      "avg_arr_per_opp": 3509.16,
       "ss_opps": 9,
       "nbr_created": 5,
       "nbr_won": 1,

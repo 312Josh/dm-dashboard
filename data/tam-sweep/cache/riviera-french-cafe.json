@@ -14,10 +14,45 @@
   "location_names": [
     "Riviera French Cafe - UTC"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.rivierafrenchcafe.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.rivierafrenchcafe.com": {
+      "url": "https://www.rivierafrenchcafe.com",
+      "html_bytes": 980907,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/rivierafrenchcafe",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/rivierafrenchcafe/giftcards"
+      }
+    },
+    "https://www.rivierafrenchcafe.com/menu": {
+      "url": "https://www.rivierafrenchcafe.com/menu",
+      "html_bytes": 769455,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/rivierafrenchcafe",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/rivierafrenchcafe/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/rivierafrenchcafe",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/rivierafrenchcafe/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

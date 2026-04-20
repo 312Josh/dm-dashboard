@@ -14,10 +14,38 @@
   "location_names": [
     "JJ's Market & Delicatessen"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://jjsmarketanddeli.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://jjsmarketanddeli.com": {
+      "url": "https://jjsmarketanddeli.com",
+      "html_bytes": 2213130,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jjs-market-delicatessen",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://jjsmarketanddeli.com/menu": {
+      "url": "https://jjsmarketanddeli.com/menu",
+      "html_bytes": 1747507,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jjs-market-delicatessen",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/jjs-market-delicatessen",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

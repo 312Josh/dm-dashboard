@@ -14,10 +14,28 @@
   "location_names": [
     "Social Roost"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://eatatsocialroost.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eatatsocialroost.com": {
+      "url": "https://eatatsocialroost.com",
+      "html_bytes": 140792,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/social-roost/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/social-roost/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

@@ -14,9 +14,18 @@
   "location_names": [
     "Currents Restaurant"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://currentstarponsprings.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://currentstarponsprings.com": {
+      "url": "https://currentstarponsprings.com",
+      "html_bytes": 4874,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,10 +14,35 @@
   "location_names": [
     "Forked at Waterside"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.forkedeats.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.forkedeats.com": {
+      "url": "https://www.forkedeats.com",
+      "html_bytes": 666802,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.forkedeats.com/menu-1": {
+      "url": "https://www.forkedeats.com/menu-1",
+      "html_bytes": 574872,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

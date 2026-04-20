@@ -14,9 +14,30 @@
   "location_names": [
     "Remy's On Main - Lakewood Ranch"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.remysonmain.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.remysonmain.com": {
+      "url": "https://www.remysonmain.com",
+      "html_bytes": 37243,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    },
+    "https://www.remysonmain.com/menus/": {
+      "url": "https://www.remysonmain.com/menus/",
+      "html_bytes": 239498,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

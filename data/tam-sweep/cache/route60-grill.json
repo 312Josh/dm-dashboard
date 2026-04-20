@@ -14,10 +14,27 @@
   "location_names": [
     "Route 60 Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.route60grill.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.route60grill.com": {
+      "url": "https://www.route60grill.com",
+      "html_bytes": 183405,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/route-60-grill",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/route-60-grill",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

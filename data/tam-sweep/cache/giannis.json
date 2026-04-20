@@ -14,9 +14,18 @@
   "location_names": [
     "Gianni's Pizza & More"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://giannisbradenton.pizza"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://giannisbradenton.pizza": {
+      "url": "https://giannisbradenton.pizza",
+      "html_bytes": 4871,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

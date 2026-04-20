@@ -14,10 +14,47 @@
   "location_names": [
     "Pastry Art"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.pastryartcafe.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pastryartcafe.com": {
+      "url": "https://www.pastryartcafe.com",
+      "html_bytes": 42373,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pastry-art-1512-main-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/pastry-art-1512-main-street/rewardsSignup"
+      }
+    },
+    "https://www.pastryartcafe.com/menus": {
+      "url": "https://www.pastryartcafe.com/menus",
+      "html_bytes": 105365,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pastry-art-1512-main-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/pastry-art-1512-main-street/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/pastry-art-1512-main-street",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/pastry-art-1512-main-street/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

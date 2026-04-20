@@ -14,10 +14,27 @@
   "location_names": [
     "The Getaway"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.thegetawaytampabay.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thegetawaytampabay.com": {
+      "url": "https://www.thegetawaytampabay.com",
+      "html_bytes": 824389,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-getaway-kgdid/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-getaway-kgdid/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

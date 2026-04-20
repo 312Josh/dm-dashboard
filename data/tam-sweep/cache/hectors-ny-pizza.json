@@ -14,9 +14,20 @@
   "location_names": [
     "HECTORS NY PIZZA"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.hectorsnypizza.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hectorsnypizza.com": {
+      "url": "https://www.hectorsnypizza.com",
+      "html_bytes": 168633,
+      "fingerprints": {
+        "oo": "Slice"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

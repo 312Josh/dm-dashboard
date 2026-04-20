@@ -14,10 +14,46 @@
   "location_names": [
     "Latte Vino - Restaurant"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.lattevinoflorida.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lattevinoflorida.com": {
+      "url": "https://www.lattevinoflorida.com",
+      "html_bytes": 989331,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/latte-vino-22299-sr-54",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/latte-vino-22299-sr-54/giftcards",
+        "toast_loyalty": "toasttab.com/latte-vino-22299-sr-54/rewardsSignup"
+      }
+    },
+    "https://www.lattevinoflorida.com/menu": {
+      "url": "https://www.lattevinoflorida.com/menu",
+      "html_bytes": 638525,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/latte-vino-22299-sr-54",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/latte-vino-22299-sr-54",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/latte-vino-22299-sr-54/giftcards",
+    "toast_loyalty": "toasttab.com/latte-vino-22299-sr-54/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

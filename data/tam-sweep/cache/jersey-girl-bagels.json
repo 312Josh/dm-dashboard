@@ -14,10 +14,42 @@
   "location_names": [
     "Jersey Girl Bagels - Parrish"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.jerseygirlbagels.net"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.jerseygirlbagels.net": {
+      "url": "https://www.jerseygirlbagels.net",
+      "html_bytes": 47981,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jersey-girl-bagels-parrish-20-u-s-301",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.jerseygirlbagels.net/menus/": {
+      "url": "https://www.jerseygirlbagels.net/menus/",
+      "html_bytes": 53867,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jersey-girl-bagels-parrish-20-u-s-301",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/jersey-girl-bagels-parrish-20-u-s-301",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

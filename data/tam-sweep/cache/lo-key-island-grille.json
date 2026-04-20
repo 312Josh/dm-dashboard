@@ -14,10 +14,63 @@
   "location_names": [
     "Lo'Key Island Grille"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://lokeylbk.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lokeylbk.com": {
+      "url": "https://lokeylbk.com",
+      "html_bytes": 261651,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lo-key-island-grille-5620-gulf-of-mexico-drive",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/47b990d5-8323-4655-b882-ced5c1b7b73a",
+        "toast_gift": "toasttab.com/lo-key-island-grille-5620-gulf-of-mexico-drive/giftcards",
+        "toast_loyalty": "toasttab.com/lo-key-island-grille-5620-gulf-of-mexico-drive/rewardsSignup"
+      }
+    },
+    "https://lokeylbk.com/gift-cards": {
+      "url": "https://lokeylbk.com/gift-cards",
+      "html_bytes": 100726,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lo-key-island-grille-5620-gulf-of-mexico-drive",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/47b990d5-8323-4655-b882-ced5c1b7b73a",
+        "toast_gift": "toasttab.com/lo-key-island-grille-5620-gulf-of-mexico-drive/giftcards"
+      }
+    },
+    "https://lokeylbk.com/rewards": {
+      "url": "https://lokeylbk.com/rewards",
+      "html_bytes": 101387,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lo-key-island-grille-5620-gulf-of-mexico-drive",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/47b990d5-8323-4655-b882-ced5c1b7b73a",
+        "toast_loyalty": "toasttab.com/lo-key-island-grille-5620-gulf-of-mexico-drive/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/lo-key-island-grille-5620-gulf-of-mexico-drive",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/47b990d5-8323-4655-b882-ced5c1b7b73a",
+    "toast_gift": "toasttab.com/lo-key-island-grille-5620-gulf-of-mexico-drive/giftcards",
+    "toast_loyalty": "toasttab.com/lo-key-island-grille-5620-gulf-of-mexico-drive/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

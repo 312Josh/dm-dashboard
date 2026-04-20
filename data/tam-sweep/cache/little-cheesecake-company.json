@@ -14,9 +14,24 @@
   "location_names": [
     "Little Cheesecake Company"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://littlecheesecakecompany.us"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://littlecheesecakecompany.us": {
+      "url": "https://littlecheesecakecompany.us",
+      "html_bytes": 212724,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://littlecheesecakecompany.us/menu": {
+      "url": "https://littlecheesecakecompany.us/menu",
+      "html_bytes": 226847,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

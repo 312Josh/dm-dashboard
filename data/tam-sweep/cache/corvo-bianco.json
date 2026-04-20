@@ -14,9 +14,18 @@
   "location_names": [
     "Corvo Bianco - Curlew"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://corvobianco.pizza"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://corvobianco.pizza": {
+      "url": "https://corvobianco.pizza",
+      "html_bytes": 4866,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

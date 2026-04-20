@@ -14,9 +14,36 @@
   "location_names": [
     "Dunedin Brewery and Snug Pub"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://dunedinbrewery.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dunedinbrewery.com": {
+      "url": "https://dunedinbrewery.com",
+      "html_bytes": 149573,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://dunedinbrewery.com/home/blog/7743862/menu-update-april-2026-927de642-4954-4d92-a348-6726077dd662": {
+      "url": "https://dunedinbrewery.com/home/blog/7743862/menu-update-april-2026-927de642-4954-4d92-a348-6726077dd662",
+      "html_bytes": 51167,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://dunedinbrewery.com/home/blog/7520348/menu-update-jan-2025": {
+      "url": "https://dunedinbrewery.com/home/blog/7520348/menu-update-jan-2025",
+      "html_bytes": 50833,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://dunedinbrewery.com/home/blog/7355440/menu-update-feb-2024": {
+      "url": "https://dunedinbrewery.com/home/blog/7355440/menu-update-feb-2024",
+      "html_bytes": 50510,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
