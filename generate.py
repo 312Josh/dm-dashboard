@@ -243,7 +243,7 @@ def generate(data_dir):
             r["Total Booked Saas ARR"] = str(cur + ue)
             quota = parse_money(r.get("Booked SaaS Quota (Xactly)", "0"))
             if quota:
-                r["ARR % to Goal (Xactly)"] = str((cur + ue) / quota)
+                r["ARR % to Goal (Xactly)"] = f"{(cur + ue) / quota * 100}%"
 
     # Overwrite $0 Opp Wins rows matching UE Promo accounts so Recent Wins tables show real $
     ue_by_account = {d["account"]: d["arr"] for d in ue_deals}
