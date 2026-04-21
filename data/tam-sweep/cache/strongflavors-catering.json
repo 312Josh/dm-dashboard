@@ -14,9 +14,18 @@
   "location_names": [
     "StrongFlavors Catering"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://strongflavorscatering.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://strongflavorscatering.com": {
+      "url": "https://strongflavorscatering.com",
+      "html_bytes": 4874,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

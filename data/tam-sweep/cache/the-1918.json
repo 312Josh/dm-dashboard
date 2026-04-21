@@ -14,10 +14,27 @@
   "location_names": [
     "The 1918"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://the1918tampa.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://the1918tampa.com": {
+      "url": "https://the1918tampa.com",
+      "html_bytes": 121145,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/the1918tampa/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/the1918tampa/rewardsSignup"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

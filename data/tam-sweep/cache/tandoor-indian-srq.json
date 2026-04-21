@@ -14,10 +14,45 @@
   "location_names": [
     "Tandoor Indian - SRQ"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://tandoorsarasota.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tandoorsarasota.com": {
+      "url": "https://tandoorsarasota.com",
+      "html_bytes": 277246,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tandoor-indian-srq-8447-cooper-creek-boulevard",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/1f76f4b6-93c1-4c5f-a88e-2abf7e0695bf"
+      }
+    },
+    "https://tandoorsarasota.com/menu": {
+      "url": "https://tandoorsarasota.com/menu",
+      "html_bytes": 169946,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tandoor-indian-srq-8447-cooper-creek-boulevard",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/1f76f4b6-93c1-4c5f-a88e-2abf7e0695bf"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/tandoor-indian-srq-8447-cooper-creek-boulevard",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/1f76f4b6-93c1-4c5f-a88e-2abf7e0695bf"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

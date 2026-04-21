@@ -14,9 +14,18 @@
   "location_names": [
     "T'asia Sushi and Thai"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.tasiasushiandthai.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tasiasushiandthai.com": {
+      "url": "https://www.tasiasushiandthai.com",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

@@ -14,9 +14,22 @@
   "location_names": [
     "The Wine House"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.pinkwinehouse.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pinkwinehouse.com": {
+      "url": "https://www.pinkwinehouse.com",
+      "html_bytes": 304513,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

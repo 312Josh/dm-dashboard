@@ -14,10 +14,41 @@
   "location_names": [
     "Stottlemyer's Smokehouse"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
+  "websites": [
+    "https://www.stottlemyerssmokehouse.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.stottlemyerssmokehouse.com": {
+      "url": "https://www.stottlemyerssmokehouse.com",
+      "html_bytes": 35039,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/stottlemyers-smokehouse-19-east-rd/giftcards"
+      }
+    },
+    "https://www.stottlemyerssmokehouse.com/menus/": {
+      "url": "https://www.stottlemyerssmokehouse.com/menus/",
+      "html_bytes": 103457,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/stottlemyers-smokehouse-19-east-rd/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/stottlemyers-smokehouse-19-east-rd/giftcards"
+  },
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",

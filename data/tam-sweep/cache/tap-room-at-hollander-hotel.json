@@ -14,9 +14,21 @@
   "location_names": [
     "Tap Room at Hollander Hotel"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://hollanderhotel.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hollanderhotel.com": {
+      "url": "https://hollanderhotel.com",
+      "html_bytes": 78479,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

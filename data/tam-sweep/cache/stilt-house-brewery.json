@@ -14,9 +14,20 @@
   "location_names": [
     "Stilt House Brewery"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.stilthousebrewery.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.stilthousebrewery.com": {
+      "url": "https://www.stilthousebrewery.com",
+      "html_bytes": 1000661,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

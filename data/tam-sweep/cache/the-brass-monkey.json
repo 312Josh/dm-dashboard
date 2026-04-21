@@ -14,9 +14,24 @@
   "location_names": [
     "The Brass Monkey"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://brassmonkeyspb.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://brassmonkeyspb.com": {
+      "url": "https://brassmonkeyspb.com",
+      "html_bytes": 86383,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://brassmonkeyspb.com/menu": {
+      "url": "https://brassmonkeyspb.com/menu",
+      "html_bytes": 237510,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

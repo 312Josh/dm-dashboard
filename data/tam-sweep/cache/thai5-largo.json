@@ -14,9 +14,18 @@
   "location_names": [
     "Thai5 Largo"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://thai5fastfood.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thai5fastfood.com": {
+      "url": "https://thai5fastfood.com",
+      "html_bytes": 4866,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",

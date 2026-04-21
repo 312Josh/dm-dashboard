@@ -14,9 +14,18 @@
   "location_names": [
     "The Green Room Lounge"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://tchotchkecafe.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tchotchkecafe.com": {
+      "url": "https://tchotchkecafe.com",
+      "html_bytes": 4823,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
