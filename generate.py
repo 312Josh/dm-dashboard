@@ -33,10 +33,10 @@ def parse_pct(s):
 
 
 def parse_money(s):
-    """Parse '$17,625' or '17625.00' -> 17625.0"""
+    """Parse '$17,625', '17625.00', or 'USD 17,625.00' -> 17625.0"""
     if not s:
         return 0.0
-    cleaned = s.replace("$", "").replace(",", "")
+    cleaned = s.replace("$", "").replace(",", "").replace("USD", "").strip()
     try:
         return float(cleaned)
     except ValueError:
@@ -206,6 +206,51 @@ def generate(data_dir):
 
     # Rep order from metrics
     reps = [r["Rep Name"] for r in metrics]
+
+    # --- UE Promo deals (not captured in Sigma/SF ARR — manually tracked) ---
+    # Pull the most recent "UE Promo Deals {Month} - Sheet1*.csv" from Downloads
+    # and inject $ into rep ARR so team sales reflect reality.
+    ue_by_rep = {}
+    ue_deals = []
+    ue_csv_path = None
+    downloads_dir = Path.home() / "Downloads"
+    ue_candidates = sorted(downloads_dir.glob("UE Promo Deals*.csv"), key=os.path.getmtime, reverse=True)
+    if ue_candidates:
+        ue_csv_path = ue_candidates[0]
+        for r in read_csv(ue_csv_path):
+            rep = normalize_name((r.get("Rep") or "").strip())
+            if not rep or rep not in reps:
+                continue
+            arr = parse_money(r.get("Software (Annual)", "0"))
+            if arr <= 0:
+                continue
+            ue_by_rep[rep] = ue_by_rep.get(rep, 0.0) + arr
+            ue_deals.append({
+                "rep": rep,
+                "account": r.get("Account Name", ""),
+                "opp": r.get("Opportunity Name", ""),
+                "arr": arr,
+                "close": (r.get("Close Date") or next((v for k, v in r.items() if k and k.startswith("Close Date")), "")),
+                "stage": r.get("Stage", ""),
+            })
+
+    # Inject UE Promo $ into per-rep ARR and recompute ARR % to Goal
+    for r in metrics:
+        name = r.get("Rep Name", "")
+        ue = ue_by_rep.get(name, 0.0)
+        if ue > 0:
+            cur = parse_money(r.get("Total Booked Saas ARR", "0"))
+            r["Total Booked Saas ARR"] = str(cur + ue)
+            quota = parse_money(r.get("Booked SaaS Quota (Xactly)", "0"))
+            if quota:
+                r["ARR % to Goal (Xactly)"] = str((cur + ue) / quota)
+
+    # Overwrite $0 Opp Wins rows matching UE Promo accounts so Recent Wins tables show real $
+    ue_by_account = {d["account"]: d["arr"] for d in ue_deals}
+    for w in wins:
+        acct = w.get("Account Name", "")
+        if acct in ue_by_account and parse_money(w.get("Software (Annual)", "0")) == 0:
+            w["Software (Annual)"] = str(ue_by_account[acct])
 
     # --- Compute KPI totals ---
     team_arr = sum(parse_money(r.get("Total Booked Saas ARR", "0")) for r in metrics)
@@ -1079,6 +1124,11 @@ def generate(data_dir):
     print(f"  Month: {month_name} | Data date: {data_date}")
     print(f"  Team ARR: {fmt_money(team_arr)} / {fmt_money(team_quota)} ({fmt_pct(team_attainment)})")
     print(f"  Wins: {team_wins_count} | Pipeline: {fmt_money(total_pipeline)} ({total_open_deals} opps)")
+    if ue_deals:
+        ue_total = sum(d["arr"] for d in ue_deals)
+        print(f"  UE Promos injected: {fmt_money(ue_total)} across {len(ue_deals)} deals ({ue_csv_path.name})")
+        for rep_name, rep_total in sorted(ue_by_rep.items(), key=lambda x: -x[1]):
+            print(f"    - {rep_name}: {fmt_money(rep_total)}")
 
     # ========== SAVE HISTORICAL SNAPSHOT ==========
     history_dir = Path(__file__).parent / "data" / "history"
