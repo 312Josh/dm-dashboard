@@ -21,15 +21,16 @@
   "fingerprints": {
     "https://www.category36taphouse.com/": {
       "url": "https://www.category36taphouse.com/",
-      "html_bytes": 810995,
+      "html_bytes": 810601,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "catering_mention": "Catering copy"
       },
       "toast": {}
     },
     "https://www.category36taphouse.com/menus": {
       "url": "https://www.category36taphouse.com/menus",
-      "html_bytes": 1448904,
+      "html_bytes": 1447736,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -37,9 +38,14 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

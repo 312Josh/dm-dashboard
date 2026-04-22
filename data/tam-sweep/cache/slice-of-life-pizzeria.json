@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.sliceoflifepizzeria.com": {
       "url": "https://www.sliceoflifepizzeria.com",
-      "html_bytes": 46584,
+      "html_bytes": 46583,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)"
@@ -30,7 +30,7 @@
     },
     "https://www.sliceoflifepizzeria.com/order-online": {
       "url": "https://www.sliceoflifepizzeria.com/order-online",
-      "html_bytes": 37830,
+      "html_bytes": 37829,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)"
@@ -39,9 +39,14 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

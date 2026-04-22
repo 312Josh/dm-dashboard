@@ -29,17 +29,21 @@
   "fingerprints": {
     "https://carousels.com/": {
       "url": "https://carousels.com/",
-      "html_bytes": 69298,
+      "html_bytes": 69299,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "marketing": "HubSpot"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

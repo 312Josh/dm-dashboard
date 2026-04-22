@@ -23,7 +23,7 @@
   "fingerprints": {
     "https://www.tampahospitalitygroup.com/": {
       "url": "https://www.tampahospitalitygroup.com/",
-      "html_bytes": 146842,
+      "html_bytes": 145557,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -32,9 +32,16 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

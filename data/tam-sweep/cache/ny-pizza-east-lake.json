@@ -21,17 +21,26 @@
   "fingerprints": {
     "https://www.nypizzaeastlake.com/": {
       "url": "https://www.nypizzaeastlake.com/",
-      "html_bytes": 68801,
+      "html_bytes": 68891,
       "fingerprints": {
-        "oo": "Slice"
+        "oo": "Slice",
+        "pos_other": "Square"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "slicelife"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -14,13 +14,25 @@
   "location_names": [
     "Drifters Food Truck"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://unclenicksbradenton.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://unclenicksbradenton.com": {
+      "url": "https://unclenicksbradenton.com",
+      "html_bytes": 5544,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

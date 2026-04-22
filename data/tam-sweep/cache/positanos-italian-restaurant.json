@@ -23,29 +23,39 @@
       "url": "https://positanoph.com",
       "html_bytes": 389998,
       "fingerprints": {
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://positanoph.com/reservations-request": {
       "url": "https://positanoph.com/reservations-request",
-      "html_bytes": 165574,
-      "fingerprints": {},
+      "html_bytes": 165660,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
       "toast": {}
     },
     "https://positanoph.com/reservations": {
       "url": "https://positanoph.com/reservations",
       "html_bytes": 150776,
       "fingerprints": {
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

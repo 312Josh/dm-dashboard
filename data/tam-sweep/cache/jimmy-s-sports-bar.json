@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.jimmysstpete.com/": {
       "url": "https://www.jimmysstpete.com/",
-      "html_bytes": 111289,
+      "html_bytes": 112237,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -30,7 +30,7 @@
     },
     "https://www.jimmysstpete.com/menu": {
       "url": "https://www.jimmysstpete.com/menu",
-      "html_bytes": 134064,
+      "html_bytes": 134786,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -39,9 +39,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

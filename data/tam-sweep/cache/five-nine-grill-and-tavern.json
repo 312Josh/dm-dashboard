@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.fiveninegrilltavern.com": {
       "url": "https://www.fiveninegrilltavern.com",
-      "html_bytes": 121860,
+      "html_bytes": 523708,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -36,9 +36,16 @@
   "toast_products": {
     "toast_loyalty": "toasttab.com/fiveninegrilltavern/rewardsSignup"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -21,9 +21,10 @@
   "fingerprints": {
     "https://jjsmarketanddeli.com": {
       "url": "https://jjsmarketanddeli.com",
-      "html_bytes": 2213130,
+      "html_bytes": 2244793,
       "fingerprints": {
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/jjs-market-delicatessen",
@@ -32,9 +33,10 @@
     },
     "https://jjsmarketanddeli.com/menu": {
       "url": "https://jjsmarketanddeli.com/menu",
-      "html_bytes": 1747507,
+      "html_bytes": 1809393,
       "fingerprints": {
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/jjs-market-delicatessen",
@@ -46,9 +48,16 @@
     "toast_oo_native": "order.toasttab.com/online/jjs-market-delicatessen",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

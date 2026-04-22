@@ -21,12 +21,13 @@
   "fingerprints": {
     "https://cassisstpete.com/": {
       "url": "https://cassisstpete.com/",
-      "html_bytes": 386064,
+      "html_bytes": 386043,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/cassis-st-pete/giftcards"
@@ -34,11 +35,12 @@
     },
     "https://cassisstpete.com/menu/": {
       "url": "https://cassisstpete.com/menu/",
-      "html_bytes": 210705,
+      "html_bytes": 210684,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/cassis-st-pete/giftcards"
@@ -46,12 +48,13 @@
     },
     "https://cassisstpete.com/reservations/": {
       "url": "https://cassisstpete.com/reservations/",
-      "html_bytes": 171483,
+      "html_bytes": 171462,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/cassis-st-pete/giftcards"
@@ -59,11 +62,12 @@
     },
     "https://cassisstpete.com/booking-policies/": {
       "url": "https://cassisstpete.com/booking-policies/",
-      "html_bytes": 161306,
+      "html_bytes": 161285,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/cassis-st-pete/giftcards"
@@ -73,9 +77,17 @@
   "toast_products": {
     "toast_gift": "toasttab.com/cassis-st-pete/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -21,17 +21,25 @@
   "fingerprints": {
     "https://sweetberries.com/": {
       "url": "https://sweetberries.com/",
-      "html_bytes": 70179,
+      "html_bytes": 70230,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "pos_other": "Square"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

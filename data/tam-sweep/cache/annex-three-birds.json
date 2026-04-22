@@ -34,7 +34,8 @@
       "fingerprints": {
         "oo": "Toast OO (native)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/threebirdstavern",
@@ -48,13 +49,21 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_gift": "toasttab.com/threebirdstavern/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "three birds": "https://www.threebirdstavern.com/",
     "annex": "https://eatwithjohnny.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

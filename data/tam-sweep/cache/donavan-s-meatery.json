@@ -21,12 +21,13 @@
   "fingerprints": {
     "https://donovansmeatery.com": {
       "url": "https://donovansmeatery.com",
-      "html_bytes": 96768,
+      "html_bytes": 96769,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (native)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/donavans-meatery-11206-sullivan-street",
@@ -36,7 +37,7 @@
     },
     "https://donovansmeatery.com/menu/": {
       "url": "https://donovansmeatery.com/menu/",
-      "html_bytes": 113137,
+      "html_bytes": 113138,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (native)",
@@ -55,9 +56,12 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_gift": "toasttab.com/donavans-meatery-11206-sullivan-street/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -22,20 +22,38 @@
     "https://fitzgeraldstavern.com/": {
       "url": "https://fitzgeraldstavern.com/",
       "html_bytes": 210559,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
     },
     "https://fitzgeraldstavern.com/reservations": {
       "url": "https://fitzgeraldstavern.com/reservations",
       "html_bytes": 72620,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
+    },
+    "wayback:https://fitzgeraldstavern.com/": {
+      "url": "http://web.archive.org/web/20260122165557/https://fitzgeraldstavern.com/",
+      "html_bytes": 227105,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

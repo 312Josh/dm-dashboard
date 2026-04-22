@@ -24,6 +24,7 @@
       "url": "https://theparrots.com/",
       "html_bytes": 172254,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "Toast OO (native)"
       },
       "toast": {
@@ -35,6 +36,7 @@
       "url": "https://theparrots.com/menu-%7C-bradenton",
       "html_bytes": 316482,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "Toast OO (native)"
       },
       "toast": {
@@ -46,6 +48,7 @@
       "url": "https://theparrots.com/order-online-bradenton",
       "html_bytes": 96490,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "Toast OO (native)"
       },
       "toast": {
@@ -57,6 +60,7 @@
       "url": "https://theparrots.com/menu-%7C-sarasota",
       "html_bytes": 318141,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "Toast OO (native)"
       },
       "toast": {
@@ -68,6 +72,7 @@
       "url": "https://theparrots.com/order-online-sarasota-1",
       "html_bytes": 96970,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "Toast OO (native)"
       },
       "toast": {
@@ -80,9 +85,15 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_oo_native": "order.toasttab.com/online/the-parrot-patio-bar-grill-bradenton"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

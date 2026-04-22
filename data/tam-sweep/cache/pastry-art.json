@@ -26,7 +26,8 @@
         "website_cms": "BentoBox",
         "oo": "Toast OO (native)",
         "reservations": "Resy",
-        "loyalty": "Toast Loyalty"
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/pastry-art-1512-main-street",
@@ -41,7 +42,8 @@
         "website_cms": "BentoBox",
         "oo": "Toast OO (native)",
         "reservations": "Resy",
-        "loyalty": "Toast Loyalty"
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/pastry-art-1512-main-street",
@@ -55,9 +57,16 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_loyalty": "toasttab.com/pastry-art-1512-main-street/rewardsSignup"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -26,7 +26,8 @@
       "url": "https://thefountainheadtampa.com/",
       "html_bytes": 83927,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     },
@@ -42,14 +43,17 @@
       "url": "https://thefountainheadtampa.com/book-events/",
       "html_bytes": 69742,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     },
     "https://www.atlasgourmetpizza.com/": {
       "url": "https://www.atlasgourmetpizza.com/",
-      "html_bytes": 102437,
-      "fingerprints": {},
+      "html_bytes": 102404,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
       "toast": {}
     },
     "https://www.atlasgourmetpizza.com/assets/frontend/assets/css/tc/menu_product_modal.css": {
@@ -60,13 +64,18 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "atlas": "https://www.atlasgourmetpizza.com/",
     "fountainhead": "https://thefountainheadtampa.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -23,7 +23,7 @@
   "fingerprints": {
     "https://www.casitatacos.com/": {
       "url": "https://www.casitatacos.com/",
-      "html_bytes": 283491,
+      "html_bytes": 284909,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
@@ -38,7 +38,7 @@
     },
     "https://www.casitatacos.com/menu": {
       "url": "https://www.casitatacos.com/menu",
-      "html_bytes": 130547,
+      "html_bytes": 408627,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
@@ -57,9 +57,15 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_gift": "toasttab.com/casita-taqueria-central-ave/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

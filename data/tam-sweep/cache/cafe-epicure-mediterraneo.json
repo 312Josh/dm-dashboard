@@ -22,17 +22,25 @@
   "fingerprints": {
     "https://cafeepicure.com/": {
       "url": "https://cafeepicure.com/",
-      "html_bytes": 310531,
+      "html_bytes": 310482,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

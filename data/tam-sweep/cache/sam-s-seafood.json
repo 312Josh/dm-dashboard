@@ -23,7 +23,7 @@
   "fingerprints": {
     "https://www.samsseafoodgrill.com/": {
       "url": "https://www.samsseafoodgrill.com/",
-      "html_bytes": 559368,
+      "html_bytes": 559743,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -33,7 +33,7 @@
     },
     "https://www.samsseafoodgrill.com/menu-bradenton": {
       "url": "https://www.samsseafoodgrill.com/menu-bradenton",
-      "html_bytes": 777486,
+      "html_bytes": 774914,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -45,9 +45,12 @@
   "toast_products": {
     "toast_oo_whitelabel_host": "https://order.online/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

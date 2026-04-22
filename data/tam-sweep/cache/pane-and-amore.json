@@ -21,21 +21,24 @@
   "fingerprints": {
     "https://paneeamoreitaliancafe.gotoeat.net/": {
       "url": "https://paneeamoreitaliancafe.gotoeat.net/",
-      "html_bytes": 37881,
+      "html_bytes": 37882,
       "fingerprints": {},
       "toast": {}
     },
     "https://paneeamoreitaliancafe.gotoeat.net/menu": {
       "url": "https://paneeamoreitaliancafe.gotoeat.net/menu",
-      "html_bytes": 0,
+      "html_bytes": 21887,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

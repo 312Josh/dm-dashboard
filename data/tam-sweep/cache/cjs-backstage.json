@@ -22,14 +22,21 @@
     "https://cjsbackstage.com": {
       "url": "https://cjsbackstage.com",
       "html_bytes": 158709,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

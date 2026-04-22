@@ -21,36 +21,45 @@
   "fingerprints": {
     "https://www.cafesoleilbakery.com/": {
       "url": "https://www.cafesoleilbakery.com/",
-      "html_bytes": 315783,
+      "html_bytes": 317553,
       "fingerprints": {
         "website_cms": "Squarespace",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://www.cafesoleilbakery.com/giftcards": {
       "url": "https://www.cafesoleilbakery.com/giftcards",
-      "html_bytes": 211675,
+      "html_bytes": 212458,
       "fingerprints": {
         "website_cms": "Squarespace",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://www.cafesoleilbakery.com/menu": {
       "url": "https://www.cafesoleilbakery.com/menu",
-      "html_bytes": 238461,
+      "html_bytes": 813175,
       "fingerprints": {
         "website_cms": "Squarespace",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -22,12 +22,13 @@
   "fingerprints": {
     "https://www.theurbanstillhouse.com/": {
       "url": "https://www.theurbanstillhouse.com/",
-      "html_bytes": 64197,
+      "html_bytes": 64185,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/the-urban-stillhouse-2232-5th-ave-s/giftcards"
@@ -37,9 +38,14 @@
   "toast_products": {
     "toast_gift": "toasttab.com/the-urban-stillhouse-2232-5th-ave-s/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

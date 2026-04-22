@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.seawhipsushibar.com": {
       "url": "https://www.seawhipsushibar.com",
-      "html_bytes": 93635,
+      "html_bytes": 93634,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (native)",
@@ -34,7 +34,7 @@
     },
     "https://www.seawhipsushibar.com/reservations": {
       "url": "https://www.seawhipsushibar.com/reservations",
-      "html_bytes": 79921,
+      "html_bytes": 79920,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (native)",
@@ -47,7 +47,7 @@
     },
     "https://www.seawhipsushibar.com/menu": {
       "url": "https://www.seawhipsushibar.com/menu",
-      "html_bytes": 87099,
+      "html_bytes": 87098,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (native)"
@@ -62,9 +62,14 @@
     "toast_oo_native": "order.toasttab.com/online/seawhip-sushi-bar-llc-2608-bayshore-boulevard",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -22,7 +22,7 @@
   "fingerprints": {
     "https://starfarmslwr.com/": {
       "url": "https://starfarmslwr.com/",
-      "html_bytes": 117668,
+      "html_bytes": 117670,
       "fingerprints": {
         "website_cms": "WordPress"
       },
@@ -30,9 +30,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

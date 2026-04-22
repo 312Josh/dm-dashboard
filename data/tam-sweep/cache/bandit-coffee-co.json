@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://banditcoffee.co": {
       "url": "https://banditcoffee.co",
-      "html_bytes": 110397,
+      "html_bytes": 110372,
       "fingerprints": {
         "website_cms": "Shopify"
       },
@@ -29,9 +29,15 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -22,20 +22,30 @@
     "https://theozonapig.com/": {
       "url": "https://theozonapig.com/",
       "html_bytes": 28042,
-      "fingerprints": {},
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
       "toast": {}
     },
     "https://theozonapig.com/menus.html": {
       "url": "https://theozonapig.com/menus.html",
       "html_bytes": 24016,
-      "fingerprints": {},
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

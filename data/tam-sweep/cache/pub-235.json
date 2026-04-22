@@ -21,15 +21,18 @@
   "fingerprints": {
     "https://pub235.com": {
       "url": "https://pub235.com",
-      "html_bytes": 4816,
+      "html_bytes": 5488,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

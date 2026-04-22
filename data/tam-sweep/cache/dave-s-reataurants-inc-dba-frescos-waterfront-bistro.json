@@ -21,15 +21,23 @@
   "fingerprints": {
     "https://www.frescoswaterfront.com": {
       "url": "https://www.frescoswaterfront.com",
-      "html_bytes": 7202,
+      "html_bytes": 7744,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

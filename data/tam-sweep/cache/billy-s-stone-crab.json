@@ -21,15 +21,22 @@
   "fingerprints": {
     "https://billysstonecrab.com/": {
       "url": "https://billysstonecrab.com/",
-      "html_bytes": 4868,
+      "html_bytes": 5540,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

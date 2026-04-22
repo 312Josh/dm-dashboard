@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.rivierafrenchcafe.com": {
       "url": "https://www.rivierafrenchcafe.com",
-      "html_bytes": 980907,
+      "html_bytes": 979612,
       "fingerprints": {
         "website_cms": "Wix",
         "oo": "Toast OO (native)",
@@ -35,7 +35,7 @@
     },
     "https://www.rivierafrenchcafe.com/menu": {
       "url": "https://www.rivierafrenchcafe.com/menu",
-      "html_bytes": 769455,
+      "html_bytes": 767745,
       "fingerprints": {
         "website_cms": "Wix",
         "oo": "Toast OO (native)",
@@ -53,9 +53,14 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_gift": "toasttab.com/rivierafrenchcafe/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

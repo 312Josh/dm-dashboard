@@ -21,11 +21,13 @@
   "fingerprints": {
     "https://piscessushibistro.com": {
       "url": "https://piscessushibistro.com",
-      "html_bytes": 155348,
+      "html_bytes": 154085,
       "fingerprints": {
         "website_cms": "SpotHopper",
         "oo": "Toast OO (native)",
-        "gift_cards": "Toast Gift Cards"
+        "reservations": "Toast Tables",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/pisces-sushi-and-global-bistro-799-highland-ave",
@@ -41,9 +43,12 @@
     "toast_tables": "tables.toasttab.com/restaurants/8c81bcf1-aea5-41b8-b115-b3df2b91bc09",
     "toast_gift": "toasttab.com/pisces-sushi-and-global-bistro-799-highland-ave/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

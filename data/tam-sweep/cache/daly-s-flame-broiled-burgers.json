@@ -22,20 +22,30 @@
     "https://dalysflamebroiled.com/": {
       "url": "https://dalysflamebroiled.com/",
       "html_bytes": 179554,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
     },
     "https://dalysflamebroiled.com/m/orders": {
       "url": "https://dalysflamebroiled.com/m/orders",
       "html_bytes": 95527,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

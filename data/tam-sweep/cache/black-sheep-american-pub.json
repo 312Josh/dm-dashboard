@@ -23,15 +23,23 @@
       "url": "https://blacksheepap.com/",
       "html_bytes": 300428,
       "fingerprints": {
-        "oo": "Toast OO (whitelabel candidate)"
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering copy"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

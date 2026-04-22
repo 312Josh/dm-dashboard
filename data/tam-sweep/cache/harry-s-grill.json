@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.harrysgrillami.com/": {
       "url": "https://www.harrysgrillami.com/",
-      "html_bytes": 632618,
+      "html_bytes": 1872939,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
@@ -34,7 +34,7 @@
     },
     "https://www.harrysgrillami.com/menus": {
       "url": "https://www.harrysgrillami.com/menus",
-      "html_bytes": 203507,
+      "html_bytes": 204513,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -47,9 +47,12 @@
     "toast_oo_native": "order.toasttab.com/online/harrys-grill-9903-gulf-drive",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

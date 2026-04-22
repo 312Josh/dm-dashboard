@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.theshrimpstore.com/": {
       "url": "https://www.theshrimpstore.com/",
-      "html_bytes": 615819,
+      "html_bytes": 613238,
       "fingerprints": {
         "website_cms": "Wix",
         "oo": "Toast OO (whitelabel candidate)",
@@ -33,7 +33,7 @@
     },
     "https://www.theshrimpstore.com/menu-1": {
       "url": "https://www.theshrimpstore.com/menu-1",
-      "html_bytes": 1329142,
+      "html_bytes": 1323959,
       "fingerprints": {
         "website_cms": "Wix",
         "oo": "Toast OO (whitelabel candidate)",
@@ -47,9 +47,12 @@
   "toast_products": {
     "toast_gift": "toasttab.com/4th-street-shrimp-store-1006-4th-street-north/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

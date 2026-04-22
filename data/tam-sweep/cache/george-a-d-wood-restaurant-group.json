@@ -23,25 +23,28 @@
   "fingerprints": {
     "https://www.georgiesutc.com/": {
       "url": "https://www.georgiesutc.com/",
-      "html_bytes": 7175,
+      "html_bytes": 7738,
       "fingerprints": {},
       "toast": {}
     },
     "https://www.janesgardencafe.com/": {
       "url": "https://www.janesgardencafe.com/",
-      "html_bytes": 4851,
+      "html_bytes": 7763,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "georgie": "https://www.georgiesutc.com/",
     "jane": "https://www.janesgardencafe.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

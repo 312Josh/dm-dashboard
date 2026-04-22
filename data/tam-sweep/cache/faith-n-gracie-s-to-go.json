@@ -22,14 +22,19 @@
     "https://faithngraciestogo.com": {
       "url": "https://faithngraciestogo.com",
       "html_bytes": 91847,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

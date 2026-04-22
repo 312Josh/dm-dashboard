@@ -21,11 +21,12 @@
   "fingerprints": {
     "https://www.grubami.com/": {
       "url": "https://www.grubami.com/",
-      "html_bytes": 177535,
+      "html_bytes": 715305,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/grub-tropical-bbq-415-pine-ave",
@@ -34,11 +35,12 @@
     },
     "https://www.grubami.com/menu": {
       "url": "https://www.grubami.com/menu",
-      "html_bytes": 145952,
+      "html_bytes": 794510,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/grub-tropical-bbq-415-pine-ave",
@@ -50,9 +52,14 @@
     "toast_oo_native": "order.toasttab.com/online/grub-tropical-bbq-415-pine-ave",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

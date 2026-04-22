@@ -14,13 +14,64 @@
   "location_names": [
     "Turmeric Indian Bar & Grill"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "websites": [
+    "https://www.turmericsarasota.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.turmericsarasota.com": {
+      "url": "https://www.turmericsarasota.com",
+      "html_bytes": 1627670,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.turmericsarasota.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/a61383e5-4afb-468d-83b0-4eaf99812fa3",
+        "toast_gift": "toasttab.com/turmeric-indian-restaurant/giftcards",
+        "toast_loyalty": "toasttab.com/turmeric-indian-restaurant/rewardsSignup",
+        "toast_oo_whitelabel_confirmed": "order.turmericsarasota.com + toasttab string in HTML"
+      }
+    },
+    "https://www.turmericsarasota.com/menu": {
+      "url": "https://www.turmericsarasota.com/menu",
+      "html_bytes": 4000651,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.turmericsarasota.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/a61383e5-4afb-468d-83b0-4eaf99812fa3",
+        "toast_oo_whitelabel_confirmed": "order.turmericsarasota.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.turmericsarasota.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/a61383e5-4afb-468d-83b0-4eaf99812fa3",
+    "toast_gift": "toasttab.com/turmeric-indian-restaurant/giftcards",
+    "toast_loyalty": "toasttab.com/turmeric-indian-restaurant/rewardsSignup",
+    "toast_oo_whitelabel_confirmed": "order.turmericsarasota.com + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

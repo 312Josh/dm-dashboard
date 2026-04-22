@@ -29,6 +29,7 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page",
         "loyalty": "Toast Loyalty"
       },
       "toast": {
@@ -43,7 +44,8 @@
       "html_bytes": 112667,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (whitelabel candidate)"
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -53,7 +55,8 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
-        "loyalty": "Toast Loyalty"
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_loyalty": "toasttab.com/louis-pappas-marketplace-bay-to-bay/rewardsSignup"
@@ -64,7 +67,8 @@
       "html_bytes": 78363,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/pappas-marketplace-trinity-3294-redeemer-way",
@@ -79,9 +83,15 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_local": "toasttab.com/local/order"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.debinebrewingco.com/": {
       "url": "https://www.debinebrewingco.com/",
-      "html_bytes": 124618,
+      "html_bytes": 124620,
       "fingerprints": {
         "website_cms": "WordPress"
       },
@@ -29,9 +29,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

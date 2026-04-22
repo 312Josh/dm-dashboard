@@ -21,11 +21,12 @@
   "fingerprints": {
     "https://www.thegetawaytampabay.com": {
       "url": "https://www.thegetawaytampabay.com",
-      "html_bytes": 824389,
+      "html_bytes": 820262,
       "fingerprints": {
         "website_cms": "Wix",
         "oo": "Toast OO (whitelabel candidate)",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/the-getaway-kgdid/giftcards"
@@ -35,9 +36,14 @@
   "toast_products": {
     "toast_gift": "toasttab.com/the-getaway-kgdid/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

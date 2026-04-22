@@ -21,15 +21,23 @@
   "fingerprints": {
     "https://www.cdromas.com/": {
       "url": "https://www.cdromas.com/",
-      "html_bytes": 7150,
+      "html_bytes": 7734,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

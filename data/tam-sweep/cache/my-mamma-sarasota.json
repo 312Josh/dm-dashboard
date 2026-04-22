@@ -21,18 +21,19 @@
   "fingerprints": {
     "https://my-mamma.com/": {
       "url": "https://my-mamma.com/",
-      "html_bytes": 287108,
+      "html_bytes": 298669,
       "fingerprints": {
         "website_cms": "WordPress",
-        "reservations": "OpenTable"
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://my-mamma.com/gift-card-2/": {
       "url": "https://my-mamma.com/gift-card-2/",
-      "html_bytes": 240423,
+      "html_bytes": 302465,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -46,9 +47,10 @@
     },
     "https://my-mamma.com/order-pickup/": {
       "url": "https://my-mamma.com/order-pickup/",
-      "html_bytes": 307677,
+      "html_bytes": 362115,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -60,9 +62,14 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

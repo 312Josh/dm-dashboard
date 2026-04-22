@@ -21,15 +21,18 @@
   "fingerprints": {
     "https://agrigento-pizzeria-caffe.res-menu.net/": {
       "url": "https://agrigento-pizzeria-caffe.res-menu.net/",
-      "html_bytes": 4928,
+      "html_bytes": 5600,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

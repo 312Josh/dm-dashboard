@@ -24,7 +24,7 @@
   "fingerprints": {
     "https://owensfishcamp.com/": {
       "url": "https://owensfishcamp.com/",
-      "html_bytes": 56136,
+      "html_bytes": 56552,
       "fingerprints": {
         "website_cms": "WordPress"
       },
@@ -32,7 +32,7 @@
     },
     "https://owensfishcamp.com/menu-copy/": {
       "url": "https://owensfishcamp.com/menu-copy/",
-      "html_bytes": 54487,
+      "html_bytes": 54855,
       "fingerprints": {
         "website_cms": "WordPress"
       },
@@ -40,9 +40,14 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

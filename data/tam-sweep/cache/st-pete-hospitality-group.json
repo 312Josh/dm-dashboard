@@ -23,7 +23,7 @@
   "fingerprints": {
     "https://stpetehospitalitygroup.com/": {
       "url": "https://stpetehospitalitygroup.com/",
-      "html_bytes": 193643,
+      "html_bytes": 193850,
       "fingerprints": {
         "website_cms": "WordPress"
       },
@@ -31,9 +31,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

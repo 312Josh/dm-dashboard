@@ -25,12 +25,25 @@
       "html_bytes": 0,
       "fingerprints": {},
       "toast": {}
+    },
+    "wayback:https://www.volethospitality.com/": {
+      "url": "http://web.archive.org/web/20250222043747/https://www.volethospitality.com/",
+      "html_bytes": 49234,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -21,11 +21,12 @@
   "fingerprints": {
     "https://tandoorsarasota.com": {
       "url": "https://tandoorsarasota.com",
-      "html_bytes": 277246,
+      "html_bytes": 280263,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/tandoor-indian-srq-8447-cooper-creek-boulevard",
@@ -35,11 +36,12 @@
     },
     "https://tandoorsarasota.com/menu": {
       "url": "https://tandoorsarasota.com/menu",
-      "html_bytes": 169946,
+      "html_bytes": 171105,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/tandoor-indian-srq-8447-cooper-creek-boulevard",
@@ -53,9 +55,16 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_tables": "tables.toasttab.com/restaurants/1f76f4b6-93c1-4c5f-a88e-2abf7e0695bf"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

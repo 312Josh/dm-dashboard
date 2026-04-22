@@ -22,15 +22,21 @@
   "fingerprints": {
     "https://donjuliosmexican.com/": {
       "url": "https://donjuliosmexican.com/",
-      "html_bytes": 4848,
+      "html_bytes": 5520,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

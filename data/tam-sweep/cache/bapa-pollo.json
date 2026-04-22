@@ -24,7 +24,8 @@
       "html_bytes": 169706,
       "fingerprints": {
         "oo": "Toast OO (native)",
-        "loyalty": "Toast Loyalty"
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/bapa-pollo-1210-8th-ave-w",
@@ -38,9 +39,15 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_loyalty": "toasttab.com/bapa-pollo-1210-8th-ave-w/rewardsLookup"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

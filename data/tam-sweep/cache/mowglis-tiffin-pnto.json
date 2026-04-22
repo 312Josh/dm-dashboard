@@ -21,15 +21,18 @@
   "fingerprints": {
     "https://mowglistiffinstp.com": {
       "url": "https://mowglistiffinstp.com",
-      "html_bytes": 4869,
+      "html_bytes": 5541,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

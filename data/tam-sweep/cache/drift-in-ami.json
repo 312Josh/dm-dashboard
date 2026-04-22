@@ -51,9 +51,12 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_loyalty": "toasttab.com/drift-120-bridge-street/rewardsSignup"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

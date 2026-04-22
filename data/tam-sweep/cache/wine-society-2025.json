@@ -24,7 +24,8 @@
       "html_bytes": 213401,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.toasttab.com/"
@@ -34,9 +35,12 @@
   "toast_products": {
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

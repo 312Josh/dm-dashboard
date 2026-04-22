@@ -25,7 +25,9 @@
       "fingerprints": {
         "website_cms": "SpotHopper",
         "oo": "Toast OO (native)",
-        "gift_cards": "Toast Gift Cards"
+        "reservations": "Toast Tables",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/stellasingulfport",
@@ -40,6 +42,7 @@
       "fingerprints": {
         "website_cms": "SpotHopper",
         "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
         "gift_cards": "Toast Gift Cards"
       },
       "toast": {
@@ -56,9 +59,15 @@
     "toast_tables": "tables.toasttab.com/restaurants/255b4e9f-8dab-4b8e-adce-20c4bb2993ab",
     "toast_gift": "toasttab.com/stellasingulfport/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

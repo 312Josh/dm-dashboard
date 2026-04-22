@@ -22,7 +22,7 @@
   "fingerprints": {
     "https://www.halelifebakery.com/": {
       "url": "https://www.halelifebakery.com/",
-      "html_bytes": 880097,
+      "html_bytes": 877529,
       "fingerprints": {
         "website_cms": "Wix",
         "oo": "Toast OO (whitelabel candidate)",
@@ -34,7 +34,7 @@
     },
     "https://www.halelifebakery.com/order-online": {
       "url": "https://www.halelifebakery.com/order-online",
-      "html_bytes": 1487518,
+      "html_bytes": 1485886,
       "fingerprints": {
         "website_cms": "Wix",
         "oo": "Toast OO (whitelabel candidate)",
@@ -48,9 +48,15 @@
   "toast_products": {
     "toast_gift": "toasttab.com/halelife-bakery-bayview-11270-4th-st-n/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

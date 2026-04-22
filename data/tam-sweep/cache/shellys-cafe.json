@@ -22,20 +22,30 @@
     "https://shellyscafetampa.com/": {
       "url": "https://shellyscafetampa.com/",
       "html_bytes": 155293,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
     },
     "https://shellyscafetampa.com/menu": {
       "url": "https://shellyscafetampa.com/menu",
       "html_bytes": 288544,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

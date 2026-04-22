@@ -21,21 +21,28 @@
   "fingerprints": {
     "https://www.eatat82.com": {
       "url": "https://www.eatat82.com",
-      "html_bytes": 224767,
+      "html_bytes": 224801,
       "fingerprints": {},
       "toast": {}
     },
     "https://www.eatat82.com/Content/reserve-css?v=": {
       "url": "https://www.eatat82.com/Content/reserve-css?v=",
-      "html_bytes": 224434,
+      "html_bytes": 224991,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -21,11 +21,12 @@
   "fingerprints": {
     "https://cantinaviajero.com": {
       "url": "https://cantinaviajero.com",
-      "html_bytes": 168405,
+      "html_bytes": 169352,
       "fingerprints": {
         "website_cms": "SpotHopper",
         "oo": "Toast OO (native)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/cantina-viajero-1338-epiphany-way-suite-103",
@@ -38,7 +39,8 @@
       "fingerprints": {
         "website_cms": "SpotHopper",
         "oo": "Toast OO (native)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/cantina-viajero-1338-epiphany-way-suite-103",
@@ -50,9 +52,16 @@
     "toast_oo_native": "order.toasttab.com/online/cantina-viajero-1338-epiphany-way-suite-103",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

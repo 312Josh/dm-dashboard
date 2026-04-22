@@ -25,15 +25,36 @@
   "fingerprints": {
     "https://www.poppostacos.com/": {
       "url": "https://www.poppostacos.com/",
-      "html_bytes": 7154,
+      "html_bytes": 7738,
       "fingerprints": {},
       "toast": {}
+    },
+    "wayback:https://www.poppostacos.com/": {
+      "url": "http://web.archive.org/web/20251225213318/https://www.poppostacos.com/",
+      "html_bytes": 858737,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "oo": "Popmenu OO",
+        "reservations": "OpenTable",
+        "pos_other": "Clover",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

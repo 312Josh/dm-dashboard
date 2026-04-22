@@ -24,7 +24,8 @@
       "html_bytes": 31006,
       "fingerprints": {
         "oo": "Toast OO (whitelabel candidate)",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "reservations": "Toast Tables"
       },
       "toast": {
         "toast_gift": "toasttab.com/good-intentions-1900-first-ave-s/giftcards",
@@ -54,7 +55,8 @@
       "url": "https://www.goodintentionsfl.com/reservations.html",
       "html_bytes": 27521,
       "fingerprints": {
-        "oo": "Toast OO (whitelabel candidate)"
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
       },
       "toast": {
         "toast_tables": "tables.toasttab.com/restaurants/61d69af3-2b95-47ce-85d7-2c101cc4056e"
@@ -67,9 +69,15 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_tables": "tables.toasttab.com/restaurants/61d69af3-2b95-47ce-85d7-2c101cc4056e"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

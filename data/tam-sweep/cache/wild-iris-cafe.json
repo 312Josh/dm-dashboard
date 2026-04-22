@@ -21,10 +21,11 @@
   "fingerprints": {
     "https://wildiriscafe.com/": {
       "url": "https://wildiriscafe.com/",
-      "html_bytes": 54698,
+      "html_bytes": 54694,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (whitelabel candidate)"
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -33,15 +34,21 @@
       "html_bytes": 49669,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (whitelabel candidate)"
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

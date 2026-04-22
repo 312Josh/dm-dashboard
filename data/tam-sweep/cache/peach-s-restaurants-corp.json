@@ -26,15 +26,12 @@
   "fingerprints": {
     "https://peachs.net/": {
       "url": "https://peachs.net/",
-      "html_bytes": 119851,
+      "html_bytes": 6370,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (native)"
+        "marketing": "Mailchimp"
       },
-      "toast": {
-        "toast_oo_native": "order.toasttab.com/online/peachs-1-manatee",
-        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
-      }
+      "toast": {}
     },
     "https://peachs.net/menu/": {
       "url": "https://peachs.net/menu/",
@@ -53,9 +50,15 @@
     "toast_oo_native": "order.toasttab.com/online/peachs-1-manatee",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

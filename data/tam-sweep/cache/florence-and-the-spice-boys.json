@@ -28,7 +28,8 @@
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "Resy",
         "loyalty": "Toast Loyalty",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/florence-and-the-spice-boys-landings/giftcards",
@@ -60,7 +61,8 @@
         "oo": "Toast OO (native)",
         "reservations": "Resy",
         "loyalty": "Toast Loyalty",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/florence-and-the-spice-boys-cattlemen-rd-new-257-north-cattlemen-road",
@@ -76,9 +78,16 @@
     "toast_oo_native": "order.toasttab.com/online/florence-and-the-spice-boys-cattlemen-rd-new-257-north-cattlemen-road",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

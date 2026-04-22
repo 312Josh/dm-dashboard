@@ -28,10 +28,11 @@
   "fingerprints": {
     "https://www.zimzari.com/": {
       "url": "https://www.zimzari.com/",
-      "html_bytes": 437074,
+      "html_bytes": 437015,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable",
+        "catering_mention": "Catering page",
         "oo": "Toast OO (whitelabel candidate)",
         "gift_cards": "Toast Gift Cards"
       },
@@ -41,21 +42,23 @@
     },
     "https://www.zimzari.com/menus": {
       "url": "https://www.zimzari.com/menus",
-      "html_bytes": 279751,
+      "html_bytes": 280927,
       "fingerprints": {
         "website_cms": "Squarespace",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://www.zimzari.com/gift-cards": {
       "url": "https://www.zimzari.com/gift-cards",
-      "html_bytes": 202048,
+      "html_bytes": 203839,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/zimzari/giftcards"
@@ -63,11 +66,12 @@
     },
     "https://www.eatagavesocial.com/": {
       "url": "https://www.eatagavesocial.com/",
-      "html_bytes": 301559,
+      "html_bytes": 1723782,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
         "reservations": "OpenTable",
+        "catering_mention": "Catering page",
         "gift_cards": "Toast Gift Cards"
       },
       "toast": {
@@ -79,11 +83,12 @@
     },
     "https://www.eatagavesocial.com/menu": {
       "url": "https://www.eatagavesocial.com/menu",
-      "html_bytes": 195860,
+      "html_bytes": 196984,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/agave-social-dale-maby-14803-north-dale-mabry-highway",
@@ -93,12 +98,13 @@
     },
     "https://www.eatagavesocial.com/gift-cards": {
       "url": "https://www.eatagavesocial.com/gift-cards",
-      "html_bytes": 198308,
+      "html_bytes": 200172,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/agave-social-dale-maby-14803-north-dale-mabry-highway",
@@ -109,10 +115,11 @@
     },
     "https://www.shakerandpeel.com/": {
       "url": "https://www.shakerandpeel.com/",
-      "html_bytes": 421985,
+      "html_bytes": 471125,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable",
+        "catering_mention": "Catering page",
         "oo": "Toast OO (native)",
         "gift_cards": "Toast Gift Cards"
       },
@@ -123,21 +130,23 @@
     },
     "https://www.shakerandpeel.com/menus": {
       "url": "https://www.shakerandpeel.com/menus",
-      "html_bytes": 186308,
+      "html_bytes": 187299,
       "fingerprints": {
         "website_cms": "Squarespace",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://www.shakerandpeel.com/gift-cards": {
       "url": "https://www.shakerandpeel.com/gift-cards",
-      "html_bytes": 222560,
+      "html_bytes": 224895,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.toasttab.com/",
@@ -146,11 +155,12 @@
     },
     "https://www.craftstreetkitchen.com/": {
       "url": "https://www.craftstreetkitchen.com/",
-      "html_bytes": 411631,
+      "html_bytes": 768082,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
         "reservations": "OpenTable",
+        "catering_mention": "Catering page",
         "gift_cards": "Toast Gift Cards"
       },
       "toast": {
@@ -162,11 +172,12 @@
     },
     "https://www.craftstreetkitchen.com/menu-4": {
       "url": "https://www.craftstreetkitchen.com/menu-4",
-      "html_bytes": 220650,
+      "html_bytes": 221747,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/craft-street-kitchen-trinity",
@@ -176,11 +187,12 @@
     },
     "https://www.craftstreetkitchen.com/menu-4-3": {
       "url": "https://www.craftstreetkitchen.com/menu-4-3",
-      "html_bytes": 220795,
+      "html_bytes": 221892,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/craft-street-kitchen-trinity",
@@ -190,12 +202,13 @@
     },
     "https://www.craftstreetkitchen.com/gift-cards": {
       "url": "https://www.craftstreetkitchen.com/gift-cards",
-      "html_bytes": 250634,
+      "html_bytes": 252242,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/craft-street-kitchen-trinity",
@@ -211,8 +224,8 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_tables": "tables.toasttab.com/restaurants/26d72b04-d043-4ccc-9f48-f7513f02a351"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
@@ -222,5 +235,8 @@
     "craft street": "https://www.craftstreetkitchen.com/",
     "zimzari": "https://www.zimzari.com/",
     "zim zari": "https://www.zimzari.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

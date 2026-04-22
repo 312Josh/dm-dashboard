@@ -22,15 +22,34 @@
   "fingerprints": {
     "https://scarpinosclassicitalian.com/": {
       "url": "https://scarpinosclassicitalian.com/",
-      "html_bytes": 4876,
+      "html_bytes": 5548,
       "fingerprints": {},
       "toast": {}
+    },
+    "wayback:https://scarpinosclassicitalian.com/": {
+      "url": "http://web.archive.org/web/20251108013208/https://scarpinosclassicitalian.com/",
+      "html_bytes": 335726,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "oo": "Owner.com OO",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

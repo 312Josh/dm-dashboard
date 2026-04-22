@@ -21,21 +21,32 @@
   "fingerprints": {
     "https://www.snapperscomedyclub.com/": {
       "url": "https://www.snapperscomedyclub.com/",
-      "html_bytes": 208551,
-      "fingerprints": {},
+      "html_bytes": 208552,
+      "fingerprints": {
+        "catering_mention": "Private events page"
+      },
       "toast": {}
     },
     "https://www.snapperscomedyclub.com/pages/menu": {
       "url": "https://www.snapperscomedyclub.com/pages/menu",
       "html_bytes": 9827,
-      "fingerprints": {},
+      "fingerprints": {
+        "catering_mention": "Private events page"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

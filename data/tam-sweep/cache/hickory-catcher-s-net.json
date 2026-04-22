@@ -21,17 +21,21 @@
   "fingerprints": {
     "https://hickoryhollowbbq.com": {
       "url": "https://hickoryhollowbbq.com",
-      "html_bytes": 151831,
+      "html_bytes": 151516,
       "fingerprints": {
-        "website_cms": "SpotHopper"
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering email"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

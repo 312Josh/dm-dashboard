@@ -27,7 +27,8 @@
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
         "gift_cards": "Toast Gift Cards",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/arts-and-central-611-central-avenue/giftcards"
@@ -37,9 +38,12 @@
   "toast_products": {
     "toast_gift": "toasttab.com/arts-and-central-611-central-avenue/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

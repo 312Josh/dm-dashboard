@@ -28,8 +28,9 @@
   "fingerprints": {
     "https://smokinoakpizza.com/": {
       "url": "https://smokinoakpizza.com/",
-      "html_bytes": 88539,
+      "html_bytes": 88529,
       "fingerprints": {
+        "oo": "Thanx OO",
         "loyalty": "Thanx"
       },
       "toast": {
@@ -38,8 +39,9 @@
     },
     "https://smokinoakpizza.com/menu.html": {
       "url": "https://smokinoakpizza.com/menu.html",
-      "html_bytes": 91089,
+      "html_bytes": 91079,
       "fingerprints": {
+        "oo": "Thanx OO",
         "loyalty": "Thanx"
       },
       "toast": {
@@ -50,9 +52,18 @@
   "toast_products": {
     "toast_oo_whitelabel_host": "https://order.thanx.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "postmates",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

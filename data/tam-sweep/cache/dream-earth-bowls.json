@@ -23,7 +23,8 @@
       "url": "https://dreamearthbowl.com/",
       "html_bytes": 161504,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "pos_other": "Aloha"
       },
       "toast": {}
     },
@@ -31,15 +32,23 @@
       "url": "https://dreamearthbowl.com/menu/",
       "html_bytes": 180915,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "pos_other": "Aloha"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

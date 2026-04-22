@@ -21,15 +21,18 @@
   "fingerprints": {
     "https://www.osteria500.com": {
       "url": "https://www.osteria500.com",
-      "html_bytes": 7153,
+      "html_bytes": 5496,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

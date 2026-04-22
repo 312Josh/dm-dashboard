@@ -21,15 +21,35 @@
   "fingerprints": {
     "https://zenkitchenandbar.com/": {
       "url": "https://zenkitchenandbar.com/",
-      "html_bytes": 4848,
+      "html_bytes": 5520,
       "fingerprints": {},
       "toast": {}
+    },
+    "wayback:https://zenkitchenandbar.com/": {
+      "url": "http://web.archive.org/web/20260115080225/https://zenkitchenandbar.com/",
+      "html_bytes": 393666,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "oo": "Owner.com OO",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

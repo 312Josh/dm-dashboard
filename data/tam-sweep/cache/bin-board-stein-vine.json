@@ -23,7 +23,7 @@
   "fingerprints": {
     "https://www.binandboard.com/": {
       "url": "https://www.binandboard.com/",
-      "html_bytes": 7154,
+      "html_bytes": 7759,
       "fingerprints": {},
       "toast": {}
     },
@@ -35,13 +35,16 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "bin": "https://www.binandboard.com/",
     "stein": "https://steinandvine.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

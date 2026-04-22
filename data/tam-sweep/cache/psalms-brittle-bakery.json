@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://psalmsbrittle.com": {
       "url": "https://psalmsbrittle.com",
-      "html_bytes": 581722,
+      "html_bytes": 581721,
       "fingerprints": {
         "website_cms": "Shopify",
         "marketing": "Klaviyo"
@@ -30,9 +30,14 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

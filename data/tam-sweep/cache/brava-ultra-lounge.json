@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.bravaultralounge.com/": {
       "url": "https://www.bravaultralounge.com/",
-      "html_bytes": 172259,
+      "html_bytes": 988221,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -30,7 +30,7 @@
     },
     "https://www.bravaultralounge.com/menu-1": {
       "url": "https://www.bravaultralounge.com/menu-1",
-      "html_bytes": 119508,
+      "html_bytes": 670207,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -39,7 +39,7 @@
     },
     "https://www.bravaultralounge.com/menu-2": {
       "url": "https://www.bravaultralounge.com/menu-2",
-      "html_bytes": 117470,
+      "html_bytes": 415243,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -48,9 +48,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

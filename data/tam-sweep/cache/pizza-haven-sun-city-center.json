@@ -23,7 +23,8 @@
       "url": "https://www.pizzahavenfl.com",
       "html_bytes": 45134,
       "fingerprints": {
-        "oo": "Menufy"
+        "oo": "Menufy",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -45,9 +46,15 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

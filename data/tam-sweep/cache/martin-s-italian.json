@@ -24,15 +24,22 @@
       "html_bytes": 152988,
       "fingerprints": {
         "website_cms": "SpotHopper",
-        "reservations": "Resy"
+        "reservations": "Resy",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "resy",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

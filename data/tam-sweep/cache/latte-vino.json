@@ -21,12 +21,13 @@
   "fingerprints": {
     "https://www.lattevinoflorida.com": {
       "url": "https://www.lattevinoflorida.com",
-      "html_bytes": 989331,
+      "html_bytes": 984445,
       "fingerprints": {
         "website_cms": "Wix",
         "oo": "Toast OO (native)",
         "loyalty": "Toast Loyalty",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/latte-vino-22299-sr-54",
@@ -40,7 +41,8 @@
       "html_bytes": 638525,
       "fingerprints": {
         "website_cms": "Wix",
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/latte-vino-22299-sr-54",
@@ -54,9 +56,15 @@
     "toast_gift": "toasttab.com/latte-vino-22299-sr-54/giftcards",
     "toast_loyalty": "toasttab.com/latte-vino-22299-sr-54/rewardsSignup"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

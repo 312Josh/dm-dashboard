@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.wildchildstpete.com/": {
       "url": "https://www.wildchildstpete.com/",
-      "html_bytes": 168841,
+      "html_bytes": 169722,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -34,7 +34,7 @@
     },
     "https://www.wildchildstpete.com/menu": {
       "url": "https://www.wildchildstpete.com/menu",
-      "html_bytes": 108977,
+      "html_bytes": 109666,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -45,12 +45,15 @@
   "toast_products": {
     "toast_gift": "toasttab.com/wild-child/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "wild child": "https://www.wildchildstpete.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

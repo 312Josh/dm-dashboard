@@ -21,15 +21,20 @@
   "fingerprints": {
     "https://www.fatbeetfarm.com/": {
       "url": "https://www.fatbeetfarm.com/",
-      "html_bytes": 7154,
+      "html_bytes": 7738,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

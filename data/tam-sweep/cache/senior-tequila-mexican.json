@@ -25,20 +25,41 @@
     "https://www.thesenortequila.com/": {
       "url": "https://www.thesenortequila.com/",
       "html_bytes": 112358,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "Sky Marketing",
+        "oo": "Sky Ordering"
+      },
       "toast": {}
     },
     "https://www.thesenortequila.com/menu": {
       "url": "https://www.thesenortequila.com/menu",
       "html_bytes": 99795,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "Sky Marketing",
+        "oo": "Sky Ordering"
+      },
       "toast": {}
+    },
+    "wayback:https://www.thesenortequila.com/": {
+      "url": "http://web.archive.org/web/20251018221503/https://www.thesenortequila.com/",
+      "html_bytes": 118492,
+      "fingerprints": {
+        "website_cms": "Sky Marketing",
+        "oo": "Sky Ordering"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -22,11 +22,12 @@
   "fingerprints": {
     "https://greysonbar.com/": {
       "url": "https://greysonbar.com/",
-      "html_bytes": 298701,
+      "html_bytes": 298699,
       "fingerprints": {
         "website_cms": "SpotHopper",
         "oo": "Toast OO (native)",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/the-greyson-lwr-11161-state-road-70-east",
@@ -40,9 +41,12 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_gift": "toasttab.com/thegreysonbar-palmetto/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

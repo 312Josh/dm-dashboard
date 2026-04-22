@@ -30,12 +30,29 @@
       "html_bytes": 625547,
       "fingerprints": {},
       "toast": {}
+    },
+    "wayback:https://chicagosbestburgers.com/": {
+      "url": "http://web.archive.org/web/20250521132905/https://chicagosbestburgers.com/",
+      "html_bytes": 187710,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "pos_other": "Clover"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

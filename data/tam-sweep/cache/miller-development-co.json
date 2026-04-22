@@ -24,21 +24,38 @@
   "fingerprints": {
     "https://www.pier22dining.com/": {
       "url": "https://www.pier22dining.com/",
-      "html_bytes": 7176,
+      "html_bytes": 7739,
       "fingerprints": {},
       "toast": {}
     },
     "https://millerinvesting.com/": {
       "url": "https://millerinvesting.com/",
       "html_bytes": 119889,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
+    },
+    "wayback:https://millerinvesting.com/": {
+      "url": "http://web.archive.org/web/20260211214248/https://millerinvesting.com/",
+      "html_bytes": 129431,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

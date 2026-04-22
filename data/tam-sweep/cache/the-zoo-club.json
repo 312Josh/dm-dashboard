@@ -14,13 +14,63 @@
   "location_names": [
     "The Zoo Club"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.thezooclubfl.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thezooclubfl.com": {
+      "url": "https://www.thezooclubfl.com",
+      "html_bytes": 1581970,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.thezooclubfl.com/book-an-event": {
+      "url": "https://www.thezooclubfl.com/book-an-event",
+      "html_bytes": 1797766,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.thezooclubfl.com/book-a-gig": {
+      "url": "https://www.thezooclubfl.com/book-a-gig",
+      "html_bytes": 1308823,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.thezooclubfl.com/booking-calendar/private-event-booking": {
+      "url": "https://www.thezooclubfl.com/booking-calendar/private-event-booking",
+      "html_bytes": 1819189,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.thezooclubfl.com/book-online": {
+      "url": "https://www.thezooclubfl.com/book-online",
+      "html_bytes": 1462655,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

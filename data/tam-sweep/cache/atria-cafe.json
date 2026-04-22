@@ -26,7 +26,8 @@
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/atria-cafe-lwr/giftcards"
@@ -36,9 +37,14 @@
   "toast_products": {
     "toast_gift": "toasttab.com/atria-cafe-lwr/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

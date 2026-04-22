@@ -21,17 +21,24 @@
   "fingerprints": {
     "https://dinetryst.com/": {
       "url": "https://dinetryst.com/",
-      "html_bytes": 161479,
+      "html_bytes": 162445,
       "fingerprints": {
-        "website_cms": "SpotHopper"
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

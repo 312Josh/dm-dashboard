@@ -24,7 +24,8 @@
       "html_bytes": 23215,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (whitelabel candidate)"
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -33,7 +34,8 @@
       "html_bytes": 41882,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (whitelabel candidate)"
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -42,15 +44,24 @@
       "html_bytes": 17241,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (whitelabel candidate)"
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

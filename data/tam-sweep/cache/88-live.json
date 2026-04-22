@@ -22,7 +22,7 @@
   "fingerprints": {
     "https://www.88livebradenton.com/": {
       "url": "https://www.88livebradenton.com/",
-      "html_bytes": 173683,
+      "html_bytes": 203978,
       "fingerprints": {
         "website_cms": "WordPress"
       },
@@ -36,9 +36,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -23,10 +23,11 @@
   "fingerprints": {
     "https://nuevacantina.com/": {
       "url": "https://nuevacantina.com/",
-      "html_bytes": 134753,
+      "html_bytes": 134991,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/nueva-cantina-st-pete",
@@ -35,10 +36,11 @@
     },
     "https://nuevacantina.com/reservations/": {
       "url": "https://nuevacantina.com/reservations/",
-      "html_bytes": 112828,
+      "html_bytes": 113081,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/nueva-cantina-st-pete",
@@ -50,9 +52,16 @@
     "toast_oo_native": "order.toasttab.com/online/nueva-cantina-st-pete",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

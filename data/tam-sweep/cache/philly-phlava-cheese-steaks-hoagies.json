@@ -21,15 +21,24 @@
   "fingerprints": {
     "https://www.phillyphlava.com/": {
       "url": "https://www.phillyphlava.com/",
-      "html_bytes": 19103,
-      "fingerprints": {},
+      "html_bytes": 19193,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

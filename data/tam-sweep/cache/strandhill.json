@@ -22,18 +22,25 @@
   "fingerprints": {
     "https://strandhillpublic.com/": {
       "url": "https://strandhillpublic.com/",
-      "html_bytes": 172558,
+      "html_bytes": 172334,
       "fingerprints": {
         "website_cms": "SpotHopper",
-        "reservations": "Resy"
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

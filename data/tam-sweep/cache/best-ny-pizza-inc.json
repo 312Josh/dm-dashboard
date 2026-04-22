@@ -21,65 +21,79 @@
   "fingerprints": {
     "https://www.bestnypizza.com": {
       "url": "https://www.bestnypizza.com",
-      "html_bytes": 1263507,
+      "html_bytes": 1261329,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://www.bestnypizza.com/menu": {
       "url": "https://www.bestnypizza.com/menu",
-      "html_bytes": 1189908,
+      "html_bytes": 1187667,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://www.bestnypizza.com/menu/nycheesepizza": {
       "url": "https://www.bestnypizza.com/menu/nycheesepizza",
-      "html_bytes": 987370,
+      "html_bytes": 984256,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://www.bestnypizza.com/menu/meatpizza": {
       "url": "https://www.bestnypizza.com/menu/meatpizza",
-      "html_bytes": 982877,
+      "html_bytes": 980411,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://www.bestnypizza.com/menu/veggiepizza": {
       "url": "https://www.bestnypizza.com/menu/veggiepizza",
-      "html_bytes": 987891,
+      "html_bytes": 985017,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://www.bestnypizza.com/menu/bestpizza": {
       "url": "https://www.bestnypizza.com/menu/bestpizza",
-      "html_bytes": 966886,
+      "html_bytes": 964591,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://www.bestnypizza.com/menu/margheritapizza": {
       "url": "https://www.bestnypizza.com/menu/margheritapizza",
-      "html_bytes": 964126,
+      "html_bytes": 961814,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

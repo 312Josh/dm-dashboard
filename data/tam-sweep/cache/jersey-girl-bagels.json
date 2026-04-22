@@ -25,7 +25,9 @@
       "fingerprints": {
         "website_cms": "BentoBox",
         "oo": "Toast OO (native)",
-        "reservations": "Resy"
+        "reservations": "Resy",
+        "pos_other": "Clover",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/jersey-girl-bagels-parrish-20-u-s-301",
@@ -38,7 +40,9 @@
       "fingerprints": {
         "website_cms": "BentoBox",
         "oo": "Toast OO (native)",
-        "reservations": "Resy"
+        "reservations": "Resy",
+        "pos_other": "Clover",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/jersey-girl-bagels-parrish-20-u-s-301",
@@ -50,9 +54,14 @@
     "toast_oo_native": "order.toasttab.com/online/jersey-girl-bagels-parrish-20-u-s-301",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -31,7 +31,7 @@
     },
     "https://www.propagationkitchen.com/": {
       "url": "https://www.propagationkitchen.com/",
-      "html_bytes": 128350,
+      "html_bytes": 543182,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
@@ -44,7 +44,7 @@
     },
     "https://www.propagationkitchen.com/menus": {
       "url": "https://www.propagationkitchen.com/menus",
-      "html_bytes": 145202,
+      "html_bytes": 145978,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -56,13 +56,16 @@
     "toast_oo_native": "order.toasttab.com/online/propagationkitchen",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "roots": "https://rootsofplantcity.com/",
     "propagation": "https://www.propagationkitchen.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

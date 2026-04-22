@@ -25,7 +25,8 @@
       "fingerprints": {
         "website_cms": "SpotHopper",
         "oo": "Toast OO (whitelabel candidate)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_local": "toasttab.com/local/order"
@@ -35,9 +36,15 @@
   "toast_products": {
     "toast_local": "toasttab.com/local/order"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

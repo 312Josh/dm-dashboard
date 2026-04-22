@@ -22,7 +22,7 @@
   "fingerprints": {
     "https://www.doodlenoodlebar.com/": {
       "url": "https://www.doodlenoodlebar.com/",
-      "html_bytes": 159725,
+      "html_bytes": 521699,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -35,7 +35,7 @@
     },
     "https://www.doodlenoodlebar.com/menu": {
       "url": "https://www.doodlenoodlebar.com/menu",
-      "html_bytes": 116464,
+      "html_bytes": 117689,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -47,9 +47,16 @@
   "toast_products": {
     "toast_gift": "toasttab.com/doodlenoodlebar/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

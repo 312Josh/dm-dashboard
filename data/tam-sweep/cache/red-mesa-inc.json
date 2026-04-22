@@ -56,6 +56,7 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "reservations": "Resy",
+        "catering_mention": "Catering page",
         "oo": "Toast OO (whitelabel candidate)",
         "gift_cards": "Toast Gift Cards"
       },
@@ -68,7 +69,8 @@
       "html_bytes": 63232,
       "fingerprints": {
         "website_cms": "WordPress",
-        "reservations": "Resy"
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -79,7 +81,8 @@
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/red-mesa-cantina/giftcards"
@@ -91,6 +94,8 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Catering page",
         "gift_cards": "Toast Gift Cards"
       },
       "toast": {
@@ -106,7 +111,9 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
-        "gift_cards": "Toast Gift Cards"
+        "reservations": "Toast Tables",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_tables": "tables.toasttab.com/restaurants/7f5819ea-020b-42dc-9094-aa8b0a52ea42",
@@ -144,8 +151,13 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_tables": "tables.toasttab.com/restaurants/7f5819ea-020b-42dc-9094-aa8b0a52ea42"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
@@ -153,5 +165,8 @@
     "red mesa restaurant": "https://redmesarestaurant.com/",
     "cantina": "https://redmesacantina.com/",
     "mercado": "https://redmesamercado.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

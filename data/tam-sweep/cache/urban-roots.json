@@ -23,15 +23,19 @@
       "url": "https://urbanroots-fl.com/",
       "html_bytes": 141817,
       "fingerprints": {
-        "website_cms": "SpotHopper"
+        "website_cms": "SpotHopper",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

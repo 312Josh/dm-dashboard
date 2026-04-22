@@ -21,11 +21,12 @@
   "fingerprints": {
     "https://www.keelfarms.com/": {
       "url": "https://www.keelfarms.com/",
-      "html_bytes": 431246,
+      "html_bytes": 432697,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_tables": "tables.toasttab.com/restaurants/b4499b66-077f-41ed-9104-4d49aa55dc7b"
@@ -35,9 +36,16 @@
   "toast_products": {
     "toast_tables": "tables.toasttab.com/restaurants/b4499b66-077f-41ed-9104-4d49aa55dc7b"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

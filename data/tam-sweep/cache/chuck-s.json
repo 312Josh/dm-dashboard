@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.eatchucks.com": {
       "url": "https://www.eatchucks.com",
-      "html_bytes": 176046,
+      "html_bytes": 180150,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -30,7 +30,7 @@
     },
     "https://www.eatchucks.com/menu": {
       "url": "https://www.eatchucks.com/menu",
-      "html_bytes": 206121,
+      "html_bytes": 394759,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -39,9 +39,14 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

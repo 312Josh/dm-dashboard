@@ -28,10 +28,11 @@
   "fingerprints": {
     "https://dalmoros.us/": {
       "url": "https://dalmoros.us/",
-      "html_bytes": 84358,
+      "html_bytes": 84615,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Appfront"
+        "oo": "Appfront",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -40,7 +41,8 @@
       "html_bytes": 82450,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Appfront"
+        "oo": "Appfront",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -49,51 +51,65 @@
       "html_bytes": 248742,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Appfront"
+        "oo": "Appfront",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://dalmoros.us/menu_items/name-placeholder-1/": {
       "url": "https://dalmoros.us/menu_items/name-placeholder-1/",
-      "html_bytes": 84358,
+      "html_bytes": 84615,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Appfront"
+        "oo": "Appfront",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://dalmoros.us/menu_items/name-placeholder-2/": {
       "url": "https://dalmoros.us/menu_items/name-placeholder-2/",
-      "html_bytes": 84358,
+      "html_bytes": 84615,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Appfront"
+        "oo": "Appfront",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://dalmoros.us/menu_items/name-placeholder-5/": {
       "url": "https://dalmoros.us/menu_items/name-placeholder-5/",
-      "html_bytes": 84358,
+      "html_bytes": 84615,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Appfront"
+        "oo": "Appfront",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
     "https://dalmoros.us/menu_items/name-placeholder-3/": {
       "url": "https://dalmoros.us/menu_items/name-placeholder-3/",
-      "html_bytes": 84358,
+      "html_bytes": 84615,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Appfront"
+        "oo": "Appfront",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "postmates",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

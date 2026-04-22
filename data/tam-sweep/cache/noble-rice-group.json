@@ -27,6 +27,7 @@
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable",
+        "catering_mention": "Private events page",
         "oo": "Toast OO (whitelabel candidate)",
         "gift_cards": "Toast Gift Cards"
       },
@@ -39,18 +40,20 @@
       "html_bytes": 87858,
       "fingerprints": {
         "website_cms": "Squarespace",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
       },
       "toast": {}
     },
     "https://www.noblericeco.com/gift-cards": {
       "url": "https://www.noblericeco.com/gift-cards",
-      "html_bytes": 78273,
+      "html_bytes": 78281,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/noble-rice-sparkmans-615-channelside-dr-ste-112/giftcards"
@@ -60,9 +63,12 @@
   "toast_products": {
     "toast_gift": "toasttab.com/noble-rice-sparkmans-615-channelside-dr-ste-112/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

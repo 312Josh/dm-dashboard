@@ -29,7 +29,8 @@
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/1592-wood-fired-kitchen-cocktails-1592-main-street/giftcards"
@@ -41,7 +42,8 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/1592-wood-fired-kitchen-cocktails-1592-main-street/giftcards"
@@ -54,7 +56,8 @@
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/1592-wood-fired-kitchen-cocktails-1592-main-street/giftcards"
@@ -79,13 +82,20 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_local": "toasttab.com/local/order"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "1592": "https://1592srq.com/",
     "mimi": "https://mimisrq.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

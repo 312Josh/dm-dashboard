@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.flaviosbrickovenandbar.com/": {
       "url": "https://www.flaviosbrickovenandbar.com/",
-      "html_bytes": 29360,
+      "html_bytes": 29213,
       "fingerprints": {
         "reservations": "OpenTable"
       },
@@ -29,21 +29,28 @@
     },
     "https://www.flaviosbrickovenandbar.com/menu-flavios-siesta-key/menu-flavios-siesta-key": {
       "url": "https://www.flaviosbrickovenandbar.com/menu-flavios-siesta-key/menu-flavios-siesta-key",
-      "html_bytes": 47970,
+      "html_bytes": 47823,
       "fingerprints": {},
       "toast": {}
     },
     "https://www.flaviosbrickovenandbar.com/menu-flavios-siesta-key/happy-hour": {
       "url": "https://www.flaviosbrickovenandbar.com/menu-flavios-siesta-key/happy-hour",
-      "html_bytes": 25643,
+      "html_bytes": 25496,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -27,7 +27,8 @@
         "website_cms": "BentoBox",
         "oo": "Toast OO (native)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/jamaica-jamaica-island-cuisine-13910-w-hillsborough-ave",
@@ -42,7 +43,8 @@
         "website_cms": "BentoBox",
         "oo": "Toast OO (native)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/jamaica-jamaica-island-cuisine-13910-w-hillsborough-ave",
@@ -56,9 +58,15 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_gift": "toasttab.com/jamaica-jamaica-island-cuisine-13910-w-hillsborough-ave/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -34,10 +34,11 @@
   "fingerprints": {
     "https://thehungrygreek.com/": {
       "url": "https://thehungrygreek.com/",
-      "html_bytes": 135897,
+      "html_bytes": 135898,
       "fingerprints": {
         "website_cms": "WordPress",
-        "loyalty": "Incentivio"
+        "loyalty": "Incentivio",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.incentivio.com/"
@@ -45,10 +46,11 @@
     },
     "https://thehungrygreek.com/menu/": {
       "url": "https://thehungrygreek.com/menu/",
-      "html_bytes": 248384,
+      "html_bytes": 287503,
       "fingerprints": {
         "website_cms": "WordPress",
-        "loyalty": "Incentivio"
+        "loyalty": "Incentivio",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.incentivio.com/"
@@ -56,10 +58,11 @@
     },
     "https://thehungrygreek.com/giftcards/": {
       "url": "https://thehungrygreek.com/giftcards/",
-      "html_bytes": 98046,
+      "html_bytes": 98042,
       "fingerprints": {
         "website_cms": "WordPress",
-        "loyalty": "Incentivio"
+        "loyalty": "Incentivio",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.incentivio.com/"
@@ -69,9 +72,17 @@
   "toast_products": {
     "toast_oo_whitelabel_host": "https://order.incentivio.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

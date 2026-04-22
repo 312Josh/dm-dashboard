@@ -22,10 +22,11 @@
   "fingerprints": {
     "https://busybeediner.com/": {
       "url": "https://busybeediner.com/",
-      "html_bytes": 177028,
+      "html_bytes": 177022,
       "fingerprints": {
         "website_cms": "WordPress",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -34,7 +35,8 @@
       "html_bytes": 47735,
       "fingerprints": {
         "website_cms": "WordPress",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -43,7 +45,8 @@
       "html_bytes": 47816,
       "fingerprints": {
         "website_cms": "WordPress",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -52,7 +55,8 @@
       "html_bytes": 47806,
       "fingerprints": {
         "website_cms": "WordPress",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -61,7 +65,8 @@
       "html_bytes": 48157,
       "fingerprints": {
         "website_cms": "WordPress",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -70,7 +75,8 @@
       "html_bytes": 47805,
       "fingerprints": {
         "website_cms": "WordPress",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -79,15 +85,21 @@
       "html_bytes": 48029,
       "fingerprints": {
         "website_cms": "WordPress",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

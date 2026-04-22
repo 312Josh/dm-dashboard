@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.hectorsnypizza.com": {
       "url": "https://www.hectorsnypizza.com",
-      "html_bytes": 168633,
+      "html_bytes": 195616,
       "fingerprints": {
         "oo": "Slice"
       },
@@ -29,9 +29,17 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "slicelife"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

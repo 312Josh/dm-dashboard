@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.espositopizzamenu.com/": {
       "url": "https://www.espositopizzamenu.com/",
-      "html_bytes": 6371,
+      "html_bytes": 193043,
       "fingerprints": {
         "oo": "Slice"
       },
@@ -29,9 +29,15 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "slicelife"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

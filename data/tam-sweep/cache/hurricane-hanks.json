@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://hurricanehanks.com/": {
       "url": "https://hurricanehanks.com/",
-      "html_bytes": 292544,
+      "html_bytes": 292683,
       "fingerprints": {
         "website_cms": "Squarespace",
         "marketing": "Mailchimp"
@@ -30,9 +30,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

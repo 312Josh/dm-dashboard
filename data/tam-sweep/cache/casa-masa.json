@@ -22,7 +22,7 @@
   "fingerprints": {
     "https://www.casamasa-srq.com/": {
       "url": "https://www.casamasa-srq.com/",
-      "html_bytes": 425874,
+      "html_bytes": 427179,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -31,9 +31,15 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

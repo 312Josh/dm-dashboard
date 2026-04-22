@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.siegfrieds-restaurant.com/": {
       "url": "https://www.siegfrieds-restaurant.com/",
-      "html_bytes": 96075,
+      "html_bytes": 96050,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
@@ -35,9 +35,12 @@
   "toast_products": {
     "toast_gift": "toasttab.com/siegfrieds-restaurant-and-bier-garden/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -24,7 +24,7 @@
   "fingerprints": {
     "https://bshgrp.com/": {
       "url": "https://bshgrp.com/",
-      "html_bytes": 209963,
+      "html_bytes": 209974,
       "fingerprints": {
         "website_cms": "WordPress"
       },
@@ -38,7 +38,7 @@
     },
     "https://www.beachhousedining.com/": {
       "url": "https://www.beachhousedining.com/",
-      "html_bytes": 518098,
+      "html_bytes": 521072,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -47,9 +47,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

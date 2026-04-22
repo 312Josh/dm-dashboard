@@ -21,13 +21,14 @@
   "fingerprints": {
     "https://sacredpepper.com/": {
       "url": "https://sacredpepper.com/",
-      "html_bytes": 136417,
+      "html_bytes": 136365,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
         "gift_cards": "Toast Gift Cards",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/the-sacred-pepper-15405-north-dale-mabry-highway/giftcards"
@@ -35,13 +36,14 @@
     },
     "https://sacredpepper.com/menu/": {
       "url": "https://sacredpepper.com/menu/",
-      "html_bytes": 181367,
+      "html_bytes": 181316,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
         "gift_cards": "Toast Gift Cards",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/the-sacred-pepper-15405-north-dale-mabry-highway/giftcards"
@@ -49,13 +51,14 @@
     },
     "https://sacredpepper.com/reservations/": {
       "url": "https://sacredpepper.com/reservations/",
-      "html_bytes": 128731,
+      "html_bytes": 128695,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
         "gift_cards": "Toast Gift Cards",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_gift": "toasttab.com/the-sacred-pepper-15405-north-dale-mabry-highway/giftcards"
@@ -65,9 +68,17 @@
   "toast_products": {
     "toast_gift": "toasttab.com/the-sacred-pepper-15405-north-dale-mabry-highway/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

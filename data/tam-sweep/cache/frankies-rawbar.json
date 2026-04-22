@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://frankiesrawbar.com/": {
       "url": "https://frankiesrawbar.com/",
-      "html_bytes": 119809,
+      "html_bytes": 119804,
       "fingerprints": {
         "website_cms": "WordPress"
       },
@@ -37,9 +37,14 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

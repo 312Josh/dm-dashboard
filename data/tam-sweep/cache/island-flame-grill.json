@@ -21,15 +21,20 @@
   "fingerprints": {
     "https://www.islandflamegrill.com": {
       "url": "https://www.islandflamegrill.com",
-      "html_bytes": 48032,
-      "fingerprints": {},
+      "html_bytes": 48122,
+      "fingerprints": {
+        "pos_other": "Square"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

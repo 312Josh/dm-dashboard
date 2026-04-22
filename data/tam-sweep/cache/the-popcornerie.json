@@ -22,7 +22,7 @@
   "fingerprints": {
     "https://order.toasttab.com/online/the-popcornerie-9205-little-rd": {
       "url": "https://order.toasttab.com/online/the-popcornerie-9205-little-rd",
-      "html_bytes": 5042,
+      "html_bytes": 5714,
       "fingerprints": {
         "oo": "Toast OO (native)"
       },
@@ -30,9 +30,14 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

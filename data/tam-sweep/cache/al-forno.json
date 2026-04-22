@@ -24,7 +24,8 @@
       "html_bytes": 94984,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/al-forno",
@@ -36,7 +37,8 @@
       "html_bytes": 211234,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (whitelabel candidate)"
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
@@ -45,9 +47,14 @@
     "toast_oo_native": "order.toasttab.com/online/al-forno",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

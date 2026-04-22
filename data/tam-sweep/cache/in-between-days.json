@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.inbetweendays.co/": {
       "url": "https://www.inbetweendays.co/",
-      "html_bytes": 108353,
+      "html_bytes": 109200,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable",
@@ -34,7 +34,7 @@
     },
     "https://www.inbetweendays.co/reservations": {
       "url": "https://www.inbetweendays.co/reservations",
-      "html_bytes": 99430,
+      "html_bytes": 100233,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -43,7 +43,7 @@
     },
     "https://www.inbetweendays.co/gift-cards-1": {
       "url": "https://www.inbetweendays.co/gift-cards-1",
-      "html_bytes": 103220,
+      "html_bytes": 410200,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -58,9 +58,14 @@
   "toast_products": {
     "toast_gift": "toasttab.com/in-between-days-2340-1st-ave-s/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

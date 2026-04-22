@@ -24,12 +24,14 @@
   "fingerprints": {
     "https://lazylobsteroflongboat.com/": {
       "url": "https://lazylobsteroflongboat.com/",
-      "html_bytes": 168737,
+      "html_bytes": 170959,
       "fingerprints": {
         "website_cms": "SpotHopper",
         "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
         "loyalty": "Toast Loyalty",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_tables": "tables.toasttab.com/restaurants/260dbd97-2cca-4314-80bc-7edd2e565945",
@@ -43,9 +45,15 @@
     "toast_gift": "toasttab.com/lazy-lobster/giftcards",
     "toast_loyalty": "toasttab.com/lazy-lobster/rewardsSignup"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

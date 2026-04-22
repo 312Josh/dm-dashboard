@@ -35,7 +35,7 @@
     },
     "https://www.thewinevaultwc.com/gift-cards-loyalty-program/": {
       "url": "https://www.thewinevaultwc.com/gift-cards-loyalty-program/",
-      "html_bytes": 60719,
+      "html_bytes": 60720,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
@@ -58,9 +58,12 @@
     "toast_gift": "toasttab.com/the-wine-bar-of-westchase-10112-montague-street/giftcards",
     "toast_loyalty": "toasttab.com/the-wine-bar-of-westchase-10112-montague-street/rewardsSignup"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

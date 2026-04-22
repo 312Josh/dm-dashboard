@@ -21,9 +21,10 @@
   "fingerprints": {
     "https://www.pizzahavenbrandonfl.com": {
       "url": "https://www.pizzahavenbrandonfl.com",
-      "html_bytes": 49127,
+      "html_bytes": 49641,
       "fingerprints": {
-        "oo": "Menufy"
+        "oo": "Menufy",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -45,9 +46,17 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "slicelife"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

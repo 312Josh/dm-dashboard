@@ -21,9 +21,11 @@
   "fingerprints": {
     "https://www.tarponturtle.com/": {
       "url": "https://www.tarponturtle.com/",
-      "html_bytes": 487904,
+      "html_bytes": 596210,
       "fingerprints": {
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/tarpon-turtle-grill-marina-1513-lake-tarpon-ave",
@@ -33,9 +35,11 @@
     },
     "https://www.tarponturtle.com/menus": {
       "url": "https://www.tarponturtle.com/menus",
-      "html_bytes": 345687,
+      "html_bytes": 346949,
       "fingerprints": {
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/tarpon-turtle-grill-marina-1513-lake-tarpon-ave",
@@ -45,9 +49,11 @@
     },
     "https://www.tarponturtle.com/reservations": {
       "url": "https://www.tarponturtle.com/reservations",
-      "html_bytes": 433719,
+      "html_bytes": 435000,
       "fingerprints": {
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Private events page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/tarpon-turtle-grill-marina-1513-lake-tarpon-ave",
@@ -61,9 +67,16 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_tables": "tables.toasttab.com/restaurants/436939f0-8fe5-4e31-a8c6-3ef34ea3bdf0"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

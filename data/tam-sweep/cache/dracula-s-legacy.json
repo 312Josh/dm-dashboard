@@ -22,7 +22,7 @@
   "fingerprints": {
     "https://www.draculaslegacywinebar.com/": {
       "url": "https://www.draculaslegacywinebar.com/",
-      "html_bytes": 390026,
+      "html_bytes": 386405,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -30,9 +30,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

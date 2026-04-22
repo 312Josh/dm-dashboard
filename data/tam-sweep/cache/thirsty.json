@@ -22,25 +22,30 @@
   "fingerprints": {
     "https://thirstyfirstdtsp.com/": {
       "url": "https://thirstyfirstdtsp.com/",
-      "html_bytes": 388315,
+      "html_bytes": 388239,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
       },
       "toast": {}
     },
     "https://thirstyfirstdtsp.com/menu/": {
       "url": "https://thirstyfirstdtsp.com/menu/",
-      "html_bytes": 343456,
+      "html_bytes": 344087,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -24,7 +24,9 @@
       "url": "https://qsouthernbbq.com/",
       "html_bytes": 199844,
       "fingerprints": {
-        "oo": "Toast OO (native)"
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/q-southern-bbq-and-catering-664-main-street",
@@ -36,9 +38,16 @@
     "toast_oo_native": "order.toasttab.com/online/q-southern-bbq-and-catering-664-main-street",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

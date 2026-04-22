@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.donnellysdockside.com/": {
       "url": "https://www.donnellysdockside.com/",
-      "html_bytes": 117098,
+      "html_bytes": 117855,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -36,7 +36,7 @@
     },
     "https://www.donnellysdockside.com/menus": {
       "url": "https://www.donnellysdockside.com/menus",
-      "html_bytes": 103456,
+      "html_bytes": 104254,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -51,7 +51,7 @@
     },
     "https://www.donnellysdockside.com/menu": {
       "url": "https://www.donnellysdockside.com/menu",
-      "html_bytes": 103456,
+      "html_bytes": 104254,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -66,7 +66,7 @@
     },
     "https://www.donnellysdockside.com/reservations": {
       "url": "https://www.donnellysdockside.com/reservations",
-      "html_bytes": 108171,
+      "html_bytes": 107060,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -85,9 +85,14 @@
     "toast_gift": "toasttab.com/donnellys-dockside-1050-deep-creek-ave/giftcards",
     "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

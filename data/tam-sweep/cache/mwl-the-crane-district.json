@@ -22,9 +22,10 @@
   "fingerprints": {
     "https://mangosteenfl.com/": {
       "url": "https://mangosteenfl.com/",
-      "html_bytes": 200150,
+      "html_bytes": 201112,
       "fingerprints": {
-        "website_cms": "SpotHopper"
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering copy"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.spoton.com/"
@@ -34,12 +35,17 @@
   "toast_products": {
     "toast_oo_whitelabel_host": "https://order.spoton.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "mangosteen": "https://mangosteenfl.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

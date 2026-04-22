@@ -25,7 +25,8 @@
       "fingerprints": {
         "website_cms": "SpotHopper",
         "oo": "Toast OO (whitelabel candidate)",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
       },
       "toast": {
         "toast_gift": "toasttab.com/hurricane-seafood-restaurant/giftcards"
@@ -35,9 +36,14 @@
   "toast_products": {
     "toast_gift": "toasttab.com/hurricane-seafood-restaurant/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -21,27 +21,32 @@
   "fingerprints": {
     "https://www.hotsandstiki.com/": {
       "url": "https://www.hotsandstiki.com/",
-      "html_bytes": 177585,
+      "html_bytes": 178724,
       "fingerprints": {
         "website_cms": "Squarespace",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Events email"
       },
       "toast": {}
     },
     "https://www.hotsandstiki.com/menu": {
       "url": "https://www.hotsandstiki.com/menu",
-      "html_bytes": 116018,
+      "html_bytes": 116789,
       "fingerprints": {
         "website_cms": "Squarespace",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Events email"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

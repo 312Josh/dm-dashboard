@@ -21,8 +21,10 @@
   "fingerprints": {
     "https://www.mccurdyscomedy.com/": {
       "url": "https://www.mccurdyscomedy.com/",
-      "html_bytes": 18004,
-      "fingerprints": {},
+      "html_bytes": 17954,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
       "toast": {}
     },
     "https://www.mccurdyscomedy.com/images/menus/mccurdys-full_menu.pdf": {
@@ -33,9 +35,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

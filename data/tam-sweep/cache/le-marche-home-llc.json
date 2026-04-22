@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.cremacafedunedin.com": {
       "url": "https://www.cremacafedunedin.com",
-      "html_bytes": 169551,
+      "html_bytes": 171061,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -33,7 +33,7 @@
     },
     "https://www.cremacafedunedin.com/menu": {
       "url": "https://www.cremacafedunedin.com/menu",
-      "html_bytes": 178501,
+      "html_bytes": 179384,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -43,7 +43,7 @@
     },
     "https://www.cremacafedunedin.com/https/ordertoasttabcom/egiftcards/crema-34218-us-hwy-19-n": {
       "url": "https://www.cremacafedunedin.com/https/ordertoasttabcom/egiftcards/crema-34218-us-hwy-19-n",
-      "html_bytes": 106236,
+      "html_bytes": 107102,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
@@ -57,9 +57,14 @@
   "toast_products": {
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

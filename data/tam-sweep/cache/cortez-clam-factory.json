@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.clamfactory.com/": {
       "url": "https://www.clamfactory.com/",
-      "html_bytes": 705605,
+      "html_bytes": 705927,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -29,7 +29,7 @@
     },
     "https://www.clamfactory.com/menu": {
       "url": "https://www.clamfactory.com/menu",
-      "html_bytes": 1111662,
+      "html_bytes": 1109009,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -37,9 +37,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

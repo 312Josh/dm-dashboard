@@ -30,7 +30,8 @@
       "fingerprints": {
         "website_cms": "BentoBox",
         "oo": "Toast OO (native)",
-        "reservations": "Resy"
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/the-breakfast-company-rosemary-district",
@@ -43,7 +44,8 @@
       "fingerprints": {
         "website_cms": "BentoBox",
         "oo": "Toast OO (native)",
-        "reservations": "Resy"
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/the-breakfast-company-rosemary-district",
@@ -56,7 +58,8 @@
       "fingerprints": {
         "website_cms": "BentoBox",
         "oo": "Toast OO (native)",
-        "reservations": "Resy"
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/the-breakfast-company-rosemary-district",
@@ -68,9 +71,17 @@
     "toast_oo_native": "order.toasttab.com/online/the-breakfast-company-rosemary-district",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "postmates",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

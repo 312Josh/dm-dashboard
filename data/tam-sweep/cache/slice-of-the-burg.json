@@ -23,8 +23,10 @@
       "url": "https://sliceoftheburg.com",
       "html_bytes": 237247,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "Toast OO (native)",
-        "loyalty": "Toast Loyalty"
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/slice-of-the-burg-10484-roosevelt-blvd-n",
@@ -36,7 +38,9 @@
       "url": "https://sliceoftheburg.com/menu",
       "html_bytes": 357067,
       "fingerprints": {
-        "oo": "Toast OO (native)"
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/slice-of-the-burg-10484-roosevelt-blvd-n",
@@ -49,9 +53,16 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_loyalty": "toasttab.com/slice-of-the-burg-10484-roosevelt-blvd-n/rewardsSignup"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

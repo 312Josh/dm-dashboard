@@ -25,18 +25,24 @@
       "html_bytes": 87288,
       "fingerprints": {
         "website_cms": "BentoBox",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "thirsty marlin": "https://thirstymarlin.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

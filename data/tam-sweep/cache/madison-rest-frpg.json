@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.madisonnpr.com/": {
       "url": "https://www.madisonnpr.com/",
-      "html_bytes": 689518,
+      "html_bytes": 686338,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -29,7 +29,7 @@
     },
     "https://www.madisonnpr.com/menu": {
       "url": "https://www.madisonnpr.com/menu",
-      "html_bytes": 381333,
+      "html_bytes": 378812,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -37,9 +37,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

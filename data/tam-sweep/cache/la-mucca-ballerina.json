@@ -21,10 +21,12 @@
   "fingerprints": {
     "https://lamuccaballerina.com/": {
       "url": "https://lamuccaballerina.com/",
-      "html_bytes": 266968,
+      "html_bytes": 266991,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Private-events copy"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.toasttab.com/",
@@ -33,10 +35,12 @@
     },
     "https://lamuccaballerina.com/menu-a-la-carte/": {
       "url": "https://lamuccaballerina.com/menu-a-la-carte/",
-      "html_bytes": 204702,
+      "html_bytes": 180578,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (whitelabel candidate)"
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Private-events copy"
       },
       "toast": {
         "toast_tables": "tables.toasttab.com/restaurants/b7937cd9-0f7f-4998-8e72-907364df4fff"
@@ -47,9 +51,17 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_tables": "tables.toasttab.com/restaurants/b7937cd9-0f7f-4998-8e72-907364df4fff"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

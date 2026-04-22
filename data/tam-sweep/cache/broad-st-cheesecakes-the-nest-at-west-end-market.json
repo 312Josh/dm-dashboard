@@ -22,15 +22,17 @@
   "fingerprints": {
     "https://www.thenestdunedin.com/": {
       "url": "https://www.thenestdunedin.com/",
-      "html_bytes": 1141672,
+      "html_bytes": 1137605,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "reservations": "Waitlist Me",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     },
     "https://www.thenestdunedin.com/reservations": {
       "url": "https://www.thenestdunedin.com/reservations",
-      "html_bytes": 925878,
+      "html_bytes": 924466,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -38,7 +40,7 @@
     },
     "https://www.thenestdunedin.com/menu": {
       "url": "https://www.thenestdunedin.com/menu",
-      "html_bytes": 101816,
+      "html_bytes": 1277746,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -46,15 +48,16 @@
     },
     "https://www.thenestdunedin.com/book-online": {
       "url": "https://www.thenestdunedin.com/book-online",
-      "html_bytes": 864223,
+      "html_bytes": 862519,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     },
     "https://www.thenestdunedin.com/booking-calendar/corporate-gatherings": {
       "url": "https://www.thenestdunedin.com/booking-calendar/corporate-gatherings",
-      "html_bytes": 1205811,
+      "html_bytes": 1204429,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -62,7 +65,7 @@
     },
     "https://www.thenestdunedin.com/booking-calendar/group-night-out": {
       "url": "https://www.thenestdunedin.com/booking-calendar/group-night-out",
-      "html_bytes": 1205250,
+      "html_bytes": 1203914,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -70,9 +73,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

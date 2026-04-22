@@ -21,21 +21,27 @@
   "fingerprints": {
     "https://jjsbargrille.gotoeat.net/": {
       "url": "https://jjsbargrille.gotoeat.net/",
-      "html_bytes": 34191,
+      "html_bytes": 34190,
       "fingerprints": {},
       "toast": {}
     },
     "https://jjsbargrille.gotoeat.net/menu": {
       "url": "https://jjsbargrille.gotoeat.net/menu",
-      "html_bytes": 0,
+      "html_bytes": 47327,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

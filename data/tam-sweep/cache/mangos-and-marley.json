@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.mangosandmarleycafe.com/": {
       "url": "https://www.mangosandmarleycafe.com/",
-      "html_bytes": 688038,
+      "html_bytes": 687924,
       "fingerprints": {
         "website_cms": "Wix",
         "oo": "Toast OO (whitelabel candidate)"
@@ -30,7 +30,7 @@
     },
     "https://www.mangosandmarleycafe.com/menu-1": {
       "url": "https://www.mangosandmarleycafe.com/menu-1",
-      "html_bytes": 779405,
+      "html_bytes": 777840,
       "fingerprints": {
         "website_cms": "Wix",
         "oo": "Toast OO (native)"
@@ -39,9 +39,14 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

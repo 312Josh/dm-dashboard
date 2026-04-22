@@ -22,20 +22,24 @@
   "fingerprints": {
     "https://thegalleystpete.com/": {
       "url": "https://thegalleystpete.com/",
-      "html_bytes": 156295,
+      "html_bytes": 156415,
       "fingerprints": {
-        "website_cms": "SpotHopper"
+        "website_cms": "SpotHopper",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "galley": "https://thegalleystpete.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

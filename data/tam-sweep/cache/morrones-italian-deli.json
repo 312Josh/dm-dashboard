@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://eggsperienceeatery.com": {
       "url": "https://eggsperienceeatery.com",
-      "html_bytes": 84559,
+      "html_bytes": 84563,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)"
@@ -30,7 +30,7 @@
     },
     "https://eggsperienceeatery.com/menu/": {
       "url": "https://eggsperienceeatery.com/menu/",
-      "html_bytes": 72742,
+      "html_bytes": 72738,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)"
@@ -39,9 +39,15 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

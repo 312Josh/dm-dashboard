@@ -24,15 +24,35 @@
   "fingerprints": {
     "https://www.noble-crust.com/": {
       "url": "https://www.noble-crust.com/",
-      "html_bytes": 7175,
+      "html_bytes": 7738,
       "fingerprints": {},
       "toast": {}
+    },
+    "wayback:https://www.noble-crust.com/": {
+      "url": "http://web.archive.org/web/20251210060524/https://www.noble-crust.com/",
+      "html_bytes": 417505,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "oo": "Popmenu OO",
+        "reservations": "OpenTable",
+        "pos_other": "Clover"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats",
+    "grubhub",
+    "opentable",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

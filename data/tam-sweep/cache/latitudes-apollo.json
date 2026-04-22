@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://latitudesapollo.com/": {
       "url": "https://latitudesapollo.com/",
-      "html_bytes": 63315,
+      "html_bytes": 61451,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)"
@@ -30,9 +30,16 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

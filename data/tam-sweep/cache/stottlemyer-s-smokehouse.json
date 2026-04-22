@@ -26,7 +26,8 @@
         "website_cms": "BentoBox",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/stottlemyers-smokehouse-19-east-rd/giftcards"
@@ -39,7 +40,8 @@
         "website_cms": "BentoBox",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/stottlemyers-smokehouse-19-east-rd/giftcards"
@@ -49,9 +51,15 @@
   "toast_products": {
     "toast_gift": "toasttab.com/stottlemyers-smokehouse-19-east-rd/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "opentable",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -24,18 +24,22 @@
   "fingerprints": {
     "https://www.hungerthirstgroup.com/": {
       "url": "https://www.hungerthirstgroup.com/",
-      "html_bytes": 630902,
+      "html_bytes": 632432,
       "fingerprints": {
         "website_cms": "Squarespace",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

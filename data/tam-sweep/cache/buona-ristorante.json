@@ -21,9 +21,10 @@
   "fingerprints": {
     "https://www.buonaristorante.com": {
       "url": "https://www.buonaristorante.com",
-      "html_bytes": 151825,
+      "html_bytes": 151813,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.buonaristorante.com/"
@@ -33,9 +34,16 @@
   "toast_products": {
     "toast_oo_whitelabel_host": "https://order.buonaristorante.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

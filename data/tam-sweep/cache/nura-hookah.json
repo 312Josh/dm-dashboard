@@ -28,12 +28,17 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "nura": "https://www.facebook.com/p/Nura-Hookah-61567709301628/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

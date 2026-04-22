@@ -47,13 +47,15 @@ FINGERPRINTS = {
     "website_cms": [
         (r"popmenu", "Popmenu"),
         (r"bentobox|getbento", "BentoBox"),
-        (r"owner\.com|getowner|mrkt\.ninja", "Owner.com"),
+        (r"owner\.com|getowner|mrkt\.ninja|ordersave\.com|powered by owner", "Owner.com"),
         (r"spothopper|shopperscms", "SpotHopper"),
         (r"squarespace", "Squarespace"),
         (r"wix\.com", "Wix"),
         (r"wp-content|wordpress", "WordPress"),
         (r"shopify", "Shopify"),
         (r"duda\.co", "Duda"),
+        (r"godaddy\.com|websitebuilder\.godaddy", "GoDaddy"),
+        (r"skymarketing|skyordering", "Sky Marketing"),
     ],
     "oo": [
         (r"order\.toasttab\.com", "Toast OO (native)"),
@@ -66,7 +68,8 @@ FINGERPRINTS = {
         (r"menufy", "Menufy"),
         (r"slicelife|slice\.com", "Slice"),
         (r"beyondmenu", "BeyondMenu"),
-        (r"owner\.com.*order|order.*owner\.com", "Owner.com OO"),
+        (r"owner\.com.*order|order.*owner\.com|ordersave", "Owner.com OO"),
+        (r"skyordering", "Sky Ordering"),
     ],
     "reservations": [
         (r"opentable", "OpenTable"),
@@ -74,6 +77,12 @@ FINGERPRINTS = {
         (r"sevenrooms", "SevenRooms"),
         (r"exploretock|tockhq", "Tock"),
         (r"yelpreservations|yelp\.com/reservations", "Yelp Reservations"),
+        (r"tables\.toasttab\.com", "Toast Tables"),
+        (r"waitlist\.me|waitlistme", "Waitlist Me"),
+        (r"nowait\.com", "NoWait (Yelp)"),
+        (r"tablein\.com", "Tablein"),
+        (r"eatapp\.co", "Eat App"),
+        (r"gloriafood", "GloriaFood"),
     ],
     "loyalty": [
         (r"toasttab\.com/[^\"']*/rewardsLookup", "Toast Loyalty"),
@@ -85,12 +94,20 @@ FINGERPRINTS = {
         (r"spendgo", "Spendgo"),
         (r"fivestars", "Fivestars"),
         (r"como\.com", "Como"),
+        (r"loyalzoo", "Loyalzoo"),
+        (r"marsello", "Marsello"),
+        (r"belly\.com|bellycard", "Belly"),
+        (r"tangoesign|tangocard", "Tango"),
     ],
     "gift_cards": [
         (r"toasttab\.com/[^\"']*/giftcards", "Toast Gift Cards"),
         (r"giftup\.com", "GiftUp"),
         (r"yiftee", "Yiftee"),
         (r"squareup\.com/gift", "Square Gift"),
+        (r"givex", "Givex"),
+        (r"valutec", "Valutec"),
+        (r"factor4gift", "Factor4"),
+        (r"fiserv.*gift|giftcardsource", "Fiserv Gift"),
     ],
     "marketing": [
         (r"klaviyo", "Klaviyo"),
@@ -99,6 +116,52 @@ FINGERPRINTS = {
         (r"constantcontact", "Constant Contact"),
         (r"birdeye", "Birdeye"),
         (r"podium\.com", "Podium"),
+        (r"yext\.com", "Yext"),
+        (r"fishbowl\.com", "Fishbowl"),
+        (r"reviewtrackers", "ReviewTrackers"),
+        (r"reputation\.com", "Reputation.com"),
+        (r"marsello", "Marsello Marketing"),
+        (r"textedly", "Textedly"),
+        (r"simpletexting", "SimpleTexting"),
+        (r"sendlane", "Sendlane"),
+        (r"emotive\.io", "Emotive"),
+        (r"hubspot", "HubSpot"),
+    ],
+    "pos_other": [
+        (r"squareup\.com|square\.site", "Square"),
+        (r"clover\.com", "Clover"),
+        (r"lightspeedhq|upserve", "Lightspeed/Upserve"),
+        (r"aloha(enterprise|cloud)?", "Aloha"),
+        (r"micros\.com|oracle.*micros", "Micros/Oracle"),
+        (r"revel(systems)?\.com", "Revel"),
+        (r"touchbistro", "TouchBistro"),
+        (r"heartland.*payment|heartlandhps", "Heartland"),
+    ],
+    "scheduling": [
+        (r"7shifts", "7shifts"),
+        (r"hotschedules|fourth\.com", "HotSchedules"),
+        (r"joinhomebase|homebase\.com", "Homebase"),
+        (r"deputy\.com", "Deputy"),
+        (r"wheniwork", "When I Work"),
+        (r"sling\.is", "Sling"),
+    ],
+    "delivery_platforms": [
+        (r"chownow\.com.*direct", "ChowNow Direct"),
+        (r"flipdish", "Flipdish"),
+        (r"lunchbox\.io", "Lunchbox"),
+        (r"bbot\.menu|bbot\.com", "Bbot (DoorDash)"),
+    ],
+    # Catering mention on the restaurant's own site — signals either:
+    # (a) they already do catering somewhere (direct/phone), or
+    # (b) they route to ezCater/CaterCow/etc. which another regex catches.
+    # Presence of this signal = Toast Catering is a live conversation, not greenfield.
+    "catering_mention": [
+        (r"/catering[/\"'?#]|catering-menu|catering_menu|cateringmenu", "Catering page"),
+        (r"we (also )?(offer|provide|do|cater)\s+catering|catering (is )?available|book\s+catering|order\s+catering", "Catering copy"),
+        (r"catering@|cater@", "Catering email"),
+        (r"/private[\s\-_]?events?|/private[\s\-_]?dining|private[\s\-_]?event[\s\-_]?space|book[\s\-_]?private[\s\-_]?event", "Private events page"),
+        (r"private\s+(events|parties|dining)|book\s+(an?\s+)?private|rehearsal\s+dinner|corporate\s+event|event\s+space\s+(rental|available)|host\s+your\s+(event|party|celebration)|banquet\s+(hall|room)", "Private-events copy"),
+        (r"events@|privateevents@|banquet@", "Events email"),
     ],
 }
 
@@ -139,9 +202,13 @@ def save_cache(slug: str, data: dict[str, Any]) -> None:
 
 # ---------- extract-parents ----------
 
-def extract_parents() -> None:
+def extract_parents(csv_path: Path | None = None, rep_slug: str | None = None) -> None:
+    """Seed per-parent cache JSONs from a TAM CSV. Defaults to the legacy
+    INPUT_CSV (Chris) for backward compat. Pass csv_path + rep_slug to
+    onboard any other rep's CSV."""
+    source = csv_path or INPUT_CSV
     seen: dict[str, dict[str, Any]] = {}
-    with INPUT_CSV.open() as f:
+    with source.open() as f:
         reader = csv.DictReader(f)
         for row in reader:
             parent = row["Parent Account Name"].strip()
@@ -191,11 +258,21 @@ def extract_parents() -> None:
                 "contact_email", "location_count", "location_names",
             ]:
                 existing[k] = data[k]
+            # Rep attribution: append rep_slug if not already present
+            if rep_slug:
+                reps = existing.setdefault("reps", [])
+                if rep_slug not in reps:
+                    reps.append(rep_slug)
             save_cache(slug, existing)
         else:
+            if rep_slug:
+                data["reps"] = [rep_slug]
+            else:
+                data["reps"] = []
             save_cache(slug, data)
 
-    print(f"Extracted {len(seen)} unique parents → {CACHE}")
+    rep_label = f" (rep={rep_slug})" if rep_slug else ""
+    print(f"Extracted {len(seen)} unique parents from {source.name}{rep_label} → {CACHE}")
 
 
 # ---------- curl + grep fingerprint ----------
@@ -738,7 +815,10 @@ def main() -> None:
         sys.exit(1)
     cmd = sys.argv[1]
     if cmd == "extract-parents":
-        extract_parents()
+        # extract-parents [csv_path [rep_slug]]
+        csv_arg = Path(sys.argv[2]).expanduser() if len(sys.argv) > 2 else None
+        rep_arg = sys.argv[3] if len(sys.argv) > 3 else None
+        extract_parents(csv_arg, rep_arg)
     elif cmd == "curl":
         curl_fingerprint(sys.argv[2], sys.argv[3])
     elif cmd == "curl-all":

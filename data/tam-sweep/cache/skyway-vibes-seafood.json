@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.mulletsfishcamp.com": {
       "url": "https://www.mulletsfishcamp.com",
-      "html_bytes": 147410,
+      "html_bytes": 148639,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
@@ -34,7 +34,7 @@
     },
     "https://www.mulletsfishcamp.com/menu": {
       "url": "https://www.mulletsfishcamp.com/menu",
-      "html_bytes": 190816,
+      "html_bytes": 192659,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
@@ -47,7 +47,7 @@
     },
     "https://www.mulletsfishcamp.com/reservations": {
       "url": "https://www.mulletsfishcamp.com/reservations",
-      "html_bytes": 100734,
+      "html_bytes": 101452,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
@@ -63,9 +63,15 @@
     "toast_oo_native": "order.toasttab.com/online/mullets-fish-camp",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

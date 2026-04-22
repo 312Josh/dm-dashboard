@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://onwardreserve.com/": {
       "url": "https://onwardreserve.com/",
-      "html_bytes": 578737,
+      "html_bytes": 584852,
       "fingerprints": {
         "website_cms": "Shopify",
         "marketing": "Klaviyo"
@@ -30,7 +30,7 @@
     },
     "https://onwardreserve.com/collections/books": {
       "url": "https://onwardreserve.com/collections/books",
-      "html_bytes": 419644,
+      "html_bytes": 419516,
       "fingerprints": {
         "website_cms": "Shopify",
         "marketing": "Klaviyo"
@@ -39,7 +39,7 @@
     },
     "https://onwardreserve.com/collections/gift-cards": {
       "url": "https://onwardreserve.com/collections/gift-cards",
-      "html_bytes": 249324,
+      "html_bytes": 249196,
       "fingerprints": {
         "website_cms": "Shopify",
         "marketing": "Klaviyo"
@@ -48,7 +48,7 @@
     },
     "https://onwardreserve.com/pages/rewards": {
       "url": "https://onwardreserve.com/pages/rewards",
-      "html_bytes": 238424,
+      "html_bytes": 238296,
       "fingerprints": {
         "website_cms": "Shopify",
         "marketing": "Klaviyo"
@@ -57,7 +57,7 @@
     },
     "https://onwardreserve.com/pages/reserve-sale": {
       "url": "https://onwardreserve.com/pages/reserve-sale",
-      "html_bytes": 1004320,
+      "html_bytes": 1004192,
       "fingerprints": {
         "website_cms": "Shopify",
         "marketing": "Klaviyo"
@@ -66,9 +66,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -21,19 +21,25 @@
   "fingerprints": {
     "https://www.pinkwinehouse.com": {
       "url": "https://www.pinkwinehouse.com",
-      "html_bytes": 304513,
+      "html_bytes": 303960,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

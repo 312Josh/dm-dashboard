@@ -21,10 +21,11 @@
   "fingerprints": {
     "https://www.lilasrq.com": {
       "url": "https://www.lilasrq.com",
-      "html_bytes": 891010,
+      "html_bytes": 890953,
       "fingerprints": {
         "website_cms": "Wix",
-        "oo": "Toast OO (whitelabel candidate)"
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.lilasrq.com/",
@@ -38,9 +39,16 @@
     "toast_tables": "tables.toasttab.com/restaurants/4271f0a0-7a2a-483a-a95d-6aa6139a61d1",
     "toast_oo_whitelabel_confirmed": "order.lilasrq.com + toasttab string in HTML"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

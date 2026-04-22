@@ -23,9 +23,10 @@
   "fingerprints": {
     "https://www.terrasurcafe.com/": {
       "url": "https://www.terrasurcafe.com/",
-      "html_bytes": 942023,
+      "html_bytes": 941792,
       "fingerprints": {
         "website_cms": "Wix",
+        "catering_mention": "Private-events copy",
         "oo": "Toast OO (whitelabel candidate)",
         "gift_cards": "Toast Gift Cards"
       },
@@ -38,7 +39,8 @@
       "html_bytes": 870948,
       "fingerprints": {
         "website_cms": "Wix",
-        "oo": "Toast OO (whitelabel candidate)"
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     },
@@ -48,7 +50,8 @@
       "fingerprints": {
         "website_cms": "Wix",
         "oo": "Toast OO (whitelabel candidate)",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
       },
       "toast": {
         "toast_gift": "toasttab.com/terra-sur-cafe/giftcards"
@@ -58,9 +61,14 @@
   "toast_products": {
     "toast_gift": "toasttab.com/terra-sur-cafe/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

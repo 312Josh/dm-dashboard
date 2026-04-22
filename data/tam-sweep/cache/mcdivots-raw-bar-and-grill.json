@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.mcdivotstampa.com": {
       "url": "https://www.mcdivotstampa.com",
-      "html_bytes": 199875,
+      "html_bytes": 194648,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -31,7 +31,7 @@
     },
     "https://www.mcdivotstampa.com/menu": {
       "url": "https://www.mcdivotstampa.com/menu",
-      "html_bytes": 177563,
+      "html_bytes": 452609,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
@@ -41,9 +41,15 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

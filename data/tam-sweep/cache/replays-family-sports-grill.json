@@ -23,6 +23,7 @@
       "url": "https://replaysgrill.com",
       "html_bytes": 198085,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "Toast OO (whitelabel candidate)",
         "gift_cards": "Toast Gift Cards"
       },
@@ -34,6 +35,7 @@
       "url": "https://replaysgrill.com/menu",
       "html_bytes": 141247,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "Toast OO (whitelabel candidate)"
       },
       "toast": {}
@@ -42,6 +44,7 @@
       "url": "https://replaysgrill.com/gift-cards",
       "html_bytes": 124479,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "Toast OO (whitelabel candidate)",
         "gift_cards": "Toast Gift Cards"
       },
@@ -53,9 +56,15 @@
   "toast_products": {
     "toast_gift": "toasttab.com/replays-family-sports-grill-1609-sun-city-center-plaza/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

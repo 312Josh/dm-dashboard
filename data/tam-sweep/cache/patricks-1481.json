@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.patricks1481.com/": {
       "url": "https://www.patricks1481.com/",
-      "html_bytes": 657452,
+      "html_bytes": 1592951,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "ChowNow",
@@ -31,7 +31,7 @@
     },
     "https://www.patricks1481.com/menu": {
       "url": "https://www.patricks1481.com/menu",
-      "html_bytes": 260105,
+      "html_bytes": 261255,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "ChowNow",
@@ -41,9 +41,14 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

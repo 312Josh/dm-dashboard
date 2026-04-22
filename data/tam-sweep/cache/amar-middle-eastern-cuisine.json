@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.amarcuisine.com": {
       "url": "https://www.amarcuisine.com",
-      "html_bytes": 267035,
+      "html_bytes": 269094,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (native)",
@@ -40,9 +40,16 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_gift": "toasttab.com/amar-middle-eastern-cuisine-12350-us-301-s/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

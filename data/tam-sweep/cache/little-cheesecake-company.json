@@ -22,20 +22,31 @@
     "https://littlecheesecakecompany.us": {
       "url": "https://littlecheesecakecompany.us",
       "html_bytes": 212724,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
     },
     "https://littlecheesecakecompany.us/menu": {
       "url": "https://littlecheesecakecompany.us/menu",
       "html_bytes": 226847,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

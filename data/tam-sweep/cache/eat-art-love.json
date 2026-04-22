@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://eatartlovestpete.com/": {
       "url": "https://eatartlovestpete.com/",
-      "html_bytes": 180381,
+      "html_bytes": 180379,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (native)",
@@ -61,9 +61,12 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_gift": "toasttab.com/eatartlovestpete/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

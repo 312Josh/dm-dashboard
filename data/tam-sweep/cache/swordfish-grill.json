@@ -22,11 +22,12 @@
   "fingerprints": {
     "https://www.swordfishgrillcortez.com/": {
       "url": "https://www.swordfishgrillcortez.com/",
-      "html_bytes": 166747,
+      "html_bytes": 167555,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page",
         "reservations": "Resy"
       },
       "toast": {
@@ -40,7 +41,8 @@
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/swordfishgrill/giftcards"
@@ -52,7 +54,8 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/swordfishgrill/giftcards"
@@ -65,7 +68,8 @@
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/swordfishgrill/giftcards"
@@ -77,7 +81,8 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/swordfishgrill/giftcards"
@@ -87,9 +92,14 @@
   "toast_products": {
     "toast_gift": "toasttab.com/swordfishgrill/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

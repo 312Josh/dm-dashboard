@@ -21,9 +21,10 @@
   "fingerprints": {
     "https://lokeylbk.com": {
       "url": "https://lokeylbk.com",
-      "html_bytes": 261651,
+      "html_bytes": 261302,
       "fingerprints": {
         "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
         "gift_cards": "Toast Gift Cards",
         "loyalty": "Toast Loyalty"
       },
@@ -37,9 +38,10 @@
     },
     "https://lokeylbk.com/gift-cards": {
       "url": "https://lokeylbk.com/gift-cards",
-      "html_bytes": 100726,
+      "html_bytes": 100472,
       "fingerprints": {
         "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
         "gift_cards": "Toast Gift Cards"
       },
       "toast": {
@@ -51,9 +53,10 @@
     },
     "https://lokeylbk.com/rewards": {
       "url": "https://lokeylbk.com/rewards",
-      "html_bytes": 101387,
+      "html_bytes": 101514,
       "fingerprints": {
         "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
         "loyalty": "Toast Loyalty"
       },
       "toast": {
@@ -71,9 +74,12 @@
     "toast_gift": "toasttab.com/lo-key-island-grille-5620-gulf-of-mexico-drive/giftcards",
     "toast_loyalty": "toasttab.com/lo-key-island-grille-5620-gulf-of-mexico-drive/rewardsSignup"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -21,15 +21,18 @@
   "fingerprints": {
     "https://www.thebierboutiquestpete.com/": {
       "url": "https://www.thebierboutiquestpete.com/",
-      "html_bytes": 7206,
+      "html_bytes": 7811,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

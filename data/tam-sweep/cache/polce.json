@@ -22,12 +22,13 @@
   "fingerprints": {
     "https://hob.beer/": {
       "url": "https://hob.beer/",
-      "html_bytes": 163253,
+      "html_bytes": 1237086,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
       },
       "toast": {
         "toast_gift": "toasttab.com/hob-brewing-co/giftcards"
@@ -35,7 +36,7 @@
     },
     "https://hob.beer/gift-cards": {
       "url": "https://hob.beer/gift-cards",
-      "html_bytes": 4985,
+      "html_bytes": 5657,
       "fingerprints": {
         "oo": "Toast OO (native)"
       },
@@ -45,9 +46,12 @@
   "toast_products": {
     "toast_gift": "toasttab.com/hob-brewing-co/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

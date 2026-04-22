@@ -22,15 +22,22 @@
   "fingerprints": {
     "https://thehottomato.com/": {
       "url": "https://thehottomato.com/",
-      "html_bytes": 4843,
+      "html_bytes": 5515,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

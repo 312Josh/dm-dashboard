@@ -30,7 +30,8 @@
       "fingerprints": {
         "website_cms": "BentoBox",
         "reservations": "Resy",
-        "loyalty": "Incentivio"
+        "loyalty": "Incentivio",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.gogreenlane.com/"
@@ -42,7 +43,8 @@
       "fingerprints": {
         "website_cms": "BentoBox",
         "reservations": "Resy",
-        "loyalty": "Incentivio"
+        "loyalty": "Incentivio",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.gogreenlane.com/"
@@ -52,9 +54,14 @@
   "toast_products": {
     "toast_oo_whitelabel_host": "https://order.gogreenlane.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

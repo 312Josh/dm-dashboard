@@ -21,15 +21,18 @@
   "fingerprints": {
     "https://www.palmettolittleleague.org/": {
       "url": "https://www.palmettolittleleague.org/",
-      "html_bytes": 74461,
+      "html_bytes": 74455,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

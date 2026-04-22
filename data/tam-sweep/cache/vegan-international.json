@@ -14,13 +14,32 @@
   "location_names": [
     "Vegan International Co"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.veganinternationalco.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.veganinternationalco.com": {
+      "url": "https://www.veganinternationalco.com",
+      "html_bytes": 188350,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

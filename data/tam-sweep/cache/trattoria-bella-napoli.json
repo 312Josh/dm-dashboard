@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.trattoriabellanapoli.com/": {
       "url": "https://www.trattoriabellanapoli.com/",
-      "html_bytes": 299955,
+      "html_bytes": 291746,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -30,9 +30,16 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

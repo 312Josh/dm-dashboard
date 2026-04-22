@@ -29,12 +29,15 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "dublin drop": "https://www.dublindropstpete.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

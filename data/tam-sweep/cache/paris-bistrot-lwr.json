@@ -21,18 +21,28 @@
   "fingerprints": {
     "https://www.parisbistrotlwr.com": {
       "url": "https://www.parisbistrotlwr.com",
-      "html_bytes": 68918,
+      "html_bytes": 69008,
       "fingerprints": {
         "oo": "Toast OO (whitelabel candidate)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "pos_other": "Square",
+        "delivery_platforms": "ChowNow Direct"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

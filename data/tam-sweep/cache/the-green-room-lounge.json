@@ -21,15 +21,18 @@
   "fingerprints": {
     "https://tchotchkecafe.com": {
       "url": "https://tchotchkecafe.com",
-      "html_bytes": 4823,
+      "html_bytes": 5495,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -21,15 +21,23 @@
   "fingerprints": {
     "https://munchin-meals.square.site/": {
       "url": "https://munchin-meals.square.site/",
-      "html_bytes": 45196,
-      "fingerprints": {},
+      "html_bytes": 45286,
+      "fingerprints": {
+        "pos_other": "Square"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

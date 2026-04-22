@@ -24,7 +24,8 @@
       "html_bytes": 209592,
       "fingerprints": {
         "website_cms": "WordPress",
-        "gift_cards": "Square Gift"
+        "gift_cards": "Square Gift",
+        "pos_other": "Square"
       },
       "toast": {}
     },
@@ -33,15 +34,23 @@
       "html_bytes": 156018,
       "fingerprints": {
         "website_cms": "WordPress",
-        "gift_cards": "Square Gift"
+        "gift_cards": "Square Gift",
+        "pos_other": "Square"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -22,14 +22,19 @@
     "https://www.biryani-bliss.com": {
       "url": "https://www.biryani-bliss.com",
       "html_bytes": 40799,
-      "fingerprints": {},
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

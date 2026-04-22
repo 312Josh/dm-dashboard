@@ -22,10 +22,11 @@
   "fingerprints": {
     "https://lalakaraoke.com/": {
       "url": "https://lalakaraoke.com/",
-      "html_bytes": 84677,
+      "html_bytes": 84673,
       "fingerprints": {
         "website_cms": "WordPress",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
       },
       "toast": {}
     },
@@ -34,7 +35,8 @@
       "html_bytes": 99316,
       "fingerprints": {
         "website_cms": "WordPress",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
       },
       "toast": {}
     },
@@ -43,24 +45,31 @@
       "html_bytes": 99207,
       "fingerprints": {
         "website_cms": "WordPress",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
       },
       "toast": {}
     },
     "https://lalakaraoke.com/menu/": {
       "url": "https://lalakaraoke.com/menu/",
-      "html_bytes": 76260,
+      "html_bytes": 76148,
       "fingerprints": {
         "website_cms": "WordPress",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -25,7 +25,8 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (native)",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/normasplantcity",
@@ -38,7 +39,8 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (native)",
-        "marketing": "Mailchimp"
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/normasplantcity",
@@ -50,9 +52,14 @@
     "toast_oo_native": "order.toasttab.com/online/normasplantcity",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

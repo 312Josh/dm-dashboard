@@ -24,7 +24,7 @@
   "fingerprints": {
     "https://joeydsfl.com/": {
       "url": "https://joeydsfl.com/",
-      "html_bytes": 238389,
+      "html_bytes": 238385,
       "fingerprints": {
         "website_cms": "WordPress"
       },
@@ -40,9 +40,16 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

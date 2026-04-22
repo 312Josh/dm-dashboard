@@ -14,13 +14,74 @@
   "location_names": [
     "The White Oak Cottage"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "websites": [
+    "https://thewhiteoakcottage.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thewhiteoakcottage.com": {
+      "url": "https://thewhiteoakcottage.com",
+      "html_bytes": 138795,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-white-oak-cottage-10530-county-road-39/giftcards",
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://thewhiteoakcottage.com/giftcards/": {
+      "url": "https://thewhiteoakcottage.com/giftcards/",
+      "html_bytes": 121721,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-white-oak-cottage-10530-county-road-39/giftcards"
+      }
+    },
+    "https://thewhiteoakcottage.com/menu/": {
+      "url": "https://thewhiteoakcottage.com/menu/",
+      "html_bytes": 300761,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://thewhiteoakcottage.com/reserve/": {
+      "url": "https://thewhiteoakcottage.com/reserve/",
+      "html_bytes": 121361,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://thewhiteoakcottage.com/order": {
+      "url": "https://thewhiteoakcottage.com/order",
+      "html_bytes": 5720,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-white-oak-cottage-10530-county-road-39/giftcards",
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

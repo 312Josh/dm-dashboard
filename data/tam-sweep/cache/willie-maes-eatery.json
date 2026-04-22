@@ -14,13 +14,25 @@
   "location_names": [
     "Willie Maes Eatery"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://www.williemaeseatery.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.williemaeseatery.com": {
+      "url": "https://www.williemaeseatery.com",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

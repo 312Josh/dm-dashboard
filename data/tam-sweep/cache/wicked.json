@@ -25,6 +25,7 @@
       "url": "https://wickedcantina.com/",
       "html_bytes": 228941,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "Toast OO (whitelabel candidate)",
         "gift_cards": "Toast Gift Cards"
       },
@@ -36,6 +37,7 @@
       "url": "https://wickedcantina.com/gift-cards-2",
       "html_bytes": 145117,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "Toast OO (whitelabel candidate)",
         "gift_cards": "Toast Gift Cards"
       },
@@ -47,9 +49,16 @@
   "toast_products": {
     "toast_gift": "toasttab.com/wicked-cantina-bradenton-beach/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

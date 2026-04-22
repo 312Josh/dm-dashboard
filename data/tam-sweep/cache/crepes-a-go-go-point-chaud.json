@@ -25,7 +25,8 @@
       "url": "https://pointchaudcafe.com/",
       "html_bytes": 85133,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -33,7 +34,8 @@
       "url": "https://pointchaudcafe.com/menu/",
       "html_bytes": 101253,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -41,7 +43,8 @@
       "url": "https://www.ordercrepesagogo.com/",
       "html_bytes": 37258,
       "fingerprints": {
-        "oo": "Menufy"
+        "oo": "Menufy",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -55,13 +58,18 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "point chaud": "https://pointchaudcafe.com/",
     "crepes": "https://www.ordercrepesagogo.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

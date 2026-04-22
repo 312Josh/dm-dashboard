@@ -22,7 +22,7 @@
   "fingerprints": {
     "https://3dbrewing.com/": {
       "url": "https://3dbrewing.com/",
-      "html_bytes": 206646,
+      "html_bytes": 206669,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
@@ -48,9 +48,16 @@
   "toast_products": {
     "toast_gift": "toasttab.com/3daughtersbrewing-stpete/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

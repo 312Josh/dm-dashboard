@@ -21,10 +21,11 @@
   "fingerprints": {
     "https://shakestation.com/": {
       "url": "https://shakestation.com/",
-      "html_bytes": 135498,
+      "html_bytes": 135421,
       "fingerprints": {
         "website_cms": "WordPress",
-        "oo": "Toast OO (native)"
+        "oo": "Toast OO (native)",
+        "marketing": "HubSpot"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/shake-station",
@@ -36,9 +37,16 @@
     "toast_oo_native": "order.toasttab.com/online/shake-station",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

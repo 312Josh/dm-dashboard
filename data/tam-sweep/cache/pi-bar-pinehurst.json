@@ -22,7 +22,7 @@
   "fingerprints": {
     "https://pipizzabar.gotoeat.net/": {
       "url": "https://pipizzabar.gotoeat.net/",
-      "html_bytes": 30846,
+      "html_bytes": 30843,
       "fingerprints": {},
       "toast": {}
     },
@@ -34,12 +34,15 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "pi pizza": "https://pipizzabar.gotoeat.net/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

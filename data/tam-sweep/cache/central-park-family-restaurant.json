@@ -49,9 +49,14 @@
     "toast_loyalty": "toasttab.com/central-park-family-restaurant/rewardsSignup",
     "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

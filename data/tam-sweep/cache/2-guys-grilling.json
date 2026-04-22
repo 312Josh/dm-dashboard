@@ -21,17 +21,21 @@
   "fingerprints": {
     "https://www.whenpigsflyfamilybbq.com/": {
       "url": "https://www.whenpigsflyfamilybbq.com/",
-      "html_bytes": 256674,
+      "html_bytes": 256638,
       "fingerprints": {
-        "website_cms": "Shopify"
+        "website_cms": "Shopify",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

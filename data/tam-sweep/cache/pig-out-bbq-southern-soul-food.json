@@ -21,15 +21,20 @@
   "fingerprints": {
     "https://pigout-bbq-southern-soul-food.eatat.us/": {
       "url": "https://pigout-bbq-southern-soul-food.eatat.us/",
-      "html_bytes": 85785,
+      "html_bytes": 85788,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

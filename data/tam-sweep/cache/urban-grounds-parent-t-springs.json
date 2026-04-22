@@ -23,17 +23,34 @@
     "https://trinitysportsgrill.com/": {
       "url": "https://trinitysportsgrill.com/",
       "html_bytes": 89238,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
       "toast": {}
+    },
+    "wayback:https://trinitysportsgrill.com/": {
+      "url": "http://web.archive.org/web/20250710174318/https://trinitysportsgrill.com/",
+      "html_bytes": 95665,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "trinity": "https://trinitysportsgrill.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

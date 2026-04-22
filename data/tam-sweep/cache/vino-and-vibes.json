@@ -22,32 +22,57 @@
     "https://vinoandvibesbar.com/": {
       "url": "https://vinoandvibesbar.com/",
       "html_bytes": 193411,
-      "fingerprints": {},
-      "toast": {}
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "catering_mention": "Private events page",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/vino-vibes-7740-auburn-rd/giftcards"
+      }
     },
     "https://vinoandvibesbar.com/menu": {
       "url": "https://vinoandvibesbar.com/menu",
       "html_bytes": 143336,
-      "fingerprints": {},
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "catering_mention": "Private events page"
+      },
       "toast": {}
     },
     "https://vinoandvibesbar.com/gift-cards": {
       "url": "https://vinoandvibesbar.com/gift-cards",
-      "html_bytes": 0,
-      "fingerprints": {},
-      "toast": {}
+      "html_bytes": 142175,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/vino-vibes-7740-auburn-rd/giftcards"
+      }
     },
     "https://vinoandvibesbar.com/m/bookings": {
       "url": "https://vinoandvibesbar.com/m/bookings",
-      "html_bytes": 0,
-      "fingerprints": {},
+      "html_bytes": 137726,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "catering_mention": "Private events page"
+      },
       "toast": {}
     }
   },
-  "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "toast_products": {
+    "toast_gift": "toasttab.com/vino-vibes-7740-auburn-rd/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

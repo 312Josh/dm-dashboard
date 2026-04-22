@@ -31,7 +31,7 @@
     },
     "https://www.whitneylbk.com/": {
       "url": "https://www.whitneylbk.com/",
-      "html_bytes": 195743,
+      "html_bytes": 540706,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -40,7 +40,7 @@
     },
     "https://www.whitneylbk.com/menu": {
       "url": "https://www.whitneylbk.com/menu",
-      "html_bytes": 128062,
+      "html_bytes": 320653,
       "fingerprints": {
         "website_cms": "Squarespace",
         "reservations": "OpenTable"
@@ -49,13 +49,18 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "floridays": "https://www.floridays-annamaria.com/",
     "whitney": "https://www.whitneylbk.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -26,7 +26,8 @@
       "fingerprints": {
         "website_cms": "SpotHopper",
         "oo": "Toast OO (native)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/maingreenzebracafe",
@@ -38,9 +39,16 @@
     "toast_oo_native": "order.toasttab.com/online/maingreenzebracafe",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

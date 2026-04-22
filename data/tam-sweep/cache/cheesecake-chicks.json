@@ -21,15 +21,23 @@
   "fingerprints": {
     "https://thecheesecakechick.square.site": {
       "url": "https://thecheesecakechick.square.site",
-      "html_bytes": 45130,
-      "fingerprints": {},
+      "html_bytes": 45220,
+      "fingerprints": {
+        "pos_other": "Square"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

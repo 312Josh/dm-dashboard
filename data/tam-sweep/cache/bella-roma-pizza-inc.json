@@ -23,6 +23,7 @@
       "url": "https://liveloveeatpizza.com",
       "html_bytes": 153029,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "ChowNow"
       },
       "toast": {}
@@ -31,15 +32,22 @@
       "url": "https://liveloveeatpizza.com/menu",
       "html_bytes": 189729,
       "fingerprints": {
+        "website_cms": "GoDaddy",
         "oo": "ChowNow"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

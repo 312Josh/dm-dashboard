@@ -45,13 +45,16 @@
     "toast_oo_native": "order.toasttab.com/online/twisted-pit-bbq-8130-lakewood-main-street-ste-104",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "peculiar": "https://peculiarpublwr.com/",
     "twisted pit": "https://twistedpitbbq.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

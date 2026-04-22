@@ -28,7 +28,8 @@
         "website_cms": "BentoBox",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/carmelitas-mexican-restaurant-st-pete-5211-park-st-n/giftcards",
@@ -43,7 +44,8 @@
         "website_cms": "BentoBox",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/carmelitas-mexican-restaurant-st-pete-5211-park-st-n/giftcards"
@@ -56,7 +58,8 @@
         "website_cms": "BentoBox",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/carmelitas-mexican-restaurant-st-pete-5211-park-st-n/giftcards"
@@ -69,7 +72,8 @@
         "website_cms": "BentoBox",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "Resy",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.spoton.com/",
@@ -83,9 +87,16 @@
     "toast_oo_whitelabel_host": "https://order.spoton.com/",
     "toast_oo_whitelabel_confirmed": "order.spoton.com + toasttab string in HTML"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

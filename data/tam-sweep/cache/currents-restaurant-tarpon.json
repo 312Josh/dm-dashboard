@@ -21,15 +21,18 @@
   "fingerprints": {
     "https://currentstarponsprings.com": {
       "url": "https://currentstarponsprings.com",
-      "html_bytes": 4874,
+      "html_bytes": 5546,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

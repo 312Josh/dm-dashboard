@@ -21,15 +21,22 @@
   "fingerprints": {
     "https://latinquarters.toast.site/": {
       "url": "https://latinquarters.toast.site/",
-      "html_bytes": 4873,
+      "html_bytes": 5545,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

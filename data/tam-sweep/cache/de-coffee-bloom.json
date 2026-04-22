@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.decoffeebloom.com/": {
       "url": "https://www.decoffeebloom.com/",
-      "html_bytes": 3060,
+      "html_bytes": 3059,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -29,9 +29,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

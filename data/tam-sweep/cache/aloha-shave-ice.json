@@ -23,23 +23,28 @@
       "url": "https://www.alohashaveicetime.com",
       "html_bytes": 1136177,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "pos_other": "Aloha"
       },
       "toast": {}
     },
     "https://www.alohashaveicetime.com/menu": {
       "url": "https://www.alohashaveicetime.com/menu",
-      "html_bytes": 1304296,
+      "html_bytes": 1301825,
       "fingerprints": {
-        "website_cms": "Wix"
+        "website_cms": "Wix",
+        "pos_other": "Aloha"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

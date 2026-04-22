@@ -24,15 +24,20 @@
   "fingerprints": {
     "https://birkinssteakhouse.com/": {
       "url": "https://birkinssteakhouse.com/",
-      "html_bytes": 4849,
+      "html_bytes": 5521,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

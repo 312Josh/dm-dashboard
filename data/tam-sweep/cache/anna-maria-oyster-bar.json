@@ -27,7 +27,7 @@
   "fingerprints": {
     "https://www.oysterbar.net/": {
       "url": "https://www.oysterbar.net/",
-      "html_bytes": 82672,
+      "html_bytes": 81986,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
@@ -83,9 +83,17 @@
     "toast_oo_native": "order.toasttab.com/online/anna-maria-oyster-bar-utc",
     "toast_oo_whitelabel_host": "https://order.toasttab.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

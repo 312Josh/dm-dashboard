@@ -21,11 +21,12 @@
   "fingerprints": {
     "https://www.orderjbsseafood.com/": {
       "url": "https://www.orderjbsseafood.com/",
-      "html_bytes": 137398,
+      "html_bytes": 138186,
       "fingerprints": {
         "website_cms": "Squarespace",
         "oo": "Toast OO (whitelabel candidate)",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering copy"
       },
       "toast": {
         "toast_oo_whitelabel_host": "http://order.chownow.com/",
@@ -39,9 +40,16 @@
     "toast_tables": "tables.toasttab.com/restaurants/34f3fe0f-f115-4df1-9278-413104f0d9bd",
     "toast_oo_whitelabel_confirmed": "order.chownow.com + toasttab string in HTML"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

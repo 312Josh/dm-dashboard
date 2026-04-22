@@ -21,15 +21,18 @@
   "fingerprints": {
     "https://thai5fastfood.com": {
       "url": "https://thai5fastfood.com",
-      "html_bytes": 4866,
+      "html_bytes": 5538,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

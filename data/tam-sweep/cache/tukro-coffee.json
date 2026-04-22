@@ -14,13 +14,29 @@
   "location_names": [
     "Tukro Coffee"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://tukrocoffee.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tukrocoffee.com": {
+      "url": "https://tukrocoffee.com",
+      "html_bytes": 246579,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

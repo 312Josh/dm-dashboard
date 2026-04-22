@@ -22,15 +22,31 @@
   "fingerprints": {
     "https://gasparillarestaurants.com/": {
       "url": "https://gasparillarestaurants.com/",
-      "html_bytes": 4874,
+      "html_bytes": 5546,
       "fingerprints": {},
       "toast": {}
+    },
+    "wayback:https://gasparillarestaurants.com/": {
+      "url": "http://web.archive.org/web/20260212003628/https://gasparillarestaurants.com/",
+      "html_bytes": 260675,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

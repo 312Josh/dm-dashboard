@@ -28,12 +28,17 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "bali hai": "https://www.balihaibeachresort.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

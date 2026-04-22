@@ -15,12 +15,15 @@
     "Tin Viet & Sushi Bar"
   ],
   "websites": [],
-  "website_discovery_status": "pending",
+  "website_discovery_status": "not_found",
   "fingerprints": {},
   "toast_products": {},
   "marketplaces": {},
   "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

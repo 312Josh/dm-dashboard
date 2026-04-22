@@ -22,7 +22,9 @@
     "https://greenparrotrestaurant.com/": {
       "url": "https://greenparrotrestaurant.com/",
       "html_bytes": 255761,
-      "fingerprints": {},
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.spoton.com/"
       }
@@ -30,7 +32,9 @@
     "https://greenparrotrestaurant.com/menu": {
       "url": "https://greenparrotrestaurant.com/menu",
       "html_bytes": 1389271,
-      "fingerprints": {},
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.spoton.com/"
       }
@@ -39,9 +43,12 @@
   "toast_products": {
     "toast_oo_whitelabel_host": "https://order.spoton.com/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -22,15 +22,35 @@
   "fingerprints": {
     "https://www.buttermilkeat.com/": {
       "url": "https://www.buttermilkeat.com/",
-      "html_bytes": 7177,
+      "html_bytes": 7761,
       "fingerprints": {},
       "toast": {}
+    },
+    "wayback:https://www.buttermilkeat.com/": {
+      "url": "http://web.archive.org/web/20251016004315/https://www.buttermilkeat.com",
+      "html_bytes": 436975,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "oo": "Popmenu OO",
+        "reservations": "OpenTable",
+        "pos_other": "Clover",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

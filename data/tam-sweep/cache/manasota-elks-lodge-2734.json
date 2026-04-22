@@ -21,15 +21,20 @@
   "fingerprints": {
     "https://manasota-elks-2734.square.site/": {
       "url": "https://manasota-elks-2734.square.site/",
-      "html_bytes": 41670,
-      "fingerprints": {},
+      "html_bytes": 41760,
+      "fingerprints": {
+        "pos_other": "Square"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

@@ -23,7 +23,8 @@
       "url": "https://skipperssmokehouse.com/",
       "html_bytes": 83809,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -31,7 +32,8 @@
       "url": "https://skipperssmokehouse.com/menu/",
       "html_bytes": 204159,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -39,15 +41,22 @@
       "url": "https://skipperssmokehouse.com/booking-agency/",
       "html_bytes": 59849,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

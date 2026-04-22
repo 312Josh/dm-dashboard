@@ -21,15 +21,18 @@
   "fingerprints": {
     "https://www.theorpheum.com/": {
       "url": "https://www.theorpheum.com/",
-      "html_bytes": 59418,
+      "html_bytes": 59419,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

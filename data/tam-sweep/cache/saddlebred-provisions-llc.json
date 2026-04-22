@@ -21,15 +21,18 @@
   "fingerprints": {
     "https://saddlebred.cafe": {
       "url": "https://saddlebred.cafe",
-      "html_bytes": 4842,
+      "html_bytes": 5514,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

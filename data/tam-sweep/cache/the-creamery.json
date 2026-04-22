@@ -23,7 +23,9 @@
     "https://thecreameryhomemade.com/": {
       "url": "https://thecreameryhomemade.com/",
       "html_bytes": 35286,
-      "fingerprints": {},
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
       "toast": {}
     },
     "https://thecreameryhomemade.com/giftcards": {
@@ -34,9 +36,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

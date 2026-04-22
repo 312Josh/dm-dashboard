@@ -22,7 +22,7 @@
   "fingerprints": {
     "https://www.samssushi.com/home": {
       "url": "https://www.samssushi.com/home",
-      "html_bytes": 162535,
+      "html_bytes": 162411,
       "fingerprints": {
         "oo": "Toast OO (native)"
       },
@@ -30,27 +30,33 @@
     },
     "https://www.samssushi.com/menus/lunch": {
       "url": "https://www.samssushi.com/menus/lunch",
-      "html_bytes": 130102,
+      "html_bytes": 130086,
       "fingerprints": {},
       "toast": {}
     },
     "https://www.samssushi.com/menus/dinner": {
       "url": "https://www.samssushi.com/menus/dinner",
-      "html_bytes": 133277,
+      "html_bytes": 133374,
       "fingerprints": {},
       "toast": {}
     },
     "https://www.samssushi.com/menus/happy-hour": {
       "url": "https://www.samssushi.com/menus/happy-hour",
-      "html_bytes": 129999,
+      "html_bytes": 129992,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

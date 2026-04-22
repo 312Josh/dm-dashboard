@@ -23,15 +23,22 @@
   "fingerprints": {
     "https://beachpizzaplus.com/": {
       "url": "https://beachpizzaplus.com/",
-      "html_bytes": 4867,
+      "html_bytes": 5539,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

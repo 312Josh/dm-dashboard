@@ -22,14 +22,22 @@
     "https://mothershuckers813.com": {
       "url": "https://mothershuckers813.com",
       "html_bytes": 105620,
-      "fingerprints": {},
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

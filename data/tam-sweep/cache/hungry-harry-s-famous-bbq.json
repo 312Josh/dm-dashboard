@@ -24,7 +24,7 @@
   "fingerprints": {
     "https://hungryharrysbbq.com/": {
       "url": "https://hungryharrysbbq.com/",
-      "html_bytes": 198166,
+      "html_bytes": 199655,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (native)",
@@ -38,7 +38,7 @@
     },
     "https://hungryharrysbbq.com/menu/": {
       "url": "https://hungryharrysbbq.com/menu/",
-      "html_bytes": 206293,
+      "html_bytes": 205478,
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "Toast OO (native)",
@@ -56,9 +56,16 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_loyalty": "toasttab.com/hungry-harrys-3116-land-o-lakes-blvd/rewardsSignup"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

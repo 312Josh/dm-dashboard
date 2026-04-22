@@ -21,33 +21,42 @@
   "fingerprints": {
     "https://www.rotisflorida.com": {
       "url": "https://www.rotisflorida.com",
-      "html_bytes": 89917,
-      "fingerprints": {},
+      "html_bytes": 89915,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
       "toast": {}
     },
     "https://www.rotisflorida.com/Menu?promos=1&amp;pid=11185": {
       "url": "https://www.rotisflorida.com/Menu?promos=1&amp;pid=11185",
-      "html_bytes": 66858,
+      "html_bytes": 66856,
       "fingerprints": {},
       "toast": {}
     },
     "https://www.rotisflorida.com/menu?promos=1": {
       "url": "https://www.rotisflorida.com/menu?promos=1",
-      "html_bytes": 66858,
+      "html_bytes": 66856,
       "fingerprints": {},
       "toast": {}
     },
     "https://www.rotisflorida.com/Menu": {
       "url": "https://www.rotisflorida.com/Menu",
-      "html_bytes": 66858,
+      "html_bytes": 66856,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

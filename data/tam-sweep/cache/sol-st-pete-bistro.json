@@ -26,7 +26,8 @@
         "website_cms": "SpotHopper",
         "oo": "Toast OO (native)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
       },
       "toast": {
         "toast_oo_native": "order.toasttab.com/online/sol-st-pete-bistro-2149-3rd-ave-s-unit-6",
@@ -40,9 +41,14 @@
     "toast_oo_whitelabel_host": "https://order.toasttab.com/",
     "toast_gift": "toasttab.com/sol-st-pete-bistro-2149-3rd-ave-s-unit-6/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

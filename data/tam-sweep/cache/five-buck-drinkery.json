@@ -27,6 +27,7 @@
       "html_bytes": 162655,
       "fingerprints": {
         "website_cms": "WordPress",
+        "catering_mention": "Private-events copy",
         "oo": "Toast OO (whitelabel candidate)"
       },
       "toast": {
@@ -43,9 +44,10 @@
     },
     "https://fivebucksdrinkery.com/book-party/": {
       "url": "https://fivebucksdrinkery.com/book-party/",
-      "html_bytes": 130712,
+      "html_bytes": 130763,
       "fingerprints": {
-        "website_cms": "WordPress"
+        "website_cms": "WordPress",
+        "catering_mention": "Private-events copy"
       },
       "toast": {}
     },
@@ -64,9 +66,14 @@
   "toast_products": {
     "toast_local": "toasttab.com/local/order"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

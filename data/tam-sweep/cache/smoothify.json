@@ -21,7 +21,7 @@
   "fingerprints": {
     "https://www.smoothifysmoothies.com/": {
       "url": "https://www.smoothifysmoothies.com/",
-      "html_bytes": 528269,
+      "html_bytes": 528585,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -29,7 +29,7 @@
     },
     "https://www.smoothifysmoothies.com/menus": {
       "url": "https://www.smoothifysmoothies.com/menus",
-      "html_bytes": 1192891,
+      "html_bytes": 1190265,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -37,9 +37,12 @@
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

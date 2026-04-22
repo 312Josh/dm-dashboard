@@ -14,13 +14,46 @@
   "location_names": [
     "Wheat Water Italian Kitchen"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
-  "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "websites": [
+    "https://wheatpluswater.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wheatpluswater.com": {
+      "url": "https://wheatpluswater.com",
+      "html_bytes": 170285,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/wheat-water-italian-kitchen",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/28e7cf80-08c1-4463-b9b8-3a763f7bd659",
+        "toast_gift": "toasttab.com/wheat-water-italian-kitchen/giftcards",
+        "toast_loyalty": "toasttab.com/wheat-water-italian-kitchen/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/wheat-water-italian-kitchen",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/28e7cf80-08c1-4463-b9b8-3a763f7bd659",
+    "toast_gift": "toasttab.com/wheat-water-italian-kitchen/giftcards",
+    "toast_loyalty": "toasttab.com/wheat-water-italian-kitchen/rewardsSignup"
+  },
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

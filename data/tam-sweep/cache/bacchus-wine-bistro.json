@@ -24,7 +24,8 @@
       "html_bytes": 204108,
       "fingerprints": {
         "website_cms": "SpotHopper",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering copy"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.online/"
@@ -34,9 +35,15 @@
   "toast_products": {
     "toast_oo_whitelabel_host": "https://order.online/"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

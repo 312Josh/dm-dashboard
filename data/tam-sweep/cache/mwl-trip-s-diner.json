@@ -32,19 +32,24 @@
     },
     "https://lonnisdowntownstpete.com/": {
       "url": "https://lonnisdowntownstpete.com/",
-      "html_bytes": 4873,
+      "html_bytes": 5545,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "brand_websites": {
     "trip": "https://tripsdiner.com/",
     "lonni": "https://lonnisdowntownstpete.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }

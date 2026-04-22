@@ -21,15 +21,32 @@
   "fingerprints": {
     "https://giannisbradenton.pizza": {
       "url": "https://giannisbradenton.pizza",
-      "html_bytes": 4871,
+      "html_bytes": 5543,
       "fingerprints": {},
       "toast": {}
+    },
+    "wayback:https://giannisbradenton.pizza": {
+      "url": "http://web.archive.org/web/20250312201719/https://giannisbradenton.pizza/",
+      "html_bytes": 206838,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Punchh"
+      },
+      "toast": {},
+      "source": "wayback"
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

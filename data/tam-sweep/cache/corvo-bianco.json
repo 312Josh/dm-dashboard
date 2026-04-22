@@ -21,15 +21,20 @@
   "fingerprints": {
     "https://corvobianco.pizza": {
       "url": "https://corvobianco.pizza",
-      "html_bytes": 4866,
+      "html_bytes": 5516,
       "fingerprints": {},
       "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

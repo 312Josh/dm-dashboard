@@ -14,13 +14,29 @@
   "location_names": [
     "Wow my taco"
   ],
-  "websites": [],
-  "website_discovery_status": "pending",
-  "fingerprints": {},
+  "websites": [
+    "https://wowmytaco.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wowmytaco.com": {
+      "url": "https://wowmytaco.com",
+      "html_bytes": 5491,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
   "toast_products": {},
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
-  "notes": []
+  "notes": [],
+  "reps": [
+    "byrnes"
+  ]
 }

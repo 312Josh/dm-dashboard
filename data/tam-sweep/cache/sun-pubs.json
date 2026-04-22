@@ -40,7 +40,8 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "ChowNow",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.chownow.com/"
@@ -52,7 +53,8 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "ChowNow",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.chownow.com/"
@@ -64,7 +66,8 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "ChowNow",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_oo_whitelabel_host": "https://order.chownow.com/"
@@ -138,7 +141,7 @@
     },
     "https://www.lilrudys.com/": {
       "url": "https://www.lilrudys.com/",
-      "html_bytes": 977840,
+      "html_bytes": 976361,
       "fingerprints": {
         "website_cms": "Wix"
       },
@@ -151,6 +154,7 @@
         "website_cms": "WordPress",
         "oo": "ChowNow",
         "reservations": "OpenTable",
+        "catering_mention": "Catering page",
         "gift_cards": "Toast Gift Cards",
         "loyalty": "Toast Loyalty"
       },
@@ -165,7 +169,8 @@
       "fingerprints": {
         "website_cms": "WordPress",
         "oo": "ChowNow",
-        "reservations": "OpenTable"
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
       },
       "toast": {}
     },
@@ -176,7 +181,8 @@
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
-        "gift_cards": "Toast Gift Cards"
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_gift": "toasttab.com/mad-beach-cantina/giftcards"
@@ -189,7 +195,8 @@
         "website_cms": "WordPress",
         "oo": "Toast OO (whitelabel candidate)",
         "reservations": "OpenTable",
-        "loyalty": "Toast Loyalty"
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
       },
       "toast": {
         "toast_loyalty": "toasttab.com/mad-beach-cantina/rewardsSignup"
@@ -201,8 +208,12 @@
     "toast_loyalty": "toasttab.com/grove-soho/rewardsSignup",
     "toast_gift": "toasttab.com/grove-soho/giftcards"
   },
-  "marketplaces": {},
-  "marketplaces_status": "pending",
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
@@ -212,5 +223,8 @@
     "grove": "https://grovesoho.com/",
     "lil rudy": "https://www.lilrudys.com/",
     "mad beach": "https://madbeachcantina.com/"
-  }
+  },
+  "reps": [
+    "byrnes"
+  ]
 }
