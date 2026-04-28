@@ -1,0 +1,113 @@
+{
+  "parent": "Just One More Hospitality Group - Parent",
+  "slug": "just-one-more-hospitality-group",
+  "total_headroom": "$114,192",
+  "non_ec_headroom": "$114,192",
+  "est_ec_headroom": "$0",
+  "employee_count": "164",
+  "non_ec_arr": "$26,207",
+  "state": "TN",
+  "city": "Ashland City",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "dalton@justonemoreusa.com",
+  "location_count": 6,
+  "location_names": [
+    "Sidelines Grill - Ashland City",
+    "Dalton's Grill",
+    "Noble's Kitchen and Beer Hall",
+    "Noble's Central",
+    "Crow's Nest",
+    "MAD Hospitality"
+  ],
+  "websites": [
+    "https://www.facebook.com/SidelinesGrill1/",
+    "https://noblesbeerhall.com/",
+    "https://crowsnestnashville.com/",
+    "https://daltons-grill.res-menu.net/",
+    "https://justonemorehospitalitygroup.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/SidelinesGrill1/": {
+      "url": "https://www.facebook.com/SidelinesGrill1/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://noblesbeerhall.com/": {
+      "url": "https://noblesbeerhall.com/",
+      "html_bytes": 50709,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://crowsnestnashville.com/": {
+      "url": "https://crowsnestnashville.com/",
+      "html_bytes": 199913,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://crowsnestnashville.com/order": {
+      "url": "https://crowsnestnashville.com/order",
+      "html_bytes": 164184,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://crowsnestnashville.com/menu": {
+      "url": "https://crowsnestnashville.com/menu",
+      "html_bytes": 241488,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://daltons-grill.res-menu.net/": {
+      "url": "https://daltons-grill.res-menu.net/",
+      "html_bytes": 5545,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://justonemorehospitalitygroup.com/": {
+      "url": "https://justonemorehospitalitygroup.com/",
+      "html_bytes": 3660,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "sidelines": "https://www.facebook.com/SidelinesGrill1/",
+    "noble": "https://noblesbeerhall.com/",
+    "crow": "https://crowsnestnashville.com/",
+    "dalton": "https://daltons-grill.res-menu.net/",
+    "mad": "https://justonemorehospitalitygroup.com/"
+  }
+}

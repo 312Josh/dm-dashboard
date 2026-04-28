@@ -1,0 +1,38 @@
+{
+  "parent": "Heifers and Hogs",
+  "slug": "heifers-and-hogs",
+  "total_headroom": "$21,276",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Gainesboro",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "thedairyshack@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Heifers and Hogs"
+  ],
+  "websites": [
+    "https://www.facebook.com/thedairyshack/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/thedairyshack/": {
+      "url": "https://www.facebook.com/thedairyshack/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

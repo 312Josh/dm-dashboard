@@ -1,0 +1,47 @@
+{
+  "parent": "Toots Restaurants - Parent",
+  "slug": "toots-restaurants",
+  "total_headroom": "$70,680",
+  "non_ec_headroom": "$70,680",
+  "est_ec_headroom": "$0",
+  "employee_count": "344",
+  "non_ec_arr": "$62,766",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "office@toots.com",
+  "location_count": 4,
+  "location_names": [
+    "Toots - South",
+    "Toots - Smyrna",
+    "Toot's - Broad",
+    "Toots - West"
+  ],
+  "websites": [
+    "https://toots.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://toots.com/": {
+      "url": "https://toots.com/",
+      "html_bytes": 169054,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

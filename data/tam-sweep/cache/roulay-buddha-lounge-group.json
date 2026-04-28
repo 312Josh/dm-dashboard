@@ -1,0 +1,81 @@
+{
+  "parent": "Roulay/Buddha Lounge Group",
+  "slug": "roulay-buddha-lounge-group",
+  "total_headroom": "$19,788",
+  "non_ec_headroom": "$18,780",
+  "est_ec_headroom": "$1,008",
+  "employee_count": "6",
+  "non_ec_arr": "$2,520",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "vichul01@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Roulay"
+  ],
+  "websites": [
+    "https://buddhaloungeky.getbento.com/",
+    "https://www.facebook.com/RoulayRestaurantandBar/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://buddhaloungeky.getbento.com/": {
+      "url": "https://buddhaloungeky.getbento.com/",
+      "html_bytes": 36596,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://buddhaloungeky.getbento.com/menus/": {
+      "url": "https://buddhaloungeky.getbento.com/menus/",
+      "html_bytes": 103206,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://buddhaloungeky.getbento.com/order-online": {
+      "url": "https://buddhaloungeky.getbento.com/order-online",
+      "html_bytes": 30461,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.facebook.com/RoulayRestaurantandBar/": {
+      "url": "https://www.facebook.com/RoulayRestaurantandBar/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "buddha": "https://buddhaloungeky.getbento.com/",
+    "roulay": "https://www.facebook.com/RoulayRestaurantandBar/"
+  }
+}

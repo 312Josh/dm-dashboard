@@ -1,0 +1,57 @@
+{
+  "parent": "Ground - Parent",
+  "slug": "ground",
+  "total_headroom": "$18,496",
+  "non_ec_headroom": "$16,620",
+  "est_ec_headroom": "$1,876",
+  "employee_count": "11",
+  "non_ec_arr": "$4,800",
+  "state": "TN",
+  "city": "Franklin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "groundrestaurant@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ground Franklin"
+  ],
+  "websites": [
+    "https://www.groundrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.groundrestaurant.com/": {
+      "url": "https://www.groundrestaurant.com/",
+      "html_bytes": 104161,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.groundrestaurant.com/menu": {
+      "url": "https://www.groundrestaurant.com/menu",
+      "html_bytes": 154355,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

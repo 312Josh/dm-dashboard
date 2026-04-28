@@ -1,0 +1,44 @@
+{
+  "parent": "Mini Mart - Parent Account",
+  "slug": "mini-mart",
+  "total_headroom": "$17,364",
+  "non_ec_headroom": "$16,860",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$4,476",
+  "state": "TN",
+  "city": "Antioch",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "anteryyafai@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Uptown Fresh Market"
+  ],
+  "websites": [
+    "https://www.instagram.com/minimarttn/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.instagram.com/minimarttn/": {
+      "url": "https://www.instagram.com/minimarttn/",
+      "html_bytes": 801350,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "parent": "Dip N Crepe LLC - Parent Account",
+  "slug": "dip-n-crepe-llc",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "null",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "alaeddinellala@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Dip N Crepe LLC"
+  ],
+  "websites": [
+    "https://dipncrepe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dipncrepe.com/": {
+      "url": "https://dipncrepe.com/",
+      "html_bytes": 195078,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://dipncrepe.com/menu/": {
+      "url": "https://dipncrepe.com/menu/",
+      "html_bytes": 112897,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://dipncrepe.com/reserve/": {
+      "url": "https://dipncrepe.com/reserve/",
+      "html_bytes": 77077,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

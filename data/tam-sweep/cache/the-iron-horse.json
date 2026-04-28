@@ -1,0 +1,40 @@
+{
+  "parent": "The Iron Horse - Parent Account",
+  "slug": "the-iron-horse",
+  "total_headroom": "$21,796",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$1,456",
+  "employee_count": "9",
+  "non_ec_arr": "$1,200",
+  "state": "TN",
+  "city": "Wartrace",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "cataldo.benjamin38@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Iron Horse"
+  ],
+  "websites": [
+    "https://www.facebook.com/wartracesquare/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/wartracesquare/": {
+      "url": "https://www.facebook.com/wartracesquare/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

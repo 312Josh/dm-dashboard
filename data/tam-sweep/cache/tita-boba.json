@@ -1,0 +1,43 @@
+{
+  "parent": "Tita Boba",
+  "slug": "tita-boba",
+  "total_headroom": "$36,780",
+  "non_ec_headroom": "$36,780",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$4,443",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "norasfilipinomarkettn@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Tita Boba - Clarksville",
+    "Tita Boba - Fire Station Rd"
+  ],
+  "websites": [
+    "https://www.facebook.com/TitaBobaTn/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/TitaBobaTn/": {
+      "url": "https://www.facebook.com/TitaBobaTn/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

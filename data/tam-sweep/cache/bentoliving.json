@@ -1,0 +1,38 @@
+{
+  "parent": "BentoLiving",
+  "slug": "bentoliving",
+  "total_headroom": "$19,140",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$4,020",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rick@inthepureland.com",
+  "location_count": 1,
+  "location_names": [
+    "Present Tense"
+  ],
+  "websites": [
+    "https://livebento.com/bentoliving"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://livebento.com/bentoliving": {
+      "url": "https://livebento.com/bentoliving",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "Elks Lodge Pride of Tennessee 1102",
+  "slug": "elks-lodge-pride-of-tennessee-1102",
+  "total_headroom": "$21,388",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$448",
+  "employee_count": "3",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "prideoftenn1102@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Elks Lodge Pride of Tennessee 1102"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/Elks-Lodge-1102-Pride-of-Tenn-100080032217329/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/Elks-Lodge-1102-Pride-of-Tenn-100080032217329/": {
+      "url": "https://www.facebook.com/p/Elks-Lodge-1102-Pride-of-Tenn-100080032217329/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "Maru Sushi Parent",
+  "slug": "maru-sushi",
+  "total_headroom": "$87,264",
+  "non_ec_headroom": "$78,360",
+  "est_ec_headroom": "$8,904",
+  "employee_count": "53",
+  "non_ec_arr": "$12,600",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mikyung.bang@yahoo.com",
+  "location_count": 4,
+  "location_names": [
+    "Maru Nations",
+    "Maru East",
+    "Maru - Murfreesboro NEW",
+    "Maru - Wedgewood Houston"
+  ],
+  "websites": [
+    "https://nashvilleguru.com/businesses/maru-sushi-grill"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://nashvilleguru.com/businesses/maru-sushi-grill": {
+      "url": "https://nashvilleguru.com/businesses/maru-sushi-grill",
+      "html_bytes": 86825,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

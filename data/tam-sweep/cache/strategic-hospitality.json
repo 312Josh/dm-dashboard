@@ -1,0 +1,233 @@
+{
+  "parent": "Strategic Hospitality",
+  "slug": "strategic-hospitality",
+  "total_headroom": "$130,956",
+  "non_ec_headroom": "$130,956",
+  "est_ec_headroom": "$0",
+  "employee_count": "283",
+  "non_ec_arr": "$34,911",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "benjamin@shprojects.co",
+  "location_count": 7,
+  "location_names": [
+    "Henrietta Red",
+    "Bastion",
+    "Judith",
+    "Pinewood Social",
+    "Locust",
+    "TPHTCS - Strategic new",
+    "Babychan"
+  ],
+  "websites": [
+    "https://www.henriettared.com/",
+    "https://www.bastionnashville.com/",
+    "https://www.judithtavern.com/",
+    "https://pinewoodsocial.com/",
+    "https://www.locustnashville.com/",
+    "https://www.strategichospitality.com/",
+    "https://www.strategichospitality.com/babychan"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.henriettared.com/": {
+      "url": "https://www.henriettared.com/",
+      "html_bytes": 427017,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.henriettared.com/menu": {
+      "url": "https://www.henriettared.com/menu",
+      "html_bytes": 271854,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.bastionnashville.com/": {
+      "url": "https://www.bastionnashville.com/",
+      "html_bytes": 317876,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.judithtavern.com/": {
+      "url": "https://www.judithtavern.com/",
+      "html_bytes": 163511,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/judith-36-ball-park-road/giftcards"
+      }
+    },
+    "https://www.judithtavern.com/menu-2": {
+      "url": "https://www.judithtavern.com/menu-2",
+      "html_bytes": 165911,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/judith-36-ball-park-road/giftcards"
+      }
+    },
+    "https://www.judithtavern.com/menu": {
+      "url": "https://www.judithtavern.com/menu",
+      "html_bytes": 165911,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/judith-36-ball-park-road/giftcards"
+      }
+    },
+    "https://www.judithtavern.com/menu-1": {
+      "url": "https://www.judithtavern.com/menu-1",
+      "html_bytes": 312845,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/judith-36-ball-park-road/giftcards"
+      }
+    },
+    "https://pinewoodsocial.com/": {
+      "url": "https://pinewoodsocial.com/",
+      "html_bytes": 264384,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://pinewoodsocial.com/pages/menu": {
+      "url": "https://pinewoodsocial.com/pages/menu",
+      "html_bytes": 185554,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.locustnashville.com/": {
+      "url": "https://www.locustnashville.com/",
+      "html_bytes": 197976,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.locustnashville.com/menus": {
+      "url": "https://www.locustnashville.com/menus",
+      "html_bytes": 157811,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.strategichospitality.com/": {
+      "url": "https://www.strategichospitality.com/",
+      "html_bytes": 550425,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/babychan",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.strategichospitality.com/reservations": {
+      "url": "https://www.strategichospitality.com/reservations",
+      "html_bytes": 401775,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/babychan",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.strategichospitality.com/babychan": {
+      "url": "https://www.strategichospitality.com/babychan",
+      "html_bytes": 317866,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/babychan",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/judith-36-ball-park-road/giftcards",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_oo_native": "order.toasttab.com/online/babychan"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "henrietta": "https://www.henriettared.com/",
+    "bastion": "https://www.bastionnashville.com/",
+    "judith": "https://www.judithtavern.com/",
+    "pinewood": "https://pinewoodsocial.com/",
+    "locust": "https://www.locustnashville.com/",
+    "tphtcs": "https://www.strategichospitality.com/",
+    "babychan": "https://www.strategichospitality.com/babychan"
+  }
+}

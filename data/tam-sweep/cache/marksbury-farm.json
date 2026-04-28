@@ -1,0 +1,42 @@
+{
+  "parent": "Marksbury Farm",
+  "slug": "marksbury-farm",
+  "total_headroom": "$19,036",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$196",
+  "employee_count": "1",
+  "non_ec_arr": "$2,976",
+  "state": "KY",
+  "city": "Lancaster",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "pcorrell@marksburyfarm.com",
+  "location_count": 1,
+  "location_names": [
+    "Marksbury Farm"
+  ],
+  "websites": [
+    "https://marksburyfarm.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://marksburyfarm.com/": {
+      "url": "https://marksburyfarm.com/",
+      "html_bytes": 330642,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

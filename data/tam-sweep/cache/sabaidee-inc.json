@@ -1,0 +1,41 @@
+{
+  "parent": "Sabaidee Inc Parent",
+  "slug": "sabaidee-inc",
+  "total_headroom": "$17,232",
+  "non_ec_headroom": "$17,232",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$6,702",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nit@sabaideecafe.com",
+  "location_count": 1,
+  "location_names": [
+    "Sabaidee Inc"
+  ],
+  "websites": [
+    "https://sabaideecafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sabaideecafe.com/": {
+      "url": "https://sabaideecafe.com/",
+      "html_bytes": 5513,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

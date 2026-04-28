@@ -1,0 +1,42 @@
+{
+  "parent": "Lost and Found Nashville Parent",
+  "slug": "lost-and-found-nashville",
+  "total_headroom": "$35,664",
+  "non_ec_headroom": "$35,664",
+  "est_ec_headroom": "$0",
+  "employee_count": "24",
+  "non_ec_arr": "$8,616",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "nathan@mwrealestateco.com",
+  "location_count": 2,
+  "location_names": [
+    "Birdies LOST AND FOUND",
+    "Fortunate Sun - LOST AND FOUND"
+  ],
+  "websites": [
+    "https://www.lostandfoundnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lostandfoundnashville.com/": {
+      "url": "https://www.lostandfoundnashville.com/",
+      "html_bytes": 466241,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

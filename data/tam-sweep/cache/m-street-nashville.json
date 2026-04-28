@@ -1,0 +1,90 @@
+{
+  "parent": "M Street Nashville",
+  "slug": "m-street-nashville",
+  "total_headroom": "$128,996",
+  "non_ec_headroom": "$91,392",
+  "est_ec_headroom": "$37,604",
+  "employee_count": "224",
+  "non_ec_arr": "$42,180",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "accounting@mstreetnashville.com",
+  "location_count": 5,
+  "location_names": [
+    "Kayne Prime",
+    "Virago Nashville",
+    "Saint Anejo",
+    "Moto Nashville",
+    "M Street - Gift Cards"
+  ],
+  "websites": [
+    "https://www.kayneprimenashville.com/",
+    "https://www.viragonashville.com/",
+    "https://www.saintanejonashville.com/",
+    "https://www.motonashville.com/",
+    "https://www.tavernnashville.com/",
+    "https://www.mstreetnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.kayneprimenashville.com/": {
+      "url": "https://www.kayneprimenashville.com/",
+      "html_bytes": 5525,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.viragonashville.com/": {
+      "url": "https://www.viragonashville.com/",
+      "html_bytes": 5521,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.saintanejonashville.com/": {
+      "url": "https://www.saintanejonashville.com/",
+      "html_bytes": 5525,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.motonashville.com/": {
+      "url": "https://www.motonashville.com/",
+      "html_bytes": 5519,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.tavernnashville.com/": {
+      "url": "https://www.tavernnashville.com/",
+      "html_bytes": 5521,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.mstreetnashville.com/": {
+      "url": "https://www.mstreetnashville.com/",
+      "html_bytes": 5522,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "kayne": "https://www.kayneprimenashville.com/",
+    "virago": "https://www.viragonashville.com/",
+    "saint anejo": "https://www.saintanejonashville.com/",
+    "moto": "https://www.motonashville.com/",
+    "tavern": "https://www.tavernnashville.com/",
+    "whiskey kitchen": "https://www.mstreetnashville.com/"
+  }
+}

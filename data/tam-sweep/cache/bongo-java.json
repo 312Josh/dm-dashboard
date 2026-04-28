@@ -1,0 +1,56 @@
+{
+  "parent": "Bongo Java",
+  "slug": "bongo-java",
+  "total_headroom": "$67,768",
+  "non_ec_headroom": "$54,720",
+  "est_ec_headroom": "$13,048",
+  "employee_count": "77",
+  "non_ec_arr": "$7,388",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "bob@bongojava.com",
+  "location_count": 3,
+  "location_names": [
+    "Bongo Java Belmont",
+    "Bongo East Cafe",
+    "Fido Bongo Java"
+  ],
+  "websites": [
+    "https://www.bongojava.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bongojava.com/": {
+      "url": "https://www.bongojava.com/",
+      "html_bytes": 412645,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    },
+    "https://www.bongojava.com/collections/gifts-bundles-subscriptions": {
+      "url": "https://www.bongojava.com/collections/gifts-bundles-subscriptions",
+      "html_bytes": 436130,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

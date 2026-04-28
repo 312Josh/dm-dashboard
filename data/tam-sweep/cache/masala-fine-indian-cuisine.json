@@ -1,0 +1,45 @@
+{
+  "parent": "Masala Fine Indian Cuisine - Parent Account",
+  "slug": "masala-fine-indian-cuisine",
+  "total_headroom": "$17,988",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$4,224",
+  "state": "KY",
+  "city": "Richmond",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rajlamichhane@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Masala Fine Indian Cuisine"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/masala-fine-indian-cuisine-1000-center-dr"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/masala-fine-indian-cuisine-1000-center-dr": {
+      "url": "https://www.toasttab.com/local/order/masala-fine-indian-cuisine-1000-center-dr",
+      "html_bytes": 5715,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

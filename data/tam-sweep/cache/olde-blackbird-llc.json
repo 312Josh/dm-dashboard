@@ -1,0 +1,40 @@
+{
+  "parent": "Olde Blackbird LLC",
+  "slug": "olde-blackbird-llc",
+  "total_headroom": "$20,536",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$196",
+  "employee_count": "1",
+  "non_ec_arr": "$1,080",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "kevinheathcoat@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Chevy Chess Inn 2"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/chevy-chase-inn-833-euclid-ave/r-c9d5178c-c2c7-4bbc-8ab9-15098dba0711"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/chevy-chase-inn-833-euclid-ave/r-c9d5178c-c2c7-4bbc-8ab9-15098dba0711": {
+      "url": "https://www.toasttab.com/local/chevy-chase-inn-833-euclid-ave/r-c9d5178c-c2c7-4bbc-8ab9-15098dba0711",
+      "html_bytes": 5823,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

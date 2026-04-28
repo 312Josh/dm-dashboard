@@ -1,0 +1,41 @@
+{
+  "parent": "Nora Sing Restaurant Management Holdings - Parent Account",
+  "slug": "nora-sing-restaurant-management-holdings",
+  "total_headroom": "$15,012",
+  "non_ec_headroom": "$15,012",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$10,488",
+  "state": "TN",
+  "city": "Smyrna",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "q@norasinggroup.com",
+  "location_count": 1,
+  "location_names": [
+    "Yummi Poki"
+  ],
+  "websites": [
+    "https://www.norasinggroup.com/corporatecatering"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.norasinggroup.com/corporatecatering": {
+      "url": "https://www.norasinggroup.com/corporatecatering",
+      "html_bytes": 248622,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

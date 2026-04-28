@@ -1,0 +1,44 @@
+{
+  "parent": "El Rancho Tapatio Parent Account",
+  "slug": "el-rancho-tapatio",
+  "total_headroom": "$61,708",
+  "non_ec_headroom": "$54,540",
+  "est_ec_headroom": "$7,168",
+  "employee_count": "43",
+  "non_ec_arr": "$26,924",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "valeyjessi25@icloud.com",
+  "location_count": 3,
+  "location_names": [
+    "Club Halo",
+    "El Rancho Tapatio",
+    "Mama Tequila"
+  ],
+  "websites": [
+    "https://elranchotapatioky.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://elranchotapatioky.com/": {
+      "url": "https://elranchotapatioky.com/",
+      "html_bytes": 128366,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub",
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

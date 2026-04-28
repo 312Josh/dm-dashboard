@@ -1,0 +1,224 @@
+{
+  "parent": "Darsino's Restaurant",
+  "slug": "darsino-s-restaurant",
+  "total_headroom": "$46,176",
+  "non_ec_headroom": "$46,176",
+  "est_ec_headroom": "$0",
+  "employee_count": "94",
+  "non_ec_arr": "$18,096",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "billdarsinos@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Southside Grill",
+    "Salento Italia",
+    "Greko Greek Street Food"
+  ],
+  "websites": [
+    "https://www.salentonashville.com/",
+    "https://www.southsidegrillnashville.com/",
+    "https://www.grekostreetfood.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.salentonashville.com/": {
+      "url": "https://www.salentonashville.com/",
+      "html_bytes": 40979,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "catering_mention": "Private events page",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.salentonashville.com/menus/": {
+      "url": "https://www.salentonashville.com/menus/",
+      "html_bytes": 268607,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.salentonashville.com/reservations/": {
+      "url": "https://www.salentonashville.com/reservations/",
+      "html_bytes": 38496,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.salentonashville.com/order-now/": {
+      "url": "https://www.salentonashville.com/order-now/",
+      "html_bytes": 35321,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.salentonashville.com/store/gift-cards/": {
+      "url": "https://www.salentonashville.com/store/gift-cards/",
+      "html_bytes": 47001,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.southsidegrillnashville.com/": {
+      "url": "https://www.southsidegrillnashville.com/",
+      "html_bytes": 41086,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "catering_mention": "Private-events copy",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/southside-grill",
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML",
+        "toast_gift": "toasttab.com/southside-grill/giftcards"
+      }
+    },
+    "https://www.southsidegrillnashville.com/menus/": {
+      "url": "https://www.southsidegrillnashville.com/menus/",
+      "html_bytes": 137655,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    },
+    "https://www.southsidegrillnashville.com/order-online/": {
+      "url": "https://www.southsidegrillnashville.com/order-online/",
+      "html_bytes": 30984,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/southside-grill",
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.southsidegrillnashville.com/reservations": {
+      "url": "https://www.southsidegrillnashville.com/reservations",
+      "html_bytes": 31239,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    },
+    "https://www.southsidegrillnashville.com/gift-cards/": {
+      "url": "https://www.southsidegrillnashville.com/gift-cards/",
+      "html_bytes": 30649,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/southside-grill/giftcards"
+      }
+    },
+    "https://www.grekostreetfood.com/": {
+      "url": "https://www.grekostreetfood.com/",
+      "html_bytes": 39349,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "catering_mention": "Catering page",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/greko-greek-street-food",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/greko-greek-street-food/giftcards"
+      }
+    },
+    "https://www.grekostreetfood.com/menu/": {
+      "url": "https://www.grekostreetfood.com/menu/",
+      "html_bytes": 128735,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/greko-greek-street-food",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.grekostreetfood.com/order-online/": {
+      "url": "https://www.grekostreetfood.com/order-online/",
+      "html_bytes": 34183,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/greko-greek-street-food",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.grekostreetfood.com/gift-cards/": {
+      "url": "https://www.grekostreetfood.com/gift-cards/",
+      "html_bytes": 31992,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/greko-greek-street-food/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML",
+    "toast_oo_native": "order.toasttab.com/online/southside-grill",
+    "toast_gift": "toasttab.com/southside-grill/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "salento": "https://www.salentonashville.com/",
+    "southside": "https://www.southsidegrillnashville.com/",
+    "greko": "https://www.grekostreetfood.com/"
+  }
+}

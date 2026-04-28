@@ -1,0 +1,107 @@
+{
+  "parent": "Mileta Italian - Parent Account",
+  "slug": "mileta-italian",
+  "total_headroom": "$11,304",
+  "non_ec_headroom": "$11,304",
+  "est_ec_headroom": "$0",
+  "employee_count": "39",
+  "non_ec_arr": "$8,448",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "dallasmrose@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mileta Italian"
+  ],
+  "websites": [
+    "https://www.miletarestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.miletarestaurant.com/": {
+      "url": "https://www.miletarestaurant.com/",
+      "html_bytes": 372279,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mileta-italian-3545-nicholasville-road-suite-i-932",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.miletarestaurant.com/reservewithmileta": {
+      "url": "https://www.miletarestaurant.com/reservewithmileta",
+      "html_bytes": 253936,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mileta-italian-3545-nicholasville-road-suite-i-932",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.miletarestaurant.com/reservations": {
+      "url": "https://www.miletarestaurant.com/reservations",
+      "html_bytes": 253936,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mileta-italian-3545-nicholasville-road-suite-i-932",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.miletarestaurant.com/menus": {
+      "url": "https://www.miletarestaurant.com/menus",
+      "html_bytes": 346027,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mileta-italian-3545-nicholasville-road-suite-i-932",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.miletarestaurant.com/menu": {
+      "url": "https://www.miletarestaurant.com/menu",
+      "html_bytes": 115891,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mileta-italian-3545-nicholasville-road-suite-i-932",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/mileta-italian-3545-nicholasville-road-suite-i-932",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

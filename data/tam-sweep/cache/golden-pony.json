@@ -1,0 +1,40 @@
+{
+  "parent": "Golden Pony Parent",
+  "slug": "golden-pony",
+  "total_headroom": "$17,544",
+  "non_ec_headroom": "$17,544",
+  "est_ec_headroom": "$0",
+  "employee_count": "12",
+  "non_ec_arr": "$4,008",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "team@goldenponynashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Golden Pony"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/goldenponynashville/r-071f100b-2638-4419-b0fb-552c4af96ed9"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/goldenponynashville/r-071f100b-2638-4419-b0fb-552c4af96ed9": {
+      "url": "https://www.toasttab.com/local/goldenponynashville/r-071f100b-2638-4419-b0fb-552c4af96ed9",
+      "html_bytes": 5769,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

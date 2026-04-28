@@ -1,0 +1,68 @@
+{
+  "parent": "Mark Wombles Group",
+  "slug": "mark-wombles-group",
+  "total_headroom": "$34,824",
+  "non_ec_headroom": "$28,944",
+  "est_ec_headroom": "$5,880",
+  "employee_count": "35",
+  "non_ec_arr": "$7,380",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "ricky.pope@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Distilled",
+    "Heirloom Restaurant"
+  ],
+  "websites": [
+    "https://www.heirloommidway.com/about/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.heirloommidway.com/about/": {
+      "url": "https://www.heirloommidway.com/about/",
+      "html_bytes": 36749,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.heirloommidway.com/menus/": {
+      "url": "https://www.heirloommidway.com/menus/",
+      "html_bytes": 115215,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.heirloommidway.com/store/gift-cards/": {
+      "url": "https://www.heirloommidway.com/store/gift-cards/",
+      "html_bytes": 42376,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

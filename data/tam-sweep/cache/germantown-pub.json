@@ -1,0 +1,46 @@
+{
+  "parent": "Germantown Pub Parent",
+  "slug": "germantown-pub",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "46",
+  "non_ec_arr": "$8,040",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "naimawalkerfierce@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Germantown Pub"
+  ],
+  "websites": [
+    "https://thegermantownpub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thegermantownpub.com/": {
+      "url": "https://thegermantownpub.com/",
+      "html_bytes": 131790,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

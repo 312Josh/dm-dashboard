@@ -1,0 +1,40 @@
+{
+  "parent": "USA Sports Grill - Parent Account",
+  "slug": "usa-sports-grill",
+  "total_headroom": "$22,568",
+  "non_ec_headroom": "$20,580",
+  "est_ec_headroom": "$1,988",
+  "employee_count": "12",
+  "non_ec_arr": "$2,856",
+  "state": "TN",
+  "city": "Mount Juliet",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "sagemgmt@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "USA Sports Grill"
+  ],
+  "websites": [
+    "http://usasportsgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://usasportsgrill.com/": {
+      "url": "http://usasportsgrill.com/",
+      "html_bytes": 14596,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

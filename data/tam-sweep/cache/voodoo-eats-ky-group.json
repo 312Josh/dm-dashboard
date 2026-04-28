@@ -1,0 +1,40 @@
+{
+  "parent": "Voodoo Eats KY Group",
+  "slug": "voodoo-eats-ky-group",
+  "total_headroom": "$19,628",
+  "non_ec_headroom": "$16,800",
+  "est_ec_headroom": "$2,828",
+  "employee_count": "17",
+  "non_ec_arr": "$5,742",
+  "state": "KY",
+  "city": "Danville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "sawmillwingsnob7370@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bricks and Brews"
+  ],
+  "websites": [
+    "https://danvillekentucky.com/lively-locally-owned-danville-dining-scene-has-lots-of-variety/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://danvillekentucky.com/lively-locally-owned-danville-dining-scene-has-lots-of-variety/": {
+      "url": "https://danvillekentucky.com/lively-locally-owned-danville-dining-scene-has-lots-of-variety/",
+      "html_bytes": 103741,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

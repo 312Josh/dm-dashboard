@@ -1,0 +1,42 @@
+{
+  "parent": "Estelle",
+  "slug": "estelle",
+  "total_headroom": "$18,108",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,200",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "nealy@estellenashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Estelle"
+  ],
+  "websites": [
+    "https://www.estellenashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.estellenashville.com/": {
+      "url": "https://www.estellenashville.com/",
+      "html_bytes": 210712,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

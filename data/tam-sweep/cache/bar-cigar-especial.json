@@ -1,0 +1,41 @@
+{
+  "parent": "Bar: Cigar Especial - Parent Account",
+  "slug": "bar-cigar-especial",
+  "total_headroom": "$18,932",
+  "non_ec_headroom": "$18,540",
+  "est_ec_headroom": "$392",
+  "employee_count": "2",
+  "non_ec_arr": "$2,100",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "tony@barcigarespecial.com",
+  "location_count": 1,
+  "location_names": [
+    "Bar - Cigar Especial"
+  ],
+  "websites": [
+    "https://www.barcigarespecial.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.barcigarespecial.com/": {
+      "url": "https://www.barcigarespecial.com/",
+      "html_bytes": 63007,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "parent": "Roma Pizza and Pasta - Parent Account",
+  "slug": "roma-pizza-and-pasta",
+  "total_headroom": "$74,778",
+  "non_ec_headroom": "$70,872",
+  "est_ec_headroom": "$3,906",
+  "employee_count": "24",
+  "non_ec_arr": "$15,532",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "abualrobcynthia@yahoo.com",
+  "location_count": 4,
+  "location_names": [
+    "Roma Pizza and Pasta - Donelson",
+    "Roma Pizza and Pasta - Bordeaux",
+    "Roma Pizza & Pasta - Franklin",
+    "Roma Pizza and Pasta- Antioch"
+  ],
+  "websites": [
+    "https://romapizzaandpasta.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://romapizzaandpasta.com/": {
+      "url": "https://romapizzaandpasta.com/",
+      "html_bytes": 46427,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://romapizzaandpasta.com/menu/": {
+      "url": "https://romapizzaandpasta.com/menu/",
+      "html_bytes": 74605,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

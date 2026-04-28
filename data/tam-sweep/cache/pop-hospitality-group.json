@@ -1,0 +1,41 @@
+{
+  "parent": "POP Hospitality Group",
+  "slug": "pop-hospitality-group",
+  "total_headroom": "$95,120",
+  "non_ec_headroom": "$72,300",
+  "est_ec_headroom": "$22,820",
+  "employee_count": "137",
+  "non_ec_arr": "$28,453",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kelly@pophg.com",
+  "location_count": 4,
+  "location_names": [
+    "NashHouse",
+    "The Row Kitchen & Pub",
+    "The Treehouse",
+    "The Honeysuckle"
+  ],
+  "websites": [
+    "https://www.pophg.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pophg.com/": {
+      "url": "https://www.pophg.com/",
+      "html_bytes": 5489,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

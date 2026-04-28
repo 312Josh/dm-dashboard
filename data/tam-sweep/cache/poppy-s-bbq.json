@@ -1,0 +1,40 @@
+{
+  "parent": "Poppy's Bbq",
+  "slug": "poppy-s-bbq",
+  "total_headroom": "$16,188",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Springfield",
+  "restaurant_type": "Unknown",
+  "contact_email": "poppysbarbeque@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Poppy's Bbq"
+  ],
+  "websites": [
+    "https://poppysbbqtn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://poppysbbqtn.com/": {
+      "url": "https://poppysbbqtn.com/",
+      "html_bytes": 91694,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

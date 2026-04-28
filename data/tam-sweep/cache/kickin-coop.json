@@ -1,0 +1,52 @@
+{
+  "parent": "Kickin Coop - Parent",
+  "slug": "kickin-coop",
+  "total_headroom": "$16,908",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$4,308",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "fishhouseboro@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Kickin Coop"
+  ],
+  "websites": [
+    "https://kickincoop.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kickincoop.com/": {
+      "url": "https://kickincoop.com/",
+      "html_bytes": 145348,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/kickin-chickn-1626-middle-tennessee-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/kickin-chickn-1626-middle-tennessee-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

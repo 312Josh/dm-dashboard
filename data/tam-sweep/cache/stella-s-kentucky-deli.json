@@ -1,0 +1,54 @@
+{
+  "parent": "Stella's Kentucky Deli",
+  "slug": "stella-s-kentucky-deli",
+  "total_headroom": "$21,080",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$2,240",
+  "employee_count": "13",
+  "non_ec_arr": "$1,008",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "lesmiller9@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Stella's Kentucky Deli"
+  ],
+  "websites": [
+    "https://www.stellaskentuckydeli.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.stellaskentuckydeli.com/": {
+      "url": "https://www.stellaskentuckydeli.com/",
+      "html_bytes": 47192,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.stellaskentuckydeli.com/menus/": {
+      "url": "https://www.stellaskentuckydeli.com/menus/",
+      "html_bytes": 48342,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

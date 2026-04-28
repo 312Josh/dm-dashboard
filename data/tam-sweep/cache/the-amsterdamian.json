@@ -1,0 +1,52 @@
+{
+  "parent": "The Amsterdamian - Parent Account",
+  "slug": "the-amsterdamian",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$600",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "martin@theamsterdamian.com",
+  "location_count": 1,
+  "location_names": [
+    "The Amsterdamian"
+  ],
+  "websites": [
+    "https://theamsterdamian.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://theamsterdamian.com/": {
+      "url": "https://theamsterdamian.com/",
+      "html_bytes": 166583,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {}
+    },
+    "https://theamsterdamian.com/reservations": {
+      "url": "https://theamsterdamian.com/reservations",
+      "html_bytes": 71311,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

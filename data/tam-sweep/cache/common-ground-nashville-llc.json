@@ -1,0 +1,66 @@
+{
+  "parent": "Common Ground Nashville, LLC - Parent Account",
+  "slug": "common-ground-nashville-llc",
+  "total_headroom": "$18,780",
+  "non_ec_headroom": "$18,780",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$4,020",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "matt@cgnashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Common Ground - Berry Hill"
+  ],
+  "websites": [
+    "https://www.cgnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cgnashville.com/": {
+      "url": "https://www.cgnashville.com/",
+      "html_bytes": 43339,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.cgnashville.com/menus/": {
+      "url": "https://www.cgnashville.com/menus/",
+      "html_bytes": 149194,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "grubhub",
+    "resy",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "parent": "Radish Parent",
+  "slug": "radish",
+  "total_headroom": "$63,348",
+  "non_ec_headroom": "$63,348",
+  "est_ec_headroom": "$0",
+  "employee_count": "70",
+  "non_ec_arr": "$25,632",
+  "state": "TN",
+  "city": "Franklin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "luke@radishkitchen.com",
+  "location_count": 4,
+  "location_names": [
+    "Radish - Franklin",
+    "Radish - Nashville",
+    "Radish Kitchen - East Nashville",
+    "Rad Market"
+  ],
+  "websites": [
+    "https://www.radishkitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.radishkitchen.com/": {
+      "url": "https://www.radishkitchen.com/",
+      "html_bytes": 370419,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/radish-franklin-4041-aspen-grove-drive-106/giftcards"
+      }
+    },
+    "https://www.radishkitchen.com/gifting": {
+      "url": "https://www.radishkitchen.com/gifting",
+      "html_bytes": 214606,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/radish-franklin-4041-aspen-grove-drive-106/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/radish-franklin-4041-aspen-grove-drive-106/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

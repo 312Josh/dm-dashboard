@@ -1,0 +1,40 @@
+{
+  "parent": "Grey Fox Bar and Lounge - Parent Account",
+  "slug": "grey-fox-bar-and-lounge",
+  "total_headroom": "$22,356",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$2,016",
+  "employee_count": "12",
+  "non_ec_arr": "$4,800",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "levertjackson@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Grey Fox Bar and Lounge"
+  ],
+  "websites": [
+    "https://www.grayfoxbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.grayfoxbar.com/": {
+      "url": "https://www.grayfoxbar.com/",
+      "html_bytes": 1908,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

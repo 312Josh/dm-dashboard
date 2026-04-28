@@ -1,0 +1,45 @@
+{
+  "parent": "Manchester Hotel Group",
+  "slug": "manchester-hotel-group",
+  "total_headroom": "$39,568",
+  "non_ec_headroom": "$36,852",
+  "est_ec_headroom": "$2,716",
+  "employee_count": "16",
+  "non_ec_arr": "$4,542",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nik@newcircleinvestments.com",
+  "location_count": 2,
+  "location_names": [
+    "Lost Palms",
+    "Banquet Hall at The Manchester Hotel"
+  ],
+  "websites": [
+    "https://themanchesterky.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://themanchesterky.com/": {
+      "url": "https://themanchesterky.com/",
+      "html_bytes": 104781,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

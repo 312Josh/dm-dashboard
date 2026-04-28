@@ -1,0 +1,50 @@
+{
+  "parent": "Jeff Nebel's Group",
+  "slug": "jeff-nebel-s-group",
+  "total_headroom": "$19,608",
+  "non_ec_headroom": "$19,608",
+  "est_ec_headroom": "$0",
+  "employee_count": "107",
+  "non_ec_arr": "$28,868",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jn2d1986@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Two J's Grille",
+    "The Boulevard Bar & Grille"
+  ],
+  "websites": [
+    "https://twojsgrille.com/",
+    "https://boulevardmurfreesboro.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://twojsgrille.com/": {
+      "url": "https://twojsgrille.com/",
+      "html_bytes": 5512,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://boulevardmurfreesboro.com/": {
+      "url": "https://boulevardmurfreesboro.com/",
+      "html_bytes": 5544,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "two j": "https://twojsgrille.com/",
+    "boulevard": "https://boulevardmurfreesboro.com/"
+  }
+}

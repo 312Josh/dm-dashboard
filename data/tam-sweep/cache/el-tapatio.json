@@ -1,0 +1,47 @@
+{
+  "parent": "El Tapatio - Parent",
+  "slug": "el-tapatio",
+  "total_headroom": "$74,008",
+  "non_ec_headroom": "$62,220",
+  "est_ec_headroom": "$11,788",
+  "employee_count": "70",
+  "non_ec_arr": "$4,008",
+  "state": "TN",
+  "city": "Cookeville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "eltapatio.1992@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "El Tapatio - Willow",
+    "El Tapatio - Jefferson",
+    "El Tapatio - Sparta"
+  ],
+  "websites": [
+    "https://www.eltapatiotnmexican.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eltapatiotnmexican.com/": {
+      "url": "https://www.eltapatiotnmexican.com/",
+      "html_bytes": 592064,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "marketing": "HubSpot"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

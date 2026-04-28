@@ -1,0 +1,54 @@
+{
+  "parent": "Oscar's TN - Parent Account Cesar",
+  "slug": "oscar-s-tn-parent-account-cesar",
+  "total_headroom": "$56,160",
+  "non_ec_headroom": "$56,160",
+  "est_ec_headroom": "$0",
+  "employee_count": "28",
+  "non_ec_arr": "$9,468",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "cesar@otsholdings5.com",
+  "location_count": 3,
+  "location_names": [
+    "Oscars Tacos - Harding C",
+    "Oscars Tacos - Vandy C",
+    "Oscar's Tacos - Hendersonville C"
+  ],
+  "websites": [
+    "https://oscarstacoshop.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://oscarstacoshop.com/": {
+      "url": "https://oscarstacoshop.com/",
+      "html_bytes": 35068,
+      "fingerprints": {
+        "oo": "ChowNow"
+      },
+      "toast": {}
+    },
+    "https://oscarstacoshop.com/menu": {
+      "url": "https://oscarstacoshop.com/menu",
+      "html_bytes": 29656,
+      "fingerprints": {
+        "oo": "ChowNow"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "doordash",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

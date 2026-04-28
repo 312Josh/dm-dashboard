@@ -1,0 +1,49 @@
+{
+  "parent": "The Urban Juicer Parent",
+  "slug": "the-urban-juicer",
+  "total_headroom": "$45,756",
+  "non_ec_headroom": "$45,756",
+  "est_ec_headroom": "$0",
+  "employee_count": "32",
+  "non_ec_arr": "$35,244",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "celeste@theurbanjuicer.com",
+  "location_count": 4,
+  "location_names": [
+    "The Urban Juicer - Nashville Yards",
+    "The Urban Juicer - East Nashville",
+    "The Urban Juicer- Hillsboro",
+    "The Urban Juicer - 8th Ave South"
+  ],
+  "websites": [
+    "https://theurbanjuicer.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://theurbanjuicer.com/": {
+      "url": "https://theurbanjuicer.com/",
+      "html_bytes": 143321,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

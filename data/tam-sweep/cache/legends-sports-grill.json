@@ -1,0 +1,59 @@
+{
+  "parent": "Legends Sports Grill",
+  "slug": "legends-sports-grill",
+  "total_headroom": "$22,812",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$2,772",
+  "employee_count": "17",
+  "non_ec_arr": "$2,802",
+  "state": "TN",
+  "city": "Lebanon",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "mattsabel@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Legends Sports Grill"
+  ],
+  "websites": [
+    "https://www.thelegendssportsgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thelegendssportsgrill.com/": {
+      "url": "https://www.thelegendssportsgrill.com/",
+      "html_bytes": 533833,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.thelegendssportsgrill.com/menu": {
+      "url": "https://www.thelegendssportsgrill.com/menu",
+      "html_bytes": 484308,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.thelegendssportsgrill.com/book-online": {
+      "url": "https://www.thelegendssportsgrill.com/book-online",
+      "html_bytes": 654835,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

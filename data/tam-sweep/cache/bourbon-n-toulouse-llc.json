@@ -1,0 +1,50 @@
+{
+  "parent": "Bourbon n Toulouse LLC",
+  "slug": "bourbon-n-toulouse-llc",
+  "total_headroom": "$29,520",
+  "non_ec_headroom": "$29,520",
+  "est_ec_headroom": "$0",
+  "employee_count": "30",
+  "non_ec_arr": "$9,987",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "kevinheathcoat@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Bourbon n' Toulouse - Meadowthorpe",
+    "Bourbon n' Toulouse"
+  ],
+  "websites": [
+    "https://www.ilovecajun.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ilovecajun.com/": {
+      "url": "https://www.ilovecajun.com/",
+      "html_bytes": 22544,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

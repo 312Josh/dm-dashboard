@@ -1,0 +1,41 @@
+{
+  "parent": "Barrel 53- Parent Account",
+  "slug": "barrel-53",
+  "total_headroom": "$16,982",
+  "non_ec_headroom": "$15,504",
+  "est_ec_headroom": "$1,478",
+  "employee_count": "9",
+  "non_ec_arr": "$7,488",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "lisa@medbillconsultants.com",
+  "location_count": 1,
+  "location_names": [
+    "Barrel 53"
+  ],
+  "websites": [
+    "https://barrel-53.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://barrel-53.co/": {
+      "url": "https://barrel-53.co/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

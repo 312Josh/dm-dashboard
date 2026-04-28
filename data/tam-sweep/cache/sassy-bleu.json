@@ -1,0 +1,52 @@
+{
+  "parent": "Sassy Bleu - Parent Account",
+  "slug": "sassy-bleu",
+  "total_headroom": "$15,912",
+  "non_ec_headroom": "$15,912",
+  "est_ec_headroom": "$0",
+  "employee_count": "25",
+  "non_ec_arr": "$4,458",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "sbooket722@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sassy Bleu"
+  ],
+  "websites": [
+    "https://www.sassybleufinedining.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sassybleufinedining.com/": {
+      "url": "https://www.sassybleufinedining.com/",
+      "html_bytes": 1261572,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.sassybleufinedining.com/menus": {
+      "url": "https://www.sassybleufinedining.com/menus",
+      "html_bytes": 2179479,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

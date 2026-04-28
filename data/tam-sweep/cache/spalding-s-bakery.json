@@ -1,0 +1,42 @@
+{
+  "parent": "Spalding's Bakery",
+  "slug": "spalding-s-bakery",
+  "total_headroom": "$22,144",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,204",
+  "employee_count": "7",
+  "non_ec_arr": "$480",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "levward@qx.net",
+  "location_count": 1,
+  "location_names": [
+    "Spalding's Bakery"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/spaldings-bakery/r-1d85e5af-37a7-4d4f-b84d-8eaccfcf875c"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/spaldings-bakery/r-1d85e5af-37a7-4d4f-b84d-8eaccfcf875c": {
+      "url": "https://www.toasttab.com/local/spaldings-bakery/r-1d85e5af-37a7-4d4f-b84d-8eaccfcf875c",
+      "html_bytes": 5782,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

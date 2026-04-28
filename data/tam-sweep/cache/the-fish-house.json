@@ -1,0 +1,47 @@
+{
+  "parent": "The Fish House - Parent",
+  "slug": "the-fish-house",
+  "total_headroom": "$37,976",
+  "non_ec_headroom": "$36,240",
+  "est_ec_headroom": "$1,736",
+  "employee_count": "10",
+  "non_ec_arr": "$8,964",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "f4ent@hotmail.com",
+  "location_count": 2,
+  "location_names": [
+    "The Fish House - Food Truck new",
+    "Jojos Fish house Murfreesboro"
+  ],
+  "websites": [
+    "https://jojosfishhouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://jojosfishhouse.com/": {
+      "url": "https://jojosfishhouse.com/",
+      "html_bytes": 195975,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "parent": "Butterlamp - Parent Account",
+  "slug": "butterlamp",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$1,800",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "katie@butterlampnashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Butterlamp"
+  ],
+  "websites": [
+    "https://www.butterlampnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.butterlampnashville.com/": {
+      "url": "https://www.butterlampnashville.com/",
+      "html_bytes": 353895,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.butterlampnashville.com/menu": {
+      "url": "https://www.butterlampnashville.com/menu",
+      "html_bytes": 146399,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

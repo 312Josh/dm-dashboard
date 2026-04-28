@@ -1,0 +1,29 @@
+{
+  "parent": "Thai Oceanview - Parent Account",
+  "slug": "thai-oceanview",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Goodlettsville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "tkoenig76@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Thai Oceanview"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

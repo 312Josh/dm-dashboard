@@ -1,0 +1,38 @@
+{
+  "parent": "La Neveria Artesanal LLC",
+  "slug": "la-neveria-artesanal-llc",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Springfield",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "la_artesana_@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "La Neveria Artesanal LLC"
+  ],
+  "websites": [
+    "https://www.facebook.com/laneveriaHA/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/laneveriaHA/": {
+      "url": "https://www.facebook.com/laneveriaHA/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

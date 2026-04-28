@@ -1,0 +1,60 @@
+{
+  "parent": "Abettor Brewing Company Parent",
+  "slug": "abettor-brewing-company",
+  "total_headroom": "$21,628",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$1,288",
+  "employee_count": "8",
+  "non_ec_arr": "$1,080",
+  "state": "KY",
+  "city": "WINCHESTER",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "tyler@abettorbeer.com",
+  "location_count": 1,
+  "location_names": [
+    "Abettor Brewing Company"
+  ],
+  "websites": [
+    "https://abettorbeer.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://abettorbeer.com/": {
+      "url": "https://abettorbeer.com/",
+      "html_bytes": 69423,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private-events copy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/abcdepot/giftcards"
+      }
+    },
+    "https://abettorbeer.com/gift-cards/": {
+      "url": "https://abettorbeer.com/gift-cards/",
+      "html_bytes": 61952,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/abcdepot/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/abcdepot/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

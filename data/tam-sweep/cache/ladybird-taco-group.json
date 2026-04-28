@@ -1,0 +1,76 @@
+{
+  "parent": "Ladybird Taco Group",
+  "slug": "ladybird-taco-group",
+  "total_headroom": "$38,604",
+  "non_ec_headroom": "$38,604",
+  "est_ec_headroom": "$0",
+  "employee_count": "107",
+  "non_ec_arr": "$57,449",
+  "state": "AL",
+  "city": "Mountain Brook",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "brooks@ladybirdtaco.com",
+  "location_count": 4,
+  "location_names": [
+    "Ladybird Taco - Mountain Brook",
+    "Ladybird Taco",
+    "Ladybird Taco - Inglewood",
+    "Ladybird Taco Gulch"
+  ],
+  "websites": [
+    "https://www.ladybirdtaco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ladybirdtaco.com/": {
+      "url": "https://www.ladybirdtaco.com/",
+      "html_bytes": 40475,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.ladybirdtaco.com/",
+        "toast_gift": "toasttab.com/ladybirdtaco-mtnbrook/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.ladybirdtaco.com + toasttab string in HTML"
+      }
+    },
+    "https://www.ladybirdtaco.com/order-catering/": {
+      "url": "https://www.ladybirdtaco.com/order-catering/",
+      "html_bytes": 38770,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.ladybirdtaco.com/",
+        "toast_gift": "toasttab.com/ladybirdtaco-mtnbrook/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.ladybirdtaco.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.ladybirdtaco.com/",
+    "toast_gift": "toasttab.com/ladybirdtaco-mtnbrook/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.ladybirdtaco.com + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

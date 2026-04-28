@@ -1,0 +1,42 @@
+{
+  "parent": "The Thirsty Goat Parent",
+  "slug": "the-thirsty-goat",
+  "total_headroom": "$44,828",
+  "non_ec_headroom": "$37,632",
+  "est_ec_headroom": "$7,196",
+  "employee_count": "43",
+  "non_ec_arr": "$5,731",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "hunterstapp@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "The Thirsty Goat",
+    "Dairy Dogs"
+  ],
+  "websites": [
+    "https://www.thirstygoatsango.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thirstygoatsango.com/": {
+      "url": "https://www.thirstygoatsango.com/",
+      "html_bytes": 113451,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

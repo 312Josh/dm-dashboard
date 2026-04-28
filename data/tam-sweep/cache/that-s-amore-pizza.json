@@ -1,0 +1,40 @@
+{
+  "parent": "That's Amore Pizza",
+  "slug": "that-s-amore-pizza",
+  "total_headroom": "null",
+  "non_ec_headroom": "$14,772",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$420",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "cliffordwharton@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "That's Amore Pizza"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/thats-amore-pizza-207-sterling-rd/r-817f8dc4-5c25-40d3-bdfd-479d362386a9"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/thats-amore-pizza-207-sterling-rd/r-817f8dc4-5c25-40d3-bdfd-479d362386a9": {
+      "url": "https://www.toasttab.com/local/order/thats-amore-pizza-207-sterling-rd/r-817f8dc4-5c25-40d3-bdfd-479d362386a9",
+      "html_bytes": 5872,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

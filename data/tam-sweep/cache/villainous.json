@@ -1,0 +1,46 @@
+{
+  "parent": "Villainous Parent",
+  "slug": "villainous",
+  "total_headroom": "$17,112",
+  "non_ec_headroom": "$17,112",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$1,128",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "mitch@geminitwins.org",
+  "location_count": 1,
+  "location_names": [
+    "Villainous"
+  ],
+  "websites": [
+    "https://villainous.club/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://villainous.club/": {
+      "url": "https://villainous.club/",
+      "html_bytes": 114994,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/villainous-191-jefferson-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/villainous-191-jefferson-st/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

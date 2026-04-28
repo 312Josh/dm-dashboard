@@ -1,0 +1,29 @@
+{
+  "parent": "Nick's Restaurant & Lounge Parent",
+  "slug": "nick-s-restaurant-lounge",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "39",
+  "non_ec_arr": "$1,872",
+  "state": "TN",
+  "city": "Cookeville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "nicksrestaurant@frontier.com",
+  "location_count": 1,
+  "location_names": [
+    "Nick's Restaurant & Lounge"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

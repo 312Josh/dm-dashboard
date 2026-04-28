@@ -1,0 +1,121 @@
+{
+  "parent": "Koto Japanese Bistro - Parent Account",
+  "slug": "koto-japanese-bistro",
+  "total_headroom": "$102,000",
+  "non_ec_headroom": "$90,072",
+  "est_ec_headroom": "$11,928",
+  "employee_count": "71",
+  "non_ec_arr": "$15,094",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "andri_tj89@live.com",
+  "location_count": 5,
+  "location_names": [
+    "Omakase Sushi & Sake",
+    "Omakase Sushi & Grill",
+    "Umami Ramen & Grill",
+    "Kyoto Japanese Kitchen",
+    "Koto Japanese Bistro"
+  ],
+  "websites": [
+    "https://kotobistro.com/",
+    "https://www.omakaselex.com/",
+    "https://umamilex.com/",
+    "https://www.kyotojapanesekitchens.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kotobistro.com/": {
+      "url": "https://kotobistro.com/",
+      "html_bytes": 683145,
+      "fingerprints": {
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.7329268888.honorpos.com/"
+      }
+    },
+    "https://www.omakaselex.com/": {
+      "url": "https://www.omakaselex.com/",
+      "html_bytes": 1420927,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.omakaselex.com/menus": {
+      "url": "https://www.omakaselex.com/menus",
+      "html_bytes": 1359751,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.omakaselex.com/reservations": {
+      "url": "https://www.omakaselex.com/reservations",
+      "html_bytes": 926432,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://umamilex.com/": {
+      "url": "https://umamilex.com/",
+      "html_bytes": 154444,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/umami-ramen-and-grill-835-euclid-ave-suite-135",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://umamilex.com/menu/": {
+      "url": "https://umamilex.com/menu/",
+      "html_bytes": 232701,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/umami-ramen-and-grill-835-euclid-ave-suite-135",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.kyotojapanesekitchens.com/": {
+      "url": "https://www.kyotojapanesekitchens.com/",
+      "html_bytes": 43987,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/kyoto-japanese-kitchen-4101-tates-creek-centre-drive",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.7329268888.honorpos.com/",
+    "toast_oo_native": "order.toasttab.com/online/umami-ramen-and-grill-835-euclid-ave-suite-135"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "koto": "https://kotobistro.com/",
+    "omakase": "https://www.omakaselex.com/",
+    "umami": "https://umamilex.com/",
+    "kyoto": "https://www.kyotojapanesekitchens.com/"
+  }
+}

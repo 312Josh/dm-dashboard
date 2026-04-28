@@ -1,0 +1,56 @@
+{
+  "parent": "The Thirsty Turtle Sports Grill Parent",
+  "slug": "the-thirsty-turtle-sports-grill",
+  "total_headroom": "$60,664",
+  "non_ec_headroom": "$53,160",
+  "est_ec_headroom": "$7,504",
+  "employee_count": "45",
+  "non_ec_arr": "$20,184",
+  "state": "TN",
+  "city": "Antioch",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jeag@live.com",
+  "location_count": 3,
+  "location_names": [
+    "The Thirsty Turtle Sports Grill",
+    "Reyes Mexican Grill",
+    "The Waffle Taco"
+  ],
+  "websites": [
+    "https://www.thirstyturtleonline.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thirstyturtleonline.com/": {
+      "url": "https://www.thirstyturtleonline.com/",
+      "html_bytes": 644728,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.ubereats.com/",
+        "toast_loyalty": "toasttab.com/the-thirsty-turtle-sports-grill/rewardsSignup",
+        "toast_oo_whitelabel_confirmed": "order.ubereats.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.ubereats.com/",
+    "toast_loyalty": "toasttab.com/the-thirsty-turtle-sports-grill/rewardsSignup",
+    "toast_oo_whitelabel_confirmed": "order.ubereats.com + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Monique's Homestyle Cooking - Parent Account",
+  "slug": "monique-s-homestyle-cooking",
+  "total_headroom": "$19,320",
+  "non_ec_headroom": "$19,152",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$4,188",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "moniquebuford10@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Monique's Homestyle Cooking"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/moniques-homestyle-cooking-451-ponder-place"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/moniques-homestyle-cooking-451-ponder-place": {
+      "url": "https://www.toasttab.com/local/order/moniques-homestyle-cooking-451-ponder-place",
+      "html_bytes": 5743,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "Nashville Tractor - Parent",
+  "slug": "nashville-tractor",
+  "total_headroom": "$37,644",
+  "non_ec_headroom": "$37,644",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$10,536",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "michael@thefamilybrands.com",
+  "location_count": 2,
+  "location_names": [
+    "NASHVILLE TRACTOR",
+    "Nashville Tractor - Food truck"
+  ],
+  "websites": [
+    "https://thenashvilletractor.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thenashvilletractor.com/": {
+      "url": "https://thenashvilletractor.com/",
+      "html_bytes": 233132,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

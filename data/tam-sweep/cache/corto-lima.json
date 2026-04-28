@@ -1,0 +1,63 @@
+{
+  "parent": "Corto Lima",
+  "slug": "corto-lima",
+  "total_headroom": "$26,492",
+  "non_ec_headroom": "$18,540",
+  "est_ec_headroom": "$7,952",
+  "employee_count": "47",
+  "non_ec_arr": "$4,518",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jonathan@cortolima.com",
+  "location_count": 2,
+  "location_names": [
+    "Corto Lima",
+    "3Ten"
+  ],
+  "websites": [
+    "https://www.cortolima.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cortolima.com/": {
+      "url": "https://www.cortolima.com/",
+      "html_bytes": 761770,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.cortolima.com/menu": {
+      "url": "https://www.cortolima.com/menu",
+      "html_bytes": 1240270,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.cortolima.com/gift-cards": {
+      "url": "https://www.cortolima.com/gift-cards",
+      "html_bytes": 573952,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

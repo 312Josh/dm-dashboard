@@ -1,0 +1,43 @@
+{
+  "parent": "Blondie and Brownie Coffee - Parent Account",
+  "slug": "blondie-and-brownie-coffee",
+  "total_headroom": "$38,376",
+  "non_ec_headroom": "$38,040",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$3,528",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ashleyroyallewillis@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Blondie and Brownie Truck",
+    "Blondie and Brownie Coffee"
+  ],
+  "websites": [
+    "https://www.blondieandbrowniecoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.blondieandbrowniecoffee.com/": {
+      "url": "https://www.blondieandbrowniecoffee.com/",
+      "html_bytes": 53470,
+      "fingerprints": {
+        "pos_other": "Square"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

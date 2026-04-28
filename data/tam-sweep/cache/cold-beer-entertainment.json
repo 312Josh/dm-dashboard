@@ -1,0 +1,42 @@
+{
+  "parent": "Cold Beer Entertainment - Parent",
+  "slug": "cold-beer-entertainment",
+  "total_headroom": "$50,052",
+  "non_ec_headroom": "$40,980",
+  "est_ec_headroom": "$9,072",
+  "employee_count": "54",
+  "non_ec_arr": "$9,384",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "steve@coldbeerentertainment.com",
+  "location_count": 2,
+  "location_names": [
+    "Losers - Midtown",
+    "Blue Parrot - 2025 NEW"
+  ],
+  "websites": [
+    "https://www.coldbeerentertainment.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.coldbeerentertainment.com/": {
+      "url": "https://www.coldbeerentertainment.com/",
+      "html_bytes": 93269,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

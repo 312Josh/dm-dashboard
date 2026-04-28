@@ -1,0 +1,50 @@
+{
+  "parent": "Off The Grill - Parent Account",
+  "slug": "off-the-grill",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$600",
+  "state": "KY",
+  "city": "Fort Campbell",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "eatoffthegrill20@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Off The Grill"
+  ],
+  "websites": [
+    "https://offthegrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://offthegrill.com/": {
+      "url": "https://offthegrill.com/",
+      "html_bytes": 125540,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://offthegrill.com/            /order-online/        ": {
+      "url": "https://offthegrill.com/            /order-online/        ",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://offthegrill.com/menu/": {
+      "url": "https://offthegrill.com/menu/",
+      "html_bytes": 129563,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

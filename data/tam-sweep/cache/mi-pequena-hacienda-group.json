@@ -1,0 +1,54 @@
+{
+  "parent": "Mi Pequena Hacienda Group",
+  "slug": "mi-pequena-hacienda-group",
+  "total_headroom": "$43,480",
+  "non_ec_headroom": "$27,156",
+  "est_ec_headroom": "$16,324",
+  "employee_count": "97",
+  "non_ec_arr": "$20,072",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "juliolorena2005@aol.com",
+  "location_count": 2,
+  "location_names": [
+    "Mi Pequena Hacienda Lansdowne",
+    "Mi Pequena Hacienda- Brannon Crossing"
+  ],
+  "websites": [
+    "https://mipequenahacienda1.netwaiter.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mipequenahacienda1.netwaiter.com/": {
+      "url": "https://mipequenahacienda1.netwaiter.com/",
+      "html_bytes": 38296,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://mipequenahacienda1.netwaiter.com/lexington/order/placeorder/": {
+      "url": "https://mipequenahacienda1.netwaiter.com/lexington/order/placeorder/",
+      "html_bytes": 37840,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://mipequenahacienda1.netwaiter.com/lexington/menu/": {
+      "url": "https://mipequenahacienda1.netwaiter.com/lexington/menu/",
+      "html_bytes": 147271,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

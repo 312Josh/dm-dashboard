@@ -1,0 +1,40 @@
+{
+  "parent": "Ten15 - Parent Account",
+  "slug": "ten15",
+  "total_headroom": "$20,112",
+  "non_ec_headroom": "$20,112",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$5,388",
+  "state": "TN",
+  "city": "Springfield",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "crossalysha0401@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Ten 15 Bar and Grill"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/Ten15-Bar-Grill-61550639982223/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/Ten15-Bar-Grill-61550639982223/": {
+      "url": "https://www.facebook.com/p/Ten15-Bar-Grill-61550639982223/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

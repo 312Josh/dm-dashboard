@@ -1,0 +1,40 @@
+{
+  "parent": "Mi Juanajuato LLC",
+  "slug": "mi-juanajuato-llc",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Gallatin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nperales05@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mi Juanajuato LLC"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/mi-juanajuato-llc-335-west-main-street-suite-k/r-32b8fb92-3b71-4a0d-8c80-c3e93e12fa5f"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/mi-juanajuato-llc-335-west-main-street-suite-k/r-32b8fb92-3b71-4a0d-8c80-c3e93e12fa5f": {
+      "url": "https://www.toasttab.com/local/mi-juanajuato-llc-335-west-main-street-suite-k/r-32b8fb92-3b71-4a0d-8c80-c3e93e12fa5f",
+      "html_bytes": 5893,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

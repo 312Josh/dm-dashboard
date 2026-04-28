@@ -1,0 +1,48 @@
+{
+  "parent": "Rosebud Bar & Silks Lounge - Parent Account",
+  "slug": "rosebud-bar-silks-lounge",
+  "total_headroom": "$22,600",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$1,960",
+  "employee_count": "12",
+  "non_ec_arr": "$900",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "sandybud@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Rosebud Bar & Silks Lounge"
+  ],
+  "websites": [
+    "https://rosebudbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://rosebudbar.com/": {
+      "url": "https://rosebudbar.com/",
+      "html_bytes": 100367,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://rosebudbar.com/menu/": {
+      "url": "https://rosebudbar.com/menu/",
+      "html_bytes": 104659,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

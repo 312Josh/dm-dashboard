@@ -1,0 +1,42 @@
+{
+  "parent": "Bolton's Spicy Chicken & Fish Parent",
+  "slug": "bolton-s-spicy-chicken-fish",
+  "total_headroom": "$16,560",
+  "non_ec_headroom": "$16,560",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$6,384",
+  "state": "TN",
+  "city": "NASHVILLE",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ltjohnson@ofsih.com",
+  "location_count": 1,
+  "location_names": [
+    "Bolton's Spicy Chicken & Fish"
+  ],
+  "websites": [
+    "https://www.boltonsfamous.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.boltonsfamous.com/": {
+      "url": "https://www.boltonsfamous.com/",
+      "html_bytes": 1466,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "parent": "Rylan's Restaurant - Parent",
+  "slug": "rylan-s-restaurant",
+  "total_headroom": "$20,936",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$2,576",
+  "employee_count": "15",
+  "non_ec_arr": "$5,100",
+  "state": "KY",
+  "city": "Franklin",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "rylansrestaurant@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Rylan's Restaurant"
+  ],
+  "websites": [
+    "https://rylansrestaurantky.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://rylansrestaurantky.com/": {
+      "url": "https://rylansrestaurantky.com/",
+      "html_bytes": 147397,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/rylans-restaurant",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/rylans-restaurant",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

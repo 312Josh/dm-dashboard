@@ -1,0 +1,174 @@
+{
+  "parent": "Ouita Michel Group - PARENT",
+  "slug": "ouita-michel-group",
+  "total_headroom": "$137,708",
+  "non_ec_headroom": "$109,092",
+  "est_ec_headroom": "$28,616",
+  "employee_count": "172",
+  "non_ec_arr": "$20,064",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cbamichel@gmail.com",
+  "location_count": 6,
+  "location_names": [
+    "Honeywood",
+    "Holly Hill Inn",
+    "Smithtown Seafood - West 6th",
+    "Windy Corner",
+    "Wallace Station",
+    "Midway Bakery"
+  ],
+  "websites": [
+    "https://www.honeywoodrestaurant.com/",
+    "https://www.hollyhillinn.com/",
+    "https://www.wallacestation.com/",
+    "https://www.windycornermarket.com/",
+    "https://smithtownseafood.com/",
+    "https://www.themidwaybakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.honeywoodrestaurant.com/": {
+      "url": "https://www.honeywoodrestaurant.com/",
+      "html_bytes": 113237,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/honeywood-110-summit-at-fritz-farm-140",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.honeywoodrestaurant.com/reservations": {
+      "url": "https://www.honeywoodrestaurant.com/reservations",
+      "html_bytes": 74036,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.hollyhillinn.com/": {
+      "url": "https://www.hollyhillinn.com/",
+      "html_bytes": 253879,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.hollyhillinn.com/reservations": {
+      "url": "https://www.hollyhillinn.com/reservations",
+      "html_bytes": 218869,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.wallacestation.com/": {
+      "url": "https://www.wallacestation.com/",
+      "html_bytes": 306913,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.windycornermarket.com/": {
+      "url": "https://www.windycornermarket.com/",
+      "html_bytes": 104031,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.windycornermarket.com/menus": {
+      "url": "https://www.windycornermarket.com/menus",
+      "html_bytes": 81584,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://smithtownseafood.com/": {
+      "url": "https://smithtownseafood.com/",
+      "html_bytes": 114461,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://smithtownseafood.com/menu-index": {
+      "url": "https://smithtownseafood.com/menu-index",
+      "html_bytes": 139133,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://smithtownseafood.com/gift-cards": {
+      "url": "https://smithtownseafood.com/gift-cards",
+      "html_bytes": 90525,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.themidwaybakery.com/": {
+      "url": "https://www.themidwaybakery.com/",
+      "html_bytes": 158113,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "loyalty": "Belly"
+      },
+      "toast": {}
+    },
+    "https://www.themidwaybakery.com/order-for-pickup": {
+      "url": "https://www.themidwaybakery.com/order-for-pickup",
+      "html_bytes": 90430,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/honeywood-110-summit-at-fritz-farm-140",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "honeywood": "https://www.honeywoodrestaurant.com/",
+    "holly hill": "https://www.hollyhillinn.com/",
+    "wallace": "https://www.wallacestation.com/",
+    "windy": "https://www.windycornermarket.com/",
+    "smithtown": "https://smithtownseafood.com/",
+    "midway": "https://www.themidwaybakery.com/"
+  }
+}

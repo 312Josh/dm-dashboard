@@ -1,0 +1,38 @@
+{
+  "parent": "K Sweets Delights",
+  "slug": "k-sweets-delights",
+  "total_headroom": "$14,820",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Unknown",
+  "contact_email": "ksweetsdelights@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "K Sweets Delights"
+  ],
+  "websites": [
+    "https://www.ksweetsdelights.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ksweetsdelights.com/": {
+      "url": "https://www.ksweetsdelights.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

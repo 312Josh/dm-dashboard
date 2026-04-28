@@ -1,0 +1,60 @@
+{
+  "parent": "Cafe Babu - Parent Account",
+  "slug": "cafe-babu",
+  "total_headroom": "$17,820",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$3,588",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "shivani@cafebabu.com",
+  "location_count": 1,
+  "location_names": [
+    "Cafe Babu"
+  ],
+  "websites": [
+    "https://www.cafebabu.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cafebabu.com/": {
+      "url": "https://www.cafebabu.com/",
+      "html_bytes": 78337,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-cafe-1044-3rd-aves/giftcards"
+      }
+    },
+    "https://www.cafebabu.com/menu": {
+      "url": "https://www.cafebabu.com/menu",
+      "html_bytes": 76965,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-cafe-1044-3rd-aves/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-cafe-1044-3rd-aves/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

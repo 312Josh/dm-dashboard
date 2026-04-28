@@ -1,0 +1,42 @@
+{
+  "parent": "Frenchy’s Pizza",
+  "slug": "frenchy-s-pizza",
+  "total_headroom": "$18,108",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "miller.andrew@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Frenchy’s Pizza"
+  ],
+  "websites": [
+    "https://www.frenchyspizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.frenchyspizza.com/": {
+      "url": "https://www.frenchyspizza.com/",
+      "html_bytes": 442267,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

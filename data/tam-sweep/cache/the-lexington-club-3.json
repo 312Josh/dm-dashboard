@@ -1,0 +1,40 @@
+{
+  "parent": "The Lexington Club 3",
+  "slug": "the-lexington-club-3",
+  "total_headroom": "$21,800",
+  "non_ec_headroom": "$18,552",
+  "est_ec_headroom": "$3,248",
+  "employee_count": "19",
+  "non_ec_arr": "$5,964",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gerrese@thelexingtonclub.net",
+  "location_count": 1,
+  "location_names": [
+    "The Lexington Club 3"
+  ],
+  "websites": [
+    "https://thelexingtonclub.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thelexingtonclub.net/": {
+      "url": "https://thelexingtonclub.net/",
+      "html_bytes": 61286,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Street Brothers Seafood Parent",
+  "slug": "street-brothers-seafood",
+  "total_headroom": "$16,524",
+  "non_ec_headroom": "$16,272",
+  "est_ec_headroom": "$252",
+  "employee_count": "2",
+  "non_ec_arr": "$6,162",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "itrungbui@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Street Brothers Seafood"
+  ],
+  "websites": [
+    "https://streetbrothersseafoodtn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://streetbrothersseafoodtn.com/": {
+      "url": "https://streetbrothersseafoodtn.com/",
+      "html_bytes": 14523,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

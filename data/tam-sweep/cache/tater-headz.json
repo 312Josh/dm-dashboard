@@ -1,0 +1,54 @@
+{
+  "parent": "Tater Headz - Parent Account",
+  "slug": "tater-headz",
+  "total_headroom": "$34,740",
+  "non_ec_headroom": "$34,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$10,896",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "taterheadz931@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Tater Headz Food Truck",
+    "Tater Headz"
+  ],
+  "websites": [
+    "https://tater-headz.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tater-headz.com/": {
+      "url": "https://tater-headz.com/",
+      "html_bytes": 72241,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tater-headz-1709-fort-campbell",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/tater-headz-1709-fort-campbell",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

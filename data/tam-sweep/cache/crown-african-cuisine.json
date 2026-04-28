@@ -1,0 +1,41 @@
+{
+  "parent": "Crown African Cuisine",
+  "slug": "crown-african-cuisine",
+  "total_headroom": "$15,900",
+  "non_ec_headroom": "$15,732",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Unknown",
+  "contact_email": "dianaqurcoo2025@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Crown African Cuisine"
+  ],
+  "websites": [
+    "https://www.thecrownafricancuisine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thecrownafricancuisine.com/": {
+      "url": "https://www.thecrownafricancuisine.com/",
+      "html_bytes": 76349,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

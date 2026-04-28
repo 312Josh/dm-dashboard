@@ -1,0 +1,62 @@
+{
+  "parent": "Cledis - Parent Account",
+  "slug": "cledis",
+  "total_headroom": "$50,484",
+  "non_ec_headroom": "$50,484",
+  "est_ec_headroom": "$0",
+  "employee_count": "74",
+  "non_ec_arr": "$21,715",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "shane@cledis.com",
+  "location_count": 3,
+  "location_names": [
+    "Cledis",
+    "Cledis Bellevue",
+    "Cledis - Gulch"
+  ],
+  "websites": [
+    "https://www.cledis.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cledis.com/": {
+      "url": "https://www.cledis.com/",
+      "html_bytes": 161860,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cledis-gulch-719-8th-avenue-south",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.cledis.com/order-online": {
+      "url": "https://www.cledis.com/order-online",
+      "html_bytes": 5721,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/cledis-gulch-719-8th-avenue-south",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "Bowlmade Pembroke Parent Account",
+  "slug": "bowlmade-pembroke",
+  "total_headroom": "$20,888",
+  "non_ec_headroom": "$17,640",
+  "est_ec_headroom": "$3,248",
+  "employee_count": "19",
+  "non_ec_arr": "$3,312",
+  "state": "FL",
+  "city": "Pembroke Pines",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "wolverinemanage@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Unit B Eatery and Spirits - Unit B Pembroke Pines"
+  ],
+  "websites": [
+    "https://unitbpines.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://unitbpines.com/": {
+      "url": "https://unitbpines.com/",
+      "html_bytes": 133732,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://unitbpines.com/menus": {
+      "url": "https://unitbpines.com/menus",
+      "html_bytes": 378207,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

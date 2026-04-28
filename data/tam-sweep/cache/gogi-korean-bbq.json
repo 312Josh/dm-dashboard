@@ -1,0 +1,56 @@
+{
+  "parent": "Gogi Korean BBQ - Parent Account",
+  "slug": "gogi-korean-bbq",
+  "total_headroom": "$18,600",
+  "non_ec_headroom": "$17,172",
+  "est_ec_headroom": "$1,428",
+  "employee_count": "9",
+  "non_ec_arr": "$9,000",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gogikbbqmurf@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Arisu Korean BBQ & Tofu"
+  ],
+  "websites": [
+    "https://book.toasttab.com/restaurants/gogi-korean-bbq-1855-medical-center-pkwy-suite-a"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://book.toasttab.com/restaurants/gogi-korean-bbq-1855-medical-center-pkwy-suite-a": {
+      "url": "https://book.toasttab.com/restaurants/gogi-korean-bbq-1855-medical-center-pkwy-suite-a",
+      "html_bytes": 104214,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://book.toasttab.com/r/gogi-korean-bbq-1855-medical-center-pkwy-suite-a": {
+      "url": "https://book.toasttab.com/r/gogi-korean-bbq-1855-medical-center-pkwy-suite-a",
+      "html_bytes": 104214,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

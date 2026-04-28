@@ -1,0 +1,41 @@
+{
+  "parent": "Dominic's Bar & Grill - Parent Account",
+  "slug": "dominic-s-bar-grill",
+  "total_headroom": "$19,260",
+  "non_ec_headroom": "$19,260",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$4,140",
+  "state": "TN",
+  "city": "Hermitage",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "dominicsnashville@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Dominic's Bar & Grill"
+  ],
+  "websites": [
+    "https://dominics-bar-grill.foodjoyy.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dominics-bar-grill.foodjoyy.com/": {
+      "url": "https://dominics-bar-grill.foodjoyy.com/",
+      "html_bytes": 5550,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

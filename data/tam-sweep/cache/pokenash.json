@@ -1,0 +1,71 @@
+{
+  "parent": "Pokenash - Parent Account",
+  "slug": "pokenash",
+  "total_headroom": "$35,396",
+  "non_ec_headroom": "$33,660",
+  "est_ec_headroom": "$1,736",
+  "employee_count": "11",
+  "non_ec_arr": "$9,660",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "Unknown",
+  "contact_email": "pokenash615@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Pokenash",
+    "Pokenash Nashville"
+  ],
+  "websites": [
+    "https://pokenash.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pokenash.com/": {
+      "url": "https://pokenash.com/",
+      "html_bytes": 136554,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pokenash-nashville-4101-charlotte-avenue",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/pokenash-206-indian-lake-blvd-suite-5/giftcards"
+      }
+    },
+    "https://pokenash.com/menu": {
+      "url": "https://pokenash.com/menu",
+      "html_bytes": 85830,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pokenash-nashville-4101-charlotte-avenue",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/pokenash-206-indian-lake-blvd-suite-5/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/pokenash-nashville-4101-charlotte-avenue",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/pokenash-206-indian-lake-blvd-suite-5/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

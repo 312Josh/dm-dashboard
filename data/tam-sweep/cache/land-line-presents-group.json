@@ -1,0 +1,38 @@
+{
+  "parent": "Land Line Presents Group",
+  "slug": "land-line-presents-group",
+  "total_headroom": "$21,136",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$196",
+  "employee_count": "1",
+  "non_ec_arr": "$972",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Unknown",
+  "contact_email": "cannon@theburlky.com",
+  "location_count": 1,
+  "location_names": [
+    "Land Line Presents"
+  ],
+  "websites": [
+    "https://www.landlinepresents.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.landlinepresents.com/": {
+      "url": "https://www.landlinepresents.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

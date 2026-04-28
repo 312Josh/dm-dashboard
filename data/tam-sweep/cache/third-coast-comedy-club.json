@@ -1,0 +1,50 @@
+{
+  "parent": "Third Coast Comedy Club - Parent Account",
+  "slug": "third-coast-comedy-club",
+  "total_headroom": "$16,632",
+  "non_ec_headroom": "$16,632",
+  "est_ec_headroom": "$0",
+  "employee_count": "15",
+  "non_ec_arr": "$4,121",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "luke@thirdcoastcomedyclub.com",
+  "location_count": 1,
+  "location_names": [
+    "Third Coast Comedy Club"
+  ],
+  "websites": [
+    "https://www.thirdcoastcomedy.club/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thirdcoastcomedy.club/": {
+      "url": "https://www.thirdcoastcomedy.club/",
+      "html_bytes": 804672,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.thirdcoastcomedy.club/gift-cards": {
+      "url": "https://www.thirdcoastcomedy.club/gift-cards",
+      "html_bytes": 802033,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

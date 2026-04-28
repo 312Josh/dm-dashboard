@@ -1,0 +1,40 @@
+{
+  "parent": "Station Grill - Parent Account",
+  "slug": "station-grill",
+  "total_headroom": "$23,236",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$2,296",
+  "employee_count": "14",
+  "non_ec_arr": "$2,220",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "management@stationgrill.comcastbiz.net",
+  "location_count": 1,
+  "location_names": [
+    "Station Grill"
+  ],
+  "websites": [
+    "https://www.facebook.com/stationgrilltn/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/stationgrilltn/": {
+      "url": "https://www.facebook.com/stationgrilltn/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

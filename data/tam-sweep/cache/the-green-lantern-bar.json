@@ -1,0 +1,38 @@
+{
+  "parent": "The Green Lantern Bar",
+  "slug": "the-green-lantern-bar",
+  "total_headroom": "$21,276",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$600",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "rgarrison.lex@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Green Lantern Bar"
+  ],
+  "websites": [
+    "https://www.facebook.com/greenlanternbarlex/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/greenlanternbarlex/": {
+      "url": "https://www.facebook.com/greenlanternbarlex/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

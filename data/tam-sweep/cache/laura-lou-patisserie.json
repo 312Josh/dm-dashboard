@@ -1,0 +1,41 @@
+{
+  "parent": "Laura Lou Patisserie Parent",
+  "slug": "laura-lou-patisserie",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "laura@lauraloupastry.com",
+  "location_count": 1,
+  "location_names": [
+    "Laura Lou Patisserie"
+  ],
+  "websites": [
+    "https://www.instagram.com/lauraloupastry/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.instagram.com/lauraloupastry/": {
+      "url": "https://www.instagram.com/lauraloupastry/",
+      "html_bytes": 801345,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

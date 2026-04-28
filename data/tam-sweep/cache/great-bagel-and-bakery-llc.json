@@ -1,0 +1,70 @@
+{
+  "parent": "Great Bagel and Bakery LLC",
+  "slug": "great-bagel-and-bakery-llc",
+  "total_headroom": "$71,940",
+  "non_ec_headroom": "$71,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "29",
+  "non_ec_arr": "$12,720",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "robert@eatsrg.com",
+  "location_count": 4,
+  "location_names": [
+    "Great Bagel and Bakery - Boston Rd",
+    "Great Bagel & Bakery - Boston Rd Catering",
+    "Great Bagel and Bakery",
+    "Great Bagel & Bakery - Middletown"
+  ],
+  "websites": [
+    "https://eatgreatbagel.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eatgreatbagel.com/": {
+      "url": "https://eatgreatbagel.com/",
+      "html_bytes": 135539,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/great-bagel-and-bakery-boston-rd/giftcards",
+        "toast_loyalty": "toasttab.com/great-bagel-and-bakery/rewardsSignup"
+      }
+    },
+    "https://eatgreatbagel.com/menus/": {
+      "url": "https://eatgreatbagel.com/menus/",
+      "html_bytes": 223221,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/great-bagel-and-bakery-boston-rd/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/great-bagel-and-bakery-boston-rd/giftcards",
+    "toast_loyalty": "toasttab.com/great-bagel-and-bakery/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

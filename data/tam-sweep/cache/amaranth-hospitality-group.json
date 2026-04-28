@@ -1,0 +1,46 @@
+{
+  "parent": "Amaranth Hospitality Group",
+  "slug": "amaranth-hospitality-group",
+  "total_headroom": "$60,564",
+  "non_ec_headroom": "$60,564",
+  "est_ec_headroom": "$0",
+  "employee_count": "117",
+  "non_ec_arr": "$34,884",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "terry@amaranthhospitality.com",
+  "location_count": 4,
+  "location_names": [
+    "Liberty Common",
+    "Cherries",
+    "Mercado",
+    "ButcherTown Hall"
+  ],
+  "websites": [
+    "https://www.amaranthhospitality.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.amaranthhospitality.com/": {
+      "url": "https://www.amaranthhospitality.com/",
+      "html_bytes": 114366,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

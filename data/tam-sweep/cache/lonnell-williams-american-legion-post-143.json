@@ -1,0 +1,40 @@
+{
+  "parent": "Lonnell Williams American Legion Post 143",
+  "slug": "lonnell-williams-american-legion-post-143",
+  "total_headroom": "$14,940",
+  "non_ec_headroom": "$14,772",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Unknown",
+  "contact_email": "drdwatson@proton.me",
+  "location_count": 1,
+  "location_names": [
+    "Lonnell Williams American Legion Post 143"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/lonnell-williams-american-legion-post-143-223-9th-st"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/lonnell-williams-american-legion-post-143-223-9th-st": {
+      "url": "https://www.toasttab.com/local/order/lonnell-williams-american-legion-post-143-223-9th-st",
+      "html_bytes": 5791,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

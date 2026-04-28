@@ -1,0 +1,51 @@
+{
+  "parent": "Galvin's",
+  "slug": "galvin-s",
+  "total_headroom": "$31,728",
+  "non_ec_headroom": "$18,540",
+  "est_ec_headroom": "$13,188",
+  "employee_count": "79",
+  "non_ec_arr": "$5,004",
+  "state": "KY",
+  "city": "Georgetown",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "dan@galvinsonmain.com",
+  "location_count": 1,
+  "location_names": [
+    "Galvin's"
+  ],
+  "websites": [
+    "https://www.galvinsonmain.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.galvinsonmain.com/": {
+      "url": "https://www.galvinsonmain.com/",
+      "html_bytes": 753933,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.galvinsonmain.com/menu": {
+      "url": "https://www.galvinsonmain.com/menu",
+      "html_bytes": 1156953,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

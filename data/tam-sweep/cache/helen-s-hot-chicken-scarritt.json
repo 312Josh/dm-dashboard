@@ -1,0 +1,54 @@
+{
+  "parent": "Helen's Hot Chicken - Scarritt",
+  "slug": "helen-s-hot-chicken-scarritt",
+  "total_headroom": "$20,808",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,260",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Unknown",
+  "contact_email": "russellreadus@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Helen's Hot Chicken - Scarritt"
+  ],
+  "websites": [
+    "https://www.helensnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.helensnashville.com/": {
+      "url": "https://www.helensnashville.com/",
+      "html_bytes": 94664,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.helensnashville.com/menu": {
+      "url": "https://www.helensnashville.com/menu",
+      "html_bytes": 787,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.helensnashville.com/order": {
+      "url": "https://www.helensnashville.com/order",
+      "html_bytes": 787,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

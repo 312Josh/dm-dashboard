@@ -1,0 +1,63 @@
+{
+  "parent": "Egg Drip - Parent Account",
+  "slug": "egg-drip",
+  "total_headroom": "$20,424",
+  "non_ec_headroom": "$19,080",
+  "est_ec_headroom": "$1,344",
+  "employee_count": "8",
+  "non_ec_arr": "$2,640",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "hello@eggdrip.co",
+  "location_count": 1,
+  "location_names": [
+    "Egg Drip"
+  ],
+  "websites": [
+    "https://www.eggdrip.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eggdrip.co/": {
+      "url": "https://www.eggdrip.co/",
+      "html_bytes": 349781,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.eggdrip.co/menu": {
+      "url": "https://www.eggdrip.co/menu",
+      "html_bytes": 305158,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.eggdrip.co/order-online": {
+      "url": "https://www.eggdrip.co/order-online",
+      "html_bytes": 233473,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

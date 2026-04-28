@@ -1,0 +1,38 @@
+{
+  "parent": "Strong Kitchen Parent",
+  "slug": "strong-kitchen",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Cookeville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "strong.catering@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Strong Kitchen"
+  ],
+  "websites": [
+    "https://www.facebook.com/strongcatering/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/strongcatering/": {
+      "url": "https://www.facebook.com/strongcatering/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

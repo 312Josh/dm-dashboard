@@ -1,0 +1,60 @@
+{
+  "parent": "Spencer Wakefield Group",
+  "slug": "spencer-wakefield-group",
+  "total_headroom": "$31,932",
+  "non_ec_headroom": "$31,932",
+  "est_ec_headroom": "$0",
+  "employee_count": "50",
+  "non_ec_arr": "$11,527",
+  "state": "TN",
+  "city": "Gallatin",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "seelhorstjl@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "The Chocolate Covered Strawberry",
+    "Prince Street Pizza and Pub"
+  ],
+  "websites": [
+    "https://princestreetpizzaandpub.com/",
+    "https://www.linkedin.com/in/spencerwakefield/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://princestreetpizzaandpub.com/": {
+      "url": "https://princestreetpizzaandpub.com/",
+      "html_bytes": 179993,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/prince",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.linkedin.com/in/spencerwakefield/": {
+      "url": "https://www.linkedin.com/in/spencerwakefield/",
+      "html_bytes": 1530,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/prince",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "prince street": "https://princestreetpizzaandpub.com/",
+    "chocolate": "https://www.linkedin.com/in/spencerwakefield/"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "parent": "Piggy's Place",
+  "slug": "piggy-s-place",
+  "total_headroom": "$22,364",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$2,324",
+  "employee_count": "14",
+  "non_ec_arr": "$1,200",
+  "state": "TN",
+  "city": "Tullahoma",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "piggysplacebbq@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Piggy's Place"
+  ],
+  "websites": [
+    "https://www.piggysplacebbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.piggysplacebbq.com/": {
+      "url": "https://www.piggysplacebbq.com/",
+      "html_bytes": 212573,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.piggysplacebbq.com/menu": {
+      "url": "https://www.piggysplacebbq.com/menu",
+      "html_bytes": 248403,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

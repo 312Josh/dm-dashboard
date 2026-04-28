@@ -1,0 +1,40 @@
+{
+  "parent": "Al's Bar Parent",
+  "slug": "al-s-bar",
+  "total_headroom": "$21,948",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,008",
+  "employee_count": "6",
+  "non_ec_arr": "$480",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "roadsodallc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Al's Bar"
+  ],
+  "websites": [
+    "http://www.alsbarlexington.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.alsbarlexington.com/": {
+      "url": "http://www.alsbarlexington.com/",
+      "html_bytes": 2999,
+      "fingerprints": {
+        "website_cms": "Squarespace"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "Roasted - Parent Account",
+  "slug": "roasted",
+  "total_headroom": "$15,384",
+  "non_ec_headroom": "$15,384",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$7,356",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "erickafizer@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Roasted"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

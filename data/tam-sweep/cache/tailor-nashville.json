@@ -1,0 +1,79 @@
+{
+  "parent": "Tailor Nashville Parent",
+  "slug": "tailor-nashville",
+  "total_headroom": "$19,212",
+  "non_ec_headroom": "$19,212",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$2,927",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "vivek@tailornashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Tailor Nashville"
+  ],
+  "websites": [
+    "https://www.tailornashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tailornashville.com/": {
+      "url": "https://www.tailornashville.com/",
+      "html_bytes": 97148,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/tailor-nashville/giftcards"
+      }
+    },
+    "https://www.tailornashville.com/reservations": {
+      "url": "https://www.tailornashville.com/reservations",
+      "html_bytes": 84249,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/tailor-nashville/giftcards"
+      }
+    },
+    "https://www.tailornashville.com/menu": {
+      "url": "https://www.tailornashville.com/menu",
+      "html_bytes": 93313,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/tailor-nashville/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/tailor-nashville/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

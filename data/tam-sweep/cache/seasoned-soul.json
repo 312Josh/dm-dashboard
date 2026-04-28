@@ -1,0 +1,40 @@
+{
+  "parent": "Seasoned soul",
+  "slug": "seasoned-soul",
+  "total_headroom": "null",
+  "non_ec_headroom": "$15,732",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Alamo",
+  "restaurant_type": "Unknown",
+  "contact_email": "august_tyrese@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Seasoned soul"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/seasoned-soul-3625-manson-pike-6208"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/seasoned-soul-3625-manson-pike-6208": {
+      "url": "https://www.toasttab.com/local/order/seasoned-soul-3625-manson-pike-6208",
+      "html_bytes": 5697,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

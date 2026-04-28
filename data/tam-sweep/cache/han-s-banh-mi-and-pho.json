@@ -1,0 +1,44 @@
+{
+  "parent": "Han's Banh Mi and Pho - Parent",
+  "slug": "han-s-banh-mi-and-pho",
+  "total_headroom": "$17,476",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$1,624",
+  "employee_count": "10",
+  "non_ec_arr": "$13,584",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "jamestruong4352@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Viet Tea Cafe"
+  ],
+  "websites": [
+    "https://www.hansvndeli.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hansvndeli.com/": {
+      "url": "https://www.hansvndeli.com/",
+      "html_bytes": 48371,
+      "fingerprints": {
+        "pos_other": "Square"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

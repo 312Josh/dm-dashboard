@@ -1,0 +1,178 @@
+{
+  "parent": "Icon Entertainment - Parent Account",
+  "slug": "icon-entertainment",
+  "total_headroom": "$110,412",
+  "non_ec_headroom": "$110,412",
+  "est_ec_headroom": "$0",
+  "employee_count": "278",
+  "non_ec_arr": "$38,028",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "bill@iconentertainment.com",
+  "location_count": 6,
+  "location_names": [
+    "Skull's Rainbow Room",
+    "Schulman's",
+    "The Southern Turf Club",
+    "House of Cards",
+    "Nudie's Honky Tonk",
+    "Sinatra Bar & Lounge"
+  ],
+  "websites": [
+    "https://www.nudieshonkytonk.com/",
+    "https://www.skullsrainbowroom.com/",
+    "https://www.sinatranashville.com/",
+    "https://www.schulmansbar.com/",
+    "https://www.hocnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.nudieshonkytonk.com/": {
+      "url": "https://www.nudieshonkytonk.com/",
+      "html_bytes": 1022823,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.skullsrainbowroom.com/": {
+      "url": "https://www.skullsrainbowroom.com/",
+      "html_bytes": 473555,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.skullsrainbowroom.com/reservations": {
+      "url": "https://www.skullsrainbowroom.com/reservations",
+      "html_bytes": 472078,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.skullsrainbowroom.com/menu": {
+      "url": "https://www.skullsrainbowroom.com/menu",
+      "html_bytes": 465075,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.skullsrainbowroom.com/loyaltyprogram": {
+      "url": "https://www.skullsrainbowroom.com/loyaltyprogram",
+      "html_bytes": 534518,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.sinatranashville.com/": {
+      "url": "https://www.sinatranashville.com/",
+      "html_bytes": 486335,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.sinatranashville.com/menu": {
+      "url": "https://www.sinatranashville.com/menu",
+      "html_bytes": 423658,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.sinatranashville.com/loyaltyprogram": {
+      "url": "https://www.sinatranashville.com/loyaltyprogram",
+      "html_bytes": 502229,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.schulmansbar.com/": {
+      "url": "https://www.schulmansbar.com/",
+      "html_bytes": 569638,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.hocnashville.com/": {
+      "url": "https://www.hocnashville.com/",
+      "html_bytes": 485790,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.hocnashville.com/reservations": {
+      "url": "https://www.hocnashville.com/reservations",
+      "html_bytes": 459570,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.hocnashville.com/menu": {
+      "url": "https://www.hocnashville.com/menu",
+      "html_bytes": 422896,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.hocnashville.com/loyaltyprogram": {
+      "url": "https://www.hocnashville.com/loyaltyprogram",
+      "html_bytes": 488219,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "nudie": "https://www.nudieshonkytonk.com/",
+    "skull": "https://www.skullsrainbowroom.com/",
+    "sinatra": "https://www.sinatranashville.com/",
+    "schulman": "https://www.schulmansbar.com/",
+    "house of cards": "https://www.hocnashville.com/"
+  }
+}

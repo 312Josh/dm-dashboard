@@ -1,0 +1,86 @@
+{
+  "parent": "Tandem Hospitality Group",
+  "slug": "tandem-hospitality-group",
+  "total_headroom": "$181,296",
+  "non_ec_headroom": "$168,612",
+  "est_ec_headroom": "$12,684",
+  "employee_count": "76",
+  "non_ec_arr": "$44,780",
+  "state": "CO",
+  "city": "Westminster",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "ike@thethrashgroup.com",
+  "location_count": 9,
+  "location_names": [
+    "Famille Westminster",
+    "Nomad Taqueria and Beer Garden",
+    "33 Staves - Origin Hotel Lexington",
+    "Passe Baton Rouge",
+    "Blue Lacy - Origin Austin",
+    "Show Pony at The Origin Hotel Kansas City",
+    "The Social Capital - Atlanta",
+    "Two Birds One Stone",
+    "Anvil & Ax"
+  ],
+  "websites": [
+    "https://www.famillewestminster.com/",
+    "https://www.tandemhospitalitygroup.com/",
+    "https://www.originhotel.com/hotels/lexington/dining"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.famillewestminster.com/": {
+      "url": "https://www.famillewestminster.com/",
+      "html_bytes": 44789,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.famillewestminster.com/menus/": {
+      "url": "https://www.famillewestminster.com/menus/",
+      "html_bytes": 99892,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.tandemhospitalitygroup.com/": {
+      "url": "https://www.tandemhospitalitygroup.com/",
+      "html_bytes": 133206,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.originhotel.com/hotels/lexington/dining": {
+      "url": "https://www.originhotel.com/hotels/lexington/dining",
+      "html_bytes": 89641,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "famille": "https://www.famillewestminster.com/",
+    "passe baton": "https://www.tandemhospitalitygroup.com/",
+    "blue lacy": "https://www.tandemhospitalitygroup.com/",
+    "nomad taqueria": "https://www.tandemhospitalitygroup.com/",
+    "social capital": "https://www.tandemhospitalitygroup.com/",
+    "show pony": "https://www.tandemhospitalitygroup.com/",
+    "anvil": "https://www.tandemhospitalitygroup.com/",
+    "33 staves": "https://www.originhotel.com/hotels/lexington/dining",
+    "two birds": "https://www.tandemhospitalitygroup.com/"
+  }
+}

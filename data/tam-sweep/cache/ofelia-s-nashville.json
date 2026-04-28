@@ -1,0 +1,43 @@
+{
+  "parent": "Ofelia's Nashville - Parent Account",
+  "slug": "ofelia-s-nashville",
+  "total_headroom": "$15,852",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$3,498",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "max@ofelianashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Ofelia Nashville"
+  ],
+  "websites": [
+    "https://ofelianashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ofelianashville.com/": {
+      "url": "https://ofelianashville.com/",
+      "html_bytes": 5538,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

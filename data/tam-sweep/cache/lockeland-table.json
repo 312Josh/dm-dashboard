@@ -1,0 +1,77 @@
+{
+  "parent": "Lockeland Table - Parent Account",
+  "slug": "lockeland-table",
+  "total_headroom": "$13,332",
+  "non_ec_headroom": "$13,332",
+  "est_ec_headroom": "$0",
+  "employee_count": "34",
+  "non_ec_arr": "$7,085",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cara@lockelandtable.com",
+  "location_count": 1,
+  "location_names": [
+    "Lockeland Table"
+  ],
+  "websites": [
+    "https://www.lockelandtable.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lockelandtable.com/": {
+      "url": "https://www.lockelandtable.com/",
+      "html_bytes": 166177,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lockeland-table-1520-woodland-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.lockelandtable.com/menu": {
+      "url": "https://www.lockelandtable.com/menu",
+      "html_bytes": 121244,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lockeland-table-1520-woodland-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.lockelandtable.com/menus": {
+      "url": "https://www.lockelandtable.com/menus",
+      "html_bytes": 121244,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lockeland-table-1520-woodland-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/lockeland-table-1520-woodland-st",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "resy",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "Kalye Kingston - Parent Account",
+  "slug": "kalye-kingston",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,580",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$1,200",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "i.andam@icloud.com",
+  "location_count": 1,
+  "location_names": [
+    "Kalye Kingston"
+  ],
+  "websites": [
+    "https://kalyekingston.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kalyekingston.com/": {
+      "url": "https://kalyekingston.com/",
+      "html_bytes": 153648,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

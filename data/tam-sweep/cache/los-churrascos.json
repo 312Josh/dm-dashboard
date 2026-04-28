@@ -1,0 +1,41 @@
+{
+  "parent": "Los Churrascos",
+  "slug": "los-churrascos",
+  "total_headroom": "$20,208",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,686",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "el.chivo7@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Los Churrascos"
+  ],
+  "websites": [
+    "https://www.facebook.com/LosChurrascosRestaurant/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/LosChurrascosRestaurant/": {
+      "url": "https://www.facebook.com/LosChurrascosRestaurant/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

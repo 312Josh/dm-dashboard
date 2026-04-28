@@ -1,0 +1,59 @@
+{
+  "parent": "TNT/ Smyrna Sports Pub- Parent",
+  "slug": "tnt-smyrna-sports-pub",
+  "total_headroom": "$36,504",
+  "non_ec_headroom": "$30,624",
+  "est_ec_headroom": "$5,880",
+  "employee_count": "35",
+  "non_ec_arr": "$10,440",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "two222@bellsouth.net",
+  "location_count": 2,
+  "location_names": [
+    "TNTs Billiards Bar & Grill",
+    "Smyrna Sports Pub"
+  ],
+  "websites": [
+    "https://smyrnasportspub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://smyrnasportspub.com/": {
+      "url": "https://smyrnasportspub.com/",
+      "html_bytes": 75791,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/smyrna-sports-pub-555-s-lowry-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://smyrnasportspub.com/menu": {
+      "url": "https://smyrnasportspub.com/menu",
+      "html_bytes": 65038,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/smyrna-sports-pub-555-s-lowry-st",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

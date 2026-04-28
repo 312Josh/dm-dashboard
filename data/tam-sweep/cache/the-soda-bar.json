@@ -1,0 +1,48 @@
+{
+  "parent": "The Soda Bar - Parent",
+  "slug": "the-soda-bar",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "-$3",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "sherri@hearthstone.net",
+  "location_count": 1,
+  "location_names": [
+    "Winterfest Ice Rink"
+  ],
+  "websites": [
+    "https://sodabarmurfreesboro.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sodabarmurfreesboro.com/": {
+      "url": "https://sodabarmurfreesboro.com/",
+      "html_bytes": 121657,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sodabar/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/sodabar/giftcards"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

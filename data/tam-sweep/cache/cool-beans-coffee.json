@@ -1,0 +1,59 @@
+{
+  "parent": "Cool Beans Coffee - Parent",
+  "slug": "cool-beans-coffee",
+  "total_headroom": "$38,448",
+  "non_ec_headroom": "$35,760",
+  "est_ec_headroom": "$2,688",
+  "employee_count": "16",
+  "non_ec_arr": "$4,548",
+  "state": "TN",
+  "city": "Smyrna",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "jwoy2k@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Cool Beans Coffee Smyrna",
+    "Cool Beans Coffee Food Truck"
+  ],
+  "websites": [
+    "https://www.thecoolbeansco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thecoolbeansco.com/": {
+      "url": "https://www.thecoolbeansco.com/",
+      "html_bytes": 540345,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.thecoolbeansco.com/menu": {
+      "url": "https://www.thecoolbeansco.com/menu",
+      "html_bytes": 474912,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.thecoolbeansco.com/booking": {
+      "url": "https://www.thecoolbeansco.com/booking",
+      "html_bytes": 503002,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

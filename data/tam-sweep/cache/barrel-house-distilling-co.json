@@ -1,0 +1,40 @@
+{
+  "parent": "Barrel House Distilling Co. Parent",
+  "slug": "barrel-house-distilling-co",
+  "total_headroom": "$16,452",
+  "non_ec_headroom": "$16,452",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$7,548",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "pdwrightmd@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Elkhorn Tavern"
+  ],
+  "websites": [
+    "https://barrelhousedistillery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://barrelhousedistillery.com/": {
+      "url": "https://barrelhousedistillery.com/",
+      "html_bytes": 148121,
+      "fingerprints": {
+        "website_cms": "SpotHopper"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

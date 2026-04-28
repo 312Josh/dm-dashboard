@@ -1,0 +1,80 @@
+{
+  "parent": "Nashville Underground Parent",
+  "slug": "nashville-underground",
+  "total_headroom": "$31,896",
+  "non_ec_headroom": "$31,896",
+  "est_ec_headroom": "$0",
+  "employee_count": "71",
+  "non_ec_arr": "$47,420",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "joey@nashunderground.com",
+  "location_count": 2,
+  "location_names": [
+    "Nashville Underground",
+    "Open Range"
+  ],
+  "websites": [
+    "https://www.nashunderground.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.nashunderground.com/": {
+      "url": "https://www.nashunderground.com/",
+      "html_bytes": 213857,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/nashville-underground/giftcards"
+      }
+    },
+    "https://www.nashunderground.com/menu": {
+      "url": "https://www.nashunderground.com/menu",
+      "html_bytes": 225963,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/nashville-underground/giftcards"
+      }
+    },
+    "https://www.nashunderground.com/reservations": {
+      "url": "https://www.nashunderground.com/reservations",
+      "html_bytes": 101130,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/nashville-underground/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/nashville-underground/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

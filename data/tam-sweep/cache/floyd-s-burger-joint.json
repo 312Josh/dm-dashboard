@@ -1,0 +1,62 @@
+{
+  "parent": "FLOYD'S BURGER JOINT - Parent Account",
+  "slug": "floyd-s-burger-joint",
+  "total_headroom": "$15,204",
+  "non_ec_headroom": "$15,204",
+  "est_ec_headroom": "$0",
+  "employee_count": "24",
+  "non_ec_arr": "$2,514",
+  "state": "TN",
+  "city": "Smyrna",
+  "restaurant_type": "Unknown",
+  "contact_email": "kyle@floydsburgerjoint.com",
+  "location_count": 1,
+  "location_names": [
+    "FLOYD'S BURGER JOINT"
+  ],
+  "websites": [
+    "https://floydsburgerjoint.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://floydsburgerjoint.com/": {
+      "url": "https://floydsburgerjoint.com/",
+      "html_bytes": 115108,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/floyd-s-burger-joint-1098-sgt-asbury-hawn-way/giftcards"
+      }
+    },
+    "https://floydsburgerjoint.com/menu": {
+      "url": "https://floydsburgerjoint.com/menu",
+      "html_bytes": 127318,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://floydsburgerjoint.com/gift-cards": {
+      "url": "https://floydsburgerjoint.com/gift-cards",
+      "html_bytes": 64193,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/floyd-s-burger-joint-1098-sgt-asbury-hawn-way/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/floyd-s-burger-joint-1098-sgt-asbury-hawn-way/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

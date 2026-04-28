@@ -1,0 +1,41 @@
+{
+  "parent": "Morley's Backyard",
+  "slug": "morley-s-backyard",
+  "total_headroom": "$21,612",
+  "non_ec_headroom": "$20,100",
+  "est_ec_headroom": "$1,512",
+  "employee_count": "9",
+  "non_ec_arr": "$2,580",
+  "state": "KY",
+  "city": "Danville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "josh@morleysky.com",
+  "location_count": 1,
+  "location_names": [
+    "Morley's Backyard"
+  ],
+  "websites": [
+    "https://morleysky.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://morleysky.com/": {
+      "url": "https://morleysky.com/",
+      "html_bytes": 143984,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

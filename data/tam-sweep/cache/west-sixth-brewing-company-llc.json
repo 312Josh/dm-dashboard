@@ -1,0 +1,51 @@
+{
+  "parent": "West Sixth Brewing Company LLC",
+  "slug": "west-sixth-brewing-company-llc",
+  "total_headroom": "$117,754",
+  "non_ec_headroom": "$112,980",
+  "est_ec_headroom": "$4,774",
+  "employee_count": "28",
+  "non_ec_arr": "$20,155",
+  "state": "KY",
+  "city": "Frankfort",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "brady@westsixth.com",
+  "location_count": 6,
+  "location_names": [
+    "West 6th Food Truck",
+    "West Sixth Lexington 501",
+    "West Sixth Farm",
+    "West 6th Galley",
+    "West Sixth Nulu",
+    "West Sixth Covington Haus"
+  ],
+  "websites": [
+    "https://www.westsixth.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.westsixth.com/": {
+      "url": "https://www.westsixth.com/",
+      "html_bytes": 309968,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "marketing": "HubSpot",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

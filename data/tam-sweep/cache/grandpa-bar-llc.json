@@ -1,0 +1,66 @@
+{
+  "parent": "Grandpa Bar LLC - Parent Account",
+  "slug": "grandpa-bar-llc",
+  "total_headroom": "$19,740",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$1,764",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "michaeljrosenthal@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Grandpa Bar LLC"
+  ],
+  "websites": [
+    "https://www.grandpabar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.grandpabar.com/": {
+      "url": "https://www.grandpabar.com/",
+      "html_bytes": 584154,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/grandpa-bar-llc-1501-herman-st-suite-123/giftcards"
+      }
+    },
+    "https://www.grandpabar.com/menus": {
+      "url": "https://www.grandpabar.com/menus",
+      "html_bytes": 537664,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.grandpabar.com/giftcards": {
+      "url": "https://www.grandpabar.com/giftcards",
+      "html_bytes": 550320,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/grandpa-bar-llc-1501-herman-st-suite-123/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/grandpa-bar-llc-1501-herman-st-suite-123/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

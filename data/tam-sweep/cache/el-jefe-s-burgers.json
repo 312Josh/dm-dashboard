@@ -1,0 +1,57 @@
+{
+  "parent": "El Jefe's Burgers - Parent Account",
+  "slug": "el-jefe-s-burgers",
+  "total_headroom": "$17,604",
+  "non_ec_headroom": "$17,100",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$2,340",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "tastyburgers@eljefeenterprises.net",
+  "location_count": 1,
+  "location_names": [
+    "El Jefe's Burgers"
+  ],
+  "websites": [
+    "https://eljefeenterprises.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eljefeenterprises.net/": {
+      "url": "https://eljefeenterprises.net/",
+      "html_bytes": 219922,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/el-jefes-burgers",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://eljefeenterprises.net/m/orders": {
+      "url": "https://eljefeenterprises.net/m/orders",
+      "html_bytes": 129996,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/el-jefes-burgers",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

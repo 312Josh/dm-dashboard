@@ -1,0 +1,45 @@
+{
+  "parent": "Homegrown Taproom & Kitchen Parent",
+  "slug": "homegrown-taproom-kitchen",
+  "total_headroom": "$17,792",
+  "non_ec_headroom": "$14,460",
+  "est_ec_headroom": "$3,332",
+  "employee_count": "20",
+  "non_ec_arr": "$10,377",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jstarks37214@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Homegrown Taproom & Kitchen"
+  ],
+  "websites": [
+    "https://homegrownnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://homegrownnashville.com/": {
+      "url": "https://homegrownnashville.com/",
+      "html_bytes": 104462,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "grubhub",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

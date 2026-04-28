@@ -1,0 +1,55 @@
+{
+  "parent": "El Charro Group",
+  "slug": "el-charro-group",
+  "total_headroom": "$60,496",
+  "non_ec_headroom": "$55,260",
+  "est_ec_headroom": "$5,236",
+  "employee_count": "31",
+  "non_ec_arr": "$16,266",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "marthaog91@icloud.com",
+  "location_count": 3,
+  "location_names": [
+    "El Charro- Harrodsburg Rd",
+    "El Charro- Hamburg",
+    "El Charro Tacos and Tequila Bar"
+  ],
+  "websites": [
+    "https://elcharrolex.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://elcharrolex.com/": {
+      "url": "https://elcharrolex.com/",
+      "html_bytes": 168950,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/el-charro-harrodsburg-rd-4371-old-harrodsburg-suite-180",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/el-charro-harrodsburg-rd-4371-old-harrodsburg-suite-180",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

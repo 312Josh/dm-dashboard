@@ -1,0 +1,43 @@
+{
+  "parent": "Casper's Bistro - Parent Account",
+  "slug": "casper-s-bistro",
+  "total_headroom": "$20,476",
+  "non_ec_headroom": "$17,172",
+  "est_ec_headroom": "$3,304",
+  "employee_count": "20",
+  "non_ec_arr": "$6,168",
+  "state": "TN",
+  "city": "Goodlettsville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "mfarr@merryman-farr.com",
+  "location_count": 1,
+  "location_names": [
+    "Casper's Bistro"
+  ],
+  "websites": [
+    "https://www.caspersbistro.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.caspersbistro.com/": {
+      "url": "https://www.caspersbistro.com/",
+      "html_bytes": 173883,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

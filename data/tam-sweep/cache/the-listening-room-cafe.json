@@ -1,0 +1,43 @@
+{
+  "parent": "The Listening Room Cafe Parent",
+  "slug": "the-listening-room-cafe",
+  "total_headroom": "$32,424",
+  "non_ec_headroom": "$32,424",
+  "est_ec_headroom": "$0",
+  "employee_count": "101",
+  "non_ec_arr": "$12,742",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "chris@listeningroomcafe.com",
+  "location_count": 2,
+  "location_names": [
+    "The Listening Room Cafe",
+    "The Listening Room Cafe - Nashville"
+  ],
+  "websites": [
+    "https://listeningroomcafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://listeningroomcafe.com/": {
+      "url": "https://listeningroomcafe.com/",
+      "html_bytes": 417812,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

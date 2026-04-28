@@ -1,0 +1,40 @@
+{
+  "parent": "Cabanas Grill - Parent Account",
+  "slug": "cabanas-grill",
+  "total_headroom": "$16,708",
+  "non_ec_headroom": "$15,504",
+  "est_ec_headroom": "$1,204",
+  "employee_count": "7",
+  "non_ec_arr": "$7,212",
+  "state": "SC",
+  "city": "Marion",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "luis.rodriguez890@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cabanas Grill"
+  ],
+  "websites": [
+    "https://cabanasmexgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cabanasmexgrill.com/": {
+      "url": "https://cabanasmexgrill.com/",
+      "html_bytes": 5538,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

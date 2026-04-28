@@ -1,0 +1,51 @@
+{
+  "parent": "Sea Salt TN",
+  "slug": "sea-salt-tn",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$2,940",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "aubrey@perennbakery.com",
+  "location_count": 1,
+  "location_names": [
+    "Cafe 29"
+  ],
+  "websites": [
+    "https://www.seasaltnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.seasaltnashville.com/": {
+      "url": "https://www.seasaltnashville.com/",
+      "html_bytes": 301126,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sea-salt/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/sea-salt/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

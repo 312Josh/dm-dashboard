@@ -1,0 +1,53 @@
+{
+  "parent": "Snow White Drive In - Parent Account",
+  "slug": "snow-white-drive-in",
+  "total_headroom": "$37,824",
+  "non_ec_headroom": "$37,824",
+  "est_ec_headroom": "$0",
+  "employee_count": "38",
+  "non_ec_arr": "$6,682",
+  "state": "TN",
+  "city": "Lebanon",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "summerlehew93@icloud.com",
+  "location_count": 2,
+  "location_names": [
+    "Snow White Drive In - Food Truck",
+    "Snow White Drive In"
+  ],
+  "websites": [
+    "https://www.thesnowwhitedrivein.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thesnowwhitedrivein.com/": {
+      "url": "https://www.thesnowwhitedrivein.com/",
+      "html_bytes": 936581,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.thesnowwhitedrivein.com/menu": {
+      "url": "https://www.thesnowwhitedrivein.com/menu",
+      "html_bytes": 694122,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

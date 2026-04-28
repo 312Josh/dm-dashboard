@@ -1,0 +1,38 @@
+{
+  "parent": "Corner Bar South - Parent Account",
+  "slug": "corner-bar-south",
+  "total_headroom": "$18,552",
+  "non_ec_headroom": "$18,552",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$2,512",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "thag2000@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Corner Bar South"
+  ],
+  "websites": [
+    "https://cornerbarsouth.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cornerbarsouth.com/": {
+      "url": "https://cornerbarsouth.com/",
+      "html_bytes": 5537,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "La Cucharita Colombian Restaurant- Parent Account",
+  "slug": "la-cucharita-colombian-restaurant",
+  "total_headroom": "$20,580",
+  "non_ec_headroom": "$20,580",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$2,136",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mrmrsempanada@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "La Cucharita Colombian Restaurant"
+  ],
+  "websites": [
+    "https://www.lacucharitanashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lacucharitanashville.com/": {
+      "url": "https://www.lacucharitanashville.com/",
+      "html_bytes": 38431,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

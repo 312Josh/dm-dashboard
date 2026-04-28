@@ -1,0 +1,42 @@
+{
+  "parent": "Noir - Parent",
+  "slug": "noir",
+  "total_headroom": "$31,584",
+  "non_ec_headroom": "$31,584",
+  "est_ec_headroom": "$0",
+  "employee_count": "165",
+  "non_ec_arr": "$43,428",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "forrestestatesllc@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Linq",
+    "Noir Nashville"
+  ],
+  "websites": [
+    "https://noironmain.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://noironmain.com/": {
+      "url": "https://noironmain.com/",
+      "html_bytes": 5490,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

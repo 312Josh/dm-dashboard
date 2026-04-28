@@ -1,0 +1,41 @@
+{
+  "parent": "Just One More HG",
+  "slug": "just-one-more-hg",
+  "total_headroom": "$22,464",
+  "non_ec_headroom": "$15,492",
+  "est_ec_headroom": "$6,972",
+  "employee_count": "42",
+  "non_ec_arr": "$8,202",
+  "state": "FL",
+  "city": "Miramar Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "justonemorehg@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Austons Oyster Bar"
+  ],
+  "websites": [
+    "https://www.austonson98.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.austonson98.com/": {
+      "url": "https://www.austonson98.com/",
+      "html_bytes": 201198,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

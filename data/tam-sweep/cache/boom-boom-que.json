@@ -1,0 +1,58 @@
+{
+  "parent": "Boom Boom Que - Parent Account",
+  "slug": "boom-boom-que",
+  "total_headroom": "$14,364",
+  "non_ec_headroom": "$14,364",
+  "est_ec_headroom": "$0",
+  "employee_count": "30",
+  "non_ec_arr": "$10,596",
+  "state": "TN",
+  "city": "White House",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "garland@boomboomque.com",
+  "location_count": 1,
+  "location_names": [
+    "Boom Boom Que"
+  ],
+  "websites": [
+    "https://boomboomque.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://boomboomque.com/": {
+      "url": "https://boomboomque.com/",
+      "html_bytes": 135907,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "http://boomboomque.com/menus": {
+      "url": "http://boomboomque.com/menus",
+      "html_bytes": 95706,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

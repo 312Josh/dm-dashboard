@@ -1,0 +1,44 @@
+{
+  "parent": "Cheap Charlie's Tacos & More",
+  "slug": "cheap-charlie-s-tacos-more",
+  "total_headroom": "$17,028",
+  "non_ec_headroom": "$16,860",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,800",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "charliezelaya1@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cheap Charlie's Tacos & More"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/charlie-zelaya-2237-carefree-ln"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/charlie-zelaya-2237-carefree-ln": {
+      "url": "https://www.toasttab.com/local/order/charlie-zelaya-2237-carefree-ln",
+      "html_bytes": 5685,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "parent": "Apollo Pizza Group",
+  "slug": "apollo-pizza-group",
+  "total_headroom": "$145,632",
+  "non_ec_headroom": "$145,632",
+  "est_ec_headroom": "$0",
+  "employee_count": "119",
+  "non_ec_arr": "$35,104",
+  "state": "KY",
+  "city": "Richmond",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "kdavis@davislawky.com",
+  "location_count": 8,
+  "location_names": [
+    "Apollo FoodTruck",
+    "Blue Stallion Taproom",
+    "Steam Engine Pizza Pub",
+    "Apollo Pizza- Meadowthorpe Taproom",
+    "Apollo Pizza- Corbin1",
+    "Apollo Pizza- Pizza and Beer Emporium",
+    "Apollo Pizza- Little Sack",
+    "Apollo Pizza- Old Towne Taproom"
+  ],
+  "websites": [
+    "https://apollopizzamenu.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://apollopizzamenu.com/": {
+      "url": "https://apollopizzamenu.com/",
+      "html_bytes": 4636,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/apollo-pizza-corbin",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://apollopizzamenu.com/media/menu/ApolloPizza1.jpg": {
+      "url": "https://apollopizzamenu.com/media/menu/ApolloPizza1.jpg",
+      "html_bytes": 1519828,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://apollopizzamenu.com/media/menu/ApolloPizza2.jpg": {
+      "url": "https://apollopizzamenu.com/media/menu/ApolloPizza2.jpg",
+      "html_bytes": 1535050,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/apollo-pizza-corbin",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

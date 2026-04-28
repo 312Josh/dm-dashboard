@@ -1,0 +1,44 @@
+{
+  "parent": "Calacas Mexican Cuisine - Parent Account",
+  "slug": "calacas-mexican-cuisine",
+  "total_headroom": "$15,072",
+  "non_ec_headroom": "$15,072",
+  "est_ec_headroom": "$0",
+  "employee_count": "22",
+  "non_ec_arr": "$7,148",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "paulo@calacasnashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Calacas Mexican Cuisine"
+  ],
+  "websites": [
+    "https://calacasnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://calacasnashville.com/": {
+      "url": "https://calacasnashville.com/",
+      "html_bytes": 147250,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "parent": "Rae's Gourmet Catering & Sandwich Shoppe",
+  "slug": "rae-s-gourmet-catering-sandwich-shoppe",
+  "total_headroom": "$18,980",
+  "non_ec_headroom": "$18,420",
+  "est_ec_headroom": "$560",
+  "employee_count": "3",
+  "non_ec_arr": "$1,740",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "raesgourmet24@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Rae's Gourmet Catering & Sandwich Shoppe"
+  ],
+  "websites": [
+    "https://raessandwichshoppe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://raessandwichshoppe.com/": {
+      "url": "https://raessandwichshoppe.com/",
+      "html_bytes": 63868,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/raes-gourmet-catering-sandwich-shoppe",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/raes-gourmet-catering-sandwich-shoppe",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

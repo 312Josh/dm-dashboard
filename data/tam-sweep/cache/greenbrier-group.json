@@ -1,0 +1,34 @@
+{
+  "parent": "Greenbrier Group",
+  "slug": "greenbrier-group",
+  "total_headroom": "$40,728",
+  "non_ec_headroom": "$40,224",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$580",
+  "state": "TN",
+  "city": "Greenbrier",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "stoland@greenbriertn.org",
+  "location_count": 2,
+  "location_names": [
+    "Greenbrier Concessions Ballfield",
+    "Greenbrier Concessions- Soccer"
+  ],
+  "websites": [],
+  "website_discovery_status": "found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "ballfield": "",
+    "soccer": ""
+  }
+}

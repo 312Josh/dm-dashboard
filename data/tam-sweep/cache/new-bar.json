@@ -1,0 +1,44 @@
+{
+  "parent": "New Bar - Parent Account",
+  "slug": "new-bar",
+  "total_headroom": "$22,188",
+  "non_ec_headroom": "$19,500",
+  "est_ec_headroom": "$2,688",
+  "employee_count": "16",
+  "non_ec_arr": "$4,440",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "evan@mamabread.com",
+  "location_count": 1,
+  "location_names": [
+    "Groceries, etc."
+  ],
+  "websites": [
+    "https://www.groceriesetc.bar/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.groceriesetc.bar/": {
+      "url": "https://www.groceriesetc.bar/",
+      "html_bytes": 50786,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

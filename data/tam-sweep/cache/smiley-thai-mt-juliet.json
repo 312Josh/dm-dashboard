@@ -1,0 +1,52 @@
+{
+  "parent": "Smiley Thai - Mt. Juliet- Parent Account",
+  "slug": "smiley-thai-mt-juliet",
+  "total_headroom": "$60,948",
+  "non_ec_headroom": "$58,680",
+  "est_ec_headroom": "$2,268",
+  "employee_count": "14",
+  "non_ec_arr": "$13,362",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "aoaors@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Aroi",
+    "Poy Thai and Sushi",
+    "Smiley Thai New"
+  ],
+  "websites": [
+    "https://smileythaiandsushi.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://smileythaiandsushi.com/": {
+      "url": "https://smileythaiandsushi.com/",
+      "html_bytes": 67781,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/smiley-thai-sushi",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/smiley-thai-sushi",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

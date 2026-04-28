@@ -1,0 +1,40 @@
+{
+  "parent": "Catch Land & Sea - Parent Account",
+  "slug": "catch-land-sea",
+  "total_headroom": "$16,692",
+  "non_ec_headroom": "$16,692",
+  "est_ec_headroom": "$0",
+  "employee_count": "30",
+  "non_ec_arr": "$4,968",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "catchlandandsea@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Catch Land & Sea"
+  ],
+  "websites": [
+    "https://catch-land-sea.restaurants-world.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://catch-land-sea.restaurants-world.net/": {
+      "url": "https://catch-land-sea.restaurants-world.net/",
+      "html_bytes": 5597,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

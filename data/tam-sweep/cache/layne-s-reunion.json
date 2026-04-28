@@ -1,0 +1,38 @@
+{
+  "parent": "Layne's Reunion - Parent Account",
+  "slug": "layne-s-reunion",
+  "total_headroom": "$14,892",
+  "non_ec_headroom": "$14,892",
+  "est_ec_headroom": "$0",
+  "employee_count": "33",
+  "non_ec_arr": "$10,773",
+  "state": "TN",
+  "city": "Manchester",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "laynesreunion@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Layne's Reunion"
+  ],
+  "websites": [
+    "https://www.manchestertimes.com/news/local/laynes-create-a-home-at-new-reunion/article_0ef6d841-00c5-4078-a61e-8578a42cf70f.html"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.manchestertimes.com/news/local/laynes-create-a-home-at-new-reunion/article_0ef6d841-00c5-4078-a61e-8578a42cf70f.html": {
+      "url": "https://www.manchestertimes.com/news/local/laynes-create-a-home-at-new-reunion/article_0ef6d841-00c5-4078-a61e-8578a42cf70f.html",
+      "html_bytes": 555952,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "parent": "Smyrna Cafe2 - Parent Account",
+  "slug": "smyrna-cafe2",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$510",
+  "state": "TN",
+  "city": "Smyrna",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "samuel.hana1234@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Smyrna Cafe2"
+  ],
+  "websites": [
+    "https://smyrnacafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://smyrnacafe.com/": {
+      "url": "https://smyrnacafe.com/",
+      "html_bytes": 92744,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://smyrnacafe.com/menu": {
+      "url": "https://smyrnacafe.com/menu",
+      "html_bytes": 270199,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

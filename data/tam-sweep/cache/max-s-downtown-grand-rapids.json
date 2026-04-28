@@ -1,0 +1,38 @@
+{
+  "parent": "Max's Downtown Grand Rapids Parent",
+  "slug": "max-s-downtown-grand-rapids",
+  "total_headroom": "$19,140",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$0",
+  "employee_count": "44",
+  "non_ec_arr": "$3,757",
+  "state": "MI",
+  "city": "Grand Rapids",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mark@maxstiki.com",
+  "location_count": 1,
+  "location_names": [
+    "Max's South Seas Hideaway"
+  ],
+  "websites": [
+    "https://www.maxstiki.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.maxstiki.com/": {
+      "url": "https://www.maxstiki.com/",
+      "html_bytes": 5492,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "Sundrop Shoppe & Luncheonette",
+  "slug": "sundrop-shoppe-luncheonette",
+  "total_headroom": "$21,656",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$1,316",
+  "employee_count": "8",
+  "non_ec_arr": "$432",
+  "state": "TN",
+  "city": "Tullahoma",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "paigeplashlee@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sundrop Shoppe & Luncheonette"
+  ],
+  "websites": [
+    "https://www.sundropshoppe.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sundropshoppe.net/": {
+      "url": "https://www.sundropshoppe.net/",
+      "html_bytes": 137442,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

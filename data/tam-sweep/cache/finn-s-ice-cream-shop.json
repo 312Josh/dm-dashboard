@@ -1,0 +1,40 @@
+{
+  "parent": "Finn's Ice Cream Shop",
+  "slug": "finn-s-ice-cream-shop",
+  "total_headroom": "$21,724",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$784",
+  "employee_count": "5",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Danville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "jdurham@kyseedcapital.com",
+  "location_count": 1,
+  "location_names": [
+    "Finn's Ice Cream Shop"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/finns-ice-cream-shop-498-dillehay-st/r-c361d42f-17e4-44c1-8e07-d1c494ca7ad5"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/finns-ice-cream-shop-498-dillehay-st/r-c361d42f-17e4-44c1-8e07-d1c494ca7ad5": {
+      "url": "https://www.toasttab.com/local/finns-ice-cream-shop-498-dillehay-st/r-c361d42f-17e4-44c1-8e07-d1c494ca7ad5",
+      "html_bytes": 5841,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

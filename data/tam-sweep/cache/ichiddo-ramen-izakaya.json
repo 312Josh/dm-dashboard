@@ -1,0 +1,63 @@
+{
+  "parent": "Ichiddo Ramen & Izakaya - Parent Account",
+  "slug": "ichiddo-ramen-izakaya",
+  "total_headroom": "$18,408",
+  "non_ec_headroom": "$16,140",
+  "est_ec_headroom": "$2,268",
+  "employee_count": "14",
+  "non_ec_arr": "$5,172",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "ivyyang998@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ichiddo Ramen & Izakaya"
+  ],
+  "websites": [
+    "https://www.ichiddonashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ichiddonashville.com/": {
+      "url": "https://www.ichiddonashville.com/",
+      "html_bytes": 1106263,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/ramen-place-800-19th-ave-s-106",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.ichiddonashville.com/menus": {
+      "url": "https://www.ichiddonashville.com/menus",
+      "html_bytes": 1474316,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/ramen-place-800-19th-ave-s-106",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/ramen-place-800-19th-ave-s-106",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

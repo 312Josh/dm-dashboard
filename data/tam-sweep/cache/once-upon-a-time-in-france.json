@@ -1,0 +1,66 @@
+{
+  "parent": "Once Upon A Time In France - Parent Account",
+  "slug": "once-upon-a-time-in-france",
+  "total_headroom": "$17,332",
+  "non_ec_headroom": "$15,792",
+  "est_ec_headroom": "$1,540",
+  "employee_count": "9",
+  "non_ec_arr": "$2,700",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "maged.m.mikhail@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Once Upon A Time In France"
+  ],
+  "websites": [
+    "https://www.onceuponatime-infrance.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.onceuponatime-infrance.com/": {
+      "url": "https://www.onceuponatime-infrance.com/",
+      "html_bytes": 781759,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Resy",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.onceuponatime-infrance.com/menu": {
+      "url": "https://www.onceuponatime-infrance.com/menu",
+      "html_bytes": 1130515,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    },
+    "https://www.onceuponatime-infrance.com/reservations": {
+      "url": "https://www.onceuponatime-infrance.com/reservations",
+      "html_bytes": 586664,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Resy",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "resy",
+    "grubhub",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

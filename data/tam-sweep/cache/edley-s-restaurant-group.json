@@ -1,0 +1,115 @@
+{
+  "parent": "Edley's Restaurant Group",
+  "slug": "edley-s-restaurant-group",
+  "total_headroom": "$221,100",
+  "non_ec_headroom": "$221,100",
+  "est_ec_headroom": "$0",
+  "employee_count": "646",
+  "non_ec_arr": "$164,273",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "will@edleysbbq.com",
+  "location_count": 15,
+  "location_names": [
+    "Edley's BBQ - Training location",
+    "Edley's BBQ - O'Fallon",
+    "Edley's BBQ - Edwardsville",
+    "Edley's BBQ - Berry Farms",
+    "Edley's BBQ - Chattanooga",
+    "Edley's BBQ - Donelson",
+    "Edley's BBQ - Sylvan Park",
+    "Edley's BBQ - Nolensville",
+    "Edley's BBQ - East Nashville",
+    "Edley's BBQ - 12 South",
+    "Pancho and Lefty's Cantina - Sylvan Park",
+    "Edley's BBQ- Factory at Franklin",
+    "Pancho and Lefty's Cantina - Melrose",
+    "Edley's BBQ - Gallatin",
+    "Brown's Diner"
+  ],
+  "websites": [
+    "https://www.edleysbbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.edleysbbq.com/": {
+      "url": "https://www.edleysbbq.com/",
+      "html_bytes": 387437,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/edleys-bbq-12-south/giftcards",
+        "toast_oo_native": "order.toasttab.com/online/edleys-bbq-nolensville-6025-nolensville-pike",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.edleysbbq.com/order-online-landing-page": {
+      "url": "https://www.edleysbbq.com/order-online-landing-page",
+      "html_bytes": 203344,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/edleys-bbq-nolensville-6025-nolensville-pike",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.edleysbbq.com/menu": {
+      "url": "https://www.edleysbbq.com/menu",
+      "html_bytes": 415733,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.edleysbbq.com/menus/food": {
+      "url": "https://www.edleysbbq.com/menus/food",
+      "html_bytes": 415733,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.edleysbbq.com/menus/gallery": {
+      "url": "https://www.edleysbbq.com/menus/gallery",
+      "html_bytes": 223010,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/edleys-bbq-12-south/giftcards",
+    "toast_oo_native": "order.toasttab.com/online/edleys-bbq-nolensville-6025-nolensville-pike",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "Rise and Brine - Parent Account",
+  "slug": "rise-and-brine",
+  "total_headroom": "$33,488",
+  "non_ec_headroom": "$28,896",
+  "est_ec_headroom": "$4,592",
+  "employee_count": "27",
+  "non_ec_arr": "$9,876",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mattborland75@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "East End Tap and Table",
+    "Rise and Brine"
+  ],
+  "websites": [
+    "https://riseandbrine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://riseandbrine.com/": {
+      "url": "https://riseandbrine.com/",
+      "html_bytes": 121798,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

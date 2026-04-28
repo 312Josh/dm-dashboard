@@ -1,0 +1,107 @@
+{
+  "parent": "Frothy Monkey Parent",
+  "slug": "frothy-monkey",
+  "total_headroom": "$167,736",
+  "non_ec_headroom": "$127,416",
+  "est_ec_headroom": "$40,320",
+  "employee_count": "241",
+  "non_ec_arr": "$42,583",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ryan@frothymonkey.com",
+  "location_count": 9,
+  "location_names": [
+    "Frothy Monkey - 12 South",
+    "Frothy Monkey - Bakery",
+    "Frothy Monkey - East",
+    "Frothy Monkey - Southside",
+    "Frothy Monkey - Franklin",
+    "Frothy Monkey - The Nations",
+    "Frothy Monkey - Birmingham",
+    "Frothy Monkey - Downtown",
+    "Frothy Monkey - Homewood"
+  ],
+  "websites": [
+    "https://frothymonkey.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://frothymonkey.com/": {
+      "url": "https://frothymonkey.com/",
+      "html_bytes": 225814,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/frothy-monkey-homewood-930-oxmoor-rd",
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML",
+        "toast_gift": "toasttab.com/frothy-monkey/giftcards"
+      }
+    },
+    "https://frothymonkey.com/order/": {
+      "url": "https://frothymonkey.com/order/",
+      "html_bytes": 146303,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/frothy-monkey-homewood-930-oxmoor-rd",
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://frothymonkey.com/menu": {
+      "url": "https://frothymonkey.com/menu",
+      "html_bytes": 181494,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://frothymonkey.com/giftcards/": {
+      "url": "https://frothymonkey.com/giftcards/",
+      "html_bytes": 132324,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/frothy-monkey/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/frothy-monkey-homewood-930-oxmoor-rd",
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML",
+    "toast_gift": "toasttab.com/frothy-monkey/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "parent": "City House - Parent Account",
+  "slug": "city-house",
+  "total_headroom": "$24,856",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$4,816",
+  "employee_count": "29",
+  "non_ec_arr": "$2,040",
+  "state": "TN",
+  "city": "North Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@cityhousenashville.com",
+  "location_count": 1,
+  "location_names": [
+    "City House"
+  ],
+  "websites": [
+    "https://cityhousenashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cityhousenashville.com/": {
+      "url": "https://cityhousenashville.com/",
+      "html_bytes": 215517,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://cityhousenashville.com/reservations-copy": {
+      "url": "https://cityhousenashville.com/reservations-copy",
+      "html_bytes": 82102,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

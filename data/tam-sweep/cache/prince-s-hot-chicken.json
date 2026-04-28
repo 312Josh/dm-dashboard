@@ -1,0 +1,66 @@
+{
+  "parent": "Prince's Hot Chicken- Parent Account",
+  "slug": "prince-s-hot-chicken",
+  "total_headroom": "$12,432",
+  "non_ec_headroom": "$12,432",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$11,192",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sdj101667@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Prince's Hot Chicken"
+  ],
+  "websites": [
+    "https://www.princeshotchicken.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.princeshotchicken.com/": {
+      "url": "https://www.princeshotchicken.com/",
+      "html_bytes": 162206,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.princeshotchicken.com/menu": {
+      "url": "https://www.princeshotchicken.com/menu",
+      "html_bytes": 196296,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.princeshotchicken.com/order-online": {
+      "url": "https://www.princeshotchicken.com/order-online",
+      "html_bytes": 153836,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

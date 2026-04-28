@@ -1,0 +1,38 @@
+{
+  "parent": "L’abri Coffee, LLC",
+  "slug": "l-abri-coffee-llc",
+  "total_headroom": "$21,192",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$252",
+  "employee_count": "2",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "tony@labricoffee.com",
+  "location_count": 1,
+  "location_names": [
+    "L’abri Coffee, LLC"
+  ],
+  "websites": [
+    "https://www.facebook.com/labricoffee/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/labricoffee/": {
+      "url": "https://www.facebook.com/labricoffee/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

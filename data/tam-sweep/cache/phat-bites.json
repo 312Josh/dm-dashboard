@@ -1,0 +1,63 @@
+{
+  "parent": "Phat Bites - Parent",
+  "slug": "phat-bites",
+  "total_headroom": "$20,452",
+  "non_ec_headroom": "$16,560",
+  "est_ec_headroom": "$3,892",
+  "employee_count": "23",
+  "non_ec_arr": "$6,840",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "juliebuhlerjb@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Phat Bites2"
+  ],
+  "websites": [
+    "https://www.phatbites.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.phatbites.com/": {
+      "url": "https://www.phatbites.com/",
+      "html_bytes": 34987,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://www.phatbites.com/menus/": {
+      "url": "https://www.phatbites.com/menus/",
+      "html_bytes": 71970,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

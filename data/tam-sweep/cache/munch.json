@@ -1,0 +1,45 @@
+{
+  "parent": "Munch Parent",
+  "slug": "munch",
+  "total_headroom": "$18,720",
+  "non_ec_headroom": "$18,720",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$1,320",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Unknown",
+  "contact_email": "mealzys@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Munch"
+  ],
+  "websites": [
+    "https://www.munchtn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.munchtn.com/": {
+      "url": "https://www.munchtn.com/",
+      "html_bytes": 883419,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

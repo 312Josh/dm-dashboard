@@ -1,0 +1,42 @@
+{
+  "parent": "Jamaicaway Restaurant & Catering, Corp - Parent Account",
+  "slug": "jamaicaway-restaurant-catering-corp",
+  "total_headroom": "$13,452",
+  "non_ec_headroom": "$13,452",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$8,808",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "david@jamaicawaycatering.com",
+  "location_count": 1,
+  "location_names": [
+    "Jamaicaway Restaurant & Catering, Corp"
+  ],
+  "websites": [
+    "https://jamaicawayrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://jamaicawayrestaurant.com/": {
+      "url": "https://jamaicawayrestaurant.com/",
+      "html_bytes": 5543,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Temaki Hibachi & Sushi - Parent Account",
+  "slug": "temaki-hibachi-sushi",
+  "total_headroom": "$19,516",
+  "non_ec_headroom": "$19,152",
+  "est_ec_headroom": "$364",
+  "employee_count": "2",
+  "non_ec_arr": "$1,788",
+  "state": "TN",
+  "city": "Manchester",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "temakimanchester@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Temaki Hibachi & Sushi"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/temaki-hibachi-sushi-2050-hillsboro-blvd"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/temaki-hibachi-sushi-2050-hillsboro-blvd": {
+      "url": "https://order.toasttab.com/online/temaki-hibachi-sushi-2050-hillsboro-blvd",
+      "html_bytes": 5742,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

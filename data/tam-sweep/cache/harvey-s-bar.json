@@ -1,0 +1,40 @@
+{
+  "parent": "Harvey's Bar Parent",
+  "slug": "harvey-s-bar",
+  "total_headroom": "$19,548",
+  "non_ec_headroom": "$17,112",
+  "est_ec_headroom": "$2,436",
+  "employee_count": "15",
+  "non_ec_arr": "$3,701",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "avenamn@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Harvey's Bar"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/harveys-bar-200-west-main-street"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/harveys-bar-200-west-main-street": {
+      "url": "https://www.toasttab.com/local/order/harveys-bar-200-west-main-street",
+      "html_bytes": 5688,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "Helen's Hot Chicken - Parent Account",
+  "slug": "helen-s-hot-chicken",
+  "total_headroom": "$19,560",
+  "non_ec_headroom": "$19,560",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$3,300",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "lmorrow1972@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Helen's Hot Chicken"
+  ],
+  "websites": [
+    "https://www.helensnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.helensnashville.com/": {
+      "url": "https://www.helensnashville.com/",
+      "html_bytes": 94664,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.helensnashville.com/menu": {
+      "url": "https://www.helensnashville.com/menu",
+      "html_bytes": 787,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.helensnashville.com/order": {
+      "url": "https://www.helensnashville.com/order",
+      "html_bytes": 787,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

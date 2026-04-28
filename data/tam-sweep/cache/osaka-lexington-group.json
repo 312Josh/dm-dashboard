@@ -1,0 +1,68 @@
+{
+  "parent": "Osaka Lexington Group",
+  "slug": "osaka-lexington-group",
+  "total_headroom": "$17,604",
+  "non_ec_headroom": "$13,404",
+  "est_ec_headroom": "$4,200",
+  "employee_count": "25",
+  "non_ec_arr": "$5,376",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "linhui105@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Osaka - Hamburg"
+  ],
+  "websites": [
+    "https://www.osakalexington.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.osakalexington.com/": {
+      "url": "https://www.osakalexington.com/",
+      "html_bytes": 224193,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.mealkeyway.com/"
+      }
+    },
+    "https://www.osakalexington.com/menu/": {
+      "url": "https://www.osakalexington.com/menu/",
+      "html_bytes": 196163,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.mealkeyway.com/"
+      }
+    },
+    "https://www.osakalexington.com/order-location/": {
+      "url": "https://www.osakalexington.com/order-location/",
+      "html_bytes": 129832,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.mealkeyway.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.mealkeyway.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

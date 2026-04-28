@@ -1,0 +1,38 @@
+{
+  "parent": "Southern Scoops",
+  "slug": "southern-scoops",
+  "total_headroom": "$15,444",
+  "non_ec_headroom": "$14,772",
+  "est_ec_headroom": "$672",
+  "employee_count": "4",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "65roses2011@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Southern Scoops"
+  ],
+  "websites": [
+    "https://streetfoodfinder.com/SouthernScoops"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://streetfoodfinder.com/SouthernScoops": {
+      "url": "https://streetfoodfinder.com/SouthernScoops",
+      "html_bytes": 5602,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

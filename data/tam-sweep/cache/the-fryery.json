@@ -1,0 +1,38 @@
+{
+  "parent": "The Fryery",
+  "slug": "the-fryery",
+  "total_headroom": "$21,444",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "j.a.ridenour@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Fryery"
+  ],
+  "websites": [
+    "https://streetfoodfinder.com/thefryeryfoodtruck"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://streetfoodfinder.com/thefryeryfoodtruck": {
+      "url": "https://streetfoodfinder.com/thefryeryfoodtruck",
+      "html_bytes": 5614,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

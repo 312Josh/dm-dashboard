@@ -1,0 +1,90 @@
+{
+  "parent": "37 Cedar Restaurant and Bar",
+  "slug": "37-cedar-restaurant-and-bar",
+  "total_headroom": "$26,132",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$6,692",
+  "employee_count": "40",
+  "non_ec_arr": "$4,578",
+  "state": "TN",
+  "city": "Cookeville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "klmaxwell242@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "37 Cedar Restaurant and Bar"
+  ],
+  "websites": [
+    "https://www.37cedar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.37cedar.com/": {
+      "url": "https://www.37cedar.com/",
+      "html_bytes": 455547,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/37-cedar-restaurant-and-bar/rewardsSignup"
+      }
+    },
+    "https://www.37cedar.com/menu": {
+      "url": "https://www.37cedar.com/menu",
+      "html_bytes": 120232,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.37cedar.com/loyalty-program": {
+      "url": "https://www.37cedar.com/loyalty-program",
+      "html_bytes": 115519,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/37-cedar-restaurant-and-bar/rewardsSignup"
+      }
+    },
+    "https://www.37cedar.com/menu-4": {
+      "url": "https://www.37cedar.com/menu-4",
+      "html_bytes": 235450,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.37cedar.com/menu-4-1": {
+      "url": "https://www.37cedar.com/menu-4-1",
+      "html_bytes": 204728,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/37-cedar-restaurant-and-bar/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

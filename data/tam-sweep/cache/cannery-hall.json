@@ -1,0 +1,42 @@
+{
+  "parent": "Cannery Hall - Parent Account",
+  "slug": "cannery-hall",
+  "total_headroom": "$37,044",
+  "non_ec_headroom": "$34,356",
+  "est_ec_headroom": "$2,688",
+  "employee_count": "16",
+  "non_ec_arr": "$6,228",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "zach.liff@dzlre.com",
+  "location_count": 2,
+  "location_names": [
+    "Cannery Hall - Mainstage",
+    "Merchandise Center"
+  ],
+  "websites": [
+    "https://canneryhall.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://canneryhall.com/": {
+      "url": "https://canneryhall.com/",
+      "html_bytes": 79258,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

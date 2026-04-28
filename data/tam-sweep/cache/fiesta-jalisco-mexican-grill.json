@@ -1,0 +1,38 @@
+{
+  "parent": "Fiesta Jalisco Mexican Grill Parent",
+  "slug": "fiesta-jalisco-mexican-grill",
+  "total_headroom": "$22,900",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,960",
+  "employee_count": "12",
+  "non_ec_arr": "$1,776",
+  "state": "TN",
+  "city": "Smithville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mayala134@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Fiesta Jalisco Mexican Grill"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/Fiesta-Jalisco-Mexican-Grill-100068755315553/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/Fiesta-Jalisco-Mexican-Grill-100068755315553/": {
+      "url": "https://www.facebook.com/p/Fiesta-Jalisco-Mexican-Grill-100068755315553/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

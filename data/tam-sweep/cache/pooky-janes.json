@@ -1,0 +1,48 @@
+{
+  "parent": "Pooky Janes - Parent Account",
+  "slug": "pooky-janes",
+  "total_headroom": "$18,720",
+  "non_ec_headroom": "$18,720",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$5,211",
+  "state": "TN",
+  "city": "Old Hickory",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info.pookyjanes@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pooky Janes"
+  ],
+  "websites": [
+    "https://www.pookyjanes.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pookyjanes.com/": {
+      "url": "https://www.pookyjanes.com/",
+      "html_bytes": 189855,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pooky-janes-4957-lebanon-pike",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/pooky-janes-4957-lebanon-pike",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

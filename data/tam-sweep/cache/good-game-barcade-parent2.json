@@ -1,0 +1,41 @@
+{
+  "parent": "Good Game Barcade - Parent2",
+  "slug": "good-game-barcade-parent2",
+  "total_headroom": "$35,772",
+  "non_ec_headroom": "$35,772",
+  "est_ec_headroom": "$0",
+  "employee_count": "17",
+  "non_ec_arr": "$6,600",
+  "state": "TN",
+  "city": "Winchester",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "itsmeg.glenn@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Good Game Barcade",
+    "Neon Alley Arcade"
+  ],
+  "websites": [
+    "https://goodgametn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://goodgametn.com/": {
+      "url": "https://goodgametn.com/",
+      "html_bytes": 183334,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

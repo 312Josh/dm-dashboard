@@ -1,0 +1,38 @@
+{
+  "parent": "Churrasco Don Juan - Parent Account",
+  "slug": "churrasco-don-juan",
+  "total_headroom": "$21,444",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Smyrna",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "castellonluz31@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Churrasco Don Juan"
+  ],
+  "websites": [
+    "https://churrascodonjuantn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://churrascodonjuantn.com/": {
+      "url": "https://churrascodonjuantn.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

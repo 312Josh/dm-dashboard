@@ -1,0 +1,61 @@
+{
+  "parent": "Bavarian Bierhaus - Parent Account",
+  "slug": "bavarian-bierhaus",
+  "total_headroom": "$22,976",
+  "non_ec_headroom": "$13,344",
+  "est_ec_headroom": "$9,632",
+  "employee_count": "57",
+  "non_ec_arr": "$17,724",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bob@bierhausnashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Bavarian Bierhaus"
+  ],
+  "websites": [
+    "https://bavarianbierhaus.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bavarianbierhaus.com/": {
+      "url": "https://bavarianbierhaus.com/",
+      "html_bytes": 174253,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bavarian-bierhaus",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/bdb4b019-12e6-49eb-b350-061f334f1217",
+        "toast_gift": "toasttab.com/bavarian-bierhaus/giftcards",
+        "toast_loyalty": "toasttab.com/bavarian-bierhaus/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/bavarian-bierhaus",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/bdb4b019-12e6-49eb-b350-061f334f1217",
+    "toast_gift": "toasttab.com/bavarian-bierhaus/giftcards",
+    "toast_loyalty": "toasttab.com/bavarian-bierhaus/rewardsSignup"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

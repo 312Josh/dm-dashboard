@@ -1,0 +1,40 @@
+{
+  "parent": "Madison Elks Lodge",
+  "slug": "madison-elks-lodge",
+  "total_headroom": "$21,556",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$616",
+  "employee_count": "4",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Madison",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "acuna.jennifer@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Madison Elks Lodge"
+  ],
+  "websites": [
+    "https://www.elks2473.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.elks2473.com/": {
+      "url": "https://www.elks2473.com/",
+      "html_bytes": 2303,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

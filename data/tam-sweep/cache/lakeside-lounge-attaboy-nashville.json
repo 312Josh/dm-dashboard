@@ -1,0 +1,62 @@
+{
+  "parent": "Lakeside Lounge / Attaboy - Nashville",
+  "slug": "lakeside-lounge-attaboy-nashville",
+  "total_headroom": "$43,880",
+  "non_ec_headroom": "$40,380",
+  "est_ec_headroom": "$3,500",
+  "employee_count": "21",
+  "non_ec_arr": "$7,068",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "brandon.bramhall@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Lakeside Lounge",
+    "Attaboy - Nashville"
+  ],
+  "websites": [
+    "https://www.lakesideloungebna.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lakesideloungebna.com/": {
+      "url": "https://www.lakesideloungebna.com/",
+      "html_bytes": 142702,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lakeside-lounge-921-woodland-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.lakesideloungebna.com/menu": {
+      "url": "https://www.lakesideloungebna.com/menu",
+      "html_bytes": 133598,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lakeside-lounge-921-woodland-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/lakeside-lounge-921-woodland-st",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

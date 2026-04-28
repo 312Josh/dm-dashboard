@@ -1,0 +1,56 @@
+{
+  "parent": "Soy Cubano - Parent Account",
+  "slug": "soy-cubano",
+  "total_headroom": "$18,480",
+  "non_ec_headroom": "$18,480",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$2,430",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "eatsoycubano@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Soy Cubano"
+  ],
+  "websites": [
+    "https://eatsoycubano.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eatsoycubano.com/": {
+      "url": "https://eatsoycubano.com/",
+      "html_bytes": 252333,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://eatsoycubano.com/menu": {
+      "url": "https://eatsoycubano.com/menu",
+      "html_bytes": 171636,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

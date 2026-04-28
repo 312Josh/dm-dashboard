@@ -1,0 +1,48 @@
+{
+  "parent": "Last Call Bar & Grill",
+  "slug": "last-call-bar-grill",
+  "total_headroom": "$22,648",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,708",
+  "employee_count": "10",
+  "non_ec_arr": "$960",
+  "state": "TN",
+  "city": "Gallatin",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "talena37066@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Last Call Bar & Grill"
+  ],
+  "websites": [
+    "https://lastcallbargallatin.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lastcallbargallatin.com/": {
+      "url": "https://lastcallbargallatin.com/",
+      "html_bytes": 19233,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://lastcallbargallatin.com/menu": {
+      "url": "https://lastcallbargallatin.com/menu",
+      "html_bytes": 13434,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

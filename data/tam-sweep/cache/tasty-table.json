@@ -1,0 +1,54 @@
+{
+  "parent": "Tasty Table parent",
+  "slug": "tasty-table",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "33",
+  "non_ec_arr": "$1,248",
+  "state": "TN",
+  "city": "Smyrna",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "info@tastytable.net",
+  "location_count": 1,
+  "location_names": [
+    "Tasty Table Event Catering"
+  ],
+  "websites": [
+    "https://www.tastytable.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tastytable.net/": {
+      "url": "https://www.tastytable.net/",
+      "html_bytes": 399719,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.tastytable.net/menus": {
+      "url": "https://www.tastytable.net/menus",
+      "html_bytes": 202279,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

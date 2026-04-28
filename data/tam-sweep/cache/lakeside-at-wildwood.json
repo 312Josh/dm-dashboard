@@ -1,0 +1,50 @@
+{
+  "parent": "Lakeside at Wildwood",
+  "slug": "lakeside-at-wildwood",
+  "total_headroom": "$19,176",
+  "non_ec_headroom": "$14,304",
+  "est_ec_headroom": "$4,872",
+  "employee_count": "29",
+  "non_ec_arr": "$6,666",
+  "state": "TN",
+  "city": "Granville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "donna@wildwoodresorttn.com",
+  "location_count": 1,
+  "location_names": [
+    "Lakeside at Wildwood"
+  ],
+  "websites": [
+    "https://wildwoodresorttn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wildwoodresorttn.com/": {
+      "url": "https://wildwoodresorttn.com/",
+      "html_bytes": 223940,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/6391041c-3682-4ec6-92a4-6d976add0d57",
+        "toast_gift": "toasttab.com/wildwood/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/6391041c-3682-4ec6-92a4-6d976add0d57",
+    "toast_gift": "toasttab.com/wildwood/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

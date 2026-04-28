@@ -1,0 +1,70 @@
+{
+  "parent": "The Fainting Goat Cafe",
+  "slug": "the-fainting-goat-cafe",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$2,208",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "info@thefaintinggoatcafe.com",
+  "location_count": 1,
+  "location_names": [
+    "The Fainting Goat Cafe"
+  ],
+  "websites": [
+    "https://thefaintinggoatcafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thefaintinggoatcafe.com/": {
+      "url": "https://thefaintinggoatcafe.com/",
+      "html_bytes": 106562,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/thefaintinggoatcafe/giftcards"
+      }
+    },
+    "https://thefaintinggoatcafe.com/order-now": {
+      "url": "https://thefaintinggoatcafe.com/order-now",
+      "html_bytes": 99919,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/thefaintinggoatcafe/giftcards"
+      }
+    },
+    "https://thefaintinggoatcafe.com/menu": {
+      "url": "https://thefaintinggoatcafe.com/menu",
+      "html_bytes": 112764,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/thefaintinggoatcafe/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/thefaintinggoatcafe/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

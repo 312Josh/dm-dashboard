@@ -1,0 +1,45 @@
+{
+  "parent": "Samurai Sushi - Elliston",
+  "slug": "samurai-sushi-elliston",
+  "total_headroom": "$18,256",
+  "non_ec_headroom": "$17,892",
+  "est_ec_headroom": "$364",
+  "employee_count": "2",
+  "non_ec_arr": "$4,188",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nash2009@naver.com",
+  "location_count": 1,
+  "location_names": [
+    "Samurai Sushi - Elliston"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/samurai-sushi-midtown"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/samurai-sushi-midtown": {
+      "url": "https://order.toasttab.com/online/samurai-sushi-midtown",
+      "html_bytes": 5664,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

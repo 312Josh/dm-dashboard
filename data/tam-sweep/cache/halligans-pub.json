@@ -1,0 +1,38 @@
+{
+  "parent": "Halligans Pub- Parent Account",
+  "slug": "halligans-pub",
+  "total_headroom": "$11,244",
+  "non_ec_headroom": "$11,244",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$10,642",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "josh@jsdholdings.com",
+  "location_count": 1,
+  "location_names": [
+    "Halligans Pub"
+  ],
+  "websites": [
+    "https://www.halliganslex.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.halliganslex.com/": {
+      "url": "https://www.halliganslex.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

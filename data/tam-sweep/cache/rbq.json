@@ -1,0 +1,47 @@
+{
+  "parent": "RBQ - Parent Account",
+  "slug": "rbq",
+  "total_headroom": "$31,236",
+  "non_ec_headroom": "$31,236",
+  "est_ec_headroom": "$0",
+  "employee_count": "54",
+  "non_ec_arr": "$25,284",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "matt@stregabar.com",
+  "location_count": 2,
+  "location_names": [
+    "Strega 2025",
+    "RBQ"
+  ],
+  "websites": [
+    "https://www.rosemaryandbeautyqueen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.rosemaryandbeautyqueen.com/": {
+      "url": "https://www.rosemaryandbeautyqueen.com/",
+      "html_bytes": 254476,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/111451c0-a051-4070-80a3-3059b71e24bc"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/111451c0-a051-4070-80a3-3059b71e24bc"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "parent": "MFI Holdings",
+  "slug": "mfi-holdings",
+  "total_headroom": "$89,976",
+  "non_ec_headroom": "$79,140",
+  "est_ec_headroom": "$10,836",
+  "employee_count": "65",
+  "non_ec_arr": "$13,893",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "ryanfoster02@yahoo.com",
+  "location_count": 4,
+  "location_names": [
+    "On the Rox",
+    "The Ketch",
+    "The Roxy",
+    "Harper Hall"
+  ],
+  "websites": [
+    "https://www.ontheroxlex.com/",
+    "https://www.ketchseafoodlex.com/",
+    "https://www.harperhalllex.com/",
+    "https://www.toasttab.com/local/the-roxy-2-269-w-main-st-lexington-ky-9/r-6d13b858-bb2f-476a-a8f9-5692d8c3410b"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ontheroxlex.com/": {
+      "url": "https://www.ontheroxlex.com/",
+      "html_bytes": 148673,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.ketchseafoodlex.com/": {
+      "url": "https://www.ketchseafoodlex.com/",
+      "html_bytes": 303268,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.harperhalllex.com/": {
+      "url": "https://www.harperhalllex.com/",
+      "html_bytes": 627509,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.toasttab.com/local/the-roxy-2-269-w-main-st-lexington-ky-9/r-6d13b858-bb2f-476a-a8f9-5692d8c3410b": {
+      "url": "https://www.toasttab.com/local/the-roxy-2-269-w-main-st-lexington-ky-9/r-6d13b858-bb2f-476a-a8f9-5692d8c3410b",
+      "html_bytes": 5850,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "rox": "https://www.ontheroxlex.com/",
+    "ketch": "https://www.ketchseafoodlex.com/",
+    "harper hall": "https://www.harperhalllex.com/",
+    "roxy": "https://www.toasttab.com/local/the-roxy-2-269-w-main-st-lexington-ky-9/r-6d13b858-bb2f-476a-a8f9-5692d8c3410b"
+  }
+}

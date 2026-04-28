@@ -1,0 +1,53 @@
+{
+  "parent": "Goodness Gracious, LLC - Parent Account",
+  "slug": "goodness-gracious-llc",
+  "total_headroom": "$11,904",
+  "non_ec_headroom": "$11,904",
+  "est_ec_headroom": "$0",
+  "employee_count": "33",
+  "non_ec_arr": "$9,176",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nford5418@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Goodness Gracious, LLC"
+  ],
+  "websites": [
+    "https://ggboro.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ggboro.com/": {
+      "url": "https://ggboro.com/",
+      "html_bytes": 77282,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://ggboro.com/menu/": {
+      "url": "https://ggboro.com/menu/",
+      "html_bytes": 68609,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

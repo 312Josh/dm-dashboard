@@ -1,0 +1,29 @@
+{
+  "parent": "Crossroads Saloon - Parent Account",
+  "slug": "crossroads-saloon",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$4,620",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "howardavery17@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Crossroads Saloon"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "Crab Fever - Parent Account",
+  "slug": "crab-fever",
+  "total_headroom": "$20,652",
+  "non_ec_headroom": "$18,720",
+  "est_ec_headroom": "$1,932",
+  "employee_count": "12",
+  "non_ec_arr": "$8,760",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "hawa22dogbey@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Crab Fever"
+  ],
+  "websites": [
+    "https://crabfever.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://crabfever.com/": {
+      "url": "https://crabfever.com/",
+      "html_bytes": 5489,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

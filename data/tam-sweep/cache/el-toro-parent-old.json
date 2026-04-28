@@ -1,0 +1,43 @@
+{
+  "parent": "El Toro - Parent old",
+  "slug": "el-toro-parent-old",
+  "total_headroom": "$13,884",
+  "non_ec_headroom": "$13,884",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$8,868",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "devindrampatel@gmaill.com",
+  "location_count": 1,
+  "location_names": [
+    "El Toro"
+  ],
+  "websites": [
+    "https://eltoromurfreesboro.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eltoromurfreesboro.com/": {
+      "url": "https://eltoromurfreesboro.com/",
+      "html_bytes": 5541,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

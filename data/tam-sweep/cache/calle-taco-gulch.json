@@ -1,0 +1,43 @@
+{
+  "parent": "Calle Taco Gulch - Parent Account",
+  "slug": "calle-taco-gulch",
+  "total_headroom": "$19,232",
+  "non_ec_headroom": "$17,832",
+  "est_ec_headroom": "$1,400",
+  "employee_count": "8",
+  "non_ec_arr": "$5,968",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "chefalfredonegrete@icloud.com",
+  "location_count": 1,
+  "location_names": [
+    "Calle Pizza Gulch"
+  ],
+  "websites": [
+    "https://thecalletaco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thecalletaco.com/": {
+      "url": "https://thecalletaco.com/",
+      "html_bytes": 5492,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

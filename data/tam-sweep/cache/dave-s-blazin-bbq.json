@@ -1,0 +1,45 @@
+{
+  "parent": "Dave's Blazin BBQ - Parent Account",
+  "slug": "dave-s-blazin-bbq",
+  "total_headroom": "$18,720",
+  "non_ec_headroom": "$18,720",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$3,540",
+  "state": "KY",
+  "city": "Georgetown",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "davesblazinbbq@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Dave's Blazin BBQ"
+  ],
+  "websites": [
+    "https://davesblazinbbqky.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://davesblazinbbqky.com/": {
+      "url": "https://davesblazinbbqky.com/",
+      "html_bytes": 139733,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

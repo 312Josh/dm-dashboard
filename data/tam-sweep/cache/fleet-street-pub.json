@@ -1,0 +1,49 @@
+{
+  "parent": "Fleet Street Pub",
+  "slug": "fleet-street-pub",
+  "total_headroom": "$17,292",
+  "non_ec_headroom": "$17,292",
+  "est_ec_headroom": "$0",
+  "employee_count": "25",
+  "non_ec_arr": "$2,826",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ian@fleetstreetpub.com",
+  "location_count": 1,
+  "location_names": [
+    "Fleet Street Pub"
+  ],
+  "websites": [
+    "https://www.fleetstreetpub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fleetstreetpub.com/": {
+      "url": "https://www.fleetstreetpub.com/",
+      "html_bytes": 680732,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/fleet-street-pub",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/fleet-street-pub",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

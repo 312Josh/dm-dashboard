@@ -1,0 +1,65 @@
+{
+  "parent": "Prince's - Tanger Outlets - Parent Account",
+  "slug": "prince-s-tanger-outlets",
+  "total_headroom": "$16,884",
+  "non_ec_headroom": "$11,172",
+  "est_ec_headroom": "$5,712",
+  "employee_count": "34",
+  "non_ec_arr": "$11,065",
+  "state": "TN",
+  "city": "Antioch",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mariohambrick@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Prince's - Tanger Outlets"
+  ],
+  "websites": [
+    "https://www.princeshotchicken.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.princeshotchicken.com/": {
+      "url": "https://www.princeshotchicken.com/",
+      "html_bytes": 162206,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.princeshotchicken.com/menu": {
+      "url": "https://www.princeshotchicken.com/menu",
+      "html_bytes": 196296,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.princeshotchicken.com/order-online": {
+      "url": "https://www.princeshotchicken.com/order-online",
+      "html_bytes": 153836,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

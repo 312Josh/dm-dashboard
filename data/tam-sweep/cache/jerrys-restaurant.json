@@ -1,0 +1,43 @@
+{
+  "parent": "Jerrys Restaurant - Parent Account",
+  "slug": "jerrys-restaurant",
+  "total_headroom": "$24,204",
+  "non_ec_headroom": "$16,140",
+  "est_ec_headroom": "$8,064",
+  "employee_count": "48",
+  "non_ec_arr": "$9,229",
+  "state": "KY",
+  "city": "Paris",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kycentralmanagement@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Jerrys Restaurant"
+  ],
+  "websites": [
+    "https://jerrysofparis.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://jerrysofparis.com/": {
+      "url": "https://jerrysofparis.com/",
+      "html_bytes": 114315,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

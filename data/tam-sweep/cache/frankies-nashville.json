@@ -1,0 +1,73 @@
+{
+  "parent": "Frankies Nashville - Parent Account",
+  "slug": "frankies-nashville",
+  "total_headroom": "$35,136",
+  "non_ec_headroom": "$35,136",
+  "est_ec_headroom": "$0",
+  "employee_count": "47",
+  "non_ec_arr": "$7,807",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "john@franjiesnashville.com",
+  "location_count": 2,
+  "location_names": [
+    "Frankies Arcade",
+    "Frankies Nashville"
+  ],
+  "websites": [
+    "https://www.frankiesnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.frankiesnashville.com/": {
+      "url": "https://www.frankiesnashville.com/",
+      "html_bytes": 46453,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/frankies-nashville-925-cherokee-ave/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.frankiesnashville.com/menus/": {
+      "url": "https://www.frankiesnashville.com/menus/",
+      "html_bytes": 100393,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/frankies-nashville-925-cherokee-ave/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_gift": "toasttab.com/frankies-nashville-925-cherokee-ave/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "doordash",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

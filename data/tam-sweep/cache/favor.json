@@ -1,0 +1,54 @@
+{
+  "parent": "Favor Parent",
+  "slug": "favor",
+  "total_headroom": "$20,040",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$1,020",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "wyatt@beyondbouillon.com",
+  "location_count": 1,
+  "location_names": [
+    "Favor"
+  ],
+  "websites": [
+    "https://www.eatfavor.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatfavor.com/": {
+      "url": "https://www.eatfavor.com/",
+      "html_bytes": 156098,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.eatfavor.com/reservations": {
+      "url": "https://www.eatfavor.com/reservations",
+      "html_bytes": 106638,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

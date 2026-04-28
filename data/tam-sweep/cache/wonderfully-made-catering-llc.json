@@ -1,0 +1,40 @@
+{
+  "parent": "Wonderfully Made Catering LLC",
+  "slug": "wonderfully-made-catering-llc",
+  "total_headroom": "$18,108",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Smyrna",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "wonderfullymadecatering@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Wonderfully Made Catering LLC"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/wonderfully-made-catering-llc-479-w-sam-ridley-pkwy-ste-105-pmb-319"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/wonderfully-made-catering-llc-479-w-sam-ridley-pkwy-ste-105-pmb-319": {
+      "url": "https://order.toasttab.com/online/wonderfully-made-catering-llc-479-w-sam-ridley-pkwy-ste-105-pmb-319",
+      "html_bytes": 5866,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

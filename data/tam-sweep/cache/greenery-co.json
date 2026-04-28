@@ -1,0 +1,76 @@
+{
+  "parent": "Greenery Co",
+  "slug": "greenery-co",
+  "total_headroom": "$24,864",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$5,124",
+  "employee_count": "31",
+  "non_ec_arr": "$1,548",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Unknown",
+  "contact_email": "caroline@greeneryco.com",
+  "location_count": 1,
+  "location_names": [
+    "Greenery Co"
+  ],
+  "websites": [
+    "https://www.greeneryco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.greeneryco.com/": {
+      "url": "https://www.greeneryco.com/",
+      "html_bytes": 227296,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "loyalty": "Incentivio",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.incentivio.com/"
+      }
+    },
+    "https://www.greeneryco.com/menus": {
+      "url": "https://www.greeneryco.com/menus",
+      "html_bytes": 122397,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "loyalty": "Incentivio",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.incentivio.com/"
+      }
+    },
+    "https://www.greeneryco.com/giftcards": {
+      "url": "https://www.greeneryco.com/giftcards",
+      "html_bytes": 143846,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "loyalty": "Incentivio",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.incentivio.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.incentivio.com/"
+  },
+  "marketplaces": [
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

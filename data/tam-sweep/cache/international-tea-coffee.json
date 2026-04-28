@@ -1,0 +1,41 @@
+{
+  "parent": "International Tea & Coffee",
+  "slug": "international-tea-coffee",
+  "total_headroom": "$17,100",
+  "non_ec_headroom": "$17,100",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$3,600",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "intlteaandcoffeeco@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "International Tea & Coffee - Nashville"
+  ],
+  "websites": [
+    "https://www.intlteaandcoffeeco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.intlteaandcoffeeco.com/": {
+      "url": "https://www.intlteaandcoffeeco.com/",
+      "html_bytes": 131346,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

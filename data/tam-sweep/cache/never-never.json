@@ -1,0 +1,45 @@
+{
+  "parent": "Never Never- Parent",
+  "slug": "never-never",
+  "total_headroom": "$41,052",
+  "non_ec_headroom": "$41,052",
+  "est_ec_headroom": "$0",
+  "employee_count": "28",
+  "non_ec_arr": "$2,448",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "bryan.kenney@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Never Never",
+    "Reunion"
+  ],
+  "websites": [
+    "https://www.nevernevernashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.nevernevernashville.com/": {
+      "url": "https://www.nevernevernashville.com/",
+      "html_bytes": 215946,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

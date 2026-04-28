@@ -1,0 +1,71 @@
+{
+  "parent": "Noko - Parent Account",
+  "slug": "noko",
+  "total_headroom": "$34,752",
+  "non_ec_headroom": "$34,752",
+  "est_ec_headroom": "$0",
+  "employee_count": "48",
+  "non_ec_arr": "$9,957",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jmurray@nokonashville.com",
+  "location_count": 2,
+  "location_names": [
+    "Kase",
+    "Noko"
+  ],
+  "websites": [
+    "https://www.nokonashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.nokonashville.com/": {
+      "url": "https://www.nokonashville.com/",
+      "html_bytes": 36407,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/noko",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/noko/giftcards"
+      }
+    },
+    "https://www.nokonashville.com/menus/": {
+      "url": "https://www.nokonashville.com/menus/",
+      "html_bytes": 174747,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/noko",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/noko/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/noko",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/noko/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

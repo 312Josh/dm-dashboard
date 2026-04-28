@@ -1,0 +1,38 @@
+{
+  "parent": "Sterling MicroBrew LLC",
+  "slug": "sterling-microbrew-llc",
+  "total_headroom": "$17,892",
+  "non_ec_headroom": "$17,892",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$4,774",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "vtorreshorsevet71@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Black Type Brewing"
+  ],
+  "websites": [
+    "https://www.facebook.com/sterlingmicrobrew/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/sterlingmicrobrew/": {
+      "url": "https://www.facebook.com/sterlingmicrobrew/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

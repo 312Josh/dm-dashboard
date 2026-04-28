@@ -1,0 +1,43 @@
+{
+  "parent": "Project 2231",
+  "slug": "project-2231",
+  "total_headroom": "$30,936",
+  "non_ec_headroom": "$30,936",
+  "est_ec_headroom": "$0",
+  "employee_count": "157",
+  "non_ec_arr": "$41,832",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "accounts@project2231.com",
+  "location_count": 3,
+  "location_names": [
+    "Miss Lucille's Cafe",
+    "Dock 17",
+    "Varsity Pins"
+  ],
+  "websites": [
+    "https://project2231.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://project2231.com/": {
+      "url": "https://project2231.com/",
+      "html_bytes": 173183,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

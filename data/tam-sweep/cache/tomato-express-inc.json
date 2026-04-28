@@ -1,0 +1,44 @@
+{
+  "parent": "Tomato Express Inc.",
+  "slug": "tomato-express-inc",
+  "total_headroom": "$168,234",
+  "non_ec_headroom": "$111,024",
+  "est_ec_headroom": "$57,210",
+  "employee_count": "341",
+  "non_ec_arr": "$60,849",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kuni.toyoda@icloud.co",
+  "location_count": 7,
+  "location_names": [
+    "Bella Notte",
+    "Bella Cafe & Grill 2",
+    "Bella Cafe & Grille - Hamburg",
+    "Bella Cafe and Grill",
+    "Crust - Beaumont",
+    "Smashing Tomato - Nicholasville Road",
+    "Smashing Tomato - Hamburg"
+  ],
+  "websites": [
+    "https://tomatoexpress.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tomatoexpress.net/": {
+      "url": "https://tomatoexpress.net/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

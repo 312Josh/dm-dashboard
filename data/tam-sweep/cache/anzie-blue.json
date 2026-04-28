@@ -1,0 +1,43 @@
+{
+  "parent": "ANZIE BLUE - Parent Account",
+  "slug": "anzie-blue",
+  "total_headroom": "$21,544",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$1,204",
+  "employee_count": "7",
+  "non_ec_arr": "$1,847",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "marcie@toasttab.com",
+  "location_count": 1,
+  "location_names": [
+    "ANZIE BLUE"
+  ],
+  "websites": [
+    "https://www.anzieblue.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.anzieblue.com/": {
+      "url": "https://www.anzieblue.com/",
+      "html_bytes": 131590,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

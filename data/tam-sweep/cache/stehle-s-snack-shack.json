@@ -1,0 +1,40 @@
+{
+  "parent": "Stehle's Snack Shack",
+  "slug": "stehle-s-snack-shack",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$420",
+  "state": "TN",
+  "city": "Pleasant View",
+  "restaurant_type": "Unknown",
+  "contact_email": "stehlessnackshack@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Stehle's Snack Shack"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/stehles-snack-shack-1114-shahan-rd/r-4ef10967-6e58-4eec-a7b9-787cc915161e"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/stehles-snack-shack-1114-shahan-rd/r-4ef10967-6e58-4eec-a7b9-787cc915161e": {
+      "url": "https://www.toasttab.com/local/stehles-snack-shack-1114-shahan-rd/r-4ef10967-6e58-4eec-a7b9-787cc915161e",
+      "html_bytes": 5835,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

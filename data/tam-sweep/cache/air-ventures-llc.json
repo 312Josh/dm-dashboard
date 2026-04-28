@@ -1,0 +1,40 @@
+{
+  "parent": "Air Ventures LLC",
+  "slug": "air-ventures-llc",
+  "total_headroom": "$18,304",
+  "non_ec_headroom": "$16,092",
+  "est_ec_headroom": "$2,212",
+  "employee_count": "13",
+  "non_ec_arr": "$900",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ghwalker4@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Nashville - Barista Parlor"
+  ],
+  "websites": [
+    "https://airventures.shaycreations.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://airventures.shaycreations.com/": {
+      "url": "https://airventures.shaycreations.com/",
+      "html_bytes": 59820,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

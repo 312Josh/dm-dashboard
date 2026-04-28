@@ -1,0 +1,59 @@
+{
+  "parent": "Trap House Wingz - Parent Account",
+  "slug": "trap-house-wingz",
+  "total_headroom": "$19,860",
+  "non_ec_headroom": "$19,860",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$3,990",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "traphousewingz@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Trap House Wingz"
+  ],
+  "websites": [
+    "https://www.traphousewingztn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.traphousewingztn.com/": {
+      "url": "https://www.traphousewingztn.com/",
+      "html_bytes": 36757,
+      "fingerprints": {
+        "oo": "Menufy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.TraphousewingzTN.com/order": {
+      "url": "https://www.TraphousewingzTN.com/order",
+      "html_bytes": 28102,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    },
+    "https://www.traphousewingztn.com/order": {
+      "url": "https://www.traphousewingztn.com/order",
+      "html_bytes": 28102,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

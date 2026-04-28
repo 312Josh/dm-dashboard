@@ -1,0 +1,38 @@
+{
+  "parent": "Parksville Restaurant - Parent Account",
+  "slug": "parksville-restaurant",
+  "total_headroom": "$17,604",
+  "non_ec_headroom": "$17,604",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$4,082",
+  "state": "KY",
+  "city": "Danville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "rayrestaurantgroup@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "Parksville Restaurant"
+  ],
+  "websites": [
+    "https://parksvillerestaurant.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://parksvillerestaurant.toast.site/": {
+      "url": "https://parksvillerestaurant.toast.site/",
+      "html_bytes": 5571,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

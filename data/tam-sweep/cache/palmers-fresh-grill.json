@@ -1,0 +1,55 @@
+{
+  "parent": "Palmers Fresh Grill - Parent Account",
+  "slug": "palmers-fresh-grill",
+  "total_headroom": "$15,744",
+  "non_ec_headroom": "$15,744",
+  "est_ec_headroom": "$0",
+  "employee_count": "45",
+  "non_ec_arr": "$13,248",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sdavidson@langleyproperty.com",
+  "location_count": 1,
+  "location_names": [
+    "Palmers Fresh Grill"
+  ],
+  "websites": [
+    "https://www.palmersfreshgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.palmersfreshgrill.com/": {
+      "url": "https://www.palmersfreshgrill.com/",
+      "html_bytes": 241544,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.palmersfreshgrill.com/menu/": {
+      "url": "https://www.palmersfreshgrill.com/menu/",
+      "html_bytes": 921860,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "parent": "Versailles Brewing Company Restaurant, LLC Parent",
+  "slug": "versailles-brewing-company-restaurant-llc",
+  "total_headroom": "$23,972",
+  "non_ec_headroom": "$18,540",
+  "est_ec_headroom": "$5,432",
+  "employee_count": "32",
+  "non_ec_arr": "$3,831",
+  "state": "KY",
+  "city": "Versailles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gjones1028@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Versailles Brewing Company Restaurant, LLC"
+  ],
+  "websites": [
+    "https://www.vbctaproom.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.vbctaproom.com/": {
+      "url": "https://www.vbctaproom.com/",
+      "html_bytes": 902906,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/versailles-brewing-company-restaurant-llc-513-marsailles-rd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/versailles-brewing-company-restaurant-llc-513-marsailles-rd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

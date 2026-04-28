@@ -1,0 +1,55 @@
+{
+  "parent": "Proper Bagel",
+  "slug": "proper-bagel",
+  "total_headroom": "$18,944",
+  "non_ec_headroom": "$16,620",
+  "est_ec_headroom": "$2,324",
+  "employee_count": "14",
+  "non_ec_arr": "$4,718",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "marcy@properbagel.com",
+  "location_count": 1,
+  "location_names": [
+    "Proper Bagel"
+  ],
+  "websites": [
+    "https://properbagel.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://properbagel.com/": {
+      "url": "https://properbagel.com/",
+      "html_bytes": 24151,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.ubereats.com/",
+        "toast_gift": "toasttab.com/proper-bagel/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.ubereats.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.ubereats.com/",
+    "toast_gift": "toasttab.com/proper-bagel/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.ubereats.com + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

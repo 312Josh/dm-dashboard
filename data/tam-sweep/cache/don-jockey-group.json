@@ -1,0 +1,55 @@
+{
+  "parent": "Don Jockey Group",
+  "slug": "don-jockey-group",
+  "total_headroom": "$45,180",
+  "non_ec_headroom": "$38,880",
+  "est_ec_headroom": "$6,300",
+  "employee_count": "38",
+  "non_ec_arr": "$4,974",
+  "state": "KY",
+  "city": "Frankfort",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jfalvarez2010@hotmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Garcia's Mexican Restaurant",
+    "Don Jockey's"
+  ],
+  "websites": [
+    "https://www.donjockey.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.donjockey.com/": {
+      "url": "https://www.donjockey.com/",
+      "html_bytes": 191600,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.donjockey.com/menu": {
+      "url": "https://www.donjockey.com/menu",
+      "html_bytes": 106076,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "Jeb House - Parent",
+  "slug": "jeb-house",
+  "total_headroom": "$13,464",
+  "non_ec_headroom": "$13,464",
+  "est_ec_headroom": "$0",
+  "employee_count": "31",
+  "non_ec_arr": "$10,290",
+  "state": "TN",
+  "city": "Shelbyville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "jeb@glasshollowtable.com",
+  "location_count": 1,
+  "location_names": [
+    "Glass Hollow Table and Tavern"
+  ],
+  "websites": [
+    "https://goodnewsmags.com/shelbyville/jeb-house-preserving-the-past-embracing-the-future/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://goodnewsmags.com/shelbyville/jeb-house-preserving-the-past-embracing-the-future/": {
+      "url": "https://goodnewsmags.com/shelbyville/jeb-house-preserving-the-past-embracing-the-future/",
+      "html_bytes": 866346,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "Monos Coffee Crafters LLC",
+  "slug": "monos-coffee-crafters-llc",
+  "total_headroom": "$21,780",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$840",
+  "employee_count": "5",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Nicholasville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "thehobbitmonk@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Monos Coffee Crafters LLC"
+  ],
+  "websites": [
+    "https://monoscoffeecrafters.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://monoscoffeecrafters.com/": {
+      "url": "https://monoscoffeecrafters.com/",
+      "html_bytes": 4377,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

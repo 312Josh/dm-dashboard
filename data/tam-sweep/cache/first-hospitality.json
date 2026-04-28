@@ -1,0 +1,58 @@
+{
+  "parent": "First Hospitality",
+  "slug": "first-hospitality",
+  "total_headroom": "$52,486",
+  "non_ec_headroom": "$45,360",
+  "est_ec_headroom": "$7,126",
+  "employee_count": "43",
+  "non_ec_arr": "$21,530",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "jsegebrecht@firsthospitality.com",
+  "location_count": 3,
+  "location_names": [
+    "Hutton Hotel - Banquet",
+    "Hutton Hotel - Evelyns",
+    "Hutton Hotel - Analog"
+  ],
+  "websites": [
+    "https://twentyfirstnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://twentyfirstnashville.com/": {
+      "url": "https://twentyfirstnashville.com/",
+      "html_bytes": 123488,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/twenty-first/giftcards"
+      }
+    },
+    "https://twentyfirstnashville.com/reservations": {
+      "url": "https://twentyfirstnashville.com/reservations",
+      "html_bytes": 90412,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/twenty-first/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/twenty-first/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Sazon Latino & Bar - Parent Account",
+  "slug": "sazon-latino-bar",
+  "total_headroom": "$20,112",
+  "non_ec_headroom": "$19,860",
+  "est_ec_headroom": "$252",
+  "employee_count": "2",
+  "non_ec_arr": "$1,800",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "sazonlatinoandbar@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sazon Latino & Bar"
+  ],
+  "websites": [
+    "https://www.facebook.com/sazonlatinoandbar/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/sazonlatinoandbar/": {
+      "url": "https://www.facebook.com/sazonlatinoandbar/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

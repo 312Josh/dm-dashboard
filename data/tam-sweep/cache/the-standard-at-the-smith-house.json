@@ -1,0 +1,50 @@
+{
+  "parent": "The Standard At The Smith House Parent",
+  "slug": "the-standard-at-the-smith-house",
+  "total_headroom": "$15,492",
+  "non_ec_headroom": "$15,492",
+  "est_ec_headroom": "$0",
+  "employee_count": "35",
+  "non_ec_arr": "$7,529",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "joshua@smithhousenashville.com",
+  "location_count": 1,
+  "location_names": [
+    "The Standard At The Smith House"
+  ],
+  "websites": [
+    "https://smithhousenashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://smithhousenashville.com/": {
+      "url": "https://smithhousenashville.com/",
+      "html_bytes": 122386,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-standard-at-the-smith-house/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-standard-at-the-smith-house/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

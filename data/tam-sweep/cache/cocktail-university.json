@@ -1,0 +1,40 @@
+{
+  "parent": "Cocktail University - Parent Account",
+  "slug": "cocktail-university",
+  "total_headroom": "$19,320",
+  "non_ec_headroom": "$19,152",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,627",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "greg@cocktailuniversity.com",
+  "location_count": 1,
+  "location_names": [
+    "Cocktail University"
+  ],
+  "websites": [
+    "https://cocktailuniversity.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cocktailuniversity.com/": {
+      "url": "https://cocktailuniversity.com/",
+      "html_bytes": 111942,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

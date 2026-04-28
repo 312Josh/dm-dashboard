@@ -1,0 +1,40 @@
+{
+  "parent": "Kroo Llc - Parent Account",
+  "slug": "kroo-llc",
+  "total_headroom": "$20,612",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$1,652",
+  "employee_count": "10",
+  "non_ec_arr": "$2,850",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "dkkimjoohan@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Jibbop Korean Grill"
+  ],
+  "websites": [
+    "https://www.fivestars.com/biz/tn/clarksville/restaurant/kroo/899608427/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fivestars.com/biz/tn/clarksville/restaurant/kroo/899608427/": {
+      "url": "https://www.fivestars.com/biz/tn/clarksville/restaurant/kroo/899608427/",
+      "html_bytes": 2935,
+      "fingerprints": {
+        "loyalty": "Fivestars"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

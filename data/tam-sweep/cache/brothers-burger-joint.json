@@ -1,0 +1,52 @@
+{
+  "parent": "Brothers Burger Joint - Parent Account",
+  "slug": "brothers-burger-joint",
+  "total_headroom": "$20,180",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$2,240",
+  "employee_count": "13",
+  "non_ec_arr": "$4,704",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jeremiah.james1028@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Brothers Burger Joint"
+  ],
+  "websites": [
+    "https://brothersburgerjoint.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://brothersburgerjoint.com/": {
+      "url": "https://brothersburgerjoint.com/",
+      "html_bytes": 169473,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {}
+    },
+    "https://brothersburgerjoint.com/menu": {
+      "url": "https://brothersburgerjoint.com/menu",
+      "html_bytes": 91480,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

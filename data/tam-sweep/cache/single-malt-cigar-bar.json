@@ -1,0 +1,55 @@
+{
+  "parent": "Single Malt Cigar Bar - Parent Account",
+  "slug": "single-malt-cigar-bar",
+  "total_headroom": "$15,972",
+  "non_ec_headroom": "$15,972",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$7,602",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "ritesh914@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Single Malt Cigar Bar - Nashville"
+  ],
+  "websites": [
+    "https://www.singlemaltcigarbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.singlemaltcigarbar.com/": {
+      "url": "https://www.singlemaltcigarbar.com/",
+      "html_bytes": 751909,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.singlemaltcigarbar.com/bookings": {
+      "url": "https://www.singlemaltcigarbar.com/bookings",
+      "html_bytes": 861520,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

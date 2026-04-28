@@ -1,0 +1,38 @@
+{
+  "parent": "Robin's Place - Parent Account",
+  "slug": "robin-s-place",
+  "total_headroom": "$24,724",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$4,984",
+  "employee_count": "30",
+  "non_ec_arr": "$2,586",
+  "state": "KY",
+  "city": "Winchester",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "crumpaubrey@att.net",
+  "location_count": 1,
+  "location_names": [
+    "Robin's Place"
+  ],
+  "websites": [
+    "https://www.facebook.com/robinsplacewincity/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/robinsplacewincity/": {
+      "url": "https://www.facebook.com/robinsplacewincity/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

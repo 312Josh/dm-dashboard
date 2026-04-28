@@ -1,0 +1,42 @@
+{
+  "parent": "1824 - Parent Account",
+  "slug": "1824",
+  "total_headroom": "$16,032",
+  "non_ec_headroom": "$16,032",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$7,188",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "brittneyfinn@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "1824 NEW"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/1824-new-1824-jefferson-street"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/1824-new-1824-jefferson-street": {
+      "url": "https://www.toasttab.com/local/order/1824-new-1824-jefferson-street",
+      "html_bytes": 5682,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

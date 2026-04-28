@@ -1,0 +1,65 @@
+{
+  "parent": "Tin Cup Coffee",
+  "slug": "tin-cup-coffee",
+  "total_headroom": "$35,280",
+  "non_ec_headroom": "$35,280",
+  "est_ec_headroom": "$0",
+  "employee_count": "15",
+  "non_ec_arr": "$6,960",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ned@hortonproerties.com",
+  "location_count": 2,
+  "location_names": [
+    "Tin Cup Coffee - Vandy",
+    "Tin Cup Coffee - Gulch"
+  ],
+  "websites": [
+    "https://www.tincup.coffee/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tincup.coffee/": {
+      "url": "https://www.tincup.coffee/",
+      "html_bytes": 243403,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tin-cup-coffee-gulch-1201-demonbreun-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.tincup.coffee/menu/": {
+      "url": "https://www.tincup.coffee/menu/",
+      "html_bytes": 181028,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tin-cup-coffee-gulch-1201-demonbreun-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/tin-cup-coffee-gulch-1201-demonbreun-street",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

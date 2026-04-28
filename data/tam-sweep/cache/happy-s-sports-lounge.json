@@ -1,0 +1,48 @@
+{
+  "parent": "Happy's Sports Lounge Parent",
+  "slug": "happy-s-sports-lounge",
+  "total_headroom": "$19,680",
+  "non_ec_headroom": "$19,680",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$4,080",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "brad.leeman@happyssports.com",
+  "location_count": 1,
+  "location_names": [
+    "Happy's Sports Lounge"
+  ],
+  "websites": [
+    "https://www.happystn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.happystn.com/": {
+      "url": "https://www.happystn.com/",
+      "html_bytes": 1008718,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.happystn.com/menu": {
+      "url": "https://www.happystn.com/menu",
+      "html_bytes": 653398,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

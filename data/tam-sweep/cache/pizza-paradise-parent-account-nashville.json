@@ -1,0 +1,44 @@
+{
+  "parent": "Pizza Paradise - Parent Account NASHVILLE",
+  "slug": "pizza-paradise-parent-account-nashville",
+  "total_headroom": "$33,240",
+  "non_ec_headroom": "$32,064",
+  "est_ec_headroom": "$1,176",
+  "employee_count": "7",
+  "non_ec_arr": "$10,581",
+  "state": "TN",
+  "city": "Antioch",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "srculinary@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Pizza Paradise",
+    "The Hoppery"
+  ],
+  "websites": [
+    "https://www.pizzaparadiseantioch.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pizzaparadiseantioch.com/": {
+      "url": "https://www.pizzaparadiseantioch.com/",
+      "html_bytes": 214192,
+      "fingerprints": {
+        "oo": "Slice"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

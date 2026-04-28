@@ -1,0 +1,38 @@
+{
+  "parent": "VFW Post 4895 - Parent Account",
+  "slug": "vfw-post-4895",
+  "total_headroom": "$21,976",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,036",
+  "employee_count": "6",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "vfw4895@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "VFW Post 4895"
+  ],
+  "websites": [
+    "https://clarksvillevfw.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://clarksvillevfw.com/": {
+      "url": "https://clarksvillevfw.com/",
+      "html_bytes": 55197,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "Mirror Twin Parent",
+  "slug": "mirror-twin",
+  "total_headroom": "$61,620",
+  "non_ec_headroom": "$61,620",
+  "est_ec_headroom": "$0",
+  "employee_count": "45",
+  "non_ec_arr": "$10,814",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "mike@mirrortwinbrewing.com",
+  "location_count": 4,
+  "location_names": [
+    "The Annex",
+    "Mirror Twin Brewing - 723",
+    "Mirror Twin Brewing- 725",
+    "Mirror Twin- Harrodsburg Rd"
+  ],
+  "websites": [
+    "https://mirrortwinbrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mirrortwinbrewing.com/": {
+      "url": "https://mirrortwinbrewing.com/",
+      "html_bytes": 32747,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/mirror-twin-brewing/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/mirror-twin-brewing/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

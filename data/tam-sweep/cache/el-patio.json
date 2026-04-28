@@ -1,0 +1,41 @@
+{
+  "parent": "El Patio - Parent Account",
+  "slug": "el-patio",
+  "total_headroom": "$40,364",
+  "non_ec_headroom": "$37,620",
+  "est_ec_headroom": "$2,744",
+  "employee_count": "17",
+  "non_ec_arr": "$11,466",
+  "state": "KY",
+  "city": "Paris",
+  "restaurant_type": "Unknown",
+  "contact_email": "gzam123@icloud.com",
+  "location_count": 2,
+  "location_names": [
+    "El Patio - Paris",
+    "El Patio"
+  ],
+  "websites": [
+    "https://elpatiorestaurantky.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://elpatiorestaurantky.com/": {
+      "url": "https://elpatiorestaurantky.com/",
+      "html_bytes": 14455,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

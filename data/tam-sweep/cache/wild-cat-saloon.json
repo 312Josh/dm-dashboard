@@ -1,0 +1,41 @@
+{
+  "parent": "Wild Cat Saloon - Parent Account",
+  "slug": "wild-cat-saloon",
+  "total_headroom": "$22,508",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,568",
+  "employee_count": "9",
+  "non_ec_arr": "$1,548",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "pellio4088@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Wild Cat Saloon"
+  ],
+  "websites": [
+    "https://wildcatsaloon.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wildcatsaloon.com/": {
+      "url": "https://wildcatsaloon.com/",
+      "html_bytes": 131148,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

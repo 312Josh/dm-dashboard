@@ -1,0 +1,43 @@
+{
+  "parent": "Selma's - Parent Account",
+  "slug": "selma-s",
+  "total_headroom": "$16,304",
+  "non_ec_headroom": "$16,080",
+  "est_ec_headroom": "$224",
+  "employee_count": "1",
+  "non_ec_arr": "$4,035",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "wes@hunsicker.co",
+  "location_count": 1,
+  "location_names": [
+    "Selma's"
+  ],
+  "websites": [
+    "https://www.selmascatering.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.selmascatering.com/": {
+      "url": "https://www.selmascatering.com/",
+      "html_bytes": 476997,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

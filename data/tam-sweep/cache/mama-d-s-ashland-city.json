@@ -1,0 +1,40 @@
+{
+  "parent": "Mama D's Ashland City - Parent Account",
+  "slug": "mama-d-s-ashland-city",
+  "total_headroom": "$21,000",
+  "non_ec_headroom": "$19,152",
+  "est_ec_headroom": "$1,848",
+  "employee_count": "11",
+  "non_ec_arr": "$3,408",
+  "state": "TN",
+  "city": "Ashland City",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mamads2021@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Mama D's Ashland City"
+  ],
+  "websites": [
+    "https://www.facebook.com/MamaDsHomecooking/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/MamaDsHomecooking/": {
+      "url": "https://www.facebook.com/MamaDsHomecooking/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

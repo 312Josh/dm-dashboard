@@ -1,0 +1,66 @@
+{
+  "parent": "Middle Ground Brewery - Parent Account",
+  "slug": "middle-ground-brewery",
+  "total_headroom": "$17,580",
+  "non_ec_headroom": "$17,580",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$4,116",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "brandonbingman@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Middle Ground Brewery"
+  ],
+  "websites": [
+    "https://www.middlegroundbrew.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.middlegroundbrew.com/": {
+      "url": "https://www.middlegroundbrew.com/",
+      "html_bytes": 459597,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/middle-ground-brewery-2476-old-fort-pkwy",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/middle-ground-brewery-2476-old-fort-pkwy/giftcards"
+      }
+    },
+    "https://www.middlegroundbrew.com/book-an-event-with-us": {
+      "url": "https://www.middlegroundbrew.com/book-an-event-with-us",
+      "html_bytes": 495476,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/middle-ground-brewery-2476-old-fort-pkwy",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/middle-ground-brewery-2476-old-fort-pkwy/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/middle-ground-brewery-2476-old-fort-pkwy",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/middle-ground-brewery-2476-old-fort-pkwy/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

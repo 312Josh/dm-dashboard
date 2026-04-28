@@ -1,0 +1,62 @@
+{
+  "parent": "Timberloft Spud & Butter - Parent Account",
+  "slug": "timberloft-spud-butter",
+  "total_headroom": "$13,452",
+  "non_ec_headroom": "$13,116",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$7,905",
+  "state": "TN",
+  "city": "Mount Juliet",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "timberloft@live.com",
+  "location_count": 1,
+  "location_names": [
+    "Timberloft Spud & Butter"
+  ],
+  "websites": [
+    "https://www.eatspudandbutter.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatspudandbutter.com": {
+      "url": "https://www.eatspudandbutter.com",
+      "html_bytes": 881025,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/spudandbutter/rewardsSignup",
+        "toast_oo_native": "order.toasttab.com/online/spudandbutter",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.eatspudandbutter.com/menu": {
+      "url": "https://www.eatspudandbutter.com/menu",
+      "html_bytes": 1406357,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/spudandbutter",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/spudandbutter/rewardsSignup",
+    "toast_oo_native": "order.toasttab.com/online/spudandbutter",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

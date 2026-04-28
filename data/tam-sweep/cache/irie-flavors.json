@@ -1,0 +1,50 @@
+{
+  "parent": "Irie Flavors",
+  "slug": "irie-flavors",
+  "total_headroom": "$16,572",
+  "non_ec_headroom": "$15,732",
+  "est_ec_headroom": "$840",
+  "employee_count": "5",
+  "non_ec_arr": "$420",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Unknown",
+  "contact_email": "michobarnett@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Irie Flavors"
+  ],
+  "websites": [
+    "https://irieflavors.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://irieflavors.com/": {
+      "url": "https://irieflavors.com/",
+      "html_bytes": 133513,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/irie-events-101-w-loudon-ave-suite-110",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/irie-events-101-w-loudon-ave-suite-110",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

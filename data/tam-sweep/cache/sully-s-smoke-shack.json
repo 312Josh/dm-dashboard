@@ -1,0 +1,40 @@
+{
+  "parent": "Sully's Smoke Shack - Parent Account",
+  "slug": "sully-s-smoke-shack",
+  "total_headroom": "$16,572",
+  "non_ec_headroom": "$16,572",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$3,384",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Unknown",
+  "contact_email": "mollikatherine@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sully's Smoke Shack"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/sullys-smoke-shack-2635-gallatin-pike"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/sullys-smoke-shack-2635-gallatin-pike": {
+      "url": "https://www.toasttab.com/local/order/sullys-smoke-shack-2635-gallatin-pike",
+      "html_bytes": 5703,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

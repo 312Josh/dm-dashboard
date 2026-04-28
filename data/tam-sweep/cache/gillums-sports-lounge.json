@@ -1,0 +1,44 @@
+{
+  "parent": "Gillums Sports Lounge- Parent Account",
+  "slug": "gillums-sports-lounge",
+  "total_headroom": "$46,224",
+  "non_ec_headroom": "$37,572",
+  "est_ec_headroom": "$8,652",
+  "employee_count": "52",
+  "non_ec_arr": "$8,532",
+  "state": "KY",
+  "city": "Richmond",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "playersclubky@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Gillums Sports Lounge",
+    "Gilliums Island Taproom"
+  ],
+  "websites": [
+    "https://gillumssportslounge.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gillumssportslounge.com/": {
+      "url": "https://gillumssportslounge.com/",
+      "html_bytes": 54160,
+      "fingerprints": {
+        "website_cms": "SpotHopper"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

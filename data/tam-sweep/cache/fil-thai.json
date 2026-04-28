@@ -1,0 +1,51 @@
+{
+  "parent": "Fil-Thai - Parent",
+  "slug": "fil-thai",
+  "total_headroom": "$55,680",
+  "non_ec_headroom": "$55,680",
+  "est_ec_headroom": "$0",
+  "employee_count": "12",
+  "non_ec_arr": "$8,928",
+  "state": "TN",
+  "city": "Cookeville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "irmorley10@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Fil-Thai Food Truck",
+    "Fil-Thai Cookeville",
+    "Fil-Thai Sparta"
+  ],
+  "websites": [
+    "https://www.fil-thai.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fil-thai.com/": {
+      "url": "https://www.fil-thai.com/",
+      "html_bytes": 723035,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/fil-thai-cookeville",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/fil-thai-cookeville",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

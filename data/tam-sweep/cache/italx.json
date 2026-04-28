@@ -1,0 +1,67 @@
+{
+  "parent": "Italx",
+  "slug": "italx",
+  "total_headroom": "$25,440",
+  "non_ec_headroom": "$19,980",
+  "est_ec_headroom": "$5,460",
+  "employee_count": "33",
+  "non_ec_arr": "$3,072",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "lgreer@greercompanies.com",
+  "location_count": 1,
+  "location_names": [
+    "Italx"
+  ],
+  "websites": [
+    "https://www.italx.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.italx.com/": {
+      "url": "https://www.italx.com/",
+      "html_bytes": 631067,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/italx-160-west-main-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/italx-160-west-main-street/giftcards"
+      }
+    },
+    "https://www.italx.com/menu": {
+      "url": "https://www.italx.com/menu",
+      "html_bytes": 1072102,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/italx-160-west-main-street/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/italx-160-west-main-street",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/italx-160-west-main-street/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

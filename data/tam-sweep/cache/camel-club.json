@@ -1,0 +1,41 @@
+{
+  "parent": "Camel Club - Parent Account",
+  "slug": "camel-club",
+  "total_headroom": "$16,992",
+  "non_ec_headroom": "$16,992",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$7,200",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tmbromagen@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Camel Club"
+  ],
+  "websites": [
+    "https://www.instagram.com/camelclubky/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.instagram.com/camelclubky/": {
+      "url": "https://www.instagram.com/camelclubky/",
+      "html_bytes": 801353,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

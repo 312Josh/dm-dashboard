@@ -1,0 +1,67 @@
+{
+  "parent": "Martha's- Parent Account",
+  "slug": "martha-s",
+  "total_headroom": "$42,420",
+  "non_ec_headroom": "$39,480",
+  "est_ec_headroom": "$2,940",
+  "employee_count": "18",
+  "non_ec_arr": "$4,200",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "dave@franklincigar.com",
+  "location_count": 2,
+  "location_names": [
+    "Martha's",
+    "The Ariston"
+  ],
+  "websites": [
+    "https://www.marthasnashville.com/",
+    "https://www.thearistonbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.marthasnashville.com/": {
+      "url": "https://www.marthasnashville.com/",
+      "html_bytes": 200038,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.thearistonbar.com/": {
+      "url": "https://www.thearistonbar.com/",
+      "html_bytes": 360827,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.thearistonbar.com/menu": {
+      "url": "https://www.thearistonbar.com/menu",
+      "html_bytes": 384880,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "martha": "https://www.marthasnashville.com/",
+    "ariston": "https://www.thearistonbar.com/"
+  }
+}

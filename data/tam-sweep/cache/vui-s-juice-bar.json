@@ -1,0 +1,85 @@
+{
+  "parent": "Vui's Juice Bar - Parent",
+  "slug": "vui-s-juice-bar",
+  "total_headroom": "$30,144",
+  "non_ec_headroom": "$30,144",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$9,360",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "john@juicecafe.co",
+  "location_count": 2,
+  "location_names": [
+    "Vui's Juice Cafe 2",
+    "Vui's Juice Cafe"
+  ],
+  "websites": [
+    "https://vuisjuicecafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://vuisjuicecafe.com/": {
+      "url": "https://vuisjuicecafe.com/",
+      "html_bytes": 133417,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/vuis-juice-cafe-522-heather-place/giftcards",
+        "toast_oo_native": "order.toasttab.com/online/vuis-juice-cafe-522-heather-place",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://vuisjuicecafe.com/menu/": {
+      "url": "https://vuisjuicecafe.com/menu/",
+      "html_bytes": 137052,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/vuis-juice-cafe-522-heather-place/giftcards"
+      }
+    },
+    "https://vuisjuicecafe.com/order-online/": {
+      "url": "https://vuisjuicecafe.com/order-online/",
+      "html_bytes": 130726,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/vuis-juice-cafe-522-heather-place",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/vuis-juice-cafe-522-heather-place/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/vuis-juice-cafe-522-heather-place/giftcards",
+    "toast_oo_native": "order.toasttab.com/online/vuis-juice-cafe-522-heather-place",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

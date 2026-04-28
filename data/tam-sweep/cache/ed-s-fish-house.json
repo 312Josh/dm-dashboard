@@ -1,0 +1,47 @@
+{
+  "parent": "Ed’s Fish House - Parent Account",
+  "slug": "ed-s-fish-house",
+  "total_headroom": "$19,620",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$1,260",
+  "employee_count": "8",
+  "non_ec_arr": "$6,180",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ant.williams623@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ed’s Fish House"
+  ],
+  "websites": [
+    "https://edsfishhouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://edsfishhouse.com/": {
+      "url": "https://edsfishhouse.com/",
+      "html_bytes": 83368,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://edsfishhouse.com/menu": {
+      "url": "https://edsfishhouse.com/menu",
+      "html_bytes": 84507,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

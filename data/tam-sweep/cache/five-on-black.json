@@ -1,0 +1,43 @@
+{
+  "parent": "Five On Black - Parent Account",
+  "slug": "five-on-black",
+  "total_headroom": "$17,652",
+  "non_ec_headroom": "$17,652",
+  "est_ec_headroom": "$0",
+  "employee_count": "29",
+  "non_ec_arr": "$6,108",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "raul@fiveonblacktn.com",
+  "location_count": 1,
+  "location_names": [
+    "Five On Black"
+  ],
+  "websites": [
+    "https://www.fiveonblacktn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fiveonblacktn.com/": {
+      "url": "https://www.fiveonblacktn.com/",
+      "html_bytes": 1073185,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

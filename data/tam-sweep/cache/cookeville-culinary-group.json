@@ -1,0 +1,39 @@
+{
+  "parent": "Cookeville Culinary Group - Parent",
+  "slug": "cookeville-culinary-group",
+  "total_headroom": "$44,742",
+  "non_ec_headroom": "$34,452",
+  "est_ec_headroom": "$10,290",
+  "employee_count": "62",
+  "non_ec_arr": "$11,868",
+  "state": "TN",
+  "city": "Cookeville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jay@sevensensesfood.com",
+  "location_count": 2,
+  "location_names": [
+    "Savor",
+    "Seven Senses Food & Cheer - New 9.8.25"
+  ],
+  "websites": [
+    "https://www.savorcookeville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.savorcookeville.com/": {
+      "url": "https://www.savorcookeville.com/",
+      "html_bytes": 5521,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Crossroads Cafe - Parent Account",
+  "slug": "crossroads-cafe",
+  "total_headroom": "$18,304",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$364",
+  "employee_count": "2",
+  "non_ec_arr": "$3,240",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "lisa@crossroadscampus.org",
+  "location_count": 1,
+  "location_names": [
+    "The Crossroads Campus"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/the-crossroads-campus-1603-buchanan"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/the-crossroads-campus-1603-buchanan": {
+      "url": "https://order.toasttab.com/online/the-crossroads-campus-1603-buchanan",
+      "html_bytes": 5727,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

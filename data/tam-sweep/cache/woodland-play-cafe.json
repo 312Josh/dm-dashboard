@@ -1,0 +1,61 @@
+{
+  "parent": "Woodland Play Cafe - Parent Account",
+  "slug": "woodland-play-cafe",
+  "total_headroom": "$16,332",
+  "non_ec_headroom": "$16,332",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$5,208",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "brittney.lfarrow@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Woodland Play Cafe"
+  ],
+  "websites": [
+    "https://www.woodlandplaycafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.woodlandplaycafe.com/": {
+      "url": "https://www.woodlandplaycafe.com/",
+      "html_bytes": 273657,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.woodlandplaycafe.com/menu": {
+      "url": "https://www.woodlandplaycafe.com/menu",
+      "html_bytes": 156032,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.woodlandplaycafe.com/giftcards": {
+      "url": "https://www.woodlandplaycafe.com/giftcards",
+      "html_bytes": 114374,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

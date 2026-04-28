@@ -1,0 +1,64 @@
+{
+  "parent": "Silver Fox Coffee Lounge - Parent Account",
+  "slug": "silver-fox-coffee-lounge",
+  "total_headroom": "$29,784",
+  "non_ec_headroom": "$29,784",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$10,220",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "todd@silverfoxcoffee.co",
+  "location_count": 2,
+  "location_names": [
+    "Silver Fox Coffee Lounge",
+    "Silver Fox Coffee Lounge - Brentwood"
+  ],
+  "websites": [
+    "https://www.silverfoxcoffee.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.silverfoxcoffee.co/": {
+      "url": "https://www.silverfoxcoffee.co/",
+      "html_bytes": 32092,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/silver-fox-coffee-lounge-1001-16th-ave-s",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.silverfoxcoffee.co/menu": {
+      "url": "https://www.silverfoxcoffee.co/menu",
+      "html_bytes": 34083,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.silverfoxcoffee.co/order": {
+      "url": "https://www.silverfoxcoffee.co/order",
+      "html_bytes": 14885,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/silver-fox-coffee-lounge-1001-16th-ave-s",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/silver-fox-coffee-lounge-1001-16th-ave-s",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

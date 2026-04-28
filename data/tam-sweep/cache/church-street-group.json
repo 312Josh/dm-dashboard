@@ -1,0 +1,44 @@
+{
+  "parent": "Church Street Group",
+  "slug": "church-street-group",
+  "total_headroom": "$61,020",
+  "non_ec_headroom": "$61,020",
+  "est_ec_headroom": "$0",
+  "employee_count": "44",
+  "non_ec_arr": "$3,726",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "chesneyturner@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Bar Ona",
+    "Pearl's Pizza",
+    "County Club - Lexington"
+  ],
+  "websites": [
+    "https://churchstreetfamily.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://churchstreetfamily.com/": {
+      "url": "https://churchstreetfamily.com/",
+      "html_bytes": 190673,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

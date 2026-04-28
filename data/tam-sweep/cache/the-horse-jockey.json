@@ -1,0 +1,38 @@
+{
+  "parent": "The Horse & Jockey - Parent Account",
+  "slug": "the-horse-jockey",
+  "total_headroom": "$19,212",
+  "non_ec_headroom": "$19,212",
+  "est_ec_headroom": "$0",
+  "employee_count": "12",
+  "non_ec_arr": "$5,748",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jamesmcswee@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Horse & Jockey"
+  ],
+  "websites": [
+    "https://www.bringfido.com/restaurant/76604"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bringfido.com/restaurant/76604": {
+      "url": "https://www.bringfido.com/restaurant/76604",
+      "html_bytes": 4548,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

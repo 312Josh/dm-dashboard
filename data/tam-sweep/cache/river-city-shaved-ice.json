@@ -1,0 +1,41 @@
+{
+  "parent": "River City Shaved Ice",
+  "slug": "river-city-shaved-ice",
+  "total_headroom": "$21,276",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Adams",
+  "restaurant_type": "Unknown",
+  "contact_email": "rivercityice.931@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "River City Shaved Ice"
+  ],
+  "websites": [
+    "https://www.instagram.com/rivercityshavedice/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.instagram.com/rivercityshavedice/": {
+      "url": "https://www.instagram.com/rivercityshavedice/",
+      "html_bytes": 801349,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

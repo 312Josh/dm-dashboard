@@ -1,0 +1,44 @@
+{
+  "parent": "Ugly Bagel Co. - Parent",
+  "slug": "ugly-bagel-co",
+  "total_headroom": "$43,572",
+  "non_ec_headroom": "$40,044",
+  "est_ec_headroom": "$3,528",
+  "employee_count": "21",
+  "non_ec_arr": "$23,688",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jcrabiel@uglybagel.com",
+  "location_count": 3,
+  "location_names": [
+    "Ugly Bagel Co. Pop Up",
+    "Ugly Bagel Nashville",
+    "Ugly Bagel Franklin"
+  ],
+  "websites": [
+    "https://uglybagel.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://uglybagel.com/": {
+      "url": "https://uglybagel.com/",
+      "html_bytes": 5489,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

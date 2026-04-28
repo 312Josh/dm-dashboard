@@ -1,0 +1,42 @@
+{
+  "parent": "Saint Elle",
+  "slug": "saint-elle",
+  "total_headroom": "$20,208",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$2,550",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nealy@estellenashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Saint Elle"
+  ],
+  "websites": [
+    "https://www.thesaintelle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thesaintelle.com/": {
+      "url": "https://www.thesaintelle.com/",
+      "html_bytes": 321860,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

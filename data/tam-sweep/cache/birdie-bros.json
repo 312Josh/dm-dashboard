@@ -1,0 +1,77 @@
+{
+  "parent": "Birdie Bros - Parent Account",
+  "slug": "birdie-bros",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "josh@birdiebros.com",
+  "location_count": 1,
+  "location_names": [
+    "Birdie Bros"
+  ],
+  "websites": [
+    "https://birdiebros.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://birdiebros.com/": {
+      "url": "https://birdiebros.com/",
+      "html_bytes": 424595,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/birdie-bros-300-indian-lake-blvd-suite-e160/giftcards"
+      }
+    },
+    "https://birdiebros.com/menu/": {
+      "url": "https://birdiebros.com/menu/",
+      "html_bytes": 441737,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/birdie-bros-300-indian-lake-blvd-suite-e160/giftcards"
+      }
+    },
+    "https://birdiebros.com/reservations/": {
+      "url": "https://birdiebros.com/reservations/",
+      "html_bytes": 916,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://birdiebros.com/reservations/?v=7516fd43adaa": {
+      "url": "https://birdiebros.com/reservations/?v=7516fd43adaa",
+      "html_bytes": 916,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/birdie-bros-300-indian-lake-blvd-suite-e160/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

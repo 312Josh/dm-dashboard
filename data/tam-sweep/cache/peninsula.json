@@ -1,0 +1,63 @@
+{
+  "parent": "Peninsula - Parent",
+  "slug": "peninsula",
+  "total_headroom": "$34,236",
+  "non_ec_headroom": "$34,236",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$2,658",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "yuriko@peninsulanashville.com",
+  "location_count": 2,
+  "location_names": [
+    "Peninsula",
+    "Charmers and Cauponor"
+  ],
+  "websites": [
+    "https://peninsulanashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://peninsulanashville.com/": {
+      "url": "https://peninsulanashville.com/",
+      "html_bytes": 47067,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://peninsulanashville.com/reservations/": {
+      "url": "https://peninsulanashville.com/reservations/",
+      "html_bytes": 50585,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://peninsulanashville.com/menu/": {
+      "url": "https://peninsulanashville.com/menu/",
+      "html_bytes": 58255,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "resy",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

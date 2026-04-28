@@ -1,0 +1,47 @@
+{
+  "parent": "Thai Thai- Parent Account",
+  "slug": "thai-thai",
+  "total_headroom": "$19,488",
+  "non_ec_headroom": "$19,320",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$2,340",
+  "state": "TN",
+  "city": "Mount Juliet",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kookkookk88@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Gotcha Poke Bowl and Bubble Tea"
+  ],
+  "websites": [
+    "https://gotchapokebowlbubbletea.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gotchapokebowlbubbletea.com/": {
+      "url": "https://gotchapokebowlbubbletea.com/",
+      "html_bytes": 5546,
+      "fingerprints": {
+        "loyalty": "Punchh"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251009134121/https://gotchapokebowlbubbletea.com/",
+        "html_bytes": 321873,
+        "vendors": {
+          "loyalty": "Punchh"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

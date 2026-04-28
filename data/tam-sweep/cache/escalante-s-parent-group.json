@@ -1,0 +1,139 @@
+{
+  "parent": "Escalante's - Parent Group",
+  "slug": "escalante-s-parent-group",
+  "total_headroom": "$181,100",
+  "non_ec_headroom": "$102,420",
+  "est_ec_headroom": "$78,680",
+  "employee_count": "469",
+  "non_ec_arr": "$81,018",
+  "state": "TX",
+  "city": "Houston",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "john.laporte@masmex.net",
+  "location_count": 7,
+  "location_names": [
+    "Escalante's - Town and Country",
+    "Escalante's - Highland Village",
+    "Escalante's - Meyerland Plaza",
+    "Escalante's- Woodway - Voss",
+    "Escalante's - The Woodlands",
+    "Escalante's - Bay Area",
+    "Escalante's - Sugar Land"
+  ],
+  "websites": [
+    "https://www.escalantes.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.escalantes.net/": {
+      "url": "https://www.escalantes.net/",
+      "html_bytes": 57454,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "ChowNow",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page",
+        "pos_other": "Aloha"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.escalantes.net/menu/happy-hour/": {
+      "url": "https://www.escalantes.net/menu/happy-hour/",
+      "html_bytes": 67250,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "ChowNow",
+        "reservations": "OpenTable",
+        "pos_other": "Aloha",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.escalantes.net/menu/lunch/": {
+      "url": "https://www.escalantes.net/menu/lunch/",
+      "html_bytes": 62005,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "ChowNow",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.escalantes.net/menu/dinner/": {
+      "url": "https://www.escalantes.net/menu/dinner/",
+      "html_bytes": 110299,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "ChowNow",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.escalantes.net/menu/little-amigos/": {
+      "url": "https://www.escalantes.net/menu/little-amigos/",
+      "html_bytes": 56656,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "ChowNow",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.escalantes.net/menu/weekend-brunch/": {
+      "url": "https://www.escalantes.net/menu/weekend-brunch/",
+      "html_bytes": 70020,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "ChowNow",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.escalantes.net/menu/drinks/": {
+      "url": "https://www.escalantes.net/menu/drinks/",
+      "html_bytes": 110280,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "ChowNow",
+        "reservations": "OpenTable",
+        "pos_other": "Aloha",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

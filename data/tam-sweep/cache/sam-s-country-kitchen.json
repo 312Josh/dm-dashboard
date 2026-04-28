@@ -1,0 +1,73 @@
+{
+  "parent": "Sam's Country Kitchen Parent",
+  "slug": "sam-s-country-kitchen",
+  "total_headroom": "$20,432",
+  "non_ec_headroom": "$17,520",
+  "est_ec_headroom": "$2,912",
+  "employee_count": "17",
+  "non_ec_arr": "$4,197",
+  "state": "FL",
+  "city": "Homestead",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "chris@samscountrykitchen.com",
+  "location_count": 1,
+  "location_names": [
+    "Sam's Country Kitchen"
+  ],
+  "websites": [
+    "https://samscountrykitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://samscountrykitchen.com/": {
+      "url": "https://samscountrykitchen.com/",
+      "html_bytes": 188295,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/sams-country-kitchen/rewardsSignup"
+      }
+    },
+    "https://samscountrykitchen.com/menu": {
+      "url": "https://samscountrykitchen.com/menu",
+      "html_bytes": 88112,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/sams-country-kitchen/rewardsSignup"
+      }
+    },
+    "https://samscountrykitchen.com/rewards": {
+      "url": "https://samscountrykitchen.com/rewards",
+      "html_bytes": 98177,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/sams-country-kitchen/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/sams-country-kitchen/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "parent": "The Pharmacy Burger Parlor and Beer Garden Parent",
+  "slug": "the-pharmacy-burger-parlor-and-beer-garden",
+  "total_headroom": "$16,980",
+  "non_ec_headroom": "$16,980",
+  "est_ec_headroom": "$0",
+  "employee_count": "79",
+  "non_ec_arr": "$6,446",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cbrinkman@pharmacyburger.com",
+  "location_count": 1,
+  "location_names": [
+    "The Pharmacy Burger Parlor and Beer Garden"
+  ],
+  "websites": [
+    "https://thepharmacyburger.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thepharmacyburger.com/": {
+      "url": "https://thepharmacyburger.com/",
+      "html_bytes": 164835,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-pharmacy-burger-parlor-and-beer-garden-731-mcferrin-avenue/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-pharmacy-burger-parlor-and-beer-garden-731-mcferrin-avenue/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

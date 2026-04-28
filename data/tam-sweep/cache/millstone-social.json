@@ -1,0 +1,57 @@
+{
+  "parent": "Millstone Social - Parent Account",
+  "slug": "millstone-social",
+  "total_headroom": "$19,500",
+  "non_ec_headroom": "$19,500",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$6,066",
+  "state": "KY",
+  "city": "Richmond",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "rgd@davislawky.com",
+  "location_count": 1,
+  "location_names": [
+    "Millstone Social"
+  ],
+  "websites": [
+    "https://www.millstonesocial.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.millstonesocial.com/": {
+      "url": "https://www.millstonesocial.com/",
+      "html_bytes": 634866,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.millstonesocial.com/menu": {
+      "url": "https://www.millstonesocial.com/menu",
+      "html_bytes": 665132,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.millstonesocial.com/reservations": {
+      "url": "https://www.millstonesocial.com/reservations",
+      "html_bytes": 558818,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

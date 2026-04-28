@@ -1,0 +1,42 @@
+{
+  "parent": "Reggie's BBQ - Parent Account",
+  "slug": "reggie-s-bbq",
+  "total_headroom": "$16,832",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$980",
+  "employee_count": "6",
+  "non_ec_arr": "$5,808",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rroocckk66@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Reggie's BBQ"
+  ],
+  "websites": [
+    "https://reggiesbbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://reggiesbbq.com/": {
+      "url": "https://reggiesbbq.com/",
+      "html_bytes": 5490,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

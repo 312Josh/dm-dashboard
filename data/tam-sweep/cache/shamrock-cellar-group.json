@@ -1,0 +1,76 @@
+{
+  "parent": "Shamrock/ Cellar Group",
+  "slug": "shamrock-cellar-group",
+  "total_headroom": "$52,260",
+  "non_ec_headroom": "$52,260",
+  "est_ec_headroom": "$0",
+  "employee_count": "131",
+  "non_ec_arr": "$37,677",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "htrump1@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Shamrock Bar & Grille - Patchen Dr",
+    "Shamrock Bar & Grille - Hartland Pkwy",
+    "The Cellar Bar & Grille"
+  ],
+  "websites": [
+    "https://www.shamrocksky.com/",
+    "https://www.yelp.com/biz/the-cellar-bar-and-grille-lexington"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.shamrocksky.com/": {
+      "url": "https://www.shamrocksky.com/",
+      "html_bytes": 108930,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/shamrock-bar-grille-hartland-pkwy/giftcards"
+      }
+    },
+    "https://www.shamrocksky.com/menu/": {
+      "url": "https://www.shamrocksky.com/menu/",
+      "html_bytes": 203248,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/shamrock-bar-grille-hartland-pkwy/giftcards"
+      }
+    },
+    "https://www.yelp.com/biz/the-cellar-bar-and-grille-lexington": {
+      "url": "https://www.yelp.com/biz/the-cellar-bar-and-grille-lexington",
+      "html_bytes": 776,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/shamrock-bar-grille-hartland-pkwy/giftcards"
+  },
+  "marketplaces": [
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "shamrock": "https://www.shamrocksky.com/",
+    "cellar": "https://www.yelp.com/biz/the-cellar-bar-and-grille-lexington"
+  }
+}

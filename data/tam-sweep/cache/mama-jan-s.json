@@ -1,0 +1,38 @@
+{
+  "parent": "Mama Jan's",
+  "slug": "mama-jan-s",
+  "total_headroom": "$16,068",
+  "non_ec_headroom": "$15,564",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$6,336",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Unknown",
+  "contact_email": "mamajanssoulfood@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mama Jan's"
+  ],
+  "websites": [
+    "https://www.facebook.com/mamajanssoulfood/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/mamajanssoulfood/": {
+      "url": "https://www.facebook.com/mamajanssoulfood/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

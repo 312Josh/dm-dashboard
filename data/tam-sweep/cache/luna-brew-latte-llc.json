@@ -1,0 +1,40 @@
+{
+  "parent": "Luna Brew Latte LLC",
+  "slug": "luna-brew-latte-llc",
+  "total_headroom": "$21,276",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Danville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "lunabrewlatte@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Luna Brew Latte LLC"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/luna-brew-latte-llc-940-faulkner-ln"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/luna-brew-latte-llc-940-faulkner-ln": {
+      "url": "https://www.toasttab.com/local/order/luna-brew-latte-llc-940-faulkner-ln",
+      "html_bytes": 5697,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

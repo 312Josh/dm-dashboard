@@ -1,0 +1,29 @@
+{
+  "parent": "Mi Cubanito",
+  "slug": "mi-cubanito",
+  "total_headroom": "null",
+  "non_ec_headroom": "$15,732",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "erikaboyd71@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mi Cubanito"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

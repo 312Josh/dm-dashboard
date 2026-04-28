@@ -1,0 +1,40 @@
+{
+  "parent": "AC Sorensen Enterprises LLC",
+  "slug": "ac-sorensen-enterprises-llc",
+  "total_headroom": "$16,188",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Berry Hill",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "austin.sorensen8@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "AC Sorensen Enterprises LLC"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/ac-sorensen-enterprises-llc-805-w-greenwood-ave"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/ac-sorensen-enterprises-llc-805-w-greenwood-ave": {
+      "url": "https://www.toasttab.com/local/order/ac-sorensen-enterprises-llc-805-w-greenwood-ave",
+      "html_bytes": 5776,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

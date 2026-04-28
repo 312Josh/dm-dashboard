@@ -1,0 +1,69 @@
+{
+  "parent": "Buck's Barbeque - Parent Account",
+  "slug": "buck-s-barbeque",
+  "total_headroom": "$18,644",
+  "non_ec_headroom": "$17,580",
+  "est_ec_headroom": "$1,064",
+  "employee_count": "6",
+  "non_ec_arr": "$5,220",
+  "state": "TN",
+  "city": "Goodlettsville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "buck10ec@bellsouth.net",
+  "location_count": 1,
+  "location_names": [
+    "Buck's Barbeque"
+  ],
+  "websites": [
+    "https://www.bucksbbqtn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bucksbbqtn.com/": {
+      "url": "https://www.bucksbbqtn.com/",
+      "html_bytes": 140554,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bucks-barbeque-327-cartwright-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/bucks-barbeque-327-cartwright-street/giftcards",
+        "toast_loyalty": "toasttab.com/bucks-barbeque-327-cartwright-street/rewardsSignup"
+      }
+    },
+    "https://www.bucksbbqtn.com/menu": {
+      "url": "https://www.bucksbbqtn.com/menu",
+      "html_bytes": 200638,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bucks-barbeque-327-cartwright-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/bucks-barbeque-327-cartwright-street/giftcards",
+        "toast_loyalty": "toasttab.com/bucks-barbeque-327-cartwright-street/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/bucks-barbeque-327-cartwright-street",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/bucks-barbeque-327-cartwright-street/giftcards",
+    "toast_loyalty": "toasttab.com/bucks-barbeque-327-cartwright-street/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

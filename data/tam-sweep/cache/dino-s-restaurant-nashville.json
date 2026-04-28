@@ -1,0 +1,52 @@
+{
+  "parent": "Dino's Restaurant - Nashville Parent",
+  "slug": "dino-s-restaurant-nashville",
+  "total_headroom": "$20,040",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$900",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "awendkos@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Dino's Restaurant - Nashville"
+  ],
+  "websites": [
+    "https://dinosnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dinosnashville.com/": {
+      "url": "https://dinosnashville.com/",
+      "html_bytes": 74611,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://dinosnashville.com/menu": {
+      "url": "https://dinosnashville.com/menu",
+      "html_bytes": 64575,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

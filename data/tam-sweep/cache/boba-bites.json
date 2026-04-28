@@ -1,0 +1,43 @@
+{
+  "parent": "Boba & Bites - Parent Account",
+  "slug": "boba-bites",
+  "total_headroom": "$17,520",
+  "non_ec_headroom": "$17,520",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$5,742",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "bobabitestn@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Boba & Bites"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/boba-bites-63-e-thompson-ln-ste-102"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/boba-bites-63-e-thompson-ln-ste-102": {
+      "url": "https://www.toasttab.com/local/order/boba-bites-63-e-thompson-ln-ste-102",
+      "html_bytes": 5697,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

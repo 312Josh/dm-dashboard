@@ -1,0 +1,40 @@
+{
+  "parent": "The Fresh Squeeze",
+  "slug": "the-fresh-squeeze",
+  "total_headroom": "$20,748",
+  "non_ec_headroom": "$20,580",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$720",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "freshsqueezetn@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Fresh Squeeze"
+  ],
+  "websites": [
+    "https://streetfoodfinder.com/TheFreshSqueeze"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://streetfoodfinder.com/TheFreshSqueeze": {
+      "url": "https://streetfoodfinder.com/TheFreshSqueeze",
+      "html_bytes": 5605,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

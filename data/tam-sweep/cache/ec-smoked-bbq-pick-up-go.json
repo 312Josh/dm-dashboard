@@ -1,0 +1,43 @@
+{
+  "parent": "EC SMOKED BBQ PICK UP & GO",
+  "slug": "ec-smoked-bbq-pick-up-go",
+  "total_headroom": "$13,860",
+  "non_ec_headroom": "$13,692",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$2,520",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ericchism4@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "EC SMOKED BBQ PICK UP & GO"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/ec-smoked-bbq-pick-up-go-5019-ventura-ct"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/ec-smoked-bbq-pick-up-go-5019-ventura-ct": {
+      "url": "https://www.toasttab.com/local/order/ec-smoked-bbq-pick-up-go-5019-ventura-ct",
+      "html_bytes": 5712,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

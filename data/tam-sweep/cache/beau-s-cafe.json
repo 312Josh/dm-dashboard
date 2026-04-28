@@ -1,0 +1,49 @@
+{
+  "parent": "Beau's Cafe - Parent Account",
+  "slug": "beau-s-cafe",
+  "total_headroom": "$16,572",
+  "non_ec_headroom": "$16,572",
+  "est_ec_headroom": "$0",
+  "employee_count": "22",
+  "non_ec_arr": "$4,853",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "beauscafelex@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Beau's Cafe"
+  ],
+  "websites": [
+    "https://beauscafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://beauscafe.com/": {
+      "url": "https://beauscafe.com/",
+      "html_bytes": 160020,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

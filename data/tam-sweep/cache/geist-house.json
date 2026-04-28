@@ -1,0 +1,66 @@
+{
+  "parent": "Geist House - Parent Account",
+  "slug": "geist-house",
+  "total_headroom": "$28,800",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$9,660",
+  "employee_count": "58",
+  "non_ec_arr": "$6,467",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "dmartin@princepartnersinc.com",
+  "location_count": 1,
+  "location_names": [
+    "Geist House"
+  ],
+  "websites": [
+    "https://www.geistnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.geistnashville.com/": {
+      "url": "https://www.geistnashville.com/",
+      "html_bytes": 159746,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/geistnashville/giftcards"
+      }
+    },
+    "https://www.geistnashville.com/giftcards": {
+      "url": "https://www.geistnashville.com/giftcards",
+      "html_bytes": 75366,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/geistnashville/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/geistnashville/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "grubhub",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "Fable Lex Group",
+  "slug": "fable-lex-group",
+  "total_headroom": "$19,680",
+  "non_ec_headroom": "$19,680",
+  "est_ec_headroom": "$0",
+  "employee_count": "2",
+  "non_ec_arr": "$1,056",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "fablelexington@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Fable Charcuterie and Wine"
+  ],
+  "websites": [
+    "https://fablelex.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://fablelex.com/": {
+      "url": "https://fablelex.com/",
+      "html_bytes": 40650,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

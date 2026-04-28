@@ -1,0 +1,49 @@
+{
+  "parent": "The Local - Parent",
+  "slug": "the-local",
+  "total_headroom": "$49,856",
+  "non_ec_headroom": "$38,880",
+  "est_ec_headroom": "$10,976",
+  "employee_count": "66",
+  "non_ec_arr": "$10,581",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "thelocalnash@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "The Local- Hendersonville",
+    "The Local"
+  ],
+  "websites": [
+    "https://thelocalhendersonville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thelocalhendersonville.com/": {
+      "url": "https://thelocalhendersonville.com/",
+      "html_bytes": 144307,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://thelocalhendersonville.com/menu/": {
+      "url": "https://thelocalhendersonville.com/menu/",
+      "html_bytes": 78686,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

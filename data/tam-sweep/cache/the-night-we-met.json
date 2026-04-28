@@ -1,0 +1,41 @@
+{
+  "parent": "The Night We Met - Parent Account",
+  "slug": "the-night-we-met",
+  "total_headroom": "$18,552",
+  "non_ec_headroom": "$18,552",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$7,188",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jim@nightwemet.com",
+  "location_count": 1,
+  "location_names": [
+    "The Night We Met"
+  ],
+  "websites": [
+    "https://nightwemetnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://nightwemetnashville.com/": {
+      "url": "https://nightwemetnashville.com/",
+      "html_bytes": 81957,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

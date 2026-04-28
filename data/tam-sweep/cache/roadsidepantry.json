@@ -1,0 +1,43 @@
+{
+  "parent": "Roadsidepantry Parent",
+  "slug": "roadsidepantry",
+  "total_headroom": "$17,364",
+  "non_ec_headroom": "$16,860",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "roadsidepantry@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Roadsidepantry"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/roadsidepantry-1107-dickerson-pike"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/roadsidepantry-1107-dickerson-pike": {
+      "url": "https://www.toasttab.com/local/order/roadsidepantry-1107-dickerson-pike",
+      "html_bytes": 5694,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

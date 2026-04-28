@@ -1,0 +1,43 @@
+{
+  "parent": "Basement East Group",
+  "slug": "basement-east-group",
+  "total_headroom": "$44,124",
+  "non_ec_headroom": "$34,212",
+  "est_ec_headroom": "$9,912",
+  "employee_count": "59",
+  "non_ec_arr": "$15,540",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "mike@thebasementnashville.com",
+  "location_count": 2,
+  "location_names": [
+    "The Basement East",
+    "Low Bar"
+  ],
+  "websites": [
+    "https://www.thebasementnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thebasementnashville.com/": {
+      "url": "https://www.thebasementnashville.com/",
+      "html_bytes": 119462,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

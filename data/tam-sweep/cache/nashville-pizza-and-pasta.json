@@ -1,0 +1,57 @@
+{
+  "parent": "Nashville Pizza and Pasta - Parent Account",
+  "slug": "nashville-pizza-and-pasta",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "abdurakhimsadullaev@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Nashville Pizza and Pasta"
+  ],
+  "websites": [
+    "https://nashpizzapasta.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://nashpizzapasta.com/": {
+      "url": "https://nashpizzapasta.com/",
+      "html_bytes": 622795,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "marketing": "HubSpot"
+      },
+      "toast": {}
+    },
+    "https://nashpizzapasta.com/menu/": {
+      "url": "https://nashpizzapasta.com/menu/",
+      "html_bytes": 608681,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "marketing": "HubSpot"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

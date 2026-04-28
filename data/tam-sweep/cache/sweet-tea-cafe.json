@@ -1,0 +1,41 @@
+{
+  "parent": "Sweet Tea Cafe",
+  "slug": "sweet-tea-cafe",
+  "total_headroom": "$30,024",
+  "non_ec_headroom": "$30,024",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$1,680",
+  "state": "TN",
+  "city": "Smithville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "sweetteaboutique2020@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Sweet Tea Cafe 2",
+    "Sweet Tea Cafe"
+  ],
+  "websites": [
+    "https://www.facebook.com/SweetTeaCafe615/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/SweetTeaCafe615/": {
+      "url": "https://www.facebook.com/SweetTeaCafe615/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

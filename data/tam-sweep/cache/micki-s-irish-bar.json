@@ -1,0 +1,38 @@
+{
+  "parent": "Micki's Irish Bar",
+  "slug": "micki-s-irish-bar",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "null",
+  "state": "KY",
+  "city": "Winchester",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jonathandunavant@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Micki's Irish Bar"
+  ],
+  "websites": [
+    "https://mickisirishbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mickisirishbar.com/": {
+      "url": "https://mickisirishbar.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "TVG Hospitality - US Parent Account",
+  "slug": "tvg-hospitality-us",
+  "total_headroom": "$70,980",
+  "non_ec_headroom": "$70,980",
+  "est_ec_headroom": "$0",
+  "employee_count": "178",
+  "non_ec_arr": "$69,434",
+  "state": "AL",
+  "city": "Birmingham",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ben.lovett@tvghospitality.com",
+  "location_count": 4,
+  "location_names": [
+    "Saturn - TVG",
+    "LA Project",
+    "Orion Amphitheater and Food Village - New",
+    "The Lumberyard New"
+  ],
+  "websites": [
+    "https://tvghospitality.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tvghospitality.com/": {
+      "url": "https://tvghospitality.com/",
+      "html_bytes": 66250,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

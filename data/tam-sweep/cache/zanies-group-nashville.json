@@ -1,0 +1,51 @@
+{
+  "parent": "Zanies Group Nashville - Parent Account",
+  "slug": "zanies-group-nashville",
+  "total_headroom": "$40,980",
+  "non_ec_headroom": "$40,980",
+  "est_ec_headroom": "$0",
+  "employee_count": "87",
+  "non_ec_arr": "$15,540",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "brian@zanies.com",
+  "location_count": 2,
+  "location_names": [
+    "The Lab on 8th LLC",
+    "Zanies Comedy Club - Nashville"
+  ],
+  "websites": [
+    "https://nashville.zanies.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://nashville.zanies.com/": {
+      "url": "https://nashville.zanies.com/",
+      "html_bytes": 353448,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://nashville.zanies.com/gift-cards/": {
+      "url": "https://nashville.zanies.com/gift-cards/",
+      "html_bytes": 201196,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

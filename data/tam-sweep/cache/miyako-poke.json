@@ -1,0 +1,76 @@
+{
+  "parent": "Miyako Poke - Parent Account",
+  "slug": "miyako-poke",
+  "total_headroom": "$20,544",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$900",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "miyakopokebowl@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Miyako Poke"
+  ],
+  "websites": [
+    "https://www.miyakopoke.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.miyakopoke.com/": {
+      "url": "https://www.miyakopoke.com/",
+      "html_bytes": 829196,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.miyakopoke.com/reserve": {
+      "url": "https://www.miyakopoke.com/reserve",
+      "html_bytes": 800224,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.miyakopoke.com/menus": {
+      "url": "https://www.miyakopoke.com/menus",
+      "html_bytes": 1669712,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.miyakopoke.com/menu": {
+      "url": "https://www.miyakopoke.com/menu",
+      "html_bytes": 1672760,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.miyakopoke.com/order-online": {
+      "url": "https://www.miyakopoke.com/order-online",
+      "html_bytes": 812502,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

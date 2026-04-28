@@ -1,0 +1,64 @@
+{
+  "parent": "Pullman Standard Parent",
+  "slug": "pullman-standard",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$4,020",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "zach.liff@dzlre.com",
+  "location_count": 1,
+  "location_names": [
+    "Pullman Standard"
+  ],
+  "websites": [
+    "https://pullmanstandardbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pullmanstandardbar.com/": {
+      "url": "https://pullmanstandardbar.com/",
+      "html_bytes": 104097,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://pullmanstandardbar.com/menu/": {
+      "url": "https://pullmanstandardbar.com/menu/",
+      "html_bytes": 70588,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://pullmanstandardbar.com/reservations/": {
+      "url": "https://pullmanstandardbar.com/reservations/",
+      "html_bytes": 50267,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

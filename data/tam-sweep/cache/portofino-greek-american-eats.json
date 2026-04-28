@@ -1,0 +1,40 @@
+{
+  "parent": "Portofino Greek American Eats Parent",
+  "slug": "portofino-greek-american-eats",
+  "total_headroom": "$16,920",
+  "non_ec_headroom": "$16,920",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$4,776",
+  "state": "KY",
+  "city": "Danville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "berketisfoods@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Parthenon Greek American Eats"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/the-parthenon-greek-american-eats-1000-e-lexington-ave-suite-32"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/the-parthenon-greek-american-eats-1000-e-lexington-ave-suite-32": {
+      "url": "https://order.toasttab.com/online/the-parthenon-greek-american-eats-1000-e-lexington-ave-suite-32",
+      "html_bytes": 5854,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

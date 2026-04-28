@@ -1,0 +1,40 @@
+{
+  "parent": "Alberto's Parent",
+  "slug": "alberto-s",
+  "total_headroom": "$19,700",
+  "non_ec_headroom": "$18,552",
+  "est_ec_headroom": "$1,148",
+  "employee_count": "7",
+  "non_ec_arr": "$1,744",
+  "state": "TN",
+  "city": "Gallatin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "palombinof@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Alberto's"
+  ],
+  "websites": [
+    "https://albertos.us/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://albertos.us/": {
+      "url": "https://albertos.us/",
+      "html_bytes": 5487,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

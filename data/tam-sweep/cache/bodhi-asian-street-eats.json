@@ -1,0 +1,65 @@
+{
+  "parent": "BODHI Asian Street Eats - Parent Account",
+  "slug": "bodhi-asian-street-eats",
+  "total_headroom": "$19,020",
+  "non_ec_headroom": "$19,020",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$4,098",
+  "state": "TN",
+  "city": "Old Hickory",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bodhistreeteats@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "BODHI Asian Street Eats"
+  ],
+  "websites": [
+    "https://bodhistreeteats.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bodhistreeteats.com/": {
+      "url": "https://bodhistreeteats.com/",
+      "html_bytes": 174487,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bodhi-asian-street-eats-14801-lebanon-road",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://bodhistreeteats.com/reservations": {
+      "url": "https://bodhistreeteats.com/reservations",
+      "html_bytes": 73989,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bodhi-asian-street-eats-14801-lebanon-road",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/bodhi-asian-street-eats-14801-lebanon-road",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

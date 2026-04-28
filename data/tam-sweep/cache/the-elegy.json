@@ -1,0 +1,42 @@
+{
+  "parent": "The Elegy - Parent",
+  "slug": "the-elegy",
+  "total_headroom": "$69,900",
+  "non_ec_headroom": "$69,900",
+  "est_ec_headroom": "$0",
+  "employee_count": "69",
+  "non_ec_arr": "$27,922",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "info@elegycoffee.com",
+  "location_count": 5,
+  "location_names": [
+    "Elegy Coffee Kitchen",
+    "Elegy Coffee Germantown",
+    "Elegy Coffee Downtown",
+    "Elegy Coffee - East",
+    "Elegy Coffee - WeHo"
+  ],
+  "websites": [
+    "https://order.elegycoffee.com/order/elegycoffeedowntown"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.elegycoffee.com/order/elegycoffeedowntown": {
+      "url": "https://order.elegycoffee.com/order/elegycoffeedowntown",
+      "html_bytes": 5636,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

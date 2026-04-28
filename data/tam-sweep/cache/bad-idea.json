@@ -1,0 +1,78 @@
+{
+  "parent": "Bad Idea - Parent Account",
+  "slug": "bad-idea",
+  "total_headroom": "$20,040",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "33",
+  "non_ec_arr": "$3,900",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "alex@badideanashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Bad Idea"
+  ],
+  "websites": [
+    "https://www.badideanashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.badideanashville.com/": {
+      "url": "https://www.badideanashville.com/",
+      "html_bytes": 151688,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bad-idea-1021-russell-st/giftcards"
+      }
+    },
+    "https://www.badideanashville.com/menu-1": {
+      "url": "https://www.badideanashville.com/menu-1",
+      "html_bytes": 348349,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bad-idea-1021-russell-st/giftcards"
+      }
+    },
+    "https://www.badideanashville.com/menu-1-1": {
+      "url": "https://www.badideanashville.com/menu-1-1",
+      "html_bytes": 216290,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bad-idea-1021-russell-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/bad-idea-1021-russell-st/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

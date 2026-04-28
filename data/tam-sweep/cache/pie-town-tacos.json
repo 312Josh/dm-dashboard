@@ -1,0 +1,60 @@
+{
+  "parent": "Pie Town Tacos- Parent",
+  "slug": "pie-town-tacos",
+  "total_headroom": "$58,000",
+  "non_ec_headroom": "$51,420",
+  "est_ec_headroom": "$6,580",
+  "employee_count": "39",
+  "non_ec_arr": "$17,042",
+  "state": "TN",
+  "city": "Antioch",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jason@pietowntacos.com",
+  "location_count": 3,
+  "location_names": [
+    "Pie Town Tacos - Food Truck",
+    "Pie Town Tacos",
+    "Pie Town Tacos- East Nashville"
+  ],
+  "websites": [
+    "https://pietowntacos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pietowntacos.com/": {
+      "url": "https://pietowntacos.com/",
+      "html_bytes": 101343,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/pie-town-tacos-614-ewing-ave/giftcards",
+        "toast_loyalty": "toasttab.com/pie-town-tacos-east-nashville-1106-woodland-street/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/pie-town-tacos-614-ewing-ave/giftcards",
+    "toast_loyalty": "toasttab.com/pie-town-tacos-east-nashville-1106-woodland-street/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

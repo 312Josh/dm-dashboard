@@ -1,0 +1,50 @@
+{
+  "parent": "Tachibana Japanese Restaurant - Parent Account",
+  "slug": "tachibana-japanese-restaurant",
+  "total_headroom": "$23,252",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$2,912",
+  "employee_count": "17",
+  "non_ec_arr": "$2,070",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "t.ippongi0813@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tachibana Japanese Restaurant"
+  ],
+  "websites": [
+    "https://www.tachibanarestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tachibanarestaurant.com/": {
+      "url": "https://www.tachibanarestaurant.com/",
+      "html_bytes": 205841,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.tachibanarestaurant.com/book-a-table/": {
+      "url": "https://www.tachibanarestaurant.com/book-a-table/",
+      "html_bytes": 145887,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

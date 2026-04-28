@@ -1,0 +1,50 @@
+{
+  "parent": "Jersey Bagels - Parent Account",
+  "slug": "jersey-bagels",
+  "total_headroom": "$38,676",
+  "non_ec_headroom": "$37,920",
+  "est_ec_headroom": "$756",
+  "employee_count": "5",
+  "non_ec_arr": "$4,320",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "jerseybagels931@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Jersey Bagles Sango",
+    "Jersey Bagels"
+  ],
+  "websites": [
+    "https://jerseybagelstn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://jerseybagelstn.com/": {
+      "url": "https://jerseybagelstn.com/",
+      "html_bytes": 139197,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "Miller's Grocery- Parent Account",
+  "slug": "miller-s-grocery",
+  "total_headroom": "$14,832",
+  "non_ec_headroom": "$14,832",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$8,748",
+  "state": "TN",
+  "city": "Christiana",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "millersgrocery70@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Miller's Grocery"
+  ],
+  "websites": [
+    "https://millersgrocerytn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://millersgrocerytn.com/": {
+      "url": "https://millersgrocerytn.com/",
+      "html_bytes": 5539,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "Sutton's Parent",
+  "slug": "sutton-s",
+  "total_headroom": "$14,772",
+  "non_ec_headroom": "$14,772",
+  "est_ec_headroom": "$0",
+  "employee_count": "22",
+  "non_ec_arr": "$6,937",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "glewisrestaurants@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sutton's"
+  ],
+  "websites": [
+    "https://www.suttonsrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.suttonsrestaurant.com/": {
+      "url": "https://www.suttonsrestaurant.com/",
+      "html_bytes": 27633,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

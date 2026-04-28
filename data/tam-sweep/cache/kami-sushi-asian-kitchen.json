@@ -1,0 +1,40 @@
+{
+  "parent": "Kami Sushi & Asian Kitchen - Parent Account",
+  "slug": "kami-sushi-asian-kitchen",
+  "total_headroom": "$18,480",
+  "non_ec_headroom": "$18,480",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$4,500",
+  "state": "TN",
+  "city": "Manchester",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "fendy4w4n21@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Kami Sushi & Asian Kitchen"
+  ],
+  "websites": [
+    "https://kamimanchester.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kamimanchester.com/": {
+      "url": "https://kamimanchester.com/",
+      "html_bytes": 5516,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

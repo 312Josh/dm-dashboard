@@ -1,0 +1,73 @@
+{
+  "parent": "Roze Restaurant Group",
+  "slug": "roze-restaurant-group",
+  "total_headroom": "$15,216",
+  "non_ec_headroom": "$15,216",
+  "est_ec_headroom": "$0",
+  "employee_count": "44",
+  "non_ec_arr": "$5,796",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "julia@caferoze.com",
+  "location_count": 1,
+  "location_names": [
+    "Cafe Roze - Nashville"
+  ],
+  "websites": [
+    "https://www.caferoze.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.caferoze.com/": {
+      "url": "https://www.caferoze.com/",
+      "html_bytes": 30556,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cafe-roze-nashville",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/cafe-roze-nashville/giftcards"
+      }
+    },
+    "https://www.caferoze.com/menus/": {
+      "url": "https://www.caferoze.com/menus/",
+      "html_bytes": 147083,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cafe-roze-nashville",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/cafe-roze-nashville/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/cafe-roze-nashville",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/cafe-roze-nashville/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "doordash",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

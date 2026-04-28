@@ -1,0 +1,58 @@
+{
+  "parent": "Mama Bread - Parent Account",
+  "slug": "mama-bread",
+  "total_headroom": "$17,220",
+  "non_ec_headroom": "$13,104",
+  "est_ec_headroom": "$4,116",
+  "employee_count": "25",
+  "non_ec_arr": "$6,290",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "evan@mamabread.com",
+  "location_count": 1,
+  "location_names": [
+    "Mama Bread"
+  ],
+  "websites": [
+    "https://mamabread.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mamabread.com/": {
+      "url": "https://mamabread.com/",
+      "html_bytes": 87536,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mama-bread-1600-woodland-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://mamabread.com/pages/menu": {
+      "url": "https://mamabread.com/pages/menu",
+      "html_bytes": 72213,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/mama-bread-1600-woodland-street",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

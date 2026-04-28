@@ -1,0 +1,40 @@
+{
+  "parent": "Pink Cloud Services Parent",
+  "slug": "pink-cloud-services",
+  "total_headroom": "$19,152",
+  "non_ec_headroom": "$19,152",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$4,692",
+  "state": "KY",
+  "city": "LEXINGTON",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "pinkcloudtn@att.net",
+  "location_count": 1,
+  "location_names": [
+    "High Horizons Cafe"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/high-horizons-cafe-3825-nina-bonnie-dr/r-54641c61-e391-4574-818f-5cb11587093d"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/high-horizons-cafe-3825-nina-bonnie-dr/r-54641c61-e391-4574-818f-5cb11587093d": {
+      "url": "https://www.toasttab.com/local/high-horizons-cafe-3825-nina-bonnie-dr/r-54641c61-e391-4574-818f-5cb11587093d",
+      "html_bytes": 5847,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

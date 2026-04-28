@@ -1,0 +1,80 @@
+{
+  "parent": "Bear Group",
+  "slug": "bear-group",
+  "total_headroom": "$41,048",
+  "non_ec_headroom": "$33,432",
+  "est_ec_headroom": "$7,616",
+  "employee_count": "45",
+  "non_ec_arr": "$11,724",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "behrga@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Bear & The Butcher Truck",
+    "Bear & The Butcher"
+  ],
+  "websites": [
+    "https://www.bearandthebutcher.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bearandthebutcher.com/": {
+      "url": "https://www.bearandthebutcher.com/",
+      "html_bytes": 254880,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bearandthebutcher",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/bearandthebutcher/giftcards",
+        "toast_tables": "tables.toasttab.com/restaurants/c4558f7b-bbba-47f5-a120-2dc042079bfa"
+      }
+    },
+    "https://www.bearandthebutcher.com/order": {
+      "url": "https://www.bearandthebutcher.com/order",
+      "html_bytes": 5652,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    },
+    "https://www.bearandthebutcher.com/reservations": {
+      "url": "https://www.bearandthebutcher.com/reservations",
+      "html_bytes": 199479,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bearandthebutcher",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/c4558f7b-bbba-47f5-a120-2dc042079bfa",
+        "toast_gift": "toasttab.com/bearandthebutcher/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/bearandthebutcher",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/bearandthebutcher/giftcards",
+    "toast_tables": "tables.toasttab.com/restaurants/c4558f7b-bbba-47f5-a120-2dc042079bfa"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

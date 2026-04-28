@@ -1,0 +1,40 @@
+{
+  "parent": "TN Taste Buds LLC - Parent Account",
+  "slug": "tn-taste-buds-llc",
+  "total_headroom": "$13,812",
+  "non_ec_headroom": "$13,392",
+  "est_ec_headroom": "$420",
+  "employee_count": "3",
+  "non_ec_arr": "$6,282",
+  "state": "TN",
+  "city": "mount juliet",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tntastebudsllc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "TN Taste Buds LLC"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/gr8indianfood-512-pleasant-grove-rd"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/gr8indianfood-512-pleasant-grove-rd": {
+      "url": "https://order.toasttab.com/online/gr8indianfood-512-pleasant-grove-rd",
+      "html_bytes": 5727,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

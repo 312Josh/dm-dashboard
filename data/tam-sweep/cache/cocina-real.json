@@ -1,0 +1,84 @@
+{
+  "parent": "Cocina Real Parent",
+  "slug": "cocina-real",
+  "total_headroom": "$117,216",
+  "non_ec_headroom": "$107,556",
+  "est_ec_headroom": "$9,660",
+  "employee_count": "57",
+  "non_ec_arr": "$17,799",
+  "state": "TN",
+  "city": "Mt. Pleasant",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jesus.eduardo77@gmail.com",
+  "location_count": 6,
+  "location_names": [
+    "Cocina Real 3",
+    "Puente Grande Mexican Restaurant",
+    "Cocina Real",
+    "Cocina Real - Lawrenceberg",
+    "Corralejos Mexican Grill",
+    "Corralejos Mexican Grill Truck"
+  ],
+  "websites": [
+    "https://www.cocinarealtennesseetn.com/",
+    "https://corralejosmexican.com/",
+    "https://puentegrandelawrenceburg.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cocinarealtennesseetn.com/": {
+      "url": "https://www.cocinarealtennesseetn.com/",
+      "html_bytes": 14490,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://corralejosmexican.com/": {
+      "url": "https://corralejosmexican.com/",
+      "html_bytes": 203374,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://corralejosmexican.com/menu/": {
+      "url": "https://corralejosmexican.com/menu/",
+      "html_bytes": 319025,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://puentegrandelawrenceburg.com/": {
+      "url": "https://puentegrandelawrenceburg.com/",
+      "html_bytes": 1116,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "cocina real": "https://www.cocinarealtennesseetn.com/",
+    "corralejos": "https://corralejosmexican.com/",
+    "puente grande": "https://puentegrandelawrenceburg.com/"
+  }
+}

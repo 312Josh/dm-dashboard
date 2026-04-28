@@ -1,0 +1,38 @@
+{
+  "parent": "Rage'N Axe - Parent Account",
+  "slug": "rage-n-axe",
+  "total_headroom": "$19,952",
+  "non_ec_headroom": "$18,720",
+  "est_ec_headroom": "$1,232",
+  "employee_count": "7",
+  "non_ec_arr": "$4,020",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "info@ragenaxeclarksville.com",
+  "location_count": 1,
+  "location_names": [
+    "Rage'N Axe"
+  ],
+  "websites": [
+    "https://www.ragenaxetn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ragenaxetn.com/": {
+      "url": "https://www.ragenaxetn.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

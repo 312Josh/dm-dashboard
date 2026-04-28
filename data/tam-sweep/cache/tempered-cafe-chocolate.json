@@ -1,0 +1,52 @@
+{
+  "parent": "Tempered Cafe & Chocolate Parent",
+  "slug": "tempered-cafe-chocolate",
+  "total_headroom": "$19,740",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$1,230",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "daniel@southsidekp.com",
+  "location_count": 1,
+  "location_names": [
+    "Tempered Cafe & Chocolate"
+  ],
+  "websites": [
+    "https://temperedfinechocolates.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://temperedfinechocolates.com/": {
+      "url": "https://temperedfinechocolates.com/",
+      "html_bytes": 109431,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "reservations": "Tock"
+      },
+      "toast": {}
+    },
+    "https://temperedfinechocolates.com/collections/gifts": {
+      "url": "https://temperedfinechocolates.com/collections/gifts",
+      "html_bytes": 83105,
+      "fingerprints": {
+        "website_cms": "Shopify"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

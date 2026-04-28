@@ -1,0 +1,41 @@
+{
+  "parent": "VISAKHA VIRIYA LLC",
+  "slug": "visakha-viriya-llc",
+  "total_headroom": "$16,068",
+  "non_ec_headroom": "$15,732",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "spicerackskitchen@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "VISAKHA VIRIYA LLC"
+  ],
+  "websites": [
+    "https://www.instagram.com/visakha.vry/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.instagram.com/visakha.vry/": {
+      "url": "https://www.instagram.com/visakha.vry/",
+      "html_bytes": 801352,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

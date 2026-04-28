@@ -1,0 +1,48 @@
+{
+  "parent": "Tallulah Farm",
+  "slug": "tallulah-farm",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lancaster",
+  "restaurant_type": "Unknown",
+  "contact_email": "danandkelcey@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tallulah Farm"
+  ],
+  "websites": [
+    "https://www.tallulahfarm.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tallulahfarm.com/": {
+      "url": "https://www.tallulahfarm.com/",
+      "html_bytes": 1669880,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.tallulahfarm.com/booking-calendar/ice-cream": {
+      "url": "https://www.tallulahfarm.com/booking-calendar/ice-cream",
+      "html_bytes": 1596003,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "parent": "The Cookery",
+  "slug": "the-cookery",
+  "total_headroom": "$17,988",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$3,324",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cookerymanager@lambscroft.org",
+  "location_count": 1,
+  "location_names": [
+    "The Cookery"
+  ],
+  "websites": [
+    "https://thecookery.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thecookery.org/": {
+      "url": "https://thecookery.org/",
+      "html_bytes": 284949,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/thecookery",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/thecookery",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

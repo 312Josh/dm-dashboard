@@ -1,0 +1,62 @@
+{
+  "parent": "Flamingo Cocktail Club",
+  "slug": "flamingo-cocktail-club",
+  "total_headroom": "$21,424",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$784",
+  "employee_count": "5",
+  "non_ec_arr": "$3,204",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "alexis.m.soler@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Flamingo Cocktail Club"
+  ],
+  "websites": [
+    "https://www.flamingococktailclub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.flamingococktailclub.com/": {
+      "url": "https://www.flamingococktailclub.com/",
+      "html_bytes": 111444,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.flamingococktailclub.com/menu": {
+      "url": "https://www.flamingococktailclub.com/menu",
+      "html_bytes": 67252,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.flamingococktailclub.com/book-event": {
+      "url": "https://www.flamingococktailclub.com/book-event",
+      "html_bytes": 74502,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

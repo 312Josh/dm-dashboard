@@ -1,0 +1,38 @@
+{
+  "parent": "Kentucky Crepes",
+  "slug": "kentucky-crepes",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "null",
+  "state": "KY",
+  "city": "Richmond",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kycrepes@gamil.com",
+  "location_count": 1,
+  "location_names": [
+    "Kentucky Crepes"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/Kentucky-Crepes-100095073639046/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/Kentucky-Crepes-100095073639046/": {
+      "url": "https://www.facebook.com/p/Kentucky-Crepes-100095073639046/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

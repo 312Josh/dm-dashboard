@@ -1,0 +1,42 @@
+{
+  "parent": "Tippers Parent",
+  "slug": "tippers",
+  "total_headroom": "$42,312",
+  "non_ec_headroom": "$39,372",
+  "est_ec_headroom": "$2,940",
+  "employee_count": "18",
+  "non_ec_arr": "$5,448",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "mrtippers@aol.com",
+  "location_count": 2,
+  "location_names": [
+    "Tippers Neighborhood Pub Day",
+    "Tippers Neighborhood Pub"
+  ],
+  "websites": [
+    "https://tippers-pub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tippers-pub.com/": {
+      "url": "https://tippers-pub.com/",
+      "html_bytes": 5512,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

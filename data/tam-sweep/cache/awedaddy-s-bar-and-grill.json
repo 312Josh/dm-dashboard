@@ -1,0 +1,46 @@
+{
+  "parent": "Awedaddy's Bar and Grill - Parent",
+  "slug": "awedaddy-s-bar-and-grill",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "41",
+  "non_ec_arr": "$1,114",
+  "state": "TN",
+  "city": "Gallatin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "anchorhighg91682@bellsouth.net",
+  "location_count": 1,
+  "location_names": [
+    "Awedaddy's Bar and Grill"
+  ],
+  "websites": [
+    "https://www.awedaddys.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.awedaddys.com/": {
+      "url": "https://www.awedaddys.com/",
+      "html_bytes": 180873,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/awedaddys-bar-and-grill",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/awedaddys-bar-and-grill",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

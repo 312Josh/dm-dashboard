@@ -1,0 +1,48 @@
+{
+  "parent": "The Lipstick Lounge- Parent Account",
+  "slug": "the-lipstick-lounge",
+  "total_headroom": "$19,500",
+  "non_ec_headroom": "$19,500",
+  "est_ec_headroom": "$0",
+  "employee_count": "28",
+  "non_ec_arr": "$5,640",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "christa@thelipsticklounge.com",
+  "location_count": 1,
+  "location_names": [
+    "The Lipstick Lounge"
+  ],
+  "websites": [
+    "https://thelipsticklounge.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thelipsticklounge.com/": {
+      "url": "https://thelipsticklounge.com/",
+      "html_bytes": 211224,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://thelipsticklounge.com/menu/": {
+      "url": "https://thelipsticklounge.com/menu/",
+      "html_bytes": 132683,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "parent": "The Board room steakhouse - Parent Account",
+  "slug": "the-board-room-steakhouse",
+  "total_headroom": "$25,128",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$4,788",
+  "employee_count": "29",
+  "non_ec_arr": "$4,080",
+  "state": "TN",
+  "city": "Gainesboro",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "thestolencoinbistro@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Board Room Steakhouse"
+  ],
+  "websites": [
+    "https://www.theboardroomsteakhousetn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.theboardroomsteakhousetn.com/": {
+      "url": "https://www.theboardroomsteakhousetn.com/",
+      "html_bytes": 322898,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.theboardroomsteakhousetn.com/menu-2": {
+      "url": "https://www.theboardroomsteakhousetn.com/menu-2",
+      "html_bytes": 194880,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.theboardroomsteakhousetn.com/reservations": {
+      "url": "https://www.theboardroomsteakhousetn.com/reservations",
+      "html_bytes": 193275,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

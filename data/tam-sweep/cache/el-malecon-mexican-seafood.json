@@ -1,0 +1,42 @@
+{
+  "parent": "El Malecon Mexican Seafood -",
+  "slug": "el-malecon-mexican-seafood",
+  "total_headroom": "$22,016",
+  "non_ec_headroom": "$19,860",
+  "est_ec_headroom": "$2,156",
+  "employee_count": "13",
+  "non_ec_arr": "$4,320",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Unknown",
+  "contact_email": "gloriavictory0128@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "El Malecon Mexican Seafood"
+  ],
+  "websites": [
+    "https://elmaleconmexicanseafood.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://elmaleconmexicanseafood.com/": {
+      "url": "https://elmaleconmexicanseafood.com/",
+      "html_bytes": 22527,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

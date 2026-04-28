@@ -1,0 +1,40 @@
+{
+  "parent": "JJ's Diner (New) - Parent Account",
+  "slug": "jj-s-diner-new",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$600",
+  "state": "TN",
+  "city": "Goodlettsville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jamesanthony.cavis@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "JJ's Diner New"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/jj-s-diner-new-1262-louisville-hwy/r-de5de442-ad39-4d4c-aa76-160b755fcc8c"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/jj-s-diner-new-1262-louisville-hwy/r-de5de442-ad39-4d4c-aa76-160b755fcc8c": {
+      "url": "https://www.toasttab.com/local/jj-s-diner-new-1262-louisville-hwy/r-de5de442-ad39-4d4c-aa76-160b755fcc8c",
+      "html_bytes": 5835,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

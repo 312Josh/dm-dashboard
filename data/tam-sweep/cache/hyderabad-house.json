@@ -1,0 +1,47 @@
+{
+  "parent": "Hyderabad House - Parent",
+  "slug": "hyderabad-house",
+  "total_headroom": "$95,266",
+  "non_ec_headroom": "$94,272",
+  "est_ec_headroom": "$994",
+  "employee_count": "6",
+  "non_ec_arr": "$19,017",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "ravishetkar@yahoo.com",
+  "location_count": 5,
+  "location_names": [
+    "Royal Caterer",
+    "Amaravati Indian Cuisine",
+    "Hyderabad House",
+    "Woodland Indian Cuisine",
+    "The Lounge on 2nd"
+  ],
+  "websites": [
+    "https://hyderabadhousenashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hyderabadhousenashville.com/": {
+      "url": "https://hyderabadhousenashville.com/",
+      "html_bytes": 5546,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Taqueria Andrea - Parent",
+  "slug": "taqueria-andrea",
+  "total_headroom": "$20,280",
+  "non_ec_headroom": "$19,860",
+  "est_ec_headroom": "$420",
+  "employee_count": "3",
+  "non_ec_arr": "$1,494",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "candyguerra1605@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Taqueria Andrea"
+  ],
+  "websites": [
+    "https://taqueriaandreatn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://taqueriaandreatn.com/": {
+      "url": "https://taqueriaandreatn.com/",
+      "html_bytes": 14319,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

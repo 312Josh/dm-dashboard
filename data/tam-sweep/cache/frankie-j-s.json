@@ -1,0 +1,60 @@
+{
+  "parent": "Frankie J's - Parent Account",
+  "slug": "frankie-j-s",
+  "total_headroom": "$22,180",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$1,540",
+  "employee_count": "9",
+  "non_ec_arr": "$4,200",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "jaykill66@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Frankie J's"
+  ],
+  "websites": [
+    "https://frankiejsnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://frankiejsnashville.com/": {
+      "url": "https://frankiejsnashville.com/",
+      "html_bytes": 301950,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "catering_mention": "Catering page",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://frankiejsnashville.com/menu/": {
+      "url": "https://frankiejsnashville.com/menu/",
+      "html_bytes": 382872,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

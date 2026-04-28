@@ -1,0 +1,65 @@
+{
+  "parent": "Game Terminal Parent",
+  "slug": "game-terminal",
+  "total_headroom": "$17,904",
+  "non_ec_headroom": "$17,904",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$6,978",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "patrick@gameterminal.com",
+  "location_count": 1,
+  "location_names": [
+    "Game Terminal"
+  ],
+  "websites": [
+    "https://gameterminal.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gameterminal.com/": {
+      "url": "https://gameterminal.com/",
+      "html_bytes": 141444,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/game-terminal-201-terminal-ct/giftcards"
+      }
+    },
+    "https://gameterminal.com/menus": {
+      "url": "https://gameterminal.com/menus",
+      "html_bytes": 113955,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/game-terminal-201-terminal-ct/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/game-terminal-201-terminal-ct/giftcards"
+  },
+  "marketplaces": [
+    "ubereats",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

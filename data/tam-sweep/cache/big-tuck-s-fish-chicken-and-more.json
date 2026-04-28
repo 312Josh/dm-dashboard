@@ -1,0 +1,40 @@
+{
+  "parent": "Big Tuck’s fish,chicken and more",
+  "slug": "big-tuck-s-fish-chicken-and-more",
+  "total_headroom": "$18,276",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Lebanon",
+  "restaurant_type": "Unknown",
+  "contact_email": "ptucker6999@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Big Tuck’s fish,chicken and more"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/big-tuck-s-fish-chicken-and-more-398-burford-rd"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/big-tuck-s-fish-chicken-and-more-398-burford-rd": {
+      "url": "https://www.toasttab.com/local/order/big-tuck-s-fish-chicken-and-more-398-burford-rd",
+      "html_bytes": 5754,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

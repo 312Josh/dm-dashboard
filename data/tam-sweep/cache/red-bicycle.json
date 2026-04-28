@@ -1,0 +1,46 @@
+{
+  "parent": "Red Bicycle - Parent",
+  "slug": "red-bicycle",
+  "total_headroom": "$69,372",
+  "non_ec_headroom": "$69,372",
+  "est_ec_headroom": "$0",
+  "employee_count": "41",
+  "non_ec_arr": "$12,426",
+  "state": "TN",
+  "city": "Antioch",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "cyndi@redbicyclecoffee.com",
+  "location_count": 4,
+  "location_names": [
+    "Red Bicycle - Tanger",
+    "Red Bicycle - Woodbine",
+    "Red Bicycle Nolensville",
+    "Red Bicycle - Mount Juliet"
+  ],
+  "websites": [
+    "https://redbicyclecoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://redbicyclecoffee.com/": {
+      "url": "https://redbicyclecoffee.com/",
+      "html_bytes": 20735,
+      "fingerprints": {
+        "website_cms": "Shopify"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

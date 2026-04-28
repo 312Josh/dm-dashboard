@@ -1,0 +1,43 @@
+{
+  "parent": "Creole Cafe/ JCL Hudson Parent",
+  "slug": "creole-cafe-jcl-hudson",
+  "total_headroom": "$20,376",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "seneca_hudson@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "JLC Hudson"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/creolecafe859"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/creolecafe859": {
+      "url": "https://order.toasttab.com/online/creolecafe859",
+      "html_bytes": 5618,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

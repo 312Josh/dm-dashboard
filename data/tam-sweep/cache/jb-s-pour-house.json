@@ -1,0 +1,54 @@
+{
+  "parent": "JB's Pour House Parent",
+  "slug": "jb-s-pour-house",
+  "total_headroom": "$52,492",
+  "non_ec_headroom": "$38,100",
+  "est_ec_headroom": "$14,392",
+  "employee_count": "86",
+  "non_ec_arr": "$9,507",
+  "state": "TN",
+  "city": "Morristown",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jasbal@comcast.net",
+  "location_count": 2,
+  "location_names": [
+    "Good Ole Days",
+    "JB's Pour House"
+  ],
+  "websites": [
+    "https://jbspourhouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://jbspourhouse.com/": {
+      "url": "https://jbspourhouse.com/",
+      "html_bytes": 180945,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "delivery_platforms": "ChowNow Direct",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/jb-s-pour-house/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/jb-s-pour-house/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "grubhub",
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

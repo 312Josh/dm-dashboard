@@ -1,0 +1,40 @@
+{
+  "parent": "JD's Kitchen & Catering - Parent Account",
+  "slug": "jd-s-kitchen-catering",
+  "total_headroom": "$20,088",
+  "non_ec_headroom": "$19,752",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$1,548",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jdskitchenandcatering@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "JD's Kitchen & Catering"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/jamaris-place-161-e-reynolds-rd/r-b719539e-5ddf-4fe2-9439-1c299aa50066"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/jamaris-place-161-e-reynolds-rd/r-b719539e-5ddf-4fe2-9439-1c299aa50066": {
+      "url": "https://www.toasttab.com/local/jamaris-place-161-e-reynolds-rd/r-b719539e-5ddf-4fe2-9439-1c299aa50066",
+      "html_bytes": 5826,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

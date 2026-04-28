@@ -1,0 +1,43 @@
+{
+  "parent": "TomKats Hospitality",
+  "slug": "tomkats-hospitality",
+  "total_headroom": "$89,340",
+  "non_ec_headroom": "$55,320",
+  "est_ec_headroom": "$34,020",
+  "employee_count": "204",
+  "non_ec_arr": "$33,289",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rmclean@tomkats.com",
+  "location_count": 3,
+  "location_names": [
+    "ACME Feed and Seed",
+    "Southern Steak and Oyster",
+    "Saffire Restaurant"
+  ],
+  "websites": [
+    "https://www.tomkats.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tomkats.com/": {
+      "url": "https://www.tomkats.com/",
+      "html_bytes": 252767,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

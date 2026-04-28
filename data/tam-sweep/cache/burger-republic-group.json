@@ -1,0 +1,87 @@
+{
+  "parent": "Burger Republic Group",
+  "slug": "burger-republic-group",
+  "total_headroom": "$54,732",
+  "non_ec_headroom": "$54,732",
+  "est_ec_headroom": "$0",
+  "employee_count": "134",
+  "non_ec_arr": "$40,861",
+  "state": "TN",
+  "city": "Chattanooga",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "drewj@burgerrepublic.com",
+  "location_count": 4,
+  "location_names": [
+    "Burger Republic - Chattanooga",
+    "Burger Republic - Mount Juliet",
+    "Burger Republic - Lenox Village",
+    "Burger Republic - Gulch"
+  ],
+  "websites": [
+    "https://burgerrepublic.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://burgerrepublic.com/": {
+      "url": "https://burgerrepublic.com/",
+      "html_bytes": 177963,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/burger-republic-gulch-420-11th-avenue-south/giftcards",
+        "toast_local": "toasttab.com/local/order",
+        "toast_loyalty": "toasttab.com/burger-republic-lenox-village-6900-lenox-village-dr-22/rewardsSignup"
+      }
+    },
+    "https://burgerrepublic.com/menu/": {
+      "url": "https://burgerrepublic.com/menu/",
+      "html_bytes": 215501,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/burger-republic-gulch-420-11th-avenue-south/giftcards",
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://burgerrepublic.com/rewards/": {
+      "url": "https://burgerrepublic.com/rewards/",
+      "html_bytes": 140351,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/burger-republic-gulch-420-11th-avenue-south/giftcards",
+        "toast_loyalty": "toasttab.com/burger-republic-lenox-village-6900-lenox-village-dr-22/rewardsSignup",
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/burger-republic-gulch-420-11th-avenue-south/giftcards",
+    "toast_local": "toasttab.com/local/order",
+    "toast_loyalty": "toasttab.com/burger-republic-lenox-village-6900-lenox-village-dr-22/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

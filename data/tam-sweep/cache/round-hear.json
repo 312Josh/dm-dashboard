@@ -1,0 +1,48 @@
+{
+  "parent": "Round Hear - Parent Account",
+  "slug": "round-hear",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$1,887",
+  "state": "TN",
+  "city": "Goodlettsville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "info@roundhear.com",
+  "location_count": 1,
+  "location_names": [
+    "Round Hear"
+  ],
+  "websites": [
+    "https://roundhear.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://roundhear.com/": {
+      "url": "https://roundhear.com/",
+      "html_bytes": 125668,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://roundhear.com/menu/": {
+      "url": "https://roundhear.com/menu/",
+      "html_bytes": 97823,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

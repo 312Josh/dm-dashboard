@@ -1,0 +1,53 @@
+{
+  "parent": "Official Wings Down Town - Parent Account",
+  "slug": "official-wings-down-town",
+  "total_headroom": "$56,040",
+  "non_ec_headroom": "$56,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$8,940",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kpartee89@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Official Wings Food Truck",
+    "Official Wings Jefferson St",
+    "Official Wings Sango"
+  ],
+  "websites": [
+    "https://www.officialwingsllc.com/clarksville-1"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.officialwingsllc.com/clarksville-1": {
+      "url": "https://www.officialwingsllc.com/clarksville-1",
+      "html_bytes": 144886,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.officialwingsllc.com/menu": {
+      "url": "https://www.officialwingsllc.com/menu",
+      "html_bytes": 141441,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

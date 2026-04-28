@@ -1,0 +1,41 @@
+{
+  "parent": "Ruby's Market and Cafe - Parent Account",
+  "slug": "ruby-s-market-and-cafe",
+  "total_headroom": "$40,980",
+  "non_ec_headroom": "$40,980",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$3,156",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "jatindersmith@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Modern Pantry - 2",
+    "Ruby's Market and Cafe"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/rubys-market-and-cafe-307-w-short-st/r-1997f135-963e-4775-8a45-bcbabdd08451"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/rubys-market-and-cafe-307-w-short-st/r-1997f135-963e-4775-8a45-bcbabdd08451": {
+      "url": "https://www.toasttab.com/local/order/rubys-market-and-cafe-307-w-short-st/r-1997f135-963e-4775-8a45-bcbabdd08451",
+      "html_bytes": 5859,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "Casa Azul Mexican Grill - Parent Account",
+  "slug": "casa-azul-mexican-grill",
+  "total_headroom": "$18,892",
+  "non_ec_headroom": "$16,932",
+  "est_ec_headroom": "$1,960",
+  "employee_count": "12",
+  "non_ec_arr": "$8,808",
+  "state": "TN",
+  "city": "Lebanon",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "sigutierrez18@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Casa Azul Mexican Grill"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/casa-azul-mexican-grill-401-hwy-109-n"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/casa-azul-mexican-grill-401-hwy-109-n": {
+      "url": "https://www.toasttab.com/local/order/casa-azul-mexican-grill-401-hwy-109-n",
+      "html_bytes": 5703,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

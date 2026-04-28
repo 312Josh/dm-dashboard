@@ -1,0 +1,47 @@
+{
+  "parent": "Tipsy Thai - Parent Account",
+  "slug": "tipsy-thai",
+  "total_headroom": "$16,740",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$6,012",
+  "state": "TN",
+  "city": "Mt. Juliet",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kimvo.mj@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tipsy Thai New"
+  ],
+  "websites": [
+    "https://www.tipsythaimtjuliet.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tipsythaimtjuliet.com/": {
+      "url": "https://www.tipsythaimtjuliet.com/",
+      "html_bytes": 91611,
+      "fingerprints": {},
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.tipsythaimtjuliet.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.tipsythaimtjuliet.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

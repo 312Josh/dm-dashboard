@@ -1,0 +1,42 @@
+{
+  "parent": "Makeshift- Parent Account",
+  "slug": "makeshift",
+  "total_headroom": "$25,920",
+  "non_ec_headroom": "$25,920",
+  "est_ec_headroom": "$0",
+  "employee_count": "33",
+  "non_ec_arr": "$18,000",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "us@dukosnashville.com",
+  "location_count": 2,
+  "location_names": [
+    "Makeshift",
+    "Duko's"
+  ],
+  "websites": [
+    "https://www.makeshiftnashville.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.makeshiftnashville.co/": {
+      "url": "https://www.makeshiftnashville.co/",
+      "html_bytes": 5523,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

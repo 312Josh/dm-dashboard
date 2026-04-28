@@ -1,0 +1,51 @@
+{
+  "parent": "Pizza Lolo - Parent Account",
+  "slug": "pizza-lolo",
+  "total_headroom": "$17,820",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$3,120",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "hellostevenanthony@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pizza Lolo"
+  ],
+  "websites": [
+    "https://www.eatpizzalolo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatpizzalolo.com/": {
+      "url": "https://www.eatpizzalolo.com/",
+      "html_bytes": 255441,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pizzalolo",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/pizzalolo",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "White House Snack Shack - Parent Account",
+  "slug": "white-house-snack-shack",
+  "total_headroom": "$14,652",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "White House",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "whsnackshack@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "White House Snack Shack"
+  ],
+  "websites": [
+    "https://whitehousesnackshack-xxxr0bit.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://whitehousesnackshack-xxxr0bit.toast.site/": {
+      "url": "https://whitehousesnackshack-xxxr0bit.toast.site/",
+      "html_bytes": 5601,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

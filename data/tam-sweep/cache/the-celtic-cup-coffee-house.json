@@ -1,0 +1,54 @@
+{
+  "parent": "The Celtic Cup Coffee House Parent",
+  "slug": "the-celtic-cup-coffee-house",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$1,500",
+  "state": "TN",
+  "city": "Tullahoma",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "denise.thecelticcup@lighttube.net",
+  "location_count": 1,
+  "location_names": [
+    "The Celtic Cup Coffee House"
+  ],
+  "websites": [
+    "https://www.thecelticcup.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thecelticcup.com/": {
+      "url": "https://www.thecelticcup.com/",
+      "html_bytes": 461560,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.thecelticcup.com/menu": {
+      "url": "https://www.thecelticcup.com/menu",
+      "html_bytes": 420165,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

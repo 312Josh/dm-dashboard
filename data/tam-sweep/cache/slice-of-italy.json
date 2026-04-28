@@ -1,0 +1,53 @@
+{
+  "parent": "slice of italy - Parent Account",
+  "slug": "slice-of-italy",
+  "total_headroom": "$18,636",
+  "non_ec_headroom": "$17,460",
+  "est_ec_headroom": "$1,176",
+  "employee_count": "7",
+  "non_ec_arr": "$4,500",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "ufarhod@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "slice of italy"
+  ],
+  "websites": [
+    "https://sliceofitalytn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sliceofitalytn.com/": {
+      "url": "https://sliceofitalytn.com/",
+      "html_bytes": 313087,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sliceofitaly",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/sliceofitaly",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

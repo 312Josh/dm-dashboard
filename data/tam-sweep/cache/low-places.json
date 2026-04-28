@@ -1,0 +1,53 @@
+{
+  "parent": "Low Places - Parent Account",
+  "slug": "low-places",
+  "total_headroom": "$8,064",
+  "non_ec_headroom": "$8,064",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$10,968",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "info@joyrideus.com",
+  "location_count": 1,
+  "location_names": [
+    "The Green Light Bar"
+  ],
+  "websites": [
+    "https://friendsbarnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://friendsbarnashville.com/": {
+      "url": "https://friendsbarnashville.com/",
+      "html_bytes": 93569,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://friendsbarnashville.com/menu/lunch-dinner": {
+      "url": "https://friendsbarnashville.com/menu/lunch-dinner",
+      "html_bytes": 105998,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

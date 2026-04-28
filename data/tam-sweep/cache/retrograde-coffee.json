@@ -1,0 +1,56 @@
+{
+  "parent": "Retrograde Coffee Parent",
+  "slug": "retrograde-coffee",
+  "total_headroom": "$86,412",
+  "non_ec_headroom": "$86,412",
+  "est_ec_headroom": "$0",
+  "employee_count": "43",
+  "non_ec_arr": "$19,320",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "steve@mwrealestateco.com",
+  "location_count": 5,
+  "location_names": [
+    "Ugly Mugs Coffee and Tea",
+    "Retrograde Coffee - Clifton",
+    "Retrograde Coffee Company - Dickerson",
+    "Retrograde Coffee - 4th Ave Downton Nashville",
+    "Retrograde INGLEWOOD - NEW"
+  ],
+  "websites": [
+    "https://retrogradecoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://retrogradecoffee.com/": {
+      "url": "https://retrogradecoffee.com/",
+      "html_bytes": 179613,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/retrograde-coffee-company-dickerson-1305-dickerson-pike",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/retrograde-coffee-company-dickerson-1305-dickerson-pike",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

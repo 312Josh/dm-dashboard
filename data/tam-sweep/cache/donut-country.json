@@ -1,0 +1,44 @@
+{
+  "parent": "Donut Country - Parent",
+  "slug": "donut-country",
+  "total_headroom": "$48,972",
+  "non_ec_headroom": "$48,972",
+  "est_ec_headroom": "$0",
+  "employee_count": "53",
+  "non_ec_arr": "$13,581",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "donutcountry@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Donut Country Food Truck",
+    "Donut Country 1691 Middle Tennessee Blvd",
+    "Donut Country 1311 Memorial Blvd"
+  ],
+  "websites": [
+    "https://donutcountry.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://donutcountry.com/": {
+      "url": "https://donutcountry.com/",
+      "html_bytes": 5513,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

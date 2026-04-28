@@ -1,0 +1,62 @@
+{
+  "parent": "E + Rose Parent",
+  "slug": "e-rose",
+  "total_headroom": "$150,060",
+  "non_ec_headroom": "$150,060",
+  "est_ec_headroom": "$0",
+  "employee_count": "144",
+  "non_ec_arr": "$35,564",
+  "state": "TN",
+  "city": "Franklin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "robbie@eandrose.com",
+  "location_count": 13,
+  "location_names": [
+    "E Rose Catering",
+    "E Rose Wedgewood",
+    "E Rose Peabody Plaza",
+    "E Rose One City",
+    "E Rose Gulch",
+    "E Rose Germantown",
+    "E Rose Brentwood",
+    "E Rose 505",
+    "E Rose Atlanta 4th Ward",
+    "E Rose Nashville East 1",
+    "E Rose Nashville 10th",
+    "E Rose Westside Provision",
+    "E Rose Atlanta Promenade"
+  ],
+  "websites": [
+    "https://eandrose.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eandrose.com/": {
+      "url": "https://eandrose.com/",
+      "html_bytes": 91281,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/e-rose-wedgewood-610-merritt-avenue/giftcards",
+        "toast_loyalty": "toasttab.com/e-rose-brentwood-700-old-hickory-boulevard/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/e-rose-wedgewood-610-merritt-avenue/giftcards",
+    "toast_loyalty": "toasttab.com/e-rose-brentwood-700-old-hickory-boulevard/rewardsSignup"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

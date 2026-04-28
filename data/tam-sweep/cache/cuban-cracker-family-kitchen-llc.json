@@ -1,0 +1,46 @@
+{
+  "parent": "Cuban Cracker Family Kitchen LLC",
+  "slug": "cuban-cracker-family-kitchen-llc",
+  "total_headroom": "$16,056",
+  "non_ec_headroom": "$15,552",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$720",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "holzherrera@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cuban Cracker Family Kitchen LLC"
+  ],
+  "websites": [
+    "https://cubancracker615.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cubancracker615.com/": {
+      "url": "https://cubancracker615.com/",
+      "html_bytes": 533768,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

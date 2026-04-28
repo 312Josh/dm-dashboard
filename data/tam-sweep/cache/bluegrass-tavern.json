@@ -1,0 +1,49 @@
+{
+  "parent": "Bluegrass tavern - Parent Account",
+  "slug": "bluegrass-tavern",
+  "total_headroom": "$38,532",
+  "non_ec_headroom": "$38,532",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$3,444",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "sean.ebbitt@thebluegrasstavern.com",
+  "location_count": 2,
+  "location_names": [
+    "Bluegrass tavern",
+    "Birdies"
+  ],
+  "websites": [
+    "https://www.thebluegrasstavern.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thebluegrasstavern.com/": {
+      "url": "https://www.thebluegrasstavern.com/",
+      "html_bytes": 611550,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.thebluegrasstavern.com/menu": {
+      "url": "https://www.thebluegrasstavern.com/menu",
+      "html_bytes": 1128590,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

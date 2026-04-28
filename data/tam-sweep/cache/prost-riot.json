@@ -1,0 +1,42 @@
+{
+  "parent": "Prost & Riot - Parent Account",
+  "slug": "prost-riot",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$1,200",
+  "state": "TN",
+  "city": "Mount Juliet",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "prostnriot@icloud.com",
+  "location_count": 1,
+  "location_names": [
+    "Prost & Riot"
+  ],
+  "websites": [
+    "https://www.prostandriot.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.prostandriot.com/": {
+      "url": "https://www.prostandriot.com/",
+      "html_bytes": 3312,
+      "fingerprints": {
+        "website_cms": "Squarespace"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

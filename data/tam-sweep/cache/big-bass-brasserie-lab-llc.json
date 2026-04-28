@@ -1,0 +1,40 @@
+{
+  "parent": "Big Bass Brasserie Lab LLC",
+  "slug": "big-bass-brasserie-lab-llc",
+  "total_headroom": "null",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Pleasant View",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "raymondbass7@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Big Bass Brasserie Lab LLC"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/big-bass-brasserie-lab-llc-4037-oak-pointe-dr"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/big-bass-brasserie-lab-llc-4037-oak-pointe-dr": {
+      "url": "https://www.toasttab.com/local/order/big-bass-brasserie-lab-llc-4037-oak-pointe-dr",
+      "html_bytes": 5770,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

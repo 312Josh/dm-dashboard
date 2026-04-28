@@ -1,0 +1,57 @@
+{
+  "parent": "Hemispheres Wine Bar - Parent Account",
+  "slug": "hemispheres-wine-bar",
+  "total_headroom": "$17,892",
+  "non_ec_headroom": "$17,892",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$3,174",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "lisa@hemisphereswine.com",
+  "location_count": 1,
+  "location_names": [
+    "Hemispheres Wine Bar"
+  ],
+  "websites": [
+    "https://hemisphereswinebar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hemisphereswinebar.com/": {
+      "url": "https://hemisphereswinebar.com/",
+      "html_bytes": 123463,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/hemispheres-wine-llc-208-w-main-st/giftcards"
+      }
+    },
+    "https://hemisphereswinebar.com/menu": {
+      "url": "https://hemisphereswinebar.com/menu",
+      "html_bytes": 67546,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/hemispheres-wine-llc-208-w-main-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/hemispheres-wine-llc-208-w-main-st/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

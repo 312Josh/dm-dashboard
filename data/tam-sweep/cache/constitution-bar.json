@@ -1,0 +1,40 @@
+{
+  "parent": "Constitution Bar",
+  "slug": "constitution-bar",
+  "total_headroom": "$22,852",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$2,212",
+  "employee_count": "13",
+  "non_ec_arr": "$1,350",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jessebrasher@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Constitution Bar"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/constitution-bar-109-constitution-street/r-f4fc822c-5e95-4f97-9329-b882a4892980"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/constitution-bar-109-constitution-street/r-f4fc822c-5e95-4f97-9329-b882a4892980": {
+      "url": "https://www.toasttab.com/local/constitution-bar-109-constitution-street/r-f4fc822c-5e95-4f97-9329-b882a4892980",
+      "html_bytes": 5853,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

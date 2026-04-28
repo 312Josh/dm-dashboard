@@ -1,0 +1,66 @@
+{
+  "parent": "Hattie B's - Parent",
+  "slug": "hattie-b-s",
+  "total_headroom": "$156,060",
+  "non_ec_headroom": "$156,060",
+  "est_ec_headroom": "$0",
+  "employee_count": "347",
+  "non_ec_arr": "$60,492",
+  "state": "GA",
+  "city": "Atlanta",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "anna@hattieb.com",
+  "location_count": 9,
+  "location_names": [
+    "Hattie B's Hot Chicken - Atlanta",
+    "Hattie B's Hot Chicken - 5th & Broadway",
+    "Hattie B's Hot Chicken - Melrose",
+    "Hattie B's- Catering",
+    "Hattie B's- Memphis",
+    "Hattie B's- Midtown",
+    "Hattie B's- West Nashville",
+    "Hattie B's- Birmingham",
+    "Hattie B's Hot Chicken - ATL 2"
+  ],
+  "websites": [
+    "https://www.hattieb.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hattieb.com/": {
+      "url": "https://www.hattieb.com/",
+      "html_bytes": 157137,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "http://order.hattieb.com/"
+      }
+    },
+    "https://www.hattieb.com/menu": {
+      "url": "https://www.hattieb.com/menu",
+      "html_bytes": 138450,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "http://order.hattieb.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "http://order.hattieb.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

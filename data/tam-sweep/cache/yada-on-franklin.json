@@ -1,0 +1,53 @@
+{
+  "parent": "Yada on Franklin Parent",
+  "slug": "yada-on-franklin",
+  "total_headroom": "$16,152",
+  "non_ec_headroom": "$16,152",
+  "est_ec_headroom": "$0",
+  "employee_count": "24",
+  "non_ec_arr": "$3,666",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "darla@yadaonfranklin.com",
+  "location_count": 1,
+  "location_names": [
+    "Yada on Franklin"
+  ],
+  "websites": [
+    "https://yadaonfranklin.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://yadaonfranklin.com/": {
+      "url": "https://yadaonfranklin.com/",
+      "html_bytes": 133452,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/2a5725a7-5df0-4896-a81b-c4c98d7709bb",
+        "toast_gift": "toasttab.com/yada-on-franklin-111-franklin-street/giftcards",
+        "toast_loyalty": "toasttab.com/yada-on-franklin-111-franklin-street/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/2a5725a7-5df0-4896-a81b-c4c98d7709bb",
+    "toast_gift": "toasttab.com/yada-on-franklin-111-franklin-street/giftcards",
+    "toast_loyalty": "toasttab.com/yada-on-franklin-111-franklin-street/rewardsSignup"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

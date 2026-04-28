@@ -1,0 +1,40 @@
+{
+  "parent": "Bay 6 - Parent Account",
+  "slug": "bay-6",
+  "total_headroom": "$16,860",
+  "non_ec_headroom": "$16,860",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$5,574",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "beau@vernahospitality.com",
+  "location_count": 1,
+  "location_names": [
+    "Verna"
+  ],
+  "websites": [
+    "https://bay-6-tn.hub.biz/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bay-6-tn.hub.biz/": {
+      "url": "https://bay-6-tn.hub.biz/",
+      "html_bytes": 39609,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "Koji Express - Parent",
+  "slug": "koji-express",
+  "total_headroom": "$70,800",
+  "non_ec_headroom": "$70,800",
+  "est_ec_headroom": "$0",
+  "employee_count": "82",
+  "non_ec_arr": "$28,904",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "masamigosllc@gmail.com",
+  "location_count": 5,
+  "location_names": [
+    "Mas Amigos",
+    "Koji Express Japanese Grill - North",
+    "Koji Express Japanese Grill - West",
+    "Koji Express Japanese Grill - Memorial",
+    "Koji Express Japanese Grill - South"
+  ],
+  "websites": [
+    "https://www.kojiexpress.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.kojiexpress.com/": {
+      "url": "https://www.kojiexpress.com/",
+      "html_bytes": 112074,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.kojiexpress.com/loyalty-rewards": {
+      "url": "https://www.kojiexpress.com/loyalty-rewards",
+      "html_bytes": 76400,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

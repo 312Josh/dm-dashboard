@@ -1,0 +1,49 @@
+{
+  "parent": "Maiden City Brewing and Burnaco's Parent",
+  "slug": "maiden-city-brewing-and-burnaco-s",
+  "total_headroom": "$17,172",
+  "non_ec_headroom": "$17,172",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$6,402",
+  "state": "KY",
+  "city": "Paris",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "keithslone@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Burnaco's -- Paris"
+  ],
+  "websites": [
+    "https://www.facebook.com/maidencitybrewing/",
+    "https://www.facebook.com/p/Burnacos-100075539006784/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/maidencitybrewing/": {
+      "url": "https://www.facebook.com/maidencitybrewing/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.facebook.com/p/Burnacos-100075539006784/": {
+      "url": "https://www.facebook.com/p/Burnacos-100075539006784/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "maiden": "https://www.facebook.com/maidencitybrewing/",
+    "burnaco": "https://www.facebook.com/p/Burnacos-100075539006784/"
+  }
+}

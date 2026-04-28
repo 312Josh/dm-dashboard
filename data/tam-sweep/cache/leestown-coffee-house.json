@@ -1,0 +1,53 @@
+{
+  "parent": "Leestown Coffee House - Parent Account",
+  "slug": "leestown-coffee-house",
+  "total_headroom": "$39,780",
+  "non_ec_headroom": "$39,780",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$2,674",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "leestowncoffeehouse@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Leestown Coffee Wagon",
+    "Leestown Coffee House"
+  ],
+  "websites": [
+    "https://www.leestowncoffeehouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.leestowncoffeehouse.com/": {
+      "url": "https://www.leestowncoffeehouse.com/",
+      "html_bytes": 885334,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/leestown-coffee-house-1416-leestown-rd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/leestown-coffee-house-1416-leestown-rd/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/leestown-coffee-house-1416-leestown-rd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/leestown-coffee-house-1416-leestown-rd/giftcards"
+  },
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

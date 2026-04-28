@@ -1,0 +1,74 @@
+{
+  "parent": "Prater's BBQ",
+  "slug": "prater-s-bbq",
+  "total_headroom": "$23,420",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$3,080",
+  "employee_count": "18",
+  "non_ec_arr": "$1,800",
+  "state": "TN",
+  "city": "Manchester",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "pratersbbq@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Prater's BBQ"
+  ],
+  "websites": [
+    "https://pratersbbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pratersbbq.com/": {
+      "url": "https://pratersbbq.com/",
+      "html_bytes": 54798,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://pratersbbq.com/menus/": {
+      "url": "https://pratersbbq.com/menus/",
+      "html_bytes": 49645,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://pratersbbq.com/menus/morrison-menu/": {
+      "url": "https://pratersbbq.com/menus/morrison-menu/",
+      "html_bytes": 66282,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://pratersbbq.com/menus/manchester_menu/": {
+      "url": "https://pratersbbq.com/menus/manchester_menu/",
+      "html_bytes": 68882,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://pratersbbq.com/menus/manchester-lunch-buffet/": {
+      "url": "https://pratersbbq.com/menus/manchester-lunch-buffet/",
+      "html_bytes": 55043,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

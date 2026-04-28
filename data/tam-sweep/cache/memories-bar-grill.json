@@ -1,0 +1,52 @@
+{
+  "parent": "Memories Bar & Grill - Parent",
+  "slug": "memories-bar-grill",
+  "total_headroom": "$15,252",
+  "non_ec_headroom": "$15,252",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$8,628",
+  "state": "TN",
+  "city": "La Vergne",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "two222@bellsouth.net",
+  "location_count": 1,
+  "location_names": [
+    "Memories Bar & Grill"
+  ],
+  "websites": [
+    "https://memoriesbargrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://memoriesbargrill.com/": {
+      "url": "https://memoriesbargrill.com/",
+      "html_bytes": 149110,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://memoriesbargrill.com/reservations": {
+      "url": "https://memoriesbargrill.com/reservations",
+      "html_bytes": 65787,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

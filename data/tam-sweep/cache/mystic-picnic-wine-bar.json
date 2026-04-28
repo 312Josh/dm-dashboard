@@ -1,0 +1,70 @@
+{
+  "parent": "Mystic Picnic Wine Bar Parent",
+  "slug": "mystic-picnic-wine-bar",
+  "total_headroom": "$18,312",
+  "non_ec_headroom": "$18,312",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$2,580",
+  "state": "TN",
+  "city": "Springfield",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "adamlaclave@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mystic Picnic Wine Bar"
+  ],
+  "websites": [
+    "https://www.mysticpicnicwine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mysticpicnicwine.com/": {
+      "url": "https://www.mysticpicnicwine.com/",
+      "html_bytes": 214320,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/mystic-picnic-wine-bar/giftcards"
+      }
+    },
+    "https://www.mysticpicnicwine.com/menu-1-1": {
+      "url": "https://www.mysticpicnicwine.com/menu-1-1",
+      "html_bytes": 177487,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.mysticpicnicwine.com/book-a-table": {
+      "url": "https://www.mysticpicnicwine.com/book-a-table",
+      "html_bytes": 109083,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/mystic-picnic-wine-bar/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

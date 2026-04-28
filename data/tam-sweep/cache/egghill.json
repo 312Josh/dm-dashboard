@@ -1,0 +1,43 @@
+{
+  "parent": "Egghill",
+  "slug": "egghill",
+  "total_headroom": "$17,596",
+  "non_ec_headroom": "$16,560",
+  "est_ec_headroom": "$1,036",
+  "employee_count": "6",
+  "non_ec_arr": "$4,776",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "parkes@egghillshop.com",
+  "location_count": 1,
+  "location_names": [
+    "Egghill"
+  ],
+  "websites": [
+    "https://www.egghilltn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.egghilltn.com/": {
+      "url": "https://www.egghilltn.com/",
+      "html_bytes": 5515,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

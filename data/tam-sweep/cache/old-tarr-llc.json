@@ -1,0 +1,41 @@
+{
+  "parent": "Old Tarr LLC",
+  "slug": "old-tarr-llc",
+  "total_headroom": "$39,984",
+  "non_ec_headroom": "$39,984",
+  "est_ec_headroom": "$0",
+  "employee_count": "52",
+  "non_ec_arr": "$7,296",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "ahatton10@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Manchester Reserve",
+    "Manchester Hall"
+  ],
+  "websites": [
+    "https://www.manchestermusichall.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.manchestermusichall.com/": {
+      "url": "https://www.manchestermusichall.com/",
+      "html_bytes": 328770,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

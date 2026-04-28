@@ -1,0 +1,53 @@
+{
+  "parent": "Bella Napoli - Parent Account",
+  "slug": "bella-napoli",
+  "total_headroom": "$23,092",
+  "non_ec_headroom": "$19,620",
+  "est_ec_headroom": "$3,472",
+  "employee_count": "21",
+  "non_ec_arr": "$3,162",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "seddillorg@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bella Napoli"
+  ],
+  "websites": [
+    "https://bellanapolipizzeria.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bellanapolipizzeria.com/": {
+      "url": "https://bellanapolipizzeria.com/",
+      "html_bytes": 184467,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bella-napoli-1200-villa-place-ste-206/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/bella-napoli-1200-villa-place-ste-206/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

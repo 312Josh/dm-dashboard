@@ -1,0 +1,63 @@
+{
+  "parent": "All or Nothing Bagels Parent",
+  "slug": "all-or-nothing-bagels",
+  "total_headroom": "$19,680",
+  "non_ec_headroom": "$19,680",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$1,620",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "bodybybagel@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "All or Nothing Bagels"
+  ],
+  "websites": [
+    "https://www.allornothingnash.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.allornothingnash.com/": {
+      "url": "https://www.allornothingnash.com/",
+      "html_bytes": 257446,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/all-or-nothing-bagels-the-mothership-1102-riverside-drive",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.allornothingnash.com/orders": {
+      "url": "https://www.allornothingnash.com/orders",
+      "html_bytes": 192553,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/all-or-nothing-bagels-the-mothership-1102-riverside-drive",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/all-or-nothing-bagels-the-mothership-1102-riverside-drive",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

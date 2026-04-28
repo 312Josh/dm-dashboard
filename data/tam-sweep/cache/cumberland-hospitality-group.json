@@ -1,0 +1,119 @@
+{
+  "parent": "Cumberland Hospitality Group",
+  "slug": "cumberland-hospitality-group",
+  "total_headroom": "$103,980",
+  "non_ec_headroom": "$103,980",
+  "est_ec_headroom": "$0",
+  "employee_count": "207",
+  "non_ec_arr": "$77,760",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "bhobbs@chgnash.com",
+  "location_count": 6,
+  "location_names": [
+    "Bootleggers Inn",
+    "Doc Holliday's Saloon",
+    "Barometer Waterfront Grill",
+    "Scoreboard Opryland",
+    "Barometer Tiki Bar",
+    "The Nashville Palace"
+  ],
+  "websites": [
+    "https://www.bootleggersnashville.com/",
+    "https://www.dochollidaysnashville.com/",
+    "https://www.instagram.com/barometerwaterfrontgrille/",
+    "https://www.scoreboardopry.com/",
+    "https://www.thefamousnashvillepalace.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bootleggersnashville.com/": {
+      "url": "https://www.bootleggersnashville.com/",
+      "html_bytes": 521169,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.dochollidaysnashville.com/": {
+      "url": "https://www.dochollidaysnashville.com/",
+      "html_bytes": 1794535,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Waitlist Me",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/doc-hollidays-saloon-112-2nd-avenue-north/giftcards"
+      }
+    },
+    "https://www.dochollidaysnashville.com/menu": {
+      "url": "https://www.dochollidaysnashville.com/menu",
+      "html_bytes": 1049138,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/doc-hollidays-saloon-112-2nd-avenue-north/giftcards"
+      }
+    },
+    "https://www.instagram.com/barometerwaterfrontgrille/": {
+      "url": "https://www.instagram.com/barometerwaterfrontgrille/",
+      "html_bytes": 801484,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    },
+    "https://www.scoreboardopry.com/": {
+      "url": "https://www.scoreboardopry.com/",
+      "html_bytes": 1740054,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/scoreboard-opryland-2408-music-valley-drive/giftcards"
+      }
+    },
+    "https://www.thefamousnashvillepalace.com/": {
+      "url": "https://www.thefamousnashvillepalace.com/",
+      "html_bytes": 1358151,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-nashville-palace-2611-mcgavock-pike/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/doc-hollidays-saloon-112-2nd-avenue-north/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "bootleggers": "https://www.bootleggersnashville.com/",
+    "doc holliday": "https://www.dochollidaysnashville.com/",
+    "barometer": "https://www.instagram.com/barometerwaterfrontgrille/",
+    "scoreboard": "https://www.scoreboardopry.com/",
+    "nashville palace": "https://www.thefamousnashvillepalace.com/"
+  }
+}

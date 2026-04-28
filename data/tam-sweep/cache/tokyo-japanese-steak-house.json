@@ -1,0 +1,63 @@
+{
+  "parent": "Tokyo Japanese Steak House - Parent Account",
+  "slug": "tokyo-japanese-steak-house",
+  "total_headroom": "$22,900",
+  "non_ec_headroom": "$14,052",
+  "est_ec_headroom": "$8,848",
+  "employee_count": "53",
+  "non_ec_arr": "$11,508",
+  "state": "TN",
+  "city": "Smyrna",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tokyosmyrna@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tokyo Japanese Steak House Smyrna"
+  ],
+  "websites": [
+    "https://tokyosmyrna.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tokyosmyrna.com/": {
+      "url": "https://tokyosmyrna.com/",
+      "html_bytes": 251719,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/f6e786c1-551f-4a36-b3ab-cbf0bc75caa1",
+        "toast_gift": "toasttab.com/tokyo-japanese-steak-house-701-president-pl-ste-100/giftcards",
+        "toast_loyalty": "toasttab.com/tokyo-japanese-steak-house-701-president-pl-ste-100/rewardsSignup"
+      }
+    },
+    "https://tokyosmyrna.com/wp-content/uploads/2021/09/menu.jpg": {
+      "url": "https://tokyosmyrna.com/wp-content/uploads/2021/09/menu.jpg",
+      "html_bytes": 110391,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/f6e786c1-551f-4a36-b3ab-cbf0bc75caa1",
+    "toast_gift": "toasttab.com/tokyo-japanese-steak-house-701-president-pl-ste-100/giftcards",
+    "toast_loyalty": "toasttab.com/tokyo-japanese-steak-house-701-president-pl-ste-100/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

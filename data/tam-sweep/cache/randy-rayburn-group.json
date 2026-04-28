@@ -1,0 +1,52 @@
+{
+  "parent": "Randy Rayburn Group",
+  "slug": "randy-rayburn-group",
+  "total_headroom": "$30,792",
+  "non_ec_headroom": "$30,792",
+  "est_ec_headroom": "$0",
+  "employee_count": "37",
+  "non_ec_arr": "$11,484",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "manager@epsodashop.com",
+  "location_count": 2,
+  "location_names": [
+    "Elliston Soda Shop - Truck",
+    "Elliston Soda Shop"
+  ],
+  "websites": [
+    "https://ellistonplacesodashop.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ellistonplacesodashop.com/": {
+      "url": "https://ellistonplacesodashop.com/",
+      "html_bytes": 155058,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/elliston-soda-shop-2105-elliston-place",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/elliston-soda-shop-2105-elliston-place/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/elliston-soda-shop-2105-elliston-place",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/elliston-soda-shop-2105-elliston-place/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

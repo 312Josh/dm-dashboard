@@ -1,0 +1,63 @@
+{
+  "parent": "Sushi and Pho 88 - Parent Account",
+  "slug": "sushi-and-pho-88",
+  "total_headroom": "$19,588",
+  "non_ec_headroom": "$18,132",
+  "est_ec_headroom": "$1,456",
+  "employee_count": "9",
+  "non_ec_arr": "$5,148",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tonynguyenutk@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sushi and Pho 88"
+  ],
+  "websites": [
+    "https://www.sushipho88.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sushipho88.com/": {
+      "url": "https://www.sushipho88.com/",
+      "html_bytes": 1641744,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sushi-and-pho-88-2119-belcourt-avenue",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.sushipho88.com/menus-1": {
+      "url": "https://www.sushipho88.com/menus-1",
+      "html_bytes": 1492638,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.sushipho88.com/reservations": {
+      "url": "https://www.sushipho88.com/reservations",
+      "html_bytes": 959337,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/sushi-and-pho-88-2119-belcourt-avenue",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

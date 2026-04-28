@@ -1,0 +1,40 @@
+{
+  "parent": "Father Tom's Pub Parent",
+  "slug": "father-tom-s-pub",
+  "total_headroom": "$25,100",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$4,760",
+  "employee_count": "28",
+  "non_ec_arr": "$1,704",
+  "state": "TN",
+  "city": "Cookeville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "fathertomspub@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Father Tom's Pub"
+  ],
+  "websites": [
+    "https://fathertomspub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://fathertomspub.com/": {
+      "url": "https://fathertomspub.com/",
+      "html_bytes": 45601,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

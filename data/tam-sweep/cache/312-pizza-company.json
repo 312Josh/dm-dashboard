@@ -1,0 +1,45 @@
+{
+  "parent": "312 Pizza Company",
+  "slug": "312-pizza-company",
+  "total_headroom": "$22,484",
+  "non_ec_headroom": "$18,060",
+  "est_ec_headroom": "$4,424",
+  "employee_count": "26",
+  "non_ec_arr": "$6,741",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "kimberly@312pizzaco.com",
+  "location_count": 1,
+  "location_names": [
+    "312 Pizza Company - Germantown"
+  ],
+  "websites": [
+    "https://312pizzaco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://312pizzaco.com/": {
+      "url": "https://312pizzaco.com/",
+      "html_bytes": 159233,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

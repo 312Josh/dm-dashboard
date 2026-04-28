@@ -1,0 +1,55 @@
+{
+  "parent": "Zander's Pizza - Parent",
+  "slug": "zander-s-pizza",
+  "total_headroom": "$47,894",
+  "non_ec_headroom": "$39,480",
+  "est_ec_headroom": "$8,414",
+  "employee_count": "50",
+  "non_ec_arr": "$1,596",
+  "state": "TN",
+  "city": "Dickson",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "zackary@zanderspizza.com",
+  "location_count": 2,
+  "location_names": [
+    "Zander's wood fired Pizza",
+    "Zander's Pizza - Food Truck"
+  ],
+  "websites": [
+    "http://www.zanderspizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.zanderspizza.com/": {
+      "url": "http://www.zanderspizza.com/",
+      "html_bytes": 54417,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "http://www.zanderspizza.com/menu-aviator": {
+      "url": "http://www.zanderspizza.com/menu-aviator",
+      "html_bytes": 52386,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

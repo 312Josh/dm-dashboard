@@ -1,0 +1,41 @@
+{
+  "parent": "Common John Brewing Company Parent",
+  "slug": "common-john-brewing-company",
+  "total_headroom": "$23,712",
+  "non_ec_headroom": "$23,712",
+  "est_ec_headroom": "$0",
+  "employee_count": "39",
+  "non_ec_arr": "$13,054",
+  "state": "TN",
+  "city": "Manchester",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "lebron@commonjohnbc.com",
+  "location_count": 2,
+  "location_names": [
+    "Common John Brewing Co -Manchester",
+    "Common John Brewing Co Pulaski"
+  ],
+  "websites": [
+    "https://www.commonjohnbc.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.commonjohnbc.com/": {
+      "url": "https://www.commonjohnbc.com/",
+      "html_bytes": 374506,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

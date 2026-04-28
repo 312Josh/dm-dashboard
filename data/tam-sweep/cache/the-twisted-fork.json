@@ -1,0 +1,58 @@
+{
+  "parent": "The Twisted Fork - Parent Account",
+  "slug": "the-twisted-fork",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "15",
+  "non_ec_arr": "$5,589",
+  "state": "TN",
+  "city": "Pleasant View",
+  "restaurant_type": "Unknown",
+  "contact_email": "yam88881@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Twisted Fork"
+  ],
+  "websites": [
+    "https://www.twistedforktn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.twistedforktn.com/": {
+      "url": "https://www.twistedforktn.com/",
+      "html_bytes": 1189899,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://www.twistedforktn.com/menu": {
+      "url": "https://www.twistedforktn.com/menu",
+      "html_bytes": 1565262,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "Tumeric and Company - Parent Account",
+  "slug": "tumeric-and-company",
+  "total_headroom": "$16,644",
+  "non_ec_headroom": "$16,140",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$7,260",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ravishetkar@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Tumeric and Company"
+  ],
+  "websites": [
+    "https://turmeric-and-company.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://turmeric-and-company.com/": {
+      "url": "https://turmeric-and-company.com/",
+      "html_bytes": 5543,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

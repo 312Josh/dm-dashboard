@@ -1,0 +1,63 @@
+{
+  "parent": "East Nashville Beer Works Parent",
+  "slug": "east-nashville-beer-works",
+  "total_headroom": "$34,392",
+  "non_ec_headroom": "$34,392",
+  "est_ec_headroom": "$0",
+  "employee_count": "72",
+  "non_ec_arr": "$15,426",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "anthony@eastnashbeerworks.com",
+  "location_count": 2,
+  "location_names": [
+    "East Nashville Beer Works",
+    "ENBW - Wilson County Taproom"
+  ],
+  "websites": [
+    "https://eastnashbeerworks.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eastnashbeerworks.com/": {
+      "url": "https://eastnashbeerworks.com/",
+      "html_bytes": 27922,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/east-nashville-beer-works-wilco",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://eastnashbeerworks.com/uploads/menus/ENBW-Food-Menu-August24-Print.pdf": {
+      "url": "https://eastnashbeerworks.com/uploads/menus/ENBW-Food-Menu-August24-Print.pdf",
+      "html_bytes": 1067864,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://eastnashbeerworks.com/uploads/menus/WilCo-Food-Menu-2025.pdf": {
+      "url": "https://eastnashbeerworks.com/uploads/menus/WilCo-Food-Menu-2025.pdf",
+      "html_bytes": 520998,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/east-nashville-beer-works-wilco",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

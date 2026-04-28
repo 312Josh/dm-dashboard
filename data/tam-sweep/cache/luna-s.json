@@ -1,0 +1,38 @@
+{
+  "parent": "Luna's Parent",
+  "slug": "luna-s",
+  "total_headroom": "$16,140",
+  "non_ec_headroom": "$16,140",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$3,624",
+  "state": "KY",
+  "city": "Nicholasville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "alison@lunascoffeewine.com",
+  "location_count": 1,
+  "location_names": [
+    "Luna's"
+  ],
+  "websites": [
+    "https://www.lunascoffeewine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lunascoffeewine.com/": {
+      "url": "https://www.lunascoffeewine.com/",
+      "html_bytes": 70909,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

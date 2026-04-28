@@ -1,0 +1,44 @@
+{
+  "parent": "Country Boy Brewing Group",
+  "slug": "country-boy-brewing-group",
+  "total_headroom": "$86,604",
+  "non_ec_headroom": "$67,620",
+  "est_ec_headroom": "$18,984",
+  "employee_count": "114",
+  "non_ec_arr": "$25,472",
+  "state": "KY",
+  "city": "Georgetown",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "dh@countryboybrewing.com",
+  "location_count": 4,
+  "location_names": [
+    "Country Boy Brewing- Georgetown",
+    "Country Boy Brewing- PKL",
+    "Country Boy Brewing- 4th Street",
+    "Country Boy Brewing- Lexington"
+  ],
+  "websites": [
+    "https://countryboybrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://countryboybrewing.com/": {
+      "url": "https://countryboybrewing.com/",
+      "html_bytes": 111979,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "parent": "The Authentique",
+  "slug": "the-authentique",
+  "total_headroom": "$20,440",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$700",
+  "employee_count": "4",
+  "non_ec_arr": "$1,800",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "alex.meunier22@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Authentique"
+  ],
+  "websites": [
+    "https://the-authentique.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://the-authentique.com/": {
+      "url": "https://the-authentique.com/",
+      "html_bytes": 217153,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/giftcards-authentique/giftcards"
+      }
+    },
+    "https://the-authentique.com/menu/": {
+      "url": "https://the-authentique.com/menu/",
+      "html_bytes": 177822,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/giftcards-authentique/giftcards"
+      }
+    },
+    "https://the-authentique.com/reservations/": {
+      "url": "https://the-authentique.com/reservations/",
+      "html_bytes": 184426,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/giftcards-authentique/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/giftcards-authentique/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

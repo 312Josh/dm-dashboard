@@ -1,0 +1,40 @@
+{
+  "parent": "Dawg'ito",
+  "slug": "dawg-ito",
+  "total_headroom": "$16,020",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$420",
+  "state": "TN",
+  "city": "Cookeville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "mitch.ruybalid@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Dawg'ito"
+  ],
+  "websites": [
+    "https://getmeadawgito.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://getmeadawgito.com/": {
+      "url": "https://getmeadawgito.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

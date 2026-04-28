@@ -1,0 +1,40 @@
+{
+  "parent": "Bánh Appétit - Parent Account",
+  "slug": "b-nh-app-tit",
+  "total_headroom": "$16,632",
+  "non_ec_headroom": "$16,380",
+  "est_ec_headroom": "$252",
+  "employee_count": "2",
+  "non_ec_arr": "$6,709",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "bolo@banhappetit.net",
+  "location_count": 1,
+  "location_names": [
+    "Banh Appetit"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/banh-appetit-2892-s-church-st-ste-e"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/banh-appetit-2892-s-church-st-ste-e": {
+      "url": "https://order.toasttab.com/online/banh-appetit-2892-s-church-st-ste-e",
+      "html_bytes": 5727,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

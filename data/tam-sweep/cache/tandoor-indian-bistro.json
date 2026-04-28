@@ -1,0 +1,45 @@
+{
+  "parent": "Tandoor Indian Bistro - Parent Account",
+  "slug": "tandoor-indian-bistro",
+  "total_headroom": "$18,080",
+  "non_ec_headroom": "$16,260",
+  "est_ec_headroom": "$1,820",
+  "employee_count": "11",
+  "non_ec_arr": "$7,065",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tandoorclarksville@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tandoor Indian Bistro"
+  ],
+  "websites": [
+    "https://www.tandoorclarksville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tandoorclarksville.com/": {
+      "url": "https://www.tandoorclarksville.com/",
+      "html_bytes": 79522,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "Smith & Lentz Brewing Company Parent",
+  "slug": "smith-lentz-brewing-company",
+  "total_headroom": "$17,880",
+  "non_ec_headroom": "$17,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$6,045",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "kurt@smithandlentz.com",
+  "location_count": 1,
+  "location_names": [
+    "Smith & Lentz Brewing Company"
+  ],
+  "websites": [
+    "https://www.smithandlentz.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.smithandlentz.com/": {
+      "url": "https://www.smithandlentz.com/",
+      "html_bytes": 332660,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

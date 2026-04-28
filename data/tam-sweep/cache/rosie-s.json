@@ -1,0 +1,64 @@
+{
+  "parent": "Rosie's Parent",
+  "slug": "rosie-s",
+  "total_headroom": "$25,128",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$4,788",
+  "employee_count": "29",
+  "non_ec_arr": "$900",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bethowenshayes@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Rosie Food and Wine"
+  ],
+  "websites": [
+    "https://www.rosiefoodandwine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.rosiefoodandwine.com/": {
+      "url": "https://www.rosiefoodandwine.com/",
+      "html_bytes": 756492,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/rosie-food-and-wine-203-anderson-ln-n-207/giftcards"
+      }
+    },
+    "https://www.rosiefoodandwine.com/menus": {
+      "url": "https://www.rosiefoodandwine.com/menus",
+      "html_bytes": 1164950,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.rosiefoodandwine.com/menu": {
+      "url": "https://www.rosiefoodandwine.com/menu",
+      "html_bytes": 1210138,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/rosie-food-and-wine-203-anderson-ln-n-207/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

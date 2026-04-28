@@ -1,0 +1,43 @@
+{
+  "parent": "Corsair Distillery",
+  "slug": "corsair-distillery",
+  "total_headroom": "$66,800",
+  "non_ec_headroom": "$58,932",
+  "est_ec_headroom": "$7,868",
+  "employee_count": "47",
+  "non_ec_arr": "$6,762",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "darek@corsairartisan.com",
+  "location_count": 3,
+  "location_names": [
+    "Corsair Distillery - HQ",
+    "Corsair Distillery - Events",
+    "Corsair Distillery - MV"
+  ],
+  "websites": [
+    "https://www.corsairdistillery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.corsairdistillery.com/": {
+      "url": "https://www.corsairdistillery.com/",
+      "html_bytes": 165627,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

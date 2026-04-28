@@ -1,0 +1,40 @@
+{
+  "parent": "Craftsman on the Hill- Parent Account",
+  "slug": "craftsman-on-the-hill",
+  "total_headroom": "$18,720",
+  "non_ec_headroom": "$18,720",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$4,932",
+  "state": "TN",
+  "city": "Hermitage",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "bebawi.mina@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Craftsman on the Hill"
+  ],
+  "websites": [
+    "https://craftsman-on-the-hill.goto-restaurants.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://craftsman-on-the-hill.goto-restaurants.com/": {
+      "url": "https://craftsman-on-the-hill.goto-restaurants.com/",
+      "html_bytes": 5603,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

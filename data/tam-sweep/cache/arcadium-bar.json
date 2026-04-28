@@ -1,0 +1,38 @@
+{
+  "parent": "Arcadium Bar - Parent",
+  "slug": "arcadium-bar",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "will@arcadiumbar.com",
+  "location_count": 1,
+  "location_names": [
+    "Arcadium"
+  ],
+  "websites": [
+    "http://www.arcadiumbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.arcadiumbar.com/": {
+      "url": "http://www.arcadiumbar.com/",
+      "html_bytes": 548,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

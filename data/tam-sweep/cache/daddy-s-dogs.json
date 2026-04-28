@@ -1,0 +1,60 @@
+{
+  "parent": "Daddy's Dogs - Parent",
+  "slug": "daddy-s-dogs",
+  "total_headroom": "$19,500",
+  "non_ec_headroom": "$19,500",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$2,640",
+  "state": "TN",
+  "city": "nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "grampsgaragebar@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Gramps Bar"
+  ],
+  "websites": [
+    "https://www.daddysdogs.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.daddysdogs.com/": {
+      "url": "https://www.daddysdogs.com/",
+      "html_bytes": 1019228,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Tock",
+        "pos_other": "Square",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.daddysdogs.com/menu": {
+      "url": "https://www.daddysdogs.com/menu",
+      "html_bytes": 779292,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Tock",
+        "pos_other": "Square",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

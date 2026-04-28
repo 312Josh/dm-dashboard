@@ -1,0 +1,44 @@
+{
+  "parent": "Tokyo Hibachi Express - Parent Account",
+  "slug": "tokyo-hibachi-express",
+  "total_headroom": "$19,108",
+  "non_ec_headroom": "$16,140",
+  "est_ec_headroom": "$2,968",
+  "employee_count": "18",
+  "non_ec_arr": "$8,490",
+  "state": "TN",
+  "city": "NASHVILLE",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "yong@tokyonashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Tokyo Hibachi Express"
+  ],
+  "websites": [
+    "https://www.tokyonashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tokyonashville.com/": {
+      "url": "https://www.tokyonashville.com/",
+      "html_bytes": 299244,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

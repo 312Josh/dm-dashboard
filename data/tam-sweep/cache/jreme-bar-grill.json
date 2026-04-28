@@ -1,0 +1,40 @@
+{
+  "parent": "Jreme Bar & Grill - Parent Account",
+  "slug": "jreme-bar-grill",
+  "total_headroom": "$18,840",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$5,280",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jremebar@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Jreme Bar & Grill"
+  ],
+  "websites": [
+    "https://www.facebook.com/jremebar/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/jremebar/": {
+      "url": "https://www.facebook.com/jremebar/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

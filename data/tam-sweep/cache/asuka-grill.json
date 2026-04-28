@@ -1,0 +1,41 @@
+{
+  "parent": "Asuka Grill - Parent Account",
+  "slug": "asuka-grill",
+  "total_headroom": "$33,652",
+  "non_ec_headroom": "$24,048",
+  "est_ec_headroom": "$9,604",
+  "employee_count": "57",
+  "non_ec_arr": "$18,444",
+  "state": "KY",
+  "city": "Nicholasville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jianlin21@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Asuka Grill",
+    "Asuka Grill-Danville"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/asuka-grill-360-e-brannon-rd"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/asuka-grill-360-e-brannon-rd": {
+      "url": "https://order.toasttab.com/online/asuka-grill-360-e-brannon-rd",
+      "html_bytes": 5685,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

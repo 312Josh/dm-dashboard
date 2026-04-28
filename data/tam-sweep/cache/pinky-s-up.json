@@ -1,0 +1,43 @@
+{
+  "parent": "Pinky’s Up - Parent Account",
+  "slug": "pinky-s-up",
+  "total_headroom": "$18,648",
+  "non_ec_headroom": "$16,464",
+  "est_ec_headroom": "$2,184",
+  "employee_count": "13",
+  "non_ec_arr": "$3,228",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "pinkysupafternoontea@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pinky’s Up"
+  ],
+  "websites": [
+    "https://www.pinkysupclarksville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pinkysupclarksville.com/": {
+      "url": "https://www.pinkysupclarksville.com/",
+      "html_bytes": 412759,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

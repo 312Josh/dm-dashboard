@@ -1,0 +1,53 @@
+{
+  "parent": "Hank's Honky Tonk Parent",
+  "slug": "hank-s-honky-tonk",
+  "total_headroom": "$16,548",
+  "non_ec_headroom": "$14,532",
+  "est_ec_headroom": "$2,016",
+  "employee_count": "12",
+  "non_ec_arr": "$6,416",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "dale@hankshonkytonk.com",
+  "location_count": 1,
+  "location_names": [
+    "Hank's Honky Tonk"
+  ],
+  "websites": [
+    "https://www.hankshonkytonk.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hankshonkytonk.com/": {
+      "url": "https://www.hankshonkytonk.com/",
+      "html_bytes": 223520,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/hanks-honky-tonk-2341-memorial-boulevard-iljmy",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/hanks-honky-tonk-2341-memorial-boulevard-iljmy/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/hanks-honky-tonk-2341-memorial-boulevard-iljmy",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/hanks-honky-tonk-2341-memorial-boulevard-iljmy/rewardsSignup"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

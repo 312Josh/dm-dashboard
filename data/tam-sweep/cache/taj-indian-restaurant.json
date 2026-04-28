@@ -1,0 +1,52 @@
+{
+  "parent": "Taj Indian Restaurant - Parent Account",
+  "slug": "taj-indian-restaurant",
+  "total_headroom": "$18,536",
+  "non_ec_headroom": "$18,060",
+  "est_ec_headroom": "$476",
+  "employee_count": "3",
+  "non_ec_arr": "$5,400",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "owner@tajnashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Taj Indian Restaurant"
+  ],
+  "websites": [
+    "https://tajnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tajnashville.com/": {
+      "url": "https://tajnashville.com/",
+      "html_bytes": 85402,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://tajnashville.com/menu": {
+      "url": "https://tajnashville.com/menu",
+      "html_bytes": 70245,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

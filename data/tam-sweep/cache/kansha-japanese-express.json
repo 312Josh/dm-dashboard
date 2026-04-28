@@ -1,0 +1,51 @@
+{
+  "parent": "Kansha Japanese Express - Parent Account",
+  "slug": "kansha-japanese-express",
+  "total_headroom": "$17,124",
+  "non_ec_headroom": "$17,124",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$6,672",
+  "state": "TN",
+  "city": "Spring Hill",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "kanshalebanon@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "Kansha Japanese Express"
+  ],
+  "websites": [
+    "https://kanshajapaneseusa.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kanshajapaneseusa.com/": {
+      "url": "https://kanshajapaneseusa.com/",
+      "html_bytes": 5540,
+      "fingerprints": {
+        "loyalty": "Punchh"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251009055003/https://kanshajapaneseusa.com/",
+        "html_bytes": 500000,
+        "vendors": {
+          "loyalty": "Punchh"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

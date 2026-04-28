@@ -1,0 +1,29 @@
+{
+  "parent": "Pressed and Aged - Parent Account",
+  "slug": "pressed-and-aged",
+  "total_headroom": "$15,672",
+  "non_ec_headroom": "$15,672",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$3,810",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "alex@pressedandaged.com",
+  "location_count": 1,
+  "location_names": [
+    "Pressed and Aged"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "1865 Club - Parent Account",
+  "slug": "1865-club",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$1,200",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "carla@1865club.com",
+  "location_count": 1,
+  "location_names": [
+    "1865 Club"
+  ],
+  "websites": [
+    "https://1865club.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://1865club.com/": {
+      "url": "https://1865club.com/",
+      "html_bytes": 151388,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "reservations": "Resy",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

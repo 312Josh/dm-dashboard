@@ -1,0 +1,52 @@
+{
+  "parent": "Lasaters Coffee & Tea - Parent",
+  "slug": "lasaters-coffee-tea",
+  "total_headroom": "$88,764",
+  "non_ec_headroom": "$88,764",
+  "est_ec_headroom": "$0",
+  "employee_count": "118",
+  "non_ec_arr": "$79,661",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "steve.kelley@worldwidejavadistributors.com",
+  "location_count": 11,
+  "location_names": [
+    "Lasaters Warehouse",
+    "Lasaters Coffee & Tea - HOPKINSVILLE CAFE & DRIVE-THRU",
+    "Lasaters Coffee & Tea SANGO CAFE & DRIVE-THRU",
+    "Lasaters Coffee & Tea - JSMC KIOSK",
+    "Lasaters Coffee & Tea RIVERSIDE DRIVE-THRU",
+    "Lasaters Coffee & Tea Spring Creek",
+    "Lasaters Coffee & Tea - FORT CAMPBELL KIOSK",
+    "Lasaters Coffee & Tea TENNOVA HEALTHCARE KIOSK",
+    "Lasaters Coffee & Tea WILMA - CAFE & DRIVE-THRU",
+    "Lasaters Cafe",
+    "Lasaters Coffee & Tea - TINY TOWN"
+  ],
+  "websites": [
+    "https://lasaterscoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lasaterscoffee.com/": {
+      "url": "https://lasaterscoffee.com/",
+      "html_bytes": 5537,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

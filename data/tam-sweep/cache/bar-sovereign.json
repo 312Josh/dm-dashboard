@@ -1,0 +1,38 @@
+{
+  "parent": "Bar Sovereign - Parent Account",
+  "slug": "bar-sovereign",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$480",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "gabofuenmayor@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bar Sovereign"
+  ],
+  "websites": [
+    "https://barsovereign.com/contact-page/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://barsovereign.com/contact-page/": {
+      "url": "https://barsovereign.com/contact-page/",
+      "html_bytes": 114,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

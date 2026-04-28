@@ -1,0 +1,48 @@
+{
+  "parent": "Alley on Main - Parent",
+  "slug": "alley-on-main",
+  "total_headroom": "$28,548",
+  "non_ec_headroom": "$28,548",
+  "est_ec_headroom": "$0",
+  "employee_count": "102",
+  "non_ec_arr": "$9,744",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "catering.alley@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "The Alley on Main",
+    "One of Nineteen"
+  ],
+  "websites": [
+    "https://alleyonmain.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://alleyonmain.com/": {
+      "url": "https://alleyonmain.com/",
+      "html_bytes": 70160,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/alley-on-main/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/alley-on-main/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

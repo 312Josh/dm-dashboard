@@ -1,0 +1,125 @@
+{
+  "parent": "The Gumbo Bros - PARENT",
+  "slug": "the-gumbo-bros",
+  "total_headroom": "$34,140",
+  "non_ec_headroom": "$34,140",
+  "est_ec_headroom": "$0",
+  "employee_count": "46",
+  "non_ec_arr": "$11,247",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "james@thegumbobros.com",
+  "location_count": 2,
+  "location_names": [
+    "The Gumbo Bros - Nashville",
+    "Curry Boys"
+  ],
+  "websites": [
+    "https://www.thegumbobros.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thegumbobros.com/": {
+      "url": "https://www.thegumbobros.com/",
+      "html_bytes": 40743,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Birdeye",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-gumbo-bros-nashville/giftcards"
+      }
+    },
+    "https://www.thegumbobros.com/menu/weekly-specials/": {
+      "url": "https://www.thegumbobros.com/menu/weekly-specials/",
+      "html_bytes": 37120,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-gumbo-bros-nashville/giftcards"
+      }
+    },
+    "https://www.thegumbobros.com/menu/menu-nash/": {
+      "url": "https://www.thegumbobros.com/menu/menu-nash/",
+      "html_bytes": 73435,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-gumbo-bros-nashville/giftcards"
+      }
+    },
+    "https://www.thegumbobros.com/menu/menu-libations/": {
+      "url": "https://www.thegumbobros.com/menu/menu-libations/",
+      "html_bytes": 60893,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-gumbo-bros-nashville/giftcards"
+      }
+    },
+    "https://www.thegumbobros.com/menu/happy-hour/": {
+      "url": "https://www.thegumbobros.com/menu/happy-hour/",
+      "html_bytes": 44183,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-gumbo-bros-nashville/giftcards"
+      }
+    },
+    "https://www.thegumbobros.com/menu/weekend-brunch-specials/": {
+      "url": "https://www.thegumbobros.com/menu/weekend-brunch-specials/",
+      "html_bytes": 45061,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-gumbo-bros-nashville/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-gumbo-bros-nashville/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

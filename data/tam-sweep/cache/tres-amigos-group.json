@@ -1,0 +1,50 @@
+{
+  "parent": "Tres Amigos Group",
+  "slug": "tres-amigos-group",
+  "total_headroom": "$43,564",
+  "non_ec_headroom": "$38,160",
+  "est_ec_headroom": "$5,404",
+  "employee_count": "32",
+  "non_ec_arr": "$9,240",
+  "state": "KY",
+  "city": "Georgetown",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "anthonysanchez37@icloud.com",
+  "location_count": 2,
+  "location_names": [
+    "Tres amigos - Georgetown KY",
+    "Tres Amigos Of Louisville"
+  ],
+  "websites": [
+    "https://tresamigosgeorgetown.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tresamigosgeorgetown.com/": {
+      "url": "https://tresamigosgeorgetown.com/",
+      "html_bytes": 109413,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/tres-amigos-georgetown-ky-800-s-broadway-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/tres-amigos-georgetown-ky-800-s-broadway-st/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

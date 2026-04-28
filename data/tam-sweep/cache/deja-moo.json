@@ -1,0 +1,60 @@
+{
+  "parent": "Deja Moo - Parent",
+  "slug": "deja-moo",
+  "total_headroom": "$35,364",
+  "non_ec_headroom": "$35,364",
+  "est_ec_headroom": "$0",
+  "employee_count": "22",
+  "non_ec_arr": "$6,031",
+  "state": "TN",
+  "city": "White House",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "roni@dejamoocreamery.com",
+  "location_count": 2,
+  "location_names": [
+    "Deja Moo - Truck",
+    "Deja Moo - White House"
+  ],
+  "websites": [
+    "https://www.dejamoocreamery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.dejamoocreamery.com/": {
+      "url": "https://www.dejamoocreamery.com/",
+      "html_bytes": 13611,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/deja-moo-804-memorial-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.dejamoocreamery.com/booking": {
+      "url": "https://www.dejamoocreamery.com/booking",
+      "html_bytes": 9752,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/deja-moo-804-memorial-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/deja-moo-804-memorial-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

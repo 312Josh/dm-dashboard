@@ -1,0 +1,55 @@
+{
+  "parent": "Momo Korean Restaurant - Parent Account",
+  "slug": "momo-korean-restaurant",
+  "total_headroom": "$19,212",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$252",
+  "employee_count": "2",
+  "non_ec_arr": "$3,720",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mirankin22@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Momo Korean Restaurant"
+  ],
+  "websites": [
+    "https://momokbbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://momokbbq.com/": {
+      "url": "https://momokbbq.com/",
+      "html_bytes": 201327,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/momo-korean-restaurant-1913-ford-campbell-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://momokbbq.com/menu": {
+      "url": "https://momokbbq.com/menu",
+      "html_bytes": 447029,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/momo-korean-restaurant-1913-ford-campbell-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

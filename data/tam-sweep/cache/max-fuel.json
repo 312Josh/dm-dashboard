@@ -1,0 +1,43 @@
+{
+  "parent": "Max Fuel",
+  "slug": "max-fuel",
+  "total_headroom": "$16,020",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "coreymaxberry@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Max Fuel"
+  ],
+  "websites": [
+    "https://www.eatmaxfuel.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatmaxfuel.com/": {
+      "url": "https://www.eatmaxfuel.com/",
+      "html_bytes": 55501,
+      "fingerprints": {
+        "pos_other": "Square"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

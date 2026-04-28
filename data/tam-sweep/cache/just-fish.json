@@ -1,0 +1,42 @@
+{
+  "parent": "Just Fish - Parent Account",
+  "slug": "just-fish",
+  "total_headroom": "$19,620",
+  "non_ec_headroom": "$19,620",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$3,480",
+  "state": "TN",
+  "city": "Lebanon",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "info@justfish.online",
+  "location_count": 1,
+  "location_names": [
+    "Just Fish"
+  ],
+  "websites": [
+    "https://just-fish.findmenuworld.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://just-fish.findmenuworld.com/": {
+      "url": "https://just-fish.findmenuworld.com/",
+      "html_bytes": 48192,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "Titas Philippines' Best",
+  "slug": "titas-philippines-best",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Mt. Juliet",
+  "restaurant_type": "Unknown",
+  "contact_email": "deleon.tn@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Titas Philippines' Best"
+  ],
+  "websites": [
+    "https://www.facebook.com/titasphilippinesbest/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/titasphilippinesbest/": {
+      "url": "https://www.facebook.com/titasphilippinesbest/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "Harken Hall - Parent Account",
+  "slug": "harken-hall",
+  "total_headroom": "$16,040",
+  "non_ec_headroom": "$15,816",
+  "est_ec_headroom": "$224",
+  "employee_count": "1",
+  "non_ec_arr": "$6,221",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jamiefilm@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "BFMS Madison"
+  ],
+  "websites": [
+    "https://www.harkenhall.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.harkenhall.com/": {
+      "url": "https://www.harkenhall.com/",
+      "html_bytes": 51263,
+      "fingerprints": {
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.harkenhall.com/booking": {
+      "url": "https://www.harkenhall.com/booking",
+      "html_bytes": 37315,
+      "fingerprints": {
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

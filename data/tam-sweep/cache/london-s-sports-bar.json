@@ -1,0 +1,38 @@
+{
+  "parent": "London’s Sports Bar - Parent Account",
+  "slug": "london-s-sports-bar",
+  "total_headroom": "$14,472",
+  "non_ec_headroom": "$14,472",
+  "est_ec_headroom": "$0",
+  "employee_count": "24",
+  "non_ec_arr": "$8,616",
+  "state": "TN",
+  "city": "Tullahoma",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "londonsjoe@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "London’s Sports Bar"
+  ],
+  "websites": [
+    "https://www.londonsbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.londonsbar.com/": {
+      "url": "https://www.londonsbar.com/",
+      "html_bytes": 5516,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

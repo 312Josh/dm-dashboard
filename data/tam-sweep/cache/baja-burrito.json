@@ -1,0 +1,51 @@
+{
+  "parent": "Baja Burrito - Parent Account",
+  "slug": "baja-burrito",
+  "total_headroom": "$18,540",
+  "non_ec_headroom": "$18,540",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$3,318",
+  "state": "TN",
+  "city": "Berry Hill",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "wilson.bajaburrito@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Baja Burrito"
+  ],
+  "websites": [
+    "https://www.bajaburrito.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bajaburrito.com/": {
+      "url": "https://www.bajaburrito.com/",
+      "html_bytes": 341223,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/baja-burrito-722-thompson-ln/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/baja-burrito-722-thompson-ln/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

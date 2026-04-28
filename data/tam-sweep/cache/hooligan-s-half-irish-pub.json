@@ -1,0 +1,48 @@
+{
+  "parent": "Hooligan's Half/Irish Pub Parent",
+  "slug": "hooligan-s-half-irish-pub",
+  "total_headroom": "$24,268",
+  "non_ec_headroom": "$18,780",
+  "est_ec_headroom": "$5,488",
+  "employee_count": "33",
+  "non_ec_arr": "$10,950",
+  "state": "TN",
+  "city": "Cookeville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mwlaroche@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Hooligan's Half Irish Pub"
+  ],
+  "websites": [
+    "https://www.thehalfirishpub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thehalfirishpub.com/": {
+      "url": "https://www.thehalfirishpub.com/",
+      "html_bytes": 51206,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/hooliganstn",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/hooliganstn",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

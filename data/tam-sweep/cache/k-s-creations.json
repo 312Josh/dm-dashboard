@@ -1,0 +1,38 @@
+{
+  "parent": "K’s Creations",
+  "slug": "k-s-creations",
+  "total_headroom": "$14,988",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kscreations2024@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "K’s Creations"
+  ],
+  "websites": [
+    "https://kscreations.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kscreations.org/": {
+      "url": "https://kscreations.org/",
+      "html_bytes": 5512,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

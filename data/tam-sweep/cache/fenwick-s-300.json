@@ -1,0 +1,43 @@
+{
+  "parent": "Fenwick's 300 Parent",
+  "slug": "fenwick-s-300",
+  "total_headroom": "$24,732",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$5,292",
+  "employee_count": "32",
+  "non_ec_arr": "$2,743",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ian@fleetstreetpub.com",
+  "location_count": 1,
+  "location_names": [
+    "Fenwick's 300"
+  ],
+  "websites": [
+    "https://www.fenwicks300.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fenwicks300.com/": {
+      "url": "https://www.fenwicks300.com/",
+      "html_bytes": 32157,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

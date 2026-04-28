@@ -1,0 +1,40 @@
+{
+  "parent": "411 Management Company, LLC - Parent Account",
+  "slug": "411-management-company-llc",
+  "total_headroom": "$39,080",
+  "non_ec_headroom": "$19,200",
+  "est_ec_headroom": "$19,880",
+  "employee_count": "118",
+  "non_ec_arr": "$23,340",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "benjamin@shprojects.co",
+  "location_count": 1,
+  "location_names": [
+    "411 Management Company, LLC"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/411-management-company-llc/r-6178b2e8-40ea-4e09-a7d5-3b395182fce0"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/411-management-company-llc/r-6178b2e8-40ea-4e09-a7d5-3b395182fce0": {
+      "url": "https://www.toasttab.com/local/411-management-company-llc/r-6178b2e8-40ea-4e09-a7d5-3b395182fce0",
+      "html_bytes": 5790,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

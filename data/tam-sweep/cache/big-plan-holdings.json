@@ -1,0 +1,38 @@
+{
+  "parent": "Big Plan Holdings",
+  "slug": "big-plan-holdings",
+  "total_headroom": "$18,852",
+  "non_ec_headroom": "$18,852",
+  "est_ec_headroom": "$0",
+  "employee_count": "15",
+  "non_ec_arr": "$5,838",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "bryan.kenney@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ernest Tubbs Record Shop 2.0"
+  ],
+  "websites": [
+    "https://www.bigplanholdings.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bigplanholdings.com/": {
+      "url": "https://www.bigplanholdings.com/",
+      "html_bytes": 34673,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

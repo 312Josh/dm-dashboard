@@ -1,0 +1,61 @@
+{
+  "parent": "Inglewood Lounge Parent",
+  "slug": "inglewood-lounge",
+  "total_headroom": "$18,132",
+  "non_ec_headroom": "$18,132",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$4,428",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "hello@actualfoodnashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Inglewood Lounge"
+  ],
+  "websites": [
+    "https://www.inglewoodlounge.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.inglewoodlounge.com/": {
+      "url": "https://www.inglewoodlounge.com/",
+      "html_bytes": 332732,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/inglewood-lounge-3914-gallatin-pike",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.inglewoodlounge.com/menu": {
+      "url": "https://www.inglewoodlounge.com/menu",
+      "html_bytes": 184218,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/inglewood-lounge-3914-gallatin-pike",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

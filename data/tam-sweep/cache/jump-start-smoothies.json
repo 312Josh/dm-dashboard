@@ -1,0 +1,81 @@
+{
+  "parent": "Jump Start Smoothies - Parent Account",
+  "slug": "jump-start-smoothies",
+  "total_headroom": "$27,804",
+  "non_ec_headroom": "$27,804",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$10,507",
+  "state": "KY",
+  "city": "Louisville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "john@jumpstartsmoothies.com",
+  "location_count": 2,
+  "location_names": [
+    "Jump Start Smoothies - NULU",
+    "Jump Start Smoothies"
+  ],
+  "websites": [
+    "https://nulu.jumpstartsmoothies.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://nulu.jumpstartsmoothies.com/": {
+      "url": "https://nulu.jumpstartsmoothies.com/",
+      "html_bytes": 218703,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/jump-start-smoothies-535-s-upper-st-ste-125/rewardsSignup"
+      }
+    },
+    "https://nulu.jumpstartsmoothies.com/menu": {
+      "url": "https://nulu.jumpstartsmoothies.com/menu",
+      "html_bytes": 124750,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://nulu.jumpstartsmoothies.com/order": {
+      "url": "https://nulu.jumpstartsmoothies.com/order",
+      "html_bytes": 124995,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://nulu.jumpstartsmoothies.com/loyalty-program": {
+      "url": "https://nulu.jumpstartsmoothies.com/loyalty-program",
+      "html_bytes": 124000,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/jump-start-smoothies-535-s-upper-st-ste-125/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/jump-start-smoothies-535-s-upper-st-ste-125/rewardsSignup"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "Que’d up 615 pleasant view - Parent Account",
+  "slug": "que-d-up-615-pleasant-view",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$540",
+  "state": "TN",
+  "city": "Pleasant View",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "quedup615pv@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Que'd Up 615"
+  ],
+  "websites": [
+    "https://quedup615bbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://quedup615bbq.com/": {
+      "url": "https://quedup615bbq.com/",
+      "html_bytes": 8350,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

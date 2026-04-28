@@ -1,0 +1,45 @@
+{
+  "parent": "Caliber Coffee Co. Parent",
+  "slug": "caliber-coffee-co",
+  "total_headroom": "$19,744",
+  "non_ec_headroom": "$15,432",
+  "est_ec_headroom": "$4,312",
+  "employee_count": "26",
+  "non_ec_arr": "$6,288",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "info@calibercoffeeco.com",
+  "location_count": 1,
+  "location_names": [
+    "Caliber Coffee Co."
+  ],
+  "websites": [
+    "https://www.calibercoffeeco.com/our-shop"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.calibercoffeeco.com/our-shop": {
+      "url": "https://www.calibercoffeeco.com/our-shop",
+      "html_bytes": 512764,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

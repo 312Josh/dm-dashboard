@@ -1,0 +1,66 @@
+{
+  "parent": "Martin's Bar-B-Que Joint // Hugh Baby's Parent",
+  "slug": "martin-s-bar-b-que-joint-hugh-baby-s",
+  "total_headroom": "$12,564",
+  "non_ec_headroom": "$12,564",
+  "est_ec_headroom": "$0",
+  "employee_count": "36",
+  "non_ec_arr": "$11,653",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "sethrice@sweetmilkeats.com",
+  "location_count": 1,
+  "location_names": [
+    "Sweet Milk Breakfast"
+  ],
+  "websites": [
+    "https://www.sweetmilkeats.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sweetmilkeats.com/": {
+      "url": "https://www.sweetmilkeats.com/",
+      "html_bytes": 192373,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sweetmilk-donelsonpike",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.sweetmilkeats.com/menu": {
+      "url": "https://www.sweetmilkeats.com/menu",
+      "html_bytes": 415165,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sweetmilk-donelsonpike",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/sweetmilk-donelsonpike",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

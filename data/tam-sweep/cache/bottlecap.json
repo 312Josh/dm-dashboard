@@ -1,0 +1,42 @@
+{
+  "parent": "Bottlecap Parent",
+  "slug": "bottlecap",
+  "total_headroom": "$26,384",
+  "non_ec_headroom": "$17,760",
+  "est_ec_headroom": "$8,624",
+  "employee_count": "51",
+  "non_ec_arr": "$6,072",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bob@tinroofbars.com",
+  "location_count": 1,
+  "location_names": [
+    "Bottlecap"
+  ],
+  "websites": [
+    "https://www.facebook.com/bottlecapnashville/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/bottlecapnashville/": {
+      "url": "https://www.facebook.com/bottlecapnashville/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

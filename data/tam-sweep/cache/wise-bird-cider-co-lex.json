@@ -1,0 +1,44 @@
+{
+  "parent": "Wise Bird Cider Co.- Lex - Parent Account",
+  "slug": "wise-bird-cider-co-lex",
+  "total_headroom": "$16,812",
+  "non_ec_headroom": "$16,812",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$3,935",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "tim@wisebirdcider.com",
+  "location_count": 1,
+  "location_names": [
+    "Wise Bird Cider Co.- Lex"
+  ],
+  "websites": [
+    "https://www.wisebirdcider.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.wisebirdcider.com": {
+      "url": "https://www.wisebirdcider.com",
+      "html_bytes": 118734,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

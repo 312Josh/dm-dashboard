@@ -1,0 +1,38 @@
+{
+  "parent": "Bes-Teas Bubble Shop",
+  "slug": "bes-teas-bubble-shop",
+  "total_headroom": "$15,108",
+  "non_ec_headroom": "$14,772",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$600",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "vbautista988@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bes-Teas Bubble Shop"
+  ],
+  "websites": [
+    "https://besteasbubbleshop.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://besteasbubbleshop.com/": {
+      "url": "https://besteasbubbleshop.com/",
+      "html_bytes": 5540,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

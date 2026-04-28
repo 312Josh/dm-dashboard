@@ -1,0 +1,42 @@
+{
+  "parent": "Single Tree BBQ - Parent",
+  "slug": "single-tree-bbq",
+  "total_headroom": "$17,160",
+  "non_ec_headroom": "$17,160",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$4,920",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "charlie@singletreebbq.com",
+  "location_count": 1,
+  "location_names": [
+    "Single Tree BBQ - QSR"
+  ],
+  "websites": [
+    "https://www.singletreebbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.singletreebbq.com/": {
+      "url": "https://www.singletreebbq.com/",
+      "html_bytes": 5519,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

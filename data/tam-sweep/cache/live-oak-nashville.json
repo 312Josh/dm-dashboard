@@ -1,0 +1,64 @@
+{
+  "parent": "Live Oak, Nashville Parent",
+  "slug": "live-oak-nashville",
+  "total_headroom": "$34,380",
+  "non_ec_headroom": "$34,380",
+  "est_ec_headroom": "$0",
+  "employee_count": "52",
+  "non_ec_arr": "$10,814",
+  "state": "TN",
+  "city": "Dickson",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "maggie@liveoaknashvill.com",
+  "location_count": 2,
+  "location_names": [
+    "Mile Post 42 - New Location",
+    "Live Oak New"
+  ],
+  "websites": [
+    "https://liveoaknashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://liveoaknashville.com/": {
+      "url": "https://liveoaknashville.com/",
+      "html_bytes": 43252,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/live-oak-new-1522-demonbreun-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://liveoaknashville.com/menu": {
+      "url": "https://liveoaknashville.com/menu",
+      "html_bytes": 35148,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/live-oak-new-1522-demonbreun-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://liveoaknashville.com/order": {
+      "url": "https://liveoaknashville.com/order",
+      "html_bytes": 16947,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/live-oak-new-1522-demonbreun-st",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

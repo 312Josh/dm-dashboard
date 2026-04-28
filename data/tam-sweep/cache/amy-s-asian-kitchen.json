@@ -1,0 +1,50 @@
+{
+  "parent": "Amy's Asian Kitchen",
+  "slug": "amy-s-asian-kitchen",
+  "total_headroom": "$21,724",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$784",
+  "employee_count": "5",
+  "non_ec_arr": "$900",
+  "state": "KY",
+  "city": "Winchester",
+  "restaurant_type": "Unknown",
+  "contact_email": "amysasiankitchen@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Amy's Asian Kitchen"
+  ],
+  "websites": [
+    "https://www.amysasiankitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.amysasiankitchen.com/": {
+      "url": "https://www.amysasiankitchen.com/",
+      "html_bytes": 41548,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    },
+    "https://www.AmysAsianKitchen.com/order": {
+      "url": "https://www.AmysAsianKitchen.com/order",
+      "html_bytes": 28508,
+      "fingerprints": {
+        "oo": "Menufy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

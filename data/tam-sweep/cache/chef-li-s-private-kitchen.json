@@ -1,0 +1,40 @@
+{
+  "parent": "Chef Li’s Private Kitchen",
+  "slug": "chef-li-s-private-kitchen",
+  "total_headroom": "$17,748",
+  "non_ec_headroom": "$17,580",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$720",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "mikaili.sturgis83@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Chef Li’s Private Kitchen"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/chef-lis-private-kitchen"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/chef-lis-private-kitchen": {
+      "url": "https://order.toasttab.com/online/chef-lis-private-kitchen",
+      "html_bytes": 5673,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "The Yellow Table - Parent Account",
+  "slug": "the-yellow-table",
+  "total_headroom": "$17,952",
+  "non_ec_headroom": "$17,952",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$3,588",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "anna@theyellowtable.com",
+  "location_count": 1,
+  "location_names": [
+    "The Yellow Table"
+  ],
+  "websites": [
+    "https://theyellowtablecafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://theyellowtablecafe.com/": {
+      "url": "https://theyellowtablecafe.com/",
+      "html_bytes": 98783,
+      "fingerprints": {
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

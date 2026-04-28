@@ -1,0 +1,42 @@
+{
+  "parent": "LQ - Parent",
+  "slug": "lq",
+  "total_headroom": "$61,672",
+  "non_ec_headroom": "$59,712",
+  "est_ec_headroom": "$1,960",
+  "employee_count": "13",
+  "non_ec_arr": "$7,110",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "accounting@ciahotels.com",
+  "location_count": 3,
+  "location_names": [
+    "Clarion Hotel",
+    "The Capitol Hotel",
+    "La Quinta"
+  ],
+  "websites": [
+    "https://laquintanashvilledowntownstadium.com/amenities/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://laquintanashvilledowntownstadium.com/amenities/": {
+      "url": "https://laquintanashvilledowntownstadium.com/amenities/",
+      "html_bytes": 85352,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

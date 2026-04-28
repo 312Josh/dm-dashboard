@@ -1,0 +1,66 @@
+{
+  "parent": "Waffle Wheels - Parent Account",
+  "slug": "waffle-wheels",
+  "total_headroom": "$32,424",
+  "non_ec_headroom": "$32,424",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$14,436",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "nashville@wafflewheels.co",
+  "location_count": 2,
+  "location_names": [
+    "Waffle Wheels",
+    "Waffle Wheels 2 - New"
+  ],
+  "websites": [
+    "https://www.wafflewheels.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.wafflewheels.co/": {
+      "url": "https://www.wafflewheels.co/",
+      "html_bytes": 888831,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.wafflewheels.co/book": {
+      "url": "https://www.wafflewheels.co/book",
+      "html_bytes": 1451669,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.wafflewheels.co/menu": {
+      "url": "https://www.wafflewheels.co/menu",
+      "html_bytes": 1382151,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

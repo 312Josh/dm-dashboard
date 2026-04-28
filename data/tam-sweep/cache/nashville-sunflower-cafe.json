@@ -1,0 +1,59 @@
+{
+  "parent": "Nashville Sunflower Cafe Parent",
+  "slug": "nashville-sunflower-cafe",
+  "total_headroom": "$45,356",
+  "non_ec_headroom": "$35,640",
+  "est_ec_headroom": "$9,716",
+  "employee_count": "58",
+  "non_ec_arr": "$7,173",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kimbersutah@aol.com",
+  "location_count": 2,
+  "location_names": [
+    "Sunflower Bakehouse",
+    "Nashville Sunflower Cafe"
+  ],
+  "websites": [
+    "https://www.sunflowercafenashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sunflowercafenashville.com/": {
+      "url": "https://www.sunflowercafenashville.com/",
+      "html_bytes": 910091,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.sunflowercafenashville.com/menu": {
+      "url": "https://www.sunflowercafenashville.com/menu",
+      "html_bytes": 1041693,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

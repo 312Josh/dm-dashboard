@@ -1,0 +1,82 @@
+{
+  "parent": "Front Porch Cafe LLC. - Parent Account",
+  "slug": "front-porch-cafe-llc",
+  "total_headroom": "$14,844",
+  "non_ec_headroom": "$14,844",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$5,388",
+  "state": "TN",
+  "city": "Lebanon",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "johnbesse@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Front Porch Cafe LLC."
+  ],
+  "websites": [
+    "https://frontporchlebanon.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://frontporchlebanon.com/": {
+      "url": "https://frontporchlebanon.com/",
+      "html_bytes": 143974,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/front-porch-cafe-llc-106-windwood-drive",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/front-porch-cafe-llc-106-windwood-drive/giftcards"
+      }
+    },
+    "https://frontporchlebanon.com/order-online-for-pickup/": {
+      "url": "https://frontporchlebanon.com/order-online-for-pickup/",
+      "html_bytes": 103914,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/front-porch-cafe-llc-106-windwood-drive",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/front-porch-cafe-llc-106-windwood-drive/giftcards"
+      }
+    },
+    "https://frontporchlebanon.com/menuonline/": {
+      "url": "https://frontporchlebanon.com/menuonline/",
+      "html_bytes": 116341,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/front-porch-cafe-llc-106-windwood-drive/giftcards"
+      }
+    },
+    "https://frontporchlebanon.com/menu/": {
+      "url": "https://frontporchlebanon.com/menu/",
+      "html_bytes": 118001,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/front-porch-cafe-llc-106-windwood-drive",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/front-porch-cafe-llc-106-windwood-drive/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

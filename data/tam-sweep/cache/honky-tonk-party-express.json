@@ -1,0 +1,42 @@
+{
+  "parent": "Honky Tonk Party Express - Parent Account",
+  "slug": "honky-tonk-party-express",
+  "total_headroom": "$18,952",
+  "non_ec_headroom": "$15,732",
+  "est_ec_headroom": "$3,220",
+  "employee_count": "19",
+  "non_ec_arr": "$11,880",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "grant@honkytonkparty.com",
+  "location_count": 1,
+  "location_names": [
+    "Honky Tonk Party Express"
+  ],
+  "websites": [
+    "https://honkytonkpartyexpress.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://honkytonkpartyexpress.com/": {
+      "url": "https://honkytonkpartyexpress.com/",
+      "html_bytes": 867556,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

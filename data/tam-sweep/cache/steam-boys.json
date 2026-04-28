@@ -1,0 +1,49 @@
+{
+  "parent": "Steam Boys - Parent",
+  "slug": "steam-boys",
+  "total_headroom": "$147,680",
+  "non_ec_headroom": "$128,640",
+  "est_ec_headroom": "$19,040",
+  "employee_count": "114",
+  "non_ec_arr": "$26,783",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "dynastylin89@gmail.com",
+  "location_count": 7,
+  "location_names": [
+    "Steamboys",
+    "Steamboys - Nolensville",
+    "Steamboys - Hermitage",
+    "Steam Boys - Franklin",
+    "Steamboys - Madison AL",
+    "Steamboys Harding",
+    "Steam Boys Stadium Way NEW"
+  ],
+  "websites": [
+    "https://www.steamboys.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.steamboys.com/": {
+      "url": "https://www.steamboys.com/",
+      "html_bytes": 5515,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

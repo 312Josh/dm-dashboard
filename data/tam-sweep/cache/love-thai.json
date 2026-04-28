@@ -1,0 +1,42 @@
+{
+  "parent": "Love Thai - Parent Account",
+  "slug": "love-thai",
+  "total_headroom": "$22,296",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$2,856",
+  "employee_count": "17",
+  "non_ec_arr": "$4,500",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "vannavongphtsamay@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Love Thai"
+  ],
+  "websites": [
+    "https://lovethaisushi.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lovethaisushi.com/": {
+      "url": "https://lovethaisushi.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

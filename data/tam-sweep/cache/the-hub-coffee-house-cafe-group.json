@@ -1,0 +1,54 @@
+{
+  "parent": "The Hub Coffee House & Cafe Group",
+  "slug": "the-hub-coffee-house-cafe-group",
+  "total_headroom": "$36,996",
+  "non_ec_headroom": "$36,660",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$2,028",
+  "state": "KY",
+  "city": "Danville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "paytonayoung@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "The Hub Coffee House & Cafe - West Main Street",
+    "The Hub Coffee House & Cafe - Ponder Ct"
+  ],
+  "websites": [
+    "https://www.thehubcoffeehouseandcafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thehubcoffeehouseandcafe.com/": {
+      "url": "https://www.thehubcoffeehouseandcafe.com/",
+      "html_bytes": 120023,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-hub-coffee-house-cafe-west-main-street/giftcards"
+      }
+    },
+    "https://www.thehubcoffeehouseandcafe.com/assets/pdf/menu2020.pdf": {
+      "url": "https://www.thehubcoffeehouseandcafe.com/assets/pdf/menu2020.pdf",
+      "html_bytes": 355,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-hub-coffee-house-cafe-west-main-street/giftcards"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

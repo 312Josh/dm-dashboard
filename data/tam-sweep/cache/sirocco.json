@@ -1,0 +1,53 @@
+{
+  "parent": "Sirocco - Parent Account",
+  "slug": "sirocco",
+  "total_headroom": "$12,984",
+  "non_ec_headroom": "$12,984",
+  "est_ec_headroom": "$0",
+  "employee_count": "33",
+  "non_ec_arr": "$11,208",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "anteryyafai@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sirocco"
+  ],
+  "websites": [
+    "https://www.the-sirocco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.the-sirocco.com/": {
+      "url": "https://www.the-sirocco.com/",
+      "html_bytes": 237367,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.the-sirocco.com/menu": {
+      "url": "https://www.the-sirocco.com/menu",
+      "html_bytes": 150893,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

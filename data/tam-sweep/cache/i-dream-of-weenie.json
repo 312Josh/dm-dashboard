@@ -1,0 +1,41 @@
+{
+  "parent": "I Dream of Weenie - Parent Account",
+  "slug": "i-dream-of-weenie",
+  "total_headroom": "$18,192",
+  "non_ec_headroom": "$18,192",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$3,108",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "idreamofweenie.info@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "I Dream of Weenie"
+  ],
+  "websites": [
+    "https://idreamofweenie.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://idreamofweenie.com/": {
+      "url": "https://idreamofweenie.com/",
+      "html_bytes": 5537,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

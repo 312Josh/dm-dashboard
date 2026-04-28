@@ -1,0 +1,80 @@
+{
+  "parent": "Sushi Blue LLC",
+  "slug": "sushi-blue-llc",
+  "total_headroom": "$21,496",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$3,136",
+  "employee_count": "19",
+  "non_ec_arr": "$4,500",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "m2sarah@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sushi Blue - Pasadena"
+  ],
+  "websites": [
+    "https://eatsushiblue.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eatsushiblue.com/": {
+      "url": "https://eatsushiblue.com/",
+      "html_bytes": 136426,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sushi-blue-pasadena/giftcards"
+      }
+    },
+    "https://eatsushiblue.com/menu/": {
+      "url": "https://eatsushiblue.com/menu/",
+      "html_bytes": 1039614,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://eatsushiblue.com/order/": {
+      "url": "https://eatsushiblue.com/order/",
+      "html_bytes": 118253,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://eatsushiblue.com/gift-cards/": {
+      "url": "https://eatsushiblue.com/gift-cards/",
+      "html_bytes": 115935,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sushi-blue-pasadena/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/sushi-blue-pasadena/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "parent": "J Renders Southern Table and Bar Parent",
+  "slug": "j-renders-southern-table-and-bar",
+  "total_headroom": "$20,620",
+  "non_ec_headroom": "$15,720",
+  "est_ec_headroom": "$4,900",
+  "employee_count": "29",
+  "non_ec_arr": "$6,437",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gneverly@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "J. Render's Southern Table & Bar"
+  ],
+  "websites": [
+    "https://www.jrenders.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.jrenders.com/": {
+      "url": "https://www.jrenders.com/",
+      "html_bytes": 200928,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/j-renders-southern-table-and-bar-3191-beaumont-centre-circle/rewardsSignup",
+        "toast_gift": "toasttab.com/j-renders-southern-table-and-bar-3191-beaumont-centre-circle/giftcards"
+      }
+    },
+    "https://www.jrenders.com/menus/": {
+      "url": "https://www.jrenders.com/menus/",
+      "html_bytes": 83775,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/j-renders-southern-table-and-bar-3191-beaumont-centre-circle/rewardsSignup"
+      }
+    },
+    "https://www.jrenders.com/menus/brunch-menu/": {
+      "url": "https://www.jrenders.com/menus/brunch-menu/",
+      "html_bytes": 84310,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/j-renders-southern-table-and-bar-3191-beaumont-centre-circle/rewardsSignup"
+      }
+    },
+    "https://www.jrenders.com/menus/restaurant-menu/": {
+      "url": "https://www.jrenders.com/menus/restaurant-menu/",
+      "html_bytes": 99724,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/j-renders-southern-table-and-bar-3191-beaumont-centre-circle/rewardsSignup"
+      }
+    },
+    "https://www.jrenders.com/menus/food-truck-menu/": {
+      "url": "https://www.jrenders.com/menus/food-truck-menu/",
+      "html_bytes": 89588,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/j-renders-southern-table-and-bar-3191-beaumont-centre-circle/rewardsSignup"
+      }
+    },
+    "https://www.jrenders.com/menus/happy-hour-menu/": {
+      "url": "https://www.jrenders.com/menus/happy-hour-menu/",
+      "html_bytes": 88283,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/j-renders-southern-table-and-bar-3191-beaumont-centre-circle/rewardsSignup"
+      }
+    },
+    "https://www.jrenders.com/gift-cards/": {
+      "url": "https://www.jrenders.com/gift-cards/",
+      "html_bytes": 82237,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/j-renders-southern-table-and-bar-3191-beaumont-centre-circle/giftcards",
+        "toast_loyalty": "toasttab.com/j-renders-southern-table-and-bar-3191-beaumont-centre-circle/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/j-renders-southern-table-and-bar-3191-beaumont-centre-circle/rewardsSignup",
+    "toast_gift": "toasttab.com/j-renders-southern-table-and-bar-3191-beaumont-centre-circle/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

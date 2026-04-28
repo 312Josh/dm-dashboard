@@ -1,0 +1,38 @@
+{
+  "parent": "Phase 2 Bar and Grill",
+  "slug": "phase-2-bar-and-grill",
+  "total_headroom": "$21,444",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Tullahoma",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "hashleytom1972@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Phase 2 Bar and Grill"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/PHASE-2-100057490267675/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/PHASE-2-100057490267675/": {
+      "url": "https://www.facebook.com/p/PHASE-2-100057490267675/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

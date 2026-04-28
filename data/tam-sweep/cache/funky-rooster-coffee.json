@@ -1,0 +1,41 @@
+{
+  "parent": "Funky Rooster Coffee - Parent Account",
+  "slug": "funky-rooster-coffee",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,620",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "td.mills@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Funky Rooster Coffee"
+  ],
+  "websites": [
+    "https://funkyroostercoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://funkyroostercoffee.com/": {
+      "url": "https://funkyroostercoffee.com/",
+      "html_bytes": 217125,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

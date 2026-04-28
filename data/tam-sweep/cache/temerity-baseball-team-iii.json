@@ -1,0 +1,40 @@
+{
+  "parent": "Temerity Baseball Team III",
+  "slug": "temerity-baseball-team-iii",
+  "total_headroom": "$21,708",
+  "non_ec_headroom": "$20,112",
+  "est_ec_headroom": "$1,596",
+  "employee_count": "10",
+  "non_ec_arr": "$21,248",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "aamling@temeritycap.com",
+  "location_count": 1,
+  "location_names": [
+    "Temerity Baseball Team III"
+  ],
+  "websites": [
+    "https://www.temeritycap.com/pages/temerity-baseball/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.temeritycap.com/pages/temerity-baseball/": {
+      "url": "https://www.temeritycap.com/pages/temerity-baseball/",
+      "html_bytes": 49662,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "Paleteria Guanajuato LLC",
+  "slug": "paleteria-guanajuato-llc",
+  "total_headroom": "$14,820",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Lebanon",
+  "restaurant_type": "Unknown",
+  "contact_email": "miguanajuatollc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Paleteria Guanajuato LLC"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/paleteria-guanajuato-llc-762-red-river-rd"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/paleteria-guanajuato-llc-762-red-river-rd": {
+      "url": "https://www.toasttab.com/local/order/paleteria-guanajuato-llc-762-red-river-rd",
+      "html_bytes": 5715,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

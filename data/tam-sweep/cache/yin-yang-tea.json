@@ -1,0 +1,44 @@
+{
+  "parent": "Yin Yang Tea Parent",
+  "slug": "yin-yang-tea",
+  "total_headroom": "$20,336",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$896",
+  "employee_count": "5",
+  "non_ec_arr": "$1,500",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "mamayanganddaughter@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mama Yang and Daughter"
+  ],
+  "websites": [
+    "https://www.drinkyyt.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.drinkyyt.com/": {
+      "url": "https://www.drinkyyt.com/",
+      "html_bytes": 60453,
+      "fingerprints": {
+        "pos_other": "Square"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

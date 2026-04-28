@@ -1,0 +1,57 @@
+{
+  "parent": "Tutti Da Gio Parent",
+  "slug": "tutti-da-gio",
+  "total_headroom": "$15,252",
+  "non_ec_headroom": "$15,252",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$7,345",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "orsinogio@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tutti da Gio - Hendersonville"
+  ],
+  "websites": [
+    "https://www.tuttidagio.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tuttidagio.com/": {
+      "url": "https://www.tuttidagio.com/",
+      "html_bytes": 5516,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "online_ordering": "Toast",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251011014233/https://www.tuttidagio.com/",
+        "html_bytes": 422359,
+        "vendors": {
+          "website_cms": "Popmenu",
+          "online_ordering": "Toast",
+          "reservations": "OpenTable",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "Starr Ranch - Parent Account",
+  "slug": "starr-ranch",
+  "total_headroom": "$17,760",
+  "non_ec_headroom": "$17,760",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$5,100",
+  "state": "TN",
+  "city": "Gallatin",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "chefjlampley@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "Rouxs Creole Cafe"
+  ],
+  "websites": [
+    "https://www.starrranchgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.starrranchgrill.com/": {
+      "url": "https://www.starrranchgrill.com/",
+      "html_bytes": 18776,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

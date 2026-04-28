@@ -1,0 +1,44 @@
+{
+  "parent": "Sapporo Gallatin - Parent Account",
+  "slug": "sapporo-gallatin",
+  "total_headroom": "$22,852",
+  "non_ec_headroom": "$20,220",
+  "est_ec_headroom": "$2,632",
+  "employee_count": "16",
+  "non_ec_arr": "$4,980",
+  "state": "TN",
+  "city": "Gallatin",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "enasislynn@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Sapporo Gallatin"
+  ],
+  "websites": [
+    "https://615sapporo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://615sapporo.com/": {
+      "url": "https://615sapporo.com/",
+      "html_bytes": 186463,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

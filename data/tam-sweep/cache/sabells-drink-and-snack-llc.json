@@ -1,0 +1,40 @@
+{
+  "parent": "Sabells' Drink and Snack LLC - Parent Account",
+  "slug": "sabells-drink-and-snack-llc",
+  "total_headroom": "$18,552",
+  "non_ec_headroom": "$18,552",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$3,588",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "stephasabelli@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sabells' Drink and Snack LLC"
+  ],
+  "websites": [
+    "https://sabells1301.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sabells1301.com/": {
+      "url": "https://sabells1301.com/",
+      "html_bytes": 5534,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

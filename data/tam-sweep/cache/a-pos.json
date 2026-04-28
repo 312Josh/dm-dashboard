@@ -1,0 +1,29 @@
+{
+  "parent": "A. POS - Parent Account",
+  "slug": "a-pos",
+  "total_headroom": "$21,144",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$660",
+  "state": "TN",
+  "city": "Joelton",
+  "restaurant_type": "Unknown",
+  "contact_email": "martin.dillingham@theabsolutepos.com",
+  "location_count": 1,
+  "location_names": [
+    "A. POS"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

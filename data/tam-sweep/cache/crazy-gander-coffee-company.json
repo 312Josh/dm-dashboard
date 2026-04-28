@@ -1,0 +1,46 @@
+{
+  "parent": "Crazy Gander Coffee Company Parent",
+  "slug": "crazy-gander-coffee-company",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$1,380",
+  "state": "TN",
+  "city": "Memphis",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "crazygandercoffeeco@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Crazy Gander Coffee Company"
+  ],
+  "websites": [
+    "https://www.crazygander.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.crazygander.com/": {
+      "url": "https://www.crazygander.com/",
+      "html_bytes": 592751,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/crazy-gander-coffee-company-150-madison-ave/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/crazy-gander-coffee-company-150-madison-ave/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

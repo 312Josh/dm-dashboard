@@ -1,0 +1,54 @@
+{
+  "parent": "Coneheads Parent",
+  "slug": "coneheads",
+  "total_headroom": "$56,800",
+  "non_ec_headroom": "$53,832",
+  "est_ec_headroom": "$2,968",
+  "employee_count": "18",
+  "non_ec_arr": "$12,816",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "marcus@coneheadscw.com",
+  "location_count": 3,
+  "location_names": [
+    "Plane Jane's",
+    "Coneheads- Nashville",
+    "Cal's"
+  ],
+  "websites": [
+    "https://www.coneheadscw.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.coneheadscw.com/": {
+      "url": "https://www.coneheadscw.com/",
+      "html_bytes": 605069,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.ubereats.com/",
+        "toast_oo_whitelabel_confirmed": "order.ubereats.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.ubereats.com/",
+    "toast_oo_whitelabel_confirmed": "order.ubereats.com + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

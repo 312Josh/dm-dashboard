@@ -1,0 +1,53 @@
+{
+  "parent": "The barn at high point - Parent Account",
+  "slug": "the-barn-at-high-point",
+  "total_headroom": "$18,880",
+  "non_ec_headroom": "$16,500",
+  "est_ec_headroom": "$2,380",
+  "employee_count": "14",
+  "non_ec_arr": "$5,299",
+  "state": "KY",
+  "city": "Nicholasville",
+  "restaurant_type": "Unknown",
+  "contact_email": "mmccrady@pga.com",
+  "location_count": 1,
+  "location_names": [
+    "The barn at high point"
+  ],
+  "websites": [
+    "https://thebarnathighpoint.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thebarnathighpoint.com/": {
+      "url": "https://thebarnathighpoint.com/",
+      "html_bytes": 116471,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://thebarnathighpoint.com/menu-1": {
+      "url": "https://thebarnathighpoint.com/menu-1",
+      "html_bytes": 201032,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

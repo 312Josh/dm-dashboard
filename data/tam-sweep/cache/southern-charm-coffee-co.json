@@ -1,0 +1,59 @@
+{
+  "parent": "Southern Charm Coffee Co. - Parent Account",
+  "slug": "southern-charm-coffee-co",
+  "total_headroom": "$19,052",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$1,232",
+  "employee_count": "7",
+  "non_ec_arr": "$744",
+  "state": "TN",
+  "city": "Greenbrier",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "southerncharmcoffeeco@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Southern Charm Coffee - Greenbrier"
+  ],
+  "websites": [
+    "https://www.southerncharmcoffeeco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.southerncharmcoffeeco.com/": {
+      "url": "https://www.southerncharmcoffeeco.com/",
+      "html_bytes": 589207,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/southern-charm-coffee-co-7837-tn-25",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.southerncharmcoffeeco.com/order-online": {
+      "url": "https://www.southerncharmcoffeeco.com/order-online",
+      "html_bytes": 569837,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/southern-charm-coffee-co-7837-tn-25",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/southern-charm-coffee-co-7837-tn-25",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

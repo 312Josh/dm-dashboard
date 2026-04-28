@@ -1,0 +1,38 @@
+{
+  "parent": "That Big Guys BBQ - Parent Account",
+  "slug": "that-big-guys-bbq",
+  "total_headroom": "$18,924",
+  "non_ec_headroom": "$18,252",
+  "est_ec_headroom": "$672",
+  "employee_count": "4",
+  "non_ec_arr": "$2,258",
+  "state": "KY",
+  "city": "Cynthiana",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "thatbigguysbbq@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "That Big Guys BBQ"
+  ],
+  "websites": [
+    "https://www.facebook.com/ThatBigGuysBBQ/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/ThatBigGuysBBQ/": {
+      "url": "https://www.facebook.com/ThatBigGuysBBQ/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

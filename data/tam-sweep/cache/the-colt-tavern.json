@@ -1,0 +1,38 @@
+{
+  "parent": "The Colt Tavern - Parent Account",
+  "slug": "the-colt-tavern",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$600",
+  "state": "TN",
+  "city": "Springfield",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "robertrlonghurst@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Colt Tavern"
+  ],
+  "websites": [
+    "https://www.thecolttavern.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thecolttavern.com/": {
+      "url": "https://www.thecolttavern.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

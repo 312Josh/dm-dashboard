@@ -1,0 +1,45 @@
+{
+  "parent": "Electric Jane Parent",
+  "slug": "electric-jane",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$3,972",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sam@silverstonecap.com",
+  "location_count": 1,
+  "location_names": [
+    "Electric Jane"
+  ],
+  "websites": [
+    "https://theelectricjane.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://theelectricjane.com/": {
+      "url": "https://theelectricjane.com/",
+      "html_bytes": 77544,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

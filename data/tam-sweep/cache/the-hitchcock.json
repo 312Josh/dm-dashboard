@@ -1,0 +1,41 @@
+{
+  "parent": "The Hitchcock - Parent Account",
+  "slug": "the-hitchcock",
+  "total_headroom": "$13,764",
+  "non_ec_headroom": "$13,764",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$5,628",
+  "state": "TN",
+  "city": "NASHVILLE",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jmaddox@maddoxglobal.com",
+  "location_count": 1,
+  "location_names": [
+    "The Hitchcock - Church St"
+  ],
+  "websites": [
+    "https://www.hitchcocknashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hitchcocknashville.com/": {
+      "url": "https://www.hitchcocknashville.com/",
+      "html_bytes": 172909,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

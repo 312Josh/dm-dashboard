@@ -1,0 +1,54 @@
+{
+  "parent": "Community Hospitality",
+  "slug": "community-hospitality",
+  "total_headroom": "$20,040",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "55",
+  "non_ec_arr": "$3,342",
+  "state": "TN",
+  "city": "Melrose",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "brandon.ingle@communityhospitality.com",
+  "location_count": 1,
+  "location_names": [
+    "Burger Up 12 South"
+  ],
+  "websites": [
+    "https://www.burger-up.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.burger-up.com/": {
+      "url": "https://www.burger-up.com/",
+      "html_bytes": 635270,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/burger-up-12-south-2901-12th-ave-s/giftcards"
+      }
+    },
+    "https://www.burger-up.com/menu": {
+      "url": "https://www.burger-up.com/menu",
+      "html_bytes": 1325750,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/burger-up-12-south-2901-12th-ave-s/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "Il Forno Wood Fired Parent",
+  "slug": "il-forno-wood-fired",
+  "total_headroom": "$18,360",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$0",
+  "employee_count": "15",
+  "non_ec_arr": "$3,804",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "info@ilfornowoodfired.com",
+  "location_count": 1,
+  "location_names": [
+    "il Forno Pizzeria"
+  ],
+  "websites": [
+    "https://ilfornowoodfired.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ilfornowoodfired.com/": {
+      "url": "https://ilfornowoodfired.com/",
+      "html_bytes": 169447,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/il-forno-pizzeria-1414-3rd-ave-south/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/il-forno-pizzeria-1414-3rd-ave-south/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

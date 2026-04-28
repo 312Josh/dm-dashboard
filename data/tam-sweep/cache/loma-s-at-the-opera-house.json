@@ -1,0 +1,64 @@
+{
+  "parent": "Loma's at The Opera House Parent",
+  "slug": "loma-s-at-the-opera-house",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$2,964",
+  "state": "KY",
+  "city": "Winchester",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "vlzoperahouse@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Loma's at The Opera House"
+  ],
+  "websites": [
+    "https://www.lomasatwoh.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lomasatwoh.com/": {
+      "url": "https://www.lomasatwoh.com/",
+      "html_bytes": 112942,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.lomasatwoh.com/reservations": {
+      "url": "https://www.lomasatwoh.com/reservations",
+      "html_bytes": 143544,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.lomasatwoh.com/menus": {
+      "url": "https://www.lomasatwoh.com/menus",
+      "html_bytes": 94582,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

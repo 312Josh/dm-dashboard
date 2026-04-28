@@ -1,0 +1,38 @@
+{
+  "parent": "Bobbie’s Breakfast Bar",
+  "slug": "bobbie-s-breakfast-bar",
+  "total_headroom": "$14,820",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "perkinss204@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bobbie’s Breakfast Bar"
+  ],
+  "websites": [
+    "https://bobbiesbreakfastbar-w9hqwgv0.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bobbiesbreakfastbar-w9hqwgv0.toast.site/": {
+      "url": "https://bobbiesbreakfastbar-w9hqwgv0.toast.site/",
+      "html_bytes": 5600,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

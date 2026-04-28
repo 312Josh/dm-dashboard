@@ -1,0 +1,53 @@
+{
+  "parent": "Fatbelly Deli - Parent Account",
+  "slug": "fatbelly-deli",
+  "total_headroom": "$12,132",
+  "non_ec_headroom": "$12,132",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$5,916",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "kimewallace4@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Fatbelly Deli"
+  ],
+  "websites": [
+    "https://fatbellypretzel.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://fatbellypretzel.com/": {
+      "url": "https://fatbellypretzel.com/",
+      "html_bytes": 287766,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/fatbelly-deli-921-gallatin-avenue",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/fatbelly-deli-921-gallatin-avenue/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/fatbelly-deli-921-gallatin-avenue",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/fatbelly-deli-921-gallatin-avenue/giftcards"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

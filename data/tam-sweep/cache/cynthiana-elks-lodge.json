@@ -1,0 +1,38 @@
+{
+  "parent": "Cynthiana Elks Lodge",
+  "slug": "cynthiana-elks-lodge",
+  "total_headroom": "$17,816",
+  "non_ec_headroom": "$17,592",
+  "est_ec_headroom": "$224",
+  "employee_count": "1",
+  "non_ec_arr": "$540",
+  "state": "KY",
+  "city": "Cynthiana",
+  "restaurant_type": "Unknown",
+  "contact_email": "andersonservices@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Cynthiana Elks Lodge"
+  ],
+  "websites": [
+    "http://www.elks.org/Lodges/home.cfm?LodgeNumber=438"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.elks.org/Lodges/home.cfm?LodgeNumber=438": {
+      "url": "http://www.elks.org/Lodges/home.cfm?LodgeNumber=438",
+      "html_bytes": 29941,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

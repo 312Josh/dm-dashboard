@@ -1,0 +1,63 @@
+{
+  "parent": "St.Vito Foccaceria Gulch - Parent Account",
+  "slug": "st-vito-foccaceria-gulch",
+  "total_headroom": "$17,472",
+  "non_ec_headroom": "$17,472",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$5,388",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "pizza@stvitonashville.com",
+  "location_count": 1,
+  "location_names": [
+    "St.Vito Foccaceria Gulch"
+  ],
+  "websites": [
+    "https://www.stvitonashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.stvitonashville.com/": {
+      "url": "https://www.stvitonashville.com/",
+      "html_bytes": 376737,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/st-vito-foccaceria-gulch-605-mansion-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/st-vito-foccaceria-gulch-605-mansion-street/giftcards"
+      }
+    },
+    "https://www.stvitonashville.com/reservations": {
+      "url": "https://www.stvitonashville.com/reservations",
+      "html_bytes": 280126,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/st-vito-foccaceria-gulch-605-mansion-street",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/st-vito-foccaceria-gulch-605-mansion-street/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "parent": "Fat Rosie's Parent",
+  "slug": "fat-rosie-s",
+  "total_headroom": "$231,576",
+  "non_ec_headroom": "$129,348",
+  "est_ec_headroom": "$102,228",
+  "employee_count": "610",
+  "non_ec_arr": "$96,828",
+  "state": "FL",
+  "city": "Orlando",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "john.laporte@masmex.net",
+  "location_count": 9,
+  "location_names": [
+    "Fat Rosie's Orlando- Waterford Lakes",
+    "Fat Rosie's - Schaumburg",
+    "Fat Rosie’s - Naperville",
+    "Fat Rosie's - Rosemont",
+    "Fat Rosie's - Frankfort",
+    "Fat Rosie's - Lincolnshire",
+    "Fat Rosie's - Lincolnwood",
+    "Fat Rosie's - Oak Brook",
+    "Fat Rosie's Gift Cards"
+  ],
+  "websites": [
+    "https://www.fatrosies.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fatrosies.com/": {
+      "url": "https://www.fatrosies.com/",
+      "html_bytes": 60093,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/fat-rosies-gift-cards-4504-w-touhy-avenue/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.fatrosies.com/gift-cards/": {
+      "url": "https://www.fatrosies.com/gift-cards/",
+      "html_bytes": 56078,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/fat-rosies-gift-cards-4504-w-touhy-avenue/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.fatrosies.com/order-online": {
+      "url": "https://www.fatrosies.com/order-online",
+      "html_bytes": 60589,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_gift": "toasttab.com/fat-rosies-gift-cards-4504-w-touhy-avenue/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

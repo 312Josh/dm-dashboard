@@ -1,0 +1,45 @@
+{
+  "parent": "Lexington Pasta Garage - Parent Account",
+  "slug": "lexington-pasta-garage",
+  "total_headroom": "$19,752",
+  "non_ec_headroom": "$15,300",
+  "est_ec_headroom": "$4,452",
+  "employee_count": "27",
+  "non_ec_arr": "$7,623",
+  "state": "KY",
+  "city": "Louisville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "lesme@pastagarage.com",
+  "location_count": 1,
+  "location_names": [
+    "Pasta Garage - Louisville"
+  ],
+  "websites": [
+    "https://www.pastagarage.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pastagarage.com/": {
+      "url": "https://www.pastagarage.com/",
+      "html_bytes": 28853,
+      "fingerprints": {
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "Patron Event Center - Parent Account",
+  "slug": "patron-event-center",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$2,040",
+  "state": "TN",
+  "city": "Goodlettsville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "salinasframing@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Patron Event Center"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/Patron-Event-Center-100083771430653/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/Patron-Event-Center-100083771430653/": {
+      "url": "https://www.facebook.com/p/Patron-Event-Center-100083771430653/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

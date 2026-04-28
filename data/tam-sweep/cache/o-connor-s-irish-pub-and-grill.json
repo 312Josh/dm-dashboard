@@ -1,0 +1,40 @@
+{
+  "parent": "O'Connor's Irish Pub and Grill - Parent Account",
+  "slug": "o-connor-s-irish-pub-and-grill",
+  "total_headroom": "$21,192",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$252",
+  "employee_count": "2",
+  "non_ec_arr": "$1,770",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "gregparbs@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "O'Connor's Irish Pub and Grill"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/o-connors-irish-pub-and-grill-1198-tylertown-road/r-0eb6bb13-bc9e-4732-9601-20714b9769ca"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/o-connors-irish-pub-and-grill-1198-tylertown-road/r-0eb6bb13-bc9e-4732-9601-20714b9769ca": {
+      "url": "https://www.toasttab.com/local/o-connors-irish-pub-and-grill-1198-tylertown-road/r-0eb6bb13-bc9e-4732-9601-20714b9769ca",
+      "html_bytes": 5902,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "PABLO'S PIZZA",
+  "slug": "pablo-s-pizza",
+  "total_headroom": "$15,156",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Old Hickory",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "bigwhitebunny@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "PABLO'S PIZZA"
+  ],
+  "websites": [
+    "https://mypablospizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mypablospizza.com/": {
+      "url": "https://mypablospizza.com/",
+      "html_bytes": 5536,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

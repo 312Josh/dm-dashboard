@@ -1,0 +1,38 @@
+{
+  "parent": "Bourbon on Rye LLC",
+  "slug": "bourbon-on-rye-llc",
+  "total_headroom": "$22,116",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,176",
+  "employee_count": "7",
+  "non_ec_arr": "$6,000",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "agentjames007@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Seltzer Hospitality"
+  ],
+  "websites": [
+    "https://www.bourbononrye.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bourbononrye.com/": {
+      "url": "https://www.bourbononrye.com/",
+      "html_bytes": 7845,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

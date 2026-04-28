@@ -1,0 +1,38 @@
+{
+  "parent": "Sweetie’s Hookah Bar and Lounge - Parent Account",
+  "slug": "sweetie-s-hookah-bar-and-lounge",
+  "total_headroom": "$20,112",
+  "non_ec_headroom": "$20,112",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$2,928",
+  "state": "TN",
+  "city": "Springfield",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "trondawalker@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sweetie’s Hookah Bar and Lounge"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/Sweeties-Hookah-Bar-Lounge-61551649808195/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/Sweeties-Hookah-Bar-Lounge-61551649808195/": {
+      "url": "https://www.facebook.com/p/Sweeties-Hookah-Bar-Lounge-61551649808195/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

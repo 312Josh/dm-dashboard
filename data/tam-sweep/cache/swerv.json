@@ -1,0 +1,48 @@
+{
+  "parent": "Swerv - Parent",
+  "slug": "swerv",
+  "total_headroom": "$18,720",
+  "non_ec_headroom": "$18,720",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$2,819",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "justin@swervnashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Swerv"
+  ],
+  "websites": [
+    "https://swervnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://swervnashville.com/": {
+      "url": "https://swervnashville.com/",
+      "html_bytes": 232733,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://swervnashville.com/loyalty-program/": {
+      "url": "https://swervnashville.com/loyalty-program/",
+      "html_bytes": 134825,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

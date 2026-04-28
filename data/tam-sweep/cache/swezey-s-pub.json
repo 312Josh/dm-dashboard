@@ -1,0 +1,40 @@
+{
+  "parent": "Swezey's Pub",
+  "slug": "swezey-s-pub",
+  "total_headroom": "$24,692",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$5,852",
+  "employee_count": "35",
+  "non_ec_arr": "$5,820",
+  "state": "TN",
+  "city": "Pleasant View",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "swezeyspub@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Swezey's Pub"
+  ],
+  "websites": [
+    "https://swezeyspub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://swezeyspub.com/": {
+      "url": "https://swezeyspub.com/",
+      "html_bytes": 8567,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

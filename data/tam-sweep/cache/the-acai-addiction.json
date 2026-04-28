@@ -1,0 +1,70 @@
+{
+  "parent": "The Acai Addiction - Parent Account",
+  "slug": "the-acai-addiction",
+  "total_headroom": "$34,200",
+  "non_ec_headroom": "$34,200",
+  "est_ec_headroom": "$0",
+  "employee_count": "17",
+  "non_ec_arr": "$6,186",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "acaiaddiction@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "The Acai Addiction",
+    "The Acai Addiction - White House"
+  ],
+  "websites": [
+    "https://acaiaddictiontn.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://acaiaddictiontn.com/": {
+      "url": "https://acaiaddictiontn.com/",
+      "html_bytes": 170983,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-acai-addiction-white-house-2829-us-31-ste-b",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://acaiaddictiontn.com/order-online#cbce6084-6d50-437f-aa38-3f9c27dcfdf8": {
+      "url": "https://acaiaddictiontn.com/order-online#cbce6084-6d50-437f-aa38-3f9c27dcfdf8",
+      "html_bytes": 73775,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-acai-addiction-white-house-2829-us-31-ste-b",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://acaiaddictiontn.com/menu": {
+      "url": "https://acaiaddictiontn.com/menu",
+      "html_bytes": 73170,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/the-acai-addiction-white-house-2829-us-31-ste-b",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

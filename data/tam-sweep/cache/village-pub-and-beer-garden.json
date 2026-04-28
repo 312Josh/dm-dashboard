@@ -1,0 +1,72 @@
+{
+  "parent": "Village Pub and Beer Garden - Parent Account",
+  "slug": "village-pub-and-beer-garden",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "26",
+  "non_ec_arr": "$4,991",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "villagepubzach@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Village Pub and Beer Garden"
+  ],
+  "websites": [
+    "https://riversidevillagepub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://riversidevillagepub.com/": {
+      "url": "https://riversidevillagepub.com/",
+      "html_bytes": 73560,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://riversidevillagepub.com/menu/food/": {
+      "url": "https://riversidevillagepub.com/menu/food/",
+      "html_bytes": 44204,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://riversidevillagepub.com/menu/drinks/": {
+      "url": "https://riversidevillagepub.com/menu/drinks/",
+      "html_bytes": 78996,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://riversidevillagepub.com/menu/specials/": {
+      "url": "https://riversidevillagepub.com/menu/specials/",
+      "html_bytes": 39662,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "http://riversidevillagepub.com/menu/drinks/": {
+      "url": "http://riversidevillagepub.com/menu/drinks/",
+      "html_bytes": 78996,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "Arapaap Cafe Parent",
+  "slug": "arapaap-cafe",
+  "total_headroom": "$18,840",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$2,544",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "arapaapcafe@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Arapaap Cafe"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/arapaap-cafe-100-main-street"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/arapaap-cafe-100-main-street": {
+      "url": "https://order.toasttab.com/online/arapaap-cafe-100-main-street",
+      "html_bytes": 5685,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

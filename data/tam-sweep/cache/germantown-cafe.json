@@ -1,0 +1,69 @@
+{
+  "parent": "Germantown Cafe Parent",
+  "slug": "germantown-cafe",
+  "total_headroom": "$60,120",
+  "non_ec_headroom": "$60,120",
+  "est_ec_headroom": "$0",
+  "employee_count": "99",
+  "non_ec_arr": "$15,940",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "sean@uphospitalitypartners.com",
+  "location_count": 3,
+  "location_names": [
+    "Park Cafe",
+    "Germantown Cafe",
+    "Karrington Rowe"
+  ],
+  "websites": [
+    "https://germantowncafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://germantowncafe.com/": {
+      "url": "https://germantowncafe.com/",
+      "html_bytes": 127914,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/germantown-cafe-1200-5th-ave-n/giftcards"
+      }
+    },
+    "https://germantowncafe.com/menus/": {
+      "url": "https://germantowncafe.com/menus/",
+      "html_bytes": 183652,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/germantown-cafe-1200-5th-ave-n/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/germantown-cafe-1200-5th-ave-n/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "doordash",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

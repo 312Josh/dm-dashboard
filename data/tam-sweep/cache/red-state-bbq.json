@@ -1,0 +1,61 @@
+{
+  "parent": "Red State BBQ Parent",
+  "slug": "red-state-bbq",
+  "total_headroom": "$23,040",
+  "non_ec_headroom": "$16,992",
+  "est_ec_headroom": "$6,048",
+  "employee_count": "36",
+  "non_ec_arr": "$5,291",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "owner@redstatebbq.com",
+  "location_count": 1,
+  "location_names": [
+    "Red State BBQ"
+  ],
+  "websites": [
+    "https://www.redstatebbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.redstatebbq.com/": {
+      "url": "https://www.redstatebbq.com/",
+      "html_bytes": 362112,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/redstatebbq",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.redstatebbq.com/order-online": {
+      "url": "https://www.redstatebbq.com/order-online",
+      "html_bytes": 246366,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/redstatebbq",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/redstatebbq",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ezcater",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

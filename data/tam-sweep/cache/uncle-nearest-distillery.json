@@ -1,0 +1,45 @@
+{
+  "parent": "Uncle Nearest Distillery",
+  "slug": "uncle-nearest-distillery",
+  "total_headroom": "$34,200",
+  "non_ec_headroom": "$34,200",
+  "est_ec_headroom": "$0",
+  "employee_count": "26",
+  "non_ec_arr": "$23,496",
+  "state": "TN",
+  "city": "Shelbyville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "keith@nashwood.com",
+  "location_count": 2,
+  "location_names": [
+    "Humble Baron",
+    "Barrel House BBQ II - Shelbyville"
+  ],
+  "websites": [
+    "https://unclenearest.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://unclenearest.com/": {
+      "url": "https://unclenearest.com/",
+      "html_bytes": 107397,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Klaviyo",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

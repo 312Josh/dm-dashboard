@@ -1,0 +1,76 @@
+{
+  "parent": "Urban Cookhouse - Nashville - Parent Account",
+  "slug": "urban-cookhouse-nashville",
+  "total_headroom": "$18,088",
+  "non_ec_headroom": "$16,800",
+  "est_ec_headroom": "$1,288",
+  "employee_count": "8",
+  "non_ec_arr": "$4,404",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "leahbentley@urbancookhouse.com",
+  "location_count": 1,
+  "location_names": [
+    "Urban Cookhouse - Nashville"
+  ],
+  "websites": [
+    "https://urbancookhouse.com/nashville/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://urbancookhouse.com/nashville/": {
+      "url": "https://urbancookhouse.com/nashville/",
+      "html_bytes": 270820,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/urban-cookhouse-nashville",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://urbancookhouse.com/menu/": {
+      "url": "https://urbancookhouse.com/menu/",
+      "html_bytes": 271619,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://urbancookhouse.com/order-online/": {
+      "url": "https://urbancookhouse.com/order-online/",
+      "html_bytes": 171997,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/urban-cookhouse-downtown-birmingham",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/urban-cookhouse-nashville",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

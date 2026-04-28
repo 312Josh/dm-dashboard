@@ -1,0 +1,146 @@
+{
+  "parent": "Charette Properties",
+  "slug": "charette-properties",
+  "total_headroom": "$64,908",
+  "non_ec_headroom": "$52,980",
+  "est_ec_headroom": "$11,928",
+  "employee_count": "71",
+  "non_ec_arr": "$15,804",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "joegutz76@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Beyond the Edge Sports Bar",
+    "Boston Common Seafood House",
+    "Drifters BBQ"
+  ],
+  "websites": [
+    "https://www.beyondtheedge.net/",
+    "https://www.bostoncommonsnashville.com/",
+    "https://www.driftersnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.beyondtheedge.net/": {
+      "url": "https://www.beyondtheedge.net/",
+      "html_bytes": 839197,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/beyond-the-edge-sports-bar-112-s-11th-st/giftcards"
+      }
+    },
+    "https://www.beyondtheedge.net/menu": {
+      "url": "https://www.beyondtheedge.net/menu",
+      "html_bytes": 667848,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/beyond-the-edge-sports-bar-112-s-11th-st/giftcards"
+      }
+    },
+    "https://www.bostoncommonsnashville.com/": {
+      "url": "https://www.bostoncommonsnashville.com/",
+      "html_bytes": 1079901,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "reservations": "Tock"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/boston-common-seafood-house-1008-a-woodland-st-nashville-tn-37206/giftcards",
+        "toast_loyalty": "toasttab.com/boston-common-seafood-house-1008-a-woodland-st-nashville-tn-37206/rewardsSignup"
+      }
+    },
+    "https://www.bostoncommonsnashville.com/reservations": {
+      "url": "https://www.bostoncommonsnashville.com/reservations",
+      "html_bytes": 699152,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/boston-common-seafood-house-1008-a-woodland-st-nashville-tn-37206/rewardsSignup"
+      }
+    },
+    "https://www.bostoncommonsnashville.com/menus": {
+      "url": "https://www.bostoncommonsnashville.com/menus",
+      "html_bytes": 1404638,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/boston-common-seafood-house-1008-a-woodland-st-nashville-tn-37206/rewardsSignup"
+      }
+    },
+    "https://www.driftersnashville.com/": {
+      "url": "https://www.driftersnashville.com/",
+      "html_bytes": 875792,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/drifters-bbq-1008-b-woodland-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.driftersnashville.com/menu": {
+      "url": "https://www.driftersnashville.com/menu",
+      "html_bytes": 1304979,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/drifters-bbq-1008-b-woodland-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.driftersnashville.com/booking": {
+      "url": "https://www.driftersnashville.com/booking",
+      "html_bytes": 710636,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/drifters-bbq-1008-b-woodland-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/beyond-the-edge-sports-bar-112-s-11th-st/giftcards",
+    "toast_loyalty": "toasttab.com/boston-common-seafood-house-1008-a-woodland-st-nashville-tn-37206/rewardsSignup",
+    "toast_oo_native": "order.toasttab.com/online/drifters-bbq-1008-b-woodland-st",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "beyond the edge": "https://www.beyondtheedge.net/",
+    "boston common": "https://www.bostoncommonsnashville.com/",
+    "drifters": "https://www.driftersnashville.com/"
+  }
+}

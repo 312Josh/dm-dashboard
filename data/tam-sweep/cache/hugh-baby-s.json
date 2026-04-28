@@ -1,0 +1,177 @@
+{
+  "parent": "Hugh Baby's Parent",
+  "slug": "hugh-baby-s",
+  "total_headroom": "$196,548",
+  "non_ec_headroom": "$196,548",
+  "est_ec_headroom": "$0",
+  "employee_count": "695",
+  "non_ec_arr": "$186,884",
+  "state": "TN",
+  "city": "Berry Hill",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "patrick@martininvestmentgroup.net",
+  "location_count": 15,
+  "location_names": [
+    "Martin's Catering",
+    "Heavy's Bar Burger Daniel Island",
+    "Martin's Bar-B-Que Joint - Belmont",
+    "Martin's Bar-B-Que Joint - Spring Hill",
+    "Martin's Bar-B-Que Joint - Nolensville",
+    "NEW Hugh Baby's BBQ & Burger Shop - Charlotte Ave",
+    "NEW Hugh Baby's BBQ & Burger Shop - Hunters Station",
+    "NEW Hugh Baby's BBQ & Burger Shop - Berry Hill",
+    "Martin's Bar-B-Que Joint - Elliston",
+    "Martin's Bar-B-Que Joint - Mt. Juliet",
+    "Martin's Bar-B-Que Joint - James Island",
+    "Martin's Bar-B-Que Joint - Indian Springs",
+    "Martins Bar-B-Que Joint - Cahaba Heights",
+    "Martin's Bar-B-Que Joint - Rutledge",
+    "Hugh-Baby's BBQ & Burger Shop - Charleston"
+  ],
+  "websites": [
+    "https://www.hughbabys.com/",
+    "https://www.martinsbbqjoint.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hughbabys.com/": {
+      "url": "https://www.hughbabys.com/",
+      "html_bytes": 336958,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/hughbabys-charlotteave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/hughbabys-charlotteave/giftcards"
+      }
+    },
+    "https://www.hughbabys.com/menu": {
+      "url": "https://www.hughbabys.com/menu",
+      "html_bytes": 246166,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {}
+    },
+    "https://www.hughbabys.com/gift-cards": {
+      "url": "https://www.hughbabys.com/gift-cards",
+      "html_bytes": 267234,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/hughbabys-charlotteave/giftcards"
+      }
+    },
+    "https://www.hughbabys.com/order": {
+      "url": "https://www.hughbabys.com/order",
+      "html_bytes": 249789,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/hughbabys-charleston",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.martinsbbqjoint.com/": {
+      "url": "https://www.martinsbbqjoint.com/",
+      "html_bytes": 262170,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Klaviyo",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/martins-nolensville/giftcards",
+        "toast_oo_native": "order.toasttab.com/online/martins-elliston",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.martinsbbqjoint.com/menu": {
+      "url": "https://www.martinsbbqjoint.com/menu",
+      "html_bytes": 384164,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Klaviyo",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/martins-nolensville/giftcards"
+      }
+    },
+    "https://www.martinsbbqjoint.com/ordernow": {
+      "url": "https://www.martinsbbqjoint.com/ordernow",
+      "html_bytes": 299506,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Klaviyo",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/martins-elliston",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/martins-nolensville/giftcards"
+      }
+    },
+    "https://www.martinsbbqjoint.com/book": {
+      "url": "https://www.martinsbbqjoint.com/book",
+      "html_bytes": 215403,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Klaviyo",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/martins-nolensville/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/hughbabys-charlotteave",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/hughbabys-charlotteave/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "hugh": "https://www.hughbabys.com/",
+    "martin": "https://www.martinsbbqjoint.com/"
+  }
+}

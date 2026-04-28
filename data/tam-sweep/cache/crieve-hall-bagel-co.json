@@ -1,0 +1,84 @@
+{
+  "parent": "Crieve Hall Bagel Co. Parent",
+  "slug": "crieve-hall-bagel-co",
+  "total_headroom": "$30,456",
+  "non_ec_headroom": "$30,456",
+  "est_ec_headroom": "$0",
+  "employee_count": "50",
+  "non_ec_arr": "$7,038",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ben@crievehallbagel.co",
+  "location_count": 2,
+  "location_names": [
+    "Crieve Hall Bagel Co.",
+    "Crieve Hall Bagel - 2"
+  ],
+  "websites": [
+    "https://www.crievehallbagel.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.crievehallbagel.co/": {
+      "url": "https://www.crievehallbagel.co/",
+      "html_bytes": 228539,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/crievehallbagelco/giftcards"
+      }
+    },
+    "https://www.crievehallbagel.co/menu": {
+      "url": "https://www.crievehallbagel.co/menu",
+      "html_bytes": 157862,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.crievehallbagel.co/gift-cards": {
+      "url": "https://www.crievehallbagel.co/gift-cards",
+      "html_bytes": 156821,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/crievehallbagelco/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/crievehallbagelco/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

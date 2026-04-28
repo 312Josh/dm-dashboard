@@ -1,0 +1,38 @@
+{
+  "parent": "405 Billiards - Parent Account",
+  "slug": "405-billiards",
+  "total_headroom": "$22,088",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,148",
+  "employee_count": "7",
+  "non_ec_arr": "$2,058",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "405billiards@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "405 Billiards"
+  ],
+  "websites": [
+    "http://www.405billiards.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.405billiards.org/": {
+      "url": "http://www.405billiards.org/",
+      "html_bytes": 1515,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

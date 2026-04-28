@@ -1,0 +1,58 @@
+{
+  "parent": "Brugada inc Parent",
+  "slug": "brugada-inc",
+  "total_headroom": "$21,356",
+  "non_ec_headroom": "$17,352",
+  "est_ec_headroom": "$4,004",
+  "employee_count": "24",
+  "non_ec_arr": "$5,400",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "brugadabar615@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Brugada inc"
+  ],
+  "websites": [
+    "https://brugadabar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://brugadabar.com/": {
+      "url": "https://brugadabar.com/",
+      "html_bytes": 206252,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://brugadabar.com/book/": {
+      "url": "https://brugadabar.com/book/",
+      "html_bytes": 148446,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

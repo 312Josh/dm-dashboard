@@ -1,0 +1,40 @@
+{
+  "parent": "Bill's Sandwich Palace- Parent Account",
+  "slug": "bill-s-sandwich-palace",
+  "total_headroom": "$17,052",
+  "non_ec_headroom": "$17,052",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$4,314",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "clclemins@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bill's Sandwich Palace"
+  ],
+  "websites": [
+    "https://billssandwichpalace.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://billssandwichpalace.com/": {
+      "url": "https://billssandwichpalace.com/",
+      "html_bytes": 5542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

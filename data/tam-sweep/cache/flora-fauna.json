@@ -1,0 +1,53 @@
+{
+  "parent": "Flora + Fauna Parent",
+  "slug": "flora-fauna",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "15",
+  "non_ec_arr": "$2,100",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "hunter@florafaunanashville.com",
+  "location_count": 1,
+  "location_names": [
+    "Flora Fauna"
+  ],
+  "websites": [
+    "https://www.florafaunanashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.florafaunanashville.com/": {
+      "url": "https://www.florafaunanashville.com/",
+      "html_bytes": 129568,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/flora-fauna-735-douglas-avenue/giftcards"
+      }
+    },
+    "https://www.florafaunanashville.com/menus": {
+      "url": "https://www.florafaunanashville.com/menus",
+      "html_bytes": 88097,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/flora-fauna-735-douglas-avenue/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

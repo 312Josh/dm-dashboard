@@ -1,0 +1,51 @@
+{
+  "parent": "Hollis Bar-B-Que",
+  "slug": "hollis-bar-b-que",
+  "total_headroom": "null",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jhollis8213@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Hollis Bar-B-Que"
+  ],
+  "websites": [
+    "https://hollisbarbque.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hollisbarbque.com/": {
+      "url": "https://hollisbarbque.com/",
+      "html_bytes": 0,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "online_ordering": "Toast",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20250311204435/https://hollisbarbque.com/",
+        "html_bytes": 133862,
+        "vendors": {
+          "website_cms": "WordPress",
+          "online_ordering": "Toast",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "Liquid Smoke Group",
+  "slug": "liquid-smoke-group",
+  "total_headroom": "$18,792",
+  "non_ec_headroom": "$18,792",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$3,258",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "mike@thehumidortn.com",
+  "location_count": 1,
+  "location_names": [
+    "Liquid Smoke"
+  ],
+  "websites": [
+    "http://liquidsmoke.biz/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://liquidsmoke.biz/": {
+      "url": "http://liquidsmoke.biz/",
+      "html_bytes": 533,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

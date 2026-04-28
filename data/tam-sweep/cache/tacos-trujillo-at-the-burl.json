@@ -1,0 +1,38 @@
+{
+  "parent": "Tacos Trujillo at The Burl - Parent Account",
+  "slug": "tacos-trujillo-at-the-burl",
+  "total_headroom": "$19,212",
+  "non_ec_headroom": "$19,212",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$2,212",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "morelia.martinez.13@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tacos Trujillo at The Burl"
+  ],
+  "websites": [
+    "https://www.facebook.com/TacosTrujilloLex/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/TacosTrujilloLex/": {
+      "url": "https://www.facebook.com/TacosTrujilloLex/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "parent": "Hit Parader - Parent Account",
+  "slug": "hit-parader",
+  "total_headroom": "$16,044",
+  "non_ec_headroom": "$16,044",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$6,408",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "brad@hitparader.com",
+  "location_count": 1,
+  "location_names": [
+    "Hit Parader"
+  ],
+  "websites": [
+    "https://hitparaderlive.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hitparaderlive.com/": {
+      "url": "https://hitparaderlive.com/",
+      "html_bytes": 103256,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://hitparaderlive.com/menu/": {
+      "url": "https://hitparaderlive.com/menu/",
+      "html_bytes": 60905,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://hitparaderlive.com/book-a-show/": {
+      "url": "https://hitparaderlive.com/book-a-show/",
+      "html_bytes": 53071,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://hitparaderlive.com/reservations": {
+      "url": "https://hitparaderlive.com/reservations",
+      "html_bytes": 51994,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

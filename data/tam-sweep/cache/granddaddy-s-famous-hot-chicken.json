@@ -1,0 +1,38 @@
+{
+  "parent": "Granddaddy's Famous Hot Chicken",
+  "slug": "granddaddy-s-famous-hot-chicken",
+  "total_headroom": "null",
+  "non_ec_headroom": "$15,732",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "twb811@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Granddaddy's Famous Hot Chicken"
+  ],
+  "websites": [
+    "https://www.granddaddysfamoushotchicken.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.granddaddysfamoushotchicken.com/": {
+      "url": "https://www.granddaddysfamoushotchicken.com/",
+      "html_bytes": 139060,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

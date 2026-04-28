@@ -1,0 +1,38 @@
+{
+  "parent": "Perry's Smokin Pig",
+  "slug": "perry-s-smokin-pig",
+  "total_headroom": "$22,228",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,288",
+  "employee_count": "8",
+  "non_ec_arr": "$600",
+  "state": "TN",
+  "city": "White house",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "mopar68@bellsouth.net",
+  "location_count": 1,
+  "location_names": [
+    "Perry's Smokin Pig"
+  ],
+  "websites": [
+    "https://perryssmokinpigbbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://perryssmokinpigbbq.com/": {
+      "url": "https://perryssmokinpigbbq.com/",
+      "html_bytes": 8241,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

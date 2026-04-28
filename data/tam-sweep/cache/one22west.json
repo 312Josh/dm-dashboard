@@ -1,0 +1,40 @@
+{
+  "parent": "One22West - Parent",
+  "slug": "one22west",
+  "total_headroom": "$21,468",
+  "non_ec_headroom": "$16,932",
+  "est_ec_headroom": "$4,536",
+  "employee_count": "27",
+  "non_ec_arr": "$7,248",
+  "state": "TN",
+  "city": "Tullahoma",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "azizzakaria013@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "One 22 West"
+  ],
+  "websites": [
+    "https://one22west.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://one22west.com/": {
+      "url": "https://one22west.com/",
+      "html_bytes": 5489,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

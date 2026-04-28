@@ -1,0 +1,39 @@
+{
+  "parent": "Play Dance Bar Parent",
+  "slug": "play-dance-bar",
+  "total_headroom": "$36,456",
+  "non_ec_headroom": "$36,456",
+  "est_ec_headroom": "$0",
+  "employee_count": "101",
+  "non_ec_arr": "$22,622",
+  "state": "KY",
+  "city": "Louisville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "joe.l.brown@aol.com",
+  "location_count": 2,
+  "location_names": [
+    "Play Dance Bar - KY",
+    "Play Dance Bar"
+  ],
+  "websites": [
+    "https://louisville.playdancebar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://louisville.playdancebar.com/": {
+      "url": "https://louisville.playdancebar.com/",
+      "html_bytes": 58956,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

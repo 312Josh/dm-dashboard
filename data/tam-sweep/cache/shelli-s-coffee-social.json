@@ -1,0 +1,59 @@
+{
+  "parent": "Shelli's Coffee & Social - Parent Account",
+  "slug": "shelli-s-coffee-social",
+  "total_headroom": "$16,800",
+  "non_ec_headroom": "$16,800",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$4,788",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "shelliscoffeesocial@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Shelli's Coffee & Social"
+  ],
+  "websites": [
+    "https://www.shelliscoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.shelliscoffee.com/": {
+      "url": "https://www.shelliscoffee.com/",
+      "html_bytes": 1054935,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Waitlist Me",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.shelliscoffee.com/menu": {
+      "url": "https://www.shelliscoffee.com/menu",
+      "html_bytes": 756013,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.shelliscoffee.com/reservations": {
+      "url": "https://www.shelliscoffee.com/reservations",
+      "html_bytes": 920134,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

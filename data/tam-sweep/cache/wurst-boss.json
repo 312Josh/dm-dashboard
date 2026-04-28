@@ -1,0 +1,40 @@
+{
+  "parent": "Wurst Boss - Parent",
+  "slug": "wurst-boss",
+  "total_headroom": "$21,276",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "rvpllc16@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Wurst Boss - Cart"
+  ],
+  "websites": [
+    "https://wurstboss.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wurstboss.com/": {
+      "url": "https://wurstboss.com/",
+      "html_bytes": 130585,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

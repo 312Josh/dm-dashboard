@@ -1,0 +1,40 @@
+{
+  "parent": "Albasha LLC",
+  "slug": "albasha-llc",
+  "total_headroom": "$22,284",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,344",
+  "employee_count": "8",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Unknown",
+  "contact_email": "mohammad.pop3y3@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Albasha LLC"
+  ],
+  "websites": [
+    "https://albasha.top/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://albasha.top/": {
+      "url": "https://albasha.top/",
+      "html_bytes": 64865,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

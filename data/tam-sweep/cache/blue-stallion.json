@@ -1,0 +1,42 @@
+{
+  "parent": "Blue Stallion Parent",
+  "slug": "blue-stallion",
+  "total_headroom": "$19,604",
+  "non_ec_headroom": "$17,112",
+  "est_ec_headroom": "$2,492",
+  "employee_count": "15",
+  "non_ec_arr": "$4,170",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "info@bluestallionbrewing.com",
+  "location_count": 1,
+  "location_names": [
+    "Blue Stallion Brewing Co"
+  ],
+  "websites": [
+    "https://www.bluestallionbrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bluestallionbrewing.com/": {
+      "url": "https://www.bluestallionbrewing.com/",
+      "html_bytes": 692509,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

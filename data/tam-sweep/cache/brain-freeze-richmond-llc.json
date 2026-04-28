@@ -1,0 +1,29 @@
+{
+  "parent": "Brain Freeze Richmond LLC - Parent Account",
+  "slug": "brain-freeze-richmond-llc",
+  "total_headroom": "$21,836",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$896",
+  "employee_count": "5",
+  "non_ec_arr": "null",
+  "state": "KY",
+  "city": "Richmond",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ameet@thghotels.net",
+  "location_count": 1,
+  "location_names": [
+    "Brain Freeze Richmond LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

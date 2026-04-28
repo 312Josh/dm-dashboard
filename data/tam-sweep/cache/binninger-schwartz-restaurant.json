@@ -1,0 +1,56 @@
+{
+  "parent": "Binninger-Schwartz Restaurant - Parent Account",
+  "slug": "binninger-schwartz-restaurant",
+  "total_headroom": "$14,016",
+  "non_ec_headroom": "$14,016",
+  "est_ec_headroom": "$0",
+  "employee_count": "34",
+  "non_ec_arr": "$7,776",
+  "state": "TN",
+  "city": "Manchester",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "bmbinninger@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Binninger-Schwartz Restaurant"
+  ],
+  "websites": [
+    "https://binningerschwartz.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://binningerschwartz.com/": {
+      "url": "https://binningerschwartz.com/",
+      "html_bytes": 81206,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/82f189f1-7a03-4dec-8ca6-7f125695dbba"
+      }
+    },
+    "https://binningerschwartz.com/menu": {
+      "url": "https://binningerschwartz.com/menu",
+      "html_bytes": 66101,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/82f189f1-7a03-4dec-8ca6-7f125695dbba"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/82f189f1-7a03-4dec-8ca6-7f125695dbba"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "parent": "Eastern Peak Parent",
+  "slug": "eastern-peak",
+  "total_headroom": "$72,960",
+  "non_ec_headroom": "$72,960",
+  "est_ec_headroom": "$0",
+  "employee_count": "184",
+  "non_ec_arr": "$59,354",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "poy@cravejasmine.com",
+  "location_count": 5,
+  "location_names": [
+    "The Eastern Peak - Thompson Lane",
+    "The Eastern Peak - Franklin",
+    "The Eastern Peak - Bellevue",
+    "Jasmine Thai and Sushi - Murray",
+    "Jasmine Thai and Sushi - Paducah"
+  ],
+  "websites": [
+    "https://www.theeasternpeak.com/",
+    "https://www.cravejasmine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.theeasternpeak.com/": {
+      "url": "https://www.theeasternpeak.com/",
+      "html_bytes": 671596,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/the-eastern-peak-bellevue-8121-sawyer-brown-rd/giftcards",
+        "toast_loyalty": "toasttab.com/the-eastern-peak-thompson-lane-536-thompson-lane/rewardsSignup"
+      }
+    },
+    "https://www.theeasternpeak.com/menu": {
+      "url": "https://www.theeasternpeak.com/menu",
+      "html_bytes": 1689939,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.theeasternpeak.com/gift-cards": {
+      "url": "https://www.theeasternpeak.com/gift-cards",
+      "html_bytes": 651413,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/the-eastern-peak-bellevue-8121-sawyer-brown-rd/giftcards"
+      }
+    },
+    "https://www.theeasternpeak.com/rewards": {
+      "url": "https://www.theeasternpeak.com/rewards",
+      "html_bytes": 799733,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/the-eastern-peak-thompson-lane-536-thompson-lane/rewardsSignup"
+      }
+    },
+    "https://www.cravejasmine.com/": {
+      "url": "https://www.cravejasmine.com/",
+      "html_bytes": 588440,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/jasmine-thai-and-sushi-paducah-451-jorden-dr-suite-k/rewardsSignup"
+      }
+    },
+    "https://www.cravejasmine.com/menus": {
+      "url": "https://www.cravejasmine.com/menus",
+      "html_bytes": 1570496,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.cravejasmine.com/gift-cards": {
+      "url": "https://www.cravejasmine.com/gift-cards",
+      "html_bytes": 574503,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.cravejasmine.com/rewards": {
+      "url": "https://www.cravejasmine.com/rewards",
+      "html_bytes": 727023,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/jasmine-thai-and-sushi-paducah-451-jorden-dr-suite-k/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/the-eastern-peak-bellevue-8121-sawyer-brown-rd/giftcards",
+    "toast_loyalty": "toasttab.com/the-eastern-peak-thompson-lane-536-thompson-lane/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "eastern peak": "https://www.theeasternpeak.com/",
+    "jasmine": "https://www.cravejasmine.com/"
+  }
+}

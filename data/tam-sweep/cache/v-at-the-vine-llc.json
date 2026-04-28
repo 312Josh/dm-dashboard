@@ -1,0 +1,75 @@
+{
+  "parent": "V at the Vine LLC",
+  "slug": "v-at-the-vine-llc",
+  "total_headroom": "$30,468",
+  "non_ec_headroom": "$30,468",
+  "est_ec_headroom": "$0",
+  "employee_count": "92",
+  "non_ec_arr": "$21,339",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "cole@thevinelex.com",
+  "location_count": 2,
+  "location_names": [
+    "V at the Vine Rooftop",
+    "V at the Vine"
+  ],
+  "websites": [
+    "https://thevatthevinelex.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thevatthevinelex.com/": {
+      "url": "https://thevatthevinelex.com/",
+      "html_bytes": 270466,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://thevatthevinelex.com/reservations/": {
+      "url": "https://thevatthevinelex.com/reservations/",
+      "html_bytes": 200475,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "http://thevatthevinelex.com/menu": {
+      "url": "http://thevatthevinelex.com/menu",
+      "html_bytes": 153087,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

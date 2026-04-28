@@ -1,0 +1,75 @@
+{
+  "parent": "Carson's Group",
+  "slug": "carson-s-group",
+  "total_headroom": "$65,172",
+  "non_ec_headroom": "$30,900",
+  "est_ec_headroom": "$34,272",
+  "employee_count": "204",
+  "non_ec_arr": "$20,468",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "markfichtner1@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Carson's Food And Drink- Main",
+    "Carson's Food and Drink- Andover"
+  ],
+  "websites": [
+    "https://carsonsfoodanddrink.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://carsonsfoodanddrink.com/": {
+      "url": "https://carsonsfoodanddrink.com/",
+      "html_bytes": 286493,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/carsons-food-and-drink/giftcards"
+      }
+    },
+    "https://carsonsfoodanddrink.com/home/gift-cards/": {
+      "url": "https://carsonsfoodanddrink.com/home/gift-cards/",
+      "html_bytes": 236956,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/carsons-food-and-drink/giftcards"
+      }
+    },
+    "https://carsonsfoodanddrink.com/reservations/": {
+      "url": "https://carsonsfoodanddrink.com/reservations/",
+      "html_bytes": 237215,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/carsons-food-and-drink/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

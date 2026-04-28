@@ -1,0 +1,38 @@
+{
+  "parent": "Morehead Enterprises LLC",
+  "slug": "morehead-enterprises-llc",
+  "total_headroom": "$22,560",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$2,520",
+  "employee_count": "15",
+  "non_ec_arr": "$567",
+  "state": "KY",
+  "city": "Winchester",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jhen9@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "The Engine House"
+  ],
+  "websites": [
+    "https://www.facebook.com/enginehousepizzapub/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/enginehousepizzapub/": {
+      "url": "https://www.facebook.com/enginehousepizzapub/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

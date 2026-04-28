@@ -1,0 +1,43 @@
+{
+  "parent": "Middle Eatz Inc - Parent Account",
+  "slug": "middle-eatz-inc",
+  "total_headroom": "$11,724",
+  "non_ec_headroom": "$11,724",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$10,417",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "middleeatz@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Middle Eatz Inc"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/middle-eatz-inc-412-harding-place-suite-104/r-e7a548f3-5c72-4e08-b1a3-a338b744a04f"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/middle-eatz-inc-412-harding-place-suite-104/r-e7a548f3-5c72-4e08-b1a3-a338b744a04f": {
+      "url": "https://www.toasttab.com/local/order/middle-eatz-inc-412-harding-place-suite-104/r-e7a548f3-5c72-4e08-b1a3-a338b744a04f",
+      "html_bytes": 5902,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

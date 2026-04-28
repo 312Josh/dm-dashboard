@@ -1,0 +1,42 @@
+{
+  "parent": "Starwood Pizza 2 - Parent Account",
+  "slug": "starwood-pizza-2",
+  "total_headroom": "$19,320",
+  "non_ec_headroom": "$19,320",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$4,806",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "starwoodlounge825@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Starwood Pizza 2"
+  ],
+  "websites": [
+    "https://www.facebook.com/starwoodpizza/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/starwoodpizza/": {
+      "url": "https://www.facebook.com/starwoodpizza/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

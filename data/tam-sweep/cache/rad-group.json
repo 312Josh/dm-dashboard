@@ -1,0 +1,64 @@
+{
+  "parent": "RAD group",
+  "slug": "rad-group",
+  "total_headroom": "$21,952",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$2,212",
+  "employee_count": "13",
+  "non_ec_arr": "$1,800",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "fitch@goodasfolk.com",
+  "location_count": 1,
+  "location_names": [
+    "Junior - Nashville"
+  ],
+  "websites": [
+    "https://www.juniornashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.juniornashville.com/": {
+      "url": "https://www.juniornashville.com/",
+      "html_bytes": 124329,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/junior-nashville/giftcards"
+      }
+    },
+    "https://www.juniornashville.com/menu": {
+      "url": "https://www.juniornashville.com/menu",
+      "html_bytes": 140562,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/junior-nashville/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/junior-nashville/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

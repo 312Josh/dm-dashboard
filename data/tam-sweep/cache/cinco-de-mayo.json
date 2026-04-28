@@ -1,0 +1,71 @@
+{
+  "parent": "Cinco De Mayo Parent",
+  "slug": "cinco-de-mayo",
+  "total_headroom": "$225,196",
+  "non_ec_headroom": "$181,152",
+  "est_ec_headroom": "$44,044",
+  "employee_count": "263",
+  "non_ec_arr": "$85,512",
+  "state": "TN",
+  "city": "brentwood",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "dongallo5@comcast.net",
+  "location_count": 11,
+  "location_names": [
+    "Cinco De Mayo - Brentwood",
+    "Cinco De Mayo - Hermitage",
+    "Cinco De Mayo - Smyrna",
+    "Cinco De Mayo - Mt. Juliet",
+    "Cinco De Mayo - White Bridge",
+    "Cinco De Mayo Mexican Restaurant - Nashville",
+    "Cinco de Mayo - Murfreesboro",
+    "Cinco De Mayo - Hendersonville",
+    "Cinco De Mayo - Gulch",
+    "Cinco De Mayo - Franklin",
+    "Cinco De Mayo - Old Hickory"
+  ],
+  "websites": [
+    "https://www.cincodemayomexicanrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cincodemayomexicanrestaurant.com/": {
+      "url": "https://www.cincodemayomexicanrestaurant.com/",
+      "html_bytes": 83557,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/cinco-de-mayo-brentwood-4944-thoroughbred-lane/rewardsSignup"
+      }
+    },
+    "https://www.cincodemayomexicanrestaurant.com/menu/": {
+      "url": "https://www.cincodemayomexicanrestaurant.com/menu/",
+      "html_bytes": 150688,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/cinco-de-mayo-brentwood-4944-thoroughbred-lane/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/cinco-de-mayo-brentwood-4944-thoroughbred-lane/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "Mi Camino Real Parent",
+  "slug": "mi-camino-real",
+  "total_headroom": "$17,100",
+  "non_ec_headroom": "$17,100",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$5,328",
+  "state": "TN",
+  "city": "Smyrna",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bnonate@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Mi Camino Real - New"
+  ],
+  "websites": [
+    "https://www.micaminomexican.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.micaminomexican.com/": {
+      "url": "https://www.micaminomexican.com/",
+      "html_bytes": 6577,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "ChowNow"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

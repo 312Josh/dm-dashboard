@@ -1,0 +1,29 @@
+{
+  "parent": "Wrapped In Grace",
+  "slug": "wrapped-in-grace",
+  "total_headroom": "$14,988",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Gallatin",
+  "restaurant_type": "Unknown",
+  "contact_email": "vn211690@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Wrapped In Grace"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

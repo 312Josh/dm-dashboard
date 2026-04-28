@@ -1,0 +1,95 @@
+{
+  "parent": "Travis Hall Hospitality Restaurant - Parent Account",
+  "slug": "travis-hall-hospitality-restaurant",
+  "total_headroom": "$22,232",
+  "non_ec_headroom": "$13,524",
+  "est_ec_headroom": "$8,708",
+  "employee_count": "52",
+  "non_ec_arr": "$6,999",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "rollie@millscompanies1.com",
+  "location_count": 1,
+  "location_names": [
+    "Char"
+  ],
+  "websites": [
+    "https://www.wildeggs.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.wildeggs.com/": {
+      "url": "https://www.wildeggs.com/",
+      "html_bytes": 1375852,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/wildeggs-westport/giftcards",
+        "toast_loyalty": "toasttab.com/wildeggs-westport/rewardsSignup"
+      }
+    },
+    "https://www.wildeggs.com/reservations/": {
+      "url": "https://www.wildeggs.com/reservations/",
+      "html_bytes": 1577866,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/wildeggs-westport/giftcards"
+      }
+    },
+    "https://www.wildeggs.com/menus/": {
+      "url": "https://www.wildeggs.com/menus/",
+      "html_bytes": 1599062,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Attentive",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/wildeggs-westport/giftcards"
+      }
+    },
+    "https://www.wildeggs.com/rewards/": {
+      "url": "https://www.wildeggs.com/rewards/",
+      "html_bytes": 1214258,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/wildeggs-westport/giftcards",
+        "toast_loyalty": "toasttab.com/wildeggs-westport/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/wildeggs-westport/giftcards",
+    "toast_loyalty": "toasttab.com/wildeggs-westport/rewardsSignup"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

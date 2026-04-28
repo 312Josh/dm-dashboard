@@ -1,0 +1,60 @@
+{
+  "parent": "Kabuto - Parent Account",
+  "slug": "kabuto",
+  "total_headroom": "$8,328",
+  "non_ec_headroom": "$8,328",
+  "est_ec_headroom": "$0",
+  "employee_count": "32",
+  "non_ec_arr": "$16,478",
+  "state": "TN",
+  "city": "Goodlettsville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kishanppatel48@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Kabuto"
+  ],
+  "websites": [
+    "https://kabutogoodlettsville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kabutogoodlettsville.com/": {
+      "url": "https://kabutogoodlettsville.com/",
+      "html_bytes": 166761,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/kabuto-908-conference-drive",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/dc2771a4-4018-4ee9-b13d-7a9d8fb080ea",
+        "toast_loyalty": "toasttab.com/kabuto-908-conference-drive/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/kabuto-908-conference-drive",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/dc2771a4-4018-4ee9-b13d-7a9d8fb080ea",
+    "toast_loyalty": "toasttab.com/kabuto-908-conference-drive/rewardsSignup"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "doordash",
+    "ezcater",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

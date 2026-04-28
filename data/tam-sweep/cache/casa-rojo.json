@@ -1,0 +1,38 @@
+{
+  "parent": "Casa Rojo - Parent Account",
+  "slug": "casa-rojo",
+  "total_headroom": "$19,248",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$1,428",
+  "employee_count": "9",
+  "non_ec_arr": "$9,120",
+  "state": "TN",
+  "city": "Gallatin",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "sigutierrez18@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Casa Rojo"
+  ],
+  "websites": [
+    "https://www.facebook.com/casarojamexicangrill/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/casarojamexicangrill/": {
+      "url": "https://www.facebook.com/casarojamexicangrill/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

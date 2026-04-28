@@ -1,0 +1,42 @@
+{
+  "parent": "The Rudder At Anchor High Marina - Parent Account",
+  "slug": "the-rudder-at-anchor-high-marina",
+  "total_headroom": "$22,484",
+  "non_ec_headroom": "$15,120",
+  "est_ec_headroom": "$7,364",
+  "employee_count": "44",
+  "non_ec_arr": "$11,640",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jppatton2@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Rudder At Anchor High Marina"
+  ],
+  "websites": [
+    "https://www.therudderahm.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.therudderahm.com/": {
+      "url": "https://www.therudderahm.com/",
+      "html_bytes": 5518,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

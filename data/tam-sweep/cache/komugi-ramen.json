@@ -1,0 +1,61 @@
+{
+  "parent": "Komugi Ramen - Parent Account",
+  "slug": "komugi-ramen",
+  "total_headroom": "$21,024",
+  "non_ec_headroom": "$19,680",
+  "est_ec_headroom": "$1,344",
+  "employee_count": "8",
+  "non_ec_arr": "$3,120",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "Unknown",
+  "contact_email": "komugiramen@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Komugi Ramen"
+  ],
+  "websites": [
+    "https://komugiramen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://komugiramen.com/": {
+      "url": "https://komugiramen.com/",
+      "html_bytes": 106267,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/kumogi-ramen-206a-n-anderson-ln-suite-700",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://komugiramen.com/menu": {
+      "url": "https://komugiramen.com/menu",
+      "html_bytes": 162172,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/kumogi-ramen-206a-n-anderson-ln-suite-700",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/kumogi-ramen-206a-n-anderson-ln-suite-700",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

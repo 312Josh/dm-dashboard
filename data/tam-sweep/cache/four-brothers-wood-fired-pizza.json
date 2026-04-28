@@ -1,0 +1,72 @@
+{
+  "parent": "Four Brothers Wood Fired Pizza Parent",
+  "slug": "four-brothers-wood-fired-pizza",
+  "total_headroom": "$42,340",
+  "non_ec_headroom": "$36,180",
+  "est_ec_headroom": "$6,160",
+  "employee_count": "37",
+  "non_ec_arr": "$6,000",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jamaalpbradley@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Four Brothers NRO",
+    "Four Brothers Wood-Fired Pizza"
+  ],
+  "websites": [
+    "https://www.fourbrotherswoodfiredpizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fourbrotherswoodfiredpizza.com/": {
+      "url": "https://www.fourbrotherswoodfiredpizza.com/",
+      "html_bytes": 45978,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/four-brothers-wood-fired-pizza-101-profit-drive/giftcards",
+        "toast_loyalty": "toasttab.com/four-brothers-nro-2720-madison-street-suite-a-zoyap/rewardsSignup"
+      }
+    },
+    "https://www.fourbrotherswoodfiredpizza.com/menu/": {
+      "url": "https://www.fourbrotherswoodfiredpizza.com/menu/",
+      "html_bytes": 64975,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/four-brothers-wood-fired-pizza-101-profit-drive/giftcards",
+        "toast_loyalty": "toasttab.com/four-brothers-nro-2720-madison-street-suite-a-zoyap/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/four-brothers-wood-fired-pizza-101-profit-drive/giftcards",
+    "toast_loyalty": "toasttab.com/four-brothers-nro-2720-madison-street-suite-a-zoyap/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

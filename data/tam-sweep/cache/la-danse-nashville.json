@@ -1,0 +1,43 @@
+{
+  "parent": "La Danse Nashville - Parent Account",
+  "slug": "la-danse-nashville",
+  "total_headroom": "$21,652",
+  "non_ec_headroom": "$19,860",
+  "est_ec_headroom": "$1,792",
+  "employee_count": "11",
+  "non_ec_arr": "$4,920",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "karaskeroles@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "La Danse Nashville"
+  ],
+  "websites": [
+    "https://ladansenashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ladansenashville.com/": {
+      "url": "https://ladansenashville.com/",
+      "html_bytes": 211081,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

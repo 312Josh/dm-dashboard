@@ -1,0 +1,42 @@
+{
+  "parent": "Blue Eyes Barista LLC - Parent Account",
+  "slug": "blue-eyes-barista-llc",
+  "total_headroom": "$15,372",
+  "non_ec_headroom": "$15,372",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$720",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "salw44315@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Blue Eyes Barista LLC"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/blue-eyes-barista-llc"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/blue-eyes-barista-llc": {
+      "url": "https://www.toasttab.com/local/order/blue-eyes-barista-llc",
+      "html_bytes": 5633,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "Chopper Parent",
+  "slug": "chopper",
+  "total_headroom": "$20,640",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$1,884",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "andy@choppertiki.com",
+  "location_count": 1,
+  "location_names": [
+    "Chopper"
+  ],
+  "websites": [
+    "https://www.choppertiki.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.choppertiki.com/": {
+      "url": "https://www.choppertiki.com/",
+      "html_bytes": 125754,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

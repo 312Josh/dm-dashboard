@@ -1,0 +1,48 @@
+{
+  "parent": "Papi's Parent",
+  "slug": "papi-s",
+  "total_headroom": "$85,804",
+  "non_ec_headroom": "$69,060",
+  "est_ec_headroom": "$16,744",
+  "employee_count": "100",
+  "non_ec_arr": "$27,751",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "marcosvaldes@icloud.com",
+  "location_count": 4,
+  "location_names": [
+    "Papi's Palomar",
+    "Papi's - Stockton",
+    "Papi's Rapido - Lexington",
+    "Papi's Palomar2"
+  ],
+  "websites": [
+    "https://papischevychase.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://papischevychase.com/": {
+      "url": "https://papischevychase.com/",
+      "html_bytes": 202777,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

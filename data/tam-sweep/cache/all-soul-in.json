@@ -1,0 +1,38 @@
+{
+  "parent": "All Soul In",
+  "slug": "all-soul-in",
+  "total_headroom": "$14,820",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "allsoulin@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "All Soul In"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/All-Soul-In-61582793181094/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/All-Soul-In-61582793181094/": {
+      "url": "https://www.facebook.com/p/All-Soul-In-61582793181094/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

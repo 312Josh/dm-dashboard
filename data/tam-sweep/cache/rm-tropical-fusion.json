@@ -1,0 +1,29 @@
+{
+  "parent": "RM Tropical Fusion - Parent Account",
+  "slug": "rm-tropical-fusion",
+  "total_headroom": "$15,732",
+  "non_ec_headroom": "$15,732",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "michobarnett@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "RM Tropical Fusion"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "parent": "Fryce Cream - Parent",
+  "slug": "fryce-cream",
+  "total_headroom": "$41,880",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$636",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "alex@getfrycecream.com",
+  "location_count": 2,
+  "location_names": [
+    "Fryce Cream - Donelson",
+    "Fryce Cream - Nashville"
+  ],
+  "websites": [
+    "https://www.frycecreamnash.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.frycecreamnash.com/": {
+      "url": "https://www.frycecreamnash.com/",
+      "html_bytes": 179226,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.frycecreamnash.com/menu": {
+      "url": "https://www.frycecreamnash.com/menu",
+      "html_bytes": 703732,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

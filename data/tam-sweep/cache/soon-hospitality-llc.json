@@ -1,0 +1,77 @@
+{
+  "parent": "Soon Hospitality LLC",
+  "slug": "soon-hospitality-llc",
+  "total_headroom": "$62,040",
+  "non_ec_headroom": "$62,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "109",
+  "non_ec_arr": "$64,113",
+  "state": "TN",
+  "city": "Memphis",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "ereed@slimandhuskys.com",
+  "location_count": 5,
+  "location_names": [
+    "Slim & Husky's Memphis",
+    "Slim & Husky's - ATL Metro",
+    "Slim & Husky's Buchanan Dine In",
+    "Slim & Husky’s Antioch",
+    "Slim and Husky's FRANKLIN"
+  ],
+  "websites": [
+    "https://slimandhuskys.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://slimandhuskys.com/": {
+      "url": "https://slimandhuskys.com/",
+      "html_bytes": 122726,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/slimandhuskys-bnabuc/rewardsSignup"
+      }
+    },
+    "https://slimandhuskys.com/menus/": {
+      "url": "https://slimandhuskys.com/menus/",
+      "html_bytes": 129457,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/slimandhuskys-bnabuc/rewardsSignup"
+      }
+    },
+    "https://slimandhuskys.com/order-online/": {
+      "url": "https://slimandhuskys.com/order-online/",
+      "html_bytes": 5935,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/slimandhuskys-bnabuc/rewardsSignup"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

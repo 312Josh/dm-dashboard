@@ -1,0 +1,49 @@
+{
+  "parent": "Sal's Family Pizza - Parent",
+  "slug": "sal-s-family-pizza",
+  "total_headroom": "$56,320",
+  "non_ec_headroom": "$49,320",
+  "est_ec_headroom": "$7,000",
+  "employee_count": "42",
+  "non_ec_arr": "$18,660",
+  "state": "TN",
+  "city": "Franklin",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "lafarg11@yahoo.com",
+  "location_count": 3,
+  "location_names": [
+    "Fayzano's Pizza",
+    "Fayzano's - Mt. Juliet",
+    "Sal's Family Pizza - Brentwood"
+  ],
+  "websites": [
+    "https://mysals.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mysals.com/": {
+      "url": "https://mysals.com/",
+      "html_bytes": 87854,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Slice",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "grubhub",
+    "ezcater",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

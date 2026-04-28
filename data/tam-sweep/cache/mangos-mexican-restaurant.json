@@ -1,0 +1,42 @@
+{
+  "parent": "Mangos Mexican Restaurant - Parent Account",
+  "slug": "mangos-mexican-restaurant",
+  "total_headroom": "$20,824",
+  "non_ec_headroom": "$17,100",
+  "est_ec_headroom": "$3,724",
+  "employee_count": "22",
+  "non_ec_arr": "$6,072",
+  "state": "TN",
+  "city": "Lebanon",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "pequitas@comcast.net",
+  "location_count": 1,
+  "location_names": [
+    "Mangos Mexican Restaurant"
+  ],
+  "websites": [
+    "https://www.facebook.com/mangoslebanon/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/mangoslebanon/": {
+      "url": "https://www.facebook.com/mangoslebanon/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

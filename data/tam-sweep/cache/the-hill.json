@@ -1,0 +1,38 @@
+{
+  "parent": "The Hill - Parent Account",
+  "slug": "the-hill",
+  "total_headroom": "$16,212",
+  "non_ec_headroom": "$16,212",
+  "est_ec_headroom": "$0",
+  "employee_count": "52",
+  "non_ec_arr": "$9,085",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "twokeystaphouse@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Hill"
+  ],
+  "websites": [
+    "https://thehill.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thehill.toast.site/": {
+      "url": "https://thehill.toast.site/",
+      "html_bytes": 5537,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Sapporo Parent",
+  "slug": "sapporo",
+  "total_headroom": "$20,812",
+  "non_ec_headroom": "$19,860",
+  "est_ec_headroom": "$952",
+  "employee_count": "6",
+  "non_ec_arr": "$2,400",
+  "state": "TN",
+  "city": "Madison",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "sapporomadison@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sapporo Madison"
+  ],
+  "websites": [
+    "https://mysapporo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mysapporo.com/": {
+      "url": "https://mysapporo.com/",
+      "html_bytes": 106535,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

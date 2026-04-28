@@ -1,0 +1,190 @@
+{
+  "parent": "Siège Hospitality",
+  "slug": "si-ge-hospitality",
+  "total_headroom": "$108,276",
+  "non_ec_headroom": "$94,500",
+  "est_ec_headroom": "$13,776",
+  "employee_count": "82",
+  "non_ec_arr": "$8,625",
+  "state": "AL",
+  "city": "Birmingham",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "andrew@siegehospitality.com",
+  "location_count": 5,
+  "location_names": [
+    "Epice - Birmingham",
+    "Lola - Nashville",
+    "Epice",
+    "Santo",
+    "Kalamata's"
+  ],
+  "websites": [
+    "https://www.epicebirmingham.com/",
+    "https://www.lolanashville.com/",
+    "https://www.santonashville.com/",
+    "http://kalamatasnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.epicebirmingham.com/": {
+      "url": "https://www.epicebirmingham.com/",
+      "html_bytes": 124176,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/epice-birmingham-2308-1st-ave-south",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/epice-birmingham-2308-1st-ave-south/giftcards"
+      }
+    },
+    "https://www.epicebirmingham.com/menu": {
+      "url": "https://www.epicebirmingham.com/menu",
+      "html_bytes": 187651,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/epice-birmingham-2308-1st-ave-south",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/epice-birmingham-2308-1st-ave-south/giftcards"
+      }
+    },
+    "https://www.epicebirmingham.com/reserve": {
+      "url": "https://www.epicebirmingham.com/reserve",
+      "html_bytes": 188009,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/epice-birmingham-2308-1st-ave-south",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/epice-birmingham-2308-1st-ave-south/giftcards"
+      }
+    },
+    "https://www.lolanashville.com/": {
+      "url": "https://www.lolanashville.com/",
+      "html_bytes": 205698,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/lola-2021-4401-murphy-road/giftcards"
+      }
+    },
+    "https://www.lolanashville.com/menu-": {
+      "url": "https://www.lolanashville.com/menu-",
+      "html_bytes": 144049,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/lola-2021-4401-murphy-road/giftcards"
+      }
+    },
+    "https://www.lolanashville.com/reserve": {
+      "url": "https://www.lolanashville.com/reserve",
+      "html_bytes": 196731,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/lola-2021-4401-murphy-road/giftcards"
+      }
+    },
+    "https://www.santonashville.com/": {
+      "url": "https://www.santonashville.com/",
+      "html_bytes": 202901,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/santo",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/santo/giftcards"
+      }
+    },
+    "https://www.santonashville.com/menushappyhourcocktialwinebarnashville": {
+      "url": "https://www.santonashville.com/menushappyhourcocktialwinebarnashville",
+      "html_bytes": 209568,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/santo",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "http://kalamatasnashville.com/": {
+      "url": "http://kalamatasnashville.com/",
+      "html_bytes": 77189,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/kalamata-s/giftcards"
+      }
+    },
+    "http://kalamatasnashville.com/menu": {
+      "url": "http://kalamatasnashville.com/menu",
+      "html_bytes": 72056,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/kalamata-s/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/epice-birmingham-2308-1st-ave-south",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/epice-birmingham-2308-1st-ave-south/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "epice": "https://www.epicebirmingham.com/",
+    "lola": "https://www.lolanashville.com/",
+    "santo": "https://www.santonashville.com/",
+    "kalamata": "http://kalamatasnashville.com/"
+  }
+}

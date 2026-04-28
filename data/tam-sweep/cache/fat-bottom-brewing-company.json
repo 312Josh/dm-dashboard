@@ -1,0 +1,58 @@
+{
+  "parent": "Fat Bottom Brewing Company Parent",
+  "slug": "fat-bottom-brewing-company",
+  "total_headroom": "$51,696",
+  "non_ec_headroom": "$51,696",
+  "est_ec_headroom": "$0",
+  "employee_count": "93",
+  "non_ec_arr": "$17,400",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "hello@fatbottombrewing.com",
+  "location_count": 3,
+  "location_names": [
+    "Fat Bottom Brewing Company",
+    "Fat Bottom Brewing Company - 44th",
+    "Teddy’s Tavern"
+  ],
+  "websites": [
+    "https://www.fatbottombrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fatbottombrewing.com/": {
+      "url": "https://www.fatbottombrewing.com/",
+      "html_bytes": 235991,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.fatbottombrewing.com/menu": {
+      "url": "https://www.fatbottombrewing.com/menu",
+      "html_bytes": 183499,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "parent": "Hearts Cafe - Parent- Parent Account",
+  "slug": "hearts-cafe-parent",
+  "total_headroom": "$43,192",
+  "non_ec_headroom": "$38,460",
+  "est_ec_headroom": "$4,732",
+  "employee_count": "28",
+  "non_ec_arr": "$8,914",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "samueljoelross@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Hearts Cafe - Nashville",
+    "Hearts Cafe"
+  ],
+  "websites": [
+    "https://www.heartsnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.heartsnashville.com/": {
+      "url": "https://www.heartsnashville.com/",
+      "html_bytes": 174427,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.heartsnashville.com/menu": {
+      "url": "https://www.heartsnashville.com/menu",
+      "html_bytes": 351443,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "The Burl Group",
+  "slug": "the-burl-group",
+  "total_headroom": "$66,528",
+  "non_ec_headroom": "$60,564",
+  "est_ec_headroom": "$5,964",
+  "employee_count": "35",
+  "non_ec_arr": "$6,084",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "cannon@theburlky.com",
+  "location_count": 3,
+  "location_names": [
+    "The Burl Brew",
+    "The Burl",
+    "The Burl Venue"
+  ],
+  "websites": [
+    "https://theburlky.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://theburlky.com/": {
+      "url": "https://theburlky.com/",
+      "html_bytes": 743,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

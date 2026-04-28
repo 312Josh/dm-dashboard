@@ -1,0 +1,51 @@
+{
+  "parent": "Brasa's - Parent Account",
+  "slug": "brasa-s",
+  "total_headroom": "$21,356",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$1,316",
+  "employee_count": "8",
+  "non_ec_arr": "$1,800",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Unknown",
+  "contact_email": "pedroaguirre6051@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Brasa's"
+  ],
+  "websites": [
+    "https://brasasrestlex.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://brasasrestlex.com/": {
+      "url": "https://brasasrestlex.com/",
+      "html_bytes": 141177,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/brasas-565-e-new-circle-rd-unit-5",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/brasas-565-e-new-circle-rd-unit-5",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

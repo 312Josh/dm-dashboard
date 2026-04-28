@@ -1,0 +1,41 @@
+{
+  "parent": "Mr. J's Original - Parent Account",
+  "slug": "mr-j-s-original",
+  "total_headroom": "$18,120",
+  "non_ec_headroom": "$18,120",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$5,256",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "jasonftenn@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mr. J's Original"
+  ],
+  "websites": [
+    "https://www.mrjsoriginal.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mrjsoriginal.com/": {
+      "url": "https://www.mrjsoriginal.com/",
+      "html_bytes": 5518,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

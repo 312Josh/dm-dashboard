@@ -1,0 +1,64 @@
+{
+  "parent": "Josie’s Parent",
+  "slug": "josie-s",
+  "total_headroom": "$47,156",
+  "non_ec_headroom": "$36,012",
+  "est_ec_headroom": "$11,144",
+  "employee_count": "67",
+  "non_ec_arr": "$12,558",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "merrickinn@aol.com",
+  "location_count": 2,
+  "location_names": [
+    "Josies",
+    "The Obstinate Sons"
+  ],
+  "websites": [
+    "https://www.josies-ky.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.josies-ky.com/": {
+      "url": "https://www.josies-ky.com/",
+      "html_bytes": 35867,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/josies/giftcards",
+        "toast_loyalty": "toasttab.com/josies/rewardsSignup"
+      }
+    },
+    "https://www.josies-ky.com/menu/breakfast": {
+      "url": "https://www.josies-ky.com/menu/breakfast",
+      "html_bytes": 8829,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/josies/giftcards",
+        "toast_loyalty": "toasttab.com/josies/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/josies/giftcards",
+    "toast_loyalty": "toasttab.com/josies/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

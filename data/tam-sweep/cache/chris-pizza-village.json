@@ -1,0 +1,46 @@
+{
+  "parent": "Chris' Pizza Village- Parent",
+  "slug": "chris-pizza-village",
+  "total_headroom": "$30,396",
+  "non_ec_headroom": "$30,396",
+  "est_ec_headroom": "$0",
+  "employee_count": "32",
+  "non_ec_arr": "$13,591",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "chrispizzavillage@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Chris' Pizza Village",
+    "Chris' Pizza Village- Pleasant View V2"
+  ],
+  "websites": [
+    "http://chrispizzavillage.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://chrispizzavillage.net/": {
+      "url": "http://chrispizzavillage.net/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20250321041850/http://www.chrispizzavillage.net/",
+        "html_bytes": 9673,
+        "vendors": {}
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

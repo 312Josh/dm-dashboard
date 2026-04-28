@@ -1,0 +1,40 @@
+{
+  "parent": "American Legion 88 - Donelson - Parent Account",
+  "slug": "american-legion-88-donelson",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$1,800",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "howardasimpson@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "American Legion 88 - Donelson"
+  ],
+  "websites": [
+    "https://americanlegionpost88.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://americanlegionpost88.com/": {
+      "url": "https://americanlegionpost88.com/",
+      "html_bytes": 85126,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

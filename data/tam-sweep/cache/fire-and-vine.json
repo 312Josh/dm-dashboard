@@ -1,0 +1,44 @@
+{
+  "parent": "Fire and Vine - Parent Account",
+  "slug": "fire-and-vine",
+  "total_headroom": "$12,576",
+  "non_ec_headroom": "$12,576",
+  "est_ec_headroom": "$0",
+  "employee_count": "59",
+  "non_ec_arr": "$13,872",
+  "state": "TN",
+  "city": "Cookeville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "barry@grouprbi.com",
+  "location_count": 1,
+  "location_names": [
+    "Fire and Vine"
+  ],
+  "websites": [
+    "https://fire-vine.hey-restaurants.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://fire-vine.hey-restaurants.com/": {
+      "url": "https://fire-vine.hey-restaurants.com/",
+      "html_bytes": 32331,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://fire-vine.hey-restaurants.com/menu": {
+      "url": "https://fire-vine.hey-restaurants.com/menu",
+      "html_bytes": 35584,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

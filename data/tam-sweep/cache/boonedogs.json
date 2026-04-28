@@ -1,0 +1,60 @@
+{
+  "parent": "Boonedogs Parent",
+  "slug": "boonedogs",
+  "total_headroom": "$17,240",
+  "non_ec_headroom": "$13,992",
+  "est_ec_headroom": "$3,248",
+  "employee_count": "19",
+  "non_ec_arr": "$12,015",
+  "state": "KY",
+  "city": "lexington",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "hilary.boone91@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Boonedogs"
+  ],
+  "websites": [
+    "https://boonedogslex.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://boonedogslex.com/": {
+      "url": "https://boonedogslex.com/",
+      "html_bytes": 120896,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/boonedogs/giftcards"
+      }
+    },
+    "https://boonedogslex.com/menu/": {
+      "url": "https://boonedogslex.com/menu/",
+      "html_bytes": 69517,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/boonedogs/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/boonedogs/giftcards"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

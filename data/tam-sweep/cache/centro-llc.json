@@ -1,0 +1,45 @@
+{
+  "parent": "Centro LLC",
+  "slug": "centro-llc",
+  "total_headroom": "$63,904",
+  "non_ec_headroom": "$60,600",
+  "est_ec_headroom": "$3,304",
+  "employee_count": "20",
+  "non_ec_arr": "$5,899",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "aimeellanza@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Centro - Lexington",
+    "The Garage - Lexington",
+    "Georgies- Lexington"
+  ],
+  "websites": [
+    "https://centro-lexington.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://centro-lexington.com/": {
+      "url": "https://centro-lexington.com/",
+      "html_bytes": 216020,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

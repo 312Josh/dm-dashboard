@@ -1,0 +1,38 @@
+{
+  "parent": "Slainte Public House - Parent Account",
+  "slug": "slainte-public-house",
+  "total_headroom": "$19,392",
+  "non_ec_headroom": "$19,392",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$3,768",
+  "state": "KY",
+  "city": "Georgetown",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "ashley_nunn0814@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Slainte Public House"
+  ],
+  "websites": [
+    "https://www.facebook.com/slaintepublichouse/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/slaintepublichouse/": {
+      "url": "https://www.facebook.com/slaintepublichouse/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

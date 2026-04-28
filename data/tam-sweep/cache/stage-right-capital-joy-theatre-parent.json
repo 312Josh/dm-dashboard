@@ -1,0 +1,86 @@
+{
+  "parent": "Stage Right Capital (Joy Theatre Parent)",
+  "slug": "stage-right-capital-joy-theatre-parent",
+  "total_headroom": "$137,484",
+  "non_ec_headroom": "$137,484",
+  "est_ec_headroom": "$0",
+  "employee_count": "203",
+  "non_ec_arr": "$84,739",
+  "state": "NC",
+  "city": "Charlotte",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "ryan@stagerightcapital.com",
+  "location_count": 7,
+  "location_names": [
+    "StageRight Expansion Neighborhood Theatre",
+    "Exit - In",
+    "The Senate",
+    "The Joy Theatre",
+    "Minglewood Hall",
+    "Iron City - Venue",
+    "White Oak"
+  ],
+  "websites": [
+    "https://thejoytheater.com/",
+    "https://ironcitybham.com/",
+    "https://exitin.com/",
+    "https://minglewoodhallmemphis.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thejoytheater.com/": {
+      "url": "https://thejoytheater.com/",
+      "html_bytes": 242627,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://ironcitybham.com/": {
+      "url": "https://ironcitybham.com/",
+      "html_bytes": 243397,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://exitin.com/": {
+      "url": "https://exitin.com/",
+      "html_bytes": 290766,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://minglewoodhallmemphis.com/": {
+      "url": "https://minglewoodhallmemphis.com/",
+      "html_bytes": 236564,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "joy": "https://thejoytheater.com/",
+    "iron city": "https://ironcitybham.com/",
+    "exit": "https://exitin.com/",
+    "minglewood": "https://minglewoodhallmemphis.com/",
+    "senate": "https://thejoytheater.com/",
+    "stageright": "https://thejoytheater.com/",
+    "white oak": "https://thejoytheater.com/"
+  }
+}

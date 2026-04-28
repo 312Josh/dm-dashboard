@@ -1,0 +1,60 @@
+{
+  "parent": "Iggy's - Parent Account",
+  "slug": "iggy-s",
+  "total_headroom": "$25,240",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$4,900",
+  "employee_count": "29",
+  "non_ec_arr": "$3,600",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ryanpoli77@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Iggy's"
+  ],
+  "websites": [
+    "https://www.iggysnashville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.iggysnashville.com/": {
+      "url": "https://www.iggysnashville.com/",
+      "html_bytes": 43300,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/iggys-609-merritt-avenue/giftcards"
+      }
+    },
+    "https://www.iggysnashville.com/menus/": {
+      "url": "https://www.iggysnashville.com/menus/",
+      "html_bytes": 36941,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/iggys-609-merritt-avenue/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/iggys-609-merritt-avenue/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "Lexington Brewing Company",
+  "slug": "lexington-brewing-company",
+  "total_headroom": "$56,880",
+  "non_ec_headroom": "$53,772",
+  "est_ec_headroom": "$3,108",
+  "employee_count": "19",
+  "non_ec_arr": "$12,012",
+  "state": "KY",
+  "city": "Pikeville",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "shannon@brotherswright.com",
+  "location_count": 3,
+  "location_names": [
+    "Dueling Barrels",
+    "Lexington Brewing & Distilling Co.",
+    "Bill's Saloon"
+  ],
+  "websites": [
+    "https://lexingtonbrewingco.com/",
+    "https://www.duelingbarrels.com/",
+    "https://www.connemaragolfcourse.com/bills-saloon/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lexingtonbrewingco.com/": {
+      "url": "https://lexingtonbrewingco.com/",
+      "html_bytes": 108284,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.duelingbarrels.com/": {
+      "url": "https://www.duelingbarrels.com/",
+      "html_bytes": 19224,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.connemaragolfcourse.com/bills-saloon/": {
+      "url": "https://www.connemaragolfcourse.com/bills-saloon/",
+      "html_bytes": 63975,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "lexington brewing": "https://lexingtonbrewingco.com/",
+    "dueling barrels": "https://www.duelingbarrels.com/",
+    "bill": "https://www.connemaragolfcourse.com/bills-saloon/"
+  }
+}

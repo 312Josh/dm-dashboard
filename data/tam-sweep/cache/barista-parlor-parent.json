@@ -1,0 +1,88 @@
+{
+  "parent": "Barista Parlor-Parent",
+  "slug": "barista-parlor-parent",
+  "total_headroom": "$137,700",
+  "non_ec_headroom": "$137,700",
+  "est_ec_headroom": "$0",
+  "employee_count": "115",
+  "non_ec_arr": "$41,916",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "andy@motomodashop.com",
+  "location_count": 9,
+  "location_names": [
+    "Moto Moda Standard Assembly LLC",
+    "Barista Parlor - Sylvan Supply",
+    "Barista Parlor - Park Commons",
+    "Barista Parlor - Hillsboro Village",
+    "Barista Parlor - Germantown",
+    "Barista Parlor - Nashville",
+    "Maiz de la Vida - Food Truck",
+    "Maiz de La Vida FSR",
+    "Maiz De La Vida"
+  ],
+  "websites": [
+    "https://baristaparlor.com/",
+    "https://www.maizdelavida.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://baristaparlor.com/": {
+      "url": "https://baristaparlor.com/",
+      "html_bytes": 241897,
+      "fingerprints": {
+        "website_cms": "Shopify"
+      },
+      "toast": {}
+    },
+    "https://www.maizdelavida.com/": {
+      "url": "https://www.maizdelavida.com/",
+      "html_bytes": 328823,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/maiz-de-la-vida-fsr-606-8th-avenue-south-ste-100",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.maizdelavida.com/menu": {
+      "url": "https://www.maizdelavida.com/menu",
+      "html_bytes": 179866,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/maiz-de-la-vida-fsr-606-8th-avenue-south-ste-100",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/maiz-de-la-vida-fsr-606-8th-avenue-south-ste-100",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ],
+  "brand_websites": {
+    "barista parlor": "https://baristaparlor.com/",
+    "maiz": "https://www.maizdelavida.com/"
+  }
+}

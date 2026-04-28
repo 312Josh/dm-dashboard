@@ -1,0 +1,40 @@
+{
+  "parent": "Mimi's Ice Cream and Coffee",
+  "slug": "mimi-s-ice-cream-and-coffee",
+  "total_headroom": "$22,704",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,764",
+  "employee_count": "11",
+  "non_ec_arr": "$480",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "barhonovichdane@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Mimi's Ice Cream and Coffee"
+  ],
+  "websites": [
+    "https://www.mimisicecreamandcoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mimisicecreamandcoffee.com/": {
+      "url": "https://www.mimisicecreamandcoffee.com/",
+      "html_bytes": 56277,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

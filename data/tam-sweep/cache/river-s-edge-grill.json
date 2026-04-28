@@ -1,0 +1,41 @@
+{
+  "parent": "River's Edge Grill - Parent Account",
+  "slug": "river-s-edge-grill",
+  "total_headroom": "$14,604",
+  "non_ec_headroom": "$14,604",
+  "est_ec_headroom": "$0",
+  "employee_count": "44",
+  "non_ec_arr": "$6,913",
+  "state": "TN",
+  "city": "Clarksville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gguinn@mpgtransporttn.com",
+  "location_count": 1,
+  "location_names": [
+    "Clyde's Clarksville"
+  ],
+  "websites": [
+    "https://www.visitclarksvilletn.com/listing/rivers-edge-grill/571/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.visitclarksvilletn.com/listing/rivers-edge-grill/571/": {
+      "url": "https://www.visitclarksvilletn.com/listing/rivers-edge-grill/571/",
+      "html_bytes": 188945,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

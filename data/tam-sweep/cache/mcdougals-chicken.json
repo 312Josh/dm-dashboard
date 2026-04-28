@@ -1,0 +1,41 @@
+{
+  "parent": "McDougals Chicken - Parent",
+  "slug": "mcdougals-chicken",
+  "total_headroom": "$33,480",
+  "non_ec_headroom": "$33,480",
+  "est_ec_headroom": "$0",
+  "employee_count": "29",
+  "non_ec_arr": "$9,020",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "tommy@mcdougalschicken.com",
+  "location_count": 2,
+  "location_names": [
+    "McDougals Chicken 12 South",
+    "McDougals Chicken Brentwood"
+  ],
+  "websites": [
+    "https://www.mcdougalschicken.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mcdougalschicken.com/": {
+      "url": "https://www.mcdougalschicken.com/",
+      "html_bytes": 32055,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

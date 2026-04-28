@@ -1,0 +1,40 @@
+{
+  "parent": "Copper & Oak - Parent Account",
+  "slug": "copper-oak",
+  "total_headroom": "$23,932",
+  "non_ec_headroom": "$18,192",
+  "est_ec_headroom": "$5,740",
+  "employee_count": "34",
+  "non_ec_arr": "$5,192",
+  "state": "KY",
+  "city": "Danville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "beau@copperandoakky.com",
+  "location_count": 1,
+  "location_names": [
+    "Copper and Oak"
+  ],
+  "websites": [
+    "https://www.facebook.com/CopperandOakKY/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/CopperandOakKY/": {
+      "url": "https://www.facebook.com/CopperandOakKY/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

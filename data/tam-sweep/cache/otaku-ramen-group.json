@@ -1,0 +1,66 @@
+{
+  "parent": "Otaku Ramen Group",
+  "slug": "otaku-ramen-group",
+  "total_headroom": "$31,332",
+  "non_ec_headroom": "$31,332",
+  "est_ec_headroom": "$0",
+  "employee_count": "37",
+  "non_ec_arr": "$18,480",
+  "state": "TN",
+  "city": "Franklin",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "sarah@otakuramen.com",
+  "location_count": 2,
+  "location_names": [
+    "Otaku Ramen - Franklin",
+    "Otaku Ramen GULCH"
+  ],
+  "websites": [
+    "https://otakuramen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://otakuramen.com/": {
+      "url": "https://otakuramen.com/",
+      "html_bytes": 23219,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/otaku-ramen-gulch/rewardsSignup"
+      }
+    },
+    "https://otakuramen.com/menu": {
+      "url": "https://otakuramen.com/menu",
+      "html_bytes": 9272,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/otaku-ramen-gulch/rewardsSignup"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

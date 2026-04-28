@@ -1,0 +1,46 @@
+{
+  "parent": "Urban Cowboy - Parent",
+  "slug": "urban-cowboy",
+  "total_headroom": "$127,088",
+  "non_ec_headroom": "$114,264",
+  "est_ec_headroom": "$12,824",
+  "employee_count": "78",
+  "non_ec_arr": "$22,732",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "brandon@urbancowboy.com",
+  "location_count": 6,
+  "location_names": [
+    "Urban Cowboy Public House",
+    "The Dive Motel",
+    "Urban Cowboy Denver New",
+    "Ralph's Bar & Bowling",
+    "Urban Cowboy Lodge New",
+    "Urban Cowboy - Arcade New"
+  ],
+  "websites": [
+    "https://www.urbancowboy.com/nashville/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.urbancowboy.com/nashville/": {
+      "url": "https://www.urbancowboy.com/nashville/",
+      "html_bytes": 101956,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

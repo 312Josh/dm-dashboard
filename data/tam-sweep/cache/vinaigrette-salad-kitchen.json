@@ -1,0 +1,87 @@
+{
+  "parent": "Vinaigrette Salad Kitchen- Parent",
+  "slug": "vinaigrette-salad-kitchen",
+  "total_headroom": "$49,356",
+  "non_ec_headroom": "$49,356",
+  "est_ec_headroom": "$0",
+  "employee_count": "51",
+  "non_ec_arr": "$2,400",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "ben@vinaigrettesaladkitchen.com",
+  "location_count": 3,
+  "location_names": [
+    "Vinaigrette Salad Kitchen - Palomar Center",
+    "Vinaigrette Salad Kitchen- Hamburg",
+    "Vinaigrette Salad Kitchen - Bardstown Rd"
+  ],
+  "websites": [
+    "https://vinaigrettesaladkitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://vinaigrettesaladkitchen.com/": {
+      "url": "https://vinaigrettesaladkitchen.com/",
+      "html_bytes": 99555,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/vinaigrette-salad-kitchen-war-admiral-way/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://vinaigrettesaladkitchen.com/menu/": {
+      "url": "https://vinaigrettesaladkitchen.com/menu/",
+      "html_bytes": 103414,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://vinaigrettesaladkitchen.com/gift/": {
+      "url": "https://vinaigrettesaladkitchen.com/gift/",
+      "html_bytes": 54329,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/vinaigrette-salad-kitchen-war-admiral-way/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_gift": "toasttab.com/vinaigrette-salad-kitchen-war-admiral-way/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

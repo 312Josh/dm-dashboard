@@ -1,0 +1,42 @@
+{
+  "parent": "Fiesta Mexico - Parent Account",
+  "slug": "fiesta-mexico",
+  "total_headroom": "$22,552",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$2,212",
+  "employee_count": "13",
+  "non_ec_arr": "$2,580",
+  "state": "KY",
+  "city": "Nicholasville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "ayalan_90@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Fiesta Mexico"
+  ],
+  "websites": [
+    "https://www.facebook.com/FiestaMexico40356/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/FiestaMexico40356/": {
+      "url": "https://www.facebook.com/FiestaMexico40356/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

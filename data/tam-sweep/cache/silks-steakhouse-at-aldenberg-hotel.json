@@ -1,0 +1,50 @@
+{
+  "parent": "Silks Steakhouse at Aldenberg Hotel - Parent Account",
+  "slug": "silks-steakhouse-at-aldenberg-hotel",
+  "total_headroom": "$16,828",
+  "non_ec_headroom": "$15,204",
+  "est_ec_headroom": "$1,624",
+  "employee_count": "10",
+  "non_ec_arr": "$7,608",
+  "state": "KY",
+  "city": "Versailles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jarrod.williams@singlebarrelgroup.com",
+  "location_count": 1,
+  "location_names": [
+    "Silks Steakhouse at Aldenberg Hotel"
+  ],
+  "websites": [
+    "https://silkssteakhouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://silkssteakhouse.com/": {
+      "url": "https://silkssteakhouse.com/",
+      "html_bytes": 66345,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Tock"
+      },
+      "toast": {}
+    },
+    "https://silkssteakhouse.com/menus/": {
+      "url": "https://silkssteakhouse.com/menus/",
+      "html_bytes": 141640,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Tock"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

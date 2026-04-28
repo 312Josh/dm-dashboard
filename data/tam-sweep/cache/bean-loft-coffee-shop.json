@@ -1,0 +1,99 @@
+{
+  "parent": "Bean Loft Coffee Shop - Parent",
+  "slug": "bean-loft-coffee-shop",
+  "total_headroom": "$18,120",
+  "non_ec_headroom": "$18,120",
+  "est_ec_headroom": "$0",
+  "employee_count": "2",
+  "non_ec_arr": "$3,000",
+  "state": "TN",
+  "city": "Murfreesboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@beanloft.com",
+  "location_count": 1,
+  "location_names": [
+    "Bean Loft Coffee Shop -2136 Middle TN Blvd - 8.22"
+  ],
+  "websites": [
+    "https://www.beanloft.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.beanloft.com/": {
+      "url": "https://www.beanloft.com/",
+      "html_bytes": 82455,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.beanloft.com/menu": {
+      "url": "https://www.beanloft.com/menu",
+      "html_bytes": 51065,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.beanloft.com/menu/latte": {
+      "url": "https://www.beanloft.com/menu/latte",
+      "html_bytes": 51072,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.beanloft.com/menu/cappuccino": {
+      "url": "https://www.beanloft.com/menu/cappuccino",
+      "html_bytes": 51049,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.beanloft.com/menu/black-cold-brew": {
+      "url": "https://www.beanloft.com/menu/black-cold-brew",
+      "html_bytes": 51075,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.beanloft.com/menu/matcha-latte": {
+      "url": "https://www.beanloft.com/menu/matcha-latte",
+      "html_bytes": 49193,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.beanloft.com/menu/baklava-latte": {
+      "url": "https://www.beanloft.com/menu/baklava-latte",
+      "html_bytes": 49186,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "Eko African Restaurant - Parent Account",
+  "slug": "eko-african-restaurant",
+  "total_headroom": "$21,200",
+  "non_ec_headroom": "$20,220",
+  "est_ec_headroom": "$980",
+  "employee_count": "6",
+  "non_ec_arr": "$2,370",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Unknown",
+  "contact_email": "sirpe123@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Eko African Restaurant"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/Eko-African-Caribbean-Market-100068852808528/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/Eko-African-Caribbean-Market-100068852808528/": {
+      "url": "https://www.facebook.com/p/Eko-African-Caribbean-Market-100068852808528/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

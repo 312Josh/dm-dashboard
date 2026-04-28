@@ -1,0 +1,63 @@
+{
+  "parent": "Nourished Folks",
+  "slug": "nourished-folks",
+  "total_headroom": "$19,458",
+  "non_ec_headroom": "$19,080",
+  "est_ec_headroom": "$378",
+  "employee_count": "2",
+  "non_ec_arr": "$2,130",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "riah@nourishedfolks.com",
+  "location_count": 1,
+  "location_names": [
+    "Nourished Folks"
+  ],
+  "websites": [
+    "https://nourishedfolks.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://nourishedfolks.com/": {
+      "url": "https://nourishedfolks.com/",
+      "html_bytes": 299193,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/nourishedfolks/giftcards"
+      }
+    },
+    "https://nourishedfolks.com/gifts": {
+      "url": "https://nourishedfolks.com/gifts",
+      "html_bytes": 387090,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/nourishedfolks/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/nourishedfolks/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

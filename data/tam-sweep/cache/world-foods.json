@@ -1,0 +1,40 @@
+{
+  "parent": "World Foods - Parent Account",
+  "slug": "world-foods",
+  "total_headroom": "$13,164",
+  "non_ec_headroom": "$13,164",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$7,908",
+  "state": "TN",
+  "city": "Cookeville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jwenterprise.jm@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "World Foods"
+  ],
+  "websites": [
+    "https://worldfoodscookeville.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://worldfoodscookeville.com/": {
+      "url": "https://worldfoodscookeville.com/",
+      "html_bytes": 5543,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

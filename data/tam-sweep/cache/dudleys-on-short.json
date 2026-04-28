@@ -1,0 +1,40 @@
+{
+  "parent": "Dudleys on Short - Parent Account",
+  "slug": "dudleys-on-short",
+  "total_headroom": "$30,468",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$9,828",
+  "employee_count": "59",
+  "non_ec_arr": "$2,010",
+  "state": "KY",
+  "city": "Lexington",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "dhlong1313@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Dudleys on Short"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/dudleys-on-short-259-w-short-st/r-4038cee5-acfb-45bb-82fb-c2249f3087ec"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/dudleys-on-short-259-w-short-st/r-4038cee5-acfb-45bb-82fb-c2249f3087ec": {
+      "url": "https://www.toasttab.com/local/dudleys-on-short-259-w-short-st/r-4038cee5-acfb-45bb-82fb-c2249f3087ec",
+      "html_bytes": 5826,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

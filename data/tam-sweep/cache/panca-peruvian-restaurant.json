@@ -1,0 +1,42 @@
+{
+  "parent": "Panca Peruvian restaurant",
+  "slug": "panca-peruvian-restaurant",
+  "total_headroom": "$20,684",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$644",
+  "employee_count": "4",
+  "non_ec_arr": "$2,964",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "titi2505@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Panca Peruvian restaurant"
+  ],
+  "websites": [
+    "https://www.facebook.com/pancaperurestaurant/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/pancaperurestaurant/": {
+      "url": "https://www.facebook.com/pancaperurestaurant/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

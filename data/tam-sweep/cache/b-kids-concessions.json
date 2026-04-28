@@ -1,0 +1,40 @@
+{
+  "parent": "B & Kids Concessions",
+  "slug": "b-kids-concessions",
+  "total_headroom": "$20,544",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$420",
+  "state": "TN",
+  "city": "Hendersonville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "bandkidsconcessions@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "B & Kids Concessions"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/b-kids-concessions-2502-val-marie-dr"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/b-kids-concessions-2502-val-marie-dr": {
+      "url": "https://www.toasttab.com/local/order/b-kids-concessions-2502-val-marie-dr",
+      "html_bytes": 5700,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

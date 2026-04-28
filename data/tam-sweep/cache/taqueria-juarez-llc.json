@@ -1,0 +1,38 @@
+{
+  "parent": "Taqueria Juarez LLC",
+  "slug": "taqueria-juarez-llc",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,580",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$720",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "taqueriajuarez77144@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Taqueria Juarez LLC"
+  ],
+  "websites": [
+    "https://carnicera-y-taqueria-villa-jurez.wheree.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://carnicera-y-taqueria-villa-jurez.wheree.com/": {
+      "url": "https://carnicera-y-taqueria-villa-jurez.wheree.com/",
+      "html_bytes": 5604,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

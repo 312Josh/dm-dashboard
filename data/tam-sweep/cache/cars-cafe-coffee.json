@@ -1,0 +1,40 @@
+{
+  "parent": "Cars Cafe Coffee",
+  "slug": "cars-cafe-coffee",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "null",
+  "state": "TN",
+  "city": "Goodlettsville",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "brian.weed@tintworld.com",
+  "location_count": 1,
+  "location_names": [
+    "Cars Cafe Coffee"
+  ],
+  "websites": [
+    "https://carscafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://carscafe.com/": {
+      "url": "https://carscafe.com/",
+      "html_bytes": 150124,
+      "fingerprints": {
+        "website_cms": "Shopify"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "Local Joe's Cafe - Parent Account",
+  "slug": "local-joe-s-cafe",
+  "total_headroom": "$14,952",
+  "non_ec_headroom": "$14,952",
+  "est_ec_headroom": "$0",
+  "employee_count": "22",
+  "non_ec_arr": "$5,790",
+  "state": "TN",
+  "city": "Mount Juliet",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "stevenelson@kt-controller.com",
+  "location_count": 1,
+  "location_names": [
+    "Local Joe's Cafe"
+  ],
+  "websites": [
+    "https://localjoescafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://localjoescafe.com/": {
+      "url": "https://localjoescafe.com/",
+      "html_bytes": 5536,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

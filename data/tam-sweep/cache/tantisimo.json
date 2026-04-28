@@ -1,0 +1,71 @@
+{
+  "parent": "Tantisimo - Parent Account",
+  "slug": "tantisimo",
+  "total_headroom": "$32,736",
+  "non_ec_headroom": "$32,736",
+  "est_ec_headroom": "$0",
+  "employee_count": "30",
+  "non_ec_arr": "$5,850",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ana@tantisimo.com",
+  "location_count": 2,
+  "location_names": [
+    "Tantisimo",
+    "Tantisimo Sylvan Park"
+  ],
+  "websites": [
+    "https://www.tantisimo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tantisimo.com/": {
+      "url": "https://www.tantisimo.com/",
+      "html_bytes": 163416,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/aytantisimo",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/aytantisimo/giftcards"
+      }
+    },
+    "https://www.tantisimo.com/menus": {
+      "url": "https://www.tantisimo.com/menus",
+      "html_bytes": 266101,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/aytantisimo/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/aytantisimo",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/aytantisimo/giftcards"
+  },
+  "marketplaces": [
+    "resy",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

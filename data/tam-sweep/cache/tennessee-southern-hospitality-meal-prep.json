@@ -1,0 +1,47 @@
+{
+  "parent": "Tennessee Southern Hospitality Meal Prep",
+  "slug": "tennessee-southern-hospitality-meal-prep",
+  "total_headroom": "$14,988",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "giavonnigreen@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tennessee Southern Hospitality Meal Prep"
+  ],
+  "websites": [
+    "https://www.tennesseesouthernhospitalitymealprep.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tennesseesouthernhospitalitymealprep.com/": {
+      "url": "https://www.tennesseesouthernhospitalitymealprep.com/",
+      "html_bytes": 1007806,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tennessee-southern-hospitality-meal-prep-900-rosalparks-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/tennessee-southern-hospitality-meal-prep-900-rosalparks-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

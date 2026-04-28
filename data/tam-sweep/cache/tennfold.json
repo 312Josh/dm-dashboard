@@ -1,0 +1,42 @@
+{
+  "parent": "TennFold Parent",
+  "slug": "tennfold",
+  "total_headroom": "$30,368",
+  "non_ec_headroom": "$17,460",
+  "est_ec_headroom": "$12,908",
+  "employee_count": "77",
+  "non_ec_arr": "$7,790",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "hunterhakanson@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tennfold"
+  ],
+  "websites": [
+    "https://www.tennfold.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tennfold.com/": {
+      "url": "https://www.tennfold.com/",
+      "html_bytes": 5492,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

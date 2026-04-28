@@ -1,0 +1,54 @@
+{
+  "parent": "Nashville Street Taco/Stillery - Parent Account",
+  "slug": "nashville-street-taco-stillery",
+  "total_headroom": "$14,832",
+  "non_ec_headroom": "$14,832",
+  "est_ec_headroom": "$0",
+  "employee_count": "65",
+  "non_ec_arr": "$15,990",
+  "state": "AZ",
+  "city": "Maricopa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "steve@stevekovach.net",
+  "location_count": 1,
+  "location_names": [
+    "Duke's"
+  ],
+  "websites": [
+    "https://www.dukesroad.house/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.dukesroad.house/": {
+      "url": "https://www.dukesroad.house/",
+      "html_bytes": 1310304,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.dukesroad.house/menu": {
+      "url": "https://www.dukesroad.house/menu",
+      "html_bytes": 961706,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}

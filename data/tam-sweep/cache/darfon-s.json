@@ -1,0 +1,91 @@
+{
+  "parent": "Darfon's parent",
+  "slug": "darfon-s",
+  "total_headroom": "$24,932",
+  "non_ec_headroom": "$13,704",
+  "est_ec_headroom": "$11,228",
+  "employee_count": "67",
+  "non_ec_arr": "$11,870",
+  "state": "TN",
+  "city": "Nashville",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "samdarsinos@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Darfons Restaurant and Bar"
+  ],
+  "websites": [
+    "https://www.darfonsrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.darfonsrestaurant.com/": {
+      "url": "https://www.darfonsrestaurant.com/",
+      "html_bytes": 40204,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "catering_mention": "Private-events copy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/darfons-restaurant-lounge",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/66d4b47f-064e-420c-99a1-64a22da4c7d2",
+        "toast_gift": "toasttab.com/darfons-restaurant-lounge/giftcards"
+      }
+    },
+    "https://www.darfonsrestaurant.com/menus/": {
+      "url": "https://www.darfonsrestaurant.com/menus/",
+      "html_bytes": 343735,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/darfons-restaurant-lounge",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/66d4b47f-064e-420c-99a1-64a22da4c7d2"
+      }
+    },
+    "https://www.darfonsrestaurant.com/gift-cards/": {
+      "url": "https://www.darfonsrestaurant.com/gift-cards/",
+      "html_bytes": 30631,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/darfons-restaurant-lounge",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/66d4b47f-064e-420c-99a1-64a22da4c7d2",
+        "toast_gift": "toasttab.com/darfons-restaurant-lounge/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/darfons-restaurant-lounge",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/66d4b47f-064e-420c-99a1-64a22da4c7d2",
+    "toast_gift": "toasttab.com/darfons-restaurant-lounge/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "resy",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "stevens"
+  ]
+}
