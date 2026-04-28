@@ -1,0 +1,41 @@
+{
+  "parent": "The Private Suite LAX LLC Parent",
+  "slug": "the-private-suite-lax-llc",
+  "total_headroom": "$30,156",
+  "non_ec_headroom": "$30,156",
+  "est_ec_headroom": "$0",
+  "employee_count": "49",
+  "non_ec_arr": "$17,689",
+  "state": "GA",
+  "city": "Atlanta",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "josh@reserveps.com",
+  "location_count": 2,
+  "location_names": [
+    "The Private Suite ATL LLC",
+    "The Private Suite LAX LLC"
+  ],
+  "websites": [
+    "https://reserveps.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://reserveps.com/": {
+      "url": "https://reserveps.com/",
+      "html_bytes": 4548,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xffOIQAY"
+}

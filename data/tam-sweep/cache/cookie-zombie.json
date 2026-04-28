@@ -1,0 +1,79 @@
+{
+  "parent": "Cookie Zombie - Parent Account",
+  "slug": "cookie-zombie",
+  "total_headroom": "$17,832",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$1,092",
+  "employee_count": "7",
+  "non_ec_arr": "$4,485",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "natashanguyen@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cookie Zombie"
+  ],
+  "websites": [
+    "https://www.cookiezombie.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cookiezombie.com/": {
+      "url": "https://www.cookiezombie.com/",
+      "html_bytes": 122932,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cookie-zombie-2806-phelan-lane",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.cookiezombie.com/menu": {
+      "url": "https://www.cookiezombie.com/menu",
+      "html_bytes": 500603,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cookie-zombie-2806-phelan-lane",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.cookiezombie.com/gifting": {
+      "url": "https://www.cookiezombie.com/gifting",
+      "html_bytes": 148202,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cookie-zombie-2806-phelan-lane",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/cookie-zombie-2806-phelan-lane",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001GkM0eYAF"
+}

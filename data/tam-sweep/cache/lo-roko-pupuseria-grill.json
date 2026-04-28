@@ -1,0 +1,44 @@
+{
+  "parent": "Lo'roko Pupuseria & Grill - Parent Account",
+  "slug": "lo-roko-pupuseria-grill",
+  "total_headroom": "$58,324",
+  "non_ec_headroom": "$52,332",
+  "est_ec_headroom": "$5,992",
+  "employee_count": "36",
+  "non_ec_arr": "$8,292",
+  "state": "CA",
+  "city": "Los Ángeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nunez00@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Lo'Roko Pupuseria Ghost Kitchen 2",
+    "Lo'Roko Pupuseria Ghost Kitchen",
+    "Lo'roko Pupuseria & Grill"
+  ],
+  "websites": [
+    "https://lorokopupuseria.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lorokopupuseria.com/": {
+      "url": "https://lorokopupuseria.com/",
+      "html_bytes": 5517,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001IzQZ0YAN"
+}

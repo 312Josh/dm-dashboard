@@ -1,0 +1,31 @@
+{
+  "parent": "Kaz",
+  "slug": "kaz",
+  "total_headroom": "$21,586",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$1,546",
+  "employee_count": "9",
+  "non_ec_arr": "$2,700",
+  "state": "CA",
+  "city": "LOS ANGELES",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ffujioka@offinc.com",
+  "location_count": 1,
+  "location_names": [
+    "Kaz"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001rQjfbAAC"
+}

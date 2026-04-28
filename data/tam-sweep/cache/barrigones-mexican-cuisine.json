@@ -1,0 +1,31 @@
+{
+  "parent": "Barrigones Mexican Cuisine - Parent Account",
+  "slug": "barrigones-mexican-cuisine",
+  "total_headroom": "$18,072",
+  "non_ec_headroom": "$18,072",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$5,208",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "dcastaneda2109@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Barrigones Mexican Cuisine"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002vBqG0YAK"
+}

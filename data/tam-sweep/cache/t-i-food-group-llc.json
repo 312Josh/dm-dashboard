@@ -1,0 +1,31 @@
+{
+  "parent": "T&I Food Group LLC - Parent Account",
+  "slug": "t-i-food-group-llc",
+  "total_headroom": "$16,908",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$4,920",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ivanchangmerchant@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Otto Tea Shoppe - Redondo Beach"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001POIXyYAP"
+}

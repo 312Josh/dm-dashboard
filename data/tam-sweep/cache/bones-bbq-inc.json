@@ -1,0 +1,42 @@
+{
+  "parent": "Bones BBQ INC",
+  "slug": "bones-bbq-inc",
+  "total_headroom": "null",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$0",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "info@eatbonesbbq.com",
+  "location_count": 1,
+  "location_names": [
+    "Bones BBQ INC"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/bones-bbq-inc-"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/bones-bbq-inc-": {
+      "url": "https://www.toasttab.com/local/order/bones-bbq-inc-",
+      "html_bytes": 5634,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003Mgy8EQAR"
+}

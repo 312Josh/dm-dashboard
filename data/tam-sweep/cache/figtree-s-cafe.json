@@ -1,0 +1,74 @@
+{
+  "parent": "Figtree's Cafe Parent",
+  "slug": "figtree-s-cafe",
+  "total_headroom": "$19,020",
+  "non_ec_headroom": "$19,020",
+  "est_ec_headroom": "$0",
+  "employee_count": "52",
+  "non_ec_arr": "$7,332",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "msjproperties0@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Figtree Cafe"
+  ],
+  "websites": [
+    "https://www.figtreevenice.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.figtreevenice.com/": {
+      "url": "https://www.figtreevenice.com/",
+      "html_bytes": 652300,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "HubSpot",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/figtree-cafe-429-ocean-front-walk/giftcards"
+      }
+    },
+    "https://www.figtreevenice.com/Menus": {
+      "url": "https://www.figtreevenice.com/Menus",
+      "html_bytes": 49397,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.figtreevenice.com/menu": {
+      "url": "https://www.figtreevenice.com/menu",
+      "html_bytes": 141584,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "HubSpot"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/figtree-cafe-429-ocean-front-walk/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/figtree-cafe-429-ocean-front-walk/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001sGdFLAA0"
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "Turquoise Table - Parent Account",
+  "slug": "turquoise-table",
+  "total_headroom": "$19,860",
+  "non_ec_headroom": "$19,860",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$600",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "yosef@turquoise.restaurant",
+  "location_count": 1,
+  "location_names": [
+    "Turquoise Table"
+  ],
+  "websites": [
+    "https://www.turquoisetablevenice.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.turquoisetablevenice.com/": {
+      "url": "https://www.turquoisetablevenice.com/",
+      "html_bytes": 16678,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002cv9dyYAA"
+}

@@ -1,0 +1,58 @@
+{
+  "parent": "Dudley Market Parent",
+  "slug": "dudley-market",
+  "total_headroom": "$38,880",
+  "non_ec_headroom": "$38,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "42",
+  "non_ec_arr": "$7,500",
+  "state": "CA",
+  "city": "Santa Monica",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "meetme@notnobar.com",
+  "location_count": 2,
+  "location_names": [
+    "Not No Bar",
+    "Dudley Market"
+  ],
+  "websites": [
+    "https://www.dudleymarketvenice.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.dudleymarketvenice.com/": {
+      "url": "https://www.dudleymarketvenice.com/",
+      "html_bytes": 111369,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.dudleymarketvenice.com/home/menu": {
+      "url": "https://www.dudleymarketvenice.com/home/menu",
+      "html_bytes": 108471,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001ArHVtYAN"
+}

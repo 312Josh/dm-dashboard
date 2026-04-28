@@ -1,0 +1,63 @@
+{
+  "parent": "California Grill Parent",
+  "slug": "california-grill",
+  "total_headroom": "$8,544",
+  "non_ec_headroom": "$8,544",
+  "est_ec_headroom": "$0",
+  "employee_count": "44",
+  "non_ec_arr": "$13,416",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "jenny@californiagrill.biz",
+  "location_count": 1,
+  "location_names": [
+    "California Grill"
+  ],
+  "websites": [
+    "https://californiagrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://californiagrill.com/": {
+      "url": "https://californiagrill.com/",
+      "html_bytes": 189042,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Klaviyo",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/california-grill/giftcards",
+        "toast_loyalty": "toasttab.com/california-grill/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/california-grill/giftcards",
+    "toast_loyalty": "toasttab.com/california-grill/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001kxeqzIAA"
+}

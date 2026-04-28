@@ -1,0 +1,68 @@
+{
+  "parent": "Locale 90 Neapolitan Pizza Market",
+  "slug": "locale-90-neapolitan-pizza-market",
+  "total_headroom": "$20,956",
+  "non_ec_headroom": "$18,240",
+  "est_ec_headroom": "$2,716",
+  "employee_count": "16",
+  "non_ec_arr": "$1,548",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "john@locale90.com",
+  "location_count": 1,
+  "location_names": [
+    "Locale90 - Redondo Beach"
+  ],
+  "websites": [
+    "https://locale90.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://locale90.com/": {
+      "url": "https://locale90.com/",
+      "html_bytes": 140265,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locale90-redondo-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/locale90-redondo-beach/giftcards"
+      }
+    },
+    "https://locale90.com/menu/": {
+      "url": "https://locale90.com/menu/",
+      "html_bytes": 128422,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locale90-redondo-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/locale90-redondo-beach/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locale90-redondo-beach",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/locale90-redondo-beach/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001eGZdhIAG"
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "Mr. Pope's Ribs N Soul Food",
+  "slug": "mr-pope-s-ribs-n-soul-food",
+  "total_headroom": "$16,356",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$0",
+  "state": "CA",
+  "city": "Long Beach",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "accounts@popetheceo.com",
+  "location_count": 1,
+  "location_names": [
+    "Mr. Pope's Ribs N Soul Food"
+  ],
+  "websites": [
+    "https://mrpopesribs.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mrpopesribs.toast.site/": {
+      "url": "https://mrpopesribs.toast.site/",
+      "html_bytes": 5541,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000rFzEMYA0"
+}

@@ -1,0 +1,68 @@
+{
+  "parent": "Kijung Hospitality Group",
+  "slug": "kijung-hospitality-group",
+  "total_headroom": "$146,640",
+  "non_ec_headroom": "$146,640",
+  "est_ec_headroom": "$0",
+  "employee_count": "528",
+  "non_ec_arr": "$91,256",
+  "state": "CA",
+  "city": "Irvine",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "michael.chon@kijung.com",
+  "location_count": 9,
+  "location_names": [
+    "Baekjeong Korean BBQ - Irvine",
+    "Baekjeong - K Town",
+    "BaekJeong Korean BBQ - Lynwood",
+    "Baekjeong Korean BBQ - Temple City",
+    "Baekjeong Korean BBQ - San Jose",
+    "Baekjeong Korean BBQ - Buena Park",
+    "Baekjeong Korean BBQ - Rowland Heights",
+    "Baekjeong Korean BBQ - Torrance",
+    "Ahgassi Gopchang - Los Angeles"
+  ],
+  "websites": [
+    "https://www.kijung.com/",
+    "https://www.kijung.com/ahgassi-gopchang/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.kijung.com/": {
+      "url": "https://www.kijung.com/",
+      "html_bytes": 48551,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.kijung.com/ahgassi-gopchang/": {
+      "url": "https://www.kijung.com/ahgassi-gopchang/",
+      "html_bytes": 50457,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "baekjeong": "https://www.kijung.com/",
+    "ahgassi": "https://www.kijung.com/ahgassi-gopchang/"
+  },
+  "sfdc_account_id": "0013c00001s0BWjAAM"
+}

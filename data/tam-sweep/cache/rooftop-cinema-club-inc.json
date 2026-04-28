@@ -1,0 +1,50 @@
+{
+  "parent": "Rooftop Cinema Club Inc",
+  "slug": "rooftop-cinema-club-inc",
+  "total_headroom": "$153,180",
+  "non_ec_headroom": "$153,180",
+  "est_ec_headroom": "$0",
+  "employee_count": "85",
+  "non_ec_arr": "$15,864",
+  "state": "IL",
+  "city": "Chicago",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "gerry@rooftopcinemaclub.com",
+  "location_count": 8,
+  "location_names": [
+    "Rooftop Cinema Club - Chicago",
+    "Rooftop Cinema Club - Miami Beach",
+    "Rooftop Cinema Club - Level Los Angeles",
+    "Rooftop Cinema Club - San Diego - Little Italy",
+    "Rooftop Cinema Club - BLVD Place Houston",
+    "Rooftop Cinema Club Midtown Embassy",
+    "Rooftop Cinema Club - Fort Worth",
+    "Rooftop Cinema Club - Kansas City"
+  ],
+  "websites": [
+    "https://rooftopcinemaclub.com/chicago/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://rooftopcinemaclub.com/chicago/": {
+      "url": "https://rooftopcinemaclub.com/chicago/",
+      "html_bytes": 100947,
+      "fingerprints": {
+        "marketing": "Klaviyo",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002msdufQAA"
+}

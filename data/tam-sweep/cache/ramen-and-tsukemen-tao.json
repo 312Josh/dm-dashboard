@@ -1,0 +1,50 @@
+{
+  "parent": "Ramen and Tsukemen TAO - Parent",
+  "slug": "ramen-and-tsukemen-tao",
+  "total_headroom": "$22,320",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$3,360",
+  "employee_count": "20",
+  "non_ec_arr": "$3,233",
+  "state": "CA",
+  "city": "Buena Park",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tyamada91@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ramen and Tsukemen TAO - Buena Park"
+  ],
+  "websites": [
+    "https://www.ramentao.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ramentao.com/": {
+      "url": "https://www.ramentao.com/",
+      "html_bytes": 159018,
+      "fingerprints": {
+        "reservations": "GloriaFood"
+      },
+      "toast": {}
+    },
+    "https://www.ramentao.com/menu": {
+      "url": "https://www.ramentao.com/menu",
+      "html_bytes": 173020,
+      "fingerprints": {
+        "reservations": "GloriaFood"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002msSwCQAU"
+}

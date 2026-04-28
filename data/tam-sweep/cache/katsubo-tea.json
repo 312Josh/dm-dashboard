@@ -1,0 +1,71 @@
+{
+  "parent": "Katsubo Tea - Parent",
+  "slug": "katsubo-tea",
+  "total_headroom": "$16,740",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$5,238",
+  "state": "CA",
+  "city": "Fullerton",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "katsubo.fullerton@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Katsubo Tea - New Ownership"
+  ],
+  "websites": [
+    "https://katsubo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://katsubo.com/": {
+      "url": "https://katsubo.com/",
+      "html_bytes": 52359,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://katsubo.com/menu/": {
+      "url": "https://katsubo.com/menu/",
+      "html_bytes": 138181,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "http://katsubo.com/menu/": {
+      "url": "http://katsubo.com/menu/",
+      "html_bytes": 137824,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002ygNuJYAU"
+}

@@ -1,0 +1,83 @@
+{
+  "parent": "The Craftsman - Parent Account",
+  "slug": "the-craftsman",
+  "total_headroom": "$21,956",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$2,996",
+  "employee_count": "18",
+  "non_ec_arr": "$5,340",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "fwassef@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Craftsman - Redondo 2025"
+  ],
+  "websites": [
+    "https://www.eatdrinkcraftsman.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatdrinkcraftsman.com/": {
+      "url": "https://www.eatdrinkcraftsman.com/",
+      "html_bytes": 672137,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "marketing": "HubSpot"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-craftsman-redondo-2025",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.eatdrinkcraftsman.com/menu/": {
+      "url": "https://www.eatdrinkcraftsman.com/menu/",
+      "html_bytes": 668708,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "marketing": "HubSpot"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-craftsman-redondo-2025",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.eatdrinkcraftsman.com/gift-certificates/": {
+      "url": "https://www.eatdrinkcraftsman.com/gift-certificates/",
+      "html_bytes": 666978,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "marketing": "HubSpot"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-craftsman-redondo-2025",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/the-craftsman-redondo-2025",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV000024uHPTYA2"
+}

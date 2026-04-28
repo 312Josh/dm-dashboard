@@ -1,0 +1,43 @@
+{
+  "parent": "Londons Pub and Grill",
+  "slug": "londons-pub-and-grill",
+  "total_headroom": "$40,996",
+  "non_ec_headroom": "$34,500",
+  "est_ec_headroom": "$6,496",
+  "employee_count": "39",
+  "non_ec_arr": "$14,361",
+  "state": "CA",
+  "city": "Artesia",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "raj@londons.pub",
+  "location_count": 2,
+  "location_names": [
+    "Surati Farsan Mart",
+    "London's Pub and Grill - Artesia"
+  ],
+  "websites": [
+    "https://londons.pub/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://londons.pub/": {
+      "url": "https://londons.pub/",
+      "html_bytes": 39089,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001qejOAYAY"
+}

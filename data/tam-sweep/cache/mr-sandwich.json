@@ -1,0 +1,67 @@
+{
+  "parent": "Mr. Sandwich",
+  "slug": "mr-sandwich",
+  "total_headroom": "$19,916",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$476",
+  "employee_count": "3",
+  "non_ec_arr": "$1,860",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "cesar@inclusionsvs.org",
+  "location_count": 1,
+  "location_names": [
+    "Mr. Sandwich"
+  ],
+  "websites": [
+    "https://www.uptownmrsandwich.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.uptownmrsandwich.com/": {
+      "url": "https://www.uptownmrsandwich.com/",
+      "html_bytes": 534974,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://www.uptownmrsandwich.com/menu": {
+      "url": "https://www.uptownmrsandwich.com/menu",
+      "html_bytes": 430007,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://www.uptownmrsandwich.com/order-online": {
+      "url": "https://www.uptownmrsandwich.com/order-online",
+      "html_bytes": 438947,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001iMFr7IAG"
+}

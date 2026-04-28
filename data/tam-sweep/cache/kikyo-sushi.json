@@ -1,0 +1,61 @@
+{
+  "parent": "kikyo sushi - Parent Account",
+  "slug": "kikyo-sushi",
+  "total_headroom": "$18,764",
+  "non_ec_headroom": "$16,020",
+  "est_ec_headroom": "$2,744",
+  "employee_count": "16",
+  "non_ec_arr": "$6,278",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@kikyosushi.com",
+  "location_count": 1,
+  "location_names": [
+    "kikyo sushi"
+  ],
+  "websites": [
+    "https://kikyosushi.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kikyosushi.com/": {
+      "url": "https://kikyosushi.com/",
+      "html_bytes": 46835,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://kikyosushi.com/menu/73035473": {
+      "url": "https://kikyosushi.com/menu/73035473",
+      "html_bytes": 198891,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://kikyosushi.com/menu": {
+      "url": "https://kikyosushi.com/menu",
+      "html_bytes": 5373,
+      "fingerprints": {},
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260216174635/https://kikyosushi.com/menu",
+        "html_bytes": 7651,
+        "vendors": {}
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037VyRvQAK"
+}

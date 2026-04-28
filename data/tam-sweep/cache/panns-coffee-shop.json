@@ -1,0 +1,40 @@
+{
+  "parent": "Panns Coffee Shop - Parent Account",
+  "slug": "panns-coffee-shop",
+  "total_headroom": "$13,272",
+  "non_ec_headroom": "$13,272",
+  "est_ec_headroom": "$0",
+  "employee_count": "37",
+  "non_ec_arr": "$17,461",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jim@panns.com",
+  "location_count": 1,
+  "location_names": [
+    "Panns Coffee Shop"
+  ],
+  "websites": [
+    "https://panns.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://panns.com/": {
+      "url": "https://panns.com/",
+      "html_bytes": 114526,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002mu0JbQAI"
+}

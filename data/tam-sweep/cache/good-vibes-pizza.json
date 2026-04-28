@@ -1,0 +1,65 @@
+{
+  "parent": "GOOD VIBES PIZZA",
+  "slug": "good-vibes-pizza",
+  "total_headroom": "$17,952",
+  "non_ec_headroom": "$16,860",
+  "est_ec_headroom": "$1,092",
+  "employee_count": "7",
+  "non_ec_arr": "$1,500",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "gvpizzaowner@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "GOOD VIBES PIZZA"
+  ],
+  "websites": [
+    "https://gvpizzaorder.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gvpizzaorder.com/": {
+      "url": "https://gvpizzaorder.com/",
+      "html_bytes": 121642,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/gvpizza",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://gvpizzaorder.com/menu": {
+      "url": "https://gvpizzaorder.com/menu",
+      "html_bytes": 108657,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/gvpizza",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/gvpizza",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002mtbb5QAA"
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "Tacos El Pariente",
+  "slug": "tacos-el-pariente",
+  "total_headroom": "$16,860",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$1,008",
+  "employee_count": "6",
+  "non_ec_arr": "$420",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "adela.hernandez@element.com",
+  "location_count": 1,
+  "location_names": [
+    "Tacos El Pariente"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgpotQAB"
+}

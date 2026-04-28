@@ -1,0 +1,40 @@
+{
+  "parent": "Eggspress - Parent Account",
+  "slug": "eggspress",
+  "total_headroom": "$18,072",
+  "non_ec_headroom": "$18,072",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$7,129",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "julio@securityenforcementgroup.com",
+  "location_count": 1,
+  "location_names": [
+    "Eggspress"
+  ],
+  "websites": [
+    "https://eggspress.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eggspress.toast.site/": {
+      "url": "https://eggspress.toast.site/",
+      "html_bytes": 5539,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV000023658mYAA"
+}

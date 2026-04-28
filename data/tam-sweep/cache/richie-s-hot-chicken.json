@@ -1,0 +1,69 @@
+{
+  "parent": "Richie’s Hot Chicken - Parent Account",
+  "slug": "richie-s-hot-chicken",
+  "total_headroom": "$15,300",
+  "non_ec_headroom": "$15,300",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$9,152",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "silvestremadrigaljr@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Richie’s Hot Chicken"
+  ],
+  "websites": [
+    "https://www.richieshotchicken.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.richieshotchicken.com/": {
+      "url": "https://www.richieshotchicken.com/",
+      "html_bytes": 32092,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/richie-s-hot-chicken-10003-alondra-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.richieshotchicken.com/menus/": {
+      "url": "https://www.richieshotchicken.com/menus/",
+      "html_bytes": 56980,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/richie-s-hot-chicken-10003-alondra-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/richie-s-hot-chicken-10003-alondra-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000l4uO1YAI"
+}

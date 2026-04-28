@@ -1,0 +1,71 @@
+{
+  "parent": "Sam First Jazz Club and Bar - Parent Account",
+  "slug": "sam-first-jazz-club-and-bar",
+  "total_headroom": "$21,808",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$868",
+  "employee_count": "5",
+  "non_ec_arr": "$600",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "paul@samfirstbar.com",
+  "location_count": 1,
+  "location_names": [
+    "Sam First Jazz Club and Bar"
+  ],
+  "websites": [
+    "https://www.samfirstbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.samfirstbar.com/": {
+      "url": "https://www.samfirstbar.com/",
+      "html_bytes": 1331503,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Waitlist Me",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.samfirstbar.com/gift-card": {
+      "url": "https://www.samfirstbar.com/gift-card",
+      "html_bytes": 1522548,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.samfirstbar.com/menu": {
+      "url": "https://www.samfirstbar.com/menu",
+      "html_bytes": 783466,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.samfirstbar.com/booking": {
+      "url": "https://www.samfirstbar.com/booking",
+      "html_bytes": 830497,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001a2RwbYAE"
+}

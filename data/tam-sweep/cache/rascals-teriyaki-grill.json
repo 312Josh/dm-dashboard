@@ -1,0 +1,84 @@
+{
+  "parent": "Rascals Teriyaki Grill Parent",
+  "slug": "rascals-teriyaki-grill",
+  "total_headroom": "$50,692",
+  "non_ec_headroom": "$49,740",
+  "est_ec_headroom": "$952",
+  "employee_count": "6",
+  "non_ec_arr": "$19,404",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "p.kiyokane@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Rascals Teriyaki Grill Torrance",
+    "Rascals Teriyaki Grill Carson",
+    "Rascals Teriyaki Grill Gardena"
+  ],
+  "websites": [
+    "https://www.rascalsteriyaki.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.rascalsteriyaki.com/": {
+      "url": "https://www.rascalsteriyaki.com/",
+      "html_bytes": 139381,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/rascals-teriyaki-grill-torrance",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/rascals-teriyaki-grill-carson-205-e-carson-st/giftcards"
+      }
+    },
+    "https://www.rascalsteriyaki.com/menu/": {
+      "url": "https://www.rascalsteriyaki.com/menu/",
+      "html_bytes": 204403,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/rascals-teriyaki-grill-carson-205-e-carson-st/giftcards"
+      }
+    },
+    "https://www.rascalsteriyaki.com/order-online/": {
+      "url": "https://www.rascalsteriyaki.com/order-online/",
+      "html_bytes": 112576,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/rascals-teriyaki-grill-torrance",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/rascals-teriyaki-grill-carson-205-e-carson-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/rascals-teriyaki-grill-torrance",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/rascals-teriyaki-grill-carson-205-e-carson-st/giftcards"
+  },
+  "marketplaces": [
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037XnRgQAK"
+}

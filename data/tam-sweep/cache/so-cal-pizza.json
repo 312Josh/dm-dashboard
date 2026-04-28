@@ -1,0 +1,47 @@
+{
+  "parent": "So Cal Pizza - Parent Account",
+  "slug": "so-cal-pizza",
+  "total_headroom": "$23,796",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$2,856",
+  "employee_count": "17",
+  "non_ec_arr": "$2,961",
+  "state": "CA",
+  "city": "Norwalk",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "rochoa32@msn.com",
+  "location_count": 1,
+  "location_names": [
+    "So Cal Pizza"
+  ],
+  "websites": [
+    "https://socalpizza.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://socalpizza.net/": {
+      "url": "https://socalpizza.net/",
+      "html_bytes": 112405,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001ipIhLIAU"
+}

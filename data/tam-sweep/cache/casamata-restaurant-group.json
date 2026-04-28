@@ -1,0 +1,63 @@
+{
+  "parent": "Casamata Restaurant Group",
+  "slug": "casamata-restaurant-group",
+  "total_headroom": "$71,580",
+  "non_ec_headroom": "$71,580",
+  "est_ec_headroom": "$0",
+  "employee_count": "51",
+  "non_ec_arr": "$30,300",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "santiago@eatsantotaco.com",
+  "location_count": 4,
+  "location_names": [
+    "Damian",
+    "ATLA - Lafayette",
+    "Cosme - NY",
+    "Esse Taco Williamsburg"
+  ],
+  "websites": [
+    "https://casamata.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://casamata.com/": {
+      "url": "https://casamata.com/",
+      "html_bytes": 156387,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/damian-2132-east-7th-place/giftcards"
+      }
+    },
+    "https://casamata.com/gift-cards/": {
+      "url": "https://casamata.com/gift-cards/",
+      "html_bytes": 105985,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/damian-2132-east-7th-place/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/damian-2132-east-7th-place/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002mrqZtQAI"
+}

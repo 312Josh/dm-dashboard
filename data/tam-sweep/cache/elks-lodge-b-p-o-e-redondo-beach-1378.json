@@ -1,0 +1,31 @@
+{
+  "parent": "Elks Lodge- B.P.O.E. redondo beach 1378",
+  "slug": "elks-lodge-b-p-o-e-redondo-beach-1378",
+  "total_headroom": "$22,424",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,484",
+  "employee_count": "9",
+  "non_ec_arr": "$1,440",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "ldominoelectric@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Elks Lodge- B.P.O.E. redondo beach 1378"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001noACSAA2"
+}

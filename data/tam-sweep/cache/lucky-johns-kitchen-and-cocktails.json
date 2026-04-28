@@ -1,0 +1,40 @@
+{
+  "parent": "Lucky Johns Kitchen and Cocktails- Parent Account",
+  "slug": "lucky-johns-kitchen-and-cocktails",
+  "total_headroom": "$18,036",
+  "non_ec_headroom": "$16,692",
+  "est_ec_headroom": "$1,344",
+  "employee_count": "8",
+  "non_ec_arr": "$2,721",
+  "state": "CA",
+  "city": "Stanton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "trevorgjohnson@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Lucky Johns Kitchen and Cocktails"
+  ],
+  "websites": [
+    "https://luckyjohnskitchenandcocktails.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://luckyjohnskitchenandcocktails.toast.site/": {
+      "url": "https://luckyjohnskitchenandcocktails.toast.site/",
+      "html_bytes": 5601,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002mtyl3QAA"
+}

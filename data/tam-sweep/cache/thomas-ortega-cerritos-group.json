@@ -1,0 +1,42 @@
+{
+  "parent": "Thomas Ortega Cerritos Group",
+  "slug": "thomas-ortega-cerritos-group",
+  "total_headroom": "$67,108",
+  "non_ec_headroom": "$52,464",
+  "est_ec_headroom": "$14,644",
+  "employee_count": "88",
+  "non_ec_arr": "$17,820",
+  "state": "CA",
+  "city": "Cerritos",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "t.ortega120@yahoo.com",
+  "location_count": 3,
+  "location_names": [
+    "Amor y Tacos",
+    "Sunny on South",
+    "Taco Chico Tustin"
+  ],
+  "websites": [
+    "https://www.amorytacos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.amorytacos.com/": {
+      "url": "https://www.amorytacos.com/",
+      "html_bytes": 5516,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001mKpTpIAK"
+}

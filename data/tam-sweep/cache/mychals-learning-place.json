@@ -1,0 +1,45 @@
+{
+  "parent": "Mychals Learning Place - Parent Account",
+  "slug": "mychals-learning-place",
+  "total_headroom": "$39,576",
+  "non_ec_headroom": "$36,720",
+  "est_ec_headroom": "$2,856",
+  "employee_count": "17",
+  "non_ec_arr": "$4,740",
+  "state": "CA",
+  "city": "Hawthorne",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ed@mychals.org",
+  "location_count": 2,
+  "location_names": [
+    "Mychals Learning Place Test Location",
+    "Mychals Learning Place"
+  ],
+  "websites": [
+    "https://www.mychals.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mychals.org/": {
+      "url": "https://www.mychals.org/",
+      "html_bytes": 164661,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Constant Contact",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002JMGwdYAH"
+}

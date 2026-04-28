@@ -1,0 +1,79 @@
+{
+  "parent": "Tenori Group",
+  "slug": "tenori-group",
+  "total_headroom": "$43,416",
+  "non_ec_headroom": "$43,416",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$24,029",
+  "state": "CA",
+  "city": "Long Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "k@tenori.co",
+  "location_count": 3,
+  "location_names": [
+    "Tenori - Long Beach",
+    "Tenori - Stanton",
+    "Tenori - UCI"
+  ],
+  "websites": [
+    "https://www.tenori.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tenori.co/": {
+      "url": "https://www.tenori.co/",
+      "html_bytes": 514915,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tenori-stanton-12885-beach-boulevard-ste-6",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.tenori.co/order-online": {
+      "url": "https://www.tenori.co/order-online",
+      "html_bytes": 510392,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tenori-stanton-12885-beach-boulevard-ste-6",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.tenori.co/menu": {
+      "url": "https://www.tenori.co/menu",
+      "html_bytes": 1049666,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tenori-stanton-12885-beach-boulevard-ste-6",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/tenori-stanton-12885-beach-boulevard-ste-6",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000h1j5cYAA"
+}

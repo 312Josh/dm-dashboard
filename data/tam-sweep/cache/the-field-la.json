@@ -1,0 +1,42 @@
+{
+  "parent": "The Field LA Parent Account",
+  "slug": "the-field-la",
+  "total_headroom": "$18,552",
+  "non_ec_headroom": "$18,552",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$4,788",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "pete.pano@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Field LA"
+  ],
+  "websites": [
+    "https://www.thefield.la/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thefield.la/": {
+      "url": "https://www.thefield.la/",
+      "html_bytes": 30457,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001Rm0P8YAJ"
+}

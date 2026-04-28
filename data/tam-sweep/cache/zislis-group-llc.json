@@ -1,0 +1,234 @@
+{
+  "parent": "Zislis Group LLC.",
+  "slug": "zislis-group-llc",
+  "total_headroom": "$125,172",
+  "non_ec_headroom": "$82,080",
+  "est_ec_headroom": "$43,092",
+  "employee_count": "256",
+  "non_ec_arr": "$70,575",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "mz@rockandbrews.com",
+  "location_count": 5,
+  "location_names": [
+    "The Strand House",
+    "Rock'N Fish - Manhattan Beach",
+    "Sea Level Restaurant and Lounge - Zislis Group",
+    "Zinc at Shade",
+    "Brewco Social"
+  ],
+  "websites": [
+    "https://www.thestrandhousemb.com/",
+    "https://www.rocknfish.com/",
+    "https://rb.shadehotel.com/eat-drink/",
+    "https://mb.shadehotel.com/eat-drink/",
+    "https://www.brewcosocial.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thestrandhousemb.com/": {
+      "url": "https://www.thestrandhousemb.com/",
+      "html_bytes": 53058,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-strand-house/giftcards"
+      }
+    },
+    "https://www.thestrandhousemb.com/menus/": {
+      "url": "https://www.thestrandhousemb.com/menus/",
+      "html_bytes": 458048,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-strand-house/giftcards"
+      }
+    },
+    "https://www.rocknfish.com/": {
+      "url": "https://www.rocknfish.com/",
+      "html_bytes": 400697,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Klaviyo",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/rock-n-fish-manhattan-beach/giftcards"
+      }
+    },
+    "https://www.rocknfish.com/reservations": {
+      "url": "https://www.rocknfish.com/reservations",
+      "html_bytes": 133025,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "marketing": "Klaviyo",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://rb.shadehotel.com/eat-drink/": {
+      "url": "https://rb.shadehotel.com/eat-drink/",
+      "html_bytes": 107160,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sea-level-restaurant-and-lounge-zislis-group-655-n-harbor-dr",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/sea-level-restaurant-and-lounge-zislis-group-655-n-harbor-dr/giftcards"
+      }
+    },
+    "https://rb.shadehotel.com/menus/": {
+      "url": "https://rb.shadehotel.com/menus/",
+      "html_bytes": 424973,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sea-level-restaurant-and-lounge-zislis-group-655-n-harbor-dr",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://rb.shadehotel.com/gift-cards/": {
+      "url": "https://rb.shadehotel.com/gift-cards/",
+      "html_bytes": 69877,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sea-level-restaurant-and-lounge-zislis-group-655-n-harbor-dr/giftcards"
+      }
+    },
+    "https://mb.shadehotel.com/eat-drink/": {
+      "url": "https://mb.shadehotel.com/eat-drink/",
+      "html_bytes": 96713,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/zinc-shade",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/zinc-shade/giftcards"
+      }
+    },
+    "https://mb.shadehotel.com/menus/": {
+      "url": "https://mb.shadehotel.com/menus/",
+      "html_bytes": 268543,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/zinc-shade",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://mb.shadehotel.com/gift-cards/": {
+      "url": "https://mb.shadehotel.com/gift-cards/",
+      "html_bytes": 69768,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/zinc-shade/giftcards"
+      }
+    },
+    "https://www.brewcosocial.com/": {
+      "url": "https://www.brewcosocial.com/",
+      "html_bytes": 284640,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "marketing": "Klaviyo",
+        "catering_mention": "Private-events copy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/brewco-manhattan-beach-new-124-manhattan-beach-boulevard/giftcards"
+      }
+    },
+    "https://www.brewcosocial.com/reservations": {
+      "url": "https://www.brewcosocial.com/reservations",
+      "html_bytes": 119288,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "marketing": "Klaviyo",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.brewcosocial.com/gift-cards": {
+      "url": "https://www.brewcosocial.com/gift-cards",
+      "html_bytes": 151617,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Klaviyo",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/brewco-manhattan-beach-new-124-manhattan-beach-boulevard/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-strand-house/giftcards",
+    "toast_oo_native": "order.toasttab.com/online/sea-level-restaurant-and-lounge-zislis-group-655-n-harbor-dr",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "strand house": "https://www.thestrandhousemb.com/",
+    "rock'n fish": "https://www.rocknfish.com/",
+    "sea level": "https://rb.shadehotel.com/eat-drink/",
+    "zinc": "https://mb.shadehotel.com/eat-drink/",
+    "brewco": "https://www.brewcosocial.com/"
+  },
+  "sfdc_account_id": "001C000001dKOQ6IAO"
+}

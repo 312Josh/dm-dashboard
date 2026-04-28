@@ -1,0 +1,31 @@
+{
+  "parent": "Elks Lodge Torrance 1948",
+  "slug": "elks-lodge-torrance-1948",
+  "total_headroom": "$21,752",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$812",
+  "employee_count": "5",
+  "non_ec_arr": "$480",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "michaelbmchugh@sbcglobal.net",
+  "location_count": 1,
+  "location_names": [
+    "Elks Lodge Torrance 1948"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001o6ZVRAA2"
+}

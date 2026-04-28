@@ -1,0 +1,62 @@
+{
+  "parent": "Uncle reds pizzeria - Parent Account",
+  "slug": "uncle-reds-pizzeria",
+  "total_headroom": "$19,520",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$560",
+  "employee_count": "3",
+  "non_ec_arr": "$2,659",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "e_vakit1013@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Uncle reds pizzeria"
+  ],
+  "websites": [
+    "https://uncleredspizzeria.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://uncleredspizzeria.com/": {
+      "url": "https://uncleredspizzeria.com/",
+      "html_bytes": 5724,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://uncleredspizzeria.com/order": {
+      "url": "https://uncleredspizzeria.com/order",
+      "html_bytes": 5724,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://uncleredspizzeria.com/menu": {
+      "url": "https://uncleredspizzeria.com/menu",
+      "html_bytes": 5724,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001o77V0AAI"
+}

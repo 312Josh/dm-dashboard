@@ -1,0 +1,44 @@
+{
+  "parent": "Ogawatei - Parent Account",
+  "slug": "ogawatei",
+  "total_headroom": "$19,092",
+  "non_ec_headroom": "$19,092",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$3,316",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "tomiyasu2929@hotmail.co.jp",
+  "location_count": 1,
+  "location_names": [
+    "OGAWATEI"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/tamaen-gardena"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/tamaen-gardena": {
+      "url": "https://www.toasttab.com/local/order/tamaen-gardena",
+      "html_bytes": 5612,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002UkqurQAB"
+}

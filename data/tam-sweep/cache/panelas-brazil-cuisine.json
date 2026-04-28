@@ -1,0 +1,91 @@
+{
+  "parent": "Panelas Brazil Cuisine Parent",
+  "slug": "panelas-brazil-cuisine",
+  "total_headroom": "$16,272",
+  "non_ec_headroom": "$16,272",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$3,531",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "mdelimabr@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Panelas Brazil Cuisine"
+  ],
+  "websites": [
+    "https://www.panelasbrazil.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.panelasbrazil.com/": {
+      "url": "https://www.panelasbrazil.com/",
+      "html_bytes": 1263531,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/panelas-brazil-cuisine",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.panelasbrazil.com/menu": {
+      "url": "https://www.panelasbrazil.com/menu",
+      "html_bytes": 1700823,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/panelas-brazil-cuisine",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.panelasbrazil.com/reservations": {
+      "url": "https://www.panelasbrazil.com/reservations",
+      "html_bytes": 1234549,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/panelas-brazil-cuisine",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.panelasbrazil.com/order-online": {
+      "url": "https://www.panelasbrazil.com/order-online",
+      "html_bytes": 1665783,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/panelas-brazil-cuisine",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/panelas-brazil-cuisine",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001o6qXhAAI"
+}

@@ -1,0 +1,51 @@
+{
+  "parent": "Mi Corazon- Parent Account",
+  "slug": "mi-corazon",
+  "total_headroom": "$19,560",
+  "non_ec_headroom": "$19,560",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$5,100",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "benjamin7346@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mi Corazon"
+  ],
+  "websites": [
+    "https://mi-corazon.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mi-corazon.net/": {
+      "url": "https://mi-corazon.net/",
+      "html_bytes": 162723,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Yelp Reservations",
+        "delivery_platforms": "ChowNow Direct",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xe8PeQAI"
+}

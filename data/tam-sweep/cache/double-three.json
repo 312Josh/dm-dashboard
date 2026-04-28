@@ -1,0 +1,32 @@
+{
+  "parent": "Double Three - Parent Account",
+  "slug": "double-three",
+  "total_headroom": "$41,790",
+  "non_ec_headroom": "$40,320",
+  "est_ec_headroom": "$1,470",
+  "employee_count": "9",
+  "non_ec_arr": "$3,900",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "yk@doublethree.net",
+  "location_count": 2,
+  "location_names": [
+    "Double Three",
+    "Double Three - Placentia"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001bdCfjYAE"
+}

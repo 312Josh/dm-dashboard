@@ -1,0 +1,45 @@
+{
+  "parent": "Cascada Refrescante - Parent",
+  "slug": "cascada-refrescante",
+  "total_headroom": "$60,600",
+  "non_ec_headroom": "$60,600",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$5,388",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "gabrielamendoza1995@yahoo.com",
+  "location_count": 3,
+  "location_names": [
+    "Cascada Refrescante - LA",
+    "Cascada Refrescante - Buena Park",
+    "Cascada Refrescante - Paramount NEW"
+  ],
+  "websites": [
+    "https://cascada-refrescante.goto-restaurants.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cascada-refrescante.goto-restaurants.com/": {
+      "url": "https://cascada-refrescante.goto-restaurants.com/",
+      "html_bytes": 5601,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xf2G8QAI"
+}

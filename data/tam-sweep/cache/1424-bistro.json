@@ -1,0 +1,57 @@
+{
+  "parent": "1424 Bistro Parent",
+  "slug": "1424-bistro",
+  "total_headroom": "$18,708",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$2,856",
+  "employee_count": "17",
+  "non_ec_arr": "$6,417",
+  "state": "TX",
+  "city": "Waco",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "alphaomegawaco@icloud.com",
+  "location_count": 1,
+  "location_names": [
+    "1424 Bistro"
+  ],
+  "websites": [
+    "https://1424bistro.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://1424bistro.com/": {
+      "url": "https://1424bistro.com/",
+      "html_bytes": 5490,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "online_ordering": "Owner.com",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260314102808/https://1424bistro.com/",
+        "html_bytes": 352893,
+        "vendors": {
+          "website_cms": "Owner.com",
+          "online_ordering": "Owner.com",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001nnnwBAAQ"
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "Tamaen- PARENT",
+  "slug": "tamaen",
+  "total_headroom": "$43,588",
+  "non_ec_headroom": "$39,780",
+  "est_ec_headroom": "$3,808",
+  "employee_count": "22",
+  "non_ec_arr": "$4,860",
+  "state": "CA",
+  "city": "Lomita",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kengokuba@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Tamaen-Lomita",
+    "Steak Library"
+  ],
+  "websites": [
+    "https://tamaenus.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tamaenus.com/": {
+      "url": "https://tamaenus.com/",
+      "html_bytes": 104707,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xdAsJQAU"
+}

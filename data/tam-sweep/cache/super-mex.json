@@ -1,0 +1,52 @@
+{
+  "parent": "Super Mex - Parent Account",
+  "slug": "super-mex",
+  "total_headroom": "$22,000",
+  "non_ec_headroom": "$19,620",
+  "est_ec_headroom": "$2,380",
+  "employee_count": "14",
+  "non_ec_arr": "$3,603",
+  "state": "CA",
+  "city": "Long Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ibarragabriel439@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Super Mex"
+  ],
+  "websites": [
+    "https://supermex.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://supermex.com/": {
+      "url": "https://supermex.com/",
+      "html_bytes": 121824,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.supermex.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.supermex.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgrQzQAJ"
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Krunch Burger - Parent Account",
+  "slug": "krunch-burger",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$1,500",
+  "state": "CA",
+  "city": "La Mirada",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cnrahder@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Krunch Burger"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/krunch-burger-11523-la-mirada-boulevard"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/krunch-burger-11523-la-mirada-boulevard": {
+      "url": "https://order.toasttab.com/online/krunch-burger-11523-la-mirada-boulevard",
+      "html_bytes": 5739,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgWjIQAV"
+}

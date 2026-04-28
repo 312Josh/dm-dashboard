@@ -1,0 +1,55 @@
+{
+  "parent": "Fish In a Bottle Sushi & Grill2 - Parent Account",
+  "slug": "fish-in-a-bottle-sushi-grill2",
+  "total_headroom": "$14,820",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "iomakaseoc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "iOmakase"
+  ],
+  "websites": [
+    "https://www.fishinabottle.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fishinabottle.net/": {
+      "url": "https://www.fishinabottle.net/",
+      "html_bytes": 169706,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/iomakase-and-fish-in-a-bottle-sushi-express-anaheim",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/iomakase-and-fish-in-a-bottle-sushi-express-anaheim",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002a9LFcYAM"
+}

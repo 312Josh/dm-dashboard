@@ -1,0 +1,45 @@
+{
+  "parent": "Tam's Pizzeria - Parent Account",
+  "slug": "tam-s-pizzeria",
+  "total_headroom": "$19,860",
+  "non_ec_headroom": "$19,860",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$1,500",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "phongdnguyen@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "T' An Cafe"
+  ],
+  "websites": [
+    "https://www.tamspizzeria.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tamspizzeria.com/": {
+      "url": "https://www.tamspizzeria.com/",
+      "html_bytes": 194077,
+      "fingerprints": {
+        "oo": "Slice"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037XlJMQA0"
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "TeaScape - Parent Account",
+  "slug": "teascape",
+  "total_headroom": "$19,120",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$2,380",
+  "employee_count": "14",
+  "non_ec_arr": "$4,620",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "uniteascafe@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "TeaScape"
+  ],
+  "websites": [
+    "https://teascape.us/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://teascape.us/": {
+      "url": "https://teascape.us/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002msyaBQAQ"
+}

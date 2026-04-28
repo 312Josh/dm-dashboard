@@ -1,0 +1,100 @@
+{
+  "parent": "Bettolino Kitchen Parent",
+  "slug": "bettolino-kitchen",
+  "total_headroom": "$26,604",
+  "non_ec_headroom": "$26,604",
+  "est_ec_headroom": "$0",
+  "employee_count": "69",
+  "non_ec_arr": "$12,417",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sean@bettolinokitchen.com",
+  "location_count": 2,
+  "location_names": [
+    "Bettolino Kitchen - Redondo Beach",
+    "Wild Roots - Torrance"
+  ],
+  "websites": [
+    "https://www.bettolinokitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bettolinokitchen.com/": {
+      "url": "https://www.bettolinokitchen.com/",
+      "html_bytes": 51857,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bettolino-kitchen-211-palos-verdes-blvd/giftcards"
+      }
+    },
+    "https://www.bettolinokitchen.com/menu": {
+      "url": "https://www.bettolinokitchen.com/menu",
+      "html_bytes": 57747,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bettolino-kitchen-211-palos-verdes-blvd/giftcards"
+      }
+    },
+    "https://www.bettolinokitchen.com/order-online/": {
+      "url": "https://www.bettolinokitchen.com/order-online/",
+      "html_bytes": 75049,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bettolino-kitchen-211-palos-verdes-blvd/giftcards"
+      }
+    },
+    "https://www.bettolinokitchen.com/reserve-a-table/": {
+      "url": "https://www.bettolinokitchen.com/reserve-a-table/",
+      "html_bytes": 75068,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bettolino-kitchen-211-palos-verdes-blvd/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/bettolino-kitchen-211-palos-verdes-blvd/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001eGZeBIAW"
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "Jino's Pars - Parent Account",
+  "slug": "jino-s-pars",
+  "total_headroom": "$20,056",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$616",
+  "employee_count": "4",
+  "non_ec_arr": "$2,700",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jinospars@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Jino's Pars"
+  ],
+  "websites": [
+    "http://www.jinosparslosangeles.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.jinosparslosangeles.com/": {
+      "url": "http://www.jinosparslosangeles.com/",
+      "html_bytes": 469,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F3kYjQAJ"
+}

@@ -1,0 +1,55 @@
+{
+  "parent": "Filo - Parent Account",
+  "slug": "filo",
+  "total_headroom": "$30,636",
+  "non_ec_headroom": "$30,636",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$14,424",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "mo@filodessertco.com",
+  "location_count": 2,
+  "location_names": [
+    "Filo - Anaheim",
+    "Filo"
+  ],
+  "websites": [
+    "https://filodessertco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://filodessertco.com/": {
+      "url": "https://filodessertco.com/",
+      "html_bytes": 5536,
+      "fingerprints": {
+        "online_ordering": "Toast",
+        "loyalty": "Punchh"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251007025511/https://filodessertco.com/",
+        "html_bytes": 372971,
+        "vendors": {
+          "online_ordering": "Toast",
+          "loyalty": "Punchh"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000q3toQYAQ"
+}

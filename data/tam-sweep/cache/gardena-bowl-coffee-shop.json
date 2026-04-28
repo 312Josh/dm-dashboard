@@ -1,0 +1,47 @@
+{
+  "parent": "Gardena Bowl Coffee Shop - Parent Account",
+  "slug": "gardena-bowl-coffee-shop",
+  "total_headroom": "$18,212",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$392",
+  "employee_count": "2",
+  "non_ec_arr": "$4,500",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "frankienakano@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Gardena Bowl Coffee Shop"
+  ],
+  "websites": [
+    "https://gardenabowlcoffeeshop.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gardenabowlcoffeeshop.com/": {
+      "url": "https://gardenabowlcoffeeshop.com/",
+      "html_bytes": 160956,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037Xnt7QAC"
+}

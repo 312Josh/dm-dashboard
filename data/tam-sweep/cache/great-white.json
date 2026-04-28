@@ -1,0 +1,60 @@
+{
+  "parent": "Great White Parent",
+  "slug": "great-white",
+  "total_headroom": "$153,444",
+  "non_ec_headroom": "$89,100",
+  "est_ec_headroom": "$64,344",
+  "employee_count": "383",
+  "non_ec_arr": "$54,602",
+  "state": "CA",
+  "city": "Studio City",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "samt@greatwhite.cafe",
+  "location_count": 5,
+  "location_names": [
+    "Great White - Studio City",
+    "Great White - Venice",
+    "Great White - Melrose",
+    "Great White - Brentwood",
+    "Great White - Larchmont"
+  ],
+  "websites": [
+    "https://www.greatwhite.cafe/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.greatwhite.cafe/": {
+      "url": "https://www.greatwhite.cafe/",
+      "html_bytes": 198442,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.greatwhite.cafe/menu": {
+      "url": "https://www.greatwhite.cafe/menu",
+      "html_bytes": 138421,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy",
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001C8VP1YAN"
+}

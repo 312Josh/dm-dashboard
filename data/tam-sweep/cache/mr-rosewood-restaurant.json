@@ -1,0 +1,45 @@
+{
+  "parent": "MR. Rosewood Restaurant - Parent Account",
+  "slug": "mr-rosewood-restaurant",
+  "total_headroom": "$20,828",
+  "non_ec_headroom": "$15,900",
+  "est_ec_headroom": "$4,928",
+  "employee_count": "29",
+  "non_ec_arr": "$10,392",
+  "state": "CA",
+  "city": "Norwalk",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ogrosewoods@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "MR. Rosewood Restaurant"
+  ],
+  "websites": [
+    "https://www.mrrosewoodrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mrrosewoodrestaurant.com/": {
+      "url": "https://www.mrrosewoodrestaurant.com/",
+      "html_bytes": 1266590,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002XRc5sQAD"
+}

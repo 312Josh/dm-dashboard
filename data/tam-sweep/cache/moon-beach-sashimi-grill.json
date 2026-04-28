@@ -1,0 +1,43 @@
+{
+  "parent": "Moon Beach Sashimi & Grill - Parent Account",
+  "slug": "moon-beach-sashimi-grill",
+  "total_headroom": "$19,708",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$868",
+  "employee_count": "5",
+  "non_ec_arr": "$2,700",
+  "state": "CA",
+  "city": "Buena Park",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "jango3174@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Moon Beach Sashimi & Grill"
+  ],
+  "websites": [
+    "https://moonbeachsashimiandgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://moonbeachsashimiandgrill.com/": {
+      "url": "https://moonbeachsashimiandgrill.com/",
+      "html_bytes": 196818,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CNf3IQAT"
+}

@@ -1,0 +1,100 @@
+{
+  "parent": "Pizza Show - Parent Account",
+  "slug": "pizza-show",
+  "total_headroom": "$16,872",
+  "non_ec_headroom": "$16,872",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$6,041",
+  "state": "CA",
+  "city": "Hawthorne",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "cazzbar1@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pizza Show"
+  ],
+  "websites": [
+    "https://www.pizza-show.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pizza-show.com/": {
+      "url": "https://www.pizza-show.com/",
+      "html_bytes": 433317,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://www.pizza-show.com/ordering-home": {
+      "url": "https://www.pizza-show.com/ordering-home",
+      "html_bytes": 368185,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://www.pizza-show.com/menu/item/medium-14-build-your-own-pizza-8-slices": {
+      "url": "https://www.pizza-show.com/menu/item/medium-14-build-your-own-pizza-8-slices",
+      "html_bytes": 372947,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://www.pizza-show.com/menu/item/medium-pizza-show-14-pizza-8-slices": {
+      "url": "https://www.pizza-show.com/menu/item/medium-pizza-show-14-pizza-8-slices",
+      "html_bytes": 372947,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://www.pizza-show.com/menu/item/medium-meat-eaters-14-pizza-8-slices": {
+      "url": "https://www.pizza-show.com/menu/item/medium-meat-eaters-14-pizza-8-slices",
+      "html_bytes": 372947,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://www.pizza-show.com/menu/item/medium-vegetarian-14-pizza-8-slices": {
+      "url": "https://www.pizza-show.com/menu/item/medium-vegetarian-14-pizza-8-slices",
+      "html_bytes": 372947,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    },
+    "https://www.pizza-show.com/menu/item/medium-bbq-chicken-14-pizza-8-slices": {
+      "url": "https://www.pizza-show.com/menu/item/medium-bbq-chicken-14-pizza-8-slices",
+      "html_bytes": 372947,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "oo": "Appfront"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037YTnrQAG"
+}

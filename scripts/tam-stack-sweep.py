@@ -202,10 +202,27 @@ def save_cache(slug: str, data: dict[str, Any]) -> None:
 
 # ---------- extract-parents ----------
 
+_SFDC_ID_RE = re.compile(r"/Account/([A-Za-z0-9]{15,18})", re.I)
+
+
+def _extract_sfdc_id(link: str) -> str:
+    if not link:
+        return ""
+    m = _SFDC_ID_RE.search(link)
+    return m.group(1) if m else ""
+
+
 def extract_parents(csv_path: Path | None = None, rep_slug: str | None = None) -> None:
     """Seed per-parent cache JSONs from a TAM CSV. Defaults to the legacy
     INPUT_CSV (Chris) for backward compat. Pass csv_path + rep_slug to
-    onboard any other rep's CSV."""
+    onboard any other rep's CSV.
+
+    Slug-collision handling: two SFDC parent accounts in different territories can
+    slugify to the same key (e.g. "Martha's- Parent Account" in Nashville and
+    "Martha's Parent" in Hermosa Beach both → `martha-s`). We disambiguate by the
+    SFDC Account ID — if an existing cache file has a different `sfdc_account_id`,
+    the new entry is written to `{slug}-{rep_slug}` instead.
+    """
     source = csv_path or INPUT_CSV
     seen: dict[str, dict[str, Any]] = {}
     with source.open() as f:
@@ -215,10 +232,12 @@ def extract_parents(csv_path: Path | None = None, rep_slug: str | None = None) -
             if not parent:
                 continue
             slug = slugify(parent)
+            sfdc_id = _extract_sfdc_id(row.get("SFDC Account Link", ""))
             if slug not in seen:
                 seen[slug] = {
                     "parent": parent,
                     "slug": slug,
+                    "sfdc_account_id": sfdc_id,
                     "total_headroom": row.get("Parent Total Headroom", ""),
                     "non_ec_headroom": row.get("Parent Non-EC Headroom", ""),
                     "est_ec_headroom": row.get("Parent Est. EC Headroom", ""),
@@ -241,38 +260,56 @@ def extract_parents(csv_path: Path | None = None, rep_slug: str | None = None) -
                     "hr_status": "pending",
                     "notes": [],
                 }
+            elif sfdc_id and not seen[slug].get("sfdc_account_id"):
+                seen[slug]["sfdc_account_id"] = sfdc_id
             seen[slug]["location_count"] += 1
             loc = row.get("Location Name", "").strip()
             if loc and loc not in seen[slug]["location_names"]:
                 seen[slug]["location_names"].append(loc)
 
-    for slug, data in seen.items():
-        # only write if no existing cache, so we don't clobber in-progress runs
-        p = cache_path(slug)
-        if p.exists():
-            existing = load_cache(slug)
-            # refresh TAM metadata but preserve stage outputs
+    n_collisions = 0
+    for orig_slug, data in seen.items():
+        target_slug = orig_slug
+        new_id = data.get("sfdc_account_id", "")
+        existing_path = cache_path(orig_slug)
+        if existing_path.exists():
+            existing = load_cache(orig_slug)
+            existing_id = existing.get("sfdc_account_id", "")
+            if existing_id and new_id and existing_id != new_id:
+                # Slug collision: same slug, different SFDC parent.
+                if not rep_slug:
+                    print(
+                        f"  ! collision on {orig_slug}: existing sfdc={existing_id}, "
+                        f"new sfdc={new_id} — skipping (no rep_slug to disambiguate)"
+                    )
+                    continue
+                target_slug = f"{orig_slug}-{rep_slug}"
+                data["slug"] = target_slug
+                n_collisions += 1
+                print(f"  ! collision: {orig_slug} → {target_slug} (sfdc {new_id} vs existing {existing_id})")
+
+        target_path = cache_path(target_slug)
+        if target_path.exists():
+            existing = load_cache(target_slug)
             for k in [
-                "parent", "total_headroom", "non_ec_headroom", "est_ec_headroom",
-                "employee_count", "non_ec_arr", "state", "city", "restaurant_type",
-                "contact_email", "location_count", "location_names",
+                "parent", "sfdc_account_id", "total_headroom", "non_ec_headroom",
+                "est_ec_headroom", "employee_count", "non_ec_arr", "state", "city",
+                "restaurant_type", "contact_email", "location_count", "location_names",
             ]:
-                existing[k] = data[k]
-            # Rep attribution: append rep_slug if not already present
+                if k in data:
+                    existing[k] = data[k]
             if rep_slug:
                 reps = existing.setdefault("reps", [])
                 if rep_slug not in reps:
                     reps.append(rep_slug)
-            save_cache(slug, existing)
+            save_cache(target_slug, existing)
         else:
-            if rep_slug:
-                data["reps"] = [rep_slug]
-            else:
-                data["reps"] = []
-            save_cache(slug, data)
+            data["reps"] = [rep_slug] if rep_slug else []
+            save_cache(target_slug, data)
 
     rep_label = f" (rep={rep_slug})" if rep_slug else ""
-    print(f"Extracted {len(seen)} unique parents from {source.name}{rep_label} → {CACHE}")
+    collision_note = f", {n_collisions} disambiguated" if n_collisions else ""
+    print(f"Extracted {len(seen)} unique parents from {source.name}{rep_label}{collision_note} → {CACHE}")
 
 
 # ---------- curl + grep fingerprint ----------

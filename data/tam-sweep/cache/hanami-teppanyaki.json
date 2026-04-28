@@ -1,0 +1,70 @@
+{
+  "parent": "Hanami teppanyaki - Parent Account",
+  "slug": "hanami-teppanyaki",
+  "total_headroom": "$19,432",
+  "non_ec_headroom": "$19,152",
+  "est_ec_headroom": "$280",
+  "employee_count": "2",
+  "non_ec_arr": "$4,206",
+  "state": "CA",
+  "city": "Norwalk",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gyonarta@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Hanami teppanyaki"
+  ],
+  "websites": [
+    "http://hanamiteppanyakigrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://hanamiteppanyakigrill.com/": {
+      "url": "http://hanamiteppanyakigrill.com/",
+      "html_bytes": 423081,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "http://hanamiteppanyakigrill.com/menu": {
+      "url": "http://hanamiteppanyakigrill.com/menu",
+      "html_bytes": 487610,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "http://hanamiteppanyakigrill.com/order": {
+      "url": "http://hanamiteppanyakigrill.com/order",
+      "html_bytes": 530773,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "http://hanamiteppanyakigrill.com/menu/hanami-teppanyaki-11770-firestone-boulevard": {
+      "url": "http://hanamiteppanyakigrill.com/menu/hanami-teppanyaki-11770-firestone-boulevard",
+      "html_bytes": 487698,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002muxaGQAQ"
+}

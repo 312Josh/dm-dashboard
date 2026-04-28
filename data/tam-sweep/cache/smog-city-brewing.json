@@ -1,0 +1,48 @@
+{
+  "parent": "Smog City Brewing - Parent",
+  "slug": "smog-city-brewing",
+  "total_headroom": "$22,074",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,134",
+  "employee_count": "7",
+  "non_ec_arr": "null",
+  "state": "CA",
+  "city": "Long Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "laurie@smogcitybrewing.com",
+  "location_count": 1,
+  "location_names": [
+    "Smog City Long Beach"
+  ],
+  "websites": [
+    "https://www.smogcitybrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.smogcitybrewing.com/": {
+      "url": "https://www.smogcitybrewing.com/",
+      "html_bytes": 497713,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "pos_other": "Square",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002Nefe7YAB"
+}

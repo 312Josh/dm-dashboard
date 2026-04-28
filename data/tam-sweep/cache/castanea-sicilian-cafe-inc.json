@@ -1,0 +1,59 @@
+{
+  "parent": "Castanea Sicilian Cafe, Inc. - Parent Account",
+  "slug": "castanea-sicilian-cafe-inc",
+  "total_headroom": "$33,480",
+  "non_ec_headroom": "$33,480",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$9,540",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "nando@castaneacafe.com",
+  "location_count": 2,
+  "location_names": [
+    "Castanea Sicilian Cafe, Inc.",
+    "Castanea 2"
+  ],
+  "websites": [
+    "https://www.castaneacafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.castaneacafe.com/": {
+      "url": "https://www.castaneacafe.com/",
+      "html_bytes": 321412,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Yelp Reservations",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/castanea-sicilian-cafe-inc-1307-ocean-front-walk",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/castanea-sicilian-cafe-inc-1307-ocean-front-walk/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/castanea-sicilian-cafe-inc-1307-ocean-front-walk",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/castanea-sicilian-cafe-inc-1307-ocean-front-walk/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000hCkMWYA0"
+}

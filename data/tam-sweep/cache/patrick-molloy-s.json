@@ -1,0 +1,43 @@
+{
+  "parent": "Patrick Molloy's Parent",
+  "slug": "patrick-molloy-s",
+  "total_headroom": "$16,920",
+  "non_ec_headroom": "$16,920",
+  "est_ec_headroom": "$0",
+  "employee_count": "35",
+  "non_ec_arr": "$7,565",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "admin@patrickmolloys.com",
+  "location_count": 1,
+  "location_names": [
+    "Patrick Molloy's - Hermosa Beach"
+  ],
+  "websites": [
+    "https://www.patrickmolloys.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.patrickmolloys.com/": {
+      "url": "https://www.patrickmolloys.com/",
+      "html_bytes": 5520,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001g8CCNIA2"
+}

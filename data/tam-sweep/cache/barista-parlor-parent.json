@@ -79,10 +79,12 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "barista parlor": "https://baristaparlor.com/",
     "maiz": "https://www.maizdelavida.com/"
-  }
+  },
+  "sfdc_account_id": "001PV00002GIC26YAH"
 }

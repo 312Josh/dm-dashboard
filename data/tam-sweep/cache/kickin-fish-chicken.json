@@ -1,0 +1,43 @@
+{
+  "parent": "Kickin Fish & Chicken Parent",
+  "slug": "kickin-fish-chicken",
+  "total_headroom": "$20,040",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$3,000",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "adnan0880@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Kickin Fish & Chicken"
+  ],
+  "websites": [
+    "https://kickinfc.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kickinfc.com/": {
+      "url": "https://kickinfc.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002ZkdIXQAZ"
+}

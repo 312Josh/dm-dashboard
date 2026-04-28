@@ -1,0 +1,40 @@
+{
+  "parent": "Pit and Bull",
+  "slug": "pit-and-bull",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$1,020",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "takatakacj@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Blackbird Abbey"
+  ],
+  "websites": [
+    "https://pitandbullbbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pitandbullbbq.com/": {
+      "url": "https://pitandbullbbq.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001PzAbUYAV"
+}

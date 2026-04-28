@@ -1,0 +1,44 @@
+{
+  "parent": "Sababa Falafel Shop - Garden Grove- Parent Account",
+  "slug": "sababa-falafel-shop-garden-grove",
+  "total_headroom": "$10,824",
+  "non_ec_headroom": "$10,824",
+  "est_ec_headroom": "$0",
+  "employee_count": "41",
+  "non_ec_arr": "$8,032",
+  "state": "CA",
+  "city": "garden grove",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "othmansinc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sababa Falafel Shop- GG"
+  ],
+  "websites": [
+    "https://www.sababafalafelshop.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sababafalafelshop.com/": {
+      "url": "https://www.sababafalafelshop.com/",
+      "html_bytes": 5523,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002xJo1KYAS"
+}

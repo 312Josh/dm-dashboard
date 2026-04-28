@@ -1,0 +1,130 @@
+{
+  "parent": "Market Venice Parent",
+  "slug": "market-venice",
+  "total_headroom": "$15,912",
+  "non_ec_headroom": "$15,912",
+  "est_ec_headroom": "$0",
+  "employee_count": "65",
+  "non_ec_arr": "$11,520",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nick@marketvenice.com",
+  "location_count": 1,
+  "location_names": [
+    "Market Venice"
+  ],
+  "websites": [
+    "https://www.marketvenice.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.marketvenice.com/": {
+      "url": "https://www.marketvenice.com/",
+      "html_bytes": 36926,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/market-venice-restaurant/giftcards"
+      }
+    },
+    "https://www.marketvenice.com/menu/food-menu": {
+      "url": "https://www.marketvenice.com/menu/food-menu",
+      "html_bytes": 53160,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/market-venice-restaurant/giftcards"
+      }
+    },
+    "https://www.marketvenice.com/menu/wine": {
+      "url": "https://www.marketvenice.com/menu/wine",
+      "html_bytes": 59240,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/market-venice-restaurant/giftcards"
+      }
+    },
+    "https://www.marketvenice.com/menu/drinks-menu": {
+      "url": "https://www.marketvenice.com/menu/drinks-menu",
+      "html_bytes": 40921,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/market-venice-restaurant/giftcards"
+      }
+    },
+    "https://www.marketvenice.com/menu/beer": {
+      "url": "https://www.marketvenice.com/menu/beer",
+      "html_bytes": 37817,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/market-venice-restaurant/giftcards"
+      }
+    },
+    "https://www.marketvenice.com/menu/non-alcoholic": {
+      "url": "https://www.marketvenice.com/menu/non-alcoholic",
+      "html_bytes": 37862,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/market-venice-restaurant/giftcards"
+      }
+    },
+    "https://www.marketvenice.com/menu/amari": {
+      "url": "https://www.marketvenice.com/menu/amari",
+      "html_bytes": 37822,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/market-venice-restaurant/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/market-venice-restaurant/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002W6l3VQAR"
+}

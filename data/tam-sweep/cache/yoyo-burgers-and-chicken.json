@@ -1,0 +1,57 @@
+{
+  "parent": "YoYo Burgers and Chicken Parent",
+  "slug": "yoyo-burgers-and-chicken",
+  "total_headroom": "$20,284",
+  "non_ec_headroom": "$18,660",
+  "est_ec_headroom": "$1,624",
+  "employee_count": "10",
+  "non_ec_arr": "$3,898",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "adam@yoyoburgers.com",
+  "location_count": 1,
+  "location_names": [
+    "YoYo Burgers and Chicken"
+  ],
+  "websites": [
+    "https://yoyoburgers.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://yoyoburgers.com/": {
+      "url": "https://yoyoburgers.com/",
+      "html_bytes": 113511,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow"
+      },
+      "toast": {}
+    },
+    "https://yoyoburgers.com/menu/": {
+      "url": "https://yoyoburgers.com/menu/",
+      "html_bytes": 144152,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001oUWlJAAW"
+}

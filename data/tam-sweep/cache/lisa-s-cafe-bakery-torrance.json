@@ -1,0 +1,57 @@
+{
+  "parent": "Lisa's Cafe & Bakery- Torrance - Parent Account",
+  "slug": "lisa-s-cafe-bakery-torrance",
+  "total_headroom": "$19,296",
+  "non_ec_headroom": "$18,540",
+  "est_ec_headroom": "$756",
+  "employee_count": "5",
+  "non_ec_arr": "$4,200",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "susanne@lisasbonappetit.com",
+  "location_count": 1,
+  "location_names": [
+    "Lisa's Cafe & Bakery- Torrance"
+  ],
+  "websites": [
+    "https://www.lisascafebakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lisascafebakery.com/": {
+      "url": "https://www.lisascafebakery.com/",
+      "html_bytes": 417969,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "ChowNow",
+        "delivery_platforms": "ChowNow Direct"
+      },
+      "toast": {}
+    },
+    "https://www.lisascafebakery.com/menus": {
+      "url": "https://www.lisascafebakery.com/menus",
+      "html_bytes": 1009793,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "ChowNow",
+        "delivery_platforms": "ChowNow Direct"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CP1jRQAT"
+}

@@ -1,0 +1,75 @@
+{
+  "parent": "Love & Salt Parent",
+  "slug": "love-salt",
+  "total_headroom": "$12,972",
+  "non_ec_headroom": "$12,972",
+  "est_ec_headroom": "$0",
+  "employee_count": "35",
+  "non_ec_arr": "$7,176",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "sylvie@regardingherfood.org",
+  "location_count": 1,
+  "location_names": [
+    "Love & Salt - Manhattan Beach"
+  ],
+  "websites": [
+    "https://www.loveandsaltla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.loveandsaltla.com/": {
+      "url": "https://www.loveandsaltla.com/",
+      "html_bytes": 240076,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/love-salt/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.loveandsaltla.com/menus/": {
+      "url": "https://www.loveandsaltla.com/menus/",
+      "html_bytes": 281958,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/love-salt/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_gift": "toasttab.com/love-salt/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001dLEHhIAO"
+}

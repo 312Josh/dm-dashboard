@@ -1,0 +1,81 @@
+{
+  "parent": "Chicken Maison/Top Tenders",
+  "slug": "chicken-maison-top-tenders",
+  "total_headroom": "$90,158",
+  "non_ec_headroom": "$85,272",
+  "est_ec_headroom": "$4,886",
+  "employee_count": "29",
+  "non_ec_arr": "$16,632",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sam@chickenmaison.com",
+  "location_count": 5,
+  "location_names": [
+    "Chicken Maison - Torrance Vermont NEW",
+    "Chicken Maison - North Redondo NEW",
+    "Chicken Maison - Torrance PCH",
+    "Chicken Maison - Santa Ana NEW",
+    "Chicken Maison Hawthorne- NEW"
+  ],
+  "websites": [
+    "https://chickenmaison.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://chickenmaison.com/": {
+      "url": "https://chickenmaison.com/",
+      "html_bytes": 1083798,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/chicken-maison-hawthorne-new-4025-w-el-segundo-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://chickenmaison.com/order-now/": {
+      "url": "https://chickenmaison.com/order-now/",
+      "html_bytes": 338240,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/chicken-maison-hawthorne-new-4025-w-el-segundo-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://chickenmaison.com/menu/": {
+      "url": "https://chickenmaison.com/menu/",
+      "html_bytes": 6857263,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/chicken-maison-hawthorne-new-4025-w-el-segundo-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002XjYG2YAN"
+}

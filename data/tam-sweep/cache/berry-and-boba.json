@@ -1,0 +1,44 @@
+{
+  "parent": "Berry and Boba - Parent Account",
+  "slug": "berry-and-boba",
+  "total_headroom": "$16,740",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$4,251",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "juliane621@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Berry and Boba"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/berry-and-boba"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/berry-and-boba": {
+      "url": "https://order.toasttab.com/online/berry-and-boba",
+      "html_bytes": 5643,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002HW8yvYAD"
+}

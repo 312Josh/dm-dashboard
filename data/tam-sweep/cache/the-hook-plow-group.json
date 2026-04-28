@@ -1,0 +1,65 @@
+{
+  "parent": "The Hook & Plow Group",
+  "slug": "the-hook-plow-group",
+  "total_headroom": "$116,580",
+  "non_ec_headroom": "$116,580",
+  "est_ec_headroom": "$0",
+  "employee_count": "129",
+  "non_ec_arr": "$16,023",
+  "state": "OR",
+  "city": "Bend",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "cassityl@gmail.com",
+  "location_count": 6,
+  "location_names": [
+    "Hook & Plow - Bend",
+    "Cassity's Bar",
+    "Barnacles Bar & Grill",
+    "The Hook & Plow - Redondo Beach",
+    "the Hook & Plow - Hermosa Beach",
+    "Hook & Plow - Manhattan Beach"
+  ],
+  "websites": [
+    "https://www.thehookandplow.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thehookandplow.com/": {
+      "url": "https://www.thehookandplow.com/",
+      "html_bytes": 5520,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "online_ordering": "Popmenu",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251009012404/https://www.thehookandplow.com",
+        "html_bytes": 316172,
+        "vendors": {
+          "website_cms": "Popmenu",
+          "online_ordering": "Popmenu",
+          "reservations": "OpenTable",
+          "catering_mention": "Private events page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F3JxzQAF"
+}

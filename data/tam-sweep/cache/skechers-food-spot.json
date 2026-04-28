@@ -1,0 +1,42 @@
+{
+  "parent": "Skechers Food Spot PARENT",
+  "slug": "skechers-food-spot",
+  "total_headroom": "$16,032",
+  "non_ec_headroom": "$16,032",
+  "est_ec_headroom": "$0",
+  "employee_count": "12",
+  "non_ec_arr": "$5,268",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "tassie.hall@skechers.com",
+  "location_count": 1,
+  "location_names": [
+    "Skecher's Food Spot"
+  ],
+  "websites": [
+    "https://local.skechers.com/ca/gardena/1381/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://local.skechers.com/ca/gardena/1381/": {
+      "url": "https://local.skechers.com/ca/gardena/1381/",
+      "html_bytes": 326048,
+      "fingerprints": {
+        "gift_cards": "Givex"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000033uAVbQAM"
+}

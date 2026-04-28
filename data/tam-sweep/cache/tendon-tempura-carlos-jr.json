@@ -1,0 +1,45 @@
+{
+  "parent": "Tendon Tempura Carlos Jr - Parent Account",
+  "slug": "tendon-tempura-carlos-jr",
+  "total_headroom": "$24,852",
+  "non_ec_headroom": "$19,980",
+  "est_ec_headroom": "$4,872",
+  "employee_count": "29",
+  "non_ec_arr": "$4,200",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ken.carlosjr@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tendon Tempura Carlos Jr - Torrance"
+  ],
+  "websites": [
+    "https://tendontempuracarlosjuniorgo.twupro.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tendontempuracarlosjuniorgo.twupro.com/": {
+      "url": "https://tendontempuracarlosjuniorgo.twupro.com/",
+      "html_bytes": 131371,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CNyEhQAL"
+}

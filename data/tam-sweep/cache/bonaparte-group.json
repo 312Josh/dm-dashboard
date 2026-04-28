@@ -1,0 +1,31 @@
+{
+  "parent": "Bonaparte Group - PARENT",
+  "slug": "bonaparte-group",
+  "total_headroom": "$17,460",
+  "non_ec_headroom": "$17,460",
+  "est_ec_headroom": "$0",
+  "employee_count": "12",
+  "non_ec_arr": "$5,520",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cafebonaparte@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Bonaparte Bistro - Hermosa Beach"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002mueT5QAI"
+}

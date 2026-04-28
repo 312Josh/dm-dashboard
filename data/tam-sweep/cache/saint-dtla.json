@@ -1,0 +1,43 @@
+{
+  "parent": "Saint DTLA - Parent Account",
+  "slug": "saint-dtla",
+  "total_headroom": "$18,792",
+  "non_ec_headroom": "$18,792",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$5,568",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "abelv@ranchohilde.com",
+  "location_count": 1,
+  "location_names": [
+    "Saint DTLA"
+  ],
+  "websites": [
+    "https://www.instagram.com/saintdtla/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.instagram.com/saintdtla/": {
+      "url": "https://www.instagram.com/saintdtla/",
+      "html_bytes": 808374,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001ioE17YAE"
+}

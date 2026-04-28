@@ -1,0 +1,31 @@
+{
+  "parent": "Yahs Garden - Parent Account",
+  "slug": "yahs-garden",
+  "total_headroom": "$15,700",
+  "non_ec_headroom": "$14,412",
+  "est_ec_headroom": "$1,288",
+  "employee_count": "8",
+  "non_ec_arr": "$5,400",
+  "state": "CA",
+  "city": "Cerritos",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "pmadison05@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Yahs Garden"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003GWc7oQAD"
+}

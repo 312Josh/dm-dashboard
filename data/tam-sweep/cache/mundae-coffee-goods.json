@@ -1,0 +1,42 @@
+{
+  "parent": "Mundae Coffee & Goods - Parent Account",
+  "slug": "mundae-coffee-goods",
+  "total_headroom": "$16,740",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$5,274",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "hello@mundaecoffee.com",
+  "location_count": 1,
+  "location_names": [
+    "Mundae Coffee & Goods"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/mundae-coffee-goods-7701-painter-ave"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/mundae-coffee-goods-7701-painter-ave": {
+      "url": "https://www.toasttab.com/local/order/mundae-coffee-goods-7701-painter-ave",
+      "html_bytes": 5700,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002dDxQzYAK"
+}

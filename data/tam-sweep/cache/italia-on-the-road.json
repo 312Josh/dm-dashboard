@@ -1,0 +1,42 @@
+{
+  "parent": "Italia on the road",
+  "slug": "italia-on-the-road",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$0",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "ange89m@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Italia on the road"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/italia-on-the-road-636-pacific-ave-apt-240/r-deccc03f-deb2-4549-b826-000b288e92a8"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/italia-on-the-road-636-pacific-ave-apt-240/r-deccc03f-deb2-4549-b826-000b288e92a8": {
+      "url": "https://www.toasttab.com/local/italia-on-the-road-636-pacific-ave-apt-240/r-deccc03f-deb2-4549-b826-000b288e92a8",
+      "html_bytes": 5881,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CNJlJQAX"
+}

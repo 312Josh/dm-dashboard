@@ -1,0 +1,53 @@
+{
+  "parent": "Beyond Vegan/JuiceBAE PARENT",
+  "slug": "beyond-vegan-juicebae",
+  "total_headroom": "$15,812",
+  "non_ec_headroom": "$15,420",
+  "est_ec_headroom": "$392",
+  "employee_count": "2",
+  "non_ec_arr": "$3,540",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cameron@bveats.com",
+  "location_count": 1,
+  "location_names": [
+    "Beyond Vegan Cafe"
+  ],
+  "websites": [
+    "https://beyondveganlifestyle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://beyondveganlifestyle.com/": {
+      "url": "https://beyondveganlifestyle.com/",
+      "html_bytes": 5543,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260116133146/https://beyondveganlifestyle.com/",
+        "html_bytes": 182203,
+        "vendors": {
+          "website_cms": "Squarespace",
+          "reservations": "OpenTable"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003JVLL9QAP"
+}

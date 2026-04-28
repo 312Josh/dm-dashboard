@@ -1,0 +1,44 @@
+{
+  "parent": "OH MY BURGER - PARENT",
+  "slug": "oh-my-burger",
+  "total_headroom": "$20,772",
+  "non_ec_headroom": "$19,260",
+  "est_ec_headroom": "$1,512",
+  "employee_count": "9",
+  "non_ec_arr": "$5,880",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ohmyburger.bp@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "OH MY BURGER - Gardena"
+  ],
+  "websites": [
+    "https://www.ohmyburger.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ohmyburger.com/": {
+      "url": "https://www.ohmyburger.com/",
+      "html_bytes": 5516,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001thCXgAAM"
+}

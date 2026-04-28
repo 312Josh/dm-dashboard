@@ -1,0 +1,45 @@
+{
+  "parent": "Hoka Hoka - Parent Account",
+  "slug": "hoka-hoka",
+  "total_headroom": "$33,904",
+  "non_ec_headroom": "$31,776",
+  "est_ec_headroom": "$2,128",
+  "employee_count": "13",
+  "non_ec_arr": "$12,684",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "hokahokaexpress@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Hoka Hoka Express - Torrance",
+    "Hoka Hoka Sushi & Sake - Redondo Beach"
+  ],
+  "websites": [
+    "https://hokahokaexpress.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hokahokaexpress.com/": {
+      "url": "https://hokahokaexpress.com/",
+      "html_bytes": 5538,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F4EmSQAV"
+}

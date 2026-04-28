@@ -1,0 +1,46 @@
+{
+  "parent": "Flores Cafe - Parent Account",
+  "slug": "flores-cafe",
+  "total_headroom": "$20,348",
+  "non_ec_headroom": "$18,192",
+  "est_ec_headroom": "$2,156",
+  "employee_count": "13",
+  "non_ec_arr": "$5,064",
+  "state": "CA",
+  "city": "Carson",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "florescafe23@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Flores Cafe NEW"
+  ],
+  "websites": [
+    "https://florescafecarson.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://florescafecarson.com/": {
+      "url": "https://florescafecarson.com/",
+      "html_bytes": 87285,
+      "fingerprints": {
+        "gift_cards": "Givex"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000edHgHYAU"
+}

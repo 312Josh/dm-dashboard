@@ -1,0 +1,54 @@
+{
+  "parent": "California Surf Club",
+  "slug": "california-surf-club",
+  "total_headroom": "$32,060",
+  "non_ec_headroom": "$13,524",
+  "est_ec_headroom": "$18,536",
+  "employee_count": "110",
+  "non_ec_arr": "$20,741",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "allen@sanfyventures.com",
+  "location_count": 1,
+  "location_names": [
+    "California Surf Club"
+  ],
+  "websites": [
+    "https://www.casurfclub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.casurfclub.com/": {
+      "url": "https://www.casurfclub.com/",
+      "html_bytes": 571029,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "SevenRooms"
+      },
+      "toast": {}
+    },
+    "https://www.casurfclub.com/menu": {
+      "url": "https://www.casurfclub.com/menu",
+      "html_bytes": 513273,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "SevenRooms"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F3iEAQAZ"
+}

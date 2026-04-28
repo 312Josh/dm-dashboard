@@ -1,0 +1,46 @@
+{
+  "parent": "Panchos Tacos - Parent",
+  "slug": "panchos-tacos",
+  "total_headroom": "$36,204",
+  "non_ec_headroom": "$35,700",
+  "est_ec_headroom": "$504",
+  "employee_count": "4",
+  "non_ec_arr": "$4,815",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "facebea@aol.com",
+  "location_count": 2,
+  "location_names": [
+    "Panchos Tacos - Redondo Beach",
+    "Panchos Tacos - Torrance"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/panchos-tacos-redondo-beach-2299-190th-street"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/panchos-tacos-redondo-beach-2299-190th-street": {
+      "url": "https://www.toasttab.com/local/order/panchos-tacos-redondo-beach-2299-190th-street",
+      "html_bytes": 5748,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000og0usYAA"
+}

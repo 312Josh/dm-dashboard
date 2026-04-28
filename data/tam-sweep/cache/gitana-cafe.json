@@ -1,0 +1,44 @@
+{
+  "parent": "Gitana Cafe Parent",
+  "slug": "gitana-cafe",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$1,500",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "gitanacoffee@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Gitana Cafe - Hermosa Beach"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/gitana-cafe-2600-hermosa-avenue"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/gitana-cafe-2600-hermosa-avenue": {
+      "url": "https://order.toasttab.com/online/gitana-cafe-2600-hermosa-avenue",
+      "html_bytes": 5715,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002ZlrEvQAJ"
+}

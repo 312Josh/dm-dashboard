@@ -1,0 +1,45 @@
+{
+  "parent": "Azadero",
+  "slug": "azadero",
+  "total_headroom": "$38,640",
+  "non_ec_headroom": "$38,640",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$6,948",
+  "state": "CA",
+  "city": "Riverside",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "munguia69luis@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Azadero Mexican Grill - Riverside",
+    "Stanton Azadero Mexican Grill Co - Anaheim"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/azadero-mexican-grill-riverside-10436-magnolia-ave/r-26a4b57f-93b9-4171-b300-62e23cb15572"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/azadero-mexican-grill-riverside-10436-magnolia-ave/r-26a4b57f-93b9-4171-b300-62e23cb15572": {
+      "url": "https://www.toasttab.com/local/order/azadero-mexican-grill-riverside-10436-magnolia-ave/r-26a4b57f-93b9-4171-b300-62e23cb15572",
+      "html_bytes": 5923,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MftcJQAR"
+}

@@ -1,0 +1,56 @@
+{
+  "parent": "Sausal-Jaffa Parent",
+  "slug": "sausal-jaffa",
+  "total_headroom": "$27,372",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$8,232",
+  "employee_count": "49",
+  "non_ec_arr": "$2,796",
+  "state": "CA",
+  "city": "El Segundo",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "anne@sausal.com",
+  "location_count": 1,
+  "location_names": [
+    "Sausal"
+  ],
+  "websites": [
+    "https://www.sausal.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sausal.com/": {
+      "url": "https://www.sausal.com/",
+      "html_bytes": 1259680,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sausal/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/sausal/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "resy",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001dL2IaIAK"
+}

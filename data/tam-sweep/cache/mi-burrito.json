@@ -1,0 +1,46 @@
+{
+  "parent": "Mi Burrito Parent",
+  "slug": "mi-burrito",
+  "total_headroom": "$62,452",
+  "non_ec_headroom": "$50,580",
+  "est_ec_headroom": "$11,872",
+  "employee_count": "71",
+  "non_ec_arr": "$26,220",
+  "state": "CA",
+  "city": "Cerritos",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "luis.saldana1207@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Mi Burrito - Cerritos",
+    "Mi Burrito - Redondo Beach",
+    "Mi Burrito - Whittier"
+  ],
+  "websites": [
+    "https://www.miburritomexicangrillca.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.miburritomexicangrillca.com/": {
+      "url": "https://www.miburritomexicangrillca.com/",
+      "html_bytes": 5550,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002mt4F8QAI"
+}

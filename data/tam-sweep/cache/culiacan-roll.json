@@ -1,0 +1,44 @@
+{
+  "parent": "Culiacan Roll - Parent Account",
+  "slug": "culiacan-roll",
+  "total_headroom": "$21,444",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$420",
+  "state": "CA",
+  "city": "Norwalk",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "arellanojesus79@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Culiacan Roll"
+  ],
+  "websites": [
+    "https://culiacanrollca.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://culiacanrollca.com/": {
+      "url": "https://culiacanrollca.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000oeFd7YAE"
+}

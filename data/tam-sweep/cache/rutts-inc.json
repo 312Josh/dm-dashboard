@@ -1,0 +1,48 @@
+{
+  "parent": "RUTTS INC.",
+  "slug": "rutts-inc",
+  "total_headroom": "$55,668",
+  "non_ec_headroom": "$55,668",
+  "est_ec_headroom": "$0",
+  "employee_count": "60",
+  "non_ec_arr": "$20,517",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "ruttscafe@gmail.com",
+  "location_count": 4,
+  "location_names": [
+    "Rutts Catering",
+    "Rutts Hawaiian Cafe",
+    "Tuts Egyptian Cuisine",
+    "Rutts Hawaiian Cafe and Catering - Gardena"
+  ],
+  "websites": [
+    "https://ruttscafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ruttscafe.com/": {
+      "url": "https://ruttscafe.com/",
+      "html_bytes": 5489,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xeGAGQA2"
+}

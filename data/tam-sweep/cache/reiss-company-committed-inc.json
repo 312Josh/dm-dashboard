@@ -1,0 +1,91 @@
+{
+  "parent": "Reiss Company/Committed Inc. - PARENT",
+  "slug": "reiss-company-committed-inc",
+  "total_headroom": "$172,084",
+  "non_ec_headroom": "$151,476",
+  "est_ec_headroom": "$20,608",
+  "employee_count": "124",
+  "non_ec_arr": "$31,734",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "dave@reisscompany.com",
+  "location_count": 8,
+  "location_names": [
+    "The Brig",
+    "Bar Lubitsch",
+    "El Carmen",
+    "The Roger Room",
+    "Alibi Room",
+    "Vito's Pizza",
+    "Gin Rummy",
+    "Offhand Wine Bar"
+  ],
+  "websites": [
+    "https://www.elcarmenla.com/",
+    "https://www.instagram.com/ginrummybar/",
+    "https://thebrig.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.elcarmenla.com/": {
+      "url": "https://www.elcarmenla.com/",
+      "html_bytes": 346860,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Yelp Reservations"
+      },
+      "toast": {}
+    },
+    "https://www.elcarmenla.com/menu": {
+      "url": "https://www.elcarmenla.com/menu",
+      "html_bytes": 364913,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.elcarmenla.com/reservations": {
+      "url": "https://www.elcarmenla.com/reservations",
+      "html_bytes": 348498,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Yelp Reservations"
+      },
+      "toast": {}
+    },
+    "https://www.instagram.com/ginrummybar/": {
+      "url": "https://www.instagram.com/ginrummybar/",
+      "html_bytes": 808481,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    },
+    "https://thebrig.com/": {
+      "url": "https://thebrig.com/",
+      "html_bytes": 83444,
+      "fingerprints": {
+        "website_cms": "SpotHopper"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "el carmen": "https://www.elcarmenla.com/",
+    "gin rummy": "https://www.instagram.com/ginrummybar/",
+    "brig": "https://thebrig.com/"
+  },
+  "sfdc_account_id": "0013c00001tnrJQAAY"
+}

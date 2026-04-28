@@ -54,11 +54,13 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "lexington brewing": "https://lexingtonbrewingco.com/",
     "dueling barrels": "https://www.duelingbarrels.com/",
     "bill": "https://www.connemaragolfcourse.com/bills-saloon/"
-  }
+  },
+  "sfdc_account_id": "0014W00002xeHAkQAM"
 }

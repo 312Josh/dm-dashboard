@@ -1,0 +1,49 @@
+{
+  "parent": "Tom's Tailgate - Parent Account",
+  "slug": "tom-s-tailgate",
+  "total_headroom": "$14,052",
+  "non_ec_headroom": "$14,052",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$8,503",
+  "state": "CA",
+  "city": "La Mirada",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tommytailgate2012@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tom's Tailgate"
+  ],
+  "websites": [
+    "https://www.ordertomstailgate.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ordertomstailgate.com/": {
+      "url": "https://www.ordertomstailgate.com/",
+      "html_bytes": 88425,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Menufy",
+        "reservations": "OpenTable",
+        "marketing": "HubSpot"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001RWDLVYA5"
+}

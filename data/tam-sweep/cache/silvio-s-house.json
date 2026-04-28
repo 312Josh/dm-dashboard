@@ -1,0 +1,43 @@
+{
+  "parent": "Silvio's House",
+  "slug": "silvio-s-house",
+  "total_headroom": "$10,700",
+  "non_ec_headroom": "$8,376",
+  "est_ec_headroom": "$2,324",
+  "employee_count": "14",
+  "non_ec_arr": "$9,345",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@panelasbrazil.com",
+  "location_count": 1,
+  "location_names": [
+    "Silvio's House"
+  ],
+  "websites": [
+    "https://silvioshouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://silvioshouse.com/": {
+      "url": "https://silvioshouse.com/",
+      "html_bytes": 5513,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgmDoQAJ"
+}

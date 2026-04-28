@@ -1,0 +1,45 @@
+{
+  "parent": "Coach's Corner Pizza and Brews - Parent Account",
+  "slug": "coach-s-corner-pizza-and-brews",
+  "total_headroom": "$19,740",
+  "non_ec_headroom": "$16,632",
+  "est_ec_headroom": "$3,108",
+  "employee_count": "19",
+  "non_ec_arr": "$5,022",
+  "state": "CA",
+  "city": "Cypress",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "neeners.crammer@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Coach's Corner Pizza and Brews"
+  ],
+  "websites": [
+    "https://coachscornerpizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://coachscornerpizza.com/": {
+      "url": "https://coachscornerpizza.com/",
+      "html_bytes": 156379,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MfkGoQAJ"
+}

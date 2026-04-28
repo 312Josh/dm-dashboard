@@ -1,0 +1,48 @@
+{
+  "parent": "Kare - PARENT",
+  "slug": "kare",
+  "total_headroom": "$52,380",
+  "non_ec_headroom": "$52,380",
+  "est_ec_headroom": "$0",
+  "employee_count": "33",
+  "non_ec_arr": "$19,008",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "linda@karejapanesecurry.com",
+  "location_count": 3,
+  "location_names": [
+    "Kare Japanese - Whittier",
+    "Kare Japanese - Stanton",
+    "Kare Japanese - Irvine"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/kare-japanese-whittier-7012-walnut-grove-drive-suite-i"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/kare-japanese-whittier-7012-walnut-grove-drive-suite-i": {
+      "url": "https://www.toasttab.com/local/order/kare-japanese-whittier-7012-walnut-grove-drive-suite-i",
+      "html_bytes": 5775,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002NY1OPYA1"
+}

@@ -1,0 +1,81 @@
+{
+  "parent": "Brewport Parent",
+  "slug": "brewport",
+  "total_headroom": "$47,332",
+  "non_ec_headroom": "$37,980",
+  "est_ec_headroom": "$9,352",
+  "employee_count": "56",
+  "non_ec_arr": "$11,040",
+  "state": "CA",
+  "city": "El Segundo",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kkrieger531@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Brewport Taphouse",
+    "The Tavern on Main"
+  ],
+  "websites": [
+    "https://brewporttaphouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://brewporttaphouse.com/": {
+      "url": "https://brewporttaphouse.com/",
+      "html_bytes": 227145,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/brewport-taphouse-204-main-street/giftcards"
+      }
+    },
+    "https://brewporttaphouse.com/menus/": {
+      "url": "https://brewporttaphouse.com/menus/",
+      "html_bytes": 179575,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://brewporttaphouse.com/gift-cards/": {
+      "url": "https://brewporttaphouse.com/gift-cards/",
+      "html_bytes": 179285,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/brewport-taphouse-204-main-street/giftcards"
+      }
+    },
+    "http://brewporttaphouse.com/menu/": {
+      "url": "http://brewporttaphouse.com/menu/",
+      "html_bytes": 179575,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/brewport-taphouse-204-main-street/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002msSPqQAM"
+}

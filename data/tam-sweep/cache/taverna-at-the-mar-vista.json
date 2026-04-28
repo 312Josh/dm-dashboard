@@ -1,0 +1,76 @@
+{
+  "parent": "Taverna at the Mar Vista- Parent",
+  "slug": "taverna-at-the-mar-vista",
+  "total_headroom": "$25,080",
+  "non_ec_headroom": "$25,080",
+  "est_ec_headroom": "$0",
+  "employee_count": "45",
+  "non_ec_arr": "$22,152",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "mavro.acct@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Mavro",
+    "Taverna at the Mar Vista"
+  ],
+  "websites": [
+    "https://www.themarvista.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.themarvista.com/": {
+      "url": "https://www.themarvista.com/",
+      "html_bytes": 183261,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/taverna-at-the-mar-vista-12249-venice-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/taverna-at-the-mar-vista-12249-venice-blvd/giftcards"
+      }
+    },
+    "https://www.themarvista.com/menus": {
+      "url": "https://www.themarvista.com/menus",
+      "html_bytes": 138575,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/taverna-at-the-mar-vista-12249-venice-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/taverna-at-the-mar-vista-12249-venice-blvd/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/taverna-at-the-mar-vista-12249-venice-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/taverna-at-the-mar-vista-12249-venice-blvd/giftcards"
+  },
+  "marketplaces": [
+    "resy",
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001nWWzNYAW"
+}

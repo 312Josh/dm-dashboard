@@ -1,0 +1,56 @@
+{
+  "parent": "Ubon Thai Kitchen - Parent Account",
+  "slug": "ubon-thai-kitchen",
+  "total_headroom": "$20,180",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$1,820",
+  "employee_count": "11",
+  "non_ec_arr": "$3,600",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "suchada13@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ubon Thai Kitchen"
+  ],
+  "websites": [
+    "https://www.ubonthaikitchen.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ubonthaikitchen.com": {
+      "url": "https://www.ubonthaikitchen.com",
+      "html_bytes": 940528,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.ubonthaikitchen.com/menu": {
+      "url": "https://www.ubonthaikitchen.com/menu",
+      "html_bytes": 1486926,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001uPcqQAAS"
+}

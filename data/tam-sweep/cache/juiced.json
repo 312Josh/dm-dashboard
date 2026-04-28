@@ -1,0 +1,52 @@
+{
+  "parent": "Juiced - Parent",
+  "slug": "juiced",
+  "total_headroom": "$18,960",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$5,220",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "daniel@juicedhermosa.com",
+  "location_count": 1,
+  "location_names": [
+    "Juiced NEW"
+  ],
+  "websites": [
+    "https://www.juicedhermosa.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.juicedhermosa.com/": {
+      "url": "https://www.juicedhermosa.com/",
+      "html_bytes": 9343,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/goodsol",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/goodsol",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F4FlGQAV"
+}

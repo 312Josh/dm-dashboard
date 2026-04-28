@@ -1,0 +1,59 @@
+{
+  "parent": "Outdoor Grill - Parent Account",
+  "slug": "outdoor-grill",
+  "total_headroom": "$15,868",
+  "non_ec_headroom": "$14,412",
+  "est_ec_headroom": "$1,456",
+  "employee_count": "9",
+  "non_ec_arr": "$5,400",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "vdelrio@hospitality70.com",
+  "location_count": 1,
+  "location_names": [
+    "Outdoor Grill"
+  ],
+  "websites": [
+    "https://www.theoutdoorgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.theoutdoorgrill.com/": {
+      "url": "https://www.theoutdoorgrill.com/",
+      "html_bytes": 5521,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "online_ordering": "Popmenu",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20250925221303/https://www.theoutdoorgrill.com/",
+        "html_bytes": 312421,
+        "vendors": {
+          "website_cms": "Popmenu",
+          "online_ordering": "Popmenu",
+          "reservations": "OpenTable",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CNHaWQAX"
+}

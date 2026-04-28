@@ -1,0 +1,63 @@
+{
+  "parent": "X- Parent Account",
+  "slug": "x",
+  "total_headroom": "$21,120",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$1,680",
+  "employee_count": "10",
+  "non_ec_arr": "$2,700",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "kirk@padodumpling.com",
+  "location_count": 1,
+  "location_names": [
+    "X Restaurant"
+  ],
+  "websites": [
+    "https://www.xspeakeasy.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.xspeakeasy.com/": {
+      "url": "https://www.xspeakeasy.com/",
+      "html_bytes": 165838,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.xspeakeasy.com/menu": {
+      "url": "https://www.xspeakeasy.com/menu",
+      "html_bytes": 162339,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.xspeakeasy.com/bookings": {
+      "url": "https://www.xspeakeasy.com/bookings",
+      "html_bytes": 190110,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xfishQAA"
+}

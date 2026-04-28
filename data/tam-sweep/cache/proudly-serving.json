@@ -1,0 +1,141 @@
+{
+  "parent": "Proudly Serving - Parent",
+  "slug": "proudly-serving",
+  "total_headroom": "$59,940",
+  "non_ec_headroom": "$59,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "73",
+  "non_ec_arr": "$22,492",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "bobby@proudlyservingla.com",
+  "location_count": 4,
+  "location_names": [
+    "Proudly Serving - Events Offsite",
+    "Proudly Serving - Hermosa Beach",
+    "Proudly Serving - Redondo Beach",
+    "Proudly Serving - Long Beach"
+  ],
+  "websites": [
+    "https://proudlyservingla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://proudlyservingla.com/": {
+      "url": "https://proudlyservingla.com/",
+      "html_bytes": 329616,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "gift_cards": "Square Gift",
+        "pos_other": "Square",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/proudly-serving-hermosa-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://proudlyservingla.com/menu/h": {
+      "url": "https://proudlyservingla.com/menu/h",
+      "html_bytes": 329154,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "gift_cards": "Square Gift",
+        "pos_other": "Square",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/proudly-serving-hermosa-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://proudlyservingla.com/menu/g": {
+      "url": "https://proudlyservingla.com/menu/g",
+      "html_bytes": 330144,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "gift_cards": "Square Gift",
+        "pos_other": "Square",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/proudly-serving-hermosa-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://proudlyservingla.com/menu/menu": {
+      "url": "https://proudlyservingla.com/menu/menu",
+      "html_bytes": 329974,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "gift_cards": "Square Gift",
+        "pos_other": "Square",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/proudly-serving-hermosa-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://proudlyservingla.com/menu/h?location_id=2662": {
+      "url": "https://proudlyservingla.com/menu/h?location_id=2662",
+      "html_bytes": 329154,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "gift_cards": "Square Gift",
+        "pos_other": "Square",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/proudly-serving-hermosa-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://proudlyservingla.com/menu/g?location_id=2662": {
+      "url": "https://proudlyservingla.com/menu/g?location_id=2662",
+      "html_bytes": 330144,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "gift_cards": "Square Gift",
+        "pos_other": "Square",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/proudly-serving-hermosa-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://proudlyservingla.com/menu/menu?location_id=2662": {
+      "url": "https://proudlyservingla.com/menu/menu?location_id=2662",
+      "html_bytes": 329974,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "gift_cards": "Square Gift",
+        "pos_other": "Square",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/proudly-serving-hermosa-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/proudly-serving-hermosa-beach",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002tuW2vYAE"
+}

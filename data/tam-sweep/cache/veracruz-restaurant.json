@@ -1,0 +1,52 @@
+{
+  "parent": "Veracruz Restaurant- Parent Account",
+  "slug": "veracruz-restaurant",
+  "total_headroom": "$58,452",
+  "non_ec_headroom": "$58,452",
+  "est_ec_headroom": "$0",
+  "employee_count": "22",
+  "non_ec_arr": "$12,762",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "zleon86781@aol.com",
+  "location_count": 3,
+  "location_names": [
+    "Veracruz Restaurant - Whittier",
+    "Veracruz Restaurant - Santa Fe Springs",
+    "Blanca's Latin Kitchen & Bar"
+  ],
+  "websites": [
+    "https://www.veracruzfamilyrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.veracruzfamilyrestaurant.com/": {
+      "url": "https://www.veracruzfamilyrestaurant.com/",
+      "html_bytes": 782891,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.veracruzfamilyrestaurant.com/menu": {
+      "url": "https://www.veracruzfamilyrestaurant.com/menu",
+      "html_bytes": 1352623,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xeSbVQAU"
+}

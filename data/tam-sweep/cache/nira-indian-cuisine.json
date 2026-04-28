@@ -1,0 +1,42 @@
+{
+  "parent": "NIRA Indian Cuisine - Parent Account",
+  "slug": "nira-indian-cuisine",
+  "total_headroom": "$7,500",
+  "non_ec_headroom": "$7,500",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$6,816",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ranifoodsllc25@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "NIRA Indian Cuisine"
+  ],
+  "websites": [
+    "https://niraindian.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://niraindian.com/": {
+      "url": "https://niraindian.com/",
+      "html_bytes": 5490,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002X1TVSYA3"
+}

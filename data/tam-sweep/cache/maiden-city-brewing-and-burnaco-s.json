@@ -40,10 +40,12 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "maiden": "https://www.facebook.com/maidencitybrewing/",
     "burnaco": "https://www.facebook.com/p/Burnacos-100075539006784/"
-  }
+  },
+  "sfdc_account_id": "0014W00002NtGuxQAF"
 }

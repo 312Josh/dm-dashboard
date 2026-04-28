@@ -1,0 +1,44 @@
+{
+  "parent": "Nubia Cafe *New - Parent Account",
+  "slug": "nubia-cafe-new",
+  "total_headroom": "$21,504",
+  "non_ec_headroom": "$17,892",
+  "est_ec_headroom": "$3,612",
+  "employee_count": "22",
+  "non_ec_arr": "$3,814",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "saleh311998@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Nubia Cafe New"
+  ],
+  "websites": [
+    "https://nubiacafe.shop/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://nubiacafe.shop/": {
+      "url": "https://nubiacafe.shop/",
+      "html_bytes": 5537,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F3bagQAB"
+}

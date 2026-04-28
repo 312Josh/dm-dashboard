@@ -1,0 +1,45 @@
+{
+  "parent": "Pho HN - Parent Account",
+  "slug": "pho-hn",
+  "total_headroom": "$19,488",
+  "non_ec_headroom": "$19,320",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$2,835",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kcu@hatngo.us",
+  "location_count": 1,
+  "location_names": [
+    "Pho HN"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/pho-hn/r-e954e8c4-cb39-4f96-8a68-82efc996ca6d"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/pho-hn/r-e954e8c4-cb39-4f96-8a68-82efc996ca6d": {
+      "url": "https://www.toasttab.com/local/order/pho-hn/r-e954e8c4-cb39-4f96-8a68-82efc996ca6d",
+      "html_bytes": 5748,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037YYPsQAO"
+}

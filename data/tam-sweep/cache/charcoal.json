@@ -1,0 +1,206 @@
+{
+  "parent": "Charcoal Parent",
+  "slug": "charcoal",
+  "total_headroom": "$85,536",
+  "non_ec_headroom": "$85,536",
+  "est_ec_headroom": "$0",
+  "employee_count": "161",
+  "non_ec_arr": "$44,817",
+  "state": "CA",
+  "city": "Culver City",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "josiah@citrin-hospitality.com",
+  "location_count": 5,
+  "location_names": [
+    "Dear John's",
+    "Melisse",
+    "Dear Jane's",
+    "Charcoal",
+    "Augie’s LLC"
+  ],
+  "websites": [
+    "https://www.dearjohnsla.com/",
+    "https://www.melisse.com/",
+    "https://www.charcoalvenice.com/",
+    "https://www.augiesla.com/",
+    "https://www.dearjanesla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.dearjohnsla.com/": {
+      "url": "https://www.dearjohnsla.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.melisse.com/": {
+      "url": "https://www.melisse.com/",
+      "html_bytes": 138935,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/melissexcitrin/giftcards"
+      }
+    },
+    "https://www.melisse.com/reservations": {
+      "url": "https://www.melisse.com/reservations",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.melisse.com/gift-cards": {
+      "url": "https://www.melisse.com/gift-cards",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.melisse.com/menus": {
+      "url": "https://www.melisse.com/menus",
+      "html_bytes": 143,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.charcoalvenice.com/": {
+      "url": "https://www.charcoalvenice.com/",
+      "html_bytes": 228213,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/charcoal-venice",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/charcoal-venice/giftcards"
+      }
+    },
+    "https://www.charcoalvenice.com/order-online/": {
+      "url": "https://www.charcoalvenice.com/order-online/",
+      "html_bytes": 178389,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/charcoal-venice",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/charcoal-venice/giftcards"
+      }
+    },
+    "https://www.augiesla.com/": {
+      "url": "https://www.augiesla.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.dearjanesla.com/": {
+      "url": "https://www.dearjanesla.com/",
+      "html_bytes": 372950,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/dear-janes/giftcards",
+        "toast_oo_native": "order.toasttab.com/online/dear-janes",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.dearjanesla.com/menu-1": {
+      "url": "https://www.dearjanesla.com/menu-1",
+      "html_bytes": 232616,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/dear-janes/giftcards"
+      }
+    },
+    "https://www.dearjanesla.com/gift-cards": {
+      "url": "https://www.dearjanesla.com/gift-cards",
+      "html_bytes": 225034,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/dear-janes/giftcards"
+      }
+    },
+    "https://www.dearjanesla.com/order-gift-cards": {
+      "url": "https://www.dearjanesla.com/order-gift-cards",
+      "html_bytes": 225034,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/dear-janes/giftcards"
+      }
+    },
+    "https://www.dearjanesla.com/order-food": {
+      "url": "https://www.dearjanesla.com/order-food",
+      "html_bytes": 224453,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/dear-janes",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/dear-janes/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/melissexcitrin/giftcards",
+    "toast_oo_native": "order.toasttab.com/online/charcoal-venice",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "resy",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "dear john": "https://www.dearjohnsla.com/",
+    "melisse": "https://www.melisse.com/",
+    "charcoal": "https://www.charcoalvenice.com/",
+    "augie": "https://www.augiesla.com/",
+    "dear jane": "https://www.dearjanesla.com/"
+  },
+  "sfdc_account_id": "001C000001m5fdkIAA"
+}

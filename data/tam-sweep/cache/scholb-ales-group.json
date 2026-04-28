@@ -1,0 +1,43 @@
+{
+  "parent": "Scholb Ales Group",
+  "slug": "scholb-ales-group",
+  "total_headroom": "$43,324",
+  "non_ec_headroom": "$41,280",
+  "est_ec_headroom": "$2,044",
+  "employee_count": "13",
+  "non_ec_arr": "$1,260",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jason@drinkscholb.com",
+  "location_count": 2,
+  "location_names": [
+    "Scholb On the Water - Redondo Beach",
+    "Scholb Premium Ales"
+  ],
+  "websites": [
+    "https://www.drinkscholb.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.drinkscholb.com/": {
+      "url": "https://www.drinkscholb.com/",
+      "html_bytes": 634709,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001ilizrYAA"
+}

@@ -1,0 +1,53 @@
+{
+  "parent": "La Conner Brewing - PARENT",
+  "slug": "la-conner-brewing",
+  "total_headroom": "$41,880",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "31",
+  "non_ec_arr": "$4,494",
+  "state": "WA",
+  "city": "La Conner",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "erik@laconnerbrewery.com",
+  "location_count": 2,
+  "location_names": [
+    "Firehall Kitchen and Taphouse",
+    "La Conner Brewing"
+  ],
+  "websites": [
+    "https://www.laconnerbrewery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.laconnerbrewery.com/": {
+      "url": "https://www.laconnerbrewery.com/",
+      "html_bytes": 697338,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.laconnerbrewery.com/menu": {
+      "url": "https://www.laconnerbrewery.com/menu",
+      "html_bytes": 718119,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002daWXmQAM"
+}

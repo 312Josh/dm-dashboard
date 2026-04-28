@@ -1,0 +1,48 @@
+{
+  "parent": "Los Compadres Restaurant Parent Group",
+  "slug": "los-compadres-restaurant-parent-group",
+  "total_headroom": "$67,152",
+  "non_ec_headroom": "$40,776",
+  "est_ec_headroom": "$26,376",
+  "employee_count": "157",
+  "non_ec_arr": "$40,719",
+  "state": "CA",
+  "city": "Norwalk",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "etorres@loscompadresrestaurant.co",
+  "location_count": 3,
+  "location_names": [
+    "Los Compadres - Norwalk",
+    "Los Compadres Restaurant - Anaheim St.",
+    "Los Compadres Restaurant - Pine Ave."
+  ],
+  "websites": [
+    "https://loscompadresrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://loscompadresrestaurant.com/": {
+      "url": "https://loscompadresrestaurant.com/",
+      "html_bytes": 54202,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001uPZXHAA4"
+}

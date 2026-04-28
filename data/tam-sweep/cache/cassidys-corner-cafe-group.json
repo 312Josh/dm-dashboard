@@ -1,0 +1,61 @@
+{
+  "parent": "Cassidys Corner Cafe GROUP",
+  "slug": "cassidys-corner-cafe-group",
+  "total_headroom": "$45,108",
+  "non_ec_headroom": "$45,108",
+  "est_ec_headroom": "$0",
+  "employee_count": "46",
+  "non_ec_arr": "$26,055",
+  "state": "CA",
+  "city": "Eastvale",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "marianne@cassidyshamnerplace.com",
+  "location_count": 3,
+  "location_names": [
+    "Cassidy's Corner Cafe - Eastvale",
+    "Cassidy's Corner -- Chino",
+    "Cassidy's Corner Cafe - Lakewood - Drive Thru"
+  ],
+  "websites": [
+    "https://www.cassidyscornercafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cassidyscornercafe.com/": {
+      "url": "https://www.cassidyscornercafe.com/",
+      "html_bytes": 181013,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cassidys-corner-cafe-eastvale-12548-schleisman-road",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.cassidyscornercafe.com/special-orders/p/gift-card": {
+      "url": "https://www.cassidyscornercafe.com/special-orders/p/gift-card",
+      "html_bytes": 174353,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/cassidys-corner-cafe-eastvale-12548-schleisman-road",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003P322eQAB"
+}

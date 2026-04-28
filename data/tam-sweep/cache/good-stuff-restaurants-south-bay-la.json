@@ -1,0 +1,82 @@
+{
+  "parent": "Good Stuff Restaurants - South Bay LA",
+  "slug": "good-stuff-restaurants-south-bay-la",
+  "total_headroom": "$60,780",
+  "non_ec_headroom": "$60,780",
+  "est_ec_headroom": "$0",
+  "employee_count": "168",
+  "non_ec_arr": "$18,756",
+  "state": "CA",
+  "city": "Rolling Hills Estates",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cris@eatgoodstuff.com",
+  "location_count": 4,
+  "location_names": [
+    "Good Stuff Palos Verdes",
+    "Good Stuff Restaurant - Redondo Beach",
+    "Good Stuff Restaurant - El Segundo",
+    "Good Stuff - Hermosa Beach"
+  ],
+  "websites": [
+    "https://eatgoodstuff.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eatgoodstuff.com/": {
+      "url": "https://eatgoodstuff.com/",
+      "html_bytes": 405631,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Waitlist Me",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/good-stuff-redondo-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/good-stuff-palos-verdes/giftcards",
+        "toast_loyalty": "toasttab.com/good-stuff-redondo-beach/rewardsSignup"
+      }
+    },
+    "https://eatgoodstuff.com/loyalty/": {
+      "url": "https://eatgoodstuff.com/loyalty/",
+      "html_bytes": 259672,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Waitlist Me",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/good-stuff-redondo-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/good-stuff-palos-verdes/giftcards",
+        "toast_loyalty": "toasttab.com/good-stuff-redondo-beach/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/good-stuff-redondo-beach",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/good-stuff-palos-verdes/giftcards",
+    "toast_loyalty": "toasttab.com/good-stuff-redondo-beach/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001VU3cyIAD"
+}

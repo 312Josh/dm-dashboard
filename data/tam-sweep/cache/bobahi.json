@@ -1,0 +1,46 @@
+{
+  "parent": "bobaHi- Parent Account",
+  "slug": "bobahi",
+  "total_headroom": "$18,188",
+  "non_ec_headroom": "$15,612",
+  "est_ec_headroom": "$2,576",
+  "employee_count": "15",
+  "non_ec_arr": "$5,515",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "michael_555@icloud.com",
+  "location_count": 1,
+  "location_names": [
+    "bobaHi - Torrance"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/bobahi"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/bobahi": {
+      "url": "https://order.toasttab.com/online/bobahi",
+      "html_bytes": 5597,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xfifCQAQ"
+}

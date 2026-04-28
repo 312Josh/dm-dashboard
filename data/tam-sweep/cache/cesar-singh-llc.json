@@ -1,0 +1,56 @@
+{
+  "parent": "Cesar Singh LLC",
+  "slug": "cesar-singh-llc",
+  "total_headroom": "$34,080",
+  "non_ec_headroom": "$34,080",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$10,906",
+  "state": "CA",
+  "city": "Buena Park",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "izzyaala@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "EggZen",
+    "Gudetama Cafe"
+  ],
+  "websites": [
+    "https://eggzen.com/",
+    "https://gudetamacafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eggzen.com/": {
+      "url": "https://eggzen.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://gudetamacafe.com/": {
+      "url": "https://gudetamacafe.com/",
+      "html_bytes": 163013,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "ChowNow",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "eggzen": "https://eggzen.com/",
+    "gudetama": "https://gudetamacafe.com/"
+  },
+  "sfdc_account_id": "001PV00002NXylWYAT"
+}

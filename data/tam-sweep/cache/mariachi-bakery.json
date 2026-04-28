@@ -1,0 +1,108 @@
+{
+  "parent": "Mariachi Bakery Parent",
+  "slug": "mariachi-bakery",
+  "total_headroom": "$63,180",
+  "non_ec_headroom": "$52,848",
+  "est_ec_headroom": "$10,332",
+  "employee_count": "62",
+  "non_ec_arr": "$29,232",
+  "state": "CA",
+  "city": "Norwalk",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "juan@mariachibakery.com",
+  "location_count": 4,
+  "location_names": [
+    "Mariachi Bakery - Norwalk",
+    "Mariachi Bakery - Downey",
+    "Mariachi Bakery - Pico Rivera",
+    "Mariachi Bakery - Whittier"
+  ],
+  "websites": [
+    "https://www.mariachibakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mariachibakery.com/": {
+      "url": "https://www.mariachibakery.com/",
+      "html_bytes": 166764,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mariachi-bakery-pico-rivera-8967-washington-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.mariachibakery.com/menu/": {
+      "url": "https://www.mariachibakery.com/menu/",
+      "html_bytes": 164240,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.mariachibakery.com/order-online/": {
+      "url": "https://www.mariachibakery.com/order-online/",
+      "html_bytes": 91224,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mariachi-bakery-pico-rivera-8967-washington-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.mariachibakery.com/menu/cream/": {
+      "url": "https://www.mariachibakery.com/menu/cream/",
+      "html_bytes": 91830,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.mariachibakery.com/menu/clasicos/": {
+      "url": "https://www.mariachibakery.com/menu/clasicos/",
+      "html_bytes": 82496,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.mariachibakery.com/menu/lattes/": {
+      "url": "https://www.mariachibakery.com/menu/lattes/",
+      "html_bytes": 91758,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.mariachibakery.com/menu/cold-brew/": {
+      "url": "https://www.mariachibakery.com/menu/cold-brew/",
+      "html_bytes": 84246,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/mariachi-bakery-pico-rivera-8967-washington-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037YQ3TQAW"
+}

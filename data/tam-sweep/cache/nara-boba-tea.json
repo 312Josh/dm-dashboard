@@ -1,0 +1,45 @@
+{
+  "parent": "Nara Boba Tea - Parent Account",
+  "slug": "nara-boba-tea",
+  "total_headroom": "$42,900",
+  "non_ec_headroom": "$42,900",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$21,642",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kkperegrine@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Royal Thai Cuisine Subhannahong - Redondo Beach",
+    "Everything Noodle - El Segundo",
+    "Nara Boba Tea - Rolling Hills"
+  ],
+  "websites": [
+    "https://naraboba.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://naraboba.com/": {
+      "url": "https://naraboba.com/",
+      "html_bytes": 5488,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037YXQlQAO"
+}

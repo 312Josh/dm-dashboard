@@ -1,0 +1,58 @@
+{
+  "parent": "Gaburi Chicken - Parent Account",
+  "slug": "gaburi-chicken",
+  "total_headroom": "$21,592",
+  "non_ec_headroom": "$16,860",
+  "est_ec_headroom": "$4,732",
+  "employee_count": "28",
+  "non_ec_arr": "$7,200",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gaburichickenusa@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Gaburi Chicken"
+  ],
+  "websites": [
+    "https://gaburiusa.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gaburiusa.com/": {
+      "url": "https://gaburiusa.com/",
+      "html_bytes": 163974,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/gaburi-chicken",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/gaburi-chicken/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/gaburi-chicken",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/gaburi-chicken/giftcards"
+  },
+  "marketplaces": [
+    "resy",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000dK38DYAS"
+}

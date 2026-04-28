@@ -1,0 +1,44 @@
+{
+  "parent": "Sweet Wheat Bakery, LLC Parent",
+  "slug": "sweet-wheat-bakery-llc",
+  "total_headroom": "$13,128",
+  "non_ec_headroom": "$13,128",
+  "est_ec_headroom": "$0",
+  "employee_count": "39",
+  "non_ec_arr": "$15,582",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "rlecat@sweetwheatbakery.com",
+  "location_count": 2,
+  "location_names": [
+    "Sweet Wheat Bakery - Redondo",
+    "Sweet Wheat - Culver City"
+  ],
+  "websites": [
+    "https://sweetwheatbakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sweetwheatbakery.com/": {
+      "url": "https://sweetwheatbakery.com/",
+      "html_bytes": 5539,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001uP3oCAAS"
+}

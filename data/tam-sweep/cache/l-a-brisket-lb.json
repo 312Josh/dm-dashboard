@@ -1,0 +1,62 @@
+{
+  "parent": "L.A. Brisket LB Parent",
+  "slug": "l-a-brisket-lb",
+  "total_headroom": "$21,152",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$812",
+  "employee_count": "5",
+  "non_ec_arr": "$720",
+  "state": "CA",
+  "city": "ARTESIA",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "labcorp19@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "L.A. Brisket - Artesia 1"
+  ],
+  "websites": [
+    "https://labrisket.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://labrisket.com/": {
+      "url": "https://labrisket.com/",
+      "html_bytes": 217200,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://labrisket.com/menu-red-p/": {
+      "url": "https://labrisket.com/menu-red-p/",
+      "html_bytes": 256144,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://labrisket.com/order-online/#test": {
+      "url": "https://labrisket.com/order-online/#test",
+      "html_bytes": 220139,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001no4ZUAAY"
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "Beach Pizza - Parent Account",
+  "slug": "beach-pizza",
+  "total_headroom": "$15,244",
+  "non_ec_headroom": "$13,452",
+  "est_ec_headroom": "$1,792",
+  "employee_count": "11",
+  "non_ec_arr": "$5,034",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "cdominick@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Beach Pizza"
+  ],
+  "websites": [
+    "https://www.beachpizzaca.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.beachpizzaca.com/": {
+      "url": "https://www.beachpizzaca.com/",
+      "html_bytes": 194821,
+      "fingerprints": {
+        "oo": "Slice"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV000017zv1dYAA"
+}

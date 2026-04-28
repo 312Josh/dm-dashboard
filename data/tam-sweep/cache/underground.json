@@ -1,0 +1,48 @@
+{
+  "parent": "Underground - Parent",
+  "slug": "underground",
+  "total_headroom": "$41,108",
+  "non_ec_headroom": "$32,064",
+  "est_ec_headroom": "$9,044",
+  "employee_count": "54",
+  "non_ec_arr": "$3,364",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sethweisss@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Underground Pub and Grill - Hermosa Beach",
+    "Fox Den - Redondo Beach"
+  ],
+  "websites": [
+    "https://undergroundpubandgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://undergroundpubandgrill.com/": {
+      "url": "https://undergroundpubandgrill.com/",
+      "html_bytes": 182090,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001eIZMuIAO"
+}

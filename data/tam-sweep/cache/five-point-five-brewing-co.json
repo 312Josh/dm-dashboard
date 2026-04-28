@@ -1,0 +1,64 @@
+{
+  "parent": "Five Point Five Brewing Co - Parent Account",
+  "slug": "five-point-five-brewing-co",
+  "total_headroom": "$22,704",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,764",
+  "employee_count": "11",
+  "non_ec_arr": "$2,700",
+  "state": "CA",
+  "city": "El Segundo",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "jmontemagni@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Five Point Five Brewing Co"
+  ],
+  "websites": [
+    "https://www.fivepointfivebrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fivepointfivebrewing.com/": {
+      "url": "https://www.fivepointfivebrewing.com/",
+      "html_bytes": 270895,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/five-point-five-brewing-co-137-nevada-street/giftcards"
+      }
+    },
+    "https://www.fivepointfivebrewing.com/reservations": {
+      "url": "https://www.fivepointfivebrewing.com/reservations",
+      "html_bytes": 170027,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/five-point-five-brewing-co-137-nevada-street/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/five-point-five-brewing-co-137-nevada-street/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003GWfb5QAD"
+}

@@ -1,0 +1,128 @@
+{
+  "parent": "Simm's Restaurants Group",
+  "slug": "simm-s-restaurants-group",
+  "total_headroom": "$214,300",
+  "non_ec_headroom": "$140,604",
+  "est_ec_headroom": "$73,696",
+  "employee_count": "438",
+  "non_ec_arr": "$82,677",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "mike@simmsrestaurants.com",
+  "location_count": 8,
+  "location_names": [
+    "Tin Roof Bistro - Manhattan Beach",
+    "The Arthur J - Manhattan Beach",
+    "AttaGirl - Hermosa Beach",
+    "Manhattan Beach Post - Manhattan Beach",
+    "RYLA - Hermosa Beach",
+    "Fishing With Dynamite - Manhattan Beach",
+    "Simmzy's - Huntington Beach",
+    "Simmzy's - Long Beach"
+  ],
+  "websites": [
+    "https://www.eatmbpost.com/",
+    "https://simmzys.com/",
+    "https://www.eatattagirl.com/",
+    "https://www.thearthurj.com/",
+    "https://www.tinroofbistro.com/",
+    "https://www.eatryla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatmbpost.com/": {
+      "url": "https://www.eatmbpost.com/",
+      "html_bytes": 1082040,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://simmzys.com/": {
+      "url": "https://simmzys.com/",
+      "html_bytes": 250898,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "SevenRooms"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.myguestaccount.com/"
+      }
+    },
+    "https://www.eatattagirl.com/": {
+      "url": "https://www.eatattagirl.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.thearthurj.com/": {
+      "url": "https://www.thearthurj.com/",
+      "html_bytes": 372333,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.myguestaccount.com/"
+      }
+    },
+    "https://www.tinroofbistro.com/": {
+      "url": "https://www.tinroofbistro.com/",
+      "html_bytes": 183878,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "SevenRooms",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.tinroofbistro.com/menu/#pizza": {
+      "url": "https://www.tinroofbistro.com/menu/#pizza",
+      "html_bytes": 120569,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.eatryla.com/": {
+      "url": "https://www.eatryla.com/",
+      "html_bytes": 222284,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.myguestaccount.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "manhattan beach post": "https://www.eatmbpost.com/",
+    "simmzy": "https://simmzys.com/",
+    "attagirl": "https://www.eatattagirl.com/",
+    "arthur": "https://www.thearthurj.com/",
+    "tin roof": "https://www.tinroofbistro.com/",
+    "ryla": "https://www.eatryla.com/"
+  },
+  "sfdc_account_id": "0013c00001rzyDIAAY"
+}

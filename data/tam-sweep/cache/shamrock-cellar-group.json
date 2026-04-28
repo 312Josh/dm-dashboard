@@ -67,10 +67,12 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "shamrock": "https://www.shamrocksky.com/",
     "cellar": "https://www.yelp.com/biz/the-cellar-bar-and-grille-lexington"
-  }
+  },
+  "sfdc_account_id": "001C000001eI3IiIAK"
 }

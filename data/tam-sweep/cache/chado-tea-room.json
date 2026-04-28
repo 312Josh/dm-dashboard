@@ -1,0 +1,79 @@
+{
+  "parent": "Chado Tea Room - Parent Account",
+  "slug": "chado-tea-room",
+  "total_headroom": "$72,716",
+  "non_ec_headroom": "$69,972",
+  "est_ec_headroom": "$2,744",
+  "employee_count": "16",
+  "non_ec_arr": "$15,570",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "chadotearooms@gmail.com",
+  "location_count": 4,
+  "location_names": [
+    "Chado Tea Room Torrance",
+    "Chado Tea Room Downtown LA",
+    "Chado Tea Room Hollywood",
+    "Chado Tea Room Pasadena"
+  ],
+  "websites": [
+    "https://www.chadotearoom.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.chadotearoom.com/": {
+      "url": "https://www.chadotearoom.com/",
+      "html_bytes": 53252,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.chadotearoom.com/menu/": {
+      "url": "https://www.chadotearoom.com/menu/",
+      "html_bytes": 106482,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.chadotearoom.com/reserve-on-opentable/": {
+      "url": "https://www.chadotearoom.com/reserve-on-opentable/",
+      "html_bytes": 39871,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.chadotearoom.com/menus": {
+      "url": "https://www.chadotearoom.com/menus",
+      "html_bytes": 106482,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001no941AAA"
+}

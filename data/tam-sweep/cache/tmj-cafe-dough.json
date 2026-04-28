@@ -1,0 +1,54 @@
+{
+  "parent": "TMJ Cafe & Dough",
+  "slug": "tmj-cafe-dough",
+  "total_headroom": "$21,444",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "null",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "sreykuchsar.rith@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "TMJ Cafe & Dough"
+  ],
+  "websites": [
+    "https://tmjcafeanddough.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tmjcafeanddough.com/": {
+      "url": "https://tmjcafeanddough.com/",
+      "html_bytes": 245059,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    },
+    "https://tmjcafeanddough.com/menu": {
+      "url": "https://tmjcafeanddough.com/menu",
+      "html_bytes": 164954,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001nVpQKAA0"
+}

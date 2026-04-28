@@ -1,0 +1,59 @@
+{
+  "parent": "Local Yolk Group",
+  "slug": "local-yolk-group",
+  "total_headroom": "$81,532",
+  "non_ec_headroom": "$76,380",
+  "est_ec_headroom": "$5,152",
+  "employee_count": "31",
+  "non_ec_arr": "$6,960",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tee.daniel@ymail.com",
+  "location_count": 4,
+  "location_names": [
+    "Mongol King",
+    "New North End Caffe - Manhattan Beach 2026",
+    "The Local Yolk - Manhattan Beach",
+    "Cafe Wild - Manhattan Beach"
+  ],
+  "websites": [
+    "https://thelocalyolk.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thelocalyolk.com/": {
+      "url": "https://thelocalyolk.com/",
+      "html_bytes": 77657,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://thelocalyolk.com/menu": {
+      "url": "https://thelocalyolk.com/menu",
+      "html_bytes": 286316,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xd2g2QAA"
+}

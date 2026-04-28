@@ -1,0 +1,43 @@
+{
+  "parent": "Caesar's Mongolian BAR-B-Q - Parent Account",
+  "slug": "caesar-s-mongolian-bar-b-q",
+  "total_headroom": "$19,660",
+  "non_ec_headroom": "$18,120",
+  "est_ec_headroom": "$1,540",
+  "employee_count": "9",
+  "non_ec_arr": "$3,180",
+  "state": "CA",
+  "city": "Cerritos",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jefferywang1998@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Caesar's Mongolian BAR-B-Q"
+  ],
+  "websites": [
+    "https://caesars-bbq.res-menu.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://caesars-bbq.res-menu.net/": {
+      "url": "https://caesars-bbq.res-menu.net/",
+      "html_bytes": 5543,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000dv4tMYAQ"
+}

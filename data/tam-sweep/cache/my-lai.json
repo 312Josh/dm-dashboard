@@ -1,0 +1,44 @@
+{
+  "parent": "My lai Parent",
+  "slug": "my-lai",
+  "total_headroom": "$20,040",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$2,100",
+  "state": "CA",
+  "city": "Beverly Hills",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "tracipdavis@mylaikitchen.com",
+  "location_count": 1,
+  "location_names": [
+    "Shaci's House LLC"
+  ],
+  "websites": [
+    "https://mylaikitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mylaikitchen.com/": {
+      "url": "https://mylaikitchen.com/",
+      "html_bytes": 5492,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgwdAQAR"
+}

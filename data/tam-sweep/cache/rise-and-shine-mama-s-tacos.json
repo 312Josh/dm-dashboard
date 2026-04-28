@@ -1,0 +1,51 @@
+{
+  "parent": "Rise and Shine / Mama's Tacos - Parent Account",
+  "slug": "rise-and-shine-mama-s-tacos",
+  "total_headroom": "$15,852",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$6,462",
+  "state": "CA",
+  "city": "Harbor City",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "riseandshinecatering@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Rise and Shine Mama's Tacos"
+  ],
+  "websites": [
+    "https://mamastacosla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mamastacosla.com/": {
+      "url": "https://mamastacosla.com/",
+      "html_bytes": 5513,
+      "fingerprints": {
+        "loyalty": "Punchh",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20250315170541/https://mamastacosla.com/",
+        "html_bytes": 244609,
+        "vendors": {
+          "loyalty": "Punchh",
+          "catering_mention": "Catering copy"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003PXRmGQAX"
+}

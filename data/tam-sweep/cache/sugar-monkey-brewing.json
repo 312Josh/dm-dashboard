@@ -1,0 +1,42 @@
+{
+  "parent": "Sugar Monkey Brewing - Parent Account",
+  "slug": "sugar-monkey-brewing",
+  "total_headroom": "$17,172",
+  "non_ec_headroom": "$16,332",
+  "est_ec_headroom": "$840",
+  "employee_count": "5",
+  "non_ec_arr": "$6,408",
+  "state": "CA",
+  "city": "El Segundo",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "tommyginoza7@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sugar Monkey Brewing"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/sugar-monkey-brewing-339-indiana-street"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/sugar-monkey-brewing-339-indiana-street": {
+      "url": "https://www.toasttab.com/local/order/sugar-monkey-brewing-339-indiana-street",
+      "html_bytes": 5731,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000q4jFAYAY"
+}

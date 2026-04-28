@@ -1,0 +1,58 @@
+{
+  "parent": "Cafe Ruisseau - PARENT",
+  "slug": "cafe-ruisseau",
+  "total_headroom": "$61,536",
+  "non_ec_headroom": "$61,536",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$21,620",
+  "state": "CA",
+  "city": "Beverly Hills",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "oliverspop@gmail.com",
+  "location_count": 4,
+  "location_names": [
+    "Cafe Ruisseau - Beverly Hills",
+    "Black Line",
+    "Cafe Ruisseau - Playa Vista cart",
+    "Cafe Ruisseau - Santa Monica"
+  ],
+  "websites": [
+    "https://caferuisseau.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://caferuisseau.com/": {
+      "url": "https://caferuisseau.com/",
+      "html_bytes": 120242,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/caferuisseau-beverlyhills/giftcards",
+        "toast_loyalty": "toasttab.com/caferuisseau-beverlyhills/rewardsLookup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/caferuisseau-beverlyhills/giftcards",
+    "toast_loyalty": "toasttab.com/caferuisseau-beverlyhills/rewardsLookup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037VyODQA0"
+}

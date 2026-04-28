@@ -1,0 +1,51 @@
+{
+  "parent": "Cielo Karaoke Y Mas! Parent",
+  "slug": "cielo-karaoke-y-mas",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "17",
+  "non_ec_arr": "$3,780",
+  "state": "CA",
+  "city": "Corona",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "evanskitchen0220@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Palapas Tacos - Corona New"
+  ],
+  "websites": [
+    "https://cieloymas.bar/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cieloymas.bar/": {
+      "url": "https://cieloymas.bar/",
+      "html_bytes": 29853,
+      "fingerprints": {
+        "reservations": "Yelp Reservations",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://cieloymas.bar/menu.php": {
+      "url": "https://cieloymas.bar/menu.php",
+      "html_bytes": 11983,
+      "fingerprints": {
+        "reservations": "Yelp Reservations"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002W7yX5YAJ"
+}

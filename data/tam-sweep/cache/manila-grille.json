@@ -1,0 +1,59 @@
+{
+  "parent": "Manila grille - Parent Account",
+  "slug": "manila-grille",
+  "total_headroom": "$39,420",
+  "non_ec_headroom": "$39,420",
+  "est_ec_headroom": "$0",
+  "employee_count": "17",
+  "non_ec_arr": "$5,040",
+  "state": "CA",
+  "city": "Buena Park",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "manilagrille@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Manila grille",
+    "Manila Grille - Anaheim"
+  ],
+  "websites": [
+    "https://www.manilagrillebuenapark.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.manilagrillebuenapark.com/": {
+      "url": "https://www.manilagrillebuenapark.com/",
+      "html_bytes": 953617,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.manilagrillebuenapark.com/menu": {
+      "url": "https://www.manilagrillebuenapark.com/menu",
+      "html_bytes": 1476457,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F3LYyQAN"
+}

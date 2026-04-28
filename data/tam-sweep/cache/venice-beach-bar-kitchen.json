@@ -1,0 +1,48 @@
+{
+  "parent": "Venice Beach Bar & Kitchen - Parent Account",
+  "slug": "venice-beach-bar-kitchen",
+  "total_headroom": "$24,392",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$3,752",
+  "employee_count": "22",
+  "non_ec_arr": "$3,900",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nweng@ca.rr.com",
+  "location_count": 1,
+  "location_names": [
+    "Venice Beach Bar & Kitchen"
+  ],
+  "websites": [
+    "http://thevenicebeachbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://thevenicebeachbar.com/": {
+      "url": "http://thevenicebeachbar.com/",
+      "html_bytes": 72427,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "http://thevenicebeachbar.com/menus/": {
+      "url": "http://thevenicebeachbar.com/menus/",
+      "html_bytes": 5571,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xcN0qQAE"
+}

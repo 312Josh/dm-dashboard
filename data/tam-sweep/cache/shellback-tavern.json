@@ -1,0 +1,53 @@
+{
+  "parent": "Shellback Tavern",
+  "slug": "shellback-tavern",
+  "total_headroom": "$24,132",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$3,192",
+  "employee_count": "19",
+  "non_ec_arr": "$2,400",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bob.beverly@ymail.com",
+  "location_count": 1,
+  "location_names": [
+    "Shellback Tavern"
+  ],
+  "websites": [
+    "https://shellbacktavern.wixsite.com/mysite/about-us"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://shellbacktavern.wixsite.com/mysite/about-us": {
+      "url": "https://shellbacktavern.wixsite.com/mysite/about-us",
+      "html_bytes": 528704,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://shellbacktavern.wixsite.com/mysite/menu": {
+      "url": "https://shellbacktavern.wixsite.com/mysite/menu",
+      "html_bytes": 1195657,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001hubvxIAA"
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "The Cauldron - Parent Account",
+  "slug": "the-cauldron",
+  "total_headroom": "$21,792",
+  "non_ec_headroom": "$16,332",
+  "est_ec_headroom": "$5,460",
+  "employee_count": "33",
+  "non_ec_arr": "$6,369",
+  "state": "CA",
+  "city": "Buena Park",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "lara@thecauldronbar.com",
+  "location_count": 1,
+  "location_names": [
+    "The Cauldron"
+  ],
+  "websites": [
+    "https://www.thecauldronbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thecauldronbar.com/": {
+      "url": "https://www.thecauldronbar.com/",
+      "html_bytes": 740663,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CMtHxQAL"
+}

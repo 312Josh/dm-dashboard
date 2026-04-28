@@ -1,0 +1,57 @@
+{
+  "parent": "California Vintage Wine Bistro - Parent Account",
+  "slug": "california-vintage-wine-bistro",
+  "total_headroom": "$12,984",
+  "non_ec_headroom": "$12,984",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$7,591",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "earnest@lounge1888.com",
+  "location_count": 1,
+  "location_names": [
+    "California Vintage Wine Bistro"
+  ],
+  "websites": [
+    "https://californiavintagewine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://californiavintagewine.com/": {
+      "url": "https://californiavintagewine.com/",
+      "html_bytes": 159560,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Resy",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://californiavintagewine.com/menu/": {
+      "url": "https://californiavintagewine.com/menu/",
+      "html_bytes": 249420,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003JUo0bQAD"
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "South Bay Pizza - Parent Account",
+  "slug": "south-bay-pizza",
+  "total_headroom": "$21,172",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$532",
+  "employee_count": "3",
+  "non_ec_arr": "$1,620",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "info@southbaypizza.com",
+  "location_count": 1,
+  "location_names": [
+    "South Bay Pizza"
+  ],
+  "websites": [
+    "https://www.southbaypizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.southbaypizza.com/": {
+      "url": "https://www.southbaypizza.com/",
+      "html_bytes": 5519,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037VfHQQA0"
+}

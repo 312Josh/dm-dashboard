@@ -1,0 +1,45 @@
+{
+  "parent": "Sutadonya Parent",
+  "slug": "sutadonya",
+  "total_headroom": "$29,544",
+  "non_ec_headroom": "$29,544",
+  "est_ec_headroom": "$0",
+  "employee_count": "24",
+  "non_ec_arr": "$10,952",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "t.imanaga@antoworks.com",
+  "location_count": 2,
+  "location_names": [
+    "Sutadonya Restaurant - Torrance",
+    "Sutadonya - Chicago"
+  ],
+  "websites": [
+    "https://hellosutadonya.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hellosutadonya.com/": {
+      "url": "https://hellosutadonya.com/",
+      "html_bytes": 5580,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002msIiUQAU"
+}

@@ -1,0 +1,55 @@
+{
+  "parent": "Avenue Italy Parent",
+  "slug": "avenue-italy",
+  "total_headroom": "$18,000",
+  "non_ec_headroom": "$14,892",
+  "est_ec_headroom": "$3,108",
+  "employee_count": "19",
+  "non_ec_arr": "$5,286",
+  "state": "CA",
+  "city": "Rancho Palos Verdes",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "ssanjar@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Avenue Italy"
+  ],
+  "websites": [
+    "https://avenueitaly.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://avenueitaly.com/": {
+      "url": "https://avenueitaly.com/",
+      "html_bytes": 161833,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/avenue-italy",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/avenue-italy",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001mKM5kIAG"
+}

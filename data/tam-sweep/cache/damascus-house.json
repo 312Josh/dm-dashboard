@@ -1,0 +1,44 @@
+{
+  "parent": "Damascus House - Parent Account",
+  "slug": "damascus-house",
+  "total_headroom": "$18,204",
+  "non_ec_headroom": "$18,204",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$4,393",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "aalweheiby@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Damascus House"
+  ],
+  "websites": [
+    "https://damascushousecuisine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://damascushousecuisine.com/": {
+      "url": "https://damascushousecuisine.com/",
+      "html_bytes": 5543,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001Ij83OYAR"
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Grunion's Sports Bar - Manhattan Beach - Parent Account",
+  "slug": "grunion-s-sports-bar-manhattan-beach",
+  "total_headroom": "$22,324",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$2,884",
+  "employee_count": "17",
+  "non_ec_arr": "$4,320",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "grunionsmb@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Grunion's Sports Bar - Manhattan Beach"
+  ],
+  "websites": [
+    "http://grunionssportsbarandgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://grunionssportsbarandgrill.com/": {
+      "url": "http://grunionssportsbarandgrill.com/",
+      "html_bytes": 9599,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001eGZhdIAG"
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "Phuket Thai Restaurant - Parent Account",
+  "slug": "phuket-thai-restaurant",
+  "total_headroom": "$17,472",
+  "non_ec_headroom": "$17,472",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$4,727",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "maiqvu@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Phuket Thai - Redondo Beach"
+  ],
+  "websites": [
+    "https://phuketthairedondo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://phuketthairedondo.com/": {
+      "url": "https://phuketthairedondo.com/",
+      "html_bytes": 5519,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037YXQCQA4"
+}

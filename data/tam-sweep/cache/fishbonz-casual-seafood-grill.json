@@ -1,0 +1,57 @@
+{
+  "parent": "Fishbonz Casual Seafood Grill - Parent",
+  "slug": "fishbonz-casual-seafood-grill",
+  "total_headroom": "$43,192",
+  "non_ec_headroom": "$37,200",
+  "est_ec_headroom": "$5,992",
+  "employee_count": "36",
+  "non_ec_arr": "$10,740",
+  "state": "CA",
+  "city": "Costa Mesa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "derek@fishbonzgrill.com",
+  "location_count": 2,
+  "location_names": [
+    "Simply Fish Seafood",
+    "FishBonz Grill - Torrance"
+  ],
+  "websites": [
+    "https://www.fishbonzgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fishbonzgrill.com/": {
+      "url": "https://www.fishbonzgrill.com/",
+      "html_bytes": 32273,
+      "fingerprints": {},
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.fishbonzgrill.com/"
+      }
+    },
+    "https://www.fishbonzgrill.com/rewards": {
+      "url": "https://www.fishbonzgrill.com/rewards",
+      "html_bytes": 21774,
+      "fingerprints": {},
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.fishbonzgrill.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.fishbonzgrill.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002msaEMQAY"
+}

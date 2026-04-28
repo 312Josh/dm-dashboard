@@ -1,0 +1,88 @@
+{
+  "parent": "Barsha Group",
+  "slug": "barsha-group",
+  "total_headroom": "$57,672",
+  "non_ec_headroom": "$57,672",
+  "est_ec_headroom": "$0",
+  "employee_count": "24",
+  "non_ec_arr": "$2,340",
+  "state": "CA",
+  "city": "El Segundo",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "contact@barshalife.com",
+  "location_count": 3,
+  "location_names": [
+    "El Segundo Barsha - Wines",
+    "Barsha Wine & Spirits - Manhattan Beach",
+    "Barsha Restaurant - Hermosa Beach"
+  ],
+  "websites": [
+    "https://barshalife.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://barshalife.com/": {
+      "url": "https://barshalife.com/",
+      "html_bytes": 233013,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/barsha-restaurant",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/barsha-restaurant/giftcards"
+      }
+    },
+    "https://barshalife.com/collections/gift-card": {
+      "url": "https://barshalife.com/collections/gift-card",
+      "html_bytes": 258344,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/barsha-restaurant",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/barsha-restaurant/giftcards"
+      }
+    },
+    "https://barshalife.com/products/gift-card-1": {
+      "url": "https://barshalife.com/products/gift-card-1",
+      "html_bytes": 271662,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/barsha-restaurant",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/barsha-restaurant/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/barsha-restaurant",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/barsha-restaurant/giftcards"
+  },
+  "marketplaces": [
+    "resy",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001mIYryYAG"
+}

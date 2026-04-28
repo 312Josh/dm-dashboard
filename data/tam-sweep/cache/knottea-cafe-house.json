@@ -1,0 +1,50 @@
+{
+  "parent": "Knottea cafe house - Parent Account",
+  "slug": "knottea-cafe-house",
+  "total_headroom": "$17,052",
+  "non_ec_headroom": "$17,052",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$3,460",
+  "state": "CA",
+  "city": "Stanton",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "knotteacafe24@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Knottea cafe house"
+  ],
+  "websites": [
+    "https://knotteacafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://knotteacafe.com/": {
+      "url": "https://knotteacafe.com/",
+      "html_bytes": 74195,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    },
+    "https://knotteacafe.com/menu": {
+      "url": "https://knotteacafe.com/menu",
+      "html_bytes": 564,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003PXOXgQAP"
+}

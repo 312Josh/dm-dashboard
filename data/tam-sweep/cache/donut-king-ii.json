@@ -1,0 +1,43 @@
+{
+  "parent": "Donut king II",
+  "slug": "donut-king-ii",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,200",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "socheata_hang@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Donut king II"
+  ],
+  "websites": [
+    "https://www.facebook.com/officialdonutking2/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/officialdonutking2/": {
+      "url": "https://www.facebook.com/officialdonutking2/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xg01cQAA"
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "Alas Toxicas - Parent Account",
+  "slug": "alas-toxicas",
+  "total_headroom": "$12,736",
+  "non_ec_headroom": "$12,372",
+  "est_ec_headroom": "$364",
+  "employee_count": "2",
+  "non_ec_arr": "$8,005",
+  "state": "CA",
+  "city": "Cerritos",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "alastoxicas@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "Alas Toxicas"
+  ],
+  "websites": [
+    "https://alastoxicas.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://alastoxicas.com/": {
+      "url": "https://alastoxicas.com/",
+      "html_bytes": 122864,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000033uAZEQA2"
+}

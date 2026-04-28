@@ -1,0 +1,49 @@
+{
+  "parent": "La Botaneria Fruits & Juice - Whittier - PARENT",
+  "slug": "la-botaneria-fruits-juice-whittier",
+  "total_headroom": "$19,608",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,620",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "sgt_lomas@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "La Botaneria Fruits & Juice - Whittier"
+  ],
+  "websites": [
+    "https://maleconsinaloense.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://maleconsinaloense.com/": {
+      "url": "https://maleconsinaloense.com/",
+      "html_bytes": 76806,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/la-botaneria-fruits-juices-pico-rivera",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/la-botaneria-fruits-juices-pico-rivera",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003GWex7QAD"
+}

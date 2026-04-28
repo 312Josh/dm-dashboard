@@ -1,0 +1,43 @@
+{
+  "parent": "Yasai Japanese Grill - Parent Account",
+  "slug": "yasai-japanese-grill",
+  "total_headroom": "$16,636",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$784",
+  "employee_count": "5",
+  "non_ec_arr": "$6,727",
+  "state": "CA",
+  "city": "Norwalk",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "basarausa@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Yasai Japanese Grill"
+  ],
+  "websites": [
+    "https://yasaijapanesegrill.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://yasaijapanesegrill.toast.site/": {
+      "url": "https://yasaijapanesegrill.toast.site/",
+      "html_bytes": 5548,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001DiHpxYAF"
+}

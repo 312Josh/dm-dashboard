@@ -1,0 +1,44 @@
+{
+  "parent": "Palos Verdes Golf Club - Parent Account",
+  "slug": "palos-verdes-golf-club",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,200",
+  "state": "CA",
+  "city": "Palos Verdes Est",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "dave@pvgc.com",
+  "location_count": 1,
+  "location_names": [
+    "Palos Verdes Golf Club - Palos Verdes"
+  ],
+  "websites": [
+    "https://www.pvgc.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pvgc.com/": {
+      "url": "https://www.pvgc.com/",
+      "html_bytes": 30909,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001mK1OuYAK"
+}

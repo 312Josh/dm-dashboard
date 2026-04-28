@@ -1,0 +1,60 @@
+{
+  "parent": "Shootz Parent",
+  "slug": "shootz",
+  "total_headroom": "$103,236",
+  "non_ec_headroom": "$90,300",
+  "est_ec_headroom": "$12,936",
+  "employee_count": "77",
+  "non_ec_arr": "$24,918",
+  "state": "CA",
+  "city": "Stanton",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "harold@shootzhawaiian.com",
+  "location_count": 5,
+  "location_names": [
+    "Shootz",
+    "Shootz - Ontario Eastvale",
+    "Shootz Whittier - NEW",
+    "Shootz - SJC",
+    "Shootz - Long Beach"
+  ],
+  "websites": [
+    "https://eatshootz.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eatshootz.com/": {
+      "url": "https://eatshootz.com/",
+      "html_bytes": 312061,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://eatshootz.com/menu/shootz-menu": {
+      "url": "https://eatshootz.com/menu/shootz-menu",
+      "html_bytes": 317957,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://eatshootz.com/ordering": {
+      "url": "https://eatshootz.com/ordering",
+      "html_bytes": 288345,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002Zm9ylQAB"
+}

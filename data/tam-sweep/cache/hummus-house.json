@@ -1,0 +1,67 @@
+{
+  "parent": "Hummus House - Parent Account",
+  "slug": "hummus-house",
+  "total_headroom": "$17,220",
+  "non_ec_headroom": "$17,220",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$4,951",
+  "state": "CA",
+  "city": "Hawthorne",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "siraajhaque@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Hummus House"
+  ],
+  "websites": [
+    "https://hummus-house.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hummus-house.com/": {
+      "url": "https://hummus-house.com/",
+      "html_bytes": 276661,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://hummus-house.com/menu/": {
+      "url": "https://hummus-house.com/menu/",
+      "html_bytes": 317062,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001XP7GwIAL"
+}

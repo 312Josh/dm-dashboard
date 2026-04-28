@@ -1,0 +1,140 @@
+{
+  "parent": "Mom Said Yes Group (Justin) - Parent Account",
+  "slug": "mom-said-yes-group-justin",
+  "total_headroom": "$13,200",
+  "non_ec_headroom": "$13,200",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$9,222",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "justin@momsaidyes.live",
+  "location_count": 1,
+  "location_names": [
+    "Mom Said Yes - Redondo Beach"
+  ],
+  "websites": [
+    "https://momsaidyes.live/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://momsaidyes.live/": {
+      "url": "https://momsaidyes.live/",
+      "html_bytes": 364652,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Tock",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mom-said-yes-torrance-4525-calle-mayor",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://momsaidyes.live/menu/mom-said-yes-menu/": {
+      "url": "https://momsaidyes.live/menu/mom-said-yes-menu/",
+      "html_bytes": 553083,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Tock",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mom-said-yes-torrance-4525-calle-mayor",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://momsaidyes.live/menu/menu-food-in-torrance/": {
+      "url": "https://momsaidyes.live/menu/menu-food-in-torrance/",
+      "html_bytes": 553083,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Tock",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mom-said-yes-torrance-4525-calle-mayor",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://momsaidyes.live/menu/brunch-torrance/": {
+      "url": "https://momsaidyes.live/menu/brunch-torrance/",
+      "html_bytes": 246193,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Tock",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mom-said-yes-torrance-4525-calle-mayor",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://momsaidyes.live/menu/pizza-torrance/": {
+      "url": "https://momsaidyes.live/menu/pizza-torrance/",
+      "html_bytes": 323994,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Tock",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mom-said-yes-torrance-4525-calle-mayor",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://momsaidyes.live/menu/smash-burger-torrance/": {
+      "url": "https://momsaidyes.live/menu/smash-burger-torrance/",
+      "html_bytes": 296473,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Tock",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mom-said-yes-torrance-4525-calle-mayor",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://momsaidyes.live/menu/best-bar-in-torrance/": {
+      "url": "https://momsaidyes.live/menu/best-bar-in-torrance/",
+      "html_bytes": 363926,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Tock",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mom-said-yes-torrance-4525-calle-mayor",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/mom-said-yes-torrance-4525-calle-mayor",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001cKuKjYAK"
+}

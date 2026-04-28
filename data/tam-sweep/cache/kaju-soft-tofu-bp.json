@@ -1,0 +1,101 @@
+{
+  "parent": "Kaju Soft Tofu - BP Parent",
+  "slug": "kaju-soft-tofu-bp",
+  "total_headroom": "$22,200",
+  "non_ec_headroom": "$22,200",
+  "est_ec_headroom": "$0",
+  "employee_count": "33",
+  "non_ec_arr": "$23,068",
+  "state": "CA",
+  "city": "Buena Park",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@kajusofttofu.net",
+  "location_count": 2,
+  "location_names": [
+    "Kaju Soft Tofu - Buena Park",
+    "Kaju Soft Tofu - Garden Grove"
+  ],
+  "websites": [
+    "https://www.kajusofttofu.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.kajusofttofu.net/": {
+      "url": "https://www.kajusofttofu.net/",
+      "html_bytes": 669954,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/kaju-soft-tofu-garden-grove-8895-garden-grove-boulevard/rewardsSignup"
+      }
+    },
+    "https://www.kajusofttofu.net/menu": {
+      "url": "https://www.kajusofttofu.net/menu",
+      "html_bytes": 1207249,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/kaju-soft-tofu-garden-grove-8895-garden-grove-boulevard/rewardsSignup"
+      }
+    },
+    "https://www.kajusofttofu.net/menu?location=Kaju+Garden+Grove": {
+      "url": "https://www.kajusofttofu.net/menu?location=Kaju+Garden+Grove",
+      "html_bytes": 1207598,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/kaju-soft-tofu-garden-grove-8895-garden-grove-boulevard/rewardsSignup"
+      }
+    },
+    "https://www.kajusofttofu.net/menu?location=Kaju+Garden+Grove&amp;menu=a-la-carte": {
+      "url": "https://www.kajusofttofu.net/menu?location=Kaju+Garden+Grove&amp;menu=a-la-carte",
+      "html_bytes": 1207599,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/kaju-soft-tofu-garden-grove-8895-garden-grove-boulevard/rewardsSignup"
+      }
+    },
+    "https://www.kajusofttofu.net/menu?location=Kaju+Garden+Grove&amp;menu=signature-korean-dish": {
+      "url": "https://www.kajusofttofu.net/menu?location=Kaju+Garden+Grove&amp;menu=signature-korean-dish",
+      "html_bytes": 1208049,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/kaju-soft-tofu-garden-grove-8895-garden-grove-boulevard/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/kaju-soft-tofu-garden-grove-8895-garden-grove-boulevard/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037XR69QAG"
+}

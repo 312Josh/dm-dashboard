@@ -1,0 +1,87 @@
+{
+  "parent": "Sugo - Palos Verdes - Parent Account",
+  "slug": "sugo-palos-verdes",
+  "total_headroom": "$18,740",
+  "non_ec_headroom": "$15,912",
+  "est_ec_headroom": "$2,828",
+  "employee_count": "17",
+  "non_ec_arr": "$7,486",
+  "state": "CA",
+  "city": "Palos Verdes Est",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gloria@loomaspace.com",
+  "location_count": 1,
+  "location_names": [
+    "Sugo - Palo Verdes"
+  ],
+  "websites": [
+    "https://www.sugopv.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sugopv.com/": {
+      "url": "https://www.sugopv.com/",
+      "html_bytes": 200713,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sugo-palo-verdes-550-deep-valley-drive-unit-265",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/sugo-palo-verdes-550-deep-valley-drive-unit-265/giftcards"
+      }
+    },
+    "https://www.sugopv.com/menu": {
+      "url": "https://www.sugopv.com/menu",
+      "html_bytes": 461874,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sugo-palo-verdes-550-deep-valley-drive-unit-265",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/sugo-palo-verdes-550-deep-valley-drive-unit-265/giftcards"
+      }
+    },
+    "https://www.sugopv.com/reservations": {
+      "url": "https://www.sugopv.com/reservations",
+      "html_bytes": 131829,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sugo-palo-verdes-550-deep-valley-drive-unit-265",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/sugo-palo-verdes-550-deep-valley-drive-unit-265/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/sugo-palo-verdes-550-deep-valley-drive-unit-265",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/sugo-palo-verdes-550-deep-valley-drive-unit-265/giftcards"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000j2BezYAE"
+}

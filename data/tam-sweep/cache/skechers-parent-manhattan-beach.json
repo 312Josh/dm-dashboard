@@ -1,0 +1,44 @@
+{
+  "parent": "Skechers Parent Manhattan Beach",
+  "slug": "skechers-parent-manhattan-beach",
+  "total_headroom": "$17,112",
+  "non_ec_headroom": "$17,112",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$4,428",
+  "state": "CA",
+  "city": "Rancho Belago",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "davidw@skechers.com",
+  "location_count": 1,
+  "location_names": [
+    "Skechers - Moreno Valley"
+  ],
+  "websites": [
+    "https://about.skechers.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://about.skechers.com/": {
+      "url": "https://about.skechers.com/",
+      "html_bytes": 105950,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001uPcsbAAC"
+}

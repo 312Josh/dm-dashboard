@@ -1,0 +1,49 @@
+{
+  "parent": "Pho May - Cypress - Parent Account",
+  "slug": "pho-may-cypress",
+  "total_headroom": "$57,144",
+  "non_ec_headroom": "$57,144",
+  "est_ec_headroom": "$0",
+  "employee_count": "52",
+  "non_ec_arr": "$31,877",
+  "state": "CA",
+  "city": "Cypress",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "23ngovann@gmail.com",
+  "location_count": 4,
+  "location_names": [
+    "Pho May Cypress - Valley View - New ownership",
+    "Pho May - Huntington Beach",
+    "Pho May - Cypress - Walker St.",
+    "Pho May - Hawaiian Gardens"
+  ],
+  "websites": [
+    "https://phomay.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://phomay.com/": {
+      "url": "https://phomay.com/",
+      "html_bytes": 5935,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001AumOfYAJ"
+}

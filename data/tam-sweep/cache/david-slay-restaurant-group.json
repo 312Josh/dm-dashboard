@@ -1,0 +1,141 @@
+{
+  "parent": "David Slay Restaurant Group",
+  "slug": "david-slay-restaurant-group",
+  "total_headroom": "$52,248",
+  "non_ec_headroom": "$52,248",
+  "est_ec_headroom": "$0",
+  "employee_count": "125",
+  "non_ec_arr": "$15,373",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "david@slay.la",
+  "location_count": 3,
+  "location_names": [
+    "Slay Steak & Fish House",
+    "Fete Bistro By Slay",
+    "Slay's Italian Kitchen"
+  ],
+  "websites": [
+    "https://www.slaysteakandfishhouse.com/",
+    "https://www.fetebyslay.com/",
+    "https://www.slayitaliankitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.slaysteakandfishhouse.com/": {
+      "url": "https://www.slaysteakandfishhouse.com/",
+      "html_bytes": 55618,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/slay-steak-fish-house/giftcards"
+      }
+    },
+    "https://www.slaysteakandfishhouse.com/menus/": {
+      "url": "https://www.slaysteakandfishhouse.com/menus/",
+      "html_bytes": 44010,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/slay-steak-fish-house/giftcards"
+      }
+    },
+    "https://www.fetebyslay.com/": {
+      "url": "https://www.fetebyslay.com/",
+      "html_bytes": 33821,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/fete-bistro-by-slay-1017-manhattan-avenue",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/fete-bistro-by-slay-1017-manhattan-avenue/giftcards"
+      }
+    },
+    "https://www.fetebyslay.com/menus/": {
+      "url": "https://www.fetebyslay.com/menus/",
+      "html_bytes": 35434,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/fete-bistro-by-slay-1017-manhattan-avenue",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/fete-bistro-by-slay-1017-manhattan-avenue/giftcards"
+      }
+    },
+    "https://www.slayitaliankitchen.com/": {
+      "url": "https://www.slayitaliankitchen.com/",
+      "html_bytes": 41062,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/slayitalaliankitchen",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/slayitalaliankitchen/giftcards"
+      }
+    },
+    "https://www.slayitaliankitchen.com/menus/": {
+      "url": "https://www.slayitaliankitchen.com/menus/",
+      "html_bytes": 37619,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/slayitalaliankitchen",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/slayitalaliankitchen/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/slay-steak-fish-house/giftcards",
+    "toast_oo_native": "order.toasttab.com/online/fete-bistro-by-slay-1017-manhattan-avenue",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "slay steak": "https://www.slaysteakandfishhouse.com/",
+    "fete": "https://www.fetebyslay.com/",
+    "italian": "https://www.slayitaliankitchen.com/"
+  },
+  "sfdc_account_id": "0013c00001nncgQAAQ"
+}

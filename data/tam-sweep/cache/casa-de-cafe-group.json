@@ -1,0 +1,56 @@
+{
+  "parent": "Casa De Cafe - GROUP",
+  "slug": "casa-de-cafe-group",
+  "total_headroom": "$19,512",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$672",
+  "employee_count": "4",
+  "non_ec_arr": "$2,640",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ulises@casadecafehp.com",
+  "location_count": 1,
+  "location_names": [
+    "CASA DE CAFE"
+  ],
+  "websites": [
+    "https://casadecafe.com.mx/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://casadecafe.com.mx/": {
+      "url": "https://casadecafe.com.mx/",
+      "html_bytes": 101114,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "HubSpot"
+      },
+      "toast": {}
+    },
+    "https://casadecafe.com.mx/menu/": {
+      "url": "https://casadecafe.com.mx/menu/",
+      "html_bytes": 185420,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "HubSpot"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CNMZiQAP"
+}

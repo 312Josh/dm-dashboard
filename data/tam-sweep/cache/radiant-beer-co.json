@@ -1,0 +1,63 @@
+{
+  "parent": "Radiant Beer Co. - Parent Account",
+  "slug": "radiant-beer-co",
+  "total_headroom": "$20,152",
+  "non_ec_headroom": "$16,512",
+  "est_ec_headroom": "$3,640",
+  "employee_count": "22",
+  "non_ec_arr": "$6,564",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "bridenbecker@radiantbeer.com",
+  "location_count": 1,
+  "location_names": [
+    "Radiant Beer Co."
+  ],
+  "websites": [
+    "https://www.radiantbeer.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.radiantbeer.com/": {
+      "url": "https://www.radiantbeer.com/",
+      "html_bytes": 179248,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/radiant-beer-co-1566-w-lincoln-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.radiantbeer.com/pages/booking": {
+      "url": "https://www.radiantbeer.com/pages/booking",
+      "html_bytes": 133019,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/radiant-beer-co-1566-w-lincoln-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/radiant-beer-co-1566-w-lincoln-ave",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037Y4qSQAS"
+}

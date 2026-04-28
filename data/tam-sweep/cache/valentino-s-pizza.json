@@ -1,0 +1,44 @@
+{
+  "parent": "Valentino’s Pizza - Parent Account",
+  "slug": "valentino-s-pizza",
+  "total_headroom": "$14,652",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$540",
+  "state": "CA",
+  "city": "Hawaiian Gardens",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "philipalanouf@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Valentino’s Pizza"
+  ],
+  "websites": [
+    "https://valentinospizzahg.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://valentinospizzahg.com/": {
+      "url": "https://valentinospizzahg.com/",
+      "html_bytes": 5540,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003JVAzdQAH"
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "Baby Blues BBQ",
+  "slug": "baby-blues-bbq",
+  "total_headroom": "$18,180",
+  "non_ec_headroom": "$18,180",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$5,655",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "rick@babybluesbbq.com",
+  "location_count": 1,
+  "location_names": [
+    "Baby Blues BBQ Venice"
+  ],
+  "websites": [
+    "https://babybluesbbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://babybluesbbq.com/": {
+      "url": "https://babybluesbbq.com/",
+      "html_bytes": 167184,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/baby-blues-bbq-venice",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/baby-blues-bbq-venice",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001YXTrLIAX"
+}

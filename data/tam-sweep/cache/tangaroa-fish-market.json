@@ -1,0 +1,56 @@
+{
+  "parent": "Tangaroa Fish Market - PARENT",
+  "slug": "tangaroa-fish-market",
+  "total_headroom": "$21,088",
+  "non_ec_headroom": "$17,952",
+  "est_ec_headroom": "$3,136",
+  "employee_count": "19",
+  "non_ec_arr": "$5,748",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mark.tfmraw@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tangaroa Fish Market & Raw Bar"
+  ],
+  "websites": [
+    "https://tfmraw.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tfmraw.com/": {
+      "url": "https://tfmraw.com/",
+      "html_bytes": 165732,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "reservations": "SevenRooms",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tangaroa-fish-market",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/tangaroa-fish-market",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001kfPNQIA2"
+}

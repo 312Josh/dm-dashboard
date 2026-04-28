@@ -1,0 +1,47 @@
+{
+  "parent": "Ragin Cajun Cafe - Redondo Beach- Parent Account",
+  "slug": "ragin-cajun-cafe-redondo-beach",
+  "total_headroom": "$21,912",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$2,772",
+  "employee_count": "17",
+  "non_ec_arr": "$7,200",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ragincajuncaferb@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Ragin Cajun Cafe - Redondo Beach"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/ragin-cajun-cafe-redondo-beach-525-s-pacific-coast-hwy"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/ragin-cajun-cafe-redondo-beach-525-s-pacific-coast-hwy": {
+      "url": "https://order.toasttab.com/online/ragin-cajun-cafe-redondo-beach-525-s-pacific-coast-hwy",
+      "html_bytes": 5805,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002RqIpdQAF"
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "Cafe LA",
+  "slug": "cafe-la",
+  "total_headroom": "$16,908",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,554",
+  "state": "CA",
+  "city": "Culver City",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "joeblatchford@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Cafe LA"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xd3umQAA"
+}

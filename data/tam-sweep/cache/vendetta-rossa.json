@@ -1,0 +1,44 @@
+{
+  "parent": "Vendetta Rossa - Parent Account",
+  "slug": "vendetta-rossa",
+  "total_headroom": "$17,772",
+  "non_ec_headroom": "$17,772",
+  "est_ec_headroom": "$0",
+  "employee_count": "2",
+  "non_ec_arr": "$5,388",
+  "state": "CA",
+  "city": "Lomita",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ghostburgercalifornia@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Vendetta Rossa"
+  ],
+  "websites": [
+    "https://vendettarossa.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://vendettarossa.com/": {
+      "url": "https://vendettarossa.com/",
+      "html_bytes": 5536,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037XxRlQAK"
+}

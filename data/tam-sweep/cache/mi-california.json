@@ -1,0 +1,46 @@
+{
+  "parent": "Mi California - Parent Account",
+  "slug": "mi-california",
+  "total_headroom": "$16,950",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$210",
+  "employee_count": "1",
+  "non_ec_arr": "$4,545",
+  "state": "CA",
+  "city": "Hawthorne",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "micaliforniarestaurantinc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mi California"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/mi-california-14047-hawthorne-blvd"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/mi-california-14047-hawthorne-blvd": {
+      "url": "https://order.toasttab.com/online/mi-california-14047-hawthorne-blvd",
+      "html_bytes": 5724,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xelfsQAA"
+}

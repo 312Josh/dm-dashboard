@@ -1,0 +1,31 @@
+{
+  "parent": "Shane Group",
+  "slug": "shane-group",
+  "total_headroom": "$20,836",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$196",
+  "employee_count": "1",
+  "non_ec_arr": "$3,204",
+  "state": "CA",
+  "city": "La Palma",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "maxwellchickenrice@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Maxwell Chicken -La Palma new"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037W9iRQAS"
+}

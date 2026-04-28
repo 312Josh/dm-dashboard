@@ -1,0 +1,44 @@
+{
+  "parent": "Asadero Chikali NEW - Parent Account",
+  "slug": "asadero-chikali-new",
+  "total_headroom": "$16,548",
+  "non_ec_headroom": "$16,212",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$2,903",
+  "state": "CA",
+  "city": "Inglewood",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "asaderochikali2@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Asadero Chikali NEW"
+  ],
+  "websites": [
+    "https://asaderochikalica.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://asaderochikalica.com/": {
+      "url": "https://asaderochikalica.com/",
+      "html_bytes": 14174,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001go83KYAQ"
+}

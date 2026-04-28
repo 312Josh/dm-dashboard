@@ -142,10 +142,12 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "eastern peak": "https://www.theeasternpeak.com/",
     "jasmine": "https://www.cravejasmine.com/"
-  }
+  },
+  "sfdc_account_id": "0013c00001qpqSYAAY"
 }

@@ -1,0 +1,31 @@
+{
+  "parent": "NAM BOBA - Parent",
+  "slug": "nam-boba",
+  "total_headroom": "$19,268",
+  "non_ec_headroom": "$15,012",
+  "est_ec_headroom": "$4,256",
+  "employee_count": "25",
+  "non_ec_arr": "$7,980",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "hoangnamtvb@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "MAI COFFEE HOUSE"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001dPHl5YAG"
+}

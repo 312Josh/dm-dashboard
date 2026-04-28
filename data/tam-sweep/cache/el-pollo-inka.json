@@ -1,0 +1,53 @@
+{
+  "parent": "El Pollo Inka - PARENT",
+  "slug": "el-pollo-inka",
+  "total_headroom": "$130,824",
+  "non_ec_headroom": "$130,824",
+  "est_ec_headroom": "$0",
+  "employee_count": "143",
+  "non_ec_arr": "$32,484",
+  "state": "CA",
+  "city": "Hawaiian Gardens",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "thejaimes@yahoo.com",
+  "location_count": 7,
+  "location_names": [
+    "El Pollo Inka-Hawaiian Gardens",
+    "El Pollo Inka - El Segundo",
+    "El Pollo Inka - Gardena",
+    "El Pollo Inka - Torrance",
+    "El Pollo Inka-Hawthorne",
+    "El Pollo Inka-Lawndale",
+    "El Pollo Inka-Rolling Hills Estates 2"
+  ],
+  "websites": [
+    "https://polloinkaexpress.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://polloinkaexpress.com/": {
+      "url": "https://polloinkaexpress.com/",
+      "html_bytes": 367550,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xdIz2QAE"
+}

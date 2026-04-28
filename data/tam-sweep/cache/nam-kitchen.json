@@ -1,0 +1,45 @@
+{
+  "parent": "NAM KITCHEN - Parent Account",
+  "slug": "nam-kitchen",
+  "total_headroom": "$43,956",
+  "non_ec_headroom": "$36,144",
+  "est_ec_headroom": "$7,812",
+  "employee_count": "47",
+  "non_ec_arr": "$11,964",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "hdnguye5@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Nam Kitchen - Gardena",
+    "Nam Kitchen - Lomita"
+  ],
+  "websites": [
+    "https://namkitchen.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://namkitchen.net/": {
+      "url": "https://namkitchen.net/",
+      "html_bytes": 5490,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003Mgz6JQAR"
+}

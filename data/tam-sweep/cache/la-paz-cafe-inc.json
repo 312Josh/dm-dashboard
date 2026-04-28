@@ -1,0 +1,48 @@
+{
+  "parent": "La Paz Cafe Inc - Parent Account",
+  "slug": "la-paz-cafe-inc",
+  "total_headroom": "$14,872",
+  "non_ec_headroom": "$13,752",
+  "est_ec_headroom": "$1,120",
+  "employee_count": "7",
+  "non_ec_arr": "$7,917",
+  "state": "CA",
+  "city": "El Segundo",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mendez8j@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "La Paz Cafe Inc"
+  ],
+  "websites": [
+    "https://lapazmexicanrestaurant.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lapazmexicanrestaurant.net/": {
+      "url": "https://lapazmexicanrestaurant.net/",
+      "html_bytes": 143826,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "http://lapazmexicanrestaurant.net/wp-content/uploads/2026/01/MENU-WEB-QR-2026.pdf": {
+      "url": "http://lapazmexicanrestaurant.net/wp-content/uploads/2026/01/MENU-WEB-QR-2026.pdf",
+      "html_bytes": 3091703,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000vBosLYAS"
+}

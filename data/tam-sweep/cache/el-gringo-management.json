@@ -1,0 +1,46 @@
+{
+  "parent": "El Gringo Management",
+  "slug": "el-gringo-management",
+  "total_headroom": "$51,964",
+  "non_ec_headroom": "$40,176",
+  "est_ec_headroom": "$11,788",
+  "employee_count": "71",
+  "non_ec_arr": "$28,583",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bill@elgringo.com",
+  "location_count": 3,
+  "location_names": [
+    "El Gringo Mexican Restaurant",
+    "El Gringo Redondo Beach"
+  ],
+  "websites": [
+    "https://www.opentable.com/r/el-gringo-mexican-restaurant"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.opentable.com/r/el-gringo-mexican-restaurant": {
+      "url": "https://www.opentable.com/r/el-gringo-mexican-restaurant",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003GWv6tQAD"
+}

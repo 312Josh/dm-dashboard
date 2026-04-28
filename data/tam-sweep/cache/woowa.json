@@ -1,0 +1,40 @@
+{
+  "parent": "Woowa- Parent Account",
+  "slug": "woowa",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "2",
+  "non_ec_arr": "$918",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "elsong89@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Woowa - October 2025"
+  ],
+  "websites": [
+    "https://www.yelp.com/biz/woowa-gardena"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.yelp.com/biz/woowa-gardena": {
+      "url": "https://www.yelp.com/biz/woowa-gardena",
+      "html_bytes": 776,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002PwYhpYAF"
+}

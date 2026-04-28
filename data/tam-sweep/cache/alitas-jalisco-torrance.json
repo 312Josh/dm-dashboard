@@ -1,0 +1,31 @@
+{
+  "parent": "Alitas Jalisco - Torrance - Parent Account",
+  "slug": "alitas-jalisco-torrance",
+  "total_headroom": "null",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$810",
+  "state": "CA",
+  "city": "Hacienda Heights",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "saborquepica@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Alitas Jalisco - Torrance"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV000015wi0TYAQ"
+}

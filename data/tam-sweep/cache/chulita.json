@@ -1,0 +1,90 @@
+{
+  "parent": "Chulita Parent",
+  "slug": "chulita",
+  "total_headroom": "$51,012",
+  "non_ec_headroom": "$51,012",
+  "est_ec_headroom": "$0",
+  "employee_count": "68",
+  "non_ec_arr": "$19,075",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "shireenimani@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Chulita Food Truck",
+    "Chulita - West Adams",
+    "Chulita"
+  ],
+  "websites": [
+    "https://www.chulita.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.chulita.com/": {
+      "url": "https://www.chulita.com/",
+      "html_bytes": 16276,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/chulita",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/chulita/giftcards",
+        "toast_loyalty": "toasttab.com/chulita/rewardsSignup"
+      }
+    },
+    "https://www.chulita.com/menu": {
+      "url": "https://www.chulita.com/menu",
+      "html_bytes": 46538,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/chulita",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/chulita/rewardsSignup"
+      }
+    },
+    "https://www.chulita.com/reservations": {
+      "url": "https://www.chulita.com/reservations",
+      "html_bytes": 12195,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/chulita",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/chulita/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/chulita",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/chulita/giftcards",
+    "toast_loyalty": "toasttab.com/chulita/rewardsSignup"
+  },
+  "marketplaces": [
+    "opentable",
+    "resy",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000033tptmQAA"
+}

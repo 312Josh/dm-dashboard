@@ -1,0 +1,69 @@
+{
+  "parent": "Zabon Ramen - Parent",
+  "slug": "zabon-ramen",
+  "total_headroom": "$20,900",
+  "non_ec_headroom": "$18,660",
+  "est_ec_headroom": "$2,240",
+  "employee_count": "13",
+  "non_ec_arr": "$4,980",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "rogeryh@mac.com",
+  "location_count": 1,
+  "location_names": [
+    "Zabon Ramen 2"
+  ],
+  "websites": [
+    "https://www.zabonramen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.zabonramen.com/": {
+      "url": "https://www.zabonramen.com/",
+      "html_bytes": 114497,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/zabon-ramen-1644-w-carson-street-suite-b",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.zabonramen.com/order-anaheim": {
+      "url": "https://www.zabonramen.com/order-anaheim",
+      "html_bytes": 14212,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/zabon-ramen-2-440-s-anaheim-blvd-202-203",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.zabonramen.com/order-torrance": {
+      "url": "https://www.zabonramen.com/order-torrance",
+      "html_bytes": 4661,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/zabon-ramen-1644-w-carson-street-suite-b",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002msQQRQA2"
+}

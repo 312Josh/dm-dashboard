@@ -1,0 +1,194 @@
+{
+  "parent": "Hennessey's Tavern Group",
+  "slug": "hennessey-s-tavern-group",
+  "total_headroom": "$326,560",
+  "non_ec_headroom": "$242,112",
+  "est_ec_headroom": "$84,448",
+  "employee_count": "505",
+  "non_ec_arr": "$114,448",
+  "state": "NV",
+  "city": "Las Vegas",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "phennessey@hennesseystavern.com",
+  "location_count": 13,
+  "location_names": [
+    "Hennessey's Tavern Group - Henn LV",
+    "Hennessey's Tavern Group - Hermosa",
+    "HT Grill",
+    "Hennessey's Tavern Group - Dana Point",
+    "Hennessey's Tavern Group - San Juan",
+    "Mickie Finnz Fish House",
+    "Hennessey's Tavern Group - Seal",
+    "Hennessey's Tavern Group - Carlsbad",
+    "Hennessey's Tavern Group - Redondo",
+    "Hennessey's Tavern Group - Laguna",
+    "Hennessey's Tavern Group - Manhattan",
+    "Hennessey's Tavern Group - La Jolla",
+    "Rebel Republic Social House"
+  ],
+  "websites": [
+    "https://www.hennesseystavern.com/",
+    "https://www.htgrill.com/",
+    "https://www.facebook.com/mickiefinnz.redondobeach/",
+    "https://www.rebelrepublicsocialhouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hennesseystavern.com/": {
+      "url": "https://www.hennesseystavern.com/",
+      "html_bytes": 368082,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/hennesseys-tavern-group-carlsbad-2777-roosevelt-street/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.hennesseystavern.com/menu": {
+      "url": "https://www.hennesseystavern.com/menu",
+      "html_bytes": 273142,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.hennesseystavern.com/gift-cards": {
+      "url": "https://www.hennesseystavern.com/gift-cards",
+      "html_bytes": 171054,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/hennesseys-tavern-group-carlsbad-2777-roosevelt-street/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.htgrill.com/": {
+      "url": "https://www.htgrill.com/",
+      "html_bytes": 139263,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Events email",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/hennesseys-tavern-group-ht-1701-south-catalina-avenue/giftcards"
+      }
+    },
+    "https://www.htgrill.com/reservations": {
+      "url": "https://www.htgrill.com/reservations",
+      "html_bytes": 97461,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Events email"
+      },
+      "toast": {}
+    },
+    "https://www.htgrill.com/gift-cards": {
+      "url": "https://www.htgrill.com/gift-cards",
+      "html_bytes": 118197,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Events email"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/hennesseys-tavern-group-ht-1701-south-catalina-avenue/giftcards"
+      }
+    },
+    "https://www.htgrill.com/book-your-social-gatherings": {
+      "url": "https://www.htgrill.com/book-your-social-gatherings",
+      "html_bytes": 103996,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.htgrill.com/book-your-social-gathering": {
+      "url": "https://www.htgrill.com/book-your-social-gathering",
+      "html_bytes": 103996,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.facebook.com/mickiefinnz.redondobeach/": {
+      "url": "https://www.facebook.com/mickiefinnz.redondobeach/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.rebelrepublicsocialhouse.com/": {
+      "url": "https://www.rebelrepublicsocialhouse.com/",
+      "html_bytes": 352564,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/rebel-republic-social-house-1710-s-catalina-ave/giftcards"
+      }
+    },
+    "https://www.rebelrepublicsocialhouse.com/Menu": {
+      "url": "https://www.rebelrepublicsocialhouse.com/Menu",
+      "html_bytes": 183164,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_gift": "toasttab.com/hennesseys-tavern-group-carlsbad-2777-roosevelt-street/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "hennessey": "https://www.hennesseystavern.com/",
+    "ht grill": "https://www.htgrill.com/",
+    "mickie finnz": "https://www.facebook.com/mickiefinnz.redondobeach/",
+    "rebel republic": "https://www.rebelrepublicsocialhouse.com/"
+  },
+  "sfdc_account_id": "0014W00002UkBwVQAV"
+}

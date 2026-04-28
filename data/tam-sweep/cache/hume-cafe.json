@@ -1,0 +1,43 @@
+{
+  "parent": "HUME Cafe - Parent Account",
+  "slug": "hume-cafe",
+  "total_headroom": "$14,556",
+  "non_ec_headroom": "$14,556",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$7,824",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "Unknown",
+  "contact_email": "roger@humeprojects.co",
+  "location_count": 1,
+  "location_names": [
+    "HUME Cafe"
+  ],
+  "websites": [
+    "https://www.hume.la/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hume.la/": {
+      "url": "https://www.hume.la/",
+      "html_bytes": 282917,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000mZ0eEYAS"
+}

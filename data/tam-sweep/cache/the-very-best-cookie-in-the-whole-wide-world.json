@@ -1,0 +1,81 @@
+{
+  "parent": "The Very Best Cookie In The Whole Wide World - Parent Account",
+  "slug": "the-very-best-cookie-in-the-whole-wide-world",
+  "total_headroom": "$17,580",
+  "non_ec_headroom": "$17,580",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$3,240",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "kirstyn@theverybestcookie.com",
+  "location_count": 1,
+  "location_names": [
+    "The Very Best Cookie In The Whole Wide World"
+  ],
+  "websites": [
+    "https://www.theverybestcookieinthewholewideworld.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.theverybestcookieinthewholewideworld.com/": {
+      "url": "https://www.theverybestcookieinthewholewideworld.com/",
+      "html_bytes": 557998,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "marketing": "Klaviyo",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-very-best-cookie",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.theverybestcookieinthewholewideworld.com/collections/gifts": {
+      "url": "https://www.theverybestcookieinthewholewideworld.com/collections/gifts",
+      "html_bytes": 558343,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "marketing": "Klaviyo"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-very-best-cookie",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.theverybestcookieinthewholewideworld.com/pages/gifting-2025": {
+      "url": "https://www.theverybestcookieinthewholewideworld.com/pages/gifting-2025",
+      "html_bytes": 301136,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "marketing": "Klaviyo"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-very-best-cookie",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/the-very-best-cookie",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CPFo6QAH"
+}

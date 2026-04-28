@@ -1,0 +1,81 @@
+{
+  "parent": "Torrance Bakery Group",
+  "slug": "torrance-bakery-group",
+  "total_headroom": "$54,288",
+  "non_ec_headroom": "$33,372",
+  "est_ec_headroom": "$20,916",
+  "employee_count": "125",
+  "non_ec_arr": "$10,251",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "kirk@torrancebakery.com",
+  "location_count": 2,
+  "location_names": [
+    "Torrance Bakery - Original",
+    "Torrance Bakery - Gardena"
+  ],
+  "websites": [
+    "https://www.torrancebakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.torrancebakery.com/": {
+      "url": "https://www.torrancebakery.com/",
+      "html_bytes": 42149,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/torrance-bakery-downtown/giftcards",
+        "toast_loyalty": "toasttab.com/torrance-bakery-downtown/rewardsSignup"
+      }
+    },
+    "https://www.torrancebakery.com/menu": {
+      "url": "https://www.torrancebakery.com/menu",
+      "html_bytes": 650358,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/torrance-bakery-downtown/giftcards",
+        "toast_loyalty": "toasttab.com/torrance-bakery-downtown/rewardsSignup"
+      }
+    },
+    "https://www.torrancebakery.com/menu/specials": {
+      "url": "https://www.torrancebakery.com/menu/specials",
+      "html_bytes": 32951,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/torrance-bakery-downtown/giftcards",
+        "toast_loyalty": "toasttab.com/torrance-bakery-downtown/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/torrance-bakery-downtown/giftcards",
+    "toast_loyalty": "toasttab.com/torrance-bakery-downtown/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001p2XJcAAM"
+}

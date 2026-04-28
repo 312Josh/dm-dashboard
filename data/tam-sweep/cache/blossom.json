@@ -1,0 +1,48 @@
+{
+  "parent": "Blossom Parent",
+  "slug": "blossom",
+  "total_headroom": "$43,066",
+  "non_ec_headroom": "$37,872",
+  "est_ec_headroom": "$5,194",
+  "employee_count": "31",
+  "non_ec_arr": "$8,928",
+  "state": "CA",
+  "city": "Santa Monica",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ducpham8@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Blossom Vietnamese Noodle Shop",
+    "Blossom"
+  ],
+  "websites": [
+    "https://www.blossommenuwine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.blossommenuwine.com/": {
+      "url": "https://www.blossommenuwine.com/",
+      "html_bytes": 62593,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002HCE69YAH"
+}

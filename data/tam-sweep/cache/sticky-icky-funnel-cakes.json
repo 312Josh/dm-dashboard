@@ -1,0 +1,75 @@
+{
+  "parent": "STICKY ICKY FUNNEL CAKES - Parent Account",
+  "slug": "sticky-icky-funnel-cakes",
+  "total_headroom": "$18,620",
+  "non_ec_headroom": "$18,060",
+  "est_ec_headroom": "$560",
+  "employee_count": "3",
+  "non_ec_arr": "$3,695",
+  "state": "CA",
+  "city": "Long Beach",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "stickyickyfunnelcakeslb@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "STICKY ICKY FUNNEL CAKES"
+  ],
+  "websites": [
+    "https://www.stickyickyfunnelcakesllc.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.stickyickyfunnelcakesllc.com/": {
+      "url": "https://www.stickyickyfunnelcakesllc.com/",
+      "html_bytes": 107261,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/sticky-icky-funnel-cakes-901-e-artesia-blvd-4/giftcards",
+        "toast_loyalty": "toasttab.com/sticky-icky-funnel-cakes-901-e-artesia-blvd-4/rewardsSignup",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.stickyickyfunnelcakesllc.com/menu": {
+      "url": "https://www.stickyickyfunnelcakesllc.com/menu",
+      "html_bytes": 233744,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/sticky-icky-funnel-cakes-901-e-artesia-blvd-4/giftcards",
+        "toast_loyalty": "toasttab.com/sticky-icky-funnel-cakes-901-e-artesia-blvd-4/rewardsSignup",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_gift": "toasttab.com/sticky-icky-funnel-cakes-901-e-artesia-blvd-4/giftcards",
+    "toast_loyalty": "toasttab.com/sticky-icky-funnel-cakes-901-e-artesia-blvd-4/rewardsSignup",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xcMreQAE"
+}

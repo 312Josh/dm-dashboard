@@ -1,0 +1,68 @@
+{
+  "parent": "Boban - Parent",
+  "slug": "boban",
+  "total_headroom": "$50,916",
+  "non_ec_headroom": "$47,556",
+  "est_ec_headroom": "$3,360",
+  "employee_count": "20",
+  "non_ec_arr": "$11,544",
+  "state": "CA",
+  "city": "Garden Grove",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "elainenguyen777@yahoo.com",
+  "location_count": 3,
+  "location_names": [
+    "Boban - Garden Grove",
+    "Boban - Cypress",
+    "Pho One V - Garden Grove"
+  ],
+  "websites": [
+    "https://www.bobanhmi.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bobanhmi.com/": {
+      "url": "https://www.bobanhmi.com/",
+      "html_bytes": 208389,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_local": "toasttab.com/local/order",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.bobanhmi.com/menu/": {
+      "url": "https://www.bobanhmi.com/menu/",
+      "html_bytes": 322379,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_local": "toasttab.com/local/order",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_local": "toasttab.com/local/order",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002R8djfYAB"
+}

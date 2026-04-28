@@ -1,0 +1,57 @@
+{
+  "parent": "Kirari West - Parent",
+  "slug": "kirari-west",
+  "total_headroom": "$40,252",
+  "non_ec_headroom": "$36,780",
+  "est_ec_headroom": "$3,472",
+  "employee_count": "21",
+  "non_ec_arr": "$4,740",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "hiro@kirariwest.com",
+  "location_count": 2,
+  "location_names": [
+    "Kirari West - Redondo Beach",
+    "Confections by Kirari West - Redondo Beach"
+  ],
+  "websites": [
+    "https://confectionskw.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://confectionskw.com/": {
+      "url": "https://confectionskw.com/",
+      "html_bytes": 112970,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://confectionskw.com/pages/menu": {
+      "url": "https://confectionskw.com/pages/menu",
+      "html_bytes": 105254,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001tKMFlAAO"
+}

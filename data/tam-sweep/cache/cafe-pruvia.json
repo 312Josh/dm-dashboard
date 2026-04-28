@@ -1,0 +1,43 @@
+{
+  "parent": "Cafe Pruvia Parent",
+  "slug": "cafe-pruvia",
+  "total_headroom": "$33,960",
+  "non_ec_headroom": "$33,960",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$11,090",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "t.pruvia@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Cafe Pruvia - Coffee Shop",
+    "Cafe Pruvia - Cafe"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/cafepruvia"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/cafepruvia": {
+      "url": "https://www.toasttab.com/local/order/cafepruvia",
+      "html_bytes": 5601,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CPCxXQAX"
+}

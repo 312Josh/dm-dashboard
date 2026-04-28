@@ -1,0 +1,75 @@
+{
+  "parent": "The Waffle - Parent Account",
+  "slug": "the-waffle",
+  "total_headroom": "$16,332",
+  "non_ec_headroom": "$16,332",
+  "est_ec_headroom": "$0",
+  "employee_count": "28",
+  "non_ec_arr": "$7,976",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gavin@pariah.us",
+  "location_count": 1,
+  "location_names": [
+    "The Waffle"
+  ],
+  "websites": [
+    "https://www.thewafflehollywood.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thewafflehollywood.com/": {
+      "url": "https://www.thewafflehollywood.com/",
+      "html_bytes": 496841,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Waitlist Me"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/thewaffle",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.thewafflehollywood.com/menu": {
+      "url": "https://www.thewafflehollywood.com/menu",
+      "html_bytes": 469785,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/thewaffle",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.thewafflehollywood.com/gift-cards": {
+      "url": "https://www.thewafflehollywood.com/gift-cards",
+      "html_bytes": 444789,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/thewaffle",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002mv0jpQAA"
+}

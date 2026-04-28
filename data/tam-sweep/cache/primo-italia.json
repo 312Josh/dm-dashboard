@@ -1,0 +1,91 @@
+{
+  "parent": "Primo Italia - Parent",
+  "slug": "primo-italia",
+  "total_headroom": "$15,012",
+  "non_ec_headroom": "$15,012",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$6,405",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "lou@eatprimo.com",
+  "location_count": 1,
+  "location_names": [
+    "Primo Italia - Torrance"
+  ],
+  "websites": [
+    "https://www.eatprimo.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatprimo.com": {
+      "url": "https://www.eatprimo.com",
+      "html_bytes": 1039620,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/primo-italia-torrance-24590-hawthorne-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.eatprimo.com/reservations": {
+      "url": "https://www.eatprimo.com/reservations",
+      "html_bytes": 772089,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/primo-italia-torrance-24590-hawthorne-blvd",
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.eatprimo.com/menu": {
+      "url": "https://www.eatprimo.com/menu",
+      "html_bytes": 1597346,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/primo-italia-torrance-24590-hawthorne-blvd",
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/primo-italia-torrance-24590-hawthorne-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001p0s2PAAQ"
+}

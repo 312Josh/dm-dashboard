@@ -1,0 +1,43 @@
+{
+  "parent": "El Chucho - Parent Account",
+  "slug": "el-chucho",
+  "total_headroom": "$20,864",
+  "non_ec_headroom": "$19,800",
+  "est_ec_headroom": "$1,064",
+  "employee_count": "6",
+  "non_ec_arr": "$2,340",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "davekharper@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "El Chucho"
+  ],
+  "websites": [
+    "https://www.thebarelchucho.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thebarelchucho.com/": {
+      "url": "https://www.thebarelchucho.com/",
+      "html_bytes": 75545,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002mv7AEQAY"
+}

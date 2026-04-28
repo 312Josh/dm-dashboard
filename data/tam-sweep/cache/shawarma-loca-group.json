@@ -1,0 +1,45 @@
+{
+  "parent": "Shawarma Loca Group",
+  "slug": "shawarma-loca-group",
+  "total_headroom": "$40,400",
+  "non_ec_headroom": "$37,572",
+  "est_ec_headroom": "$2,828",
+  "employee_count": "17",
+  "non_ec_arr": "$9,468",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "shawarmaloca@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Shawarma Loca - Anaheim",
+    "Shawarma Loca Food Truck - NEW"
+  ],
+  "websites": [
+    "https://shawarmaloca.shop/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://shawarmaloca.shop/": {
+      "url": "https://shawarmaloca.shop/",
+      "html_bytes": 5596,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037Y4sGQAS"
+}

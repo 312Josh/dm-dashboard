@@ -1,0 +1,42 @@
+{
+  "parent": "ERodCaffe - Parent Account",
+  "slug": "erodcaffe",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$900",
+  "state": "CA",
+  "city": "Paramount",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "erodcaffe@icloud.com",
+  "location_count": 1,
+  "location_names": [
+    "ERodCaffe"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/erodcaffe-15006-san-jose-ave"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/erodcaffe-15006-san-jose-ave": {
+      "url": "https://www.toasttab.com/local/order/erodcaffe-15006-san-jose-ave",
+      "html_bytes": 5676,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001mLlfhYAC"
+}

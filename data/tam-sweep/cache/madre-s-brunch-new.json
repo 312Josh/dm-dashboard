@@ -1,0 +1,50 @@
+{
+  "parent": "Madre's Brunch NEW- PARENT",
+  "slug": "madre-s-brunch-new",
+  "total_headroom": "$209,480",
+  "non_ec_headroom": "$180,360",
+  "est_ec_headroom": "$29,120",
+  "employee_count": "173",
+  "non_ec_arr": "$56,652",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mzepeda@madresbrunch.com",
+  "location_count": 9,
+  "location_names": [
+    "Madre's Brunch Bellflower",
+    "Madre's Brunch - Downtown Long Beach",
+    "Madre's Brunch Rancho",
+    "Madre's Brunch - Whittier - New Location",
+    "Madre's Brunch - Corona",
+    "Madre's Brunch - Riverside",
+    "Madre's Brunch - Placentia",
+    "Madre's Brunch - Monrovia",
+    "Tacburg"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/madres-brunch-bellflower-15722-lakewood-blvd/r-381ddf6d-f53d-4111-aad9-bcb2c952f846"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/madres-brunch-bellflower-15722-lakewood-blvd/r-381ddf6d-f53d-4111-aad9-bcb2c952f846": {
+      "url": "https://www.toasttab.com/local/madres-brunch-bellflower-15722-lakewood-blvd/r-381ddf6d-f53d-4111-aad9-bcb2c952f846",
+      "html_bytes": 5887,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xffPQQAY"
+}

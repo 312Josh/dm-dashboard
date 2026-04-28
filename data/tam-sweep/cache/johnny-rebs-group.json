@@ -1,0 +1,46 @@
+{
+  "parent": "Johnny Rebs - Group",
+  "slug": "johnny-rebs-group",
+  "total_headroom": "$16,360",
+  "non_ec_headroom": "$12,972",
+  "est_ec_headroom": "$3,388",
+  "employee_count": "20",
+  "non_ec_arr": "$6,471",
+  "state": "CA",
+  "city": "Long Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cheryl@johhnyrebs.com",
+  "location_count": 1,
+  "location_names": [
+    "Johnny Rebs' True South - Long Beach"
+  ],
+  "websites": [
+    "https://johnnyrebs.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://johnnyrebs.com/": {
+      "url": "https://johnnyrebs.com/",
+      "html_bytes": 5490,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001emXV5IAM"
+}

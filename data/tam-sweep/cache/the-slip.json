@@ -1,0 +1,69 @@
+{
+  "parent": "The Slip Parent",
+  "slug": "the-slip",
+  "total_headroom": "$33,840",
+  "non_ec_headroom": "$33,840",
+  "est_ec_headroom": "$0",
+  "employee_count": "51",
+  "non_ec_arr": "$10,437",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "randylafaye@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "The Slip",
+    "The Slip Lomita"
+  ],
+  "websites": [
+    "https://www.theslipbar.com/redondobeach"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.theslipbar.com/redondobeach": {
+      "url": "https://www.theslipbar.com/redondobeach",
+      "html_bytes": 828889,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/the-slip/rewardsSignup"
+      }
+    },
+    "https://www.theslipbar.com/loyalty-club": {
+      "url": "https://www.theslipbar.com/loyalty-club",
+      "html_bytes": 776486,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/the-slip/rewardsSignup"
+      }
+    },
+    "https://www.theslipbar.com/menu-redondobeach": {
+      "url": "https://www.theslipbar.com/menu-redondobeach",
+      "html_bytes": 1034235,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/the-slip/rewardsSignup"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001jDrEJIA0"
+}

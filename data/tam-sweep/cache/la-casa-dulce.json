@@ -1,0 +1,49 @@
+{
+  "parent": "La Casa Dulce - Parent Account",
+  "slug": "la-casa-dulce",
+  "total_headroom": "$16,992",
+  "non_ec_headroom": "$16,992",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$1,020",
+  "state": "CA",
+  "city": "Downey",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "evaz14@icloud.com",
+  "location_count": 1,
+  "location_names": [
+    "La Casa Dulce"
+  ],
+  "websites": [
+    "https://www.lacasadulcecakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lacasadulcecakery.com/": {
+      "url": "https://www.lacasadulcecakery.com/",
+      "html_bytes": 5544,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260329190342/https://www.lacasadulcecakery.com/",
+        "html_bytes": 500000,
+        "vendors": {
+          "website_cms": "Wix"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001mJXnLYAW"
+}

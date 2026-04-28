@@ -1,0 +1,60 @@
+{
+  "parent": "Kitchens Corner - Parent Account",
+  "slug": "kitchens-corner",
+  "total_headroom": "$20,256",
+  "non_ec_headroom": "$18,072",
+  "est_ec_headroom": "$2,184",
+  "employee_count": "13",
+  "non_ec_arr": "$5,028",
+  "state": "CA",
+  "city": "Paramount",
+  "restaurant_type": "Unknown",
+  "contact_email": "info@kitchenscornerbbq.com",
+  "location_count": 1,
+  "location_names": [
+    "Kitchens Corner"
+  ],
+  "websites": [
+    "https://www.kitchenscornerbbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.kitchenscornerbbq.com/": {
+      "url": "https://www.kitchenscornerbbq.com/",
+      "html_bytes": 605005,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.kitchenscornerbbq.com/menu": {
+      "url": "https://www.kitchenscornerbbq.com/menu",
+      "html_bytes": 1165777,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.kitchenscornerbbq.com/book-us-for-catering": {
+      "url": "https://www.kitchenscornerbbq.com/book-us-for-catering",
+      "html_bytes": 1682284,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002lNivYYAS"
+}

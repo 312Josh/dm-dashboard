@@ -1,0 +1,76 @@
+{
+  "parent": "Lozio - Redondo Beach - Parent Account",
+  "slug": "lozio-redondo-beach",
+  "total_headroom": "$14,352",
+  "non_ec_headroom": "$14,352",
+  "est_ec_headroom": "$0",
+  "employee_count": "30",
+  "non_ec_arr": "$10,908",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jay@loziopizzeria.net",
+  "location_count": 1,
+  "location_names": [
+    "Lozio - Redondo Beach"
+  ],
+  "websites": [
+    "https://loziopizzeria.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://loziopizzeria.net/": {
+      "url": "https://loziopizzeria.net/",
+      "html_bytes": 117044,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://loziopizzeria.net/menus": {
+      "url": "https://loziopizzeria.net/menus",
+      "html_bytes": 225217,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://loziopizzeria.net/reservations": {
+      "url": "https://loziopizzeria.net/reservations",
+      "html_bytes": 81870,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "resy",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001dt9beYAA"
+}

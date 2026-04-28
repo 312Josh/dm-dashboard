@@ -1,0 +1,40 @@
+{
+  "parent": "Ricci's Delicatessen - Parent Account",
+  "slug": "ricci-s-delicatessen",
+  "total_headroom": "$14,952",
+  "non_ec_headroom": "$14,952",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$12,216",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "edithm0440@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ricci's Italian Restaurant Inc"
+  ],
+  "websites": [
+    "https://riccis-italian-restaurant.eggscellent.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://riccis-italian-restaurant.eggscellent.site/": {
+      "url": "https://riccis-italian-restaurant.eggscellent.site/",
+      "html_bytes": 15,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001gIGY6IAO"
+}

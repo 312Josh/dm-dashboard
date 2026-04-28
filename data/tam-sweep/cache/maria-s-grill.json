@@ -1,0 +1,43 @@
+{
+  "parent": "MARIA'S GRILL - Parent Account",
+  "slug": "maria-s-grill",
+  "total_headroom": "$21,092",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$1,652",
+  "employee_count": "10",
+  "non_ec_arr": "$2,100",
+  "state": "CA",
+  "city": "Downey",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "eclipce500@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "MARIA'S GRILL"
+  ],
+  "websites": [
+    "http://mariasgrilldowney.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://mariasgrilldowney.com/": {
+      "url": "http://mariasgrilldowney.com/",
+      "html_bytes": 61,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037WuM7QAK"
+}

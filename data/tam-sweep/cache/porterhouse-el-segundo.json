@@ -1,0 +1,110 @@
+{
+  "parent": "Porterhouse El Segundo - Parent Account",
+  "slug": "porterhouse-el-segundo",
+  "total_headroom": "$17,580",
+  "non_ec_headroom": "$17,580",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$6,348",
+  "state": "CA",
+  "city": "El Segundo",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "rileymontz@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Porterhouse - El Segundo"
+  ],
+  "websites": [
+    "https://www.porterhousela.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.porterhousela.com/": {
+      "url": "https://www.porterhousela.com/",
+      "html_bytes": 249989,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/porterhouse-el-segundo-223-richmond-street/giftcards",
+        "toast_loyalty": "toasttab.com/porterhouse-el-segundo-223-richmond-street/rewardsSignup"
+      }
+    },
+    "https://www.porterhousela.com/menus": {
+      "url": "https://www.porterhousela.com/menus",
+      "html_bytes": 215640,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.porterhousela.com/menu1": {
+      "url": "https://www.porterhousela.com/menu1",
+      "html_bytes": 215640,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.porterhousela.com/reserve": {
+      "url": "https://www.porterhousela.com/reserve",
+      "html_bytes": 195033,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.porterhousela.com/gift-cards": {
+      "url": "https://www.porterhousela.com/gift-cards",
+      "html_bytes": 177954,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/porterhouse-el-segundo-223-richmond-street/giftcards"
+      }
+    },
+    "https://www.porterhousela.com/loyalty-program": {
+      "url": "https://www.porterhousela.com/loyalty-program",
+      "html_bytes": 221763,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/porterhouse-el-segundo-223-richmond-street/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/porterhouse-el-segundo-223-richmond-street/giftcards",
+    "toast_loyalty": "toasttab.com/porterhouse-el-segundo-223-richmond-street/rewardsSignup"
+  },
+  "marketplaces": [
+    "opentable",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xfoCIQAY"
+}

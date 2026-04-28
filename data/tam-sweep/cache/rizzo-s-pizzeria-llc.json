@@ -1,0 +1,45 @@
+{
+  "parent": "Rizzo's Pizzeria, LLC - Parent Account",
+  "slug": "rizzo-s-pizzeria-llc",
+  "total_headroom": "$19,248",
+  "non_ec_headroom": "$14,460",
+  "est_ec_headroom": "$4,788",
+  "employee_count": "29",
+  "non_ec_arr": "$9,445",
+  "state": "CA",
+  "city": "Lomita",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "ownership@rizzospizzalomita.com",
+  "location_count": 1,
+  "location_names": [
+    "Rizzo's Pizzeria, LLC"
+  ],
+  "websites": [
+    "https://www.rizzospizzeria.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.rizzospizzeria.com/": {
+      "url": "https://www.rizzospizzeria.com/",
+      "html_bytes": 409318,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgFSwQAN"
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Tanuki No Sato",
+  "slug": "tanuki-no-sato",
+  "total_headroom": "$24,440",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$3,500",
+  "employee_count": "21",
+  "non_ec_arr": "$2,160",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "Unknown",
+  "contact_email": "masaaki.6347@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tanuki No Sato"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/Tanuki-no-Sato-100041897956686/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/Tanuki-no-Sato-100041897956686/": {
+      "url": "https://www.facebook.com/p/Tanuki-no-Sato-100041897956686/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001p4AyJAAU"
+}

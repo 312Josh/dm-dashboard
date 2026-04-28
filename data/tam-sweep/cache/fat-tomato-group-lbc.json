@@ -1,0 +1,46 @@
+{
+  "parent": "Fat Tomato Group LBC",
+  "slug": "fat-tomato-group-lbc",
+  "total_headroom": "$60,944",
+  "non_ec_headroom": "$57,780",
+  "est_ec_headroom": "$3,164",
+  "employee_count": "19",
+  "non_ec_arr": "$8,490",
+  "state": "CA",
+  "city": "los angeles",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "madulboy@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Fat Tomato Marina Del Rey",
+    "Fat Tomato Pizza - Hermosa Beach CA",
+    "Fat Tomato Pizza LBC"
+  ],
+  "websites": [
+    "https://gofattomato.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gofattomato.com/": {
+      "url": "https://gofattomato.com/",
+      "html_bytes": 5577,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002grPxMQAU"
+}

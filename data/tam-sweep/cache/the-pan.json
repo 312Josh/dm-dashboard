@@ -1,0 +1,64 @@
+{
+  "parent": "The Pan PARENT",
+  "slug": "the-pan",
+  "total_headroom": "$123,420",
+  "non_ec_headroom": "$123,420",
+  "est_ec_headroom": "$0",
+  "employee_count": "161",
+  "non_ec_arr": "$70,480",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "thepanrestaurant@gmail.com",
+  "location_count": 8,
+  "location_names": [
+    "The Pan - Drive Thru",
+    "The Pan - Santa Ana",
+    "The Pan - South Gate",
+    "The Pan- Lomita",
+    "The Pan-Gardena 2",
+    "The Pan-Torrance",
+    "The Pan- Long Beach",
+    "The Pan- Gardena 1"
+  ],
+  "websites": [
+    "https://www.thepan1.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thepan1.com/": {
+      "url": "https://www.thepan1.com/",
+      "html_bytes": 5491,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "online_ordering": "Toast",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251127135214/https://www.thepan1.com/",
+        "html_bytes": 281193,
+        "vendors": {
+          "website_cms": "Popmenu",
+          "online_ordering": "Toast",
+          "reservations": "OpenTable",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002d0c0zYAA"
+}

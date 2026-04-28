@@ -1,0 +1,45 @@
+{
+  "parent": "Las Palmas Cafe - Parent Account",
+  "slug": "las-palmas-cafe",
+  "total_headroom": "$20,588",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$1,148",
+  "employee_count": "7",
+  "non_ec_arr": "$2,676",
+  "state": "CA",
+  "city": "Carson",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "sonrod71@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Las Palmas Cafe"
+  ],
+  "websites": [
+    "https://www.laspalmascafe.online/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.laspalmascafe.online/": {
+      "url": "https://www.laspalmascafe.online/",
+      "html_bytes": 554002,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001qqad3AAA"
+}

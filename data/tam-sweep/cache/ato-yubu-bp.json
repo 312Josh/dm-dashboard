@@ -1,0 +1,44 @@
+{
+  "parent": "Ato Yubu - BP Parent",
+  "slug": "ato-yubu-bp",
+  "total_headroom": "$92,704",
+  "non_ec_headroom": "$85,200",
+  "est_ec_headroom": "$7,504",
+  "employee_count": "45",
+  "non_ec_arr": "$25,137",
+  "state": "CA",
+  "city": "Cerritos",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "taehyungjin@atoyubu.com",
+  "location_count": 5,
+  "location_names": [
+    "Ato Yubu - KBBQ Cerritos",
+    "Ato Yubu - Diamond Bar",
+    "Ato Yubu - Alisa Viejo",
+    "Halmaek",
+    "Ato Yubu"
+  ],
+  "websites": [
+    "https://kingyubu.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kingyubu.com/": {
+      "url": "https://kingyubu.com/",
+      "html_bytes": 5488,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001B6GJNYA3"
+}

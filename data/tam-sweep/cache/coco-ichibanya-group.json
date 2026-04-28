@@ -1,0 +1,61 @@
+{
+  "parent": "CoCo Ichibanya Group Parent",
+  "slug": "coco-ichibanya-group",
+  "total_headroom": "$81,612",
+  "non_ec_headroom": "$81,612",
+  "est_ec_headroom": "$0",
+  "employee_count": "261",
+  "non_ec_arr": "$120,949",
+  "state": "CA",
+  "city": "San Diego",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "teruyoshi.5257087@ichibanya.jp",
+  "location_count": 8,
+  "location_names": [
+    "CoCo Ichibanya Petco Park",
+    "CoCo Ichibanya Irvine",
+    "Coco Ichibanya Aliso Viejo",
+    "CoCo Ichibanya Irvine Takeout",
+    "CoCo Ichibanya Koreatown",
+    "CoCo Ichibanya Sawtelle",
+    "CoCo Ichibanya Torrance",
+    "CoCo Ichibanya San Diego"
+  ],
+  "websites": [
+    "https://ichibanyausa.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ichibanyausa.com/": {
+      "url": "https://ichibanyausa.com/",
+      "html_bytes": 509757,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "marketing": "Klaviyo"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002sgyfZYAQ"
+}

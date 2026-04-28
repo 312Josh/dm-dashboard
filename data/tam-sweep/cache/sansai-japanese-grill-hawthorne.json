@@ -1,0 +1,53 @@
+{
+  "parent": "SanSai Japanese Grill Hawthorne - Parent Account",
+  "slug": "sansai-japanese-grill-hawthorne",
+  "total_headroom": "$17,244",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$5,513",
+  "state": "CA",
+  "city": "Hawthorne",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "candis.sansai@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "SanSai Japanese Grill"
+  ],
+  "websites": [
+    "https://sansaihawthorne.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sansaihawthorne.com/": {
+      "url": "https://sansaihawthorne.com/",
+      "html_bytes": 78553,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sansai-japanese-grill-5354-rosecrans-avenue",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/sansai-japanese-grill-5354-rosecrans-avenue",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037XYorQAG"
+}

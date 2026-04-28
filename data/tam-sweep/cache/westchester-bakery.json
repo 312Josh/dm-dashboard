@@ -1,0 +1,46 @@
+{
+  "parent": "Westchester Bakery - Parent Account",
+  "slug": "westchester-bakery",
+  "total_headroom": "$17,532",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$1,680",
+  "employee_count": "10",
+  "non_ec_arr": "$7,128",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "westchesterbakery@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Westchester Bakery"
+  ],
+  "websites": [
+    "https://westchesterbakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://westchesterbakery.com/": {
+      "url": "https://westchesterbakery.com/",
+      "html_bytes": 574682,
+      "fingerprints": {
+        "website_cms": "Shopify"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001rCiwNAAS"
+}

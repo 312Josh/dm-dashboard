@@ -1,0 +1,45 @@
+{
+  "parent": "The Bee Hive Market & Deli (GROUP)",
+  "slug": "the-bee-hive-market-deli-group",
+  "total_headroom": "$17,460",
+  "non_ec_headroom": "$17,460",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$6,588",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@thebeeh.com",
+  "location_count": 1,
+  "location_names": [
+    "The Bee Hive - Whittier"
+  ],
+  "websites": [
+    "https://thebeehive-whittier.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thebeehive-whittier.com/": {
+      "url": "https://thebeehive-whittier.com/",
+      "html_bytes": 17084,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003JV5jrQAD"
+}

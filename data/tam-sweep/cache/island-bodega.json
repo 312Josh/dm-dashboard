@@ -1,0 +1,55 @@
+{
+  "parent": "Island Bodega - Parent Account",
+  "slug": "island-bodega",
+  "total_headroom": "$35,472",
+  "non_ec_headroom": "$35,472",
+  "est_ec_headroom": "$0",
+  "employee_count": "31",
+  "non_ec_arr": "$5,985",
+  "state": "CA",
+  "city": "Westminster",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "jackson@longshedgefund.com",
+  "location_count": 2,
+  "location_names": [
+    "Island Bodega 2",
+    "Island Bodega"
+  ],
+  "websites": [
+    "https://www.islandbodega.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.islandbodega.com/": {
+      "url": "https://www.islandbodega.com/",
+      "html_bytes": 691516,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.islandbodega.com/menu": {
+      "url": "https://www.islandbodega.com/menu",
+      "html_bytes": 795350,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV000029Ri5BYAS"
+}

@@ -1,0 +1,86 @@
+{
+  "parent": "Lascari's Restaurant - Group",
+  "slug": "lascari-s-restaurant-group",
+  "total_headroom": "$44,540",
+  "non_ec_headroom": "$32,640",
+  "est_ec_headroom": "$11,900",
+  "employee_count": "71",
+  "non_ec_arr": "$21,840",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jr@lascarisdeli.com",
+  "location_count": 2,
+  "location_names": [
+    "19seventy LA",
+    "Lascari's Cucina"
+  ],
+  "websites": [
+    "https://lascarisdeli.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lascarisdeli.com/": {
+      "url": "https://lascarisdeli.com/",
+      "html_bytes": 127258,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/lascaris-restaurant-whittier-16255-whittier-blvd/giftcards"
+      }
+    },
+    "https://lascarisdeli.com/menus/": {
+      "url": "https://lascarisdeli.com/menus/",
+      "html_bytes": 129255,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://lascarisdeli.com/gift-cards/": {
+      "url": "https://lascarisdeli.com/gift-cards/",
+      "html_bytes": 105674,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/lascaris-restaurant-whittier-16255-whittier-blvd/giftcards"
+      }
+    },
+    "https://lascarisdeli.com/rewards/": {
+      "url": "https://lascarisdeli.com/rewards/",
+      "html_bytes": 103356,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/lascaris-restaurant-whittier-16255-whittier-blvd/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001eH1eRIAS"
+}

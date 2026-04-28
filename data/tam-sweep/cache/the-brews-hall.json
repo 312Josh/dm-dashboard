@@ -1,0 +1,79 @@
+{
+  "parent": "The Brews Hall Parent",
+  "slug": "the-brews-hall",
+  "total_headroom": "$19,048",
+  "non_ec_headroom": "$13,644",
+  "est_ec_headroom": "$5,404",
+  "employee_count": "32",
+  "non_ec_arr": "$11,766",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "laray5@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "The Brews Hall"
+  ],
+  "websites": [
+    "https://delamo.thebrewshall.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://delamo.thebrewshall.com/": {
+      "url": "https://delamo.thebrewshall.com/",
+      "html_bytes": 79506,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order",
+        "toast_gift": "toasttab.com/the-brews-hall/giftcards"
+      }
+    },
+    "https://delamo.thebrewshall.com/gift-cards/": {
+      "url": "https://delamo.thebrewshall.com/gift-cards/",
+      "html_bytes": 53507,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-brews-hall/giftcards"
+      }
+    },
+    "https://delamo.thebrewshall.com/promos/book-your-next-event-with-us/": {
+      "url": "https://delamo.thebrewshall.com/promos/book-your-next-event-with-us/",
+      "html_bytes": 41053,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order",
+    "toast_gift": "toasttab.com/the-brews-hall/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001oUmvPAAS"
+}

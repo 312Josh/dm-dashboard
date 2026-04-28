@@ -69,12 +69,14 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "rox": "https://www.ontheroxlex.com/",
     "ketch": "https://www.ketchseafoodlex.com/",
     "harper hall": "https://www.harperhalllex.com/",
     "roxy": "https://www.toasttab.com/local/the-roxy-2-269-w-main-st-lexington-ky-9/r-6d13b858-bb2f-476a-a8f9-5692d8c3410b"
-  }
+  },
+  "sfdc_account_id": "0014W00002mruoxQAA"
 }

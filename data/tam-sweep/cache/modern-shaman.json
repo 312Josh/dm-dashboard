@@ -1,0 +1,46 @@
+{
+  "parent": "Modern Shaman - Parent",
+  "slug": "modern-shaman",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$2,652",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "a86mike@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The 6740"
+  ],
+  "websites": [
+    "https://www.modernshamankitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.modernshamankitchen.com/": {
+      "url": "https://www.modernshamankitchen.com/",
+      "html_bytes": 331203,
+      "fingerprints": {
+        "website_cms": "Squarespace"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001kzsj6IAA"
+}

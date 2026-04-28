@@ -1,0 +1,40 @@
+{
+  "parent": "La Rueda Hotdogs - Parent Account",
+  "slug": "la-rueda-hotdogs",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$907",
+  "state": "CA",
+  "city": "Cerritos",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "raul@sondogosytacos.com",
+  "location_count": 1,
+  "location_names": [
+    "Son Dogos Y Tacos"
+  ],
+  "websites": [
+    "https://laruedahotdogs.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://laruedahotdogs.com/": {
+      "url": "https://laruedahotdogs.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000qqxapYAA"
+}

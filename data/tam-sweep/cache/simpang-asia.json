@@ -1,0 +1,52 @@
+{
+  "parent": "Simpang Asia Parent Account",
+  "slug": "simpang-asia",
+  "total_headroom": "$29,344",
+  "non_ec_headroom": "$25,704",
+  "est_ec_headroom": "$3,640",
+  "employee_count": "22",
+  "non_ec_arr": "$14,038",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kumalaleni@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Simpang Asia",
+    "Simpang Venice"
+  ],
+  "websites": [
+    "https://www.simpangasia.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.simpangasia.com/": {
+      "url": "https://www.simpangasia.com/",
+      "html_bytes": 760426,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001784wNYAQ"
+}

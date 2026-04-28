@@ -1,0 +1,42 @@
+{
+  "parent": "Cogir - Torrance - Parent Account",
+  "slug": "cogir-torrance",
+  "total_headroom": "$22,564",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,624",
+  "employee_count": "10",
+  "non_ec_arr": "$2,820",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "paltman@cogirusa.com",
+  "location_count": 1,
+  "location_names": [
+    "Cogir - Torrance"
+  ],
+  "websites": [
+    "https://cogirusa.com/communities/cogir-of-south-bay/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cogirusa.com/communities/cogir-of-south-bay/": {
+      "url": "https://cogirusa.com/communities/cogir-of-south-bay/",
+      "html_bytes": 206730,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000mZNnlYAG"
+}

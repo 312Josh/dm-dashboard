@@ -1,0 +1,61 @@
+{
+  "parent": "La Terraza - Redondo Beach - Parent Account",
+  "slug": "la-terraza-redondo-beach",
+  "total_headroom": "$15,312",
+  "non_ec_headroom": "$15,312",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$2,454",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "info@laterrazacoffee.com",
+  "location_count": 1,
+  "location_names": [
+    "La Terraza - Redondo Beach"
+  ],
+  "websites": [
+    "https://www.laterrazacoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.laterrazacoffee.com/": {
+      "url": "https://www.laterrazacoffee.com/",
+      "html_bytes": 860741,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.laterrazacoffee.com/menus": {
+      "url": "https://www.laterrazacoffee.com/menus",
+      "html_bytes": 583045,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.laterrazacoffee.com/menu": {
+      "url": "https://www.laterrazacoffee.com/menu",
+      "html_bytes": 1539360,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037YXQhQAO"
+}

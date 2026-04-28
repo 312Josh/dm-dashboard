@@ -1,0 +1,45 @@
+{
+  "parent": "Shokudo Westchester - Parent Account",
+  "slug": "shokudo-westchester",
+  "total_headroom": "$17,652",
+  "non_ec_headroom": "$17,652",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$3,588",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "hello@shokudowestchester.com",
+  "location_count": 1,
+  "location_names": [
+    "Shokudo Westchester"
+  ],
+  "websites": [
+    "https://www.shokudowestchester.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.shokudowestchester.com/": {
+      "url": "https://www.shokudowestchester.com/",
+      "html_bytes": 136906,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002OgBUrYAN"
+}

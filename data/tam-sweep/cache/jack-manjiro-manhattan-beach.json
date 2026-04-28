@@ -1,0 +1,47 @@
+{
+  "parent": "Jack Manjiro - Manhattan Beach - Parent Account",
+  "slug": "jack-manjiro-manhattan-beach",
+  "total_headroom": "$18,960",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$5,520",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "aizawa@odp-usa.com",
+  "location_count": 1,
+  "location_names": [
+    "Jack Manjiro - Manhattan Beach"
+  ],
+  "websites": [
+    "https://manjiro.inc/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://manjiro.inc/": {
+      "url": "https://manjiro.inc/",
+      "html_bytes": 2833,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002W8usnYAB"
+}

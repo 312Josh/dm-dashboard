@@ -1,0 +1,70 @@
+{
+  "parent": "MANPUKU TOKYO BBQ Parent",
+  "slug": "manpuku-tokyo-bbq",
+  "total_headroom": "$25,488",
+  "non_ec_headroom": "$25,488",
+  "est_ec_headroom": "$0",
+  "employee_count": "28",
+  "non_ec_arr": "$19,020",
+  "state": "TX",
+  "city": "Dallas",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "nyoshizawa@takefiveusa.com",
+  "location_count": 2,
+  "location_names": [
+    "MANPUKU TOKYO BBQ",
+    "Takumi Hachi"
+  ],
+  "websites": [
+    "https://manpuku.takefiveusa.com/locations/dallas"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://manpuku.takefiveusa.com/locations/dallas": {
+      "url": "https://manpuku.takefiveusa.com/locations/dallas",
+      "html_bytes": 98667,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://manpuku.takefiveusa.com/gift-cards": {
+      "url": "https://manpuku.takefiveusa.com/gift-cards",
+      "html_bytes": 24516,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://manpuku.takefiveusa.com/reservations": {
+      "url": "https://manpuku.takefiveusa.com/reservations",
+      "html_bytes": 35254,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002Zn5AzQAJ"
+}

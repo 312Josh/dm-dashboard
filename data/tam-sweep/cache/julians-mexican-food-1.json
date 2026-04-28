@@ -1,0 +1,62 @@
+{
+  "parent": "Julians Mexican Food 1 - Parent Account",
+  "slug": "julians-mexican-food-1",
+  "total_headroom": "$21,640",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$700",
+  "employee_count": "4",
+  "non_ec_arr": "$960",
+  "state": "CA",
+  "city": "Hawaiian Gardens",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "dorthandchogi@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Julians Mexican Food 1"
+  ],
+  "websites": [
+    "https://juliansmexicanfood.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://juliansmexicanfood.com/": {
+      "url": "https://juliansmexicanfood.com/",
+      "html_bytes": 33422,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://juliansmexicanfood.com/menu/julians-menu/": {
+      "url": "https://juliansmexicanfood.com/menu/julians-menu/",
+      "html_bytes": 68414,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://juliansmexicanfood.com/order-online/": {
+      "url": "https://juliansmexicanfood.com/order-online/",
+      "html_bytes": 60115,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003GWRX3QAP"
+}

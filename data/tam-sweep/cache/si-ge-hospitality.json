@@ -179,12 +179,14 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "epice": "https://www.epicebirmingham.com/",
     "lola": "https://www.lolanashville.com/",
     "santo": "https://www.santonashville.com/",
     "kalamata": "http://kalamatasnashville.com/"
-  }
+  },
+  "sfdc_account_id": "0014W00003MgWABQA3"
 }

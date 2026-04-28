@@ -1,0 +1,60 @@
+{
+  "parent": "Ayara Thai - Parent Account",
+  "slug": "ayara-thai",
+  "total_headroom": "$34,920",
+  "non_ec_headroom": "$34,920",
+  "est_ec_headroom": "$0",
+  "employee_count": "29",
+  "non_ec_arr": "$12,516",
+  "state": "CA",
+  "city": "Santa Monica",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "vanda@ayarathai.com",
+  "location_count": 2,
+  "location_names": [
+    "Ayara Thai - Pop Up",
+    "Ayara Thai"
+  ],
+  "websites": [
+    "https://ayarathai.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ayarathai.com/": {
+      "url": "https://ayarathai.com/",
+      "html_bytes": 170746,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/ayara-thai-6245-west-87th-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/ayara-thai-6245-west-87th-street/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/ayara-thai-6245-west-87th-street",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/ayara-thai-6245-west-87th-street/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001POZH5YAP"
+}

@@ -51,10 +51,12 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "prince street": "https://princestreetpizzaandpub.com/",
     "chocolate": "https://www.linkedin.com/in/spencerwakefield/"
-  }
+  },
+  "sfdc_account_id": "0014W00002xg73qQAA"
 }

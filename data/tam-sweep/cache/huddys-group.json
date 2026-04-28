@@ -1,0 +1,64 @@
+{
+  "parent": "Huddys Group - PARENT",
+  "slug": "huddys-group",
+  "total_headroom": "$37,972",
+  "non_ec_headroom": "$32,400",
+  "est_ec_headroom": "$5,572",
+  "employee_count": "34",
+  "non_ec_arr": "$13,233",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kate.failor@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Huddys - Hermosa Beach",
+    "Huddys - Redondo Beach"
+  ],
+  "websites": [
+    "https://www.huddyshermosa.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.huddyshermosa.com": {
+      "url": "https://www.huddyshermosa.com",
+      "html_bytes": 318329,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/huddys-hermosa-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.huddyshermosa.com/menu": {
+      "url": "https://www.huddyshermosa.com/menu",
+      "html_bytes": 297852,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/huddys-hermosa-beach",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/huddys-hermosa-beach",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV000027NmJuYAK"
+}

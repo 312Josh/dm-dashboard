@@ -1,0 +1,64 @@
+{
+  "parent": "Patriotic Pig Parent",
+  "slug": "patriotic-pig",
+  "total_headroom": "$20,040",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$1,860",
+  "state": "TX",
+  "city": "North Richland Hills",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "marc@patrioticpig.com",
+  "location_count": 1,
+  "location_names": [
+    "The Patriotic Pig"
+  ],
+  "websites": [
+    "https://patrioticpig.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://patrioticpig.com/": {
+      "url": "https://patrioticpig.com/",
+      "html_bytes": 103297,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.tryotter.com/"
+      }
+    },
+    "https://patrioticpig.com/menu/": {
+      "url": "https://patrioticpig.com/menu/",
+      "html_bytes": 224845,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "ChowNow",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.tryotter.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.tryotter.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001p3tu9AAA"
+}

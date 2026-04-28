@@ -1,0 +1,114 @@
+{
+  "parent": "Zinque Parent Account",
+  "slug": "zinque",
+  "total_headroom": "$99,024",
+  "non_ec_headroom": "$99,024",
+  "est_ec_headroom": "$0",
+  "employee_count": "390",
+  "non_ec_arr": "$53,005",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "emmanuel@lezinque.com",
+  "location_count": 8,
+  "location_names": [
+    "Zinque Century City",
+    "Zinque Venice",
+    "Zinque DTLA",
+    "Zinque Newport",
+    "Zinque Scottsdale",
+    "Zinque West Hollywood",
+    "Zinque Malibu",
+    "Massilia Grand DTLA"
+  ],
+  "websites": [
+    "https://lezinque.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lezinque.com/": {
+      "url": "https://lezinque.com/",
+      "html_bytes": 358433,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/zinque-venice-1440-lincoln-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/zinque-venice-1440-lincoln-blvd/giftcards"
+      }
+    },
+    "https://lezinque.com/order": {
+      "url": "https://lezinque.com/order",
+      "html_bytes": 243548,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/zinque-venice-1440-lincoln-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://lezinque.com/menus": {
+      "url": "https://lezinque.com/menus",
+      "html_bytes": 157020,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://lezinque.com/reservations": {
+      "url": "https://lezinque.com/reservations",
+      "html_bytes": 181917,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://lezinque.com/gift-cards": {
+      "url": "https://lezinque.com/gift-cards",
+      "html_bytes": 196553,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/zinque-venice-1440-lincoln-blvd/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/zinque-venice-1440-lincoln-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/zinque-venice-1440-lincoln-blvd/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001ttUU9AAM"
+}

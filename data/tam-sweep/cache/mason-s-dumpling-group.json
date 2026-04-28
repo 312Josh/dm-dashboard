@@ -1,0 +1,55 @@
+{
+  "parent": "Mason's Dumpling Group PARENT",
+  "slug": "mason-s-dumpling-group",
+  "total_headroom": "$50,556",
+  "non_ec_headroom": "$50,556",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$16,110",
+  "state": "CO",
+  "city": "Lakewood",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "shanzi8@hotmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Mason's Dumplings - Belmar",
+    "Chubbys dumplings - Burbank",
+    "Chubby dumplings"
+  ],
+  "websites": [
+    "https://masonsdumplingshop.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://masonsdumplingshop.com/": {
+      "url": "https://masonsdumplingshop.com/",
+      "html_bytes": 12529,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/masons-dumpling-shop-highland-park-new",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/masons-dumpling-shop-highland-park-new",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MftYRQAZ"
+}

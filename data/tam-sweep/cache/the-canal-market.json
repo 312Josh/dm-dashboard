@@ -1,0 +1,43 @@
+{
+  "parent": "The Canal Market Parent",
+  "slug": "the-canal-market",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$600",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "wildmandesign@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Canal Market"
+  ],
+  "websites": [
+    "https://www.thecanalmarket.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thecanalmarket.com/": {
+      "url": "https://www.thecanalmarket.com/",
+      "html_bytes": 252468,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002W75PDQAZ"
+}

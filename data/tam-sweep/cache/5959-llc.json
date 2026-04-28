@@ -1,0 +1,40 @@
+{
+  "parent": "5959 LLC",
+  "slug": "5959-llc",
+  "total_headroom": "$19,644",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$1,800",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "cory.christensen@hyatt.com",
+  "location_count": 1,
+  "location_names": [
+    "5959 LLC"
+  ],
+  "websites": [
+    "https://www.hyatt.com/hyatt-house/en-US/laxxl-hyatt-house-lax-century-blvd/dining"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hyatt.com/hyatt-house/en-US/laxxl-hyatt-house-lax-century-blvd/dining": {
+      "url": "https://www.hyatt.com/hyatt-house/en-US/laxxl-hyatt-house-lax-century-blvd/dining",
+      "html_bytes": 12074,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002CMzjFYAT"
+}

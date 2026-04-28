@@ -77,7 +77,8 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "kayne": "https://www.kayneprimenashville.com/",
@@ -86,5 +87,6 @@
     "moto": "https://www.motonashville.com/",
     "tavern": "https://www.tavernnashville.com/",
     "whiskey kitchen": "https://www.mstreetnashville.com/"
-  }
+  },
+  "sfdc_account_id": "001C000001lkW1xIAE"
 }

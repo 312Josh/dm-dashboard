@@ -1,0 +1,49 @@
+{
+  "parent": "Sonnyboy Hospitality - Parent Account",
+  "slug": "sonnyboy-hospitality",
+  "total_headroom": "$33,032",
+  "non_ec_headroom": "$18,780",
+  "est_ec_headroom": "$14,252",
+  "employee_count": "85",
+  "non_ec_arr": "$12,090",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "travis@sonnyboyla.com",
+  "location_count": 1,
+  "location_names": [
+    "RVR"
+  ],
+  "websites": [
+    "https://www.rvr.la/contact"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.rvr.la/contact": {
+      "url": "https://www.rvr.la/contact",
+      "html_bytes": 87220,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sonny-boy-la-1305-abbot-kinney-blvd/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/sonny-boy-la-1305-abbot-kinney-blvd/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MglgQQAR"
+}

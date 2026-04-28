@@ -1,0 +1,44 @@
+{
+  "parent": "KARACHI BBQ TONIGHT - Parent Account",
+  "slug": "karachi-bbq-tonight",
+  "total_headroom": "$18,256",
+  "non_ec_headroom": "$17,472",
+  "est_ec_headroom": "$784",
+  "employee_count": "5",
+  "non_ec_arr": "$4,687",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ajilani1414@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "KARACHI BBQ TONIGHT"
+  ],
+  "websites": [
+    "https://karachibbqtonight.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://karachibbqtonight.com/": {
+      "url": "https://karachibbqtonight.com/",
+      "html_bytes": 5540,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001EiSrGYAV"
+}

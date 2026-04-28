@@ -1,0 +1,43 @@
+{
+  "parent": "KYO Tea Lounge - Parent Account",
+  "slug": "kyo-tea-lounge",
+  "total_headroom": "$20,544",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$0",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "oliver@thekinn.co",
+  "location_count": 1,
+  "location_names": [
+    "KYO Tea Lounge"
+  ],
+  "websites": [
+    "https://thekinn.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thekinn.co/": {
+      "url": "https://thekinn.co/",
+      "html_bytes": 333773,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "HubSpot"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000no9zxYAA"
+}

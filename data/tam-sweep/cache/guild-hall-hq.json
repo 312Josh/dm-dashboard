@@ -1,0 +1,44 @@
+{
+  "parent": "Guild Hall HQ",
+  "slug": "guild-hall-hq",
+  "total_headroom": "$43,456",
+  "non_ec_headroom": "$39,480",
+  "est_ec_headroom": "$3,976",
+  "employee_count": "24",
+  "non_ec_arr": "$3,918",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "spencer@guildhall.tv",
+  "location_count": 2,
+  "location_names": [
+    "Guild Hall - Whittier",
+    "Guild Hall - Burbank"
+  ],
+  "websites": [
+    "https://www.guildhall.tv/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.guildhall.tv/": {
+      "url": "https://www.guildhall.tv/",
+      "html_bytes": 34773,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001okOiRAAU"
+}

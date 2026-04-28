@@ -1,0 +1,44 @@
+{
+  "parent": "Rod's Charbroiler Parent",
+  "slug": "rod-s-charbroiler",
+  "total_headroom": "$19,668",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$1,848",
+  "employee_count": "11",
+  "non_ec_arr": "$1,260",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "periodiko@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Rod's Charbroiler"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/": {
+      "url": "https://order.toasttab.com/online/",
+      "html_bytes": 5579,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001eGqQcIAK"
+}

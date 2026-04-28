@@ -1,0 +1,108 @@
+{
+  "parent": "Cafe Vida - Parent",
+  "slug": "cafe-vida",
+  "total_headroom": "$33,480",
+  "non_ec_headroom": "$23,148",
+  "est_ec_headroom": "$10,332",
+  "employee_count": "62",
+  "non_ec_arr": "$17,400",
+  "state": "CA",
+  "city": "Culver City",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "marcelo@cafevida.net",
+  "location_count": 2,
+  "location_names": [
+    "Cafe Vida - Culver City",
+    "Cafe Vida - El Segundo"
+  ],
+  "websites": [
+    "https://cafevida.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cafevida.net/": {
+      "url": "https://cafevida.net/",
+      "html_bytes": 105004,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://cafevida.net/menus/pacific-palisades/": {
+      "url": "https://cafevida.net/menus/pacific-palisades/",
+      "html_bytes": 819628,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://cafevida.net/menus/culver-city/": {
+      "url": "https://cafevida.net/menus/culver-city/",
+      "html_bytes": 342258,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://cafevida.net/menus/el-segundo/": {
+      "url": "https://cafevida.net/menus/el-segundo/",
+      "html_bytes": 535328,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://cafevida.net/menus/pacific-palisades/pali-eat-in-options/": {
+      "url": "https://cafevida.net/menus/pacific-palisades/pali-eat-in-options/",
+      "html_bytes": 84793,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000g2whFYAQ"
+}

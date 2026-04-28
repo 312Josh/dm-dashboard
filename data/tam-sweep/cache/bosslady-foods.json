@@ -1,0 +1,47 @@
+{
+  "parent": "Bosslady Foods",
+  "slug": "bosslady-foods",
+  "total_headroom": "$43,896",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$2,016",
+  "employee_count": "12",
+  "non_ec_arr": "$600",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "jeff@happifoodi.com",
+  "location_count": 2,
+  "location_names": [
+    "Bosslady Brick and Mortar",
+    "BossLady Ice Cream Truck"
+  ],
+  "websites": [
+    "https://drbombayfoods.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://drbombayfoods.com/": {
+      "url": "https://drbombayfoods.com/",
+      "html_bytes": 368579,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "bosslady brick": "https://drbombayfoods.com/",
+    "bosslady ice cream": "https://drbombayfoods.com/"
+  },
+  "sfdc_account_id": "001PV000030RkmpYAC"
+}

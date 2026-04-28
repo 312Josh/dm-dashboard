@@ -1,0 +1,54 @@
+{
+  "parent": "Michael Dobson LLC - PARENT",
+  "slug": "michael-dobson-llc",
+  "total_headroom": "$69,588",
+  "non_ec_headroom": "$69,588",
+  "est_ec_headroom": "$0",
+  "employee_count": "166",
+  "non_ec_arr": "$51,508",
+  "state": "CA",
+  "city": "Marina del Rey",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mdobson1234@icloud.com",
+  "location_count": 4,
+  "location_names": [
+    "Venice Whaler Bar & Grill",
+    "Newport Whaler",
+    "Santa Monica Whaler",
+    "Baja Cantina"
+  ],
+  "websites": [
+    "https://www.venicewhaler.com/",
+    "https://bajacantinamarinadelrey.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.venicewhaler.com/": {
+      "url": "https://www.venicewhaler.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://bajacantinamarinadelrey.com/": {
+      "url": "https://bajacantinamarinadelrey.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "whaler": "https://www.venicewhaler.com/",
+    "baja cantina": "https://bajacantinamarinadelrey.com/"
+  },
+  "sfdc_account_id": "0013c00001o6ZzTAAU"
+}

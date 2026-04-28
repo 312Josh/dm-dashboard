@@ -1,0 +1,47 @@
+{
+  "parent": "Limone Mediterranean Parent",
+  "slug": "limone-mediterranean",
+  "total_headroom": "$43,920",
+  "non_ec_headroom": "$43,920",
+  "est_ec_headroom": "$0",
+  "employee_count": "28",
+  "non_ec_arr": "$16,506",
+  "state": "CA",
+  "city": "Glendora",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "papistorrance@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Limone Mediterranean Glendora",
+    "Limone Mediterranean - Torrance",
+    "Papi's Tacos - Torrance"
+  ],
+  "websites": [
+    "https://www.clover.com/online-ordering/limone-glendora"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.clover.com/online-ordering/limone-glendora": {
+      "url": "https://www.clover.com/online-ordering/limone-glendora",
+      "html_bytes": 3457,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037XAVNQA4"
+}

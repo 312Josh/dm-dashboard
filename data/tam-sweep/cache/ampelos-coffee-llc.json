@@ -1,0 +1,40 @@
+{
+  "parent": "Ampelos Coffee, LLC - Parent Account",
+  "slug": "ampelos-coffee-llc",
+  "total_headroom": "$14,064",
+  "non_ec_headroom": "$14,064",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$2,781",
+  "state": "CA",
+  "city": "Lawndale",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "contact@ampelsocoffee.com",
+  "location_count": 1,
+  "location_names": [
+    "Ampelos Coffee - Redondo Beach"
+  ],
+  "websites": [
+    "https://ampeloscoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ampeloscoffee.com/": {
+      "url": "https://ampeloscoffee.com/",
+      "html_bytes": 782,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001kemW1YAI"
+}

@@ -1,0 +1,60 @@
+{
+  "parent": "Crêpes & Grapes Café - Parent",
+  "slug": "cr-pes-grapes-caf",
+  "total_headroom": "$17,280",
+  "non_ec_headroom": "$15,432",
+  "est_ec_headroom": "$1,848",
+  "employee_count": "11",
+  "non_ec_arr": "$7,788",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "crepesgrapes@me.com",
+  "location_count": 1,
+  "location_names": [
+    "Crepes & Grapes Cafe"
+  ],
+  "websites": [
+    "https://www.crepesandgrapescafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.crepesandgrapescafe.com/": {
+      "url": "https://www.crepesandgrapescafe.com/",
+      "html_bytes": 889879,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/9a279219-2c8c-4e36-a35b-5a37cb942d2a",
+        "toast_gift": "toasttab.com/crepes-grapes-cafe-6560-greenleaf-ave/giftcards",
+        "toast_loyalty": "toasttab.com/crepes-grapes-cafe-6560-greenleaf-ave/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/9a279219-2c8c-4e36-a35b-5a37cb942d2a",
+    "toast_gift": "toasttab.com/crepes-grapes-cafe-6560-greenleaf-ave/giftcards",
+    "toast_loyalty": "toasttab.com/crepes-grapes-cafe-6560-greenleaf-ave/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F3lHAQAZ"
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "Morena Mia Tacos - Parent Account",
+  "slug": "morena-mia-tacos",
+  "total_headroom": "$15,948",
+  "non_ec_headroom": "$14,772",
+  "est_ec_headroom": "$1,176",
+  "employee_count": "7",
+  "non_ec_arr": "$420",
+  "state": "CA",
+  "city": "Artesia",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "morenamiatacos@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Morena Mia Tacos"
+  ],
+  "websites": [
+    "https://morenamiatacos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://morenamiatacos.com/": {
+      "url": "https://morenamiatacos.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgYCuQAN"
+}

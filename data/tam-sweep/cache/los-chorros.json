@@ -1,0 +1,52 @@
+{
+  "parent": "Los Chorros - Parent Account",
+  "slug": "los-chorros",
+  "total_headroom": "$19,836",
+  "non_ec_headroom": "$18,660",
+  "est_ec_headroom": "$1,176",
+  "employee_count": "7",
+  "non_ec_arr": "$3,720",
+  "state": "CA",
+  "city": "INGLEWOOD",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cucufateb@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Los Chorros"
+  ],
+  "websites": [
+    "https://loschorros.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://loschorros.com/": {
+      "url": "https://loschorros.com/",
+      "html_bytes": 222633,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MfljBQAR"
+}

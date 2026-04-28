@@ -1,0 +1,44 @@
+{
+  "parent": "Wezzarepas - Parent Account",
+  "slug": "wezzarepas",
+  "total_headroom": "$18,576",
+  "non_ec_headroom": "$18,072",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$2,688",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "wilmer8529@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Wezzarepas"
+  ],
+  "websites": [
+    "https://wezzarepas.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wezzarepas.com/": {
+      "url": "https://wezzarepas.com/",
+      "html_bytes": 5490,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001lcKztYAE"
+}

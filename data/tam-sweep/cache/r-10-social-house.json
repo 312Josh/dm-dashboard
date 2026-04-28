@@ -1,0 +1,191 @@
+{
+  "parent": "R/10 Social House Parent",
+  "slug": "r-10-social-house",
+  "total_headroom": "$148,652",
+  "non_ec_headroom": "$109,032",
+  "est_ec_headroom": "$39,620",
+  "employee_count": "237",
+  "non_ec_arr": "$36,987",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "g.loren@me.com",
+  "location_count": 7,
+  "location_names": [
+    "R-10 Social House - Redondo Beach",
+    "Riviera Mexican Cantina - Redondo Beach",
+    "Riviera Mexican Grill - Redondo Beach",
+    "The Rockefeller - Redondo Beach",
+    "Captain Kidd's Fish Market & Restaurant - Redondo Beach",
+    "The Rockefeller - Hermosa Beach",
+    "The Rockefeller Manhattan Beach"
+  ],
+  "websites": [
+    "https://www.eatrockefeller.com/",
+    "https://r10socialhouse.com/menu-1",
+    "https://www.therivmex.com/",
+    "https://www.therivmexcantina.com/",
+    "https://www.captainkidds.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatrockefeller.com/": {
+      "url": "https://www.eatrockefeller.com/",
+      "html_bytes": 678921,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.eatrockefeller.com/menus": {
+      "url": "https://www.eatrockefeller.com/menus",
+      "html_bytes": 1547770,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://r10socialhouse.com/menu-1": {
+      "url": "https://r10socialhouse.com/menu-1",
+      "html_bytes": 116086,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://r10socialhouse.com/menus": {
+      "url": "https://r10socialhouse.com/menus",
+      "html_bytes": 203944,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://r10socialhouse.com/gift-cards": {
+      "url": "https://r10socialhouse.com/gift-cards",
+      "html_bytes": 172740,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.therivmex.com/": {
+      "url": "https://www.therivmex.com/",
+      "html_bytes": 780057,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.therivmex.com/reservations": {
+      "url": "https://www.therivmex.com/reservations",
+      "html_bytes": 711136,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.therivmex.com/menu": {
+      "url": "https://www.therivmex.com/menu",
+      "html_bytes": 1691133,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.therivmexcantina.com/": {
+      "url": "https://www.therivmexcantina.com/",
+      "html_bytes": 635507,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.therivmexcantina.com/reservations": {
+      "url": "https://www.therivmexcantina.com/reservations",
+      "html_bytes": 600471,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.therivmexcantina.com/menus": {
+      "url": "https://www.therivmexcantina.com/menus",
+      "html_bytes": 1432308,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.captainkidds.com": {
+      "url": "https://www.captainkidds.com",
+      "html_bytes": 722776,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/captain-kidds-fish-market-restaurant-new-209-n-harbor-dr",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.captainkidds.com/menu": {
+      "url": "https://www.captainkidds.com/menu",
+      "html_bytes": 686143,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/captain-kidds-fish-market-restaurant-new-209-n-harbor-dr",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/captain-kidds-fish-market-restaurant-new-209-n-harbor-dr",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "rockefeller": "https://www.eatrockefeller.com/",
+    "r-10": "https://r10socialhouse.com/menu-1",
+    "riviera mexican grill": "https://www.therivmex.com/",
+    "riviera mexican cantina": "https://www.therivmexcantina.com/",
+    "captain kidd": "https://www.captainkidds.com"
+  },
+  "sfdc_account_id": "001C000001eiWs8IAE"
+}

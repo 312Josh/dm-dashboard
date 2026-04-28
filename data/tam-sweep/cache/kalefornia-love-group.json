@@ -1,0 +1,44 @@
+{
+  "parent": "Kalefornia Love GROUP",
+  "slug": "kalefornia-love-group",
+  "total_headroom": "$17,640",
+  "non_ec_headroom": "$17,640",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$4,619",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "kalefornialove1@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Kalefornia Love LA"
+  ],
+  "websites": [
+    "https://www.kalefornialovela.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.kalefornialovela.com/": {
+      "url": "https://www.kalefornialovela.com/",
+      "html_bytes": 5522,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CNc1lQAD"
+}

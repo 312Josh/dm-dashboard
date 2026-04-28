@@ -1,0 +1,43 @@
+{
+  "parent": "Georgee's Pizza",
+  "slug": "georgee-s-pizza",
+  "total_headroom": "$16,560",
+  "non_ec_headroom": "$15,552",
+  "est_ec_headroom": "$1,008",
+  "employee_count": "6",
+  "non_ec_arr": "$720",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "george@getopen.com",
+  "location_count": 1,
+  "location_names": [
+    "Georgee's Pizza"
+  ],
+  "websites": [
+    "https://georgeespizza.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://georgeespizza.toast.site/": {
+      "url": "https://georgeespizza.toast.site/",
+      "html_bytes": 5543,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgmZzQAJ"
+}

@@ -1,0 +1,52 @@
+{
+  "parent": "PV House - Parent Account",
+  "slug": "pv-house",
+  "total_headroom": "$21,348",
+  "non_ec_headroom": "$16,140",
+  "est_ec_headroom": "$5,208",
+  "employee_count": "31",
+  "non_ec_arr": "$9,354",
+  "state": "CA",
+  "city": "Playa Vista",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sessa1720@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "PV House"
+  ],
+  "websites": [
+    "https://pvhousela.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pvhousela.com/": {
+      "url": "https://pvhousela.com/",
+      "html_bytes": 162572,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://pvhousela.com/reservations": {
+      "url": "https://pvhousela.com/reservations",
+      "html_bytes": 64725,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001hLpz7YAC"
+}

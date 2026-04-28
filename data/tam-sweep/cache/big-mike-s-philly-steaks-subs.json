@@ -1,0 +1,63 @@
+{
+  "parent": "Big Mike’s Philly Steaks & Subs PARENT",
+  "slug": "big-mike-s-philly-steaks-subs",
+  "total_headroom": "$41,260",
+  "non_ec_headroom": "$38,880",
+  "est_ec_headroom": "$2,380",
+  "employee_count": "14",
+  "non_ec_arr": "$3,000",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kent.f.brown@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Big Mike's Philly Steaks & Subs - Redondo Beach",
+    "Big Mike’s Philly Steaks & Subs"
+  ],
+  "websites": [
+    "https://www.eatbigmikes.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatbigmikes.com/": {
+      "url": "https://www.eatbigmikes.com/",
+      "html_bytes": 144014,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/big-mikes-philly-steaks-subs-el-segundo",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.eatbigmikes.com/order": {
+      "url": "https://www.eatbigmikes.com/order",
+      "html_bytes": 7969,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/big-mikes-philly-steaks-subs-el-segundo",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV000012TA3xYAG"
+}

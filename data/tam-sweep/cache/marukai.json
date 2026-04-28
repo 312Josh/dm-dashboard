@@ -1,0 +1,49 @@
+{
+  "parent": "Marukai PARENT",
+  "slug": "marukai",
+  "total_headroom": "$103,800",
+  "non_ec_headroom": "$103,800",
+  "est_ec_headroom": "$0",
+  "employee_count": "49",
+  "non_ec_arr": "$7,500",
+  "state": "CA",
+  "city": "West Covina",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "ktoyo@marukai.com",
+  "location_count": 5,
+  "location_names": [
+    "West Covina Handroll Factory - West Covina",
+    "Emeryville Handroll Factory - Emeryville",
+    "Marukai New Sushi Bar - Irvine",
+    "Waka Sakura - Gardena",
+    "Yorba Linda Handroll Factory- Yorba Linda"
+  ],
+  "websites": [
+    "https://tokyocentral.com/westcovina/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tokyocentral.com/westcovina/": {
+      "url": "https://tokyocentral.com/westcovina/",
+      "html_bytes": 195968,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002Hza3nYAB"
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "The Vintage Cocktail Lounge Parent",
+  "slug": "the-vintage-cocktail-lounge",
+  "total_headroom": "$21,116",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$476",
+  "employee_count": "3",
+  "non_ec_arr": "$810",
+  "state": "CA",
+  "city": "Stanton",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "robinlbc3@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "The Vintage Cocktail Lounge"
+  ],
+  "websites": [
+    "https://www.thevintage8550.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thevintage8550.com/": {
+      "url": "https://www.thevintage8550.com/",
+      "html_bytes": 290518,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001okNDOAA2"
+}

@@ -1,0 +1,56 @@
+{
+  "parent": "SOBAR - Parent Account",
+  "slug": "sobar",
+  "total_headroom": "$15,672",
+  "non_ec_headroom": "$15,672",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$6,574",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "masato@foodsnext.com",
+  "location_count": 1,
+  "location_names": [
+    "SOBAR"
+  ],
+  "websites": [
+    "https://sobar-usa.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sobar-usa.com/": {
+      "url": "https://sobar-usa.com/",
+      "html_bytes": 174835,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Yelp Reservations"
+      },
+      "toast": {}
+    },
+    "https://sobar-usa.com/order/": {
+      "url": "https://sobar-usa.com/order/",
+      "html_bytes": 76402,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Yelp Reservations"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CNjPTQA1"
+}

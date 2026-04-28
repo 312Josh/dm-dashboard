@@ -1,0 +1,42 @@
+{
+  "parent": "Mi Lindo Sinaloa Parent",
+  "slug": "mi-lindo-sinaloa",
+  "total_headroom": "$39,216",
+  "non_ec_headroom": "$39,216",
+  "est_ec_headroom": "$0",
+  "employee_count": "38",
+  "non_ec_arr": "$32,404",
+  "state": "CA",
+  "city": "Paramount",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "milindosinaloahp@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Mi Lindo Sinaloa - Paramount",
+    "Mi Lindo Sinaloa Glendale",
+    "Mi Lindo Sinaloa HP"
+  ],
+  "websites": [
+    "https://mariscosmilindosinaloa.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mariscosmilindosinaloa.com/": {
+      "url": "https://mariscosmilindosinaloa.com/",
+      "html_bytes": 1390,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CNyQTQA1"
+}

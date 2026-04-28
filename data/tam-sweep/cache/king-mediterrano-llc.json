@@ -1,0 +1,62 @@
+{
+  "parent": "King Mediterrano LLC",
+  "slug": "king-mediterrano-llc",
+  "total_headroom": "$18,588",
+  "non_ec_headroom": "$18,420",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$3,164",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sakocsulb@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "King Mediterrano LLC"
+  ],
+  "websites": [
+    "https://www.kingmediterrano.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.kingmediterrano.com/": {
+      "url": "https://www.kingmediterrano.com/",
+      "html_bytes": 751146,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "loyalty": "Incentivio"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.incentivio.com/"
+      }
+    },
+    "https://www.kingmediterrano.com/menu": {
+      "url": "https://www.kingmediterrano.com/menu",
+      "html_bytes": 547072,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "loyalty": "Incentivio"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.incentivio.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.incentivio.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001dLgdxIAC"
+}

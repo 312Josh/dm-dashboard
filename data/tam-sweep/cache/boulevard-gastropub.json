@@ -1,0 +1,44 @@
+{
+  "parent": "Boulevard Gastropub Parent",
+  "slug": "boulevard-gastropub",
+  "total_headroom": "$14,172",
+  "non_ec_headroom": "$14,172",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$9,906",
+  "state": "CA",
+  "city": "East Rancho Domi",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "avillegas7512@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Boulevard Gastropub"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/boulevard-gastropub-4309-e-compton-blvd/r-6a30fd3a-a24f-4a8b-a0a1-687618113a32"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/boulevard-gastropub-4309-e-compton-blvd/r-6a30fd3a-a24f-4a8b-a0a1-687618113a32": {
+      "url": "https://www.toasttab.com/local/boulevard-gastropub-4309-e-compton-blvd/r-6a30fd3a-a24f-4a8b-a0a1-687618113a32",
+      "html_bytes": 5850,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002mrRkrQAE"
+}

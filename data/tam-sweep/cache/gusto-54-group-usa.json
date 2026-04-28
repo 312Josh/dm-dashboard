@@ -1,0 +1,60 @@
+{
+  "parent": "GUSTO 54 GROUP- USA",
+  "slug": "gusto-54-group-usa",
+  "total_headroom": "$22,132",
+  "non_ec_headroom": "$19,080",
+  "est_ec_headroom": "$3,052",
+  "employee_count": "18",
+  "non_ec_arr": "$4,260",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "tyler@gusto54.com",
+  "location_count": 1,
+  "location_names": [
+    "Felix"
+  ],
+  "websites": [
+    "https://felixla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://felixla.com/": {
+      "url": "https://felixla.com/",
+      "html_bytes": 193070,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/felix-1023-abbot-kinney-blvd/giftcards"
+      }
+    },
+    "https://felixla.com/order-information": {
+      "url": "https://felixla.com/order-information",
+      "html_bytes": 176734,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/felix-1023-abbot-kinney-blvd/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/felix-1023-abbot-kinney-blvd/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001V3ch4IAB"
+}

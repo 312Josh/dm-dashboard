@@ -1,0 +1,94 @@
+{
+  "parent": "Local Kitchen Parent",
+  "slug": "local-kitchen",
+  "total_headroom": "$25,404",
+  "non_ec_headroom": "$25,404",
+  "est_ec_headroom": "$0",
+  "employee_count": "42",
+  "non_ec_arr": "$21,087",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "localkitchen242@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Local Kitchen - Manhattan Beach",
+    "Local Kitchen - Torrance"
+  ],
+  "websites": [
+    "https://www.localkitchentavern.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.localkitchentavern.com/": {
+      "url": "https://www.localkitchentavern.com/",
+      "html_bytes": 40111,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/75ec1510-7fd2-4b06-b096-74451f2124aa",
+        "toast_gift": "toasttab.com/local-kitchen-1321-sartori-ave/giftcards",
+        "toast_loyalty": "toasttab.com/local-kitchen-1321-sartori-ave/rewardsSignup"
+      }
+    },
+    "https://www.localkitchentavern.com/menus/": {
+      "url": "https://www.localkitchentavern.com/menus/",
+      "html_bytes": 316908,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/75ec1510-7fd2-4b06-b096-74451f2124aa",
+        "toast_gift": "toasttab.com/local-kitchen-1321-sartori-ave/giftcards",
+        "toast_loyalty": "toasttab.com/local-kitchen-1321-sartori-ave/rewardsSignup"
+      }
+    },
+    "https://www.localkitchentavern.com/order-online": {
+      "url": "https://www.localkitchentavern.com/order-online",
+      "html_bytes": 33670,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/75ec1510-7fd2-4b06-b096-74451f2124aa",
+        "toast_gift": "toasttab.com/local-kitchen-1321-sartori-ave/giftcards",
+        "toast_loyalty": "toasttab.com/local-kitchen-1321-sartori-ave/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/75ec1510-7fd2-4b06-b096-74451f2124aa",
+    "toast_gift": "toasttab.com/local-kitchen-1321-sartori-ave/giftcards",
+    "toast_loyalty": "toasttab.com/local-kitchen-1321-sartori-ave/rewardsSignup"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002NwujWYAR"
+}

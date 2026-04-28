@@ -1,0 +1,159 @@
+{
+  "parent": "Gaetano's Restaurant Parent",
+  "slug": "gaetano-s-restaurant",
+  "total_headroom": "$28,560",
+  "non_ec_headroom": "$28,560",
+  "est_ec_headroom": "$0",
+  "employee_count": "103",
+  "non_ec_arr": "$24,351",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "vince@gaetanosonline.com",
+  "location_count": 3,
+  "location_names": [
+    "Gaetano's Restaurant - Torrance",
+    "Piccinis - Torrance",
+    "Piccinis - Torrance 2 Western"
+  ],
+  "websites": [
+    "https://www.gaetanos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.gaetanos.com/": {
+      "url": "https://www.gaetanos.com/",
+      "html_bytes": 77406,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/gaetanos-restaurant-2731-pacific-coast-hwy",
+        "toast_oo_whitelabel_host": "https://order.gaetanos.com/",
+        "toast_gift": "toasttab.com/gaetanos-restaurant-2731-pacific-coast-hwy/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.gaetanos.com + toasttab string in HTML"
+      }
+    },
+    "https://www.gaetanos.com/menu/": {
+      "url": "https://www.gaetanos.com/menu/",
+      "html_bytes": 121820,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/gaetanos-restaurant-2731-pacific-coast-hwy",
+        "toast_oo_whitelabel_host": "https://order.gaetanos.com/",
+        "toast_gift": "toasttab.com/gaetanos-restaurant-2731-pacific-coast-hwy/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.gaetanos.com + toasttab string in HTML"
+      }
+    },
+    "https://www.gaetanos.com/menu/lunch/": {
+      "url": "https://www.gaetanos.com/menu/lunch/",
+      "html_bytes": 89758,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/gaetanos-restaurant-2731-pacific-coast-hwy",
+        "toast_oo_whitelabel_host": "https://order.gaetanos.com/",
+        "toast_gift": "toasttab.com/gaetanos-restaurant-2731-pacific-coast-hwy/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.gaetanos.com + toasttab string in HTML"
+      }
+    },
+    "https://www.gaetanos.com/menu/dinner/": {
+      "url": "https://www.gaetanos.com/menu/dinner/",
+      "html_bytes": 89874,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/gaetanos-restaurant-2731-pacific-coast-hwy",
+        "toast_oo_whitelabel_host": "https://order.gaetanos.com/",
+        "toast_gift": "toasttab.com/gaetanos-restaurant-2731-pacific-coast-hwy/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.gaetanos.com + toasttab string in HTML"
+      }
+    },
+    "https://www.gaetanos.com/menu/kids-menu/": {
+      "url": "https://www.gaetanos.com/menu/kids-menu/",
+      "html_bytes": 89628,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/gaetanos-restaurant-2731-pacific-coast-hwy",
+        "toast_oo_whitelabel_host": "https://order.gaetanos.com/",
+        "toast_gift": "toasttab.com/gaetanos-restaurant-2731-pacific-coast-hwy/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.gaetanos.com + toasttab string in HTML"
+      }
+    },
+    "https://www.gaetanos.com/menu/drinks/": {
+      "url": "https://www.gaetanos.com/menu/drinks/",
+      "html_bytes": 89962,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/gaetanos-restaurant-2731-pacific-coast-hwy",
+        "toast_oo_whitelabel_host": "https://order.gaetanos.com/",
+        "toast_gift": "toasttab.com/gaetanos-restaurant-2731-pacific-coast-hwy/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.gaetanos.com + toasttab string in HTML"
+      }
+    },
+    "https://www.gaetanos.com/menu/catering/": {
+      "url": "https://www.gaetanos.com/menu/catering/",
+      "html_bytes": 93169,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/gaetanos-restaurant-2731-pacific-coast-hwy",
+        "toast_oo_whitelabel_host": "https://order.gaetanos.com/",
+        "toast_gift": "toasttab.com/gaetanos-restaurant-2731-pacific-coast-hwy/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.gaetanos.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/gaetanos-restaurant-2731-pacific-coast-hwy",
+    "toast_oo_whitelabel_host": "https://order.gaetanos.com/",
+    "toast_gift": "toasttab.com/gaetanos-restaurant-2731-pacific-coast-hwy/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.gaetanos.com + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001JNFATIA5"
+}

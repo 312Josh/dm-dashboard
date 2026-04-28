@@ -1,0 +1,55 @@
+{
+  "parent": "Providence Bakehouse GROUP",
+  "slug": "providence-bakehouse-group",
+  "total_headroom": "$14,040",
+  "non_ec_headroom": "$14,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$9,180",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "edwin@edwinandnancy.com",
+  "location_count": 1,
+  "location_names": [
+    "Providence Bakehouse - NEW"
+  ],
+  "websites": [
+    "https://www.providencebakehouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.providencebakehouse.com/": {
+      "url": "https://www.providencebakehouse.com/",
+      "html_bytes": 58576,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.providencebakehouse.com/",
+        "toast_oo_whitelabel_confirmed": "order.providencebakehouse.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.providencebakehouse.com/",
+    "toast_oo_whitelabel_confirmed": "order.providencebakehouse.com + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xeSdCQAU"
+}

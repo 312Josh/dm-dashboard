@@ -1,0 +1,54 @@
+{
+  "parent": "The Penmar Parent",
+  "slug": "the-penmar",
+  "total_headroom": "$16,032",
+  "non_ec_headroom": "$16,032",
+  "est_ec_headroom": "$0",
+  "employee_count": "55",
+  "non_ec_arr": "$24,920",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "yvonne@cervetecala.com",
+  "location_count": 1,
+  "location_names": [
+    "The Penmar"
+  ],
+  "websites": [
+    "https://thepenmar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thepenmar.com/": {
+      "url": "https://thepenmar.com/",
+      "html_bytes": 175730,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-penmar-1233-rose-avenue/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-penmar-1233-rose-avenue/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002NsiE1QAJ"
+}

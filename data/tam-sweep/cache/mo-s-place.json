@@ -1,0 +1,43 @@
+{
+  "parent": "Mo's Place Parent",
+  "slug": "mo-s-place",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$4,980",
+  "state": "CA",
+  "city": "Playa Del Rey",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "aparada911@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mo's Place"
+  ],
+  "websites": [
+    "https://www.mosplacepdr.com/menu.php"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mosplacepdr.com/menu.php": {
+      "url": "https://www.mosplacepdr.com/menu.php",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001rBmZ7AAK"
+}

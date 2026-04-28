@@ -1,0 +1,50 @@
+{
+  "parent": "Asaka Sushi & Grill - Parent Account",
+  "slug": "asaka-sushi-grill",
+  "total_headroom": "$20,324",
+  "non_ec_headroom": "$19,260",
+  "est_ec_headroom": "$1,064",
+  "employee_count": "6",
+  "non_ec_arr": "$4,800",
+  "state": "CA",
+  "city": "Rancho Palos Verdes",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "samqu.asaka@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Asaka Sushi & Grill"
+  ],
+  "websites": [
+    "https://asakacatogo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://asakacatogo.com/": {
+      "url": "https://asakacatogo.com/",
+      "html_bytes": 16115,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://asakacatogo.com/order/": {
+      "url": "https://asakacatogo.com/order/",
+      "html_bytes": 6233,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F42m1QAB"
+}

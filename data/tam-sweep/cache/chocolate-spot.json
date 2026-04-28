@@ -1,0 +1,44 @@
+{
+  "parent": "chocolate spot - Parent Account",
+  "slug": "chocolate-spot",
+  "total_headroom": "$17,244",
+  "non_ec_headroom": "$17,244",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$4,165",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "chocolatespotoc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "chocolate spot"
+  ],
+  "websites": [
+    "https://chocolatespotoc.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://chocolatespotoc.com/": {
+      "url": "https://chocolatespotoc.com/",
+      "html_bytes": 5538,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgYbBQAV"
+}

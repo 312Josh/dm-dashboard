@@ -1,0 +1,44 @@
+{
+  "parent": "Palos Verdes Wine Club - Parent Account",
+  "slug": "palos-verdes-wine-club",
+  "total_headroom": "$18,192",
+  "non_ec_headroom": "$18,192",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$2,688",
+  "state": "CA",
+  "city": "Rolling Hills Estates",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jeffrinna@pvwineclub.com",
+  "location_count": 1,
+  "location_names": [
+    "Palos Verdes Wine Club"
+  ],
+  "websites": [
+    "https://pvwineclub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pvwineclub.com/": {
+      "url": "https://pvwineclub.com/",
+      "html_bytes": 168016,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "reservations": "SevenRooms",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001RlJX1YAN"
+}

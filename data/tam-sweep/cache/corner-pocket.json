@@ -1,0 +1,52 @@
+{
+  "parent": "Corner pocket - Parent Account",
+  "slug": "corner-pocket",
+  "total_headroom": "$41,880",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "25",
+  "non_ec_arr": "null",
+  "state": "CA",
+  "city": "Stanton",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "owner@jordanbars.com",
+  "location_count": 2,
+  "location_names": [
+    "Corner pocket",
+    "The Beehive - Huntington Beach"
+  ],
+  "websites": [
+    "https://www.facebook.com/cornerpocket.oc/",
+    "https://www.facebook.com/beehivesportsbar/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/cornerpocket.oc/": {
+      "url": "https://www.facebook.com/cornerpocket.oc/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.facebook.com/beehivesportsbar/": {
+      "url": "https://www.facebook.com/beehivesportsbar/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "corner pocket": "https://www.facebook.com/cornerpocket.oc/",
+    "beehive": "https://www.facebook.com/beehivesportsbar/"
+  },
+  "sfdc_account_id": "001PV00002U2PhaYAF"
+}

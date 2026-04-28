@@ -1,0 +1,40 @@
+{
+  "parent": "Cocolech Cafe LLC",
+  "slug": "cocolech-cafe-llc",
+  "total_headroom": "$14,988",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "CA",
+  "city": "Paramount",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "cocolechcafe@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cocolech Cafe LLC"
+  ],
+  "websites": [
+    "https://cocolechcafellc.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cocolechcafellc.toast.site/": {
+      "url": "https://cocolechcafellc.toast.site/",
+      "html_bytes": 5545,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001wkWkaYAE"
+}

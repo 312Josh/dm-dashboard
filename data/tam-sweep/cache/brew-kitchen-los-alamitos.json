@@ -1,0 +1,31 @@
+{
+  "parent": "Brew Kitchen Los Alamitos Parent",
+  "slug": "brew-kitchen-los-alamitos",
+  "total_headroom": "$18,116",
+  "non_ec_headroom": "$17,220",
+  "est_ec_headroom": "$896",
+  "employee_count": "5",
+  "non_ec_arr": "$6,720",
+  "state": "CA",
+  "city": "Garden Grove",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jmaglb@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "West Grove Pizza Co."
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003P2teiQAB"
+}

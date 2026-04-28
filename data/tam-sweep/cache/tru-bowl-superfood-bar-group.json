@@ -1,0 +1,60 @@
+{
+  "parent": "TRU Bowl Superfood Bar - Group",
+  "slug": "tru-bowl-superfood-bar-group",
+  "total_headroom": "$19,572",
+  "non_ec_headroom": "$18,060",
+  "est_ec_headroom": "$1,512",
+  "employee_count": "9",
+  "non_ec_arr": "$3,462",
+  "state": "CA",
+  "city": "Newport Beach",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "taingofficial@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tru Bowl Superfood Bar - Newport Beach"
+  ],
+  "websites": [
+    "https://trubowl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://trubowl.com/": {
+      "url": "https://trubowl.com/",
+      "html_bytes": 276286,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Appfront",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://trubowl.com/menu/": {
+      "url": "https://trubowl.com/menu/",
+      "html_bytes": 463171,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Appfront",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001qHmaWAAS"
+}

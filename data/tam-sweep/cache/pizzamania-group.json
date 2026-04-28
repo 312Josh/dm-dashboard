@@ -1,0 +1,42 @@
+{
+  "parent": "Pizzamania (Group)",
+  "slug": "pizzamania-group",
+  "total_headroom": "$27,816",
+  "non_ec_headroom": "$18,240",
+  "est_ec_headroom": "$9,576",
+  "employee_count": "57",
+  "non_ec_arr": "$8,376",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "wjhaines@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Pizzamania"
+  ],
+  "websites": [
+    "https://pizzamaniawhittier.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pizzamaniawhittier.com/": {
+      "url": "https://pizzamaniawhittier.com/",
+      "html_bytes": 3175,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xcVMgQAM"
+}

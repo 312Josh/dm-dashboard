@@ -1,0 +1,45 @@
+{
+  "parent": "Las Islas Marias PARENT",
+  "slug": "las-islas-marias",
+  "total_headroom": "$38,572",
+  "non_ec_headroom": "$33,504",
+  "est_ec_headroom": "$5,068",
+  "employee_count": "31",
+  "non_ec_arr": "$18,336",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "aramirez04888@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Las Islas Marias - Gardena",
+    "Alemar 64"
+  ],
+  "websites": [
+    "https://www.lasislasmarias.shop/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lasislasmarias.shop/": {
+      "url": "https://www.lasislasmarias.shop/",
+      "html_bytes": 16843,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037Y345QAC"
+}

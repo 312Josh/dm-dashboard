@@ -1,0 +1,54 @@
+{
+  "parent": "Oh Mama Kitchen",
+  "slug": "oh-mama-kitchen",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "CA",
+  "city": "La Mirada",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "ohjangumee1@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Oh Mama Kitchen"
+  ],
+  "websites": [
+    "https://www.ohmamakitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ohmamakitchen.com/": {
+      "url": "https://www.ohmamakitchen.com/",
+      "html_bytes": 225206,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.ohmamakitchen.com/menu": {
+      "url": "https://www.ohmamakitchen.com/menu",
+      "html_bytes": 103126,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002Lm40IQAR"
+}

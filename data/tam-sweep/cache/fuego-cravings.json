@@ -1,0 +1,49 @@
+{
+  "parent": "Fuego Cravings - Parent",
+  "slug": "fuego-cravings",
+  "total_headroom": "$60,096",
+  "non_ec_headroom": "$60,096",
+  "est_ec_headroom": "$0",
+  "employee_count": "43",
+  "non_ec_arr": "$22,365",
+  "state": "CA",
+  "city": "Buena Park",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "fuegocravings.buenapark@gmail.com",
+  "location_count": 6,
+  "location_names": [
+    "Fuego Cravings - Buena Park",
+    "Fuego Cravings - Beaumont",
+    "Fuego Cravings - Covina",
+    "Fuego Cravings - Lawndale",
+    "Fuego Cravings - Whittier",
+    "Fuego Cravings - Highland"
+  ],
+  "websites": [
+    "https://fuegocravings.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://fuegocravings.com/": {
+      "url": "https://fuegocravings.com/",
+      "html_bytes": 5536,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002B0VHSYA3"
+}

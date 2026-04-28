@@ -1,0 +1,61 @@
+{
+  "parent": "Wing Ferno Group",
+  "slug": "wing-ferno-group",
+  "total_headroom": "$19,276",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$1,456",
+  "employee_count": "9",
+  "non_ec_arr": "$4,044",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "invest0581@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Wing Ferno - Gardena"
+  ],
+  "websites": [
+    "https://www.wingferno.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.wingferno.com/": {
+      "url": "https://www.wingferno.com/",
+      "html_bytes": 78908,
+      "fingerprints": {
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.wingferno.com/menu/": {
+      "url": "https://www.wingferno.com/menu/",
+      "html_bytes": 110855,
+      "fingerprints": {
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001qGphFAAS"
+}

@@ -38,30 +38,21 @@
         "reservations": "OpenTable"
       },
       "toast": {}
-    },
-    "https://www.thearistonbar.com/menu": {
-      "url": "https://www.thearistonbar.com/menu",
-      "html_bytes": 384880,
-      "fingerprints": {
-        "website_cms": "Squarespace",
-        "reservations": "OpenTable"
-      },
-      "toast": {}
     }
   },
   "toast_products": {},
-  "marketplaces": [
-    "ubereats"
-  ],
-  "marketplaces_status": "done",
+  "marketplaces": {},
+  "marketplaces_status": "pending",
   "hr_vendor": "",
   "hr_status": "pending",
   "notes": [],
   "reps": [
     "stevens"
   ],
+  "is_multi_brand": true,
   "brand_websites": {
     "martha": "https://www.marthasnashville.com/",
     "ariston": "https://www.thearistonbar.com/"
-  }
+  },
+  "sfdc_account_id": "0014W000033t4UcQAI"
 }

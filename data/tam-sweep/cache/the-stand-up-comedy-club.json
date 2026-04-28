@@ -1,0 +1,50 @@
+{
+  "parent": "The Stand Up Comedy Club Parent",
+  "slug": "the-stand-up-comedy-club",
+  "total_headroom": "$23,468",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$2,828",
+  "employee_count": "17",
+  "non_ec_arr": "$3,360",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "events@thestandupclub.com",
+  "location_count": 1,
+  "location_names": [
+    "The Stand Up Comedy Club"
+  ],
+  "websites": [
+    "https://www.thestandupclub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thestandupclub.com/": {
+      "url": "https://www.thestandupclub.com/",
+      "html_bytes": 258670,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.thestandupclub.com/menu/": {
+      "url": "https://www.thestandupclub.com/menu/",
+      "html_bytes": 209746,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001sJkpoAAC"
+}

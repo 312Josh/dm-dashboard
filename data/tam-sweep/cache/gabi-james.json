@@ -1,0 +1,64 @@
+{
+  "parent": "Gabi James - Parent Account",
+  "slug": "gabi-james",
+  "total_headroom": "$14,952",
+  "non_ec_headroom": "$14,952",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$3,201",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "srgabriele@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Gabi James - Redondo Beach"
+  ],
+  "websites": [
+    "https://www.gabijamesla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.gabijamesla.com/": {
+      "url": "https://www.gabijamesla.com/",
+      "html_bytes": 38622,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.gabijamesla.com/menus/": {
+      "url": "https://www.gabijamesla.com/menus/",
+      "html_bytes": 276387,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001eI2ulIAC"
+}

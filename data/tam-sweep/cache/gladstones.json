@@ -1,0 +1,56 @@
+{
+  "parent": "Gladstones Parent",
+  "slug": "gladstones",
+  "total_headroom": "$11,604",
+  "non_ec_headroom": "$11,604",
+  "est_ec_headroom": "$0",
+  "employee_count": "43",
+  "non_ec_arr": "$20,402",
+  "state": "CA",
+  "city": "Pacific Palisades",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "jim@gladstones.com",
+  "location_count": 1,
+  "location_names": [
+    "Gladstones"
+  ],
+  "websites": [
+    "https://www.gladstones.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.gladstones.com/": {
+      "url": "https://www.gladstones.com/",
+      "html_bytes": 221436,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.gladstones.com/menu": {
+      "url": "https://www.gladstones.com/menu",
+      "html_bytes": 161754,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001to8BXAAY"
+}

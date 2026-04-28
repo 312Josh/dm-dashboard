@@ -1,0 +1,77 @@
+{
+  "parent": "Alondra Wings Parent",
+  "slug": "alondra-wings",
+  "total_headroom": "$17,160",
+  "non_ec_headroom": "$17,160",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$5,256",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "mike@ahwhittier.com",
+  "location_count": 1,
+  "location_names": [
+    "Alondra Wings- Whittier"
+  ],
+  "websites": [
+    "https://www.ahwhittier.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ahwhittier.com/": {
+      "url": "https://www.ahwhittier.com/",
+      "html_bytes": 1070541,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/alondra-whittier-13205-whittier-blvd-ste-a-flzjo/rewardsSignup"
+      }
+    },
+    "https://www.ahwhittier.com/menus": {
+      "url": "https://www.ahwhittier.com/menus",
+      "html_bytes": 1428181,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.ahwhittier.com/order-online-1": {
+      "url": "https://www.ahwhittier.com/order-online-1",
+      "html_bytes": 702343,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.ahwhittier.com/rewards": {
+      "url": "https://www.ahwhittier.com/rewards",
+      "html_bytes": 693803,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/alondra-whittier-13205-whittier-blvd-ste-a-flzjo/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/alondra-whittier-13205-whittier-blvd-ste-a-flzjo/rewardsSignup"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001qqVn3AAE"
+}

@@ -1,0 +1,56 @@
+{
+  "parent": "Gulp Restaurant - PARENT",
+  "slug": "gulp-restaurant",
+  "total_headroom": "$42,020",
+  "non_ec_headroom": "$36,420",
+  "est_ec_headroom": "$5,600",
+  "employee_count": "34",
+  "non_ec_arr": "$8,352",
+  "state": "CA",
+  "city": "Playa Vista",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "watsonalw56@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Gulp Brew Co - Playa",
+    "Sweet Fish Sushi Bar"
+  ],
+  "websites": [
+    "https://gulpbrewco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gulpbrewco.com/": {
+      "url": "https://gulpbrewco.com/",
+      "html_bytes": 137113,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://gulpbrewco.com/reservations": {
+      "url": "https://gulpbrewco.com/reservations",
+      "html_bytes": 68411,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001huppBIAQ"
+}

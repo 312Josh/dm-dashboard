@@ -1,0 +1,61 @@
+{
+  "parent": "King's Hawaiian Restaurants",
+  "slug": "king-s-hawaiian-restaurants",
+  "total_headroom": "$48,552",
+  "non_ec_headroom": "$31,920",
+  "est_ec_headroom": "$16,632",
+  "employee_count": "99",
+  "non_ec_arr": "$58,530",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mark@kingshawaiian.com",
+  "location_count": 2,
+  "location_names": [
+    "King's Hawaiian Bakery and Restaurant - Torrance",
+    "The Local Place Bakery and Cafe"
+  ],
+  "websites": [
+    "https://www.khbakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.khbakery.com/": {
+      "url": "https://www.khbakery.com/",
+      "html_bytes": 5492,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "online_ordering": "Toast",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260305224916/https://www.khbakery.com/",
+        "html_bytes": 291579,
+        "vendors": {
+          "website_cms": "Popmenu",
+          "online_ordering": "Toast",
+          "reservations": "OpenTable",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001rzwKVAAY"
+}

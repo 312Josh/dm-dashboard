@@ -1,0 +1,31 @@
+{
+  "parent": "ROBA NOODLE Parent",
+  "slug": "roba-noodle",
+  "total_headroom": "$20,088",
+  "non_ec_headroom": "$18,660",
+  "est_ec_headroom": "$1,428",
+  "employee_count": "9",
+  "non_ec_arr": "$1,895",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jinmusubisquare@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Musubi Square"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001lju4AIAQ"
+}

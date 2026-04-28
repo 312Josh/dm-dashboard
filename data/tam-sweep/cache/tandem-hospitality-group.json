@@ -70,7 +70,8 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "famille": "https://www.famillewestminster.com/",
@@ -82,5 +83,6 @@
     "anvil": "https://www.tandemhospitalitygroup.com/",
     "33 staves": "https://www.originhotel.com/hotels/lexington/dining",
     "two birds": "https://www.tandemhospitalitygroup.com/"
-  }
+  },
+  "sfdc_account_id": "0014W00002xdCYwQAM"
 }

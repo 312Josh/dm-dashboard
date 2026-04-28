@@ -1,0 +1,54 @@
+{
+  "parent": "Yellow Jersey Patisserie - Hermosa Beach - Parent Account",
+  "slug": "yellow-jersey-patisserie-hermosa-beach",
+  "total_headroom": "$16,956",
+  "non_ec_headroom": "$16,620",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$3,450",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "mike@yellowjerseyla.com",
+  "location_count": 1,
+  "location_names": [
+    "Yellow Jersey Patisserie - Hermosa Beach"
+  ],
+  "websites": [
+    "https://www.yellowjerseyla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.yellowjerseyla.com/": {
+      "url": "https://www.yellowjerseyla.com/",
+      "html_bytes": 163097,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.yellowjerseyla.com/menu-1": {
+      "url": "https://www.yellowjerseyla.com/menu-1",
+      "html_bytes": 115081,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001pXIWbYAO"
+}

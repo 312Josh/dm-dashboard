@@ -1,0 +1,57 @@
+{
+  "parent": "Elite/Patxis Pizza",
+  "slug": "elite-patxis-pizza",
+  "total_headroom": "$72,900",
+  "non_ec_headroom": "$72,900",
+  "est_ec_headroom": "$0",
+  "employee_count": "71",
+  "non_ec_arr": "$12,540",
+  "state": "HI",
+  "city": "Honolulu",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "tcutting@slaters5050.com",
+  "location_count": 4,
+  "location_names": [
+    "Kahuna Lanai",
+    "Sunset Lanai",
+    "Mermaid Sushi",
+    "The Lanai at Mamala Bay"
+  ],
+  "websites": [
+    "https://patxispizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://patxispizza.com/": {
+      "url": "https://patxispizza.com/",
+      "html_bytes": 204215,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "gift_cards": "Valutec",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://patxispizza.com/menu/": {
+      "url": "https://patxispizza.com/menu/",
+      "html_bytes": 311210,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "gift_cards": "Valutec",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000bldF8YAI"
+}

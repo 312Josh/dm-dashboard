@@ -1,0 +1,76 @@
+{
+  "parent": "Rock N Joy Juice - Parent Account",
+  "slug": "rock-n-joy-juice",
+  "total_headroom": "$17,244",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$2,478",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "rocknjoyjuice@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Rock N Joy Juice NEW"
+  ],
+  "websites": [
+    "https://rocknjoyjuice.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://rocknjoyjuice.com/": {
+      "url": "https://rocknjoyjuice.com/",
+      "html_bytes": 125429,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/rock-n-joy-juice-3730-pacific-coast-hwy-102/rewardsSignup"
+      }
+    },
+    "https://rocknjoyjuice.com/menu/": {
+      "url": "https://rocknjoyjuice.com/menu/",
+      "html_bytes": 118299,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://rocknjoyjuice.com/ordering/": {
+      "url": "https://rocknjoyjuice.com/ordering/",
+      "html_bytes": 118672,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://rocknjoyjuice.com/rewards/": {
+      "url": "https://rocknjoyjuice.com/rewards/",
+      "html_bytes": 115957,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/rock-n-joy-juice-3730-pacific-coast-hwy-102/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/rock-n-joy-juice-3730-pacific-coast-hwy-102/rewardsSignup"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002mm4MPYAY"
+}

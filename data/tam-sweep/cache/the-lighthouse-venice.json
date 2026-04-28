@@ -1,0 +1,40 @@
+{
+  "parent": "The Lighthouse - Venice - Parent Account",
+  "slug": "the-lighthouse-venice",
+  "total_headroom": "$19,812",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$672",
+  "employee_count": "4",
+  "non_ec_arr": "$2,520",
+  "state": "NY",
+  "city": "Brooklyn",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "neil@whalargroup.com",
+  "location_count": 1,
+  "location_names": [
+    "The Lighthouse - Brooklyn"
+  ],
+  "websites": [
+    "https://www.thelighthouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thelighthouse.com/": {
+      "url": "https://www.thelighthouse.com/",
+      "html_bytes": 104454,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002MuAYWYA3"
+}

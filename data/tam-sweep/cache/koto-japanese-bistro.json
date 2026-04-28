@@ -110,12 +110,14 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "koto": "https://kotobistro.com/",
     "omakase": "https://www.omakaselex.com/",
     "umami": "https://umamilex.com/",
     "kyoto": "https://www.kyotojapanesekitchens.com/"
-  }
+  },
+  "sfdc_account_id": "001PV00000qeCZIYA2"
 }

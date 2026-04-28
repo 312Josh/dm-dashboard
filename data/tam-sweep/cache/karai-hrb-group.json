@@ -1,0 +1,43 @@
+{
+  "parent": "Karai HRB Group",
+  "slug": "karai-hrb-group",
+  "total_headroom": "$18,888",
+  "non_ec_headroom": "$18,552",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$3,679",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "karaiwhittier@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Karai HRB - Whittier"
+  ],
+  "websites": [
+    "https://karaihrbwhittier.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://karaihrbwhittier.toast.site/": {
+      "url": "https://karaihrbwhittier.toast.site/",
+      "html_bytes": 5546,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000oESHPYA4"
+}

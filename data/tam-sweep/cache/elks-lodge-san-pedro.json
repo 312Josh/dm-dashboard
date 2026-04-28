@@ -1,0 +1,31 @@
+{
+  "parent": "Elks lodge - San Pedro Parent",
+  "slug": "elks-lodge-san-pedro",
+  "total_headroom": "$22,732",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,792",
+  "employee_count": "11",
+  "non_ec_arr": "$6,600",
+  "state": "CA",
+  "city": "Rancho Palos Ver",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "bvargas@sanperoelks.org",
+  "location_count": 1,
+  "location_names": [
+    "San Pedro Elks Lodge - 966"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001oUejYAAS"
+}

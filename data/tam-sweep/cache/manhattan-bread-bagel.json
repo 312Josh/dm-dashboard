@@ -1,0 +1,54 @@
+{
+  "parent": "Manhattan Bread & Bagel- Parent Account",
+  "slug": "manhattan-bread-bagel",
+  "total_headroom": "$14,052",
+  "non_ec_headroom": "$14,052",
+  "est_ec_headroom": "$0",
+  "employee_count": "29",
+  "non_ec_arr": "$8,388",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "bgnejad@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Manhattan Bread & Bagel"
+  ],
+  "websites": [
+    "https://www.manhattanbread.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.manhattanbread.com/": {
+      "url": "https://www.manhattanbread.com/",
+      "html_bytes": 555056,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/manhattanbreadbagel",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/manhattanbreadbagel",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xemy1QAA"
+}

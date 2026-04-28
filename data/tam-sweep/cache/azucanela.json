@@ -1,0 +1,60 @@
+{
+  "parent": "Azucanela PARENT",
+  "slug": "azucanela",
+  "total_headroom": "$17,640",
+  "non_ec_headroom": "$17,640",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$4,020",
+  "state": "CA",
+  "city": "Hawthorne",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "info@azucanela.com",
+  "location_count": 1,
+  "location_names": [
+    "Azucanela"
+  ],
+  "websites": [
+    "https://azucanela.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://azucanela.com/": {
+      "url": "https://azucanela.com/",
+      "html_bytes": 103326,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://azucanela.com/menu-2/": {
+      "url": "https://azucanela.com/menu-2/",
+      "html_bytes": 85628,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV000013yI36YAE"
+}

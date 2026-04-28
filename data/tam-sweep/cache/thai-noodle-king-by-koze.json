@@ -1,0 +1,45 @@
+{
+  "parent": "Thai Noodle King By Koze - Parent Account",
+  "slug": "thai-noodle-king-by-koze",
+  "total_headroom": "$19,260",
+  "non_ec_headroom": "$19,260",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$3,144",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "158tnking@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Thai Noodle King"
+  ],
+  "websites": [
+    "https://www.thainoodlekingbykoze.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thainoodlekingbykoze.com/": {
+      "url": "https://www.thainoodlekingbykoze.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002msVaJQAU"
+}

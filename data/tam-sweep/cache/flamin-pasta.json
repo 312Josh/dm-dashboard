@@ -1,0 +1,43 @@
+{
+  "parent": "Flamin Pasta' - Parent Account",
+  "slug": "flamin-pasta",
+  "total_headroom": "$17,640",
+  "non_ec_headroom": "$17,052",
+  "est_ec_headroom": "$588",
+  "employee_count": "4",
+  "non_ec_arr": "$4,201",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mannydlima@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Flamin Pasta'"
+  ],
+  "websites": [
+    "https://flaminpasta.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://flaminpasta.com/": {
+      "url": "https://flaminpasta.com/",
+      "html_bytes": 5512,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003JTxZPQA1"
+}

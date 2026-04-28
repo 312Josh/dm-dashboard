@@ -1,0 +1,42 @@
+{
+  "parent": "OB's Pub & Grill - Parent Account",
+  "slug": "ob-s-pub-grill",
+  "total_headroom": "$24,776",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$3,836",
+  "employee_count": "23",
+  "non_ec_arr": "$1,800",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "spdelk@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "OB's Pub & Grill"
+  ],
+  "websites": [
+    "https://obsmb.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://obsmb.com/": {
+      "url": "https://obsmb.com/",
+      "html_bytes": 37784,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CMzsHQAT"
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "Pinwheel Cafe and Bakery Parent",
+  "slug": "pinwheel-cafe-and-bakery",
+  "total_headroom": "$18,480",
+  "non_ec_headroom": "$18,480",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$4,425",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bakerypinwheel@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pinwheel Cafe and Bakery"
+  ],
+  "websites": [
+    "https://www.pinwheelcafebakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pinwheelcafebakery.com/": {
+      "url": "https://www.pinwheelcafebakery.com/",
+      "html_bytes": 5524,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001pkFfXAAU"
+}

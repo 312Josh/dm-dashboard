@@ -1,0 +1,60 @@
+{
+  "parent": "Tata's Cafe - Parent Account",
+  "slug": "tata-s-cafe",
+  "total_headroom": "$17,192",
+  "non_ec_headroom": "$15,540",
+  "est_ec_headroom": "$1,652",
+  "employee_count": "10",
+  "non_ec_arr": "$8,076",
+  "state": "CA",
+  "city": "Hawthorne",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "luis@tatascafe.com",
+  "location_count": 1,
+  "location_names": [
+    "Tata's Cafe"
+  ],
+  "websites": [
+    "https://tatascafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tatascafe.com/": {
+      "url": "https://tatascafe.com/",
+      "html_bytes": 162924,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://tatascafe.com/m/orders": {
+      "url": "https://tatascafe.com/m/orders",
+      "html_bytes": 135111,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037YTpKQAW"
+}

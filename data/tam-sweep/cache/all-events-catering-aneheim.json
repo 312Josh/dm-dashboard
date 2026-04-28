@@ -1,0 +1,44 @@
+{
+  "parent": "All Events Catering - Aneheim",
+  "slug": "all-events-catering-aneheim",
+  "total_headroom": "$14,312",
+  "non_ec_headroom": "$13,752",
+  "est_ec_headroom": "$560",
+  "employee_count": "3",
+  "non_ec_arr": "$9,588",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "elizabeth@cateringallevents.com",
+  "location_count": 1,
+  "location_names": [
+    "Alexanders - Anaheim"
+  ],
+  "websites": [
+    "https://www.cateringallevents.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cateringallevents.com/": {
+      "url": "https://www.cateringallevents.com/",
+      "html_bytes": 614222,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037WJ9uQAG"
+}

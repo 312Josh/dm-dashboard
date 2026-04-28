@@ -1,0 +1,56 @@
+{
+  "parent": "Gondola Pizza Parent",
+  "slug": "gondola-pizza",
+  "total_headroom": "$22,048",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$4,228",
+  "employee_count": "25",
+  "non_ec_arr": "$7,428",
+  "state": "CA",
+  "city": "La Mirada",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "gondolapizza@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "Gondola Pizza"
+  ],
+  "websites": [
+    "https://gondolapizza1.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gondolapizza1.com/": {
+      "url": "https://gondolapizza1.com/",
+      "html_bytes": 104839,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {}
+    },
+    "https://gondolapizza1.com/menu": {
+      "url": "https://gondolapizza1.com/menu",
+      "html_bytes": 113166,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001iSm1pIAC"
+}

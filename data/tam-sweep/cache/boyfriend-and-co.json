@@ -1,0 +1,31 @@
+{
+  "parent": "Boyfriend And Co - Parent Account",
+  "slug": "boyfriend-and-co",
+  "total_headroom": "$17,220",
+  "non_ec_headroom": "$17,220",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$5,162",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "craighopson@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Electric Bleu"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV000014bsHyYAI"
+}

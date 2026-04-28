@@ -1,0 +1,54 @@
+{
+  "parent": "Wille Mae's Restaurant Group Parent",
+  "slug": "wille-mae-s-restaurant-group",
+  "total_headroom": "$10,704",
+  "non_ec_headroom": "$10,704",
+  "est_ec_headroom": "$0",
+  "employee_count": "65",
+  "non_ec_arr": "$13,128",
+  "state": "LA",
+  "city": "New Orleans",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "wellington1021@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Willie Mae’s Nola"
+  ],
+  "websites": [
+    "https://williemaesnola.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://williemaesnola.com": {
+      "url": "https://williemaesnola.com",
+      "html_bytes": 179313,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://williemaesnola.com/menu-1": {
+      "url": "https://williemaesnola.com/menu-1",
+      "html_bytes": 548458,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002XT3GLQA1"
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Il Piccolo / Mariners",
+  "slug": "il-piccolo-mariners",
+  "total_headroom": "$59,324",
+  "non_ec_headroom": "$49,524",
+  "est_ec_headroom": "$9,800",
+  "employee_count": "59",
+  "non_ec_arr": "$12,918",
+  "state": "CA",
+  "city": "Playa Vista",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "ritrovoplayavista@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Il Piccolo Ritrovo - Playa Vista",
+    "Cafe Bohene",
+    "The Tarpon Bay Grill & Tiki Bar"
+  ],
+  "websites": [
+    "https://www.ritrovoplayavista.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ritrovoplayavista.com/": {
+      "url": "https://www.ritrovoplayavista.com/",
+      "html_bytes": 5523,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001hS46gIAC"
+}

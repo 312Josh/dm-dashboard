@@ -1,0 +1,48 @@
+{
+  "parent": "Game Sports Bar - Parent Account",
+  "slug": "game-sports-bar",
+  "total_headroom": "$18,492",
+  "non_ec_headroom": "$18,492",
+  "est_ec_headroom": "$0",
+  "employee_count": "89",
+  "non_ec_arr": "$28,184",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@thedistrictbygs.com",
+  "location_count": 2,
+  "location_names": [
+    "The DIstrict By G's",
+    "SEVEN NINETEEN BY GS"
+  ],
+  "websites": [
+    "https://www.facebook.com/GameBarLA/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/GameBarLA/": {
+      "url": "https://www.facebook.com/GameBarLA/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "district": "https://www.facebook.com/GameBarLA/",
+    "seven nineteen": "https://www.facebook.com/GameBarLA/"
+  },
+  "sfdc_account_id": "0014W00003CNCCAQA5"
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "Zam Zam Restaurant - SMB POS - New Business - Parent",
+  "slug": "zam-zam-restaurant-smb-pos-new-business",
+  "total_headroom": "$20,580",
+  "non_ec_headroom": "$20,580",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$2,388",
+  "state": "CA",
+  "city": "Hawthorne",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "wardahsurti20@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Zam Zam Restaurant"
+  ],
+  "websites": [
+    "https://www.yelp.com/biz/zam-zam-foods-hawthorne-2"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.yelp.com/biz/zam-zam-foods-hawthorne-2": {
+      "url": "https://www.yelp.com/biz/zam-zam-foods-hawthorne-2",
+      "html_bytes": 776,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000033szHRQAY"
+}

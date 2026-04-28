@@ -1,0 +1,86 @@
+{
+  "parent": "Paradise Bowls - Parent",
+  "slug": "paradise-bowls",
+  "total_headroom": "$59,316",
+  "non_ec_headroom": "$59,316",
+  "est_ec_headroom": "$0",
+  "employee_count": "94",
+  "non_ec_arr": "$16,835",
+  "state": "CA",
+  "city": "Irvine",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "ucla71@aol.com",
+  "location_count": 4,
+  "location_names": [
+    "Paradise Bowls Irvine",
+    "Paradise Bowls Manhattan Beach",
+    "Paradise Bowls - Marina Del Rey",
+    "Paradise Bowls - Hermosa Beach"
+  ],
+  "websites": [
+    "https://www.paradisebowls.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.paradisebowls.com/": {
+      "url": "https://www.paradisebowls.com/",
+      "html_bytes": 1038408,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Catering page",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.paradisebowls.com/",
+        "toast_loyalty": "toasttab.com/paradise-bowls-hermosa-1246-hermosa-ave/rewardsSignup",
+        "toast_oo_whitelabel_confirmed": "order.paradisebowls.com + toasttab string in HTML"
+      }
+    },
+    "https://www.paradisebowls.com/menu": {
+      "url": "https://www.paradisebowls.com/menu",
+      "html_bytes": 1080497,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.paradisebowls.com/"
+      }
+    },
+    "https://www.paradisebowls.com/rewards": {
+      "url": "https://www.paradisebowls.com/rewards",
+      "html_bytes": 772722,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.paradisebowls.com/",
+        "toast_loyalty": "toasttab.com/paradise-bowls-hermosa-1246-hermosa-ave/rewardsSignup",
+        "toast_oo_whitelabel_confirmed": "order.paradisebowls.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.paradisebowls.com/",
+    "toast_loyalty": "toasttab.com/paradise-bowls-hermosa-1246-hermosa-ave/rewardsSignup",
+    "toast_oo_whitelabel_confirmed": "order.paradisebowls.com + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001p3yJeAAI"
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "Dragonfly Thai - Palos Verdes, CA Parent",
+  "slug": "dragonfly-thai-palos-verdes-ca",
+  "total_headroom": "$21,488",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$1,148",
+  "employee_count": "7",
+  "non_ec_arr": "$480",
+  "state": "CA",
+  "city": "Rolling Hills Estates",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "vickimu@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Dragonfly Thai - Palos Verdes, CA"
+  ],
+  "websites": [
+    "https://www.dragonflythaibistro.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.dragonflythaibistro.com/": {
+      "url": "https://www.dragonflythaibistro.com/",
+      "html_bytes": 850325,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001hTRxjIAG"
+}

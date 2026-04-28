@@ -1,0 +1,63 @@
+{
+  "parent": "WSQ Pizza - Parent Account",
+  "slug": "wsq-pizza",
+  "total_headroom": "$15,792",
+  "non_ec_headroom": "$15,792",
+  "est_ec_headroom": "$0",
+  "employee_count": "24",
+  "non_ec_arr": "$7,524",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "tima@wsqpizza.com",
+  "location_count": 1,
+  "location_names": [
+    "WSQ Pizza"
+  ],
+  "websites": [
+    "https://www.wsqpizza.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.wsqpizza.com": {
+      "url": "https://www.wsqpizza.com",
+      "html_bytes": 150650,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/wsq-pizza-31-washington-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.wsqpizza.com/menu-1": {
+      "url": "https://www.wsqpizza.com/menu-1",
+      "html_bytes": 140489,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/wsq-pizza-31-washington-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/wsq-pizza-31-washington-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000uyj8eYAA"
+}

@@ -1,0 +1,55 @@
+{
+  "parent": "The Empanada Shop- Parent Account",
+  "slug": "the-empanada-shop",
+  "total_headroom": "$18,060",
+  "non_ec_headroom": "$18,060",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "-$785",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Unknown",
+  "contact_email": "rubenfrias1@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Empanada Shop"
+  ],
+  "websites": [
+    "https://www.the-empanadashop.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.the-empanadashop.com/": {
+      "url": "https://www.the-empanadashop.com/",
+      "html_bytes": 272206,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/theempanadashop",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/theempanadashop",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002xd3ChQAI"
+}

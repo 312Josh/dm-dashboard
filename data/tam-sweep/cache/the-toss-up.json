@@ -1,0 +1,44 @@
+{
+  "parent": "The Toss Up Parent",
+  "slug": "the-toss-up",
+  "total_headroom": "$14,472",
+  "non_ec_headroom": "$14,472",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$6,048",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "ectoria@sbcglobal.net",
+  "location_count": 1,
+  "location_names": [
+    "The Toss Up"
+  ],
+  "websites": [
+    "https://www.thetossup.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thetossup.com/": {
+      "url": "https://www.thetossup.com/",
+      "html_bytes": 5515,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001ttTIWAA2"
+}

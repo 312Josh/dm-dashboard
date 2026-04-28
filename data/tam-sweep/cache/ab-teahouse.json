@@ -1,0 +1,46 @@
+{
+  "parent": "AB Teahouse - Parent Account",
+  "slug": "ab-teahouse",
+  "total_headroom": "$16,908",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$4,896",
+  "state": "CA",
+  "city": "Cypress",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "vienbinh2001@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "AB Teahouse"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/ab-teahouse-10953-meridian-dr-ste-g"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/ab-teahouse-10953-meridian-dr-ste-g": {
+      "url": "https://order.toasttab.com/online/ab-teahouse-10953-meridian-dr-ste-g",
+      "html_bytes": 5727,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037XeGOQA0"
+}

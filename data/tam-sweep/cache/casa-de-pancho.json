@@ -1,0 +1,43 @@
+{
+  "parent": "Casa De Pancho - PARENT",
+  "slug": "casa-de-pancho",
+  "total_headroom": "$42,704",
+  "non_ec_headroom": "$32,064",
+  "est_ec_headroom": "$10,640",
+  "employee_count": "63",
+  "non_ec_arr": "$23,724",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bertha@casadepancho.com",
+  "location_count": 2,
+  "location_names": [
+    "Casa De Pancho - Anaheim Garden Walk",
+    "Mayan Tacos"
+  ],
+  "websites": [
+    "https://casadepancho.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://casadepancho.com/": {
+      "url": "https://casadepancho.com/",
+      "html_bytes": 13807,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002XULjkQAH"
+}

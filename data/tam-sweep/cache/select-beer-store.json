@@ -1,0 +1,43 @@
+{
+  "parent": "Select Beer Store Parent",
+  "slug": "select-beer-store",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$1,080",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "wes@selectbeerstore.com",
+  "location_count": 1,
+  "location_names": [
+    "Select Beer Store"
+  ],
+  "websites": [
+    "http://www.selectbeerstore.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.selectbeerstore.com/": {
+      "url": "http://www.selectbeerstore.com/",
+      "html_bytes": 95879,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001gL1ojIAC"
+}

@@ -1,0 +1,89 @@
+{
+  "parent": "LAM Ryan Group Parent",
+  "slug": "lam-ryan-group",
+  "total_headroom": "$145,796",
+  "non_ec_headroom": "$116,340",
+  "est_ec_headroom": "$29,456",
+  "employee_count": "177",
+  "non_ec_arr": "$30,348",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "nettyryan66@gmail.com",
+  "location_count": 6,
+  "location_names": [
+    "Hatchet Hall",
+    "Simone Si Mon",
+    "Townhouse",
+    "Menotti's Culver City",
+    "Menottis - Venice",
+    "Menotti's Food Truck 1 Sprinter Van"
+  ],
+  "websites": [
+    "https://www.lamryan.com/properties/hatchethall",
+    "https://www.lamryan.com/properties/si-monla",
+    "https://www.lamryan.com/properties/townhousevenice",
+    "https://www.lamryan.com/properties/menottiscoffeestop"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lamryan.com/properties/hatchethall": {
+      "url": "https://www.lamryan.com/properties/hatchethall",
+      "html_bytes": 243876,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.lamryan.com/properties/si-monla": {
+      "url": "https://www.lamryan.com/properties/si-monla",
+      "html_bytes": 344271,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.lamryan.com/properties/townhousevenice": {
+      "url": "https://www.lamryan.com/properties/townhousevenice",
+      "html_bytes": 241027,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.lamryan.com/properties/menottiscoffeestop": {
+      "url": "https://www.lamryan.com/properties/menottiscoffeestop",
+      "html_bytes": 263851,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy",
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "hatchet": "https://www.lamryan.com/properties/hatchethall",
+    "simone": "https://www.lamryan.com/properties/si-monla",
+    "townhouse": "https://www.lamryan.com/properties/townhousevenice",
+    "menotti": "https://www.lamryan.com/properties/menottiscoffeestop"
+  },
+  "sfdc_account_id": "0013c00001xX1DsAAK"
+}

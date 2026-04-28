@@ -1,0 +1,40 @@
+{
+  "parent": "Sorrento’s italian and pizza - Parent Account",
+  "slug": "sorrento-s-italian-and-pizza",
+  "total_headroom": "$21,728",
+  "non_ec_headroom": "$20,580",
+  "est_ec_headroom": "$1,148",
+  "employee_count": "7",
+  "non_ec_arr": "$1,920",
+  "state": "CA",
+  "city": "San Pedro",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "sanpedrosorrentos@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sorrento’s italian and pizza"
+  ],
+  "websites": [
+    "https://sorrentos-restaurant.restaurants-world.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sorrentos-restaurant.restaurants-world.net/": {
+      "url": "https://sorrentos-restaurant.restaurants-world.net/",
+      "html_bytes": 5582,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003JUSGHQA5"
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "Kaffeine - Coffee - Redondo Beach - Parent Account",
+  "slug": "kaffeine-coffee-redondo-beach",
+  "total_headroom": "$12,144",
+  "non_ec_headroom": "$12,144",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$2,904",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "daniel.kiss@protectone.com",
+  "location_count": 1,
+  "location_names": [
+    "Kaffeine - Coffee - Redondo Beach"
+  ],
+  "websites": [
+    "https://kaffeinecoffeeredondobeach.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kaffeinecoffeeredondobeach.toast.site/": {
+      "url": "https://kaffeinecoffeeredondobeach.toast.site/",
+      "html_bytes": 5598,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001bq3vJYAQ"
+}

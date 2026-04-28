@@ -1,0 +1,58 @@
+{
+  "parent": "Tacos El Fogon Bellflower",
+  "slug": "tacos-el-fogon-bellflower",
+  "total_headroom": "$18,540",
+  "non_ec_headroom": "$16,020",
+  "est_ec_headroom": "$2,520",
+  "employee_count": "15",
+  "non_ec_arr": "$6,445",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tacosfogon1@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Tacos El Fogon Bellflower"
+  ],
+  "websites": [
+    "https://www.tacoselfogonla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tacoselfogonla.com/": {
+      "url": "https://www.tacoselfogonla.com/",
+      "html_bytes": 5520,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "online_ordering": "Toast",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251005215830/https://www.tacoselfogonla.com/",
+        "html_bytes": 269718,
+        "vendors": {
+          "website_cms": "Popmenu",
+          "online_ordering": "Toast",
+          "reservations": "OpenTable",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F3NFIQA3"
+}

@@ -1,0 +1,84 @@
+{
+  "parent": "Di Roma Cucina - Torrance - Parent Account",
+  "slug": "di-roma-cucina-torrance",
+  "total_headroom": "$18,528",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$484",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "diromacucina@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Di Roma Cucina - Torrance"
+  ],
+  "websites": [
+    "https://www.diromacucina.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.diromacucina.com/": {
+      "url": "https://www.diromacucina.com/",
+      "html_bytes": 30832,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/di-roma-cucina-torrance-23863-hawthorne-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.diromacucina.com/menus/": {
+      "url": "https://www.diromacucina.com/menus/",
+      "html_bytes": 149553,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/di-roma-cucina-torrance-23863-hawthorne-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.diromacucina.com/store/gift-cards/": {
+      "url": "https://www.diromacucina.com/store/gift-cards/",
+      "html_bytes": 34347,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/di-roma-cucina-torrance-23863-hawthorne-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/di-roma-cucina-torrance-23863-hawthorne-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037Yu2VQAS"
+}

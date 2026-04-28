@@ -1,0 +1,51 @@
+{
+  "parent": "Decadence Bar - Hermosa Beach",
+  "slug": "decadence-bar-hermosa-beach",
+  "total_headroom": "$21,048",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$1,008",
+  "employee_count": "6",
+  "non_ec_arr": "$840",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "decadencebar@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Decadence Bar - Hermosa Beach"
+  ],
+  "websites": [
+    "http://decadencebar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://decadencebar.com/": {
+      "url": "http://decadencebar.com/",
+      "html_bytes": 51001,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "http://decadencebar.com/menu/": {
+      "url": "http://decadencebar.com/menu/",
+      "html_bytes": 45178,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001l00faIAA"
+}

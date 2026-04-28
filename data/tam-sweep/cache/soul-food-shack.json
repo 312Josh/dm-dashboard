@@ -1,0 +1,46 @@
+{
+  "parent": "Soul Food Shack - Parent",
+  "slug": "soul-food-shack",
+  "total_headroom": "$38,652",
+  "non_ec_headroom": "$38,652",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$4,260",
+  "state": "CA",
+  "city": "GARDENA",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "whitenaena@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Snack Shack",
+    "Granddaddys Breakfast Haus"
+  ],
+  "websites": [
+    "https://www.thesoulfoodshack.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thesoulfoodshack.com/": {
+      "url": "https://www.thesoulfoodshack.com/",
+      "html_bytes": 577882,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003GWjJ7QAL"
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "Baja Sonora Parent",
+  "slug": "baja-sonora",
+  "total_headroom": "$21,320",
+  "non_ec_headroom": "$19,080",
+  "est_ec_headroom": "$2,240",
+  "employee_count": "13",
+  "non_ec_arr": "$2,584",
+  "state": "CA",
+  "city": "Long Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "lbdoctortaco@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Baja Sonora"
+  ],
+  "websites": [
+    "https://bajasonora.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bajasonora.com/": {
+      "url": "https://bajasonora.com/",
+      "html_bytes": 5490,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001g75L3IAI"
+}

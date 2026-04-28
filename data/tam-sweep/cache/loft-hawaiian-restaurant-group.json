@@ -1,0 +1,54 @@
+{
+  "parent": "Loft Hawaiian Restaurant Group",
+  "slug": "loft-hawaiian-restaurant-group",
+  "total_headroom": "$19,508",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$1,568",
+  "employee_count": "9",
+  "non_ec_arr": "$3,624",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "lskawasaki@me.com",
+  "location_count": 1,
+  "location_names": [
+    "Loft Hawaiian - Gardena"
+  ],
+  "websites": [
+    "https://www.thelofthawaii.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thelofthawaii.com/": {
+      "url": "https://www.thelofthawaii.com/",
+      "html_bytes": 493357,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "pos_other": "Aloha",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/loft-takeout-and-catering-gardena",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/loft-takeout-and-catering-gardena",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001YVyluIAD"
+}

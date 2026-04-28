@@ -1,0 +1,43 @@
+{
+  "parent": "Fuego Maiz Anaheim - Parent Account",
+  "slug": "fuego-maiz-anaheim",
+  "total_headroom": "$16,740",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$3,666",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "burgundy.corp@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Fuego Maiz Anaheim"
+  ],
+  "websites": [
+    "https://fuegomaizca.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://fuegomaizca.com/": {
+      "url": "https://fuegomaizca.com/",
+      "html_bytes": 14100,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001aq9zgYAA"
+}

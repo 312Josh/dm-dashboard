@@ -1,0 +1,55 @@
+{
+  "parent": "El Zarape",
+  "slug": "el-zarape",
+  "total_headroom": "$57,140",
+  "non_ec_headroom": "$37,680",
+  "est_ec_headroom": "$19,460",
+  "employee_count": "116",
+  "non_ec_arr": "$14,844",
+  "state": "CA",
+  "city": "Cypress",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "josh.martin.089@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "El Zarape - Cypress 2",
+    "El Zarape Mexican Restaurant- Cypress"
+  ],
+  "websites": [
+    "https://www.elzarapecypress.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.elzarapecypress.com/": {
+      "url": "https://www.elzarapecypress.com/",
+      "html_bytes": 159215,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.elzarapecypress.com/menus/": {
+      "url": "https://www.elzarapecypress.com/menus/",
+      "html_bytes": 137587,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003JTwY0QAL"
+}

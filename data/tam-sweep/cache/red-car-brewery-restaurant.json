@@ -1,0 +1,56 @@
+{
+  "parent": "Red Car Brewery & Restaurant - Parent Account",
+  "slug": "red-car-brewery-restaurant",
+  "total_headroom": "$45,712",
+  "non_ec_headroom": "$38,880",
+  "est_ec_headroom": "$6,832",
+  "employee_count": "41",
+  "non_ec_arr": "$2,662",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bob@redcarbrewery.com",
+  "location_count": 2,
+  "location_names": [
+    "Red Car Brewery & Restaurant",
+    "Lomita Alehouse"
+  ],
+  "websites": [
+    "https://www.redcarbrewery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.redcarbrewery.com/": {
+      "url": "https://www.redcarbrewery.com/",
+      "html_bytes": 22509,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.redcarbrewery.com/menu": {
+      "url": "https://www.redcarbrewery.com/menu",
+      "html_bytes": 36436,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001eiWpoIAE"
+}

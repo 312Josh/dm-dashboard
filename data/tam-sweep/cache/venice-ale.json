@@ -1,0 +1,67 @@
+{
+  "parent": "Venice Ale Parent",
+  "slug": "venice-ale",
+  "total_headroom": "$17,724",
+  "non_ec_headroom": "$17,724",
+  "est_ec_headroom": "$0",
+  "employee_count": "32",
+  "non_ec_arr": "$7,580",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tom@venicealehouse.com",
+  "location_count": 1,
+  "location_names": [
+    "Venice Ale House"
+  ],
+  "websites": [
+    "https://www.venicealehouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.venicealehouse.com/": {
+      "url": "https://www.venicealehouse.com/",
+      "html_bytes": 223967,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.venicealehouse.com/menu": {
+      "url": "https://www.venicealehouse.com/menu",
+      "html_bytes": 120250,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.venicealehouse.com/reservations": {
+      "url": "https://www.venicealehouse.com/reservations",
+      "html_bytes": 117825,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002mraVjQAI"
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Primal Moves - Parent Account",
+  "slug": "primal-moves",
+  "total_headroom": "$16,136",
+  "non_ec_headroom": "$15,072",
+  "est_ec_headroom": "$1,064",
+  "employee_count": "6",
+  "non_ec_arr": "$1,860",
+  "state": "CA",
+  "city": "Marina Del Rey",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "gus@primalmoves.com",
+  "location_count": 1,
+  "location_names": [
+    "Cherish Cafe & Tea Lounge"
+  ],
+  "websites": [
+    "https://primalmoves.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://primalmoves.com/": {
+      "url": "https://primalmoves.com/",
+      "html_bytes": 139813,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002ehTbVYAU"
+}

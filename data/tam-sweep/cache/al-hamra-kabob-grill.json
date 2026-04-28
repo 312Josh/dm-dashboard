@@ -1,0 +1,60 @@
+{
+  "parent": "Al Hamra Kabob Grill Parent",
+  "slug": "al-hamra-kabob-grill",
+  "total_headroom": "$62,480",
+  "non_ec_headroom": "$60,660",
+  "est_ec_headroom": "$1,820",
+  "employee_count": "11",
+  "non_ec_arr": "$5,400",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "alhamra_90278@hotmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Al Hamra- Redondo Beach",
+    "Al Hamra - Inglewood",
+    "Al Hamra - Lomita"
+  ],
+  "websites": [
+    "https://alhamrakabobsgrill.com/alhamraredondobeach"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://alhamrakabobsgrill.com/alhamraredondobeach": {
+      "url": "https://alhamrakabobsgrill.com/alhamraredondobeach",
+      "html_bytes": 5619,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "online_ordering": "Owner.com",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260124054224/https://alhamrakabobsgrill.com/alhamraredondobeach",
+        "html_bytes": 450558,
+        "vendors": {
+          "website_cms": "Owner.com",
+          "online_ordering": "Owner.com",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037WAz1QAG"
+}

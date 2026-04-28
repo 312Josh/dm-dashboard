@@ -1,0 +1,100 @@
+{
+  "parent": "South Bay Hospitality (Eat at Joes) - Parent",
+  "slug": "south-bay-hospitality-eat-at-joes",
+  "total_headroom": "$152,142",
+  "non_ec_headroom": "$131,604",
+  "est_ec_headroom": "$20,538",
+  "employee_count": "124",
+  "non_ec_arr": "$17,151",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "brianeeldridge@gmail.com",
+  "location_count": 8,
+  "location_names": [
+    "Tiki Kai - Hermosa Beach",
+    "Torrance Tavern",
+    "The Bounty Room",
+    "The Sportsman - Corona",
+    "Paddy O'Brien's Irish Pub - Redondo Beach",
+    "The Sly Fox Irish Pub - Lawndale",
+    "The Hula Hula Room - Torrance",
+    "Eat at Joe's - Redondo Beach"
+  ],
+  "websites": [
+    "https://www.eatatjoes.net/",
+    "https://www.tikikai.com/",
+    "https://www.thebountyroom.com/",
+    "https://www.hulahularoom.com/",
+    "https://www.slyfoxirishpub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.eatatjoes.net/": {
+      "url": "https://www.eatatjoes.net/",
+      "html_bytes": 0,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260309213548/http://eatatjoes.net/",
+        "html_bytes": 146949,
+        "vendors": {
+          "website_cms": "WordPress"
+        }
+      }
+    },
+    "https://www.tikikai.com/": {
+      "url": "https://www.tikikai.com/",
+      "html_bytes": 300586,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.thebountyroom.com/": {
+      "url": "https://www.thebountyroom.com/",
+      "html_bytes": 128078,
+      "fingerprints": {
+        "oo": "ChowNow",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.hulahularoom.com/": {
+      "url": "https://www.hulahularoom.com/",
+      "html_bytes": 114,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.slyfoxirishpub.com/": {
+      "url": "https://www.slyfoxirishpub.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "eat at joe": "https://www.eatatjoes.net/",
+    "tiki kai": "https://www.tikikai.com/",
+    "bounty room": "https://www.thebountyroom.com/",
+    "hula": "https://www.hulahularoom.com/",
+    "sly fox": "https://www.slyfoxirishpub.com/"
+  },
+  "sfdc_account_id": "001PV00001RSj2BYAT"
+}

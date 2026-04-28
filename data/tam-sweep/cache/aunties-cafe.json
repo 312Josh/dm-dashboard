@@ -1,0 +1,56 @@
+{
+  "parent": "Aunties Cafe",
+  "slug": "aunties-cafe",
+  "total_headroom": "$21,244",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$1,204",
+  "employee_count": "7",
+  "non_ec_arr": "$300",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "exhwn50@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Aunties Cafe"
+  ],
+  "websites": [
+    "https://auntiescafeca.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://auntiescafeca.com/": {
+      "url": "https://auntiescafeca.com/",
+      "html_bytes": 124697,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "ChowNow",
+        "delivery_platforms": "ChowNow Direct"
+      },
+      "toast": {}
+    },
+    "https://auntiescafeca.com/menu": {
+      "url": "https://auntiescafeca.com/menu",
+      "html_bytes": 114210,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "ChowNow"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001li6NQIAY"
+}

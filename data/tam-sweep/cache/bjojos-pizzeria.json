@@ -1,0 +1,55 @@
+{
+  "parent": "Bjojos Pizzeria - Parent Account",
+  "slug": "bjojos-pizzeria",
+  "total_headroom": "$20,516",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$476",
+  "employee_count": "3",
+  "non_ec_arr": "$900",
+  "state": "CA",
+  "city": "Long Beach",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jazminzsoto@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bjojos Pizzeria"
+  ],
+  "websites": [
+    "https://www.bjojospizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bjojospizza.com/": {
+      "url": "https://www.bjojospizza.com/",
+      "html_bytes": 54852,
+      "fingerprints": {
+        "oo": "BeyondMenu"
+      },
+      "toast": {}
+    },
+    "https://www.bjojospizza.com/06sx5tla/b-jojos-pizza-long-beach-90805/order-online": {
+      "url": "https://www.bjojospizza.com/06sx5tla/b-jojos-pizza-long-beach-90805/order-online",
+      "html_bytes": 302147,
+      "fingerprints": {
+        "oo": "BeyondMenu"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001huTJ7IAM"
+}

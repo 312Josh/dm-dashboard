@@ -1,0 +1,60 @@
+{
+  "parent": "C&O Restaurants - PARENT",
+  "slug": "c-o-restaurants",
+  "total_headroom": "$28,052",
+  "non_ec_headroom": "$17,160",
+  "est_ec_headroom": "$10,892",
+  "employee_count": "65",
+  "non_ec_arr": "$13,770",
+  "state": "CA",
+  "city": "Marina Del Rey",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "robert@cotrattoria.com",
+  "location_count": 1,
+  "location_names": [
+    "C&O Restaurants"
+  ],
+  "websites": [
+    "https://www.candorestaurants.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.candorestaurants.com/": {
+      "url": "https://www.candorestaurants.com/",
+      "html_bytes": 5522,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "online_ordering": "Popmenu",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251014221309/https://www.candorestaurants.com/",
+        "html_bytes": 307806,
+        "vendors": {
+          "website_cms": "Popmenu",
+          "online_ordering": "Popmenu",
+          "reservations": "OpenTable",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003Mg6R2QAJ"
+}

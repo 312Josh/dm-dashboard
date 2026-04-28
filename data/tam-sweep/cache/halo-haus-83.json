@@ -1,0 +1,46 @@
+{
+  "parent": "Halo Haus 83 - Parent Account",
+  "slug": "halo-haus-83",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$1,080",
+  "state": "CA",
+  "city": "Buena Park",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "trescuisine83@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Halo Haus"
+  ],
+  "websites": [
+    "https://www.halohausla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.halohausla.com/": {
+      "url": "https://www.halohausla.com/",
+      "html_bytes": 324958,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV000029hooAYAQ"
+}

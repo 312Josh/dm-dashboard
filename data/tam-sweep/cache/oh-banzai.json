@@ -1,0 +1,63 @@
+{
+  "parent": "OH BANZAI - Parent Account",
+  "slug": "oh-banzai",
+  "total_headroom": "$20,384",
+  "non_ec_headroom": "$15,792",
+  "est_ec_headroom": "$4,592",
+  "employee_count": "27",
+  "non_ec_arr": "$7,068",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "code3cafe24@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "OH BANZAI"
+  ],
+  "websites": [
+    "https://oh-banzai.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://oh-banzai.com/": {
+      "url": "https://oh-banzai.com/",
+      "html_bytes": 153793,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/oh-banzai-18212-south-western-avenue",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://oh-banzai.com/menu/": {
+      "url": "https://oh-banzai.com/menu/",
+      "html_bytes": 132764,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/oh-banzai-18212-south-western-avenue",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/oh-banzai-18212-south-western-avenue",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001RDlcBYAT"
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "Mario Vollara Restaurants - PARENT",
+  "slug": "mario-vollara-restaurants",
+  "total_headroom": "$26,032",
+  "non_ec_headroom": "$17,520",
+  "est_ec_headroom": "$8,512",
+  "employee_count": "51",
+  "non_ec_arr": "$8,640",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "ccglasshouse@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Owa 2"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037WMFEQA4"
+}

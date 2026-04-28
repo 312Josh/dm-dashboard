@@ -1,0 +1,31 @@
+{
+  "parent": "Cali'S Cocktails - Parent Account",
+  "slug": "cali-s-cocktails",
+  "total_headroom": "$22,620",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,680",
+  "employee_count": "10",
+  "non_ec_arr": "$600",
+  "state": "CA",
+  "city": "Cypress",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "fanofsteel43@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cali'S Cocktails"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F3NEjQAN"
+}

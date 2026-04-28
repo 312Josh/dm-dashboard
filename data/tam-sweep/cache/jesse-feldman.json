@@ -1,0 +1,32 @@
+{
+  "parent": "Jesse Feldman - Parent Account",
+  "slug": "jesse-feldman",
+  "total_headroom": "$39,000",
+  "non_ec_headroom": "$39,000",
+  "est_ec_headroom": "$0",
+  "employee_count": "46",
+  "non_ec_arr": "$7,200",
+  "state": "CA",
+  "city": "West Hollywood",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jesse@coucou.la",
+  "location_count": 2,
+  "location_names": [
+    "Coucou - West Hollywood",
+    "COUCOU - Venice"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgNgvQAF"
+}

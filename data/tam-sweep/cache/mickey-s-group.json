@@ -1,0 +1,66 @@
+{
+  "parent": "Mickey's Group Parent",
+  "slug": "mickey-s-group",
+  "total_headroom": "$68,438",
+  "non_ec_headroom": "$49,308",
+  "est_ec_headroom": "$19,130",
+  "employee_count": "114",
+  "non_ec_arr": "$26,963",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mickey@bellavitahosp.com",
+  "location_count": 4,
+  "location_names": [
+    "Vida - Redondo Beach",
+    "Salt & Pearl - Redondo Beach",
+    "Mickey's - Hermosa Beach - Online Ordering",
+    "Mickeys - Redondo Beach 2025"
+  ],
+  "websites": [
+    "https://mickeysdeli.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mickeysdeli.com/": {
+      "url": "https://mickeysdeli.com/",
+      "html_bytes": 225434,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://mickeysdeli.com/menu-select/": {
+      "url": "https://mickeysdeli.com/menu-select/",
+      "html_bytes": 194775,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://mickeysdeli.com/test.mickeysdeli.com/menu-select": {
+      "url": "https://mickeysdeli.com/test.mickeysdeli.com/menu-select",
+      "html_bytes": 194775,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001HWXrNYAX"
+}

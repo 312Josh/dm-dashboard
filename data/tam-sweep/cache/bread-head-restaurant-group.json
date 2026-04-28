@@ -1,0 +1,71 @@
+{
+  "parent": "Bread Head Restaurant Group - PARENT",
+  "slug": "bread-head-restaurant-group",
+  "total_headroom": "$63,976",
+  "non_ec_headroom": "$50,340",
+  "est_ec_headroom": "$13,636",
+  "employee_count": "82",
+  "non_ec_arr": "$17,100",
+  "state": "CA",
+  "city": "Santa Monica",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "greg@breadheadla.com",
+  "location_count": 3,
+  "location_names": [
+    "Bread Head Santa Monica",
+    "Bread Head- Manhattan Beach",
+    "Bread Head- Westwood"
+  ],
+  "websites": [
+    "https://www.breadheadla.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.breadheadla.com/": {
+      "url": "https://www.breadheadla.com/",
+      "html_bytes": 86468,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "marketing": "Klaviyo",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bread-head",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.breadheadla.com/order-now/": {
+      "url": "https://www.breadheadla.com/order-now/",
+      "html_bytes": 86359,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "marketing": "Klaviyo",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bread-head",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/bread-head",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003JVUKOQA5"
+}

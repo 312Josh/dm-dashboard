@@ -1,0 +1,57 @@
+{
+  "parent": "Beethoven - Parent Account",
+  "slug": "beethoven",
+  "total_headroom": "$33,028",
+  "non_ec_headroom": "$17,292",
+  "est_ec_headroom": "$15,736",
+  "employee_count": "94",
+  "non_ec_arr": "$10,956",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "beethovenmarket@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Beethoven"
+  ],
+  "websites": [
+    "https://www.beethovenmarket.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.beethovenmarket.com/": {
+      "url": "https://www.beethovenmarket.com/",
+      "html_bytes": 142705,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/beethoven-12904-palms-blvd/giftcards"
+      }
+    },
+    "https://www.beethovenmarket.com/menu-2": {
+      "url": "https://www.beethovenmarket.com/menu-2",
+      "html_bytes": 11792606,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/beethoven-12904-palms-blvd/giftcards"
+  },
+  "marketplaces": [
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgQ86QAF"
+}

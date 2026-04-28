@@ -1,0 +1,42 @@
+{
+  "parent": "The Commoner",
+  "slug": "the-commoner",
+  "total_headroom": "$22,048",
+  "non_ec_headroom": "$19,500",
+  "est_ec_headroom": "$2,548",
+  "employee_count": "15",
+  "non_ec_arr": "$3,840",
+  "state": "CA",
+  "city": "Whittier",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "thecommonerwhittier@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Commoner"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/the-commoner-6754-greenleaf-ave/r-41e39936-bd73-4bd2-afac-3c7c1a2c2f6c"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/the-commoner-6754-greenleaf-ave/r-41e39936-bd73-4bd2-afac-3c7c1a2c2f6c": {
+      "url": "https://www.toasttab.com/local/the-commoner-6754-greenleaf-ave/r-41e39936-bd73-4bd2-afac-3c7c1a2c2f6c",
+      "html_bytes": 5826,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001m5GTsIAM"
+}

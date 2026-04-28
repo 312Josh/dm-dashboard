@@ -1,0 +1,56 @@
+{
+  "parent": "Hao Sweet - Parent Account",
+  "slug": "hao-sweet",
+  "total_headroom": "$21,276",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$1,200",
+  "state": "CA",
+  "city": "La Mirada",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "marco.quicho@rehabrcu.com",
+  "location_count": 1,
+  "location_names": [
+    "Hao Sweet"
+  ],
+  "websites": [
+    "https://www.haosweetlamirada.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.haosweetlamirada.com/": {
+      "url": "https://www.haosweetlamirada.com/",
+      "html_bytes": 222230,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.haosweetlamirada.com/menu": {
+      "url": "https://www.haosweetlamirada.com/menu",
+      "html_bytes": 217201,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001ZG5NIYA1"
+}

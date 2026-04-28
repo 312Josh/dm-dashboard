@@ -1,0 +1,49 @@
+{
+  "parent": "Lunada Market - Parent",
+  "slug": "lunada-market",
+  "total_headroom": "$19,156",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$196",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "CA",
+  "city": "Palos Verdes Estates",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "farm2fork@lunadamarket.com",
+  "location_count": 1,
+  "location_names": [
+    "Lunada Kitchen - Palo Verdes"
+  ],
+  "websites": [
+    "https://lunadamarket.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lunadamarket.com/": {
+      "url": "https://lunadamarket.com/",
+      "html_bytes": 237915,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lunada-market-kitchen-2201-palos-verdes-dr-w",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/lunada-market-kitchen-2201-palos-verdes-dr-w",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003JVTMNQA5"
+}

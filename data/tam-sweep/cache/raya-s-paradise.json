@@ -1,0 +1,43 @@
+{
+  "parent": "Raya's Paradise Parent",
+  "slug": "raya-s-paradise",
+  "total_headroom": "$41,352",
+  "non_ec_headroom": "$37,824",
+  "est_ec_headroom": "$3,528",
+  "employee_count": "21",
+  "non_ec_arr": "$7,356",
+  "state": "CA",
+  "city": "West Hollywood",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "moti@rayasparadise.com",
+  "location_count": 2,
+  "location_names": [
+    "Raya's Paradise LA",
+    "Raya's Paradise OC"
+  ],
+  "websites": [
+    "https://rayasparadise.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://rayasparadise.com/": {
+      "url": "https://rayasparadise.com/",
+      "html_bytes": 143716,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001uNnRcAAK"
+}

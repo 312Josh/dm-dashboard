@@ -1,0 +1,42 @@
+{
+  "parent": "Brolly Hut - Parent Account",
+  "slug": "brolly-hut",
+  "total_headroom": "$17,144",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$2,492",
+  "employee_count": "15",
+  "non_ec_arr": "$5,976",
+  "state": "CA",
+  "city": "Inglewood",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "mdavlantis@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Brolly Hut"
+  ],
+  "websites": [
+    "https://www.brollyhut.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.brollyhut.com/": {
+      "url": "https://www.brollyhut.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037YNUhQAO"
+}

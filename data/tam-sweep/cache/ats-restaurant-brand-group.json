@@ -1,0 +1,32 @@
+{
+  "parent": "ATS Restaurant Brand - GROUP",
+  "slug": "ats-restaurant-brand-group",
+  "total_headroom": "$34,700",
+  "non_ec_headroom": "$31,872",
+  "est_ec_headroom": "$2,828",
+  "employee_count": "17",
+  "non_ec_arr": "$12,079",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "madeburgerusa@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Made Burgers - Gardena",
+    "Made Burgers"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001HBfQZYA1"
+}

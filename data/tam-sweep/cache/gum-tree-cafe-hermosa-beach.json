@@ -1,0 +1,108 @@
+{
+  "parent": "Gum Tree Cafe - Hermosa Beach",
+  "slug": "gum-tree-cafe-hermosa-beach",
+  "total_headroom": "$19,608",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,500",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "will@gumtreela.com",
+  "location_count": 1,
+  "location_names": [
+    "Gum Tree Cafe - Hermosa Beach"
+  ],
+  "websites": [
+    "https://www.gumtreela.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.gumtreela.com/": {
+      "url": "https://www.gumtreela.com/",
+      "html_bytes": 359808,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.gumtreela.com/collections/gifts-for-baby": {
+      "url": "https://www.gumtreela.com/collections/gifts-for-baby",
+      "html_bytes": 551891,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.gumtreela.com/collections/gift-cards": {
+      "url": "https://www.gumtreela.com/collections/gift-cards",
+      "html_bytes": 189472,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.gumtreela.com/collections/gift-guide": {
+      "url": "https://www.gumtreela.com/collections/gift-guide",
+      "html_bytes": 532201,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.gumtreela.com/collections/gifts-for-her": {
+      "url": "https://www.gumtreela.com/collections/gifts-for-her",
+      "html_bytes": 581516,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.gumtreela.com/collections/gifts-for-guys": {
+      "url": "https://www.gumtreela.com/collections/gifts-for-guys",
+      "html_bytes": 543072,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.gumtreela.com/collections/gifts-under-25": {
+      "url": "https://www.gumtreela.com/collections/gifts-under-25",
+      "html_bytes": 531113,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002RrK7HQAV"
+}

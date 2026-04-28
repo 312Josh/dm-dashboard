@@ -1,0 +1,32 @@
+{
+  "parent": "Bread & Basil - Bellflower - Parent Account",
+  "slug": "bread-basil-bellflower",
+  "total_headroom": "$37,584",
+  "non_ec_headroom": "$37,584",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$4,637",
+  "state": "CA",
+  "city": "Bellflower",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@pitabasil.com",
+  "location_count": 2,
+  "location_names": [
+    "Pita & Basil - Bellflower",
+    "Pita & Basil"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003F44ltQAB"
+}

@@ -1,0 +1,58 @@
+{
+  "parent": "Grand Blanco (2025) Parent Account",
+  "slug": "grand-blanco-2025",
+  "total_headroom": "$15,444",
+  "non_ec_headroom": "$15,444",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$15,792",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "frankielevangie@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Gran Blanco 2025"
+  ],
+  "websites": [
+    "https://granblanco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://granblanco.com/": {
+      "url": "https://granblanco.com/",
+      "html_bytes": 129288,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/gran-blanco/giftcards"
+      }
+    },
+    "https://granblanco.com/menu": {
+      "url": "https://granblanco.com/menu",
+      "html_bytes": 138903,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/gran-blanco/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001ksitvYAA"
+}

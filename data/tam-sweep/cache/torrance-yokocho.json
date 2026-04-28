@@ -1,0 +1,55 @@
+{
+  "parent": "Torrance Yokocho - Parent Account",
+  "slug": "torrance-yokocho",
+  "total_headroom": "$18,960",
+  "non_ec_headroom": "$16,692",
+  "est_ec_headroom": "$2,268",
+  "employee_count": "14",
+  "non_ec_arr": "$7,015",
+  "state": "CA",
+  "city": "TORRANCE",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "masato.s@gcdining.com",
+  "location_count": 1,
+  "location_names": [
+    "Torrance Yokocho"
+  ],
+  "websites": [
+    "https://yokochous.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://yokochous.com/": {
+      "url": "https://yokochous.com/",
+      "html_bytes": 254681,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Yelp Reservations"
+      },
+      "toast": {}
+    },
+    "https://yokochous.com/order/": {
+      "url": "https://yokochous.com/order/",
+      "html_bytes": 192250,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003Mg9yHQAR"
+}

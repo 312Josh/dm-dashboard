@@ -1,0 +1,53 @@
+{
+  "parent": "The Rex Steakhouse PARENT",
+  "slug": "the-rex-steakhouse",
+  "total_headroom": "$19,200",
+  "non_ec_headroom": "$19,200",
+  "est_ec_headroom": "$0",
+  "employee_count": "42",
+  "non_ec_arr": "$7,164",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "daniel@therexsteakhouse.com",
+  "location_count": 1,
+  "location_names": [
+    "The Rex Steakhouse"
+  ],
+  "websites": [
+    "https://therexsteakhouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://therexsteakhouse.com/": {
+      "url": "https://therexsteakhouse.com/",
+      "html_bytes": 151562,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Klaviyo",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/therexsteakhouse/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/therexsteakhouse/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001o6VUjAAM"
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "Inter Rocoto - Parent",
+  "slug": "inter-rocoto",
+  "total_headroom": "$47,192",
+  "non_ec_headroom": "$36,720",
+  "est_ec_headroom": "$10,472",
+  "employee_count": "63",
+  "non_ec_arr": "$10,711",
+  "state": "CA",
+  "city": "Cerritos",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rocotogroup1@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Rocoto Cerritos 2.0",
+    "Rocoto Gardena 2.0"
+  ],
+  "websites": [
+    "https://elrocoto.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://elrocoto.com/": {
+      "url": "https://elrocoto.com/",
+      "html_bytes": 199,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003CNs4JQAT"
+}

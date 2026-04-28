@@ -1,0 +1,54 @@
+{
+  "parent": "Ramona's Restaurant Group PARENT",
+  "slug": "ramona-s-restaurant-group",
+  "total_headroom": "$49,048",
+  "non_ec_headroom": "$44,820",
+  "est_ec_headroom": "$4,228",
+  "employee_count": "25",
+  "non_ec_arr": "$21,258",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rob@ramonas.com",
+  "location_count": 3,
+  "location_names": [
+    "Ramona's New 1",
+    "Ramona's New 2",
+    "Ramonas - South LA"
+  ],
+  "websites": [
+    "https://www.ramonas.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ramonas.com/": {
+      "url": "https://www.ramonas.com/",
+      "html_bytes": 143110,
+      "fingerprints": {
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://www.ramonas.com/order-now": {
+      "url": "https://www.ramonas.com/order-now",
+      "html_bytes": 104462,
+      "fingerprints": {
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002TwD4oYAF"
+}

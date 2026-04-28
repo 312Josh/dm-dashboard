@@ -1,0 +1,51 @@
+{
+  "parent": "Seven Syllables Coffee - Parent Account",
+  "slug": "seven-syllables-coffee",
+  "total_headroom": "$16,740",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$3,035",
+  "state": "CA",
+  "city": "Cerritos",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "info@sevensyllablescoffee.com",
+  "location_count": 1,
+  "location_names": [
+    "Seven Syllables Coffee"
+  ],
+  "websites": [
+    "https://sevensyllablescoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sevensyllablescoffee.com/": {
+      "url": "https://sevensyllablescoffee.com/",
+      "html_bytes": 193207,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/seven-syllables-coffee-13307-artesia-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/seven-syllables-coffee-13307-artesia-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037XPL2QAO"
+}

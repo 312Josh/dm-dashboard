@@ -1,0 +1,45 @@
+{
+  "parent": "Yasai",
+  "slug": "yasai",
+  "total_headroom": "$20,244",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$1,080",
+  "state": "CA",
+  "city": "Cerritos",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "sookhee0211@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Yasai"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/yasai/r-6f12e24d-422d-4bd3-a42d-165e7d9105ef"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/yasai/r-6f12e24d-422d-4bd3-a42d-165e7d9105ef": {
+      "url": "https://www.toasttab.com/local/order/yasai/r-6f12e24d-422d-4bd3-a42d-165e7d9105ef",
+      "html_bytes": 5745,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001t6DlTAAU"
+}

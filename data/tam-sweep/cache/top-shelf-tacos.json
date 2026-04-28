@@ -1,0 +1,45 @@
+{
+  "parent": "Top Shelf Tacos - Parent Account",
+  "slug": "top-shelf-tacos",
+  "total_headroom": "$32,952",
+  "non_ec_headroom": "$32,952",
+  "est_ec_headroom": "$0",
+  "employee_count": "15",
+  "non_ec_arr": "$11,741",
+  "state": "CA",
+  "city": "Carson",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "topshelftacos@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Top Shelf Tacos Food Truck",
+    "Top Shelf Tacos"
+  ],
+  "websites": [
+    "https://topshelftacos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://topshelftacos.com/": {
+      "url": "https://topshelftacos.com/",
+      "html_bytes": 5536,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001SDhMkYAL"
+}

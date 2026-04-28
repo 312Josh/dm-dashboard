@@ -1,0 +1,48 @@
+{
+  "parent": "El Segundo Brewing Group",
+  "slug": "el-segundo-brewing-group",
+  "total_headroom": "$64,168",
+  "non_ec_headroom": "$52,044",
+  "est_ec_headroom": "$12,124",
+  "employee_count": "72",
+  "non_ec_arr": "$17,168",
+  "state": "CA",
+  "city": "El Segundo",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "rob@elsegundobrewing.com",
+  "location_count": 3,
+  "location_names": [
+    "The Slice & Pint - El Segundo",
+    "El Segundo Brewing Company",
+    "The Slice & Pint - Redondo Beach"
+  ],
+  "websites": [
+    "https://www.elsegundobrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.elsegundobrewing.com/": {
+      "url": "https://www.elsegundobrewing.com/",
+      "html_bytes": 165543,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002Ol9WqQAJ"
+}

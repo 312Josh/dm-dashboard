@@ -1,0 +1,55 @@
+{
+  "parent": "Venice Steak House - Parent Account",
+  "slug": "venice-steak-house",
+  "total_headroom": "$16,164",
+  "non_ec_headroom": "$16,164",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$7,546",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "ccglasshouse@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Venice Steak House"
+  ],
+  "websites": [
+    "https://venicesteakhouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://venicesteakhouse.com/": {
+      "url": "https://venicesteakhouse.com/",
+      "html_bytes": 5539,
+      "fingerprints": {
+        "online_ordering": "Toast",
+        "reservations": "OpenTable",
+        "catering_mention": "Events email"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260203081903/https://venicesteakhouse.com/",
+        "html_bytes": 114902,
+        "vendors": {
+          "online_ordering": "Toast",
+          "reservations": "OpenTable",
+          "catering_mention": "Events email"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00002CjWWsYAN"
+}

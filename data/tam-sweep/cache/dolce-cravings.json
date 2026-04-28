@@ -1,0 +1,44 @@
+{
+  "parent": "Dolce Cravings - Parent Account",
+  "slug": "dolce-cravings",
+  "total_headroom": "$17,520",
+  "non_ec_headroom": "$17,520",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$4,488",
+  "state": "CA",
+  "city": "Downey",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "urihernan@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Dolce Cravings"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/dolce-cravings-11945-paramount-blvd"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/dolce-cravings-11945-paramount-blvd": {
+      "url": "https://www.toasttab.com/local/order/dolce-cravings-11945-paramount-blvd",
+      "html_bytes": 5719,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W000037X4k4QAC"
+}

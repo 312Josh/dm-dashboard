@@ -1,0 +1,42 @@
+{
+  "parent": "Jackson's Food and Drink Parent",
+  "slug": "jackson-s-food-and-drink",
+  "total_headroom": "$21,168",
+  "non_ec_headroom": "$18,060",
+  "est_ec_headroom": "$3,108",
+  "employee_count": "19",
+  "non_ec_arr": "$4,140",
+  "state": "CA",
+  "city": "El Segundo",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "scott@jacksonsfoodanddrink.com",
+  "location_count": 1,
+  "location_names": [
+    "Nomad Eatery - El Segundo"
+  ],
+  "websites": [
+    "https://www.opentable.com/r/jacksons-el-segundo"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.opentable.com/r/jacksons-el-segundo": {
+      "url": "https://www.opentable.com/r/jacksons-el-segundo",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001phcOVAAY"
+}

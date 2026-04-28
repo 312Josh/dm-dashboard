@@ -1,0 +1,94 @@
+{
+  "parent": "Heavy Handed LA Parent",
+  "slug": "heavy-handed-la",
+  "total_headroom": "$41,652",
+  "non_ec_headroom": "$40,560",
+  "est_ec_headroom": "$1,092",
+  "employee_count": "6",
+  "non_ec_arr": "$6,420",
+  "state": "CA",
+  "city": "Studio City",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "danny@heavyhanded.la",
+  "location_count": 2,
+  "location_names": [
+    "Heavy Handed Studio City",
+    "Heavy Handed Santa Monica"
+  ],
+  "websites": [
+    "https://heavyhanded.la/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://heavyhanded.la/": {
+      "url": "https://heavyhanded.la/",
+      "html_bytes": 238880,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/heavyhanded/giftcards",
+        "toast_oo_native": "order.toasttab.com/online/heavy-handed-studio-city",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://heavyhanded.la/rewards-club": {
+      "url": "https://heavyhanded.la/rewards-club",
+      "html_bytes": 170459,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/heavyhanded/giftcards"
+      }
+    },
+    "https://heavyhanded.la/menu": {
+      "url": "https://heavyhanded.la/menu",
+      "html_bytes": 176506,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/heavyhanded/giftcards"
+      }
+    },
+    "https://heavyhanded.la/order-now": {
+      "url": "https://heavyhanded.la/order-now",
+      "html_bytes": 181430,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/heavy-handed-studio-city",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/heavyhanded/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/heavyhanded/giftcards",
+    "toast_oo_native": "order.toasttab.com/online/heavy-handed-studio-city",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003JVThzQAH"
+}

@@ -1,0 +1,55 @@
+{
+  "parent": "Off Street Cafe Parent",
+  "slug": "off-street-cafe",
+  "total_headroom": "$14,544",
+  "non_ec_headroom": "$14,544",
+  "est_ec_headroom": "$0",
+  "employee_count": "41",
+  "non_ec_arr": "$11,868",
+  "state": "CA",
+  "city": "Cerritos",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "richard@vandenberginc.com",
+  "location_count": 1,
+  "location_names": [
+    "Off Street Cafe"
+  ],
+  "websites": [
+    "https://offstreetcafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://offstreetcafe.com/": {
+      "url": "https://offstreetcafe.com/",
+      "html_bytes": 118229,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/off-street-cafe",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/off-street-cafe",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001uicwIAAQ"
+}

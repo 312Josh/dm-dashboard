@@ -1,0 +1,47 @@
+{
+  "parent": "Honey Dress Fried Chicken- PARENT",
+  "slug": "honey-dress-fried-chicken",
+  "total_headroom": "$18,196",
+  "non_ec_headroom": "$16,740",
+  "est_ec_headroom": "$1,456",
+  "employee_count": "9",
+  "non_ec_arr": "$4,065",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "joecho0828@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Honey Dress Fried Chicken- New Gardena"
+  ],
+  "websites": [
+    "https://honeydresschicken.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://honeydresschicken.com/": {
+      "url": "https://honeydresschicken.com/",
+      "html_bytes": 292362,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00002munjGQAQ"
+}

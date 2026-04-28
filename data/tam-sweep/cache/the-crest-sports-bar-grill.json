@@ -1,0 +1,48 @@
+{
+  "parent": "The Crest Sports Bar & Grill Parent",
+  "slug": "the-crest-sports-bar-grill",
+  "total_headroom": "$24,852",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$5,712",
+  "employee_count": "34",
+  "non_ec_arr": "$7,200",
+  "state": "CA",
+  "city": "Torrance",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "thecrestsbg@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Crest Sports Bar & Grill"
+  ],
+  "websites": [
+    "https://thecrestsportsbarandgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thecrestsportsbarandgrill.com/": {
+      "url": "https://thecrestsportsbarandgrill.com/",
+      "html_bytes": 865011,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Slice",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001C000001ion4pIAA"
+}

@@ -1,0 +1,60 @@
+{
+  "parent": "Stecca - Hermosa Beach - Parent Account",
+  "slug": "stecca-hermosa-beach",
+  "total_headroom": "$18,192",
+  "non_ec_headroom": "$18,192",
+  "est_ec_headroom": "$0",
+  "employee_count": "22",
+  "non_ec_arr": "$2,640",
+  "state": "CA",
+  "city": "Hermosa Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ciao@steccataverna.com",
+  "location_count": 1,
+  "location_names": [
+    "Stecca - Hermosa Beach"
+  ],
+  "websites": [
+    "https://www.steccataverna.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.steccataverna.com/": {
+      "url": "https://www.steccataverna.com/",
+      "html_bytes": 294858,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.steccataverna.com/menus": {
+      "url": "https://www.steccataverna.com/menus",
+      "html_bytes": 142502,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.steccataverna.com/gift-cards": {
+      "url": "https://www.steccataverna.com/gift-cards",
+      "html_bytes": 191037,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001lrakwYAA"
+}

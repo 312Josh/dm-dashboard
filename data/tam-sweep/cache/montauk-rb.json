@@ -1,0 +1,43 @@
+{
+  "parent": "Montauk RB Parent",
+  "slug": "montauk-rb",
+  "total_headroom": "$16,380",
+  "non_ec_headroom": "$16,380",
+  "est_ec_headroom": "$0",
+  "employee_count": "34",
+  "non_ec_arr": "$11,160",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "lavae.mcc@peninsula-hc.com",
+  "location_count": 1,
+  "location_names": [
+    "Montauk Redondo Beach"
+  ],
+  "websites": [
+    "https://www.montaukinredondo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.montaukinredondo.com/": {
+      "url": "https://www.montaukinredondo.com/",
+      "html_bytes": 5522,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001T0wIwYAJ"
+}

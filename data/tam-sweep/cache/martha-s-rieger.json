@@ -1,0 +1,180 @@
+{
+  "parent": "Martha's Parent",
+  "slug": "martha-s-rieger",
+  "total_headroom": "$105,052",
+  "non_ec_headroom": "$79,068",
+  "est_ec_headroom": "$25,984",
+  "employee_count": "156",
+  "non_ec_arr": "$33,640",
+  "state": "CA",
+  "city": "Hermosa",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "david@slay.la",
+  "location_count": 5,
+  "location_names": [
+    "Slay- Hermosa Beach",
+    "Martha's - Hermosa Beach",
+    "Just Downstairs - Los Angeles",
+    "Bottle Inn - Hermosa Beach",
+    "Marthas - Ghost Kitchen - Redondo Beach"
+  ],
+  "websites": [
+    "https://www.slayhermosa.com/",
+    "https://marthashermosabeach.com/",
+    "https://justdownstairs.com/",
+    "https://thebottleinnhermosa.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.slayhermosa.com/": {
+      "url": "https://www.slayhermosa.com/",
+      "html_bytes": 97440,
+      "fingerprints": {
+        "website_cms": "Shopify"
+      },
+      "toast": {}
+    },
+    "https://marthashermosabeach.com/": {
+      "url": "https://marthashermosabeach.com/",
+      "html_bytes": 262453,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "delivery_platforms": "ChowNow Direct",
+        "catering_mention": "Catering page",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/martha-s-22nd-street-grill-25-22nd-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/martha-s-22nd-street-grill-25-22nd-st/giftcards"
+      }
+    },
+    "https://marthashermosabeach.com/menu": {
+      "url": "https://marthashermosabeach.com/menu",
+      "html_bytes": 247001,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "delivery_platforms": "ChowNow Direct",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/martha-s-22nd-street-grill-25-22nd-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://marthashermosabeach.com/gift-cards": {
+      "url": "https://marthashermosabeach.com/gift-cards",
+      "html_bytes": 157480,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "delivery_platforms": "ChowNow Direct",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/martha-s-22nd-street-grill-25-22nd-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/martha-s-22nd-street-grill-25-22nd-st/giftcards"
+      }
+    },
+    "https://marthashermosabeach.com/order-online": {
+      "url": "https://marthashermosabeach.com/order-online",
+      "html_bytes": 175385,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "delivery_platforms": "ChowNow Direct",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/martha-s-22nd-street-grill-25-22nd-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://justdownstairs.com/": {
+      "url": "https://justdownstairs.com/",
+      "html_bytes": 64673,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    },
+    "https://thebottleinnhermosa.com/": {
+      "url": "https://thebottleinnhermosa.com/",
+      "html_bytes": 297939,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy",
+        "website_cms": "Shopify",
+        "delivery_platforms": "ChowNow Direct"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/bottle-inn-26-22nd-st/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://thebottleinnhermosa.com/gift-cards?olsPage=cart": {
+      "url": "https://thebottleinnhermosa.com/gift-cards?olsPage=cart",
+      "html_bytes": 149724,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "delivery_platforms": "ChowNow Direct"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/bottle-inn-26-22nd-st/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://thebottleinnhermosa.com/gift-cards": {
+      "url": "https://thebottleinnhermosa.com/gift-cards",
+      "html_bytes": 149724,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "delivery_platforms": "ChowNow Direct"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/bottle-inn-26-22nd-st/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/martha-s-22nd-street-grill-25-22nd-st",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/martha-s-22nd-street-grill-25-22nd-st/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger"
+  ],
+  "brand_websites": {
+    "slay": "https://www.slayhermosa.com/",
+    "martha": "https://marthashermosabeach.com/",
+    "just downstairs": "https://justdownstairs.com/",
+    "bottle inn": "https://thebottleinnhermosa.com/"
+  },
+  "sfdc_account_id": "0014W00002ZmwNcQAJ"
+}

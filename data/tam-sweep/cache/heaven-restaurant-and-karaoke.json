@@ -1,0 +1,49 @@
+{
+  "parent": "Heaven Restaurant and Karaoke - Parent Account",
+  "slug": "heaven-restaurant-and-karaoke",
+  "total_headroom": "$20,860",
+  "non_ec_headroom": "$18,312",
+  "est_ec_headroom": "$2,548",
+  "employee_count": "15",
+  "non_ec_arr": "$4,428",
+  "state": "CA",
+  "city": "Stanton",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "casey.p1119@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Heaven Restaurant and Karaoke - NEW"
+  ],
+  "websites": [
+    "https://heavenrestaurantca.webflow.io/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://heavenrestaurantca.webflow.io/": {
+      "url": "https://heavenrestaurantca.webflow.io/",
+      "html_bytes": 3108,
+      "fingerprints": {
+        "website_cms": "Webflow"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20240911141348/https://heavenrestaurantca.webflow.io/",
+        "html_bytes": 5248,
+        "vendors": {
+          "website_cms": "Webflow"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001pUeVJYA0"
+}

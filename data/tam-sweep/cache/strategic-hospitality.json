@@ -219,7 +219,8 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "henrietta": "https://www.henriettared.com/",
@@ -229,5 +230,6 @@
     "locust": "https://www.locustnashville.com/",
     "tphtcs": "https://www.strategichospitality.com/",
     "babychan": "https://www.strategichospitality.com/babychan"
-  }
+  },
+  "sfdc_account_id": "001C000001QLWgnIAH"
 }

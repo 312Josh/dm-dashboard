@@ -1,0 +1,40 @@
+{
+  "parent": "SimSam Group",
+  "slug": "simsam-group",
+  "total_headroom": "$18,072",
+  "non_ec_headroom": "$18,072",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$1,794",
+  "state": "CA",
+  "city": "Anaheim",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "hussamali1150@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "SimSim Shawarma - NEW"
+  ],
+  "websites": [
+    "https://simsimshawarmahouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://simsimshawarmahouse.com/": {
+      "url": "https://simsimshawarmahouse.com/",
+      "html_bytes": 5542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001kB2d1YAC"
+}

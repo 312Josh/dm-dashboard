@@ -1,0 +1,50 @@
+{
+  "parent": "Cypress College - Parent Account",
+  "slug": "cypress-college",
+  "total_headroom": "$22,340",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,400",
+  "employee_count": "8",
+  "non_ec_arr": "$1,620",
+  "state": "CA",
+  "city": "Cypress",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "khdo@cypresscollege.edu",
+  "location_count": 1,
+  "location_names": [
+    "Cypress College"
+  ],
+  "websites": [
+    "https://www.cypresscollege.edu/food-services/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cypresscollege.edu/food-services/": {
+      "url": "https://www.cypresscollege.edu/food-services/",
+      "html_bytes": 91381,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.cypresscollege.edu/bookstore/": {
+      "url": "https://www.cypresscollege.edu/bookstore/",
+      "html_bytes": 86182,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000n0HJCYA2"
+}

@@ -1,0 +1,89 @@
+{
+  "parent": "EAT Restaurant Concepts",
+  "slug": "eat-restaurant-concepts",
+  "total_headroom": "$145,212",
+  "non_ec_headroom": "$145,212",
+  "est_ec_headroom": "$0",
+  "employee_count": "132",
+  "non_ec_arr": "$53,165",
+  "state": "CA",
+  "city": "Tustin",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "eatbcg@icloud.com",
+  "location_count": 8,
+  "location_names": [
+    "Eat Fantastic No 5 Tustin",
+    "Eat Fantastic 1 El Segundo",
+    "Eat Fantastic 7 - Lomita",
+    "Eat Fantastic 8 - Torrance",
+    "Eat Fantastic 4 Arcadia",
+    "Burger City Grill 4 formerly BCG 2",
+    "Eat Fantastic 11 - Redondo",
+    "Eat Fantastic 10 Junipero - NEW"
+  ],
+  "websites": [
+    "https://eatfantastic.com/",
+    "https://burgercitygrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eatfantastic.com/": {
+      "url": "https://eatfantastic.com/",
+      "html_bytes": 819508,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/eat-fantastic-4-arcadia-4466-e-live-oak-ave",
+        "toast_oo_whitelabel_host": "http://order.eatfantastic.com/",
+        "toast_local": "toasttab.com/local/order",
+        "toast_oo_whitelabel_confirmed": "order.eatfantastic.com + toasttab string in HTML"
+      }
+    },
+    "https://burgercitygrill.com/": {
+      "url": "https://burgercitygrill.com/",
+      "html_bytes": 128052,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/burger-city-grill-downey",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://burgercitygrill.com/menu/": {
+      "url": "https://burgercitygrill.com/menu/",
+      "html_bytes": 96528,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/burger-city-grill-downey",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/eat-fantastic-4-arcadia-4466-e-live-oak-ave",
+    "toast_oo_whitelabel_host": "http://order.eatfantastic.com/",
+    "toast_local": "toasttab.com/local/order",
+    "toast_oo_whitelabel_confirmed": "order.eatfantastic.com + toasttab string in HTML"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "brand_websites": {
+    "eat fantastic": "https://eatfantastic.com/",
+    "burger city": "https://burgercitygrill.com/"
+  },
+  "sfdc_account_id": "0014W00002OjPP3QAN"
+}

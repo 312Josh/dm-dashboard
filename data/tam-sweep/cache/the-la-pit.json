@@ -1,0 +1,54 @@
+{
+  "parent": "The La Pit - Parent Account",
+  "slug": "the-la-pit",
+  "total_headroom": "$19,260",
+  "non_ec_headroom": "$19,260",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$4,418",
+  "state": "CA",
+  "city": "Gardena",
+  "restaurant_type": "Unknown",
+  "contact_email": "thelapitgardena@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The La Pit"
+  ],
+  "websites": [
+    "https://thelapit.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thelapit.com/": {
+      "url": "https://thelapit.com/",
+      "html_bytes": 452799,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/thelapit",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/thelapit",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001epq54YAA"
+}

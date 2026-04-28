@@ -1,0 +1,45 @@
+{
+  "parent": "Joliet Cafe & Bar - Playa Vista - Parent Account",
+  "slug": "joliet-cafe-bar-playa-vista",
+  "total_headroom": "$17,612",
+  "non_ec_headroom": "$16,044",
+  "est_ec_headroom": "$1,568",
+  "employee_count": "9",
+  "non_ec_arr": "$4,241",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "alex@jolietplaya.com",
+  "location_count": 1,
+  "location_names": [
+    "Joliet Cafe & Bar - Playa Vista"
+  ],
+  "websites": [
+    "https://www.runwayplayavista.com/dine/joliet-cafe-bar"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.runwayplayavista.com/dine/joliet-cafe-bar": {
+      "url": "https://www.runwayplayavista.com/dine/joliet-cafe-bar",
+      "html_bytes": 137071,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001SCwR0YAL"
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "K Soul Food",
+  "slug": "k-soul-food",
+  "total_headroom": "$23,164",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$3,724",
+  "employee_count": "22",
+  "non_ec_arr": "$3,540",
+  "state": "CA",
+  "city": "Buena Park",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "davidshin828@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Venice Beach - The Source"
+  ],
+  "websites": [
+    "https://www.caliocla.com/ksoulfood"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.caliocla.com/ksoulfood": {
+      "url": "https://www.caliocla.com/ksoulfood",
+      "html_bytes": 1012750,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0014W00003MgOddQAF"
+}

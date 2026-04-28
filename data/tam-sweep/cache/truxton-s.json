@@ -1,0 +1,47 @@
+{
+  "parent": "Truxton's - PARENT",
+  "slug": "truxton-s",
+  "total_headroom": "$52,092",
+  "non_ec_headroom": "$52,092",
+  "est_ec_headroom": "$0",
+  "employee_count": "100",
+  "non_ec_arr": "$21,629",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "lisahemmat@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Georgia’s Lounge - Redondo Beach",
+    "Truxton's - Torrance",
+    "Truxton's - Westchester"
+  ],
+  "websites": [
+    "https://truxtonsamericanbistro.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://truxtonsamericanbistro.com/": {
+      "url": "https://truxtonsamericanbistro.com/",
+      "html_bytes": 20395,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001uiq8zAAA"
+}

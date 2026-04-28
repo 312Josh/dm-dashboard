@@ -1,0 +1,84 @@
+{
+  "parent": "Gjelina Restaurant Group - PARENT",
+  "slug": "gjelina-restaurant-group",
+  "total_headroom": "$65,828",
+  "non_ec_headroom": "$43,932",
+  "est_ec_headroom": "$21,896",
+  "employee_count": "130",
+  "non_ec_arr": "$40,312",
+  "state": "CA",
+  "city": "Venice",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "shelley@gjelinagroup.com",
+  "location_count": 3,
+  "location_names": [
+    "Gjelina",
+    "Gjelina - Bond St",
+    "Gjusta"
+  ],
+  "websites": [
+    "https://www.gjelina.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.gjelina.com/": {
+      "url": "https://www.gjelina.com/",
+      "html_bytes": 60050,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.gjelina.com/reservations/": {
+      "url": "https://www.gjelina.com/reservations/",
+      "html_bytes": 36845,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.gjelina.com/gift-cards/": {
+      "url": "https://www.gjelina.com/gift-cards/",
+      "html_bytes": 38945,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "Resy",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "0013c00001p3O7CAAU"
+}

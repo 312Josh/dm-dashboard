@@ -1,0 +1,49 @@
+{
+  "parent": "Subs & Grub - Parent Account",
+  "slug": "subs-grub",
+  "total_headroom": "$14,772",
+  "non_ec_headroom": "$14,772",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$420",
+  "state": "CA",
+  "city": "Cypress",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "danaherky@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Subs & Grub"
+  ],
+  "websites": [
+    "https://subsandgrub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://subsandgrub.com/": {
+      "url": "https://subsandgrub.com/",
+      "html_bytes": 5512,
+      "fingerprints": {
+        "loyalty": "Punchh"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251014065630/https://subsandgrub.com/",
+        "html_bytes": 358145,
+        "vendors": {
+          "loyalty": "Punchh"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000jsPYzYAM"
+}

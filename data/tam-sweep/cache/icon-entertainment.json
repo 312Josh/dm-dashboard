@@ -166,7 +166,8 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens"
+    "stevens",
+    "--rep"
   ],
   "brand_websites": {
     "nudie": "https://www.nudieshonkytonk.com/",
@@ -174,5 +175,6 @@
     "sinatra": "https://www.sinatranashville.com/",
     "schulman": "https://www.schulmansbar.com/",
     "house of cards": "https://www.hocnashville.com/"
-  }
+  },
+  "sfdc_account_id": "0014W00003Mg5xiQAB"
 }

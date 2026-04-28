@@ -1,0 +1,48 @@
+{
+  "parent": "Diana's Mexican - HQ",
+  "slug": "diana-s-mexican-hq",
+  "total_headroom": "$41,920",
+  "non_ec_headroom": "$37,944",
+  "est_ec_headroom": "$3,976",
+  "employee_count": "24",
+  "non_ec_arr": "$7,972",
+  "state": "CA",
+  "city": "Carson",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sam@dianas.net",
+  "location_count": 2,
+  "location_names": [
+    "Dianas - Carson NEW",
+    "Diana's - Norwalk"
+  ],
+  "websites": [
+    "https://www.dianas.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.dianas.net/": {
+      "url": "https://www.dianas.net/",
+      "html_bytes": 12528,
+      "fingerprints": {},
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.yourmenu.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.yourmenu.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001izEx5YAE"
+}

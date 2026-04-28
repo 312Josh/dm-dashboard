@@ -1,0 +1,55 @@
+{
+  "parent": "Zoku - Group - South Bay",
+  "slug": "zoku-group-south-bay",
+  "total_headroom": "$30,384",
+  "non_ec_headroom": "$30,384",
+  "est_ec_headroom": "$0",
+  "employee_count": "32",
+  "non_ec_arr": "$15,948",
+  "state": "CA",
+  "city": "Redondo Beach",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "y.maruyama@torikizoku-usa.com",
+  "location_count": 2,
+  "location_names": [
+    "Zoku - Redondo Beach",
+    "Torikizoku"
+  ],
+  "websites": [
+    "https://www.zokuyakitori.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.zokuyakitori.com/": {
+      "url": "https://www.zokuyakitori.com/",
+      "html_bytes": 56803,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.zokuyakitori.com/menus/": {
+      "url": "https://www.zokuyakitori.com/menus/",
+      "html_bytes": 99115,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000iPf0DYAS"
+}

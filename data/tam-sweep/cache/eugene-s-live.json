@@ -1,0 +1,48 @@
+{
+  "parent": "Eugene's Live - Parent Account",
+  "slug": "eugene-s-live",
+  "total_headroom": "$18,800",
+  "non_ec_headroom": "$16,392",
+  "est_ec_headroom": "$2,408",
+  "employee_count": "14",
+  "non_ec_arr": "$5,568",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "davidbeverly44@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Eugene's Live"
+  ],
+  "websites": [
+    "https://eugenesrestaurant.vercel.app/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://eugenesrestaurant.vercel.app/": {
+      "url": "https://eugenesrestaurant.vercel.app/",
+      "html_bytes": 55020,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://eugenesrestaurant.vercel.app/images/menu-new.png": {
+      "url": "https://eugenesrestaurant.vercel.app/images/menu-new.png",
+      "html_bytes": 2011905,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001kOsx9YAC"
+}

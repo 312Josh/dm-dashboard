@@ -1,0 +1,86 @@
+{
+  "parent": "Toranj - Los Angeles - Parent Account",
+  "slug": "toranj-los-angeles",
+  "total_headroom": "$32,056",
+  "non_ec_headroom": "$22,368",
+  "est_ec_headroom": "$9,688",
+  "employee_count": "58",
+  "non_ec_arr": "$16,957",
+  "state": "CA",
+  "city": "Manhattan Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "farbodpirshirazi@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Toranj - Manhattan Beach",
+    "Toranj - Los Angeles"
+  ],
+  "websites": [
+    "https://toranjrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://toranjrestaurant.com/": {
+      "url": "https://toranjrestaurant.com/",
+      "html_bytes": 246823,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/toranj-manhattan-beach-1019-manhattan-beach-boulevard",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/f44f89bd-4ca5-4986-85b6-ca3ad95a740d"
+      }
+    },
+    "https://toranjrestaurant.com/menu/": {
+      "url": "https://toranjrestaurant.com/menu/",
+      "html_bytes": 273212,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/f44f89bd-4ca5-4986-85b6-ca3ad95a740d"
+      }
+    },
+    "https://toranjrestaurant.com/reservations/": {
+      "url": "https://toranjrestaurant.com/reservations/",
+      "html_bytes": 211219,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/325e9d23-323f-4204-90ee-3e022f24f4b6"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/toranj-manhattan-beach-1019-manhattan-beach-boulevard",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/f44f89bd-4ca5-4986-85b6-ca3ad95a740d"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV000021kDK3YAM"
+}

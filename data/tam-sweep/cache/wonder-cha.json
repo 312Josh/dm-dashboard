@@ -1,0 +1,53 @@
+{
+  "parent": "Wonder Cha- Parent",
+  "slug": "wonder-cha",
+  "total_headroom": "$14,484",
+  "non_ec_headroom": "$14,484",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$2,174",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "hello@wondercha.com",
+  "location_count": 1,
+  "location_names": [
+    "Wonder Cha"
+  ],
+  "websites": [
+    "https://wondercha.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wondercha.com/": {
+      "url": "https://wondercha.com/",
+      "html_bytes": 87857,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/wonder-cha-wla",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/wonder-cha-wla",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00000nEAbEYAW"
+}

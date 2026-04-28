@@ -1,0 +1,42 @@
+{
+  "parent": "99 bottles & Cocktails - Parent Account",
+  "slug": "99-bottles-cocktails",
+  "total_headroom": "$70,296",
+  "non_ec_headroom": "$60,720",
+  "est_ec_headroom": "$9,576",
+  "employee_count": "57",
+  "non_ec_arr": "$8,280",
+  "state": "CA",
+  "city": "Orange",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "deisy.bikiniinabottle@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "888 Bikinis",
+    "Plan B",
+    "99 bottles & Cocktails"
+  ],
+  "websites": [
+    "https://99-bottles-cocktails.goto-restaurants.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://99-bottles-cocktails.goto-restaurants.com/": {
+      "url": "https://99-bottles-cocktails.goto-restaurants.com/",
+      "html_bytes": 5602,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "rieger",
+    "--rep"
+  ],
+  "sfdc_account_id": "001PV00001VZuGHYA1"
+}
