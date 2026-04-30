@@ -1,8 +1,8 @@
 {
   "date": "2026-04-30",
-  "team_arr": 439904.56000000006,
+  "team_arr": 438352.36,
   "team_quota": 447320,
-  "team_wins": 225,
+  "team_wins": 224,
   "team_pipeline": 321060.92,
   "team_open_deals": 155,
   "reps": {
@@ -49,10 +49,10 @@
       "emails_replied": 11
     },
     "Eleni Lembesis": {
-      "arr": 48921.6,
+      "arr": 47369.4,
       "quota": 55440.0,
-      "arr_pct": 88.24242424242425,
-      "wins": 24,
+      "arr_pct": 85.4426406926407,
+      "wins": 23,
       "demos": 56,
       "opps": 57,
       "opp_demo": 98.2456,
@@ -72,7 +72,7 @@
     "Jasmine Rieger": {
       "arr": 72054.0,
       "quota": 62000.0,
-      "arr_pct": 1.1621612903225806,
+      "arr_pct": 116.21612903225807,
       "wins": 38,
       "demos": 53,
       "opps": 58,

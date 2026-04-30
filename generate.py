@@ -200,6 +200,28 @@ def generate(data_dir):
     calls = read_csv(calls_file)
     emails = read_csv(emails_file)
 
+    # Sigma exports % columns as decimal fractions (1.16 = 116%). parse_pct only
+    # auto-scales when val <= 1, so reps over goal are read as ~1% and miscounted.
+    # Normalize known percent columns to "NNN.N%" form on load.
+    pct_cols = (
+        "Demos Held % to Goal", "EC ARR % to Goal", "Opp:Win % to Goal",
+        "Opp % to Goal", "Demo:Win", "ARR + Ads % to Goal",
+        "ARR + Ads Pacing in Month", "ARR % to Goal (Xactly)",
+        "SS Opps Created % to Goal", "ARR Pacing in Month (Xactly)",
+        "Wins % to Goal", "% to Goal", "Opp to Win", "Opp:Demo % to Goal",
+        "Opp:Demo", "Opp:Demo Goal", "Avg Opp:Win Goal",
+    )
+    for r in metrics:
+        for col in pct_cols:
+            v = r.get(col, "")
+            if not v or "%" in v:
+                continue
+            try:
+                f = float(v.replace(",", ""))
+            except ValueError:
+                continue
+            r[col] = f"{f * 100}%"
+
     # Pre-build lookup dicts
     calls_by_name = {r["user_name"]: r for r in calls}
     emails_by_name = {r["user_name"]: r for r in emails}
@@ -251,6 +273,56 @@ def generate(data_dir):
         acct = w.get("Account Name", "")
         if acct in ue_by_account and parse_money(w.get("Software (Annual)", "0")) == 0:
             w["Software (Annual)"] = str(ue_by_account[acct])
+
+    # --- ROE clawbacks (deals taken away post-close per Rules of Engagement) ---
+    # Reads ~/dm-dashboard/data/roe-clawbacks.csv with columns:
+    #   Rep, Account Name, Opportunity Name, Software (Annual), Close Date, Reason
+    # Subtracts ARR from rep totals, decrements Wins, removes the matching Opp Wins row.
+    roe_by_rep = {}
+    roe_deals = []
+    roe_csv_path = Path(__file__).parent / "data" / "roe-clawbacks.csv"
+    if roe_csv_path.exists():
+        for r in read_csv(roe_csv_path):
+            rep = normalize_name((r.get("Rep") or "").strip())
+            if not rep or rep not in reps:
+                continue
+            arr = parse_money(r.get("Software (Annual)", "0"))
+            if arr <= 0:
+                continue
+            roe_by_rep[rep] = roe_by_rep.get(rep, 0.0) + arr
+            roe_deals.append({
+                "rep": rep,
+                "account": r.get("Account Name", ""),
+                "opp": r.get("Opportunity Name", ""),
+                "arr": arr,
+                "close": r.get("Close Date", ""),
+                "reason": r.get("Reason", ""),
+            })
+
+    for r in metrics:
+        name = r.get("Rep Name", "")
+        clawback = roe_by_rep.get(name, 0.0)
+        if clawback > 0:
+            cur = parse_money(r.get("Total Booked Saas ARR", "0"))
+            new_arr = max(0.0, cur - clawback)
+            r["Total Booked Saas ARR"] = str(new_arr)
+            quota = parse_money(r.get("Booked SaaS Quota (Xactly)", "0"))
+            if quota:
+                r["ARR % to Goal (Xactly)"] = f"{new_arr / quota * 100}%"
+            wins_now = int(r.get("Wins", "0") or 0)
+            num_clawbacks = sum(1 for d in roe_deals if d["rep"] == name)
+            r["Wins"] = str(max(0, wins_now - num_clawbacks))
+
+    # Drop matching wins rows so Recent Wins tables don't show clawed-back deals
+    roe_keys = {(d["rep"], d["account"], d["opp"]) for d in roe_deals}
+    wins = [
+        w for w in wins
+        if (
+            normalize_name(w.get("Opportunity Owner", "")),
+            w.get("Account Name", ""),
+            w.get("Opportunity Name", ""),
+        ) not in roe_keys
+    ]
 
     # --- Compute KPI totals ---
     team_arr = sum(parse_money(r.get("Total Booked Saas ARR", "0")) for r in metrics)
@@ -1129,6 +1201,11 @@ def generate(data_dir):
         print(f"  UE Promos injected: {fmt_money(ue_total)} across {len(ue_deals)} deals ({ue_csv_path.name})")
         for rep_name, rep_total in sorted(ue_by_rep.items(), key=lambda x: -x[1]):
             print(f"    - {rep_name}: {fmt_money(rep_total)}")
+    if roe_deals:
+        roe_total = sum(d["arr"] for d in roe_deals)
+        print(f"  ROE clawbacks: -{fmt_money(roe_total)} across {len(roe_deals)} deals")
+        for d in roe_deals:
+            print(f"    - {d['rep']}: -{fmt_money(d['arr'])} ({d['account']}) — {d['reason']}")
 
     # ========== SAVE HISTORICAL SNAPSHOT ==========
     history_dir = Path(__file__).parent / "data" / "history"
