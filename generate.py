@@ -324,6 +324,35 @@ def generate(data_dir):
         ) not in roe_keys
     ]
 
+    # --- Downsells (ARR reductions on existing deals, e.g. Xactly downsell credits) ---
+    # Reads ~/dm-dashboard/data/downsells.csv with columns: Rep, Amount, Note
+    # Subtracts $ from rep ARR but does NOT decrement wins or drop wins rows
+    # (the deal still exists, just at a lower value).
+    downsell_by_rep = {}
+    downsell_entries = []
+    downsell_csv_path = Path(__file__).parent / "data" / "downsells.csv"
+    if downsell_csv_path.exists():
+        for r in read_csv(downsell_csv_path):
+            rep = normalize_name((r.get("Rep") or "").strip())
+            if not rep or rep not in reps:
+                continue
+            amt = parse_money(r.get("Amount", "0"))
+            if amt <= 0:
+                continue
+            downsell_by_rep[rep] = downsell_by_rep.get(rep, 0.0) + amt
+            downsell_entries.append({"rep": rep, "amount": amt, "note": r.get("Note", "")})
+
+    for r in metrics:
+        name = r.get("Rep Name", "")
+        ds = downsell_by_rep.get(name, 0.0)
+        if ds > 0:
+            cur = parse_money(r.get("Total Booked Saas ARR", "0"))
+            new_arr = max(0.0, cur - ds)
+            r["Total Booked Saas ARR"] = str(new_arr)
+            quota = parse_money(r.get("Booked SaaS Quota (Xactly)", "0"))
+            if quota:
+                r["ARR % to Goal (Xactly)"] = f"{new_arr / quota * 100}%"
+
     # --- Compute KPI totals ---
     team_arr = sum(parse_money(r.get("Total Booked Saas ARR", "0")) for r in metrics)
     # Team quota by month (includes waterfall adjustments)
@@ -1206,6 +1235,11 @@ def generate(data_dir):
         print(f"  ROE clawbacks: -{fmt_money(roe_total)} across {len(roe_deals)} deals")
         for d in roe_deals:
             print(f"    - {d['rep']}: -{fmt_money(d['arr'])} ({d['account']}) — {d['reason']}")
+    if downsell_entries:
+        downsell_total = sum(d["amount"] for d in downsell_entries)
+        print(f"  Downsells: -{fmt_money(downsell_total)} across {len(downsell_entries)} reps")
+        for rep_name, rep_total in sorted(downsell_by_rep.items(), key=lambda x: -x[1]):
+            print(f"    - {rep_name}: -{fmt_money(rep_total)}")
 
     # ========== SAVE HISTORICAL SNAPSHOT ==========
     history_dir = Path(__file__).parent / "data" / "history"
