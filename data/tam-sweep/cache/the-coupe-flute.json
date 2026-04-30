@@ -1,0 +1,77 @@
+{
+  "parent": "The Coupe & Flute- Parent Account",
+  "slug": "the-coupe-flute",
+  "sfdc_account_id": "0014W00002xdCZfQAM",
+  "total_headroom": "$23,168",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$2,828",
+  "employee_count": "17",
+  "non_ec_arr": "$1,800",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "brooke@thecoupeandflute.com",
+  "location_count": 1,
+  "location_names": [
+    "The Coupe & Flute"
+  ],
+  "websites": [
+    "https://thecoupeandflute.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thecoupeandflute.com/": {
+      "url": "https://thecoupeandflute.com/",
+      "html_bytes": 158764,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-coupe-flute-3015-beacon-ave-s/giftcards"
+      }
+    },
+    "https://thecoupeandflute.com/menus-1152281": {
+      "url": "https://thecoupeandflute.com/menus-1152281",
+      "html_bytes": 121267,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-coupe-flute-3015-beacon-ave-s/giftcards"
+      }
+    },
+    "https://thecoupeandflute.com/reserve": {
+      "url": "https://thecoupeandflute.com/reserve",
+      "html_bytes": 62506,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-coupe-flute-3015-beacon-ave-s/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-coupe-flute-3015-beacon-ave-s/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

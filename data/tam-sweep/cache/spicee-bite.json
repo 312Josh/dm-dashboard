@@ -1,0 +1,44 @@
+{
+  "parent": "Spicee Bite Parent",
+  "slug": "spicee-bite",
+  "sfdc_account_id": "001PV00001U28HSYAZ",
+  "total_headroom": "$34,080",
+  "non_ec_headroom": "$34,080",
+  "est_ec_headroom": "$0",
+  "employee_count": "17",
+  "non_ec_arr": "$9,984",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "spiceebite@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Spicee Bite - Downtown Salem",
+    "Spicee Bite"
+  ],
+  "websites": [
+    "https://myspiceebite.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://myspiceebite.com/": {
+      "url": "https://myspiceebite.com/",
+      "html_bytes": 5492,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

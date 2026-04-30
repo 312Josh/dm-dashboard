@@ -1,0 +1,65 @@
+{
+  "parent": "Harry's Group - WA",
+  "slug": "harry-s-group-wa",
+  "sfdc_account_id": "0013c00001p2OUTAA2",
+  "total_headroom": "$37,452",
+  "non_ec_headroom": "$37,452",
+  "est_ec_headroom": "$0",
+  "employee_count": "66",
+  "non_ec_arr": "$10,022",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "julian@harrysgoodtimes.com",
+  "location_count": 2,
+  "location_names": [
+    "Harry's Beach House",
+    "Harry's Fine Foods"
+  ],
+  "websites": [
+    "https://www.olympiapizza3.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.olympiapizza3.com/": {
+      "url": "https://www.olympiapizza3.com/",
+      "html_bytes": 206543,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/olympia-pizza-and-spaghetti-house-iii-516-15th-ave-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.olympiapizza3.com/menu": {
+      "url": "https://www.olympiapizza3.com/menu",
+      "html_bytes": 174954,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/olympia-pizza-and-spaghetti-house-iii-516-15th-ave-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/olympia-pizza-and-spaghetti-house-iii-516-15th-ave-e",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

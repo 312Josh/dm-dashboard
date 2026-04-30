@@ -1,0 +1,44 @@
+{
+  "parent": "The Rendezvous NEW - Parent",
+  "slug": "the-rendezvous-new",
+  "sfdc_account_id": "001PV0000276HNiYAM",
+  "total_headroom": "$19,724",
+  "non_ec_headroom": "$18,912",
+  "est_ec_headroom": "$812",
+  "employee_count": "5",
+  "non_ec_arr": "$5,028",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "tesfaisimon@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Rendezvous NEW"
+  ],
+  "websites": [
+    "https://therendezvous.rocks/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://therendezvous.rocks/": {
+      "url": "https://therendezvous.rocks/",
+      "html_bytes": 153957,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

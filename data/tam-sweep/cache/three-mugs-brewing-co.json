@@ -1,0 +1,42 @@
+{
+  "parent": "Three Mugs Brewing Co. - Parent Account",
+  "slug": "three-mugs-brewing-co",
+  "sfdc_account_id": "0014W00003PXO2YQAX",
+  "total_headroom": "$34,890",
+  "non_ec_headroom": "$33,924",
+  "est_ec_headroom": "$966",
+  "employee_count": "6",
+  "non_ec_arr": "$9,396",
+  "state": "OR",
+  "city": "Hillsboro",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jennings.joshua69@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Three Mugs Brewing Co - Hillsboro",
+    "Three Mugs Brewing - Beaverton"
+  ],
+  "websites": [
+    "https://threemugsbrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://threemugsbrewing.com/": {
+      "url": "https://threemugsbrewing.com/",
+      "html_bytes": 154561,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

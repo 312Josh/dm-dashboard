@@ -1,0 +1,75 @@
+{
+  "parent": "AVA Roasteria Group - PARENT",
+  "slug": "ava-roasteria-group",
+  "sfdc_account_id": "001PV00000rGLEtYAO",
+  "total_headroom": "$131,024",
+  "non_ec_headroom": "$117,780",
+  "est_ec_headroom": "$13,244",
+  "employee_count": "79",
+  "non_ec_arr": "$33,861",
+  "state": "OR",
+  "city": "Tigard",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "homayoonh@avaroasteria.com",
+  "location_count": 7,
+  "location_names": [
+    "AVA Roasteria - Tigard",
+    "AVA Roasteria - Hall NEW",
+    "AVA Roasteria - The Roastery by AVA NEW",
+    "AVA Roasteria - Orenco",
+    "AVA Roasteria - Lake Oswego",
+    "AVA Roasteria - Progress Ridge",
+    "AVA Roasteria - Tigard BAR"
+  ],
+  "websites": [
+    "https://www.avaroasteria.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.avaroasteria.com/": {
+      "url": "https://www.avaroasteria.com/",
+      "html_bytes": 102467,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.avaroasteria.com/order-online": {
+      "url": "https://www.avaroasteria.com/order-online",
+      "html_bytes": 98565,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "grubhub",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

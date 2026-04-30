@@ -1,0 +1,46 @@
+{
+  "parent": "Casa Latina",
+  "slug": "casa-latina",
+  "sfdc_account_id": "0014W00003Mfw4XQAR",
+  "total_headroom": "$18,108",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "chef.escotini@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "Casa Latina"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/casalatinapdx"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/casalatinapdx": {
+      "url": "https://www.toasttab.com/local/order/casalatinapdx",
+      "html_bytes": 5609,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

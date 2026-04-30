@@ -1,0 +1,53 @@
+{
+  "parent": "The Grill From Ipanema Parent",
+  "slug": "the-grill-from-ipanema",
+  "sfdc_account_id": "0013c00001se2wFAAQ",
+  "total_headroom": "$18,872",
+  "non_ec_headroom": "$16,632",
+  "est_ec_headroom": "$2,240",
+  "employee_count": "13",
+  "non_ec_arr": "$5,598",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "tiafosi27@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "The Grill from Ipanema"
+  ],
+  "websites": [
+    "https://www.seattlegrillfromipanema.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.seattlegrillfromipanema.com/": {
+      "url": "https://www.seattlegrillfromipanema.com/",
+      "html_bytes": 159308,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-grill-from-ipanema-2313-1st-ave/giftcards",
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-grill-from-ipanema-2313-1st-ave/giftcards",
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

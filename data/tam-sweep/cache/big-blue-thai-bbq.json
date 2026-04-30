@@ -1,0 +1,42 @@
+{
+  "parent": "Big blue Thai bbq - Parent Account",
+  "slug": "big-blue-thai-bbq",
+  "sfdc_account_id": "0014W00002mtoSbQAI",
+  "total_headroom": "$17,556",
+  "non_ec_headroom": "$17,052",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$5,100",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kae_kanyanat@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Big Blue Thai BBQ"
+  ],
+  "websites": [
+    "https://bbtbbq.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bbtbbq.com/": {
+      "url": "https://bbtbbq.com/",
+      "html_bytes": 5486,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

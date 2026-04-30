@@ -1,0 +1,62 @@
+{
+  "parent": "Pintxo's - Parent Account",
+  "slug": "pintxo-s",
+  "sfdc_account_id": "001PV000023kAknYAE",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$1,080",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "pintxosalem@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pintxo's"
+  ],
+  "websites": [
+    "https://www.thepintxos.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thepintxos.com": {
+      "url": "https://www.thepintxos.com",
+      "html_bytes": 202932,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.thepintxos.com/menu": {
+      "url": "https://www.thepintxos.com/menu",
+      "html_bytes": 144458,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.thepintxos.com/book": {
+      "url": "https://www.thepintxos.com/book",
+      "html_bytes": 133084,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

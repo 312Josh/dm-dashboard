@@ -1,0 +1,43 @@
+{
+  "parent": "CosCakes - Parent Account",
+  "slug": "coscakes",
+  "sfdc_account_id": "001PV000011ClmsYAC",
+  "total_headroom": "$21,612",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$672",
+  "employee_count": "4",
+  "non_ec_arr": "$0",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "admin@coscakes.com",
+  "location_count": 1,
+  "location_names": [
+    "CosCakes"
+  ],
+  "websites": [
+    "https://coscakes.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://coscakes.com/": {
+      "url": "https://coscakes.com/",
+      "html_bytes": 173594,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

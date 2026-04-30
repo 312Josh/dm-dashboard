@@ -1,0 +1,42 @@
+{
+  "parent": "Mirabelle by Orphée - Parent Account",
+  "slug": "mirabelle-by-orph-e",
+  "sfdc_account_id": "001PV00001QyjveYAB",
+  "total_headroom": "$13,812",
+  "non_ec_headroom": "$13,812",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$6,574",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "hello@orpheeparis.com",
+  "location_count": 1,
+  "location_names": [
+    "Mirabelle by Orphee"
+  ],
+  "websites": [
+    "https://mirabellebyorphee.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mirabellebyorphee.toast.site/": {
+      "url": "https://mirabellebyorphee.toast.site/",
+      "html_bytes": 5547,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

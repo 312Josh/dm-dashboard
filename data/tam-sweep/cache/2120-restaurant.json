@@ -1,0 +1,66 @@
+{
+  "parent": "2120 Restaurant - Parent Account",
+  "slug": "2120-restaurant",
+  "sfdc_account_id": "0014W00002ms5nDQAQ",
+  "total_headroom": "$17,100",
+  "non_ec_headroom": "$17,100",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$6,330",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "milan@2120restaurant.com",
+  "location_count": 1,
+  "location_names": [
+    "2120 Restaurant"
+  ],
+  "websites": [
+    "https://www.2120restaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.2120restaurant.com/": {
+      "url": "https://www.2120restaurant.com/",
+      "html_bytes": 586930,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/2120-restaurant-2120-6th-ave/giftcards"
+      }
+    },
+    "https://www.2120restaurant.com/gift-cards": {
+      "url": "https://www.2120restaurant.com/gift-cards",
+      "html_bytes": 480943,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/2120-restaurant-2120-6th-ave/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/2120-restaurant-2120-6th-ave/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

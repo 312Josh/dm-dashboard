@@ -1,0 +1,57 @@
+{
+  "parent": "Courthouse Coffee Parent - Parent Account",
+  "slug": "courthouse-coffee",
+  "sfdc_account_id": "0014W00003Mh2PWQAZ",
+  "total_headroom": "$103,292",
+  "non_ec_headroom": "$88,200",
+  "est_ec_headroom": "$15,092",
+  "employee_count": "91",
+  "non_ec_arr": "$16,208",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "james.bruce@courthousefit.com",
+  "location_count": 5,
+  "location_names": [
+    "Courthouse Coffee - Battlecreek 2024",
+    "Courthouse Coffee- West Salem",
+    "Courthouse Coffee-Lancaster",
+    "Courthouse Coffee-Keizer",
+    "Courthouse Coffee- South 2024"
+  ],
+  "websites": [
+    "https://courthousefit.com/coffee/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://courthousefit.com/coffee/": {
+      "url": "https://courthousefit.com/coffee/",
+      "html_bytes": 192042,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/courthouse-coffee-south-2024-2975-river-road-south/giftcards",
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/courthouse-coffee-south-2024-2975-river-road-south/giftcards",
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

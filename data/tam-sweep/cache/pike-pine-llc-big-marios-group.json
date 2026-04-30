@@ -1,0 +1,90 @@
+{
+  "parent": "Pike Pine LLC - Big Marios Group",
+  "slug": "pike-pine-llc-big-marios-group",
+  "sfdc_account_id": "001PV000016aoyRYAQ",
+  "total_headroom": "$62,568",
+  "non_ec_headroom": "$62,568",
+  "est_ec_headroom": "$0",
+  "employee_count": "231",
+  "non_ec_arr": "$75,835",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "jason@daydreamstate.com",
+  "location_count": 6,
+  "location_names": [
+    "Neumos - Seattle",
+    "Comet Tavern,Lost Lake Cafe",
+    "Alpine Diner Big Marios White Center",
+    "Big Mario's Pizza - Capitol Hill",
+    "Big Mario's Pizza - Fremont",
+    "Big Marios Pizza Queen Anne"
+  ],
+  "websites": [
+    "https://bigmariosnewyorkpizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bigmariosnewyorkpizza.com/": {
+      "url": "https://bigmariosnewyorkpizza.com/",
+      "html_bytes": 116720,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/bigmariospizza-capitolhill/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://bigmariosnewyorkpizza.com/giftcard": {
+      "url": "https://bigmariosnewyorkpizza.com/giftcard",
+      "html_bytes": 128571,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/bigmariospizza-capitolhill/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://bigmariosnewyorkpizza.com/reservations": {
+      "url": "https://bigmariosnewyorkpizza.com/reservations",
+      "html_bytes": 119400,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_gift": "toasttab.com/bigmariospizza-capitolhill/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

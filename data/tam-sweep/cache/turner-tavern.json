@@ -1,0 +1,39 @@
+{
+  "parent": "Turner Tavern - Parent Account",
+  "slug": "turner-tavern",
+  "sfdc_account_id": "001PV00001UinpeYAB",
+  "total_headroom": "$22,172",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$1,232",
+  "employee_count": "7",
+  "non_ec_arr": "$600",
+  "state": "OR",
+  "city": "Turner",
+  "restaurant_type": "Unknown",
+  "contact_email": "jhunsaker@lithia.com",
+  "location_count": 1,
+  "location_names": [
+    "Turner Tavern"
+  ],
+  "websites": [
+    "https://turnertavern.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://turnertavern.com/": {
+      "url": "https://turnertavern.com/",
+      "html_bytes": 65745,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "parent": "Seasons & Regions Seafood Grill - Parent Account",
+  "slug": "seasons-regions-seafood-grill",
+  "sfdc_account_id": "001C000001jFTXhIAO",
+  "total_headroom": "$21,524",
+  "non_ec_headroom": "$14,832",
+  "est_ec_headroom": "$6,692",
+  "employee_count": "40",
+  "non_ec_arr": "$13,286",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "seasonsregions@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Seasons & Regions Seafood Grill"
+  ],
+  "websites": [
+    "https://www.seasonsandregions.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.seasonsandregions.com": {
+      "url": "https://www.seasonsandregions.com",
+      "html_bytes": 829101,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "marketing": "Mailchimp",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_tables": "tables.toasttab.com/restaurants/ff283fe8-bb6d-4ae2-972d-4ef62d87949e",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML",
+        "toast_gift": "toasttab.com/seasons-regions-seafood-grill/giftcards"
+      }
+    },
+    "https://www.seasonsandregions.com/gift-certificates": {
+      "url": "https://www.seasonsandregions.com/gift-certificates",
+      "html_bytes": 780329,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_tables": "tables.toasttab.com/restaurants/ff283fe8-bb6d-4ae2-972d-4ef62d87949e",
+        "toast_gift": "toasttab.com/seasons-regions-seafood-grill/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_tables": "tables.toasttab.com/restaurants/ff283fe8-bb6d-4ae2-972d-4ef62d87949e",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML",
+    "toast_gift": "toasttab.com/seasons-regions-seafood-grill/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

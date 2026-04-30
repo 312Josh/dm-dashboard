@@ -1,0 +1,42 @@
+{
+  "parent": "649 Tap House - Parent Account",
+  "slug": "649-tap-house",
+  "sfdc_account_id": "0013c00001okjUDAAY",
+  "total_headroom": "$22,132",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$1,792",
+  "employee_count": "11",
+  "non_ec_arr": "$2,460",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "karim@649bar.com",
+  "location_count": 1,
+  "location_names": [
+    "649 Tap House"
+  ],
+  "websites": [
+    "https://649bar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://649bar.com/": {
+      "url": "https://649bar.com/",
+      "html_bytes": 68056,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

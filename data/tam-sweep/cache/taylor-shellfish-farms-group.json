@@ -1,0 +1,54 @@
+{
+  "parent": "Taylor Shellfish Farms Group",
+  "slug": "taylor-shellfish-farms-group",
+  "sfdc_account_id": "001C000001mLn74IAC",
+  "total_headroom": "$102,060",
+  "non_ec_headroom": "$89,712",
+  "est_ec_headroom": "$12,348",
+  "employee_count": "74",
+  "non_ec_arr": "$23,376",
+  "state": "WA",
+  "city": "Bow",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jeffp@taylorshellfish.com",
+  "location_count": 5,
+  "location_names": [
+    "Taylor Shellfish Farms - Bow",
+    "Taylor Shellfish Farms - Pioneer Square",
+    "Taylor Shellfish Farms - Melrose",
+    "Taylor Shellfish Farms - Shelton",
+    "Taylor Shellfish Farms - Republican"
+  ],
+  "websites": [
+    "https://www.taylorshellfishfarms.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.taylorshellfishfarms.com/": {
+      "url": "https://www.taylorshellfishfarms.com/",
+      "html_bytes": 53186,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

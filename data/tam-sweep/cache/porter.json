@@ -1,0 +1,46 @@
+{
+  "parent": "Porter - Parent",
+  "slug": "porter",
+  "sfdc_account_id": "001PV000024wlmPYAQ",
+  "total_headroom": "$34,120",
+  "non_ec_headroom": "$31,572",
+  "est_ec_headroom": "$2,548",
+  "employee_count": "15",
+  "non_ec_arr": "$26,696",
+  "state": "CA",
+  "city": "San Francisco",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "khaakenson@porter.works",
+  "location_count": 3,
+  "location_names": [
+    "Porter - Coffee Popup SF",
+    "Porter",
+    "Porter's"
+  ],
+  "websites": [
+    "https://byporter.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://byporter.com/": {
+      "url": "https://byporter.com/",
+      "html_bytes": 95857,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "porter": "https://byporter.com/"
+  }
+}

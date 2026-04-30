@@ -1,0 +1,39 @@
+{
+  "parent": "Picklewood - Parent Account",
+  "slug": "picklewood",
+  "sfdc_account_id": "001PV00001bJ0wFYAS",
+  "total_headroom": "$19,738",
+  "non_ec_headroom": "$13,152",
+  "est_ec_headroom": "$6,586",
+  "employee_count": "39",
+  "non_ec_arr": "$11,789",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "nathan@picklewood.net",
+  "location_count": 1,
+  "location_names": [
+    "Picklewood"
+  ],
+  "websites": [
+    "https://www.picklewood.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.picklewood.net/": {
+      "url": "https://www.picklewood.net/",
+      "html_bytes": 595248,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

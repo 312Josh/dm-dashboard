@@ -1,0 +1,41 @@
+{
+  "parent": "Emmett Watson's Oyster House - Parent Account",
+  "slug": "emmett-watson-s-oyster-house",
+  "sfdc_account_id": "0014W00003P2sIRQAZ",
+  "total_headroom": "$19,992",
+  "non_ec_headroom": "$19,992",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$2,748",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "seattleoysterco@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Emmett Watson's Oyster House"
+  ],
+  "websites": [
+    "https://www.emmettwatsons.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.emmettwatsons.com/": {
+      "url": "https://www.emmettwatsons.com/",
+      "html_bytes": 543277,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

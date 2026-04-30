@@ -1,0 +1,48 @@
+{
+  "parent": "Bar Cotto Parent",
+  "slug": "bar-cotto",
+  "sfdc_account_id": "001C000001W4auoIAB",
+  "total_headroom": "$39,120",
+  "non_ec_headroom": "$39,120",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$6,540",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "brandonbarnato@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Bar Cotto",
+    "Bar Cotto - Belltown"
+  ],
+  "websites": [
+    "https://barcottopizzeria.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://barcottopizzeria.com/": {
+      "url": "https://barcottopizzeria.com/",
+      "html_bytes": 112705,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

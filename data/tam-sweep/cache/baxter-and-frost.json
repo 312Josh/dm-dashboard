@@ -1,0 +1,51 @@
+{
+  "parent": "Baxter and Frost - Parent Account",
+  "slug": "baxter-and-frost",
+  "sfdc_account_id": "0014W00003MgYuIQAV",
+  "total_headroom": "$17,832",
+  "non_ec_headroom": "$17,832",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$4,520",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "carolyn@houseonfire.com",
+  "location_count": 1,
+  "location_names": [
+    "Baxter and Frost"
+  ],
+  "websites": [
+    "https://baxterandfrost.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://baxterandfrost.com/": {
+      "url": "https://baxterandfrost.com/",
+      "html_bytes": 87238,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://baxterandfrost.com/menu/": {
+      "url": "https://baxterandfrost.com/menu/",
+      "html_bytes": 58923,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

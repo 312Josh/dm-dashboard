@@ -1,0 +1,43 @@
+{
+  "parent": "Iwingz - Parent Account",
+  "slug": "iwingz",
+  "sfdc_account_id": "0013c00001t5Yq0AAE",
+  "total_headroom": "$13,824",
+  "non_ec_headroom": "$13,824",
+  "est_ec_headroom": "$0",
+  "employee_count": "32",
+  "non_ec_arr": "$10,040",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "xinner11@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Iwingz"
+  ],
+  "websites": [
+    "https://iwingz.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://iwingz.net/": {
+      "url": "https://iwingz.net/",
+      "html_bytes": 5486,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

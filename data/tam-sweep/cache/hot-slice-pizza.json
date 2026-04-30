@@ -1,0 +1,44 @@
+{
+  "parent": "Hot Slice Pizza - Parent Account",
+  "slug": "hot-slice-pizza",
+  "sfdc_account_id": "001PV00001qOiuKYAS",
+  "total_headroom": "$18,528",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$3,645",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "falahuddins@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Hot Slice Pizza"
+  ],
+  "websites": [
+    "https://hotslicepizzasea.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hotslicepizzasea.com/": {
+      "url": "https://hotslicepizzasea.com/",
+      "html_bytes": 2225,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

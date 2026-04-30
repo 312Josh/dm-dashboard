@@ -1,0 +1,56 @@
+{
+  "parent": "Masonry Parent Account",
+  "slug": "masonry",
+  "sfdc_account_id": "0014W00002xfuICQAY",
+  "total_headroom": "$42,400",
+  "non_ec_headroom": "$34,560",
+  "est_ec_headroom": "$7,840",
+  "employee_count": "47",
+  "non_ec_arr": "$12,829",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "melissa.mason@masonrybg.com",
+  "location_count": 2,
+  "location_names": [
+    "Annette's Salem",
+    "Masonry Grill"
+  ],
+  "websites": [
+    "https://masonrygrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://masonrygrill.com/": {
+      "url": "https://masonrygrill.com/",
+      "html_bytes": 50508,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://masonrygrill.com/menu": {
+      "url": "https://masonrygrill.com/menu",
+      "html_bytes": 157835,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

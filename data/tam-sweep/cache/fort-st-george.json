@@ -1,0 +1,45 @@
+{
+  "parent": "Fort st George Parent",
+  "slug": "fort-st-george",
+  "sfdc_account_id": "0014W00002RqtVLQAZ",
+  "total_headroom": "$22,040",
+  "non_ec_headroom": "$20,220",
+  "est_ec_headroom": "$1,820",
+  "employee_count": "11",
+  "non_ec_arr": "$3,060",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ikukomaekawa6@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Fort St George"
+  ],
+  "websites": [
+    "https://fortstgeorgeseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://fortstgeorgeseattle.com/": {
+      "url": "https://fortstgeorgeseattle.com/",
+      "html_bytes": 785486,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

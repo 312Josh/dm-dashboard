@@ -1,0 +1,41 @@
+{
+  "parent": "Phe - Parent Account",
+  "slug": "phe",
+  "sfdc_account_id": "001PV000012upRCYAY",
+  "total_headroom": "$16,872",
+  "non_ec_headroom": "$16,872",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$5,340",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "vyple215@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Phe"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/phe-yet"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/phe-yet": {
+      "url": "https://www.toasttab.com/local/order/phe-yet",
+      "html_bytes": 5592,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

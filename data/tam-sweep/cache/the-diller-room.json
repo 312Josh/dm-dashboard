@@ -1,0 +1,44 @@
+{
+  "parent": "The Diller Room - Parent Account",
+  "slug": "the-diller-room",
+  "sfdc_account_id": "001PV00000rFzSuYAK",
+  "total_headroom": "$16,648",
+  "non_ec_headroom": "$14,772",
+  "est_ec_headroom": "$1,876",
+  "employee_count": "11",
+  "non_ec_arr": "$7,620",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "bebejo73@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Diller Room"
+  ],
+  "websites": [
+    "https://dillerroom.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dillerroom.com/": {
+      "url": "https://dillerroom.com/",
+      "html_bytes": 414097,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

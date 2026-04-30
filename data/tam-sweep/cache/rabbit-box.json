@@ -1,0 +1,53 @@
+{
+  "parent": "Rabbit Box Parent",
+  "slug": "rabbit-box",
+  "sfdc_account_id": "0014W00002XU1BhQAL",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$3,300",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "hawthorne@underwoodstables.com",
+  "location_count": 1,
+  "location_names": [
+    "Rabbit Box"
+  ],
+  "websites": [
+    "https://www.therabbitboxseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.therabbitboxseattle.com/": {
+      "url": "https://www.therabbitboxseattle.com/",
+      "html_bytes": 198920,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.therabbitboxseattle.com/menu": {
+      "url": "https://www.therabbitboxseattle.com/menu",
+      "html_bytes": 143824,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

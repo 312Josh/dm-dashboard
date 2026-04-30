@@ -1,0 +1,51 @@
+{
+  "parent": "Park Hospitality LLC",
+  "slug": "park-hospitality-llc",
+  "sfdc_account_id": "0014W000037WsbdQAC",
+  "total_headroom": "$74,076",
+  "non_ec_headroom": "$74,076",
+  "est_ec_headroom": "$0",
+  "employee_count": "69",
+  "non_ec_arr": "$24,262",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "park@parkhospitalityllc.com",
+  "location_count": 4,
+  "location_names": [
+    "Bacco Cafe",
+    "Cheese Room Seattle",
+    "Chan",
+    "Luna Park - New Ownership"
+  ],
+  "websites": [
+    "https://parkhospitality-llc.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://parkhospitality-llc.com/": {
+      "url": "https://parkhospitality-llc.com/",
+      "html_bytes": 0,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251108064628/https://parkhospitality-llc.com/",
+        "html_bytes": 87325,
+        "vendors": {
+          "website_cms": "GoDaddy"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

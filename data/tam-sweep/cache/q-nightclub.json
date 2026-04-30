@@ -1,0 +1,42 @@
+{
+  "parent": "Q Nightclub - Parent Account",
+  "slug": "q-nightclub",
+  "sfdc_account_id": "0013c00001rB27DAAS",
+  "total_headroom": "$18,552",
+  "non_ec_headroom": "$18,552",
+  "est_ec_headroom": "$0",
+  "employee_count": "52",
+  "non_ec_arr": "$10,788",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "andy@qnightclub.com",
+  "location_count": 1,
+  "location_names": [
+    "Q Nightclub"
+  ],
+  "websites": [
+    "https://qnightclub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://qnightclub.com/": {
+      "url": "https://qnightclub.com/",
+      "html_bytes": 50884,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

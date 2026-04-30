@@ -1,0 +1,88 @@
+{
+  "parent": "Caffe Vita Inc.",
+  "slug": "caffe-vita-inc",
+  "sfdc_account_id": "0014W00002W7dUkQAJ",
+  "total_headroom": "$140,612",
+  "non_ec_headroom": "$138,960",
+  "est_ec_headroom": "$1,652",
+  "employee_count": "10",
+  "non_ec_arr": "$35,130",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "deming@caffevita.com",
+  "location_count": 9,
+  "location_names": [
+    "Caffe Fiore - Sunset Hill",
+    "Caffe Vita KEXP",
+    "Caffe Vita - Phoenix",
+    "Caffe Vita - Fremont",
+    "Caffe Fiore - QA",
+    "Caffe Vita - Brooklyn",
+    "Caffe Vita - Lower East Side",
+    "Caffe Vita - Seward Park",
+    "Caffe Vita - Capitol Hill"
+  ],
+  "websites": [
+    "https://www.caffevita.com/",
+    "https://caffefiore.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.caffevita.com/": {
+      "url": "https://www.caffevita.com/",
+      "html_bytes": 614202,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    },
+    "https://www.caffevita.com/collections/gift-cards": {
+      "url": "https://www.caffevita.com/collections/gift-cards",
+      "html_bytes": 362199,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    },
+    "https://www.caffevita.com/pages/rewards-page": {
+      "url": "https://www.caffevita.com/pages/rewards-page",
+      "html_bytes": 276754,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    },
+    "https://caffefiore.com/": {
+      "url": "https://caffefiore.com/",
+      "html_bytes": 1542,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20200224015025/http://www.caffefiore.com:80/",
+        "html_bytes": 12926,
+        "vendors": {
+          "website_cms": "WordPress"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "caffe vita": "https://www.caffevita.com/",
+    "caffe fiore": "https://caffefiore.com/"
+  }
+}

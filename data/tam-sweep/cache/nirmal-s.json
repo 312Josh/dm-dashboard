@@ -1,0 +1,70 @@
+{
+  "parent": "Nirmal's Parent",
+  "slug": "nirmal-s",
+  "sfdc_account_id": "0014W00003MfrhKQAR",
+  "total_headroom": "$64,224",
+  "non_ec_headroom": "$64,224",
+  "est_ec_headroom": "$0",
+  "employee_count": "30",
+  "non_ec_arr": "$23,681",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "obangera@hotmail.com",
+  "location_count": 4,
+  "location_names": [
+    "HenJoy",
+    "Nirmal's Express",
+    "Khushi",
+    "Nirmal's"
+  ],
+  "websites": [
+    "https://www.nirmalseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.nirmalseattle.com/": {
+      "url": "https://www.nirmalseattle.com/",
+      "html_bytes": 63526,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "reservations": "Yelp Reservations",
+        "gift_cards": "Toast Gift Cards",
+        "website_cms": "GoDaddy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/nirmals-express-701-5th-avenue",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/nirmalseattle/giftcards"
+      }
+    },
+    "https://www.nirmalseattle.com/menu.html": {
+      "url": "https://www.nirmalseattle.com/menu.html",
+      "html_bytes": 22599,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/nirmals-express-701-5th-avenue",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/nirmalseattle/giftcards"
+  },
+  "marketplaces": [
+    "grubhub",
+    "doordash",
+    "ubereats",
+    "opentable",
+    "resy",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

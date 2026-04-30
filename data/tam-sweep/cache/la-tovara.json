@@ -1,0 +1,35 @@
+{
+  "parent": "La Tovara - Parent Account",
+  "slug": "la-tovara",
+  "sfdc_account_id": "001PV00001twdtgYAA",
+  "total_headroom": "$37,260",
+  "non_ec_headroom": "$36,420",
+  "est_ec_headroom": "$840",
+  "employee_count": "5",
+  "non_ec_arr": "$6,865",
+  "state": "OR",
+  "city": "Madras",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "toritomarket01@hotmail.com",
+  "location_count": 2,
+  "location_names": [
+    "El Torito - Deli",
+    "La Tovara"
+  ],
+  "websites": [],
+  "website_discovery_status": "found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "el torito": "",
+    "la tovara": ""
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "parent": "The Cozy Taberna - Parent Account",
+  "slug": "the-cozy-taberna",
+  "sfdc_account_id": "0014W000037VrbOQAS",
+  "total_headroom": "$15,852",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$0",
+  "employee_count": "54",
+  "non_ec_arr": "$8,844",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bill@thecozytaberna.com",
+  "location_count": 1,
+  "location_names": [
+    "The Cozy Taberna"
+  ],
+  "websites": [
+    "https://www.thecozytaberna.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thecozytaberna.com/": {
+      "url": "https://www.thecozytaberna.com/",
+      "html_bytes": 781614,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cozytaberna",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/cozytaberna/giftcards"
+      }
+    },
+    "https://www.thecozytaberna.com/menu-1": {
+      "url": "https://www.thecozytaberna.com/menu-1",
+      "html_bytes": 707350,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "reservations": "Tock"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cozytaberna",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.thecozytaberna.com/giftcards": {
+      "url": "https://www.thecozytaberna.com/giftcards",
+      "html_bytes": 736639,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cozytaberna",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/cozytaberna/giftcards"
+      }
+    },
+    "https://www.thecozytaberna.com/book-online": {
+      "url": "https://www.thecozytaberna.com/book-online",
+      "html_bytes": 871272,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "reservations": "Tock"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cozytaberna",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/cozytaberna",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/cozytaberna/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

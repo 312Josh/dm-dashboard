@@ -1,0 +1,76 @@
+{
+  "parent": "Maximilien",
+  "slug": "maximilien",
+  "sfdc_account_id": "0013c00001s106BAAQ",
+  "total_headroom": "$24,084",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$3,444",
+  "employee_count": "21",
+  "non_ec_arr": "$4,572",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "wilfried@maximilienrestaurant.com",
+  "location_count": 1,
+  "location_names": [
+    "Maximilien"
+  ],
+  "websites": [
+    "https://www.maximilienrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.maximilienrestaurant.com/": {
+      "url": "https://www.maximilienrestaurant.com/",
+      "html_bytes": 218784,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.maximilienrestaurant.com/menus": {
+      "url": "https://www.maximilienrestaurant.com/menus",
+      "html_bytes": 181634,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.maximilienrestaurant.com/menu": {
+      "url": "https://www.maximilienrestaurant.com/menu",
+      "html_bytes": 181634,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.maximilienrestaurant.com/reservations": {
+      "url": "https://www.maximilienrestaurant.com/reservations",
+      "html_bytes": 137253,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "parent": "Cooper Mountain Ale Works Parent",
+  "slug": "cooper-mountain-ale-works",
+  "sfdc_account_id": "0014W00002hoWipQAE",
+  "total_headroom": "$15,432",
+  "non_ec_headroom": "$15,432",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$7,908",
+  "state": "OR",
+  "city": "Tigard",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "christine@coopermountainaleworks.com",
+  "location_count": 1,
+  "location_names": [
+    "Cooper Mountain Ale Works"
+  ],
+  "websites": [
+    "https://www.coopermountainaleworks.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.coopermountainaleworks.com/": {
+      "url": "https://www.coopermountainaleworks.com/",
+      "html_bytes": 630549,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/f9aa0d58-8382-4f0e-bbff-f8c13c7f46be"
+      }
+    },
+    "https://www.coopermountainaleworks.com/reservations": {
+      "url": "https://www.coopermountainaleworks.com/reservations",
+      "html_bytes": 621867,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/f9aa0d58-8382-4f0e-bbff-f8c13c7f46be"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/f9aa0d58-8382-4f0e-bbff-f8c13c7f46be"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

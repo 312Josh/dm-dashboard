@@ -1,0 +1,42 @@
+{
+  "parent": "Rose Temple Parent",
+  "slug": "rose-temple",
+  "sfdc_account_id": "0014W00003CNISjQAP",
+  "total_headroom": "$24,216",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$3,276",
+  "employee_count": "20",
+  "non_ec_arr": "$1,200",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "ben@rosetemplebar.com",
+  "location_count": 1,
+  "location_names": [
+    "Donna’s Seattle"
+  ],
+  "websites": [
+    "https://www.rosetemplebar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.rosetemplebar.com/": {
+      "url": "https://www.rosetemplebar.com/",
+      "html_bytes": 332239,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

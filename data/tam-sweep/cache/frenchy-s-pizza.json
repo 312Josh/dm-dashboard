@@ -1,5 +1,5 @@
 {
-  "parent": "Frenchy’s Pizza",
+  "parent": "Frenchy\u2019s Pizza",
   "slug": "frenchy-s-pizza",
   "total_headroom": "$18,108",
   "non_ec_headroom": "$17,940",
@@ -12,7 +12,7 @@
   "contact_email": "miller.andrew@hotmail.com",
   "location_count": 1,
   "location_names": [
-    "Frenchy’s Pizza"
+    "Frenchy\u2019s Pizza"
   ],
   "websites": [
     "https://www.frenchyspizza.com/"
@@ -37,8 +37,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "0014W00002xcTnOQAU"
 }

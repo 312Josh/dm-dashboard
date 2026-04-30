@@ -1,0 +1,39 @@
+{
+  "parent": "Yeobo Cafe and Bar - Parent Account",
+  "slug": "yeobo-cafe-and-bar",
+  "sfdc_account_id": "001PV00001GzRzGYAV",
+  "total_headroom": "$18,516",
+  "non_ec_headroom": "$18,012",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$4,128",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "mars@yeobosea.com",
+  "location_count": 1,
+  "location_names": [
+    "Yeobo Cafe and Bar"
+  ],
+  "websites": [
+    "https://www.yeobosea.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.yeobosea.com/": {
+      "url": "https://www.yeobosea.com/",
+      "html_bytes": 299063,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

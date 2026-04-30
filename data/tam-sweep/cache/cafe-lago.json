@@ -1,0 +1,60 @@
+{
+  "parent": "Cafe Lago",
+  "slug": "cafe-lago",
+  "sfdc_account_id": "0013c00001rQnOXAA0",
+  "total_headroom": "$25,516",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$6,076",
+  "employee_count": "36",
+  "non_ec_arr": "$2,820",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "carla@cafelago.com",
+  "location_count": 1,
+  "location_names": [
+    "Cafe Lago"
+  ],
+  "websites": [
+    "https://www.cafelago.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cafelago.com/": {
+      "url": "https://www.cafelago.com/",
+      "html_bytes": 54924,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/cafe-lago-2305-24th-ave-e/giftcards"
+      }
+    },
+    "https://www.cafelago.com/menu/appetizers": {
+      "url": "https://www.cafelago.com/menu/appetizers",
+      "html_bytes": 30808,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/cafe-lago-2305-24th-ave-e/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

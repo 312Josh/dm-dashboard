@@ -1,0 +1,55 @@
+{
+  "parent": "SHO Japanese Restaurant - Parent Account",
+  "slug": "sho-japanese-restaurant",
+  "sfdc_account_id": "0014W000037XWF5QAO",
+  "total_headroom": "$14,344",
+  "non_ec_headroom": "$11,544",
+  "est_ec_headroom": "$2,800",
+  "employee_count": "17",
+  "non_ec_arr": "$12,488",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "k.seki@namikainc.com",
+  "location_count": 1,
+  "location_names": [
+    "SHO Japanese Restaurant"
+  ],
+  "websites": [
+    "https://shorestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://shorestaurant.com/": {
+      "url": "https://shorestaurant.com/",
+      "html_bytes": 210530,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://shorestaurant.com/menu/": {
+      "url": "https://shorestaurant.com/menu/",
+      "html_bytes": 834439,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

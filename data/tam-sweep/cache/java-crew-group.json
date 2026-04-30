@@ -1,0 +1,65 @@
+{
+  "parent": "Java Crew - Group",
+  "slug": "java-crew-group",
+  "sfdc_account_id": "001C000001atrhkIAA",
+  "total_headroom": "$77,408",
+  "non_ec_headroom": "$69,120",
+  "est_ec_headroom": "$8,288",
+  "employee_count": "50",
+  "non_ec_arr": "$21,381",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "darin@goshthatsgood.com",
+  "location_count": 5,
+  "location_names": [
+    "Java Crew - West",
+    "Java Crew - 12th St",
+    "Java Crew - Keizer",
+    "Java Crew - Vista",
+    "Java Crew - Corvallis"
+  ],
+  "websites": [
+    "http://javacrew.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://javacrew.com/": {
+      "url": "http://javacrew.com/",
+      "html_bytes": 92016,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://javacrew.com/menu-2/": {
+      "url": "https://javacrew.com/menu-2/",
+      "html_bytes": 73359,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://javacrew.com/rewards/": {
+      "url": "https://javacrew.com/rewards/",
+      "html_bytes": 80352,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

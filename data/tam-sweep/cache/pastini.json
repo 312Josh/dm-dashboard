@@ -1,0 +1,73 @@
+{
+  "parent": "Pastini Parent",
+  "slug": "pastini",
+  "sfdc_account_id": "001PV00001pMs3wYAC",
+  "total_headroom": "$144,408",
+  "non_ec_headroom": "$101,064",
+  "est_ec_headroom": "$43,344",
+  "employee_count": "260",
+  "non_ec_arr": "$68,465",
+  "state": "OR",
+  "city": "Bend",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "kara@pastini.com",
+  "location_count": 9,
+  "location_names": [
+    "Pastini - Old Mill District",
+    "Pastini - Oakway Center",
+    "Pastini - Market Center",
+    "Pastini - Bridgeport",
+    "Pastini- Downtown Portland",
+    "Pastini - Cedar Hills Crossing",
+    "Pastini - SE Division",
+    "Pastini - NE Broadway",
+    "Pastini Lab Account"
+  ],
+  "websites": [
+    "https://www.pastini.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pastini.com/": {
+      "url": "https://www.pastini.com/",
+      "html_bytes": 74752,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page",
+        "gift_cards": "Valutec"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.pastini.com/"
+      }
+    },
+    "https://www.pastini.com/gift-cards/": {
+      "url": "https://www.pastini.com/gift-cards/",
+      "html_bytes": 76746,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "gift_cards": "Valutec",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.pastini.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.pastini.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

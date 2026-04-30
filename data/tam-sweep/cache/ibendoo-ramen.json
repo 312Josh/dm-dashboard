@@ -1,0 +1,43 @@
+{
+  "parent": "Ibendoo Ramen - Parent Account",
+  "slug": "ibendoo-ramen",
+  "sfdc_account_id": "0014W000037YVJJQA4",
+  "total_headroom": "$17,820",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$1,308",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ibendooramen.salem@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ibendoo Ramen"
+  ],
+  "websites": [
+    "https://ibendoo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ibendoo.com/": {
+      "url": "https://ibendoo.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

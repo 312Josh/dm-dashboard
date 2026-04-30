@@ -1,0 +1,60 @@
+{
+  "parent": "El Grito - Parent Account",
+  "slug": "el-grito",
+  "sfdc_account_id": "001C000001mIzziIAC",
+  "total_headroom": "$66,392",
+  "non_ec_headroom": "$55,752",
+  "est_ec_headroom": "$10,640",
+  "employee_count": "64",
+  "non_ec_arr": "$15,573",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rory@singleshotseattle.com",
+  "location_count": 3,
+  "location_names": [
+    "Single Shot",
+    "re public",
+    "El Grito"
+  ],
+  "websites": [
+    "https://www.elgritoseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.elgritoseattle.com/": {
+      "url": "https://www.elgritoseattle.com/",
+      "html_bytes": 108114,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/el-grito-234-fairview-avenue-north/giftcards"
+      }
+    },
+    "https://www.elgritoseattle.com/gift-cards": {
+      "url": "https://www.elgritoseattle.com/gift-cards",
+      "html_bytes": 5736,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/el-grito-234-fairview-avenue-north/giftcards"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

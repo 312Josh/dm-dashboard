@@ -1,0 +1,30 @@
+{
+  "parent": "Chandelier (Rebook) - Parent Account",
+  "slug": "chandelier-rebook",
+  "sfdc_account_id": "001PV00000caNBXYA2",
+  "total_headroom": "$20,836",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$196",
+  "employee_count": "1",
+  "non_ec_arr": "$2,100",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "pransharma30@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Chandelier - Rebook"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

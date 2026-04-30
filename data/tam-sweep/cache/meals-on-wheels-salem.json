@@ -1,0 +1,41 @@
+{
+  "parent": "Meals on Wheels - Salem",
+  "slug": "meals-on-wheels-salem",
+  "sfdc_account_id": "001C000001akeCwIAI",
+  "total_headroom": "$19,908",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,200",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "info@marionpolkfoodshare.org",
+  "location_count": 1,
+  "location_names": [
+    "Meals on Wheels - Salem"
+  ],
+  "websites": [
+    "https://foodsharemealsonwheels.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://foodsharemealsonwheels.org/": {
+      "url": "https://foodsharemealsonwheels.org/",
+      "html_bytes": 77698,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

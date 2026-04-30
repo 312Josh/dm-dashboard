@@ -1,5 +1,5 @@
 {
-  "parent": "Sorrento’s italian and pizza - Parent Account",
+  "parent": "Sorrento\u2019s italian and pizza - Parent Account",
   "slug": "sorrento-s-italian-and-pizza",
   "total_headroom": "$21,728",
   "non_ec_headroom": "$20,580",
@@ -12,7 +12,7 @@
   "contact_email": "sanpedrosorrentos@gmail.com",
   "location_count": 1,
   "location_names": [
-    "Sorrento’s italian and pizza"
+    "Sorrento\u2019s italian and pizza"
   ],
   "websites": [
     "https://sorrentos-restaurant.restaurants-world.net/"
@@ -33,8 +33,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "rieger",
-    "--rep"
+    "rieger"
   ],
   "sfdc_account_id": "0014W00003JUSGHQA5"
 }

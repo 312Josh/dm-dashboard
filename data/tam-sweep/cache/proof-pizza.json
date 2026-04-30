@@ -1,0 +1,44 @@
+{
+  "parent": "Proof Pizza - Parent Account",
+  "slug": "proof-pizza",
+  "sfdc_account_id": "0014W00003JTtDaQAL",
+  "total_headroom": "$37,332",
+  "non_ec_headroom": "$37,332",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$7,416",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "brittany@proofpnw.com",
+  "location_count": 2,
+  "location_names": [
+    "Proof Pizza - Beaverton",
+    "Proof Pizza Morrison"
+  ],
+  "websites": [
+    "https://proof-pizza.com-place.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://proof-pizza.com-place.com/": {
+      "url": "https://proof-pizza.com-place.com/",
+      "html_bytes": 5544,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

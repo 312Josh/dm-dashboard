@@ -1,0 +1,30 @@
+{
+  "parent": "West Wall - Parent Account",
+  "slug": "west-wall",
+  "sfdc_account_id": "0014W000037VJQvQAO",
+  "total_headroom": "$22,460",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$1,820",
+  "employee_count": "11",
+  "non_ec_arr": "$900",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "holly.braun@boulderingproject.com",
+  "location_count": 1,
+  "location_names": [
+    "West Wall"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

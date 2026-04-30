@@ -1,0 +1,67 @@
+{
+  "parent": "Konditorei Cake Shop - Parent Account",
+  "slug": "konditorei-cake-shop",
+  "sfdc_account_id": "0013c00001no4a3AAA",
+  "total_headroom": "$24,260",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$3,920",
+  "employee_count": "23",
+  "non_ec_arr": "$2,004",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "linaescafe@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Konditorei Cake Shop"
+  ],
+  "websites": [
+    "https://gerryfrankskonditorei.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gerryfrankskonditorei.com/": {
+      "url": "https://gerryfrankskonditorei.com/",
+      "html_bytes": 45652,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://gerryfrankskonditorei.com/menu/cheesecakes-tortes/": {
+      "url": "https://gerryfrankskonditorei.com/menu/cheesecakes-tortes/",
+      "html_bytes": 67315,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://gerryfrankskonditorei.com/menu/pastries/": {
+      "url": "https://gerryfrankskonditorei.com/menu/pastries/",
+      "html_bytes": 48690,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://gerryfrankskonditorei.com/menu/more-than-just-dessert/": {
+      "url": "https://gerryfrankskonditorei.com/menu/more-than-just-dessert/",
+      "html_bytes": 47860,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "parent": "Belltown Pizza - WA - Parent Account",
+  "slug": "belltown-pizza-wa",
+  "sfdc_account_id": "0013c00001tnacAAAQ",
+  "total_headroom": "$16,860",
+  "non_ec_headroom": "$16,860",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$6,366",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "brian@belltownpizza.net",
+  "location_count": 1,
+  "location_names": [
+    "Belltown Pizza - WA"
+  ],
+  "websites": [
+    "https://belltownpizza.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://belltownpizza.net/": {
+      "url": "https://belltownpizza.net/",
+      "html_bytes": 191725,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/belltownpizzaseattle",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/belltownpizzaseattle",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

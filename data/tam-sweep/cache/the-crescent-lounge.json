@@ -1,0 +1,41 @@
+{
+  "parent": "The Crescent Lounge",
+  "slug": "the-crescent-lounge",
+  "sfdc_account_id": "0014W00002mtEzBQAU",
+  "total_headroom": "$22,096",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$1,456",
+  "employee_count": "9",
+  "non_ec_arr": "$803",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "david@crescentloungeseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "The Crescent Lounge"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/the-crescent-lounge-1413-e-olive-way"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/the-crescent-lounge-1413-e-olive-way": {
+      "url": "https://www.toasttab.com/local/the-crescent-lounge-1413-e-olive-way",
+      "html_bytes": 5682,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

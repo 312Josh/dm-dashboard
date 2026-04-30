@@ -1,0 +1,48 @@
+{
+  "parent": "Hapa Pizza Parent",
+  "slug": "hapa-pizza",
+  "sfdc_account_id": "0014W00002W7BSMQA3",
+  "total_headroom": "$20,068",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$2,128",
+  "employee_count": "13",
+  "non_ec_arr": "$3,777",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "aaron.m.truong@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Hapa Pizza"
+  ],
+  "websites": [
+    "https://www.hapapizza.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hapapizza.com": {
+      "url": "https://www.hapapizza.com",
+      "html_bytes": 322915,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Square Gift",
+        "pos_other": "Square"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

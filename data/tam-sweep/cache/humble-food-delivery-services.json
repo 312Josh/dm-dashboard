@@ -1,0 +1,30 @@
+{
+  "parent": "Humble Food Delivery Services Parent",
+  "slug": "humble-food-delivery-services",
+  "sfdc_account_id": "0014W00003JUfORQA1",
+  "total_headroom": "$16,140",
+  "non_ec_headroom": "$15,972",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$2,688",
+  "state": "OR",
+  "city": "Hillsboro",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "humblefoodelivery@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Roll It Up Kitchen"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "Cindy's cafe and Catering Parent",
+  "slug": "cindy-s-cafe-and-catering",
+  "sfdc_account_id": "0014W00003MgrXzQAJ",
+  "total_headroom": "$20,040",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$1,500",
+  "state": "OR",
+  "city": "Molalla",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ingridhenifin@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Cindy's Cafe And Catering"
+  ],
+  "websites": [
+    "https://cindyscafeandcatering.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cindyscafeandcatering.com/": {
+      "url": "https://cindyscafeandcatering.com/",
+      "html_bytes": 3551,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

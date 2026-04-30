@@ -1,5 +1,5 @@
 {
-  "parent": "Tallulah’s Sweet Spot",
+  "parent": "Tallulah\u2019s Sweet Spot",
   "slug": "tallulah-s-sweet-spot",
   "total_headroom": "$21,164",
   "non_ec_headroom": "$20,940",
@@ -12,7 +12,7 @@
   "contact_email": "danandkelcey@gmail.com",
   "location_count": 1,
   "location_names": [
-    "Tallulah’s Sweet Spot"
+    "Tallulah\u2019s Sweet Spot"
   ],
   "websites": [
     "https://www.tallulahfarm.com/"
@@ -43,8 +43,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "001PV000029PZyrYAG"
 }

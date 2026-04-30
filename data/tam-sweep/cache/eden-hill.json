@@ -1,0 +1,30 @@
+{
+  "parent": "Eden Hill Parent",
+  "slug": "eden-hill",
+  "sfdc_account_id": "0013c00001oUOpMAAW",
+  "total_headroom": "$20,640",
+  "non_ec_headroom": "$18,120",
+  "est_ec_headroom": "$2,520",
+  "employee_count": "15",
+  "non_ec_arr": "$5,316",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jennifer@edenhillprovisions.com",
+  "location_count": 1,
+  "location_names": [
+    "Big Max Burger Co"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

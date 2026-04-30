@@ -15,7 +15,7 @@
     "Slim & Husky's Memphis",
     "Slim & Husky's - ATL Metro",
     "Slim & Husky's Buchanan Dine In",
-    "Slim & Husky’s Antioch",
+    "Slim & Husky\u2019s Antioch",
     "Slim and Husky's FRANKLIN"
   ],
   "websites": [
@@ -72,8 +72,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "0013c00001xXEq7AAG"
 }

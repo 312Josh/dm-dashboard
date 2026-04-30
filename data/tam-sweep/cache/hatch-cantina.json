@@ -1,0 +1,82 @@
+{
+  "parent": "Hatch Cantina Parent",
+  "slug": "hatch-cantina",
+  "sfdc_account_id": "0014W00002W86uGQAR",
+  "total_headroom": "$11,772",
+  "non_ec_headroom": "$11,772",
+  "est_ec_headroom": "$0",
+  "employee_count": "25",
+  "non_ec_arr": "$13,014",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "h.schindler@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Hatch Cantina 2022"
+  ],
+  "websites": [
+    "https://hatchcantina.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hatchcantina.com/": {
+      "url": "https://hatchcantina.com/",
+      "html_bytes": 222599,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "catering_mention": "Private-events copy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/hatch-cantina-2022-206-bell-street/giftcards"
+      }
+    },
+    "https://hatchcantina.com/reservations": {
+      "url": "https://hatchcantina.com/reservations",
+      "html_bytes": 127433,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    },
+    "https://hatchcantina.com/gift-cards-1": {
+      "url": "https://hatchcantina.com/gift-cards-1",
+      "html_bytes": 130328,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/hatch-cantina-2022-206-bell-street/giftcards"
+      }
+    },
+    "https://hatchcantina.com/menus-page": {
+      "url": "https://hatchcantina.com/menus-page",
+      "html_bytes": 142725,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/hatch-cantina-2022-206-bell-street/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

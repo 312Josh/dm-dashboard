@@ -1,0 +1,75 @@
+{
+  "parent": "Portal Lounge - Parent Account",
+  "slug": "portal-lounge",
+  "sfdc_account_id": "0014W00002ms7UQQAY",
+  "total_headroom": "$20,724",
+  "non_ec_headroom": "$19,212",
+  "est_ec_headroom": "$1,512",
+  "employee_count": "9",
+  "non_ec_arr": "$2,508",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "benjamintokatly@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Portal Lounge"
+  ],
+  "websites": [
+    "https://www.portaladventures.com/portal-lounge"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.portaladventures.com/portal-lounge": {
+      "url": "https://www.portaladventures.com/portal-lounge",
+      "html_bytes": 259433,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://www.portaladventures.com/gift": {
+      "url": "https://www.portaladventures.com/gift",
+      "html_bytes": 136656,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.portaladventures.com/gift-cards": {
+      "url": "https://www.portaladventures.com/gift-cards",
+      "html_bytes": 136656,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.portaladventures.com/gift-cards-beaverton": {
+      "url": "https://www.portaladventures.com/gift-cards-beaverton",
+      "html_bytes": 135997,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

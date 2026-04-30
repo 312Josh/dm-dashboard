@@ -1,0 +1,43 @@
+{
+  "parent": "Hurry Curry of Tokyo - WA",
+  "slug": "hurry-curry-of-tokyo-wa",
+  "sfdc_account_id": "0013c00001rCBMFAA4",
+  "total_headroom": "$23,552",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$4,592",
+  "employee_count": "27",
+  "non_ec_arr": "$3,066",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rsyoshitani@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Hurry Curry of Tokyo - Seattle"
+  ],
+  "websites": [
+    "https://hurry-curry-of-tokyo-seattle.restaurants-world.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hurry-curry-of-tokyo-seattle.restaurants-world.net/": {
+      "url": "https://hurry-curry-of-tokyo-seattle.restaurants-world.net/",
+      "html_bytes": 5633,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

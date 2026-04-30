@@ -1,0 +1,84 @@
+{
+  "parent": "E3 Restaurant Group",
+  "slug": "e3-restaurant-group",
+  "sfdc_account_id": "0013c00001ugy2yAAA",
+  "total_headroom": "$154,604",
+  "non_ec_headroom": "$99,948",
+  "est_ec_headroom": "$54,656",
+  "employee_count": "326",
+  "non_ec_arr": "$61,169",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jrowe@e3restaurantgroup.com",
+  "location_count": 6,
+  "location_names": [
+    "The Metropolitan Grill",
+    "Elliott's Oyster House",
+    "The Lobster Shop",
+    "Wing Dome - Greenwood",
+    "Wing Dome - Armory",
+    "The Wing Dome - Waterfront"
+  ],
+  "websites": [
+    "https://www.themetropolitangrill.com/",
+    "https://www.elliottsoysterhouse.com/",
+    "https://wingdome.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.themetropolitangrill.com/": {
+      "url": "https://www.themetropolitangrill.com/",
+      "html_bytes": 35315,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "SevenRooms",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.elliottsoysterhouse.com/": {
+      "url": "https://www.elliottsoysterhouse.com/",
+      "html_bytes": 40675,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "SevenRooms",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.elliottsoysterhouse.com/reservations/": {
+      "url": "https://www.elliottsoysterhouse.com/reservations/",
+      "html_bytes": 32850,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "SevenRooms",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://wingdome.com/": {
+      "url": "https://wingdome.com/",
+      "html_bytes": 114,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "metropolitan grill": "https://www.themetropolitangrill.com/",
+    "elliott's oyster": "https://www.elliottsoysterhouse.com/",
+    "wing dome": "https://wingdome.com/"
+  }
+}

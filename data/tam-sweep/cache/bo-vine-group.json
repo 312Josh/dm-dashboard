@@ -1,0 +1,94 @@
+{
+  "parent": "Bo & Vine Group",
+  "slug": "bo-vine-group",
+  "sfdc_account_id": "0014W00002W7pHaQAJ",
+  "total_headroom": "$66,072",
+  "non_ec_headroom": "$66,072",
+  "est_ec_headroom": "$0",
+  "employee_count": "58",
+  "non_ec_arr": "$23,859",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "matt@boandvine.com",
+  "location_count": 4,
+  "location_names": [
+    "Bo & Vine Food Truck",
+    "Bo & Vine Eugene",
+    "Bo & Vine - Corvallis",
+    "Bo & Vine - South Salem"
+  ],
+  "websites": [
+    "https://boandvine.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://boandvine.com/": {
+      "url": "https://boandvine.com/",
+      "html_bytes": 89028,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "marketing": "Birdeye",
+        "catering_mention": "Catering page",
+        "gift_cards": "Toast Gift Cards",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/boandvinesouthsalem/giftcards",
+        "toast_loyalty": "toasttab.com/boandvinesouthsalem/rewardsSignup"
+      }
+    },
+    "https://boandvine.com/gift-cards": {
+      "url": "https://boandvine.com/gift-cards",
+      "html_bytes": 78229,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Birdeye",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/boandvinesouthsalem/giftcards"
+      }
+    },
+    "https://boandvine.com/rewards": {
+      "url": "https://boandvine.com/rewards",
+      "html_bytes": 101734,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "marketing": "Birdeye",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/boandvinesouthsalem/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/boandvinesouthsalem/giftcards",
+    "toast_loyalty": "toasttab.com/boandvinesouthsalem/rewardsSignup"
+  },
+  "marketplaces": [
+    "ubereats",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

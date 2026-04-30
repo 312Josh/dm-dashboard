@@ -1,0 +1,55 @@
+{
+  "parent": "Roquette- Parent Account",
+  "slug": "roquette",
+  "sfdc_account_id": "001C000001nsRojIAE",
+  "total_headroom": "$19,908",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,800",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "roquettesea@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Roquette"
+  ],
+  "websites": [
+    "https://www.roquettesea.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.roquettesea.com/": {
+      "url": "https://www.roquettesea.com/",
+      "html_bytes": 78244,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.roquettesea.com/menu/": {
+      "url": "https://www.roquettesea.com/menu/",
+      "html_bytes": 76622,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "reservations": "Resy",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "Social Grounds Parent Account",
+  "slug": "social-grounds",
+  "sfdc_account_id": "001PV00001AqBQwYAN",
+  "total_headroom": "$17,088",
+  "non_ec_headroom": "$16,920",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$3,600",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ladyjkh@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Social Grounds Coffee & Tea on Pike"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/social-grounds-coffee-tea-on-pike-1914-1st-ave"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/social-grounds-coffee-tea-on-pike-1914-1st-ave": {
+      "url": "https://www.toasttab.com/local/order/social-grounds-coffee-tea-on-pike-1914-1st-ave",
+      "html_bytes": 5773,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

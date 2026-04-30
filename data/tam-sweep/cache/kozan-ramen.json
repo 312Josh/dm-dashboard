@@ -1,0 +1,45 @@
+{
+  "parent": "Kozan Ramen - Parent Account",
+  "slug": "kozan-ramen",
+  "sfdc_account_id": "001PV00001lbtmkYAA",
+  "total_headroom": "$19,788",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$1,428",
+  "employee_count": "9",
+  "non_ec_arr": "$4,500",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "Unknown",
+  "contact_email": "somanand99@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Kozan Ramen"
+  ],
+  "websites": [
+    "https://www.kozanramen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.kozanramen.com/": {
+      "url": "https://www.kozanramen.com/",
+      "html_bytes": 925149,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

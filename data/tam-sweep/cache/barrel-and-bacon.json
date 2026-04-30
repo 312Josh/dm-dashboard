@@ -1,0 +1,51 @@
+{
+  "parent": "Barrel and Bacon - Parent Account",
+  "slug": "barrel-and-bacon",
+  "sfdc_account_id": "0014W00003P2ouBQAR",
+  "total_headroom": "$21,080",
+  "non_ec_headroom": "$19,680",
+  "est_ec_headroom": "$1,400",
+  "employee_count": "8",
+  "non_ec_arr": "$3,420",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@barrelandbacon.com",
+  "location_count": 1,
+  "location_names": [
+    "Barrel and Bacon"
+  ],
+  "websites": [
+    "https://barrelandbacon.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://barrelandbacon.com/": {
+      "url": "https://barrelandbacon.com/",
+      "html_bytes": 212436,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "reservations": "Yelp Reservations"
+      },
+      "toast": {}
+    },
+    "https://barrelandbacon.com/m/bookings": {
+      "url": "https://barrelandbacon.com/m/bookings",
+      "html_bytes": 97870,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "reservations": "Yelp Reservations"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

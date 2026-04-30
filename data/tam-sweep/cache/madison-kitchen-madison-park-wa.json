@@ -1,0 +1,53 @@
+{
+  "parent": "Madison Kitchen - Madison Park, WA",
+  "slug": "madison-kitchen-madison-park-wa",
+  "sfdc_account_id": "0014W00002W7WXLQA3",
+  "total_headroom": "$21,876",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$2,436",
+  "employee_count": "15",
+  "non_ec_arr": "$2,244",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "mk.4122.fresh@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Madison Kitchen - Madison Park, WA"
+  ],
+  "websites": [
+    "http://www.madison-kitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.madison-kitchen.com/": {
+      "url": "http://www.madison-kitchen.com/",
+      "html_bytes": 62508,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "http://www.madison-kitchen.com/menu": {
+      "url": "http://www.madison-kitchen.com/menu",
+      "html_bytes": 68779,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

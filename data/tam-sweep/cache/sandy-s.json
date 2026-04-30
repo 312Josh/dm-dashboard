@@ -1,0 +1,61 @@
+{
+  "parent": "Sandy’s- Parent Account",
+  "slug": "sandy-s",
+  "sfdc_account_id": "001PV00002nr63fYAA",
+  "total_headroom": "$15,792",
+  "non_ec_headroom": "$15,792",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$3,710",
+  "state": "CA",
+  "city": "San Francisco",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "peterson@sandyssf.com",
+  "location_count": 1,
+  "location_names": [
+    "Sandy’s"
+  ],
+  "websites": [
+    "https://www.sandysmuffs.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sandysmuffs.com": {
+      "url": "https://www.sandysmuffs.com",
+      "html_bytes": 230050,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sandys",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/sandysmuffs/giftcards",
+        "toast_loyalty": "toasttab.com/sandysmuffs/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/sandys",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/sandysmuffs/giftcards",
+    "toast_loyalty": "toasttab.com/sandysmuffs/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

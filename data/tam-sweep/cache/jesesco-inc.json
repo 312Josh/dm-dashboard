@@ -1,0 +1,49 @@
+{
+  "parent": "JESESCO INC",
+  "slug": "jesesco-inc",
+  "sfdc_account_id": "0014W00003MfopkQAB",
+  "total_headroom": "$45,832",
+  "non_ec_headroom": "$37,572",
+  "est_ec_headroom": "$8,260",
+  "employee_count": "50",
+  "non_ec_arr": "$9,588",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jesesco@msn.com",
+  "location_count": 2,
+  "location_names": [
+    "Rocco's Belltown",
+    "Herb & Bitter Public House"
+  ],
+  "websites": [
+    "https://www.herbandbitter.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.herbandbitter.com/": {
+      "url": "https://www.herbandbitter.com/",
+      "html_bytes": 726676,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/herb-bitter-public-house-516-broadway-east/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/herb-bitter-public-house-516-broadway-east/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

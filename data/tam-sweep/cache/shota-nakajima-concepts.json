@@ -1,0 +1,41 @@
+{
+  "parent": "Shota Nakajima Concepts",
+  "slug": "shota-nakajima-concepts",
+  "sfdc_account_id": "0014W00002NuaPWQAZ",
+  "total_headroom": "$20,112",
+  "non_ec_headroom": "$20,112",
+  "est_ec_headroom": "$0",
+  "employee_count": "51",
+  "non_ec_arr": "$1,429",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "shota@takuseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Taku Seattle"
+  ],
+  "websites": [
+    "https://www.takuseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.takuseattle.com/": {
+      "url": "https://www.takuseattle.com/",
+      "html_bytes": 622693,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

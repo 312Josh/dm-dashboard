@@ -1,0 +1,65 @@
+{
+  "parent": "Great State Burger - PARENT",
+  "slug": "great-state-burger",
+  "sfdc_account_id": "0014W00003PXUtcQAH",
+  "total_headroom": "$16,512",
+  "non_ec_headroom": "$16,512",
+  "est_ec_headroom": "$0",
+  "employee_count": "12",
+  "non_ec_arr": "$6,075",
+  "state": "WA",
+  "city": "Bellevue",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "nathan@greatstateburger.com",
+  "location_count": 1,
+  "location_names": [
+    "Great State Burger - Lincoln Square, Bellevue"
+  ],
+  "websites": [
+    "https://www.greatstateburger.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.greatstateburger.com/": {
+      "url": "https://www.greatstateburger.com/",
+      "html_bytes": 108874,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.greatstateburger.com/menu": {
+      "url": "https://www.greatstateburger.com/menu",
+      "html_bytes": 129833,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.greatstateburger.com/gift-cards": {
+      "url": "https://www.greatstateburger.com/gift-cards",
+      "html_bytes": 62367,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

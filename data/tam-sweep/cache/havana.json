@@ -1,0 +1,53 @@
+{
+  "parent": "Havana - Parent",
+  "slug": "havana",
+  "sfdc_account_id": "0013c00001p2fFhAAI",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$2,358",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "q@shibuyasocial.com",
+  "location_count": 1,
+  "location_names": [
+    "Havana - Seattle"
+  ],
+  "websites": [
+    "https://www.havanasocial.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.havanasocial.com/": {
+      "url": "https://www.havanasocial.com/",
+      "html_bytes": 64981,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.havanasocial.com/reservations": {
+      "url": "https://www.havanasocial.com/reservations",
+      "html_bytes": 72803,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

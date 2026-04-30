@@ -1,5 +1,5 @@
 {
-  "parent": "Ed’s Fish House - Parent Account",
+  "parent": "Ed\u2019s Fish House - Parent Account",
   "slug": "ed-s-fish-house",
   "total_headroom": "$19,620",
   "non_ec_headroom": "$18,360",
@@ -12,7 +12,7 @@
   "contact_email": "ant.williams623@gmail.com",
   "location_count": 1,
   "location_names": [
-    "Ed’s Fish House"
+    "Ed\u2019s Fish House"
   ],
   "websites": [
     "https://edsfishhouse.com/"
@@ -42,8 +42,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "0014W00003P2w0LQAR"
 }

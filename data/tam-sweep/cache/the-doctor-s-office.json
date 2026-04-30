@@ -1,0 +1,44 @@
+{
+  "parent": "The Doctor's Office - Parent Account",
+  "slug": "the-doctor-s-office",
+  "sfdc_account_id": "0013c00001qGd1KAAS",
+  "total_headroom": "$22,012",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$1,372",
+  "employee_count": "8",
+  "non_ec_arr": "$900",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "tdoseallc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Doctor's Office"
+  ],
+  "websites": [
+    "https://www.tdosea.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.tdosea.com/": {
+      "url": "https://www.tdosea.com/",
+      "html_bytes": 90226,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

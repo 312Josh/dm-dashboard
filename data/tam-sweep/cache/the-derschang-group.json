@@ -1,0 +1,57 @@
+{
+  "parent": "The Derschang Group",
+  "slug": "the-derschang-group",
+  "sfdc_account_id": "0014W000037WwTkQAK",
+  "total_headroom": "$37,332",
+  "non_ec_headroom": "$37,332",
+  "est_ec_headroom": "$0",
+  "employee_count": "48",
+  "non_ec_arr": "$15,000",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jeffofelt@comcast.net",
+  "location_count": 2,
+  "location_names": [
+    "King’s Hardware",
+    "Linda's Tavern"
+  ],
+  "websites": [
+    "https://kingsballard.com/",
+    "https://lindastavern.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kingsballard.com/": {
+      "url": "https://kingsballard.com/",
+      "html_bytes": 104094,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://lindastavern.com/": {
+      "url": "https://lindastavern.com/",
+      "html_bytes": 107527,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "king's hardware": "https://kingsballard.com/",
+    "linda's tavern": "https://lindastavern.com/"
+  }
+}

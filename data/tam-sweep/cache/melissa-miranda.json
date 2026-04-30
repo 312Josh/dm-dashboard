@@ -1,0 +1,66 @@
+{
+  "parent": "Melissa Miranda Parent",
+  "slug": "melissa-miranda",
+  "sfdc_account_id": "0014W00003COsp7QAD",
+  "total_headroom": "$48,420",
+  "non_ec_headroom": "$48,420",
+  "est_ec_headroom": "$0",
+  "employee_count": "47",
+  "non_ec_arr": "$15,750",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "melissa@pusitpusithospitality.com",
+  "location_count": 3,
+  "location_names": [
+    "Wild Cats Catering",
+    "Kilig Seattle",
+    "Musang"
+  ],
+  "websites": [
+    "https://www.musangseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.musangseattle.com/": {
+      "url": "https://www.musangseattle.com/",
+      "html_bytes": 78065,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/musang-2524-beacon-avenue-south/giftcards"
+      }
+    },
+    "https://www.musangseattle.com/menus": {
+      "url": "https://www.musangseattle.com/menus",
+      "html_bytes": 79304,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/musang-2524-beacon-avenue-south/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/musang-2524-beacon-avenue-south/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

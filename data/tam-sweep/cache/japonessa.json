@@ -1,0 +1,68 @@
+{
+  "parent": "Japonessa - Parent",
+  "slug": "japonessa",
+  "sfdc_account_id": "0014W00003Mg9qXQAR",
+  "total_headroom": "$42,684",
+  "non_ec_headroom": "$42,684",
+  "est_ec_headroom": "$0",
+  "employee_count": "164",
+  "non_ec_arr": "$31,115",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "jason@japonessa.com",
+  "location_count": 3,
+  "location_names": [
+    "Musubi Kai - NEW",
+    "Japonessa Sushi Cocina - Bellevue",
+    "Japonessa Sushi Cocina"
+  ],
+  "websites": [
+    "https://www.japonessa.com/japonessa-seattle"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.japonessa.com/japonessa-seattle": {
+      "url": "https://www.japonessa.com/japonessa-seattle",
+      "html_bytes": 76784,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/japonessa-sushi-cocina-1400-1st-ave/giftcards"
+      }
+    },
+    "https://www.japonessa.com/reservations-seattle": {
+      "url": "https://www.japonessa.com/reservations-seattle",
+      "html_bytes": 56404,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/japonessa-sushi-cocina-1400-1st-ave/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/japonessa-sushi-cocina-1400-1st-ave/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "Carina's Bakery - Parent Account",
+  "slug": "carina-s-bakery",
+  "sfdc_account_id": "0014W00003JUJJMQA5",
+  "total_headroom": "$16,316",
+  "non_ec_headroom": "$15,252",
+  "est_ec_headroom": "$1,064",
+  "employee_count": "6",
+  "non_ec_arr": "$6,408",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "hello@carinasbakery.com",
+  "location_count": 1,
+  "location_names": [
+    "Carina's Bakery"
+  ],
+  "websites": [
+    "https://carinasbakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://carinasbakery.com/": {
+      "url": "https://carinasbakery.com/",
+      "html_bytes": 5536,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

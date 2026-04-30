@@ -1,0 +1,73 @@
+{
+  "parent": "Surrell on Madison - Parent",
+  "slug": "surrell-on-madison",
+  "sfdc_account_id": "0014W00002RPpacQAD",
+  "total_headroom": "$19,212",
+  "non_ec_headroom": "$19,212",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$3,108",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "aarontekulve@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Surrell"
+  ],
+  "websites": [
+    "https://surrellseattle.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://surrellseattle.com": {
+      "url": "https://surrellseattle.com",
+      "html_bytes": 117791,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/surrell-2319-e-madison-st/giftcards"
+      }
+    },
+    "https://surrellseattle.com/menu": {
+      "url": "https://surrellseattle.com/menu",
+      "html_bytes": 137832,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://surrellseattle.com/gift-cards": {
+      "url": "https://surrellseattle.com/gift-cards",
+      "html_bytes": 111810,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/surrell-2319-e-madison-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/surrell-2319-e-madison-st/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "Saigon Drip Cafe - Parent Account",
+  "slug": "saigon-drip-cafe",
+  "sfdc_account_id": "0014W00003Mg3rYQAR",
+  "total_headroom": "$33,072",
+  "non_ec_headroom": "$33,072",
+  "est_ec_headroom": "$0",
+  "employee_count": "38",
+  "non_ec_arr": "$10,850",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "hello@saigondripcafe.com",
+  "location_count": 2,
+  "location_names": [
+    "Saigon Drip Cafe Walk Up",
+    "Saigon Drip Cafe"
+  ],
+  "websites": [
+    "https://saigondripcafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://saigondripcafe.com/": {
+      "url": "https://saigondripcafe.com/",
+      "html_bytes": 5537,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

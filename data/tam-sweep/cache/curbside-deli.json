@@ -1,0 +1,52 @@
+{
+  "parent": "Curbside Deli - Parent Account",
+  "slug": "curbside-deli",
+  "sfdc_account_id": "0014W00003CNmarQAD",
+  "total_headroom": "$19,488",
+  "non_ec_headroom": "$19,320",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$3,192",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "khangtnguyen06@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Curbside Deli"
+  ],
+  "websites": [
+    "https://curbsidevndeli.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://curbsidevndeli.com/": {
+      "url": "https://curbsidevndeli.com/",
+      "html_bytes": 122390,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "ubereats",
+    "doordash",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

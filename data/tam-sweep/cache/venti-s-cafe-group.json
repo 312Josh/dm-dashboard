@@ -1,0 +1,43 @@
+{
+  "parent": "Venti's Cafe Group",
+  "slug": "venti-s-cafe-group",
+  "sfdc_account_id": "001C000001mJCeCIAW",
+  "total_headroom": "$16,560",
+  "non_ec_headroom": "$16,560",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$7,140",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "conrad@ventiscafe.com",
+  "location_count": 1,
+  "location_names": [
+    "Venti's Cafe and Taphouse - Downtown"
+  ],
+  "websites": [
+    "https://www.ventiscafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ventiscafe.com/": {
+      "url": "https://www.ventiscafe.com/",
+      "html_bytes": 5516,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

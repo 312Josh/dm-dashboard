@@ -1,0 +1,49 @@
+{
+  "parent": "Roma Roma pizza Seattle - Parent Account",
+  "slug": "roma-roma-pizza-seattle",
+  "sfdc_account_id": "001PV00002CiaMQYAZ",
+  "total_headroom": "$18,252",
+  "non_ec_headroom": "$18,252",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$5,448",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "tbdpizzachs@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Roma Roma pizza Seattle"
+  ],
+  "websites": [
+    "https://romaroma.pizza/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://romaroma.pizza/": {
+      "url": "https://romaroma.pizza/",
+      "html_bytes": 305887,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/roma-roma-pizza-seattle-1610-12th-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/roma-roma-pizza-seattle-1610-12th-ave",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

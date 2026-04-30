@@ -1,0 +1,39 @@
+{
+  "parent": "Seattle Cider Taproom - Parent Account",
+  "slug": "seattle-cider-taproom",
+  "sfdc_account_id": "001PV000017qahCYAQ",
+  "total_headroom": "$23,812",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$3,472",
+  "employee_count": "21",
+  "non_ec_arr": "$600",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "felix@seattlecidercompany.com",
+  "location_count": 1,
+  "location_names": [
+    "Seattle Cider Taproom"
+  ],
+  "websites": [
+    "https://www.seattlecidercompany.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.seattlecidercompany.com/": {
+      "url": "https://www.seattlecidercompany.com/",
+      "html_bytes": 58644,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

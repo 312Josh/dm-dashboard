@@ -1,0 +1,53 @@
+{
+  "parent": "Nomadic Seattle LLC - Parent Account",
+  "slug": "nomadic-seattle-llc",
+  "sfdc_account_id": "001PV00001YZ7gsYAD",
+  "total_headroom": "$17,880",
+  "non_ec_headroom": "$17,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$5,040",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bonnie@nomadicseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Nomadic Seattle LLC"
+  ],
+  "websites": [
+    "https://nomadicseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://nomadicseattle.com/": {
+      "url": "https://nomadicseattle.com/",
+      "html_bytes": 3114018,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/nomadic-seattle-llc-700-broadway-e-suite-a",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/nomadic-seattle-llc-700-broadway-e-suite-a",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

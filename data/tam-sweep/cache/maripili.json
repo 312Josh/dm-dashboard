@@ -1,0 +1,95 @@
+{
+  "parent": "MariPili Parent",
+  "slug": "maripili",
+  "sfdc_account_id": "0014W00002dcDEtQAM",
+  "total_headroom": "$38,352",
+  "non_ec_headroom": "$38,352",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$7,704",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "graysoncorrales@maripili-tapas-bar.com",
+  "location_count": 2,
+  "location_names": [
+    "MariPili Tapas Bar",
+    "MariPili Cafe"
+  ],
+  "websites": [
+    "https://maripili-tapas-bar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://maripili-tapas-bar.com/": {
+      "url": "https://maripili-tapas-bar.com/",
+      "html_bytes": 249908,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/maripili-1117-12th-avenue/giftcards"
+      }
+    },
+    "https://maripili-tapas-bar.com/menu": {
+      "url": "https://maripili-tapas-bar.com/menu",
+      "html_bytes": 184501,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/maripili-1117-12th-avenue/giftcards"
+      }
+    },
+    "https://maripili-tapas-bar.com/reservations": {
+      "url": "https://maripili-tapas-bar.com/reservations",
+      "html_bytes": 144513,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/maripili-1117-12th-avenue/giftcards"
+      }
+    },
+    "https://maripili-tapas-bar.com/reservations-contact": {
+      "url": "https://maripili-tapas-bar.com/reservations-contact",
+      "html_bytes": 155234,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/maripili-1117-12th-avenue/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/maripili-1117-12th-avenue/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "parent": "Lark Parent",
+  "slug": "lark",
+  "sfdc_account_id": "0014W000037VXMMQA4",
+  "total_headroom": "$21,664",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$1,624",
+  "employee_count": "10",
+  "non_ec_arr": "$2,700",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "kelly@larkseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Slab Sandwich"
+  ],
+  "websites": [
+    "https://www.larkseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.larkseattle.com/": {
+      "url": "https://www.larkseattle.com/",
+      "html_bytes": 205362,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/slab-sandwiches/giftcards"
+      }
+    },
+    "https://www.larkseattle.com/reservations": {
+      "url": "https://www.larkseattle.com/reservations",
+      "html_bytes": 177266,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/slab-sandwiches/giftcards"
+      }
+    },
+    "https://www.larkseattle.com/menu": {
+      "url": "https://www.larkseattle.com/menu",
+      "html_bytes": 247219,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/slab-sandwiches/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/slab-sandwiches/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

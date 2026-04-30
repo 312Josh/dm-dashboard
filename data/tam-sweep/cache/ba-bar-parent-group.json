@@ -1,0 +1,100 @@
+{
+  "parent": "Ba Bar Parent Group",
+  "slug": "ba-bar-parent-group",
+  "sfdc_account_id": "001C000001atZ9GIAU",
+  "total_headroom": "$96,428",
+  "non_ec_headroom": "$74,952",
+  "est_ec_headroom": "$21,476",
+  "employee_count": "128",
+  "non_ec_arr": "$16,748",
+  "state": "WA",
+  "city": "SEATTLE",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "eric@saigonsiblings.com",
+  "location_count": 4,
+  "location_names": [
+    "Ba Bar - University Village",
+    "Ba Bar - Capitol Hill",
+    "Ba Bar - South Lake Union",
+    "Ba Bar - Green"
+  ],
+  "websites": [
+    "https://www.babarseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.babarseattle.com/": {
+      "url": "https://www.babarseattle.com/",
+      "html_bytes": 22849,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/ba-bar-capitol-hill-550-12th-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.babarseattle.com/capitol-hill/menu/": {
+      "url": "https://www.babarseattle.com/capitol-hill/menu/",
+      "html_bytes": 13627,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.babarseattle.com/south-lake-union/menu/": {
+      "url": "https://www.babarseattle.com/south-lake-union/menu/",
+      "html_bytes": 14457,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.babarseattle.com/university-village/menu/": {
+      "url": "https://www.babarseattle.com/university-village/menu/",
+      "html_bytes": 14329,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.babarseattle.com/babar-green/menu/": {
+      "url": "https://www.babarseattle.com/babar-green/menu/",
+      "html_bytes": 10668,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://www.babarseattle.com/babar-green/menu/food/": {
+      "url": "https://www.babarseattle.com/babar-green/menu/food/",
+      "html_bytes": 20432,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/ba-bar-capitol-hill-550-12th-ave",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

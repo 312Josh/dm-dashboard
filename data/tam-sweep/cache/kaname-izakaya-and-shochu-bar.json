@@ -1,0 +1,53 @@
+{
+  "parent": "Kaname Izakaya and Shochu Bar Parent",
+  "slug": "kaname-izakaya-and-shochu-bar",
+  "sfdc_account_id": "0013c00001ph2GMAAY",
+  "total_headroom": "$22,768",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$2,128",
+  "employee_count": "13",
+  "non_ec_arr": "$1,081",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mikevu3@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Itsumono"
+  ],
+  "websites": [
+    "https://itsumonoseattle.wixsite.com/home"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://itsumonoseattle.wixsite.com/home": {
+      "url": "https://itsumonoseattle.wixsite.com/home",
+      "html_bytes": 417987,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://itsumonoseattle.wixsite.com/home/menu": {
+      "url": "https://itsumonoseattle.wixsite.com/home/menu",
+      "html_bytes": 1069698,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

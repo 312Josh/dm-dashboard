@@ -1,0 +1,42 @@
+{
+  "parent": "Passion Foods, Inc - Parent",
+  "slug": "passion-foods-inc",
+  "sfdc_account_id": "0014W00003JUXAxQAP",
+  "total_headroom": "$35,848",
+  "non_ec_headroom": "$31,872",
+  "est_ec_headroom": "$3,976",
+  "employee_count": "23",
+  "non_ec_arr": "$13,320",
+  "state": "WA",
+  "city": "Federal Way",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "tatsu@passionfoodsinc.us",
+  "location_count": 2,
+  "location_names": [
+    "Menya Muso - Federal Way",
+    "Menya Muso - Kirkland"
+  ],
+  "websites": [
+    "https://passionfoods.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://passionfoods.com/": {
+      "url": "https://passionfoods.com/",
+      "html_bytes": 267384,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

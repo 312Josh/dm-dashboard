@@ -1,0 +1,43 @@
+{
+  "parent": "Cask & Trotter Parent",
+  "slug": "cask-trotter",
+  "sfdc_account_id": "0013c00001p2baNAAQ",
+  "total_headroom": "$18,540",
+  "non_ec_headroom": "$18,540",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$2,283",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "bugsboy1310@comcast.net",
+  "location_count": 1,
+  "location_names": [
+    "Taco El Lago"
+  ],
+  "websites": [
+    "https://caskandtrotter.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://caskandtrotter.com/": {
+      "url": "https://caskandtrotter.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub",
+    "doordash",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "Bánh Appétit - Parent Account",
+  "parent": "B\u00e1nh App\u00e9tit - Parent Account",
   "slug": "b-nh-app-tit",
   "total_headroom": "$16,632",
   "non_ec_headroom": "$16,380",
@@ -35,8 +35,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "0014W00003CNgiwQAD"
 }

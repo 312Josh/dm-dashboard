@@ -1,0 +1,43 @@
+{
+  "parent": "sankaku Parent",
+  "slug": "sankaku",
+  "sfdc_account_id": "0014W00002Nwsb8QAB",
+  "total_headroom": "$20,040",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$2,100",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "sankaku@sankakuseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "sankaku"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/sankaku"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/sankaku": {
+      "url": "https://order.toasttab.com/online/sankaku",
+      "html_bytes": 5600,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

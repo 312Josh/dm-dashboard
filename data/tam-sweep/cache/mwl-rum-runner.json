@@ -1,0 +1,39 @@
+{
+  "parent": "MWL- Rum Runner - Parent Account",
+  "slug": "mwl-rum-runner",
+  "sfdc_account_id": "001PV00001RGh4CYAT",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$1,200",
+  "state": "OR",
+  "city": "Silverton",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "crybabybars@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Rum Runner"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/Rum-Runner-61573909411375/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/Rum-Runner-61573909411375/": {
+      "url": "https://www.facebook.com/p/Rum-Runner-61573909411375/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

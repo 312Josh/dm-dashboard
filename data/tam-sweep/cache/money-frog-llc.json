@@ -1,0 +1,128 @@
+{
+  "parent": "Money Frog LLC",
+  "slug": "money-frog-llc",
+  "sfdc_account_id": "0014W000033tojVQAQ",
+  "total_headroom": "$33,432",
+  "non_ec_headroom": "$33,432",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$11,988",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "kedaimakanbelltownllc@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Kedai Makan Capitol Hill",
+    "Kedai Makan - Belltown"
+  ],
+  "websites": [
+    "https://www.kedaimakansea.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.kedaimakansea.com/": {
+      "url": "https://www.kedaimakansea.com/",
+      "html_bytes": 94503,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/kedaimakan/giftcards",
+        "toast_tables": "tables.toasttab.com/restaurants/a5956f61-b454-4d65-bc9c-44b0f27f4525"
+      }
+    },
+    "https://www.kedaimakansea.com/reservations-belltown": {
+      "url": "https://www.kedaimakansea.com/reservations-belltown",
+      "html_bytes": 66252,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/a5956f61-b454-4d65-bc9c-44b0f27f4525",
+        "toast_gift": "toasttab.com/kedaimakan/giftcards"
+      }
+    },
+    "https://www.kedaimakansea.com/reservations-capitol-hill": {
+      "url": "https://www.kedaimakansea.com/reservations-capitol-hill",
+      "html_bytes": 69751,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/kedaimakan/giftcards"
+      }
+    },
+    "https://www.kedaimakansea.com/waitlist-belltown": {
+      "url": "https://www.kedaimakansea.com/waitlist-belltown",
+      "html_bytes": 65786,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/a5956f61-b454-4d65-bc9c-44b0f27f4525",
+        "toast_gift": "toasttab.com/kedaimakan/giftcards"
+      }
+    },
+    "https://www.kedaimakansea.com/waitlist-capitol-hill": {
+      "url": "https://www.kedaimakansea.com/waitlist-capitol-hill",
+      "html_bytes": 68957,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/kedaimakan/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/kedaimakan/giftcards",
+    "toast_tables": "tables.toasttab.com/restaurants/a5956f61-b454-4d65-bc9c-44b0f27f4525"
+  },
+  "marketplaces": [
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "kedai makan": "https://www.kedaimakansea.com/"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "parent": "Drip Tea PARENT - Parent Account",
+  "slug": "drip-tea",
+  "sfdc_account_id": "0014W00003GXOj4QAH",
+  "total_headroom": "$33,180",
+  "non_ec_headroom": "$33,180",
+  "est_ec_headroom": "$0",
+  "employee_count": "25",
+  "non_ec_arr": "$11,436",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "dripteacafe@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Drip Tea Seattle - Rebook",
+    "DRIP TEA - Bellevue"
+  ],
+  "websites": [
+    "https://thedriptea.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thedriptea.com/": {
+      "url": "https://thedriptea.com/",
+      "html_bytes": 204277,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/drip-tea-seattle-rebook-1416-10th-avenue/giftcards"
+      }
+    },
+    "https://thedriptea.com/menu": {
+      "url": "https://thedriptea.com/menu",
+      "html_bytes": 324267,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/drip-tea-seattle-rebook-1416-10th-avenue/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/drip-tea-seattle-rebook-1416-10th-avenue/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

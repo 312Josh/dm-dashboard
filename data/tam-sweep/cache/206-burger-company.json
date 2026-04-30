@@ -1,0 +1,72 @@
+{
+  "parent": "206 Burger Company",
+  "slug": "206-burger-company",
+  "sfdc_account_id": "001C000001mkZd8IAE",
+  "total_headroom": "$21,172",
+  "non_ec_headroom": "$18,540",
+  "est_ec_headroom": "$2,632",
+  "employee_count": "16",
+  "non_ec_arr": "$2,136",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "raincityburgers@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Rain City Burgers"
+  ],
+  "websites": [
+    "https://206burgercompany.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://206burgercompany.com/": {
+      "url": "https://206burgercompany.com/",
+      "html_bytes": 220280,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/206-burger-fremont-101-nickerson-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/206-burger-fremont-101-nickerson-st/giftcards"
+      }
+    },
+    "https://206burgercompany.com/menu/": {
+      "url": "https://206burgercompany.com/menu/",
+      "html_bytes": 278303,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/206-burger-fremont-101-nickerson-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/206-burger-fremont-101-nickerson-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/206-burger-fremont-101-nickerson-st",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/206-burger-fremont-101-nickerson-st/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

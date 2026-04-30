@@ -1,0 +1,39 @@
+{
+  "parent": "Katy's Corner Cafe - Parent Account",
+  "slug": "katy-s-corner-cafe",
+  "sfdc_account_id": "0014W000037YINWQA4",
+  "total_headroom": "$18,960",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$2,700",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "katyleighton21@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Katy's Corner Cafe"
+  ],
+  "websites": [
+    "https://katyscornercafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://katyscornercafe.com/": {
+      "url": "https://katyscornercafe.com/",
+      "html_bytes": 30732,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

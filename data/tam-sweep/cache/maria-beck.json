@@ -1,0 +1,68 @@
+{
+  "parent": "MARIA BECK PARENT",
+  "slug": "maria-beck",
+  "sfdc_account_id": "001PV00001f4ttpYAA",
+  "total_headroom": "$177,400",
+  "non_ec_headroom": "$175,860",
+  "est_ec_headroom": "$1,540",
+  "employee_count": "9",
+  "non_ec_arr": "$19,632",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "cafehagen@gmail.com",
+  "location_count": 9,
+  "location_names": [
+    "Venture Coffee - Ballard",
+    "Cafe Hagen Queen Anne",
+    "Cafe Hagen SLU",
+    "Cafe Hagen Dexter",
+    "Cafe Hagen Kirkland",
+    "Cafe Hagen-Bellevue",
+    "Freya on 5th -new",
+    "Cafe Hagen Uptown",
+    "Freya Bakery Cafe"
+  ],
+  "websites": [
+    "https://www.cafehagen.com/",
+    "https://www.freyabakery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cafehagen.com/": {
+      "url": "https://www.cafehagen.com/",
+      "html_bytes": 836830,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/cafe-hagen-queen-anne/giftcards"
+      }
+    },
+    "https://www.freyabakery.com/": {
+      "url": "https://www.freyabakery.com/",
+      "html_bytes": 1291834,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/cafe-hagen-queen-anne/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "cafe hagen": "https://www.cafehagen.com/",
+    "freya": "https://www.freyabakery.com/"
+  }
+}

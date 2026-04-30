@@ -1,0 +1,43 @@
+{
+  "parent": "Lionheart Coffee Company Parent",
+  "slug": "lionheart-coffee-company",
+  "sfdc_account_id": "0014W00002iDvkXQAS",
+  "total_headroom": "$41,608",
+  "non_ec_headroom": "$37,380",
+  "est_ec_headroom": "$4,228",
+  "employee_count": "26",
+  "non_ec_arr": "$5,646",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ben@lionheartcoffee.com",
+  "location_count": 2,
+  "location_names": [
+    "Lionheart Coffee Company - SW Watson",
+    "Lionheart Coffee Company - SW Scholls Ferry"
+  ],
+  "websites": [
+    "https://www.lionheartcoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lionheartcoffee.com/": {
+      "url": "https://www.lionheartcoffee.com/",
+      "html_bytes": 71867,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

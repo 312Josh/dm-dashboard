@@ -1,0 +1,54 @@
+{
+  "parent": "Cafe Selam - Parent Account",
+  "slug": "cafe-selam",
+  "sfdc_account_id": "0014W00003JUT1rQAH",
+  "total_headroom": "$21,668",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$728",
+  "employee_count": "4",
+  "non_ec_arr": "null",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "abebu7@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cafe Selam"
+  ],
+  "websites": [
+    "https://www.cafeselam.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cafeselam.com/": {
+      "url": "https://www.cafeselam.com/",
+      "html_bytes": 86687,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {}
+    },
+    "https://www.cafeselam.com/menu/": {
+      "url": "https://www.cafeselam.com/menu/",
+      "html_bytes": 91994,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "opentable",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

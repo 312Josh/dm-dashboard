@@ -1,0 +1,43 @@
+{
+  "parent": "Can Can Parent",
+  "slug": "can-can",
+  "sfdc_account_id": "001PV000022eOKnYAM",
+  "total_headroom": "$25,608",
+  "non_ec_headroom": "$25,608",
+  "est_ec_headroom": "$0",
+  "employee_count": "78",
+  "non_ec_arr": "$23,364",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "faephalen@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Can Can Portland",
+    "Can Can"
+  ],
+  "websites": [
+    "https://www.cancanportland.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cancanportland.com/": {
+      "url": "https://www.cancanportland.com/",
+      "html_bytes": 400988,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

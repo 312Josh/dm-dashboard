@@ -1,0 +1,46 @@
+{
+  "parent": "Mamnoon Restaurant Group",
+  "slug": "mamnoon-restaurant-group",
+  "sfdc_account_id": "0014W00003CNbe7QAD",
+  "total_headroom": "$21,664",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$1,624",
+  "employee_count": "10",
+  "non_ec_arr": "$721",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "wassef@mamnoonrestaurant.com",
+  "location_count": 1,
+  "location_names": [
+    "Mamnoon Fine Foods"
+  ],
+  "websites": [
+    "https://www.nadimama.com/mamnoon"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.nadimama.com/mamnoon": {
+      "url": "https://www.nadimama.com/mamnoon",
+      "html_bytes": 9662,
+      "fingerprints": {
+        "catering_mention": "Catering email"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

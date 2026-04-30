@@ -1,0 +1,64 @@
+{
+  "parent": "OLYMPIA PIZZA III & HARRY'S BAR",
+  "slug": "olympia-pizza-iii-harry-s-bar",
+  "sfdc_account_id": "0014W00002W76K1QAJ",
+  "total_headroom": "$23,920",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$4,480",
+  "employee_count": "27",
+  "non_ec_arr": "$6,780",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "olympiapizza3@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Olympia Pizza and Spaghetti House III"
+  ],
+  "websites": [
+    "https://www.olympiapizza3.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.olympiapizza3.com/": {
+      "url": "https://www.olympiapizza3.com/",
+      "html_bytes": 206543,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/olympia-pizza-and-spaghetti-house-iii-516-15th-ave-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.olympiapizza3.com/menu": {
+      "url": "https://www.olympiapizza3.com/menu",
+      "html_bytes": 174954,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/olympia-pizza-and-spaghetti-house-iii-516-15th-ave-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/olympia-pizza-and-spaghetti-house-iii-516-15th-ave-e",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

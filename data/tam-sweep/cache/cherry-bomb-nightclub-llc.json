@@ -1,0 +1,43 @@
+{
+  "parent": "CHERRY BOMB NIGHTCLUB LLC",
+  "slug": "cherry-bomb-nightclub-llc",
+  "sfdc_account_id": "0014W00002RPdkaQAD",
+  "total_headroom": "$41,010",
+  "non_ec_headroom": "$36,852",
+  "est_ec_headroom": "$4,158",
+  "employee_count": "25",
+  "non_ec_arr": "$9,732",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "nicole@kremwerk.com",
+  "location_count": 2,
+  "location_names": [
+    "Kremwerk",
+    "Little Maria's Timbre Room"
+  ],
+  "websites": [
+    "https://www.kremwerk.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.kremwerk.com/": {
+      "url": "https://www.kremwerk.com/",
+      "html_bytes": 242326,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

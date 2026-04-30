@@ -1,0 +1,97 @@
+{
+  "parent": "Sugar Mountain Restaurant Group",
+  "slug": "sugar-mountain-restaurant-group",
+  "sfdc_account_id": "001C000001at7WfIAI",
+  "total_headroom": "$130,932",
+  "non_ec_headroom": "$122,580",
+  "est_ec_headroom": "$26,292",
+  "employee_count": "156",
+  "non_ec_arr": "$41,180",
+  "state": "WA",
+  "city": "Bellevue",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "kyle@sugarmtn.net",
+  "location_count": 7,
+  "location_names": [
+    "Pasta & Co. - Bellevue",
+    "The Butcher's Table",
+    "Beecher's Handmade Cheese - Pike",
+    "Pasta & Co. - University Village",
+    "Beecher's Overlake",
+    "Beecher's Handmade Cheese - Paine Field",
+    "Beecher's Handmade Cheese - Bellevue Square"
+  ],
+  "websites": [
+    "https://beechershandmadecheese.com/",
+    "https://pastaco.com/",
+    "https://thebutcherstable.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://beechershandmadecheese.com/": {
+      "url": "https://beechershandmadecheese.com/",
+      "html_bytes": 248546,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://pastaco.com/": {
+      "url": "https://pastaco.com/",
+      "html_bytes": 57320,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/pasta-co-university-village/giftcards"
+      }
+    },
+    "https://pastaco.com/menus/": {
+      "url": "https://pastaco.com/menus/",
+      "html_bytes": 51515,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://thebutcherstable.com/": {
+      "url": "https://thebutcherstable.com/",
+      "html_bytes": 132980,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-butchers-table/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/pasta-co-university-village/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "beecher": "https://beechershandmadecheese.com/",
+    "pasta": "https://pastaco.com/",
+    "butcher": "https://thebutcherstable.com/"
+  }
+}

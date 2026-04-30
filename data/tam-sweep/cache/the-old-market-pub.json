@@ -1,0 +1,64 @@
+{
+  "parent": "The Old Market Pub PARENT",
+  "slug": "the-old-market-pub",
+  "sfdc_account_id": "0014W00002W7bXWQAZ",
+  "total_headroom": "$35,892",
+  "non_ec_headroom": "$35,892",
+  "est_ec_headroom": "$0",
+  "employee_count": "54",
+  "non_ec_arr": "$12,508",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "shelly.bigley@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Broadway Grill and Brewery",
+    "The Old Market Pub"
+  ],
+  "websites": [
+    "https://www.drinkbeerhere.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.drinkbeerhere.com/": {
+      "url": "https://www.drinkbeerhere.com/",
+      "html_bytes": 543859,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-old-market-pub-6959-sw-multnomah-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.drinkbeerhere.com/order-online": {
+      "url": "https://www.drinkbeerhere.com/order-online",
+      "html_bytes": 475659,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/the-old-market-pub-6959-sw-multnomah-blvd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/the-old-market-pub-6959-sw-multnomah-blvd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "parent": "Cherry street coffee House-Parent",
+  "slug": "cherry-street-coffee-house-parent",
+  "sfdc_account_id": "001PV00002OLDReYAP",
+  "total_headroom": "$43,608",
+  "non_ec_headroom": "$43,608",
+  "est_ec_headroom": "$0",
+  "employee_count": "32",
+  "non_ec_arr": "$3,429",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "ali@cherrybaba.com",
+  "location_count": 3,
+  "location_names": [
+    "Cherry street coffee House-Belltown",
+    "Cherry street coffee House Westlake",
+    "Cherry Street Coffee House Pioneer Square"
+  ],
+  "websites": [
+    "https://cherryst.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cherryst.com/": {
+      "url": "https://cherryst.com/",
+      "html_bytes": 5488,
+      "fingerprints": {},
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260128065756/https://www.cherryst.com/",
+        "html_bytes": 176662,
+        "vendors": {}
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ezcater",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

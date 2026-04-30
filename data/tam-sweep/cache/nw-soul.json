@@ -1,0 +1,43 @@
+{
+  "parent": "NW Soul - Parent Account",
+  "slug": "nw-soul",
+  "sfdc_account_id": "001PV00002AyD3hYAF",
+  "total_headroom": "$16,212",
+  "non_ec_headroom": "$16,212",
+  "est_ec_headroom": "$0",
+  "employee_count": "4",
+  "non_ec_arr": "$6,333",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "wallysnws@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "NW Soul"
+  ],
+  "websites": [
+    "https://soulseattle.square.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://soulseattle.square.site/": {
+      "url": "https://soulseattle.square.site/",
+      "html_bytes": 50272,
+      "fingerprints": {
+        "pos_other": "Square"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

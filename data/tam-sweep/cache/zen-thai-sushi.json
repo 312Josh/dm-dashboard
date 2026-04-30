@@ -1,0 +1,48 @@
+{
+  "parent": "Zen Thai Sushi",
+  "slug": "zen-thai-sushi",
+  "sfdc_account_id": "001PV00000u5XwCYAU",
+  "total_headroom": "$16,188",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "kapomsalem@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Zen Thai Sushi"
+  ],
+  "websites": [
+    "https://www.zenthaiandsushi.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.zenthaiandsushi.com/": {
+      "url": "https://www.zenthaiandsushi.com/",
+      "html_bytes": 88425,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Menufy",
+        "reservations": "OpenTable",
+        "marketing": "HubSpot"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

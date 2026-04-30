@@ -1,0 +1,76 @@
+{
+  "parent": "The Pink Door Parent",
+  "slug": "the-pink-door",
+  "sfdc_account_id": "001C000001ejEdVIAU",
+  "total_headroom": "$34,292",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$14,252",
+  "employee_count": "85",
+  "non_ec_arr": "$5,745",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "office@thepinkdoor.net",
+  "location_count": 1,
+  "location_names": [
+    "The Pink Door"
+  ],
+  "websites": [
+    "https://www.thepinkdoor.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thepinkdoor.net/": {
+      "url": "https://www.thepinkdoor.net/",
+      "html_bytes": 322686,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.thepinkdoor.net/reservations": {
+      "url": "https://www.thepinkdoor.net/reservations",
+      "html_bytes": 326308,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.thepinkdoor.net/menus": {
+      "url": "https://www.thepinkdoor.net/menus",
+      "html_bytes": 816178,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.thepinkdoor.net/gift-cards": {
+      "url": "https://www.thepinkdoor.net/gift-cards",
+      "html_bytes": 370442,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

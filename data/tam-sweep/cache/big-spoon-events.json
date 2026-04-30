@@ -1,0 +1,50 @@
+{
+  "parent": "Big Spoon Events - Parent Account",
+  "slug": "big-spoon-events",
+  "sfdc_account_id": "0014W00002xccByQAI",
+  "total_headroom": "$41,880",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$6,473",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "paul@bigspoon-events.com",
+  "location_count": 2,
+  "location_names": [
+    "Big Spoon Events",
+    "ACT Theater Company"
+  ],
+  "websites": [
+    "https://acttheatre.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://acttheatre.org/": {
+      "url": "https://acttheatre.org/",
+      "html_bytes": 101982,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.unionartscenter.org/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.unionartscenter.org/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "big spoon": "",
+    "act theater": "https://acttheatre.org/"
+  }
+}

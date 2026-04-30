@@ -1,5 +1,5 @@
 {
-  "parent": "Richie’s Hot Chicken - Parent Account",
+  "parent": "Richie\u2019s Hot Chicken - Parent Account",
   "slug": "richie-s-hot-chicken",
   "total_headroom": "$15,300",
   "non_ec_headroom": "$15,300",
@@ -12,7 +12,7 @@
   "contact_email": "silvestremadrigaljr@gmail.com",
   "location_count": 1,
   "location_names": [
-    "Richie’s Hot Chicken"
+    "Richie\u2019s Hot Chicken"
   ],
   "websites": [
     "https://www.richieshotchicken.com/"
@@ -62,8 +62,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "rieger",
-    "--rep"
+    "rieger"
   ],
   "sfdc_account_id": "001PV00000l4uO1YAI"
 }

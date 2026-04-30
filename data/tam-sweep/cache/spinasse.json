@@ -1,0 +1,75 @@
+{
+  "parent": "Spinasse - Parent Account",
+  "slug": "spinasse",
+  "sfdc_account_id": "0014W00002V1mgIQAR",
+  "total_headroom": "$19,140",
+  "non_ec_headroom": "$19,140",
+  "est_ec_headroom": "$0",
+  "employee_count": "47",
+  "non_ec_arr": "$6,480",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jonathan.klein@gettyimages.com",
+  "location_count": 1,
+  "location_names": [
+    "Spinasse"
+  ],
+  "websites": [
+    "https://spinasse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://spinasse.com/": {
+      "url": "https://spinasse.com/",
+      "html_bytes": 85589,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/spinasse-1531-14th-ave/giftcards"
+      }
+    },
+    "https://spinasse.com/menu/": {
+      "url": "https://spinasse.com/menu/",
+      "html_bytes": 93889,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://spinasse.com/gift-cards/": {
+      "url": "https://spinasse.com/gift-cards/",
+      "html_bytes": 77450,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/spinasse-1531-14th-ave/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/spinasse-1531-14th-ave/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

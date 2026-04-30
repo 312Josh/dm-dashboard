@@ -1,0 +1,43 @@
+{
+  "parent": "Batter Up - Parent Account",
+  "slug": "batter-up",
+  "sfdc_account_id": "0014W00002daxkiQAA",
+  "total_headroom": "$19,032",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$672",
+  "employee_count": "4",
+  "non_ec_arr": "$4,800",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@batteruppdx.com",
+  "location_count": 1,
+  "location_names": [
+    "Batter Up"
+  ],
+  "websites": [
+    "https://batterupwaffles.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://batterupwaffles.com/": {
+      "url": "https://batterupwaffles.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

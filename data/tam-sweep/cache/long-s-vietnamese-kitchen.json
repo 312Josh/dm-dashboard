@@ -1,0 +1,43 @@
+{
+  "parent": "Long's Vietnamese Kitchen - Parent Account",
+  "slug": "long-s-vietnamese-kitchen",
+  "sfdc_account_id": "001PV00000yut6iYAA",
+  "total_headroom": "$15,852",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$7,128",
+  "state": "OR",
+  "city": "Aloha",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "quoclongthai2004@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Long's Vietnamese Kitchen"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/longs-vietnamese-kitchen"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/longs-vietnamese-kitchen": {
+      "url": "https://www.toasttab.com/local/order/longs-vietnamese-kitchen",
+      "html_bytes": 5642,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

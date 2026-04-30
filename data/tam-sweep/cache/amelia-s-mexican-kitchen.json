@@ -1,0 +1,60 @@
+{
+  "parent": "AMELIA'S MEXICAN KITCHEN- Parent Account",
+  "slug": "amelia-s-mexican-kitchen",
+  "sfdc_account_id": "0014W00003Mfu4XQAR",
+  "total_headroom": "$73,068",
+  "non_ec_headroom": "$56,520",
+  "est_ec_headroom": "$16,548",
+  "employee_count": "99",
+  "non_ec_arr": "$12,516",
+  "state": "AZ",
+  "city": "Tucson",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@ameliasfood.com",
+  "location_count": 3,
+  "location_names": [
+    "Amelia's Mexican Kitchen 2",
+    "AMELIA'S MEXICAN KITCHEN",
+    "Humo Cocina Mexicana"
+  ],
+  "websites": [
+    "https://ameliastucson.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ameliastucson.com/": {
+      "url": "https://ameliastucson.com/",
+      "html_bytes": 5515,
+      "fingerprints": {
+        "website_cms": "Owner.com",
+        "online_ordering": "Owner.com",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260213201457/https://ameliastucson.com/",
+        "html_bytes": 399989,
+        "vendors": {
+          "website_cms": "Owner.com",
+          "online_ordering": "Owner.com",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

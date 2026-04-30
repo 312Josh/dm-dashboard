@@ -1,0 +1,61 @@
+{
+  "parent": "Habaneros Group",
+  "slug": "habaneros-group",
+  "sfdc_account_id": "0013c00001qFpfNAAS",
+  "total_headroom": "$75,396",
+  "non_ec_headroom": "$65,820",
+  "est_ec_headroom": "$9,576",
+  "employee_count": "57",
+  "non_ec_arr": "$49,056",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "criss@habanerosmex.com",
+  "location_count": 5,
+  "location_names": [
+    "Habaneros - Commercial",
+    "Habaneros - Mission St",
+    "Habaneros Monmouth",
+    "Habaneros Vancouver 2023",
+    "Habaneros - State St"
+  ],
+  "websites": [
+    "https://habanerosmex.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://habanerosmex.com/": {
+      "url": "https://habanerosmex.com/",
+      "html_bytes": 1071760,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/habaneros-vancouver-2023-3300-east-4th-plain-boulevard",
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_local": "toasttab.com/local/order",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/habaneros-vancouver-2023-3300-east-4th-plain-boulevard",
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_local": "toasttab.com/local/order",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

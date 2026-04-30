@@ -1,0 +1,56 @@
+{
+  "parent": "Nikki Sushi PARENT - Parent Account",
+  "slug": "nikki-sushi",
+  "sfdc_account_id": "001PV000027ef5rYAA",
+  "total_headroom": "$20,244",
+  "non_ec_headroom": "$11,676",
+  "est_ec_headroom": "$8,568",
+  "employee_count": "51",
+  "non_ec_arr": "$11,928",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "wenzhendavid@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ajisai"
+  ],
+  "websites": [
+    "https://nikkisushibeaverton.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://nikkisushibeaverton.com/": {
+      "url": "https://nikkisushibeaverton.com/",
+      "html_bytes": 302664,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    },
+    "https://nikkisushibeaverton.com/menu/": {
+      "url": "https://nikkisushibeaverton.com/menu/",
+      "html_bytes": 596760,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

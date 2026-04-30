@@ -1,0 +1,96 @@
+{
+  "parent": "Brooklyn Zeek's Restaurant Group",
+  "slug": "brooklyn-zeek-s-restaurant-group",
+  "sfdc_account_id": "0014W000033tLwRQAU",
+  "total_headroom": "$39,764",
+  "non_ec_headroom": "$36,180",
+  "est_ec_headroom": "$3,584",
+  "employee_count": "21",
+  "non_ec_arr": "$10,296",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "david@brooklyntrattoria.com",
+  "location_count": 2,
+  "location_names": [
+    "Lil' Brooklyn PDX",
+    "Brooklyn Trattoria"
+  ],
+  "websites": [
+    "https://www.brooklyntrattoria.com/little-brooklyn/",
+    "https://www.brooklyntrattoria.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.brooklyntrattoria.com/little-brooklyn/": {
+      "url": "https://www.brooklyntrattoria.com/little-brooklyn/",
+      "html_bytes": 111780,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/brooklyn-trattoria-portland-or/giftcards"
+      }
+    },
+    "https://www.brooklyntrattoria.com/menu/": {
+      "url": "https://www.brooklyntrattoria.com/menu/",
+      "html_bytes": 104831,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/brooklyn-trattoria-portland-or/giftcards"
+      }
+    },
+    "https://www.brooklyntrattoria.com/reservations-meetings/": {
+      "url": "https://www.brooklyntrattoria.com/reservations-meetings/",
+      "html_bytes": 111172,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/brooklyn-trattoria-portland-or/giftcards"
+      }
+    },
+    "https://www.brooklyntrattoria.com/": {
+      "url": "https://www.brooklyntrattoria.com/",
+      "html_bytes": 119155,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/brooklyn-trattoria-portland-or/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/brooklyn-trattoria-portland-or/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "lil' brooklyn": "https://www.brooklyntrattoria.com/little-brooklyn/",
+    "brooklyn trattoria": "https://www.brooklyntrattoria.com/"
+  }
+}

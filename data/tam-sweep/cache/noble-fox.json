@@ -1,0 +1,70 @@
+{
+  "parent": "Noble Fox Parent",
+  "slug": "noble-fox",
+  "sfdc_account_id": "0014W00003MffDFQAZ",
+  "total_headroom": "$29,244",
+  "non_ec_headroom": "$29,244",
+  "est_ec_headroom": "$0",
+  "employee_count": "41",
+  "non_ec_arr": "$23,105",
+  "state": "OR",
+  "city": "Ashland",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jeramie@carterhenrys.com",
+  "location_count": 2,
+  "location_names": [
+    "Noble Fox - ASHLAND",
+    "The Noble Fox"
+  ],
+  "websites": [
+    "https://thenoblefoxbrewery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thenoblefoxbrewery.com/": {
+      "url": "https://thenoblefoxbrewery.com/",
+      "html_bytes": 166386,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/374797b1-12da-44d5-b540-b35e0d12906b",
+        "toast_loyalty": "toasttab.com/noble-fox-ashland-101-oak-st/rewardsSignup"
+      }
+    },
+    "https://thenoblefoxbrewery.com/menus/": {
+      "url": "https://thenoblefoxbrewery.com/menus/",
+      "html_bytes": 162114,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/374797b1-12da-44d5-b540-b35e0d12906b",
+        "toast_loyalty": "toasttab.com/noble-fox-ashland-101-oak-st/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/374797b1-12da-44d5-b540-b35e0d12906b",
+    "toast_loyalty": "toasttab.com/noble-fox-ashland-101-oak-st/rewardsSignup"
+  },
+  "marketplaces": [
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

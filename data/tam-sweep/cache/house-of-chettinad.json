@@ -1,0 +1,53 @@
+{
+  "parent": "House of Chettinad PARENT",
+  "slug": "house-of-chettinad",
+  "sfdc_account_id": "001PV00001d7VmWYAU",
+  "total_headroom": "$37,092",
+  "non_ec_headroom": "$37,092",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$8,088",
+  "state": "WA",
+  "city": "Everett",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "angelleeg@icloud.com",
+  "location_count": 2,
+  "location_names": [
+    "House of Chettinad",
+    "Ubuntu meat Bar and Safari Spice Grill"
+  ],
+  "websites": [
+    "https://www.houseofchettinad.us/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.houseofchettinad.us/": {
+      "url": "https://www.houseofchettinad.us/",
+      "html_bytes": 91291,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

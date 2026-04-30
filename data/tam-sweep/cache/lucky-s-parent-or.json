@@ -1,0 +1,47 @@
+{
+  "parent": "Lucky's Parent OR",
+  "slug": "lucky-s-parent-or",
+  "sfdc_account_id": "0014W00002mtinGQAQ",
+  "total_headroom": "$92,772",
+  "non_ec_headroom": "$92,772",
+  "est_ec_headroom": "$0",
+  "employee_count": "48",
+  "non_ec_arr": "$11,787",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "hannahkelly@live.com",
+  "location_count": 5,
+  "location_names": [
+    "Lucky's on Liberty",
+    "Lucky's Pub Fore",
+    "Lucky's Pub 3",
+    "Lucky's",
+    "Jacks Pub and Lotto"
+  ],
+  "websites": [
+    "https://www.facebook.com/LuckysOnLiberty/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/LuckysOnLiberty/": {
+      "url": "https://www.facebook.com/LuckysOnLiberty/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "lucky's": "https://www.facebook.com/LuckysOnLiberty/",
+    "jacks pub": ""
+  }
+}

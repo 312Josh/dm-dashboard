@@ -1,0 +1,79 @@
+{
+  "parent": "Sushi Kappo Tamura",
+  "slug": "sushi-kappo-tamura",
+  "sfdc_account_id": "001C000001g8BWDIA2",
+  "total_headroom": "$19,412",
+  "non_ec_headroom": "$15,492",
+  "est_ec_headroom": "$3,920",
+  "employee_count": "23",
+  "non_ec_arr": "$6,984",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "steve@sushikappotamura.com",
+  "location_count": 1,
+  "location_names": [
+    "Sushi Kappo Tamura"
+  ],
+  "websites": [
+    "https://www.sushikappotamura.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sushikappotamura.com/": {
+      "url": "https://www.sushikappotamura.com/",
+      "html_bytes": 105537,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sushi-kappo-tamura/giftcards"
+      }
+    },
+    "https://www.sushikappotamura.com/menu": {
+      "url": "https://www.sushikappotamura.com/menu",
+      "html_bytes": 215630,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sushi-kappo-tamura/giftcards"
+      }
+    },
+    "https://www.sushikappotamura.com/reservations": {
+      "url": "https://www.sushikappotamura.com/reservations",
+      "html_bytes": 69671,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sushi-kappo-tamura/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/sushi-kappo-tamura/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

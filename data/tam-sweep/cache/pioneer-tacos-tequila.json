@@ -1,0 +1,43 @@
+{
+  "parent": "Pioneer Tacos & Tequila Parent",
+  "slug": "pioneer-tacos-tequila",
+  "sfdc_account_id": "0013c00001rfrSuAAI",
+  "total_headroom": "$19,212",
+  "non_ec_headroom": "$19,212",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$10,347",
+  "state": "WA",
+  "city": "SEATTLE",
+  "restaurant_type": "Unknown",
+  "contact_email": "jpiano@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "Pioneer Tacos & Tequila"
+  ],
+  "websites": [
+    "https://pioneertacos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pioneertacos.com/": {
+      "url": "https://pioneertacos.com/",
+      "html_bytes": 312712,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

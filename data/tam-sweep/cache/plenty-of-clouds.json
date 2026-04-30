@@ -1,0 +1,73 @@
+{
+  "parent": "Plenty of Clouds - Parent",
+  "slug": "plenty-of-clouds",
+  "sfdc_account_id": "001PV00001ZsMGeYAN",
+  "total_headroom": "$76,560",
+  "non_ec_headroom": "$76,560",
+  "est_ec_headroom": "$0",
+  "employee_count": "39",
+  "non_ec_arr": "$8,047",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "lisa@plentyofclouds.com",
+  "location_count": 4,
+  "location_names": [
+    "Noodle Cart",
+    "Noodle Bar",
+    "Plenty of Clouds - Food Truck",
+    "Plenty of Clouds"
+  ],
+  "websites": [
+    "https://www.plentyofclouds.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.plentyofclouds.com/": {
+      "url": "https://www.plentyofclouds.com/",
+      "html_bytes": 119379,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/plenty-of-clouds/giftcards",
+        "toast_oo_native": "order.toasttab.com/online/plenty-of-clouds",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.plentyofclouds.com/menu": {
+      "url": "https://www.plentyofclouds.com/menu",
+      "html_bytes": 118552,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/plenty-of-clouds",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/plenty-of-clouds/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/plenty-of-clouds/giftcards",
+    "toast_oo_native": "order.toasttab.com/online/plenty-of-clouds",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "resy",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

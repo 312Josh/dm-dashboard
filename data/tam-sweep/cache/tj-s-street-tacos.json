@@ -1,0 +1,49 @@
+{
+  "parent": "TJ's Street Tacos",
+  "slug": "tj-s-street-tacos",
+  "sfdc_account_id": "0014W00003MgViqQAF",
+  "total_headroom": "$19,128",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$600",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "pvazquez@tjs-streettacos.com",
+  "location_count": 1,
+  "location_names": [
+    "TJ's Street Tacos"
+  ],
+  "websites": [
+    "https://tjs-streettacos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tjs-streettacos.com/": {
+      "url": "https://tjs-streettacos.com/",
+      "html_bytes": 143020,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

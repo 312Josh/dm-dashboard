@@ -1,0 +1,110 @@
+{
+  "parent": "Pike Place Chowder Parent",
+  "slug": "pike-place-chowder",
+  "sfdc_account_id": "0014W00002hdXk0QAE",
+  "total_headroom": "$32,880",
+  "non_ec_headroom": "$32,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$8,640",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "casey@pikeplacechowder.com",
+  "location_count": 2,
+  "location_names": [
+    "Pike Place Chowder"
+  ],
+  "websites": [
+    "https://www.pikeplacechowder.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pikeplacechowder.com/": {
+      "url": "https://www.pikeplacechowder.com/",
+      "html_bytes": 388488,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "loyalty": "Belly",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pike-place-chowder-1530-post-alley",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/pike-place-chowder-1530-post-alley/giftcards"
+      }
+    },
+    "https://www.pikeplacechowder.com/order": {
+      "url": "https://www.pikeplacechowder.com/order",
+      "html_bytes": 121487,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "loyalty": "Belly",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pike-place-chowder-1530-post-alley",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/pike-place-chowder-1530-post-alley/giftcards"
+      }
+    },
+    "https://www.pikeplacechowder.com/order-1": {
+      "url": "https://www.pikeplacechowder.com/order-1",
+      "html_bytes": 121487,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "loyalty": "Belly",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pike-place-chowder-1530-post-alley",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/pike-place-chowder-1530-post-alley/giftcards"
+      }
+    },
+    "https://www.pikeplacechowder.com/menus-1": {
+      "url": "https://www.pikeplacechowder.com/menus-1",
+      "html_bytes": 157923,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "loyalty": "Belly",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pike-place-chowder-1530-post-alley",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/pike-place-chowder-1530-post-alley/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/pike-place-chowder-1530-post-alley",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/pike-place-chowder-1530-post-alley/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

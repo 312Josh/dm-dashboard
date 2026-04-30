@@ -1,0 +1,53 @@
+{
+  "parent": "Underbelly PARENT",
+  "slug": "underbelly",
+  "sfdc_account_id": "0014W000037WBSVQA4",
+  "total_headroom": "$19,152",
+  "non_ec_headroom": "$19,152",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$3,588",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jrj@underbellyofseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Underbelly"
+  ],
+  "websites": [
+    "https://www.underbellyofseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.underbellyofseattle.com/": {
+      "url": "https://www.underbellyofseattle.com/",
+      "html_bytes": 57529,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Events email"
+      },
+      "toast": {}
+    },
+    "https://www.underbellyofseattle.com/menu": {
+      "url": "https://www.underbellyofseattle.com/menu",
+      "html_bytes": 56604,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Events email"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

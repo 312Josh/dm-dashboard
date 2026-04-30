@@ -1,0 +1,46 @@
+{
+  "parent": "Sarajevo Lounge Parent",
+  "slug": "sarajevo-lounge",
+  "sfdc_account_id": "0013c00001tv4dJAAQ",
+  "total_headroom": "$48,208",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$6,328",
+  "employee_count": "38",
+  "non_ec_arr": "$8,193",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "dslatina@me.com",
+  "location_count": 2,
+  "location_names": [
+    "Sarajevo Lounge",
+    "Sarajevo Lounge New SMB"
+  ],
+  "websites": [
+    "https://www.sarajevonightclub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sarajevonightclub.com/": {
+      "url": "https://www.sarajevonightclub.com/",
+      "html_bytes": 132903,
+      "fingerprints": {
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

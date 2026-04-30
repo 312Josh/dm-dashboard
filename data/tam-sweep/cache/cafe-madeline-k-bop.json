@@ -1,0 +1,46 @@
+{
+  "parent": "Cafe Madeline/K-Bop Parent",
+  "slug": "cafe-madeline-k-bop",
+  "sfdc_account_id": "0014W00003MgZkEQAV",
+  "total_headroom": "$17,252",
+  "non_ec_headroom": "$16,272",
+  "est_ec_headroom": "$980",
+  "employee_count": "6",
+  "non_ec_arr": "$4,260",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "daheechang@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cafe Madeline"
+  ],
+  "websites": [
+    "https://www.cafemadelline.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cafemadelline.com/": {
+      "url": "https://www.cafemadelline.com/",
+      "html_bytes": 76889,
+      "fingerprints": {
+        "pos_other": "Square"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

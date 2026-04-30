@@ -1,0 +1,43 @@
+{
+  "parent": "Steven Han Projects",
+  "slug": "steven-han-projects",
+  "sfdc_account_id": "0013c00001p2iE9AAI",
+  "total_headroom": "$123,052",
+  "non_ec_headroom": "$85,980",
+  "est_ec_headroom": "$37,072",
+  "employee_count": "220",
+  "non_ec_arr": "$36,745",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "stevenuhan@yahoo.com",
+  "location_count": 5,
+  "location_names": [
+    "Umi Sake House",
+    "Momiji",
+    "Momiji 2",
+    "Momiji Redmond",
+    "Matsu"
+  ],
+  "websites": [
+    "https://www.facebook.com/stevenhanprojects/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/stevenhanprojects/": {
+      "url": "https://www.facebook.com/stevenhanprojects/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

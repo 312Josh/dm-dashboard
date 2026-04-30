@@ -1,0 +1,59 @@
+{
+  "parent": "NY Restaurants (Armistice Coffee Parent)",
+  "slug": "ny-restaurants-armistice-coffee-parent",
+  "sfdc_account_id": "0014W00002W6zHGQAZ",
+  "total_headroom": "$79,836",
+  "non_ec_headroom": "$79,836",
+  "est_ec_headroom": "$0",
+  "employee_count": "91",
+  "non_ec_arr": "$34,524",
+  "state": "WA",
+  "city": "Kirkland",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "nuri@aydinel.com",
+  "location_count": 5,
+  "location_names": [
+    "Sparrow",
+    "Armistice Coffee - Eastlake",
+    "Armistice Coffee - Roosevelt",
+    "Grappa",
+    "Camp West"
+  ],
+  "websites": [
+    "https://armisticecoffeeco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://armisticecoffeeco.com/": {
+      "url": "https://armisticecoffeeco.com/",
+      "html_bytes": 130049,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/armistice-eastlake/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/armistice-eastlake/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

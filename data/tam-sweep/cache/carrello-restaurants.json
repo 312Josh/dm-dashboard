@@ -1,0 +1,86 @@
+{
+  "parent": "Carrello Restaurants - Parent",
+  "slug": "carrello-restaurants",
+  "sfdc_account_id": "001PV00001On8kWYAR",
+  "total_headroom": "$46,420",
+  "non_ec_headroom": "$38,580",
+  "est_ec_headroom": "$7,840",
+  "employee_count": "47",
+  "non_ec_arr": "$3,900",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "info@alturarestaurant.com",
+  "location_count": 2,
+  "location_names": [
+    "Altura Seattle",
+    "Carrello Seattle"
+  ],
+  "websites": [
+    "https://www.carrellorestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.carrellorestaurant.com/": {
+      "url": "https://www.carrellorestaurant.com/",
+      "html_bytes": 398534,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/carrello-seattle-622-broadway-e/giftcards"
+      }
+    },
+    "https://www.carrellorestaurant.com/menu": {
+      "url": "https://www.carrellorestaurant.com/menu",
+      "html_bytes": 175771,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.carrellorestaurant.com/gift-cards": {
+      "url": "https://www.carrellorestaurant.com/gift-cards",
+      "html_bytes": 209769,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/carrello-seattle-622-broadway-e/giftcards"
+      }
+    },
+    "https://www.carrellorestaurant.com/giftcards": {
+      "url": "https://www.carrellorestaurant.com/giftcards",
+      "html_bytes": 155410,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/carrello-seattle-622-broadway-e/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

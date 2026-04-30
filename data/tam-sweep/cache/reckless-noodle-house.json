@@ -1,0 +1,66 @@
+{
+  "parent": "Reckless Noodle House Parent",
+  "slug": "reckless-noodle-house",
+  "sfdc_account_id": "0014W00003MgNGwQAN",
+  "total_headroom": "$39,780",
+  "non_ec_headroom": "$39,780",
+  "est_ec_headroom": "$0",
+  "employee_count": "35",
+  "non_ec_arr": "$10,136",
+  "state": "CO",
+  "city": "Denver",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bryce@recklessnoodles.com",
+  "location_count": 2,
+  "location_names": [
+    "Reckless Noodle House DENVER",
+    "Reckless Noodle House Seattle"
+  ],
+  "websites": [
+    "https://www.recklessnoodlesdenver.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.recklessnoodlesdenver.com/": {
+      "url": "https://www.recklessnoodlesdenver.com/",
+      "html_bytes": 582391,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "delivery_platforms": "ChowNow Direct",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/recklessnoodlesdenver/giftcards"
+      }
+    },
+    "https://www.recklessnoodlesdenver.com/menu": {
+      "url": "https://www.recklessnoodlesdenver.com/menu",
+      "html_bytes": 1165865,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "delivery_platforms": "ChowNow Direct"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/recklessnoodlesdenver/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/recklessnoodlesdenver/giftcards"
+  },
+  "marketplaces": [
+    "grubhub",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

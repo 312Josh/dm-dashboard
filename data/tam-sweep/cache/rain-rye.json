@@ -1,0 +1,50 @@
+{
+  "parent": "Rain & Rye - Parent",
+  "slug": "rain-rye",
+  "sfdc_account_id": "001PV0000365IyeYAE",
+  "total_headroom": "$21,084",
+  "non_ec_headroom": "$20,580",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$420",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "kevin.candelaria@rainandrye.com",
+  "location_count": 1,
+  "location_names": [
+    "Rain & Rye"
+  ],
+  "websites": [
+    "https://rainandrye.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://rainandrye.com/": {
+      "url": "https://rainandrye.com/",
+      "html_bytes": 115780,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://rainandrye.com/m/orders": {
+      "url": "https://rainandrye.com/m/orders",
+      "html_bytes": 88737,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

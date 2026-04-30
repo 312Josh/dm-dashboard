@@ -14,7 +14,7 @@
   "location_names": [
     "Fat Rosie's Orlando- Waterford Lakes",
     "Fat Rosie's - Schaumburg",
-    "Fat Rosie’s - Naperville",
+    "Fat Rosie\u2019s - Naperville",
     "Fat Rosie's - Rosemont",
     "Fat Rosie's - Frankfort",
     "Fat Rosie's - Lincolnshire",
@@ -85,8 +85,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "001PV00002f2nTpYAI"
 }

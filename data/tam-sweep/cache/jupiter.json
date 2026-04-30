@@ -1,0 +1,51 @@
+{
+  "parent": "Jupiter - Parent Account",
+  "slug": "jupiter",
+  "sfdc_account_id": "0014W000037WMHtQAO",
+  "total_headroom": "$24,048",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$3,108",
+  "employee_count": "19",
+  "non_ec_arr": "$4,260",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "joenixart@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Jupiter"
+  ],
+  "websites": [
+    "https://www.jupiterbarseattle.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.jupiterbarseattle.com": {
+      "url": "https://www.jupiterbarseattle.com",
+      "html_bytes": 79999,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.jupiterbarseattle.com/reservations": {
+      "url": "https://www.jupiterbarseattle.com/reservations",
+      "html_bytes": 96689,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

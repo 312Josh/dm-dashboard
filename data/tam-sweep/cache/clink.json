@@ -1,0 +1,66 @@
+{
+  "parent": "Clink! - Parent Account",
+  "slug": "clink",
+  "sfdc_account_id": "001PV00001QHKZ9YAP",
+  "total_headroom": "$9,696",
+  "non_ec_headroom": "$9,696",
+  "est_ec_headroom": "$0",
+  "employee_count": "34",
+  "non_ec_arr": "$13,116",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "sheena.r.nash@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Clink"
+  ],
+  "websites": [
+    "https://clinksalem.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://clinksalem.com/": {
+      "url": "https://clinksalem.com/",
+      "html_bytes": 257976,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/clink-285-liberty-st-ne-suite-230/giftcards"
+      }
+    },
+    "https://clinksalem.com/gift-cards": {
+      "url": "https://clinksalem.com/gift-cards",
+      "html_bytes": 75056,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/clink-285-liberty-st-ne-suite-230/giftcards"
+      }
+    },
+    "https://clinksalem.com/menu": {
+      "url": "https://clinksalem.com/menu",
+      "html_bytes": 160428,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/clink-285-liberty-st-ne-suite-230/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

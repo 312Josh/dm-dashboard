@@ -1,0 +1,45 @@
+{
+  "parent": "Silver Falls Brewery - Parent",
+  "slug": "silver-falls-brewery",
+  "sfdc_account_id": "0014W00003MgCQSQA3",
+  "total_headroom": "$38,772",
+  "non_ec_headroom": "$38,772",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$5,063",
+  "state": "OR",
+  "city": "Eugene",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "eric@silverfallsbrewery.com",
+  "location_count": 2,
+  "location_names": [
+    "Silver Falls Brewery Eugene",
+    "Silver Falls Brewery Ale House - Silverton"
+  ],
+  "websites": [
+    "https://www.silverfallsbrewery.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.silverfallsbrewery.com": {
+      "url": "https://www.silverfallsbrewery.com",
+      "html_bytes": 121788,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

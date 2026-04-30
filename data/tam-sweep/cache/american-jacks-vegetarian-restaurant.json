@@ -1,0 +1,43 @@
+{
+  "parent": "American Jacks Vegetarian Restaurant",
+  "slug": "american-jacks-vegetarian-restaurant",
+  "sfdc_account_id": "0014W00003MgKYiQAN",
+  "total_headroom": "null",
+  "non_ec_headroom": "$14,472",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "$300",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Unknown",
+  "contact_email": "langstonrevada395@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "American Jacks Vegetarian Restaurant"
+  ],
+  "websites": [
+    "https://www.americanjacksvegetarianrestaurant.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.americanjacksvegetarianrestaurant.com": {
+      "url": "https://www.americanjacksvegetarianrestaurant.com",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub",
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "ZinZanni - Parent Account",
+  "slug": "zinzanni",
+  "sfdc_account_id": "0014W000037WlbiQAC",
+  "total_headroom": "$16,992",
+  "non_ec_headroom": "$16,992",
+  "est_ec_headroom": "$0",
+  "employee_count": "31",
+  "non_ec_arr": "$600",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "norm@zinzanni.com",
+  "location_count": 1,
+  "location_names": [
+    "ZinZanni Seattle"
+  ],
+  "websites": [
+    "https://zinzanni.com/seattle/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://zinzanni.com/seattle/": {
+      "url": "https://zinzanni.com/seattle/",
+      "html_bytes": 233332,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "Concord Collective Parent",
+  "slug": "concord-collective",
+  "sfdc_account_id": "0014W00002msGLSQA2",
+  "total_headroom": "$21,188",
+  "non_ec_headroom": "$17,520",
+  "est_ec_headroom": "$3,668",
+  "employee_count": "22",
+  "non_ec_arr": "$11,220",
+  "state": "CA",
+  "city": "Los Angeles",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "gplummer@concordcollective.com",
+  "location_count": 1,
+  "location_names": [
+    "Beechers Handmade Cheese"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "Gourmondo Cafes & Catering Parent",
+  "slug": "gourmondo-cafes-catering",
+  "sfdc_account_id": "0014W00003F3JqFQAV",
+  "total_headroom": "$87,324",
+  "non_ec_headroom": "$104,340",
+  "est_ec_headroom": "$924",
+  "employee_count": "5",
+  "non_ec_arr": "$20,822",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "alissa@gourmondoco.com",
+  "location_count": 6,
+  "location_names": [
+    "Gourmondo Cafes Events",
+    "Gourmondo at MOHAI 2",
+    "Gourmondo at Dexter Hall - SLU Brew",
+    "Gourmondo at Lincoln Plaza",
+    "Omeros Cafe",
+    "Gourmondo at Seattle Sounders"
+  ],
+  "websites": [
+    "https://gourmondoco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://gourmondoco.com/": {
+      "url": "https://gourmondoco.com/",
+      "html_bytes": 196392,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "HubSpot"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

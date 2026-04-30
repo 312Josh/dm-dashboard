@@ -1,0 +1,56 @@
+{
+  "parent": "The Sitting Room",
+  "slug": "the-sitting-room",
+  "sfdc_account_id": "0013c00001phgA4AAI",
+  "total_headroom": "$21,132",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$1,092",
+  "employee_count": "7",
+  "non_ec_arr": "$1,290",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "thesittingroomseattle@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Sitting Room"
+  ],
+  "websites": [
+    "https://www.the-sitting-room.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.the-sitting-room.com/": {
+      "url": "https://www.the-sitting-room.com/",
+      "html_bytes": 49505,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.the-sitting-room.com/menu-aviator": {
+      "url": "https://www.the-sitting-room.com/menu-aviator",
+      "html_bytes": 48583,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

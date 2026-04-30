@@ -1,0 +1,41 @@
+{
+  "parent": "Intiman Theatre - Parent Account",
+  "slug": "intiman-theatre",
+  "sfdc_account_id": "0014W00003Mh1NsQAJ",
+  "total_headroom": "$20,616",
+  "non_ec_headroom": "$20,112",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$2,448",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "wesley@intiman.org",
+  "location_count": 1,
+  "location_names": [
+    "Intiman Theatre"
+  ],
+  "websites": [
+    "https://www.intiman.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.intiman.org/": {
+      "url": "https://www.intiman.org/",
+      "html_bytes": 686142,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

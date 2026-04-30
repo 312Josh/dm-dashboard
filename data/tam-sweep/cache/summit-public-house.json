@@ -1,0 +1,30 @@
+{
+  "parent": "Summit Public House - Parent Account",
+  "slug": "summit-public-house",
+  "sfdc_account_id": "0014W000037XUWUQA4",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,200",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jjanicek42@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Summit Public House"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

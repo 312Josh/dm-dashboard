@@ -1,0 +1,62 @@
+{
+  "parent": "Chennai Masala - Parent Account",
+  "slug": "chennai-masala",
+  "sfdc_account_id": "0014W00002mt11mQAA",
+  "total_headroom": "$18,360",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$4,524",
+  "state": "OR",
+  "city": "Hillsboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sumathi@chennaimasala.net",
+  "location_count": 1,
+  "location_names": [
+    "Chennai Masala"
+  ],
+  "websites": [
+    "https://chennaimasala.net/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://chennaimasala.net/": {
+      "url": "https://chennaimasala.net/",
+      "html_bytes": 143228,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/chennai-masala/giftcards",
+        "toast_loyalty": "toasttab.com/chennai-masala/rewardsSignup"
+      }
+    },
+    "http://chennaimasala.net/order": {
+      "url": "http://chennaimasala.net/order",
+      "html_bytes": 5558,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/chennai-masala/giftcards",
+    "toast_loyalty": "toasttab.com/chennai-masala/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

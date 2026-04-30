@@ -1,0 +1,49 @@
+{
+  "parent": "Vindicktive Wings - Parent Account",
+  "slug": "vindicktive-wings",
+  "sfdc_account_id": "0014W000037WvDEQA0",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "35",
+  "non_ec_arr": "$4,200",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "mdmmmorgan@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Vindicktive Wings"
+  ],
+  "websites": [
+    "https://www.vindicktivewings.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.vindicktivewings.com": {
+      "url": "https://www.vindicktivewings.com",
+      "html_bytes": 888871,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.vindicktivewings.com/menu": {
+      "url": "https://www.vindicktivewings.com/menu",
+      "html_bytes": 531407,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

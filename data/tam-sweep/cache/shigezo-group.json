@@ -1,0 +1,47 @@
+{
+  "parent": "Shigezo Group",
+  "slug": "shigezo-group",
+  "sfdc_account_id": "001C000001bzQxQIAU",
+  "total_headroom": "$66,200",
+  "non_ec_headroom": "$61,020",
+  "est_ec_headroom": "$5,180",
+  "employee_count": "31",
+  "non_ec_arr": "$5,569",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "noji1517@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "KUU",
+    "Kichinto",
+    "Yataimura Maru"
+  ],
+  "websites": [
+    "https://www.shigezo-pdx.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.shigezo-pdx.com/": {
+      "url": "https://www.shigezo-pdx.com/",
+      "html_bytes": 3312,
+      "fingerprints": {
+        "website_cms": "Squarespace"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub",
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

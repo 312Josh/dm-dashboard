@@ -1,0 +1,77 @@
+{
+  "parent": "Bar June - Parent Account",
+  "slug": "bar-june",
+  "sfdc_account_id": "0014W00003F3xUJQAZ",
+  "total_headroom": "$17,052",
+  "non_ec_headroom": "$17,052",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$6,888",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "liam@lbcpdx.com",
+  "location_count": 1,
+  "location_names": [
+    "Bar June"
+  ],
+  "websites": [
+    "https://www.barjune.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.barjune.com/": {
+      "url": "https://www.barjune.com/",
+      "html_bytes": 133981,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bar-june-4589-southwest-watson-avenue/giftcards",
+        "toast_tables": "tables.toasttab.com/restaurants/67387dcf-d202-49cd-9bdc-d5ce369f39cb"
+      }
+    },
+    "https://www.barjune.com/menu": {
+      "url": "https://www.barjune.com/menu",
+      "html_bytes": 149030,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bar-june-4589-southwest-watson-avenue/giftcards"
+      }
+    },
+    "https://www.barjune.com/reservations": {
+      "url": "https://www.barjune.com/reservations",
+      "html_bytes": 129743,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/67387dcf-d202-49cd-9bdc-d5ce369f39cb",
+        "toast_gift": "toasttab.com/bar-june-4589-southwest-watson-avenue/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/bar-june-4589-southwest-watson-avenue/giftcards",
+    "toast_tables": "tables.toasttab.com/restaurants/67387dcf-d202-49cd-9bdc-d5ce369f39cb"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

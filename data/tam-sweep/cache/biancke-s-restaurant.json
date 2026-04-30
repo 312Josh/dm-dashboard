@@ -1,5 +1,5 @@
 {
-  "parent": "Biancke’s Restaurant - Parent Account",
+  "parent": "Biancke\u2019s Restaurant - Parent Account",
   "slug": "biancke-s-restaurant",
   "total_headroom": "$16,932",
   "non_ec_headroom": "$16,932",
@@ -12,7 +12,7 @@
   "contact_email": "jhgruchow@yahoo.com",
   "location_count": 1,
   "location_names": [
-    "Biancke’s Restaurant"
+    "Biancke\u2019s Restaurant"
   ],
   "websites": [
     "https://bianckes1894.com/"
@@ -35,8 +35,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "001PV0000138HRIYA2"
 }

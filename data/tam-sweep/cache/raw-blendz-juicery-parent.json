@@ -1,0 +1,99 @@
+{
+  "parent": "Raw Blendz Juicery -Parent",
+  "slug": "raw-blendz-juicery-parent",
+  "sfdc_account_id": "001PV00001wCf8pYAC",
+  "total_headroom": "$53,460",
+  "non_ec_headroom": "$53,460",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$6,120",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "alejandrae@rawblendzjuicery.com",
+  "location_count": 3,
+  "location_names": [
+    "Raw Blendz Juicery -Center Mall",
+    "Raw Blendz Juicery -South Salem",
+    "Raw Blendz Juicery -Silverton"
+  ],
+  "websites": [
+    "https://rawblendzjuicery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://rawblendzjuicery.com/": {
+      "url": "https://rawblendzjuicery.com/",
+      "html_bytes": 256054,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/rawblendzsilverton",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://rawblendzjuicery.com/menus/": {
+      "url": "https://rawblendzjuicery.com/menus/",
+      "html_bytes": 204680,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/rawblendzsilverton",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://rawblendzjuicery.com/menu/cold-pressed-juice/": {
+      "url": "https://rawblendzjuicery.com/menu/cold-pressed-juice/",
+      "html_bytes": 249409,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://rawblendzjuicery.com/menu/smoothies/": {
+      "url": "https://rawblendzjuicery.com/menu/smoothies/",
+      "html_bytes": 260800,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://rawblendzjuicery.com/menu/smoothie-bowls/": {
+      "url": "https://rawblendzjuicery.com/menu/smoothie-bowls/",
+      "html_bytes": 240106,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://rawblendzjuicery.com/menu/bites/": {
+      "url": "https://rawblendzjuicery.com/menu/bites/",
+      "html_bytes": 240101,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/rawblendzsilverton",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

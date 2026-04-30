@@ -1,0 +1,58 @@
+{
+  "parent": "a/stir / Capitol Cider - Parent Account",
+  "slug": "a-stir-capitol-cider",
+  "sfdc_account_id": "0013c00001scL0UAAU",
+  "total_headroom": "$11,796",
+  "non_ec_headroom": "$11,796",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$8,232",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ton@capitolcider.com",
+  "location_count": 1,
+  "location_names": [
+    "astir"
+  ],
+  "websites": [
+    "https://astirseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://astirseattle.com/": {
+      "url": "https://astirseattle.com/",
+      "html_bytes": 157095,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/astir",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/astir/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/astir",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/astir/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

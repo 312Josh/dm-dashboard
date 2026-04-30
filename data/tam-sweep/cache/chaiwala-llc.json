@@ -1,0 +1,30 @@
+{
+  "parent": "ChaiWala, LLC",
+  "slug": "chaiwala-llc",
+  "sfdc_account_id": "001PV00002VrLgAYAV",
+  "total_headroom": "$14,820",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "adamrooney98@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "ChaiWala, LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

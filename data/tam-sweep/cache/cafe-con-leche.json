@@ -1,0 +1,44 @@
+{
+  "parent": "Cafe Con Leche - Parent Account",
+  "slug": "cafe-con-leche",
+  "sfdc_account_id": "001C000001dLqjiIAC",
+  "total_headroom": "$20,980",
+  "non_ec_headroom": "$18,012",
+  "est_ec_headroom": "$2,968",
+  "employee_count": "18",
+  "non_ec_arr": "$7,008",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bookings@seattleclubsur.com",
+  "location_count": 1,
+  "location_names": [
+    "Cafe Con Leche"
+  ],
+  "websites": [
+    "https://cafeconlecheseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cafeconlecheseattle.com/": {
+      "url": "https://cafeconlecheseattle.com/",
+      "html_bytes": 24833,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

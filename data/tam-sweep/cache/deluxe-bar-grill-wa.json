@@ -1,0 +1,49 @@
+{
+  "parent": "DeLuxe Bar & Grill - WA",
+  "slug": "deluxe-bar-grill-wa",
+  "sfdc_account_id": "0013c00001p4BSfAAM",
+  "total_headroom": "$18,840",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$0",
+  "employee_count": "22",
+  "non_ec_arr": "$3,802",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "deluxebargrill@comcast.net",
+  "location_count": 1,
+  "location_names": [
+    "DeLuxe Bar & Grill"
+  ],
+  "websites": [
+    "https://deluxebarandgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://deluxebarandgrill.com/": {
+      "url": "https://deluxebarandgrill.com/",
+      "html_bytes": 133530,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/deluxe-bar-grill-625-broadway-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/deluxe-bar-grill-625-broadway-e",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

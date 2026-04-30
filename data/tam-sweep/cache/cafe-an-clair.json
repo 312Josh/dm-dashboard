@@ -1,0 +1,46 @@
+{
+  "parent": "Cafe An'Clair Parent",
+  "slug": "cafe-an-clair",
+  "sfdc_account_id": "0014W00002mrs6fQAA",
+  "total_headroom": "$78,800",
+  "non_ec_headroom": "$76,560",
+  "est_ec_headroom": "$2,240",
+  "employee_count": "13",
+  "non_ec_arr": "$9,864",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "vincent902@gmail.com",
+  "location_count": 4,
+  "location_names": [
+    "Bentoful - Olive Way",
+    "Bentoful - Fairview",
+    "Cafe An'Clair - Fairview and Republican",
+    "Cafe AnClair - 9th and Thomas"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/cafe-an-clair-fairview-and-republican-501-fairview-avenue-north-ste-150"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/cafe-an-clair-fairview-and-republican-501-fairview-avenue-north-ste-150": {
+      "url": "https://order.toasttab.com/online/cafe-an-clair-fairview-and-republican-501-fairview-avenue-north-ste-150",
+      "html_bytes": 5878,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

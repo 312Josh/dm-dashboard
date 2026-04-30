@@ -1,0 +1,43 @@
+{
+  "parent": "Bounty Restaurants",
+  "slug": "bounty-restaurants",
+  "sfdc_account_id": "001C000001foYLcIAM",
+  "total_headroom": "$21,540",
+  "non_ec_headroom": "$19,020",
+  "est_ec_headroom": "$2,520",
+  "employee_count": "15",
+  "non_ec_arr": "$3,120",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "megtrainer@mac.com",
+  "location_count": 1,
+  "location_names": [
+    "Bounty Kitchen"
+  ],
+  "websites": [
+    "http://www.bountykitchenseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.bountykitchenseattle.com/": {
+      "url": "http://www.bountykitchenseattle.com/",
+      "html_bytes": 213,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

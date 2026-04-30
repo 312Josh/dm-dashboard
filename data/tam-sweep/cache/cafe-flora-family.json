@@ -1,0 +1,50 @@
+{
+  "parent": "Cafe Flora Family",
+  "slug": "cafe-flora-family",
+  "sfdc_account_id": "001C000001dLirdIAC",
+  "total_headroom": "$81,716",
+  "non_ec_headroom": "$55,620",
+  "est_ec_headroom": "$26,096",
+  "employee_count": "156",
+  "non_ec_arr": "$16,919",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "nat@cafeflora.com",
+  "location_count": 3,
+  "location_names": [
+    "Floret - SeaTac Airport",
+    "Cafe Flora",
+    "The Flora Bakehouse"
+  ],
+  "websites": [
+    "https://florarestaurantgroup.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://florarestaurantgroup.com/": {
+      "url": "https://florarestaurantgroup.com/",
+      "html_bytes": 215184,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Tock",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

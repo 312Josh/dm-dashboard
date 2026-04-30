@@ -1,0 +1,39 @@
+{
+  "parent": "Labour Temple - Parent Account",
+  "slug": "labour-temple",
+  "sfdc_account_id": "0014W00003JTpmjQAD",
+  "total_headroom": "$17,952",
+  "non_ec_headroom": "$17,952",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$3,588",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "chris@faul.company",
+  "location_count": 1,
+  "location_names": [
+    "Labour"
+  ],
+  "websites": [
+    "https://www.labourtemple.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.labourtemple.com/": {
+      "url": "https://www.labourtemple.com/",
+      "html_bytes": 72126,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

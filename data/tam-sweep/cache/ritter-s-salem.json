@@ -1,0 +1,62 @@
+{
+  "parent": "Ritter's -Salem Parent",
+  "slug": "ritter-s-salem",
+  "sfdc_account_id": "0014W00002xewZWQAY",
+  "total_headroom": "$9,456",
+  "non_ec_headroom": "$9,456",
+  "est_ec_headroom": "$0",
+  "employee_count": "30",
+  "non_ec_arr": "$7,421",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "mike@ritterseatery.com",
+  "location_count": 1,
+  "location_names": [
+    "Ritters Housemade Foods"
+  ],
+  "websites": [
+    "https://www.ritterseatery.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ritterseatery.com/": {
+      "url": "https://www.ritterseatery.com/",
+      "html_bytes": 97556,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/ritters-housemade-foods-102-liberty-street-northeast",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.ritterseatery.com/menu": {
+      "url": "https://www.ritterseatery.com/menu",
+      "html_bytes": 203781,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/ritters-housemade-foods-102-liberty-street-northeast",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/ritters-housemade-foods-102-liberty-street-northeast",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

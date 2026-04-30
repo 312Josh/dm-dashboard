@@ -1,5 +1,5 @@
 {
-  "parent": "Pinky’s Up - Parent Account",
+  "parent": "Pinky\u2019s Up - Parent Account",
   "slug": "pinky-s-up",
   "total_headroom": "$18,648",
   "non_ec_headroom": "$16,464",
@@ -12,7 +12,7 @@
   "contact_email": "pinkysupafternoontea@gmail.com",
   "location_count": 1,
   "location_names": [
-    "Pinky’s Up"
+    "Pinky\u2019s Up"
   ],
   "websites": [
     "https://www.pinkysupclarksville.com/"
@@ -38,8 +38,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "0014W000037WQ3sQAG"
 }

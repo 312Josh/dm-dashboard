@@ -1,0 +1,50 @@
+{
+  "parent": "Mama Brazil Cuisine - Parent Account",
+  "slug": "mama-brazil-cuisine",
+  "sfdc_account_id": "0014W00003JUMPXQA5",
+  "total_headroom": "$18,312",
+  "non_ec_headroom": "$17,472",
+  "est_ec_headroom": "$840",
+  "employee_count": "5",
+  "non_ec_arr": "$3,570",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "archanaskitchenllc@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pataka Indian Fusion Cuisine"
+  ],
+  "websites": [
+    "https://mamabrazilcuisine.blizzfull.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mamabrazilcuisine.blizzfull.com/": {
+      "url": "https://mamabrazilcuisine.blizzfull.com/",
+      "html_bytes": 217755,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://mamabrazilcuisine.blizzfull.com/menu": {
+      "url": "https://mamabrazilcuisine.blizzfull.com/menu",
+      "html_bytes": 217763,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ezcater",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

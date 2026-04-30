@@ -1,0 +1,58 @@
+{
+  "parent": "Communion Seattle Parent",
+  "slug": "communion-seattle",
+  "sfdc_account_id": "0013c00001t59O2AAI",
+  "total_headroom": "$58,068",
+  "non_ec_headroom": "$52,524",
+  "est_ec_headroom": "$5,544",
+  "employee_count": "33",
+  "non_ec_arr": "$18,799",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "kristi@thatbrowngirlcooks.com",
+  "location_count": 3,
+  "location_names": [
+    "Communion Seattle",
+    "That Brown Girl Cooks",
+    "Lil Brown Girl"
+  ],
+  "websites": [
+    "https://www.communionseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.communionseattle.com/": {
+      "url": "https://www.communionseattle.com/",
+      "html_bytes": 379988,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/communion-seattle-2350-e-union-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/communion-seattle-2350-e-union-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/communion-seattle-2350-e-union-st",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/communion-seattle-2350-e-union-st/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

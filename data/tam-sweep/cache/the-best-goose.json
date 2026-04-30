@@ -1,0 +1,42 @@
+{
+  "parent": "The Best Goose Parent",
+  "slug": "the-best-goose",
+  "sfdc_account_id": "0013c00001qDuRNAA0",
+  "total_headroom": "$41,880",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$491",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "revbuerge@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "The Best Goose",
+    "Rex's Prehistoric Patties"
+  ],
+  "websites": [
+    "https://www.forkforty.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.forkforty.com/": {
+      "url": "https://www.forkforty.com/",
+      "html_bytes": 384665,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

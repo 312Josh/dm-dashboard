@@ -1,0 +1,82 @@
+{
+  "parent": "Varchetta Bro's Concepts",
+  "slug": "varchetta-bro-s-concepts",
+  "sfdc_account_id": "0014W00002Ll2vuQAB",
+  "total_headroom": "$55,980",
+  "non_ec_headroom": "$55,980",
+  "est_ec_headroom": "$0",
+  "employee_count": "110",
+  "non_ec_arr": "$22,140",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "leo@cinqueterreseattle.com",
+  "location_count": 3,
+  "location_names": [
+    "Barolo - Seattle",
+    "Cinque Terre Ristorante",
+    "Mamma Melina"
+  ],
+  "websites": [
+    "https://www.cinqueterreseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cinqueterreseattle.com/": {
+      "url": "https://www.cinqueterreseattle.com/",
+      "html_bytes": 114811,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page",
+        "pos_other": "Aloha"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cinqueterre",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.cinqueterreseattle.com/menu": {
+      "url": "https://www.cinqueterreseattle.com/menu",
+      "html_bytes": 160660,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "pos_other": "Aloha",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cinqueterre",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.cinqueterreseattle.com/reservations": {
+      "url": "https://www.cinqueterreseattle.com/reservations",
+      "html_bytes": 78331,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cinqueterre",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/cinqueterre",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

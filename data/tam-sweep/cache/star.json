@@ -1,0 +1,42 @@
+{
+  "parent": "STAR",
+  "slug": "star",
+  "sfdc_account_id": "0013c00001qqAj2AAE",
+  "total_headroom": "$22,828",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$3,388",
+  "employee_count": "20",
+  "non_ec_arr": "$1,500",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "star538broadway@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "STAR"
+  ],
+  "websites": [
+    "https://starbroadway.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://starbroadway.com/": {
+      "url": "https://starbroadway.com/",
+      "html_bytes": 147411,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

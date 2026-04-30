@@ -1,0 +1,50 @@
+{
+  "parent": "Deleo Pizza Company - Parent Account",
+  "slug": "deleo-pizza-company",
+  "sfdc_account_id": "001PV00001aPet6YAC",
+  "total_headroom": "$16,644",
+  "non_ec_headroom": "$16,644",
+  "est_ec_headroom": "$0",
+  "employee_count": "12",
+  "non_ec_arr": "$5,436",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "johnd@deleopizzaco.com",
+  "location_count": 1,
+  "location_names": [
+    "DeLeo Pizza Company"
+  ],
+  "websites": [
+    "https://seattle.deleobrotherspizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://seattle.deleobrotherspizza.com/": {
+      "url": "https://seattle.deleobrotherspizza.com/",
+      "html_bytes": 5549,
+      "fingerprints": {
+        "online_ordering": "Toast"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251231001644/https://seattle.deleobrotherspizza.com/",
+        "html_bytes": 485100,
+        "vendors": {
+          "online_ordering": "Toast"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

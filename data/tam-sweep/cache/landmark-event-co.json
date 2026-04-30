@@ -1,0 +1,60 @@
+{
+  "parent": "Landmark Event Co - Parent Account",
+  "slug": "landmark-event-co",
+  "sfdc_account_id": "0014W00003MgvqDQAR",
+  "total_headroom": "$116,980",
+  "non_ec_headroom": "$103,764",
+  "est_ec_headroom": "$13,216",
+  "employee_count": "79",
+  "non_ec_arr": "$24,900",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "dhruv@truebrands.com",
+  "location_count": 6,
+  "location_names": [
+    "MV Skansonia",
+    "Fox Hollow Farm",
+    "Fremont Foundry",
+    "The Ruins Events and Catering",
+    "Hideaway Cellars",
+    "SoDo Park"
+  ],
+  "websites": [
+    "https://landmarkeventco.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://landmarkeventco.com/": {
+      "url": "https://landmarkeventco.com/",
+      "html_bytes": 426166,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://landmarkeventco.com/book-a-tour/": {
+      "url": "https://landmarkeventco.com/book-a-tour/",
+      "html_bytes": 359258,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

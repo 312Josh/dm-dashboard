@@ -1,0 +1,46 @@
+{
+  "parent": "Cornelly Parent",
+  "slug": "cornelly",
+  "sfdc_account_id": "0014W00002fO5xOQAS",
+  "total_headroom": "$33,564",
+  "non_ec_headroom": "$33,564",
+  "est_ec_headroom": "$0",
+  "employee_count": "52",
+  "non_ec_arr": "$13,860",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "sam@cornellyseattle.com",
+  "location_count": 2,
+  "location_names": [
+    "Cornelly",
+    "Cornelly Queen Anne"
+  ],
+  "websites": [
+    "https://www.cornellyseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cornellyseattle.com/": {
+      "url": "https://www.cornellyseattle.com/",
+      "html_bytes": 172717,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "Bonito - Parent Account",
+  "slug": "bonito",
+  "sfdc_account_id": "0014W00003MgECTQA3",
+  "total_headroom": "$15,072",
+  "non_ec_headroom": "$15,072",
+  "est_ec_headroom": "$0",
+  "employee_count": "15",
+  "non_ec_arr": "$6,768",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "bonito@thejunipercollective.co",
+  "location_count": 1,
+  "location_names": [
+    "Bonito"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/bonito%20cafe"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/bonito%20cafe": {
+      "url": "https://www.toasttab.com/local/order/bonito%20cafe",
+      "html_bytes": 5609,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

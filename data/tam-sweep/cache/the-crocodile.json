@@ -1,0 +1,43 @@
+{
+  "parent": "The Crocodile Parent",
+  "slug": "the-crocodile",
+  "sfdc_account_id": "001C000001hRzu1IAC",
+  "total_headroom": "$16,512",
+  "non_ec_headroom": "$16,512",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$9,186",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "shaina@thecrocodile.com",
+  "location_count": 1,
+  "location_names": [
+    "The Crocodile"
+  ],
+  "websites": [
+    "https://www.thecrocodile.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thecrocodile.com/": {
+      "url": "https://www.thecrocodile.com/",
+      "html_bytes": 181762,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

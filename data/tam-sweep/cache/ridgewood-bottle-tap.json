@@ -1,0 +1,41 @@
+{
+  "parent": "RidgeWood Bottle & Tap - Parent - Parent Account",
+  "slug": "ridgewood-bottle-tap",
+  "sfdc_account_id": "0014W00003JV7ylQAD",
+  "total_headroom": "$14,904",
+  "non_ec_headroom": "$14,904",
+  "est_ec_headroom": "$0",
+  "employee_count": "17",
+  "non_ec_arr": "$6,038",
+  "state": "WA",
+  "city": "Seatte",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "robin@ridgewoodbottleandtap.com",
+  "location_count": 1,
+  "location_names": [
+    "Citizen Collective"
+  ],
+  "websites": [
+    "https://www.ridgewoodbottleandtap.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ridgewoodbottleandtap.com/": {
+      "url": "https://www.ridgewoodbottleandtap.com/",
+      "html_bytes": 73965,
+      "fingerprints": {
+        "pos_other": "Square"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

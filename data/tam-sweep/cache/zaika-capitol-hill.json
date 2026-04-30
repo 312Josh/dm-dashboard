@@ -1,0 +1,58 @@
+{
+  "parent": "Zaika - Capitol Hill - Parent Account",
+  "slug": "zaika-capitol-hill",
+  "sfdc_account_id": "0013c00001qqAoHAAU",
+  "total_headroom": "$17,024",
+  "non_ec_headroom": "$15,372",
+  "est_ec_headroom": "$1,652",
+  "employee_count": "10",
+  "non_ec_arr": "$7,789",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "zaikaseattle@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Zaika - Capitol Hill"
+  ],
+  "websites": [
+    "https://www.zaikaseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.zaikaseattle.com/": {
+      "url": "https://www.zaikaseattle.com/",
+      "html_bytes": 72720,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/zaika",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "Toasttab.com/zaika/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/zaika",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "Toasttab.com/zaika/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

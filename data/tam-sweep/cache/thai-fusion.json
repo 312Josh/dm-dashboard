@@ -1,0 +1,56 @@
+{
+  "parent": "Thai Fusion",
+  "slug": "thai-fusion",
+  "sfdc_account_id": "0014W00002dbwPeQAI",
+  "total_headroom": "$19,952",
+  "non_ec_headroom": "$19,560",
+  "est_ec_headroom": "$392",
+  "employee_count": "2",
+  "non_ec_arr": "$2,760",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gwbaldes@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Thai Fusion"
+  ],
+  "websites": [
+    "https://www.thaifusionseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thaifusionseattle.com/": {
+      "url": "https://www.thaifusionseattle.com/",
+      "html_bytes": 59729,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "ChowNow",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.thaifusionseattle.com/menu-1": {
+      "url": "https://www.thaifusionseattle.com/menu-1",
+      "html_bytes": 95819,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "ChowNow",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

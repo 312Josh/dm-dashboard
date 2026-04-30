@@ -1,0 +1,45 @@
+{
+  "parent": "PAJU- Parent Account",
+  "slug": "paju",
+  "sfdc_account_id": "0014W00003P2zYZQAZ",
+  "total_headroom": "$19,084",
+  "non_ec_headroom": "$17,292",
+  "est_ec_headroom": "$1,792",
+  "employee_count": "11",
+  "non_ec_arr": "$5,808",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jeong.bill@pajuseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Paju NEW"
+  ],
+  "websites": [
+    "https://www.pajurestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pajurestaurant.com/": {
+      "url": "https://www.pajurestaurant.com/",
+      "html_bytes": 14794,
+      "fingerprints": {
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

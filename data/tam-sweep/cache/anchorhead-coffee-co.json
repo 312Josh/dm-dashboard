@@ -1,0 +1,57 @@
+{
+  "parent": "Anchorhead Coffee Co. - Parent Account",
+  "slug": "anchorhead-coffee-co",
+  "sfdc_account_id": "001PV000010D5pNYAS",
+  "total_headroom": "$44,316",
+  "non_ec_headroom": "$44,316",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$21,444",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "jake@anchorheadcoffee.com",
+  "location_count": 3,
+  "location_names": [
+    "Anchorhead Coffee - Pike Place Market",
+    "Anchorhead Coffee - Downtown Seattle - 2",
+    "Anchorhead Coffee - Capitol Hill"
+  ],
+  "websites": [
+    "https://anchorheadcoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://anchorheadcoffee.com/": {
+      "url": "https://anchorheadcoffee.com/",
+      "html_bytes": 380727,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    },
+    "https://anchorheadcoffee.com/products/gift-card": {
+      "url": "https://anchorheadcoffee.com/products/gift-card",
+      "html_bytes": 373975,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub",
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

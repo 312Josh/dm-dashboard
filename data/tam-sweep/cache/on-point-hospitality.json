@@ -1,0 +1,154 @@
+{
+  "parent": "On Point Hospitality",
+  "slug": "on-point-hospitality",
+  "sfdc_account_id": "001C000001XloDkIAJ",
+  "total_headroom": "$178,496",
+  "non_ec_headroom": "$105,948",
+  "est_ec_headroom": "$72,548",
+  "employee_count": "432",
+  "non_ec_arr": "$52,175",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "chatalas@comcast.net",
+  "location_count": 8,
+  "location_names": [
+    "Lowell's",
+    "Cactus - Bellevue Square",
+    "Tavern Hall",
+    "Cactus - Kirkland",
+    "Cactus - Proctor",
+    "Cactus - South Lake Union",
+    "Cactus - Alki",
+    "Cactus - Madison Park"
+  ],
+  "websites": [
+    "https://www.cactusrestaurants.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cactusrestaurants.com/": {
+      "url": "https://www.cactusrestaurants.com/",
+      "html_bytes": 160535,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy",
+        "reservations": "Toast Tables"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/cactus-south-lake-union/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML",
+        "toast_tables": "tables.toasttab.com/restaurants/c8a48169-952e-4685-bae4-87986e1818e3"
+      }
+    },
+    "https://www.cactusrestaurants.com/menus": {
+      "url": "https://www.cactusrestaurants.com/menus",
+      "html_bytes": 138034,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/cactus-south-lake-union/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.cactusrestaurants.com/order-pickup": {
+      "url": "https://www.cactusrestaurants.com/order-pickup",
+      "html_bytes": 122408,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/cactus-south-lake-union/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.cactusrestaurants.com/order-delivery": {
+      "url": "https://www.cactusrestaurants.com/order-delivery",
+      "html_bytes": 129152,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/cactus-south-lake-union/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.cactusrestaurants.com/waitlist-reservations": {
+      "url": "https://www.cactusrestaurants.com/waitlist-reservations",
+      "html_bytes": 121492,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_tables": "tables.toasttab.com/restaurants/c8a48169-952e-4685-bae4-87986e1818e3",
+        "toast_gift": "toasttab.com/cactus-south-lake-union/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.cactusrestaurants.com/menus/happy-hour": {
+      "url": "https://www.cactusrestaurants.com/menus/happy-hour",
+      "html_bytes": 211361,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/cactus-south-lake-union/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.cactusrestaurants.com/menus/seasonal": {
+      "url": "https://www.cactusrestaurants.com/menus/seasonal",
+      "html_bytes": 156975,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/cactus-south-lake-union/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_gift": "toasttab.com/cactus-south-lake-union/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML",
+    "toast_tables": "tables.toasttab.com/restaurants/c8a48169-952e-4685-bae4-87986e1818e3"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

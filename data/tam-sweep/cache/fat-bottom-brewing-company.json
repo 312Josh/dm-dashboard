@@ -14,7 +14,7 @@
   "location_names": [
     "Fat Bottom Brewing Company",
     "Fat Bottom Brewing Company - 44th",
-    "Teddy’s Tavern"
+    "Teddy\u2019s Tavern"
   ],
   "websites": [
     "https://www.fatbottombrewing.com/"
@@ -53,8 +53,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "0013c00001p3RmzAAE"
 }

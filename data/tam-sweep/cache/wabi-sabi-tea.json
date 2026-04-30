@@ -1,0 +1,46 @@
+{
+  "parent": "Wabi Sabi Tea Parent",
+  "slug": "wabi-sabi-tea",
+  "sfdc_account_id": "0014W00002Rr1v8QAB",
+  "total_headroom": "$18,012",
+  "non_ec_headroom": "$18,012",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$4,547",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "riggs5150@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Wabi Sabi Tea"
+  ],
+  "websites": [
+    "https://www.wabisabiteainfo.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.wabisabiteainfo.com/": {
+      "url": "https://www.wabisabiteainfo.com/",
+      "html_bytes": 588751,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

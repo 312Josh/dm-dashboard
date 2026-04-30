@@ -1,0 +1,57 @@
+{
+  "parent": "Mammoth - Parent",
+  "slug": "mammoth",
+  "sfdc_account_id": "0014W00003JUzEYQA1",
+  "total_headroom": "$16,260",
+  "non_ec_headroom": "$16,260",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$6,432",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "mammothseattle@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Mammoth Seattle Center"
+  ],
+  "websites": [
+    "https://mammothseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mammothseattle.com/": {
+      "url": "https://mammothseattle.com/",
+      "html_bytes": 124682,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/mammothsandwiches",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/mammothsandwiches/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/mammothsandwiches",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/mammothsandwiches/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

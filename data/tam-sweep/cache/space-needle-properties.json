@@ -1,0 +1,49 @@
+{
+  "parent": "Space Needle Properties",
+  "slug": "space-needle-properties",
+  "sfdc_account_id": "0014W00002W7dVOQAZ",
+  "total_headroom": "$135,596",
+  "non_ec_headroom": "$125,040",
+  "est_ec_headroom": "$10,556",
+  "employee_count": "63",
+  "non_ec_arr": "$12,468",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "rons@spaceneedle.com",
+  "location_count": 6,
+  "location_names": [
+    "Sunset Bar",
+    "Center Art",
+    "Space Needle",
+    "Collections Cafe",
+    "Lake Union Bar",
+    "Atmos Cafe"
+  ],
+  "websites": [
+    "https://www.spaceneedle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.spaceneedle.com/": {
+      "url": "https://www.spaceneedle.com/",
+      "html_bytes": 119951,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

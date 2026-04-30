@@ -1,0 +1,55 @@
+{
+  "parent": "The Skillet Restaurant Group",
+  "slug": "the-skillet-restaurant-group",
+  "sfdc_account_id": "001PV00002ZpWgbYAF",
+  "total_headroom": "$41,880",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$0",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "tr.bigfoodmobile@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Skillet Seattle Center",
+    "Skillet Seattle Center Old"
+  ],
+  "websites": [
+    "https://skilletfood.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://skilletfood.com/": {
+      "url": "https://skilletfood.com/",
+      "html_bytes": 59275,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/skillet-diner/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/skillet-diner/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

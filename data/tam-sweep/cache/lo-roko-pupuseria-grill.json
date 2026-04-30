@@ -7,7 +7,7 @@
   "employee_count": "36",
   "non_ec_arr": "$8,292",
   "state": "CA",
-  "city": "Los Ángeles",
+  "city": "Los \u00c1ngeles",
   "restaurant_type": "FSR - Casual",
   "contact_email": "nunez00@gmail.com",
   "location_count": 3,
@@ -37,8 +37,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "rieger",
-    "--rep"
+    "rieger"
   ],
   "sfdc_account_id": "001PV00001IzQZ0YAN"
 }

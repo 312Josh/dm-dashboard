@@ -1,0 +1,55 @@
+{
+  "parent": "ABV Public House - PARENT",
+  "slug": "abv-public-house",
+  "sfdc_account_id": "001PV00001C9r0uYAB",
+  "total_headroom": "$17,472",
+  "non_ec_headroom": "$17,472",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$6,948",
+  "state": "OR",
+  "city": "Hillsboro",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "drlewis5170@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "ABV Public House"
+  ],
+  "websites": [
+    "https://abvpub.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://abvpub.com/": {
+      "url": "https://abvpub.com/",
+      "html_bytes": 153385,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/abv-public-house-5676-ne-northeast-clara-lane/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_gift": "toasttab.com/abv-public-house-5676-ne-northeast-clara-lane/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "ubereats",
+    "grubhub",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

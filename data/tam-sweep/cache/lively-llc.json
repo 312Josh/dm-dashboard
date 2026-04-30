@@ -1,0 +1,77 @@
+{
+  "parent": "Lively LLC",
+  "slug": "lively-llc",
+  "sfdc_account_id": "001PV00002qolSzYAI",
+  "total_headroom": "$38,880",
+  "non_ec_headroom": "$38,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "58",
+  "non_ec_arr": "$6,600",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jessica@livelystation.com",
+  "location_count": 2,
+  "location_names": [
+    "Lively at the Mill",
+    "Lively Station"
+  ],
+  "websites": [
+    "https://www.livelystation.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.livelystation.com/": {
+      "url": "https://www.livelystation.com/",
+      "html_bytes": 345519,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lively-station-3635-river-rd-s",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.livelystation.com/menu": {
+      "url": "https://www.livelystation.com/menu",
+      "html_bytes": 131717,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lively-station-3635-river-rd-s",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.livelystation.com/gifts": {
+      "url": "https://www.livelystation.com/gifts",
+      "html_bytes": 158920,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/lively-station-3635-river-rd-s",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/lively-station-3635-river-rd-s",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

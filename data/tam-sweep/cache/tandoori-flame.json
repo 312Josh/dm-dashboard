@@ -1,0 +1,93 @@
+{
+  "parent": "Tandoori Flame - Parent Account",
+  "slug": "tandoori-flame",
+  "sfdc_account_id": "0014W00003F3iflQAB",
+  "total_headroom": "$19,884",
+  "non_ec_headroom": "$19,212",
+  "est_ec_headroom": "$672",
+  "employee_count": "4",
+  "non_ec_arr": "$3,228",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jkmanhani@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tandoori Flame"
+  ],
+  "websites": [
+    "https://tandooriflameindiangrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tandooriflameindiangrill.com/": {
+      "url": "https://tandooriflameindiangrill.com/",
+      "html_bytes": 194128,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tandoori-flame-345-15th-avenue-east",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://tandooriflameindiangrill.com/reservations?source=pop_up&spot_id=595188&destination=reservations&promotion=reservations": {
+      "url": "https://tandooriflameindiangrill.com/reservations?source=pop_up&spot_id=595188&destination=reservations&promotion=reservations",
+      "html_bytes": 72154,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tandoori-flame-345-15th-avenue-east",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://tandooriflameindiangrill.com/reservations?source=pop_up&spot_id=595188&destination=reservations&promotion=mothers_day": {
+      "url": "https://tandooriflameindiangrill.com/reservations?source=pop_up&spot_id=595188&destination=reservations&promotion=mothers_day",
+      "html_bytes": 72153,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tandoori-flame-345-15th-avenue-east",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://tandooriflameindiangrill.com/reservations": {
+      "url": "https://tandooriflameindiangrill.com/reservations",
+      "html_bytes": 72092,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tandoori-flame-345-15th-avenue-east",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/tandoori-flame-345-15th-avenue-east",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

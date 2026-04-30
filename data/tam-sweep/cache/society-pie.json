@@ -1,0 +1,67 @@
+{
+  "parent": "Society Pie Parent",
+  "slug": "society-pie",
+  "sfdc_account_id": "0014W00002UlSAiQAN",
+  "total_headroom": "$35,904",
+  "non_ec_headroom": "$35,904",
+  "est_ec_headroom": "$0",
+  "employee_count": "26",
+  "non_ec_arr": "$5,359",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "josh.kearney@msn.com",
+  "location_count": 2,
+  "location_names": [
+    "Society Pie - 1st Location",
+    "Society Pie - Tanasbourne"
+  ],
+  "websites": [
+    "https://www.societypie.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.societypie.com/": {
+      "url": "https://www.societypie.com/",
+      "html_bytes": 123358,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/society-pie-tanasbourne/rewardsSignup"
+      }
+    },
+    "https://www.societypie.com/menu": {
+      "url": "https://www.societypie.com/menu",
+      "html_bytes": 71148,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_loyalty": "toasttab.com/society-pie-tanasbourne/rewardsSignup"
+  },
+  "marketplaces": [
+    "ubereats",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

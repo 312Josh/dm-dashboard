@@ -1,0 +1,49 @@
+{
+  "parent": "Independent Pizzeria",
+  "slug": "independent-pizzeria",
+  "sfdc_account_id": "0014W00002ZlRoYQAV",
+  "total_headroom": "$20,208",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,200",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "theindiepizzeria@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Independent Pizzeria"
+  ],
+  "websites": [
+    "https://theindiepizzeria.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://theindiepizzeria.com/": {
+      "url": "https://theindiepizzeria.com/",
+      "html_bytes": 951372,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/independent-pizzeria-4235-e-madison",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/independent-pizzeria-4235-e-madison",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "parent": "Little Water Cantina",
+  "slug": "little-water-cantina",
+  "sfdc_account_id": "0013c00001tRJlLAAW",
+  "total_headroom": "$18,792",
+  "non_ec_headroom": "$15,852",
+  "est_ec_headroom": "$2,940",
+  "employee_count": "18",
+  "non_ec_arr": "$8,015",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "shannon@littlewatercantina.com",
+  "location_count": 1,
+  "location_names": [
+    "Little Water Cantina"
+  ],
+  "websites": [
+    "https://littlewatercantina.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://littlewatercantina.com/": {
+      "url": "https://littlewatercantina.com/",
+      "html_bytes": 98136,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Private events page",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/little-water-cantina-2865-eastlake-ave-e/giftcards"
+      }
+    },
+    "https://littlewatercantina.com/menu/": {
+      "url": "https://littlewatercantina.com/menu/",
+      "html_bytes": 100226,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://littlewatercantina.com/gift-cards/": {
+      "url": "https://littlewatercantina.com/gift-cards/",
+      "html_bytes": 80856,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/little-water-cantina-2865-eastlake-ave-e/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/little-water-cantina-2865-eastlake-ave-e/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

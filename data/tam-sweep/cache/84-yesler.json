@@ -1,0 +1,94 @@
+{
+  "parent": "84 Yesler - Parent Account",
+  "slug": "84-yesler",
+  "sfdc_account_id": "0013c00001p2cGtAAI",
+  "total_headroom": "$20,300",
+  "non_ec_headroom": "$18,900",
+  "est_ec_headroom": "$1,400",
+  "employee_count": "8",
+  "non_ec_arr": "$3,840",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "samtakahashi@comcast.net",
+  "location_count": 1,
+  "location_names": [
+    "84 Yesler"
+  ],
+  "websites": [
+    "https://www.84-yesler.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.84-yesler.com/": {
+      "url": "https://www.84-yesler.com/",
+      "html_bytes": 894836,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/84-yesler-84-yesler-way/giftcards"
+      }
+    },
+    "https://www.84-yesler.com/menu-1": {
+      "url": "https://www.84-yesler.com/menu-1",
+      "html_bytes": 592569,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/84-yesler-84-yesler-way/giftcards"
+      }
+    },
+    "https://www.84-yesler.com/menu": {
+      "url": "https://www.84-yesler.com/menu",
+      "html_bytes": 556332,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/84-yesler-84-yesler-way/giftcards"
+      }
+    },
+    "https://www.84-yesler.com/reservations": {
+      "url": "https://www.84-yesler.com/reservations",
+      "html_bytes": 1150255,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/84-yesler-84-yesler-way/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/84-yesler-84-yesler-way/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

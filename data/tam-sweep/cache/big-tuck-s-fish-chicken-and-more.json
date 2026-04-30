@@ -1,5 +1,5 @@
 {
-  "parent": "Big Tuck’s fish,chicken and more",
+  "parent": "Big Tuck\u2019s fish,chicken and more",
   "slug": "big-tuck-s-fish-chicken-and-more",
   "total_headroom": "$18,276",
   "non_ec_headroom": "$17,940",
@@ -12,7 +12,7 @@
   "contact_email": "ptucker6999@yahoo.com",
   "location_count": 1,
   "location_names": [
-    "Big Tuck’s fish,chicken and more"
+    "Big Tuck\u2019s fish,chicken and more"
   ],
   "websites": [
     "https://www.toasttab.com/local/order/big-tuck-s-fish-chicken-and-more-398-burford-rd"
@@ -35,8 +35,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "0014W00003CNOxLQAX"
 }

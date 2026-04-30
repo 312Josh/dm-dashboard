@@ -1,0 +1,49 @@
+{
+  "parent": "Bar Miriam Parent",
+  "slug": "bar-miriam",
+  "sfdc_account_id": "0014W00002hCW2iQAG",
+  "total_headroom": "$37,104",
+  "non_ec_headroom": "$37,104",
+  "est_ec_headroom": "$0",
+  "employee_count": "24",
+  "non_ec_arr": "$9,098",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "brian@bakersseattle.com",
+  "location_count": 2,
+  "location_names": [
+    "BAR MIRIAM",
+    "Baker's Seattle"
+  ],
+  "websites": [
+    "https://www.barmiriam.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.barmiriam.com/": {
+      "url": "https://www.barmiriam.com/",
+      "html_bytes": 167884,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bar-miriam-307-w-mcgraw-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/bar-miriam-307-w-mcgraw-st/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "Wildwood Taphouse PARENT",
+  "slug": "wildwood-taphouse",
+  "sfdc_account_id": "001PV00001v0mrMYAQ",
+  "total_headroom": "$51,840",
+  "non_ec_headroom": "$51,840",
+  "est_ec_headroom": "$0",
+  "employee_count": "23",
+  "non_ec_arr": "$12,780",
+  "state": "OR",
+  "city": "Tigard",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "andrew@wildwoodtaphouse.com",
+  "location_count": 3,
+  "location_names": [
+    "Wildwood Taphouse Tigard",
+    "Wildwood Taphouse Cedar Mill",
+    "Wildwood Taphouse"
+  ],
+  "websites": [
+    "https://wildwoodtaphouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wildwoodtaphouse.com/": {
+      "url": "https://wildwoodtaphouse.com/",
+      "html_bytes": 77003,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

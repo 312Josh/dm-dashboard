@@ -1,0 +1,31 @@
+{
+  "parent": "A Good Start Parent",
+  "slug": "a-good-start",
+  "sfdc_account_id": "0013c00001smof4AAA",
+  "total_headroom": "$38,432",
+  "non_ec_headroom": "$34,680",
+  "est_ec_headroom": "$3,752",
+  "employee_count": "23",
+  "non_ec_arr": "$7,631",
+  "state": "WA",
+  "city": "SEATTLE",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "onjoli@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Post Pike - Seattle",
+    "Post Pike - Georgetown"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

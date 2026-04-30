@@ -1,0 +1,53 @@
+{
+  "parent": "Roti Authentic Indian Cuisine - Parent Account",
+  "slug": "roti-authentic-indian-cuisine",
+  "sfdc_account_id": "0013c00001t5g81AAA",
+  "total_headroom": "$19,280",
+  "non_ec_headroom": "$17,460",
+  "est_ec_headroom": "$1,820",
+  "employee_count": "11",
+  "non_ec_arr": "$8,220",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "goldy@mintprogressive.com",
+  "location_count": 1,
+  "location_names": [
+    "Roti Authentic Indian Cuisine"
+  ],
+  "websites": [
+    "https://www.rotirestaurantseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.rotirestaurantseattle.com/": {
+      "url": "https://www.rotirestaurantseattle.com/",
+      "html_bytes": 1520779,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

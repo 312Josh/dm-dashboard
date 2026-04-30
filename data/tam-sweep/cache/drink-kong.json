@@ -1,0 +1,46 @@
+{
+  "parent": "Drink Kong- Parent Account",
+  "slug": "drink-kong",
+  "sfdc_account_id": "001PV00001Q3XHhYAN",
+  "total_headroom": "$33,516",
+  "non_ec_headroom": "$33,516",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$15,188",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "thewolfpdxllc@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Side Hustle - Portland",
+    "Side Hustle Bar"
+  ],
+  "websites": [
+    "https://www.instagram.com/sidehustleportland/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.instagram.com/sidehustleportland/": {
+      "url": "https://www.instagram.com/sidehustleportland/",
+      "html_bytes": 804583,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "side hustle": "https://www.instagram.com/sidehustleportland/"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "parent": "Sushi Kashiba - Parent Account",
+  "slug": "sushi-kashiba",
+  "sfdc_account_id": "0014W00002xcKKnQAM",
+  "total_headroom": "$17,052",
+  "non_ec_headroom": "$17,052",
+  "est_ec_headroom": "$0",
+  "employee_count": "40",
+  "non_ec_arr": "$6,900",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "sushikashiba99@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Sushi Kashiba"
+  ],
+  "websites": [
+    "https://sushikashiba.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sushikashiba.com/": {
+      "url": "https://sushikashiba.com/",
+      "html_bytes": 42179,
+      "fingerprints": {
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy",
+        "reservations": "OpenTable",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sushi-kashiba/giftcards"
+      }
+    },
+    "https://sushikashiba.com/menu": {
+      "url": "https://sushikashiba.com/menu",
+      "html_bytes": 60415,
+      "fingerprints": {
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://sushikashiba.com/reservations": {
+      "url": "https://sushikashiba.com/reservations",
+      "html_bytes": 34927,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://sushikashiba.com/gifts": {
+      "url": "https://sushikashiba.com/gifts",
+      "html_bytes": 38622,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/sushi-kashiba/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/sushi-kashiba/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

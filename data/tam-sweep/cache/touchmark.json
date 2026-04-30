@@ -1,0 +1,40 @@
+{
+  "parent": "Touchmark",
+  "slug": "touchmark",
+  "sfdc_account_id": "0013c00001tIjAwAAK",
+  "total_headroom": "$42,496",
+  "non_ec_headroom": "$36,924",
+  "est_ec_headroom": "$5,572",
+  "employee_count": "33",
+  "non_ec_arr": "$15,319",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "marcus.breuer@touchmark.com",
+  "location_count": 2,
+  "location_names": [
+    "Amaterra",
+    "Amaterra - Bend new"
+  ],
+  "websites": [
+    "https://www.touchmark.com/senior-living/or/portland/west-hills/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.touchmark.com/senior-living/or/portland/west-hills/": {
+      "url": "https://www.touchmark.com/senior-living/or/portland/west-hills/",
+      "html_bytes": 157639,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

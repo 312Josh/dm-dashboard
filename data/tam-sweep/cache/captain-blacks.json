@@ -1,0 +1,53 @@
+{
+  "parent": "Captain Blacks - Parent Account",
+  "slug": "captain-blacks",
+  "sfdc_account_id": "0014W00002ZmLP7QAN",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$1,200",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jason@captainblacksseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Captain Blacks"
+  ],
+  "websites": [
+    "https://www.captainblacks.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.captainblacks.com/": {
+      "url": "https://www.captainblacks.com/",
+      "html_bytes": 125333,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tj-s-street-tacos",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/tj-s-street-tacos",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

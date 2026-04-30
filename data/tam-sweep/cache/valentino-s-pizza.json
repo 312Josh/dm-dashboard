@@ -1,5 +1,5 @@
 {
-  "parent": "Valentino’s Pizza - Parent Account",
+  "parent": "Valentino\u2019s Pizza - Parent Account",
   "slug": "valentino-s-pizza",
   "total_headroom": "$14,652",
   "non_ec_headroom": "$14,652",
@@ -12,7 +12,7 @@
   "contact_email": "philipalanouf@gmail.com",
   "location_count": 1,
   "location_names": [
-    "Valentino’s Pizza"
+    "Valentino\u2019s Pizza"
   ],
   "websites": [
     "https://valentinospizzahg.com/"
@@ -37,8 +37,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "rieger",
-    "--rep"
+    "rieger"
   ],
   "sfdc_account_id": "0014W00003JVAzdQAH"
 }

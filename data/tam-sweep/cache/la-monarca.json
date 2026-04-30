@@ -1,0 +1,39 @@
+{
+  "parent": "La Monarca",
+  "slug": "la-monarca",
+  "sfdc_account_id": "0014W00003GWwh4QAD",
+  "total_headroom": "$18,960",
+  "non_ec_headroom": "$18,792",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "OR",
+  "city": "Aloha",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jzmn.trndd@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "La Monarca"
+  ],
+  "websites": [
+    "https://www.facebook.com/p/La-Monarca-Tacos-100094617653991/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.facebook.com/p/La-Monarca-Tacos-100094617653991/": {
+      "url": "https://www.facebook.com/p/La-Monarca-Tacos-100094617653991/",
+      "html_bytes": 1542,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

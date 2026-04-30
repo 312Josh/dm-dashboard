@@ -1,0 +1,42 @@
+{
+  "parent": "Matt Pachmayr Pop Up - Parent Account",
+  "slug": "matt-pachmayr-pop-up",
+  "sfdc_account_id": "001PV00001ETRAkYAP",
+  "total_headroom": "null",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "null",
+  "non_ec_arr": "null",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "mattpachmayr@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Matt Pachmayr Pop Up"
+  ],
+  "websites": [
+    "https://www.instagram.com/nocallnoshowseattle/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.instagram.com/nocallnoshowseattle/": {
+      "url": "https://www.instagram.com/nocallnoshowseattle/",
+      "html_bytes": 804601,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "pos_other": "Aloha"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

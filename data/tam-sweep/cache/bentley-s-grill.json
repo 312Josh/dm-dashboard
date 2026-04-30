@@ -1,0 +1,51 @@
+{
+  "parent": "Bentley's Grill- Parent Account",
+  "slug": "bentley-s-grill",
+  "sfdc_account_id": "0014W00002xdD7oQAE",
+  "total_headroom": "$42,156",
+  "non_ec_headroom": "$38,040",
+  "est_ec_headroom": "$4,116",
+  "employee_count": "25",
+  "non_ec_arr": "$14,259",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "steve.j@vipsinc.net",
+  "location_count": 2,
+  "location_names": [
+    "Salem Convention Center",
+    "Bentley's Grill"
+  ],
+  "websites": [
+    "https://bentleysgrill.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bentleysgrill.com/": {
+      "url": "https://bentleysgrill.com/",
+      "html_bytes": 114329,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Tock",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bentleys-grill/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/bentleys-grill/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

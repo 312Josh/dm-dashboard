@@ -1,0 +1,60 @@
+{
+  "parent": "Laredos Grill Parent",
+  "slug": "laredos-grill",
+  "sfdc_account_id": "0013c00001rDPyPAAW",
+  "total_headroom": "$33,984",
+  "non_ec_headroom": "$33,984",
+  "est_ec_headroom": "$0",
+  "employee_count": "37",
+  "non_ec_arr": "$13,278",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jbetancour@comcast.net",
+  "location_count": 2,
+  "location_names": [
+    "Laredos Grill",
+    "Burien Fireside"
+  ],
+  "websites": [
+    "https://laredostexmex.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://laredostexmex.com/": {
+      "url": "https://laredostexmex.com/",
+      "html_bytes": 154187,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "reservations": "Yelp Reservations",
+        "gift_cards": "Toast Gift Cards",
+        "pos_other": "Aloha",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/laredos-grill-555-aloha-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/laredos-grill-555-aloha-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/laredos-grill-555-aloha-st",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/laredos-grill-555-aloha-st/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

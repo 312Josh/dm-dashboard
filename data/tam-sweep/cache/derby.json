@@ -1,0 +1,58 @@
+{
+  "parent": "Derby Parent",
+  "slug": "derby",
+  "sfdc_account_id": "0013c00001tv4vRAAQ",
+  "total_headroom": "$39,984",
+  "non_ec_headroom": "$39,984",
+  "est_ec_headroom": "$0",
+  "employee_count": "63",
+  "non_ec_arr": "$29,486",
+  "state": "TX",
+  "city": "Dallas",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bell.matt@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Derby- Dallas",
+    "Derby Houston",
+    "Derby"
+  ],
+  "websites": [
+    "https://derbyrestaurants.com/dallas/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://derbyrestaurants.com/dallas/": {
+      "url": "https://derbyrestaurants.com/dallas/",
+      "html_bytes": 63177,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://derbyrestaurants.com/dallas/menu/": {
+      "url": "https://derbyrestaurants.com/dallas/menu/",
+      "html_bytes": 40702,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

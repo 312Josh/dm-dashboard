@@ -1,0 +1,41 @@
+{
+  "parent": "Anchor Bloom Cafe - Parent Account",
+  "slug": "anchor-bloom-cafe",
+  "sfdc_account_id": "001PV000016aZPtYAM",
+  "total_headroom": "$17,820",
+  "non_ec_headroom": "$17,820",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$3,120",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "anchorbloomcafe@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "Anchor Bloom Cafe"
+  ],
+  "websites": [
+    "https://anchorbloomcafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://anchorbloomcafe.com/": {
+      "url": "https://anchorbloomcafe.com/",
+      "html_bytes": 67469,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

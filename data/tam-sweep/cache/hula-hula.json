@@ -1,0 +1,41 @@
+{
+  "parent": "Hula Hula - Parent Account",
+  "slug": "hula-hula",
+  "sfdc_account_id": "0014W00003CO2NAQA1",
+  "total_headroom": "$24,748",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$3,808",
+  "employee_count": "23",
+  "non_ec_arr": "$2,640",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "hulahulabar@comcast.net",
+  "location_count": 1,
+  "location_names": [
+    "Hula Hula"
+  ],
+  "websites": [
+    "https://www.hulahula.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hulahula.org/": {
+      "url": "https://www.hulahula.org/",
+      "html_bytes": 198644,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

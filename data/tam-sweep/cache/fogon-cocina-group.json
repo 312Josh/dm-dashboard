@@ -1,0 +1,50 @@
+{
+  "parent": "Fogon Cocina Group",
+  "slug": "fogon-cocina-group",
+  "sfdc_account_id": "001C000001d6dKxIAI",
+  "total_headroom": "$91,464",
+  "non_ec_headroom": "$79,200",
+  "est_ec_headroom": "$12,264",
+  "employee_count": "73",
+  "non_ec_arr": "$10,815",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cortez.n.a@gmail.com",
+  "location_count": 4,
+  "location_names": [
+    "Fogon Cocina Mexicana",
+    "La Josie's Tequila Bar",
+    "El Lugar",
+    "Counter shop"
+  ],
+  "websites": [
+    "https://www.fogonseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fogonseattle.com/": {
+      "url": "https://www.fogonseattle.com/",
+      "html_bytes": 549856,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "opentable",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

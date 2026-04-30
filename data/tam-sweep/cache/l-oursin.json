@@ -1,0 +1,65 @@
+{
+  "parent": "L'Oursin Parent",
+  "slug": "l-oursin",
+  "sfdc_account_id": "0014W00003CNxzSQAT",
+  "total_headroom": "$45,244",
+  "non_ec_headroom": "$40,680",
+  "est_ec_headroom": "$4,564",
+  "employee_count": "28",
+  "non_ec_arr": "$4,800",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "zac@loursinseattle.com",
+  "location_count": 2,
+  "location_names": [
+    "L'Oursin",
+    "Bar Bayonne"
+  ],
+  "websites": [
+    "https://www.loursinseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.loursinseattle.com/": {
+      "url": "https://www.loursinseattle.com/",
+      "html_bytes": 74805,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Resy",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/l-oursin-1315-e-jefferson-r102/giftcards"
+      }
+    },
+    "https://www.loursinseattle.com/gift-cards/": {
+      "url": "https://www.loursinseattle.com/gift-cards/",
+      "html_bytes": 65843,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/l-oursin-1315-e-jefferson-r102/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/l-oursin-1315-e-jefferson-r102/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

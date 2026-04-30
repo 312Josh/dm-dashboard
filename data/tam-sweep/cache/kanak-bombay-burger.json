@@ -1,0 +1,48 @@
+{
+  "parent": "Kanak/Bombay Burger",
+  "slug": "kanak-bombay-burger",
+  "sfdc_account_id": "0013c00001tnJ4uAAE",
+  "total_headroom": "$36,456",
+  "non_ec_headroom": "$35,952",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$6,708",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "amarmanhani@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Bombay Burger",
+    "Kanak"
+  ],
+  "websites": [
+    "https://bombayburgerseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bombayburgerseattle.com/": {
+      "url": "https://bombayburgerseattle.com/",
+      "html_bytes": 219921,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

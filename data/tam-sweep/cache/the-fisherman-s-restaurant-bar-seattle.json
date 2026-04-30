@@ -1,0 +1,56 @@
+{
+  "parent": "The Fisherman's Restaurant & Bar - Seattle",
+  "slug": "the-fisherman-s-restaurant-bar-seattle",
+  "sfdc_account_id": "0014W00003P345BQAR",
+  "total_headroom": "$17,640",
+  "non_ec_headroom": "$7,728",
+  "est_ec_headroom": "$9,912",
+  "employee_count": "59",
+  "non_ec_arr": "$24,020",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "colin@pier57seattle.com",
+  "location_count": 1,
+  "location_names": [
+    "The Fisherman's Restaurant & Bar - Seattle"
+  ],
+  "websites": [
+    "https://www.fishermansrestaurantseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.fishermansrestaurantseattle.com/": {
+      "url": "https://www.fishermansrestaurantseattle.com/",
+      "html_bytes": 5575,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "online_ordering": "Toast",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251225090029/https://www.fishermansrestaurantseattle.com/",
+        "html_bytes": 277208,
+        "vendors": {
+          "website_cms": "Popmenu",
+          "online_ordering": "Toast",
+          "reservations": "OpenTable",
+          "catering_mention": "Private events page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "parent": "Circle Spey Group",
+  "slug": "circle-spey-group",
+  "sfdc_account_id": "001C000001mKnfUIAS",
+  "total_headroom": "$98,392",
+  "non_ec_headroom": "$78,960",
+  "est_ec_headroom": "$19,432",
+  "employee_count": "117",
+  "non_ec_arr": "$13,200",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "eric@circlespey.com",
+  "location_count": 4,
+  "location_names": [
+    "RockCreek Seafood & Spirits",
+    "FlintCreek Cattle Co",
+    "Rockcreek Kirkland",
+    "Bar Sur Mer"
+  ],
+  "websites": [
+    "https://rockcreekseafood.com/",
+    "https://flintcreekcattleco.com/",
+    "https://barsurmerseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://rockcreekseafood.com/": {
+      "url": "https://rockcreekseafood.com/",
+      "html_bytes": 142301,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/rockcreek-seafood-spirits-4300-fremont-ave-n/giftcards"
+      }
+    },
+    "https://rockcreekseafood.com/gift-card/": {
+      "url": "https://rockcreekseafood.com/gift-card/",
+      "html_bytes": 99667,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/rockcreek-seafood-spirits-4300-fremont-ave-n/giftcards"
+      }
+    },
+    "https://flintcreekcattleco.com/": {
+      "url": "https://flintcreekcattleco.com/",
+      "html_bytes": 135775,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/flintcreek-cattle-co/giftcards"
+      }
+    },
+    "https://flintcreekcattleco.com/gift-card/": {
+      "url": "https://flintcreekcattleco.com/gift-card/",
+      "html_bytes": 96625,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/flintcreek-cattle-co/giftcards"
+      }
+    },
+    "https://barsurmerseattle.com/": {
+      "url": "https://barsurmerseattle.com/",
+      "html_bytes": 76620,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bar-sur-mer/giftcards"
+      }
+    },
+    "https://barsurmerseattle.com/menu/": {
+      "url": "https://barsurmerseattle.com/menu/",
+      "html_bytes": 74261,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/bar-sur-mer/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/rockcreek-seafood-spirits-4300-fremont-ave-n/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "rockcreek": "https://rockcreekseafood.com/",
+    "flintcreek": "https://flintcreekcattleco.com/",
+    "bar sur mer": "https://barsurmerseattle.com/"
+  }
+}

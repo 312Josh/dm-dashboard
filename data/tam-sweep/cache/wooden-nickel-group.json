@@ -1,0 +1,56 @@
+{
+  "parent": "WOODEN NICKEL Group - Parent",
+  "slug": "wooden-nickel-group",
+  "sfdc_account_id": "0014W00002Nsi0JQAR",
+  "total_headroom": "$76,860",
+  "non_ec_headroom": "$76,860",
+  "est_ec_headroom": "$0",
+  "employee_count": "90",
+  "non_ec_arr": "$23,280",
+  "state": "OR",
+  "city": "Silverton",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "glen@woodennickel.com",
+  "location_count": 4,
+  "location_names": [
+    "Wooden Nickel - Sliverton",
+    "Mac's Place",
+    "Wooden Nickel - Sublimity",
+    "High Water Grill"
+  ],
+  "websites": [
+    "https://woodennickel.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://woodennickel.com/": {
+      "url": "https://woodennickel.com/",
+      "html_bytes": 232868,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://woodennickel.com/menu/": {
+      "url": "https://woodennickel.com/menu/",
+      "html_bytes": 226230,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

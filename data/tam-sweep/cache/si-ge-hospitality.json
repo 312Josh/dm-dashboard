@@ -1,5 +1,5 @@
 {
-  "parent": "Siège Hospitality",
+  "parent": "Si\u00e8ge Hospitality",
   "slug": "si-ge-hospitality",
   "total_headroom": "$108,276",
   "non_ec_headroom": "$94,500",
@@ -179,8 +179,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "brand_websites": {
     "epice": "https://www.epicebirmingham.com/",

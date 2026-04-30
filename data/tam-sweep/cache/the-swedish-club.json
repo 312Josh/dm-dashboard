@@ -1,0 +1,53 @@
+{
+  "parent": "The Swedish Club - Parent Account",
+  "slug": "the-swedish-club",
+  "sfdc_account_id": "0014W00003MgSRBQA3",
+  "total_headroom": "$19,092",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$252",
+  "employee_count": "2",
+  "non_ec_arr": "$4,320",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "jenny@swedishclubnw.org",
+  "location_count": 1,
+  "location_names": [
+    "The Swedish Club"
+  ],
+  "websites": [
+    "https://www.swedishclubnw.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.swedishclubnw.org/": {
+      "url": "https://www.swedishclubnw.org/",
+      "html_bytes": 187903,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.swedishclubnw.org/book-a-tour": {
+      "url": "https://www.swedishclubnw.org/book-a-tour",
+      "html_bytes": 169301,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

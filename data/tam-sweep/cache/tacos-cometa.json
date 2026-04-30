@@ -1,0 +1,41 @@
+{
+  "parent": "Tacos Cometa - Parent Account",
+  "slug": "tacos-cometa",
+  "sfdc_account_id": "001PV000024FJv3YAG",
+  "total_headroom": "$20,040",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$3,720",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "osielgastelum@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tacos Cometa"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/tacos-cometa-1620-broadway-suit-100h"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/tacos-cometa-1620-broadway-suit-100h": {
+      "url": "https://order.toasttab.com/online/tacos-cometa-1620-broadway-suit-100h",
+      "html_bytes": 5730,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "parent": "Nine Pies Pizzeria - Parent Account",
+  "slug": "nine-pies-pizzeria",
+  "sfdc_account_id": "0014W00002W7BMsQAN",
+  "total_headroom": "$14,604",
+  "non_ec_headroom": "$13,932",
+  "est_ec_headroom": "$672",
+  "employee_count": "4",
+  "non_ec_arr": "$9,600",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "coryb@longshadows.com",
+  "location_count": 1,
+  "location_names": [
+    "Nine Pies Pizzeria"
+  ],
+  "websites": [
+    "https://www.ninepiespizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ninepiespizza.com/": {
+      "url": "https://www.ninepiespizza.com/",
+      "html_bytes": 5519,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "online_ordering": "Popmenu",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251015083731/https://www.ninepiespizza.com/",
+        "html_bytes": 366717,
+        "vendors": {
+          "website_cms": "Popmenu",
+          "online_ordering": "Popmenu",
+          "reservations": "OpenTable",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

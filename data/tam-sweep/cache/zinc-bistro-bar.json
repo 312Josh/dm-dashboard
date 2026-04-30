@@ -1,0 +1,41 @@
+{
+  "parent": "Zinc Bistro & Bar - Parent Account",
+  "slug": "zinc-bistro-bar",
+  "sfdc_account_id": "0014W000037XWF4QAO",
+  "total_headroom": "$20,340",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$1,800",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "janewkifer@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Zinc Bistro & Bar"
+  ],
+  "websites": [
+    "https://www.zincpdx.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.zincpdx.com/": {
+      "url": "https://www.zincpdx.com/",
+      "html_bytes": 468705,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

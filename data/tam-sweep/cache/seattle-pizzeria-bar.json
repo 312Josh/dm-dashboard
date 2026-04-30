@@ -1,0 +1,46 @@
+{
+  "parent": "Seattle Pizzeria & Bar Parent",
+  "slug": "seattle-pizzeria-bar",
+  "sfdc_account_id": "0014W00002W6zrtQAB",
+  "total_headroom": "$40,980",
+  "non_ec_headroom": "$40,980",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$2,820",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "admin@seattlepizzaandbar.com",
+  "location_count": 2,
+  "location_names": [
+    "SEATTLE PIZZA AND BAR",
+    "Seattle Pizzeria & Bar 2.0"
+  ],
+  "websites": [
+    "https://www.seattlepizzabar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.seattlepizzabar.com/": {
+      "url": "https://www.seattlepizzabar.com/",
+      "html_bytes": 239808,
+      "fingerprints": {
+        "oo": "Slice"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

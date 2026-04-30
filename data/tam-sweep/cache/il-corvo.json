@@ -1,0 +1,30 @@
+{
+  "parent": "Il Corvo",
+  "slug": "il-corvo",
+  "sfdc_account_id": "001C000001m5fROIAY",
+  "total_headroom": "$25,360",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$5,320",
+  "employee_count": "32",
+  "non_ec_arr": "$3,888",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "cameronanthonywilliams@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Il Nido"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "parent": "Aviv Hummus Bar Parent",
+  "slug": "aviv-hummus-bar",
+  "sfdc_account_id": "001C000001ZtsfIIAR",
+  "total_headroom": "$19,840",
+  "non_ec_headroom": "$18,132",
+  "est_ec_headroom": "$1,708",
+  "employee_count": "10",
+  "non_ec_arr": "$2,808",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "david@avivhummusbar.com",
+  "location_count": 1,
+  "location_names": [
+    "Aviv Hummus Bar"
+  ],
+  "websites": [
+    "http://avivhummusbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://avivhummusbar.com/": {
+      "url": "http://avivhummusbar.com/",
+      "html_bytes": 279131,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/aviv-hummus-bar",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/aviv-hummus-bar/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/aviv-hummus-bar",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/aviv-hummus-bar/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

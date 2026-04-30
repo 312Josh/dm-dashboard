@@ -1,0 +1,43 @@
+{
+  "parent": "Belltown Provisions Parent",
+  "slug": "belltown-provisions",
+  "sfdc_account_id": "0014W00002NtDz8QAF",
+  "total_headroom": "$19,860",
+  "non_ec_headroom": "$19,860",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$1,505",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "jon@provisionsbar.com",
+  "location_count": 1,
+  "location_names": [
+    "Belltown Provisions"
+  ],
+  "websites": [
+    "https://www.provisionsbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.provisionsbar.com/": {
+      "url": "https://www.provisionsbar.com/",
+      "html_bytes": 1137659,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Waitlist Me",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "London’s Sports Bar - Parent Account",
+  "parent": "London\u2019s Sports Bar - Parent Account",
   "slug": "london-s-sports-bar",
   "total_headroom": "$14,472",
   "non_ec_headroom": "$14,472",
@@ -12,7 +12,7 @@
   "contact_email": "londonsjoe@gmail.com",
   "location_count": 1,
   "location_names": [
-    "London’s Sports Bar"
+    "London\u2019s Sports Bar"
   ],
   "websites": [
     "https://www.londonsbar.com/"
@@ -33,8 +33,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "001C000001iTfoOIAS"
 }

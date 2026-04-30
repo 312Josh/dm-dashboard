@@ -1,0 +1,44 @@
+{
+  "parent": "The Gyro House Mediterranean Parent",
+  "slug": "the-gyro-house-mediterranean",
+  "sfdc_account_id": "001PV00001WpuGgYAJ",
+  "total_headroom": "$56,436",
+  "non_ec_headroom": "$52,572",
+  "est_ec_headroom": "$3,864",
+  "employee_count": "24",
+  "non_ec_arr": "$8,718",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "asemsamman@hotmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Gyro House - Beaverton",
+    "Gyro House - SE Portland",
+    "Gyro House - Sherwood"
+  ],
+  "websites": [
+    "https://thegyrohouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thegyrohouse.com/": {
+      "url": "https://thegyrohouse.com/",
+      "html_bytes": 2042,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

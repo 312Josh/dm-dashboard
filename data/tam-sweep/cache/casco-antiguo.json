@@ -1,0 +1,52 @@
+{
+  "parent": "Casco Antiguo",
+  "slug": "casco-antiguo",
+  "sfdc_account_id": "001C000001c089hIAA",
+  "total_headroom": "$23,540",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$3,500",
+  "employee_count": "21",
+  "non_ec_arr": "$8,160",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "harveywardva@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Casco Antiguo"
+  ],
+  "websites": [
+    "https://www.cascoantiguorestaurants.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cascoantiguorestaurants.com/": {
+      "url": "https://www.cascoantiguorestaurants.com/",
+      "html_bytes": 581336,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.cascoantiguorestaurants.com/menu": {
+      "url": "https://www.cascoantiguorestaurants.com/menu",
+      "html_bytes": 369002,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "Columbia Hospitality - MME Parent",
+  "slug": "columbia-hospitality-mme",
+  "sfdc_account_id": "001PV00000cZrjVYAS",
+  "total_headroom": "$34,980",
+  "non_ec_headroom": "$34,980",
+  "est_ec_headroom": "$0",
+  "employee_count": "45",
+  "non_ec_arr": "$11,325",
+  "state": "MT",
+  "city": "Bozeman",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "mdurham@columbiahospitality.com",
+  "location_count": 2,
+  "location_names": [
+    "Rialto",
+    "Gute Laune"
+  ],
+  "websites": [
+    "https://columbiahospitality.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://columbiahospitality.com/": {
+      "url": "https://columbiahospitality.com/",
+      "html_bytes": 150006,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

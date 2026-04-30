@@ -1,0 +1,74 @@
+{
+  "parent": "Oak - Seattle",
+  "slug": "oak-seattle",
+  "sfdc_account_id": "001C000001atWfxIAE",
+  "total_headroom": "$21,232",
+  "non_ec_headroom": "$16,752",
+  "est_ec_headroom": "$4,480",
+  "employee_count": "27",
+  "non_ec_arr": "$5,520",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jeffmacisaac@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Oak - Seattle"
+  ],
+  "websites": [
+    "https://oak-seattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://oak-seattle.com/": {
+      "url": "https://oak-seattle.com/",
+      "html_bytes": 111033,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/cba3bce3-9b5b-41be-8e9e-c7d0e2ce2d95",
+        "toast_gift": "toasttab.com/oak-seattle/giftcards"
+      }
+    },
+    "https://oak-seattle.com/gift-cards": {
+      "url": "https://oak-seattle.com/gift-cards",
+      "html_bytes": 85655,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/oak-seattle/giftcards"
+      }
+    },
+    "https://oak-seattle.com/menus": {
+      "url": "https://oak-seattle.com/menus",
+      "html_bytes": 122371,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/cba3bce3-9b5b-41be-8e9e-c7d0e2ce2d95",
+    "toast_gift": "toasttab.com/oak-seattle/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

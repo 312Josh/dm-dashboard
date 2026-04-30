@@ -1,0 +1,54 @@
+{
+  "parent": "Cafe Suliman - Parent",
+  "slug": "cafe-suliman",
+  "sfdc_account_id": "0014W00003JV5gxQAD",
+  "total_headroom": "$15,192",
+  "non_ec_headroom": "$15,192",
+  "est_ec_headroom": "$0",
+  "employee_count": "10",
+  "non_ec_arr": "$5,100",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "aswadseattle@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cafe Suliman - Melrose Market"
+  ],
+  "websites": [
+    "https://www.cafesuliman.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cafesuliman.com": {
+      "url": "https://www.cafesuliman.com",
+      "html_bytes": 167499,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.cafesuliman.com/menu": {
+      "url": "https://www.cafesuliman.com/menu",
+      "html_bytes": 189618,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

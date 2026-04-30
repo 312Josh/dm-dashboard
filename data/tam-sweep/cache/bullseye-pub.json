@@ -1,0 +1,45 @@
+{
+  "parent": "Bullseye Pub - Parent",
+  "slug": "bullseye-pub",
+  "sfdc_account_id": "0013c00001pjquLAAQ",
+  "total_headroom": "$44,060",
+  "non_ec_headroom": "$38,880",
+  "est_ec_headroom": "$5,180",
+  "employee_count": "31",
+  "non_ec_arr": "$3,911",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "dilberta@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Bullseye Pub",
+    "The Spot Sports Bar & Grill"
+  ],
+  "websites": [
+    "http://www.bullseyepdx.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.bullseyepdx.com/": {
+      "url": "http://www.bullseyepdx.com/",
+      "html_bytes": 43725,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "marketing": "HubSpot"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

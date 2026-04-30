@@ -1,0 +1,84 @@
+{
+  "parent": "Monsoon Parent",
+  "slug": "monsoon",
+  "sfdc_account_id": "0013c00001uj6USAAY",
+  "total_headroom": "$40,232",
+  "non_ec_headroom": "$29,256",
+  "est_ec_headroom": "$10,976",
+  "employee_count": "65",
+  "non_ec_arr": "$18,152",
+  "state": "WA",
+  "city": "Bellevue",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "sowady@saigonsiblings.com",
+  "location_count": 2,
+  "location_names": [
+    "Monsoon - Bellevue",
+    "Monsoon - Seattle"
+  ],
+  "websites": [
+    "https://www.monsoonrestaurants.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.monsoonrestaurants.com/": {
+      "url": "https://www.monsoonrestaurants.com/",
+      "html_bytes": 204754,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/monsoon-seattle-615-19th-ave-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/monsoon-seattle-615-19th-ave-e/giftcards"
+      }
+    },
+    "https://www.monsoonrestaurants.com/order-online": {
+      "url": "https://www.monsoonrestaurants.com/order-online",
+      "html_bytes": 236258,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/monsoon-seattle-615-19th-ave-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.monsoonrestaurants.com/gift-cards": {
+      "url": "https://www.monsoonrestaurants.com/gift-cards",
+      "html_bytes": 152901,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/monsoon-seattle-615-19th-ave-e/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/monsoon-seattle-615-19th-ave-e",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/monsoon-seattle-615-19th-ave-e/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "resy",
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

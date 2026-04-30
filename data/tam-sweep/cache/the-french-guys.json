@@ -1,0 +1,50 @@
+{
+  "parent": "The French Guys - Parent",
+  "slug": "the-french-guys",
+  "sfdc_account_id": "001PV000014OzNhYAK",
+  "total_headroom": "$42,136",
+  "non_ec_headroom": "$39,000",
+  "est_ec_headroom": "$3,136",
+  "employee_count": "19",
+  "non_ec_arr": "$3,480",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "thefrenchguysllc@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "French Guys Uville",
+    "The French Guys Bakery Cap Hill"
+  ],
+  "websites": [
+    "https://www.thefrenchguys.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thefrenchguys.com/": {
+      "url": "https://www.thefrenchguys.com/",
+      "html_bytes": 1333568,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/the-french-guys-bakery-810-e-roy-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/the-french-guys-bakery-810-e-roy-st/giftcards"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

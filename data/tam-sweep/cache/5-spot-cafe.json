@@ -1,0 +1,39 @@
+{
+  "parent": "5 Spot Cafe - Parent Account",
+  "slug": "5-spot-cafe",
+  "sfdc_account_id": "0013c00001uPZkQAAW",
+  "total_headroom": "$17,892",
+  "non_ec_headroom": "$17,892",
+  "est_ec_headroom": "$0",
+  "employee_count": "21",
+  "non_ec_arr": "$8,328",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "brett@aristacatering.com",
+  "location_count": 1,
+  "location_names": [
+    "5 Spot Cafe"
+  ],
+  "websites": [
+    "https://5spotseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://5spotseattle.com/": {
+      "url": "https://5spotseattle.com/",
+      "html_bytes": 5492,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "The Berliner Doner Kebab - Parent Account - Parent Account",
+  "slug": "the-berliner-doner-kebab",
+  "sfdc_account_id": "0014W00002gtGCWQA2",
+  "total_headroom": "$15,264",
+  "non_ec_headroom": "$15,264",
+  "est_ec_headroom": "$0",
+  "employee_count": "3",
+  "non_ec_arr": "$4,644",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "victor607@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Berliner Doner Kebab"
+  ],
+  "websites": [
+    "https://www.berlinerseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.berlinerseattle.com/": {
+      "url": "https://www.berlinerseattle.com/",
+      "html_bytes": 311088,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.berlinerseattle.com/order/status": {
+      "url": "https://www.berlinerseattle.com/order/status",
+      "html_bytes": 311088,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

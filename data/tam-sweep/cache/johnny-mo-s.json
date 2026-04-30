@@ -1,0 +1,140 @@
+{
+  "parent": "Johnny Mo's - Parent",
+  "slug": "johnny-mo-s",
+  "sfdc_account_id": "001C000001jxQ0eIAE",
+  "total_headroom": "$35,108",
+  "non_ec_headroom": "$29,088",
+  "est_ec_headroom": "$6,020",
+  "employee_count": "36",
+  "non_ec_arr": "$17,210",
+  "state": "WA",
+  "city": "East Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "johnny@johnnymos.com",
+  "location_count": 2,
+  "location_names": [
+    "Johnny Mo's",
+    "Johnny Mo's - Edmonds"
+  ],
+  "websites": [
+    "https://www.johnnymos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.johnnymos.com/": {
+      "url": "https://www.johnnymos.com/",
+      "html_bytes": 408870,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/47774a8e-6823-4ca9-931a-7af6a9382007",
+        "toast_loyalty": "toasttab.com/johnny-mo-s/rewardsSignup",
+        "toast_gift": "toasttab.com/johnny-mo-s/giftcards"
+      }
+    },
+    "https://www.johnnymos.com/menu": {
+      "url": "https://www.johnnymos.com/menu",
+      "html_bytes": 248062,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.johnnymos.com/reservations": {
+      "url": "https://www.johnnymos.com/reservations",
+      "html_bytes": 254397,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/47774a8e-6823-4ca9-931a-7af6a9382007"
+      }
+    },
+    "https://www.johnnymos.com/order-now": {
+      "url": "https://www.johnnymos.com/order-now",
+      "html_bytes": 128966,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.johnnymos.com/loyalty-program": {
+      "url": "https://www.johnnymos.com/loyalty-program",
+      "html_bytes": 196958,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_loyalty": "toasttab.com/johnny-mo-s/rewardsSignup"
+      }
+    },
+    "https://www.johnnymos.com/gift-cards": {
+      "url": "https://www.johnnymos.com/gift-cards",
+      "html_bytes": 187834,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/johnny-mo-s/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/47774a8e-6823-4ca9-931a-7af6a9382007",
+    "toast_loyalty": "toasttab.com/johnny-mo-s/rewardsSignup",
+    "toast_gift": "toasttab.com/johnny-mo-s/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "parent": "Serafina & Cicchetti- Parent",
+  "slug": "serafina-cicchetti",
+  "sfdc_account_id": "001C000001Xlx8dIAB",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "36",
+  "non_ec_arr": "$3,000",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "christian@serafinaseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Serafina & Cicchetti- Seattle"
+  ],
+  "websites": [
+    "https://serafinaseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://serafinaseattle.com/": {
+      "url": "https://serafinaseattle.com/",
+      "html_bytes": 141323,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/serafina-cicchetti",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/serafina-cicchetti/giftcards"
+      }
+    },
+    "https://serafinaseattle.com/menu/": {
+      "url": "https://serafinaseattle.com/menu/",
+      "html_bytes": 103081,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/serafina-cicchetti",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/serafina-cicchetti",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/serafina-cicchetti/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

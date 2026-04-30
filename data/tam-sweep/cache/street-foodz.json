@@ -1,0 +1,30 @@
+{
+  "parent": "Street Foodz",
+  "slug": "street-foodz",
+  "sfdc_account_id": "001PV00002HzAEFYA3",
+  "total_headroom": "$14,988",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$420",
+  "state": "OR",
+  "city": "Hillsboro",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "theogstreetfoodz@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Street Foodz"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

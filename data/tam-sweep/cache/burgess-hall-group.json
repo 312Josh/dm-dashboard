@@ -1,0 +1,45 @@
+{
+  "parent": "Burgess/Hall Group Parent",
+  "slug": "burgess-hall-group",
+  "sfdc_account_id": "0014W000037YIOVQA4",
+  "total_headroom": "$94,868",
+  "non_ec_headroom": "$78,264",
+  "est_ec_headroom": "$16,604",
+  "employee_count": "99",
+  "non_ec_arr": "$18,948",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "joey@burgesshall.com",
+  "location_count": 4,
+  "location_names": [
+    "Oddfellows Cafe & Bar",
+    "The Cuff Complex 2",
+    "Queer Bar",
+    "Little Oddfellows"
+  ],
+  "websites": [
+    "https://www.burgesshall.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.burgesshall.com/": {
+      "url": "https://www.burgesshall.com/",
+      "html_bytes": 103656,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "parent": "Canlis - Parent",
+  "slug": "canlis",
+  "sfdc_account_id": "001C000001Zs5KkIAJ",
+  "total_headroom": "$35,196",
+  "non_ec_headroom": "$18,900",
+  "est_ec_headroom": "$16,296",
+  "employee_count": "97",
+  "non_ec_arr": "$8,400",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "mark@canlis.com",
+  "location_count": 1,
+  "location_names": [
+    "Canlis"
+  ],
+  "websites": [
+    "https://canlis.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://canlis.com/": {
+      "url": "https://canlis.com/",
+      "html_bytes": 14676,
+      "fingerprints": {
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy",
+        "reservations": "Tock"
+      },
+      "toast": {}
+    },
+    "https://canlis.com/reservations": {
+      "url": "https://canlis.com/reservations",
+      "html_bytes": 18044,
+      "fingerprints": {
+        "reservations": "Tock",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "resy",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

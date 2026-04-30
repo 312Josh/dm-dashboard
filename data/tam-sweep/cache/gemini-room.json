@@ -1,0 +1,92 @@
+{
+  "parent": "Gemini Room - Parent Account",
+  "slug": "gemini-room",
+  "sfdc_account_id": "0014W00003P2t7eQAB",
+  "total_headroom": "$21,416",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$2,576",
+  "employee_count": "15",
+  "non_ec_arr": "$3,900",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "joey@burgesshall.com",
+  "location_count": 1,
+  "location_names": [
+    "Gemini Room"
+  ],
+  "websites": [
+    "https://www.thegeminiroom.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.thegeminiroom.com": {
+      "url": "https://www.thegeminiroom.com",
+      "html_bytes": 293107,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Private events page",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_loyalty": "toasttab.com/gemini-room-1101-east-pike-street/rewardsSignup",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML",
+        "toast_gift": "toasttab.com/gemini-room-1101-east-pike-street/giftcards"
+      }
+    },
+    "https://www.thegeminiroom.com/menu": {
+      "url": "https://www.thegeminiroom.com/menu",
+      "html_bytes": 195535,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_loyalty": "toasttab.com/gemini-room-1101-east-pike-street/rewardsSignup",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.thegeminiroom.com/gift-cards": {
+      "url": "https://www.thegeminiroom.com/gift-cards",
+      "html_bytes": 152578,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/gemini-room-1101-east-pike-street/giftcards",
+        "toast_loyalty": "toasttab.com/gemini-room-1101-east-pike-street/rewardsSignup",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_loyalty": "toasttab.com/gemini-room-1101-east-pike-street/rewardsSignup",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML",
+    "toast_gift": "toasttab.com/gemini-room-1101-east-pike-street/giftcards"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

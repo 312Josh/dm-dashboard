@@ -1,0 +1,39 @@
+{
+  "parent": "Pho Ha Parent- Parent Account",
+  "slug": "pho-ha-parent",
+  "sfdc_account_id": "0014W00003F3BhiQAF",
+  "total_headroom": "$37,620",
+  "non_ec_headroom": "$37,620",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$7,890",
+  "state": "FL",
+  "city": "Daytona Beach",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "xomcapitolhill@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Pho Ha Seafood",
+    "Xom LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub",
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "pho ha": "",
+    "xom": ""
+  }
+}

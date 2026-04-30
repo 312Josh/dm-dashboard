@@ -1,0 +1,57 @@
+{
+  "parent": "Alma - Parent Account",
+  "slug": "alma",
+  "sfdc_account_id": "001PV00001Rjg34YAB",
+  "total_headroom": "$15,432",
+  "non_ec_headroom": "$15,432",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$8,628",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "steve@qedpdx.com",
+  "location_count": 1,
+  "location_names": [
+    "Alma"
+  ],
+  "websites": [
+    "https://www.almapdx.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.almapdx.com/": {
+      "url": "https://www.almapdx.com/",
+      "html_bytes": 251400,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.almapdx.com/menu": {
+      "url": "https://www.almapdx.com/menu",
+      "html_bytes": 145475,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

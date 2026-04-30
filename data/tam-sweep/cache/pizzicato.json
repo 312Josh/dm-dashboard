@@ -1,0 +1,81 @@
+{
+  "parent": "Pizzicato Parent",
+  "slug": "pizzicato",
+  "sfdc_account_id": "0014W00002mrqYJQAY",
+  "total_headroom": "$182,636",
+  "non_ec_headroom": "$157,800",
+  "est_ec_headroom": "$24,836",
+  "employee_count": "148",
+  "non_ec_arr": "$48,960",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "mdavidpdx@gmail.com",
+  "location_count": 10,
+  "location_names": [
+    "Pizzicato - Murray Hill",
+    "Pizzicato - Lake Oswego",
+    "Pizzicato - Cornell",
+    "Pizzicato - Westmoreland",
+    "Pizzicato - Mt. Tabor",
+    "Pizzicato - Fremont",
+    "Pizzicato - Sylvan",
+    "Pizzicato - Hillsdale",
+    "Pizzicato - Pearl",
+    "Pizzicato - Forest Heights"
+  ],
+  "websites": [
+    "https://www.pizzicatopizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pizzicatopizza.com/": {
+      "url": "https://www.pizzicatopizza.com/",
+      "html_bytes": 279047,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.pizzicatopizza.com/",
+        "toast_gift": "toasttab.com/pizzicato-cornell-14740-ne-cornell-rd/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.pizzicatopizza.com + toasttab string in HTML"
+      }
+    },
+    "https://www.pizzicatopizza.com/menu": {
+      "url": "https://www.pizzicatopizza.com/menu",
+      "html_bytes": 167214,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.pizzicatopizza.com/",
+        "toast_gift": "toasttab.com/pizzicato-cornell-14740-ne-cornell-rd/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.pizzicatopizza.com + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.pizzicatopizza.com/",
+    "toast_gift": "toasttab.com/pizzicato-cornell-14740-ne-cornell-rd/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.pizzicatopizza.com + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

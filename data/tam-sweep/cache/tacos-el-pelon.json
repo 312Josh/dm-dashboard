@@ -1,0 +1,45 @@
+{
+  "parent": "Tacos El Pelon - Parent Account",
+  "slug": "tacos-el-pelon",
+  "sfdc_account_id": "0014W000037W9dMQAS",
+  "total_headroom": "$20,208",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,200",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "tacoselpelonsalem@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Tacos El Pelon"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/tacos-el-pelon-2475-25th-st-se"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/tacos-el-pelon-2475-25th-st-se": {
+      "url": "https://order.toasttab.com/online/tacos-el-pelon-2475-25th-st-se",
+      "html_bytes": 5712,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

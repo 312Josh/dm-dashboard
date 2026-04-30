@@ -1,0 +1,49 @@
+{
+  "parent": "Fly Chai - Parent Account",
+  "slug": "fly-chai",
+  "sfdc_account_id": "001PV00002Q2V9NYAV",
+  "total_headroom": "$16,212",
+  "non_ec_headroom": "$16,212",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$2,040",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "neil.bhatnagar12@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Fly Chai"
+  ],
+  "websites": [
+    "https://flychai.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://flychai.co/": {
+      "url": "https://flychai.co/",
+      "html_bytes": 219631,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "marketing": "Klaviyo"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/fly-chai-12520-sw-farmington-rd",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/fly-chai-12520-sw-farmington-rd",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

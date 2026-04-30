@@ -1,0 +1,44 @@
+{
+  "parent": "Bubble N Tea Parent",
+  "slug": "bubble-n-tea",
+  "sfdc_account_id": "0014W00002dcXf1QAE",
+  "total_headroom": "$37,560",
+  "non_ec_headroom": "$37,560",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$6,348",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "pollyk@bubblenteas.com",
+  "location_count": 2,
+  "location_names": [
+    "BUBBLE N TEA LLC",
+    "Bubble N Tea Division"
+  ],
+  "websites": [
+    "https://www.bubblenteas.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bubblenteas.com/": {
+      "url": "https://www.bubblenteas.com/",
+      "html_bytes": 583730,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

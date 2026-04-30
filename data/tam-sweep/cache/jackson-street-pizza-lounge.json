@@ -1,0 +1,65 @@
+{
+  "parent": "Jackson Street Pizza Lounge - Parent Account",
+  "slug": "jackson-street-pizza-lounge",
+  "sfdc_account_id": "001PV00002EpxEjYAJ",
+  "total_headroom": "$18,720",
+  "non_ec_headroom": "$18,720",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$5,340",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "donald@jacksonstreetpizzalounge.com",
+  "location_count": 1,
+  "location_names": [
+    "Jackson Street Pizza Lounge"
+  ],
+  "websites": [
+    "https://www.jacksonstreetpizzalounge.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.jacksonstreetpizzalounge.com/": {
+      "url": "https://www.jacksonstreetpizzalounge.com/",
+      "html_bytes": 912532,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jackson-street-pizza-lounge-2901-s-jackson-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.jacksonstreetpizzalounge.com/menus": {
+      "url": "https://www.jacksonstreetpizzalounge.com/menus",
+      "html_bytes": 1215375,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/jackson-street-pizza-lounge-2901-s-jackson-st",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/jackson-street-pizza-lounge-2901-s-jackson-st",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

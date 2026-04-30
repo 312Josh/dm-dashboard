@@ -1,0 +1,47 @@
+{
+  "parent": "Kabab Seattle Center - Parent Account",
+  "slug": "kabab-seattle-center",
+  "sfdc_account_id": "0014W00003JUDtWQAX",
+  "total_headroom": "$21,108",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$420",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "navsjukebox@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Kabab Seattle Center"
+  ],
+  "websites": [
+    "https://www.seattlecenter.com/explore/food-and-drink/kabab"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.seattlecenter.com/explore/food-and-drink/kabab": {
+      "url": "https://www.seattlecenter.com/explore/food-and-drink/kabab",
+      "html_bytes": 48517,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://www.seattlecenter.com/connect/book-an-event": {
+      "url": "https://www.seattlecenter.com/connect/book-an-event",
+      "html_bytes": 53472,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

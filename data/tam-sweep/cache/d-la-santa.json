@@ -1,0 +1,59 @@
+{
+  "parent": "D La Santa - Parent",
+  "slug": "d-la-santa",
+  "sfdc_account_id": "001C000001c0b0aIAA",
+  "total_headroom": "$18,240",
+  "non_ec_headroom": "$18,240",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$7,140",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mtsahagun45@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "D La Santa"
+  ],
+  "websites": [
+    "https://dlasanta.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dlasanta.com/": {
+      "url": "https://dlasanta.com/",
+      "html_bytes": 104782,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/37fe5df3-749a-4712-9fda-7f4cf06cfca2"
+      }
+    },
+    "https://dlasanta.com/menu/": {
+      "url": "https://dlasanta.com/menu/",
+      "html_bytes": 99224,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/37fe5df3-749a-4712-9fda-7f4cf06cfca2"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/37fe5df3-749a-4712-9fda-7f4cf06cfca2"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

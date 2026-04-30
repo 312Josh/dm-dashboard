@@ -1,0 +1,72 @@
+{
+  "parent": "Violet - Parent",
+  "slug": "violet",
+  "sfdc_account_id": "001C000001d7DdtIAE",
+  "total_headroom": "$21,432",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$1,092",
+  "employee_count": "7",
+  "non_ec_arr": "$300",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "william@violetseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Violet Seattle"
+  ],
+  "websites": [
+    "https://www.violetseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.violetseattle.com/": {
+      "url": "https://www.violetseattle.com/",
+      "html_bytes": 259540,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/violetseattle/giftcards"
+      }
+    },
+    "https://www.violetseattle.com/violet-restaurant/menu": {
+      "url": "https://www.violetseattle.com/violet-restaurant/menu",
+      "html_bytes": 199633,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.violetseattle.com/gift-card": {
+      "url": "https://www.violetseattle.com/gift-card",
+      "html_bytes": 140829,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/violetseattle/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

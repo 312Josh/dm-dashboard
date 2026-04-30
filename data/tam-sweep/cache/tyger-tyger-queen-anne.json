@@ -1,0 +1,55 @@
+{
+  "parent": "Tyger Tyger - Queen Anne Parent",
+  "slug": "tyger-tyger-queen-anne",
+  "sfdc_account_id": "0013c00001tvUmiAAE",
+  "total_headroom": "$18,360",
+  "non_ec_headroom": "$18,360",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$6,240",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@bluewillowseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Tyger Tyger - Queen Anne"
+  ],
+  "websites": [
+    "https://tygertygerseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tygertygerseattle.com/": {
+      "url": "https://tygertygerseattle.com/",
+      "html_bytes": 164165,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/tyger-tyger-queen-anne-114-republican-street",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/tyger-tyger-queen-anne-114-republican-street",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "grubhub",
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

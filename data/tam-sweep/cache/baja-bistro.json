@@ -1,0 +1,51 @@
+{
+  "parent": "Baja Bistro - Parent Account",
+  "slug": "baja-bistro",
+  "sfdc_account_id": "0014W00003COy0HQAT",
+  "total_headroom": "$19,440",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$4,620",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "bigorod2000@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Baja Bistro"
+  ],
+  "websites": [
+    "https://bajabistrobh.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bajabistrobh.com/": {
+      "url": "https://bajabistrobh.com/",
+      "html_bytes": 20763,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/baja-bistro-2710-beacon-ave-s",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/baja-bistro-2710-beacon-ave-s",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

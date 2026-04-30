@@ -1,0 +1,41 @@
+{
+  "parent": "Time Warp - Parent Account",
+  "slug": "time-warp",
+  "sfdc_account_id": "0014W00002mu1OLQAY",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "14",
+  "non_ec_arr": "$1,200",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "seanxbray@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Time Warp"
+  ],
+  "websites": [
+    "https://timewarp.bar/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://timewarp.bar/": {
+      "url": "https://timewarp.bar/",
+      "html_bytes": 198059,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

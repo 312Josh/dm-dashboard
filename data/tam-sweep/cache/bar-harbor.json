@@ -1,0 +1,52 @@
+{
+  "parent": "Bar Harbor - Parent Account",
+  "slug": "bar-harbor",
+  "sfdc_account_id": "0014W000037YgDmQAK",
+  "total_headroom": "$19,080",
+  "non_ec_headroom": "$19,080",
+  "est_ec_headroom": "$0",
+  "employee_count": "7",
+  "non_ec_arr": "$3,419",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ben@barharborbar.com",
+  "location_count": 1,
+  "location_names": [
+    "Bar Harbor"
+  ],
+  "websites": [
+    "http://www.barharborbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.barharborbar.com/": {
+      "url": "http://www.barharborbar.com/",
+      "html_bytes": 67099,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/bar-harbor-400-fairview-ave-n",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/bar-harbor-400-fairview-ave-n",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

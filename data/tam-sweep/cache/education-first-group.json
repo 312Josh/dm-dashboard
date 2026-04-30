@@ -1,0 +1,30 @@
+{
+  "parent": "Education First Group",
+  "slug": "education-first-group",
+  "sfdc_account_id": "0014W00002xef7kQAA",
+  "total_headroom": "$19,760",
+  "non_ec_headroom": "$18,612",
+  "est_ec_headroom": "$1,148",
+  "employee_count": "7",
+  "non_ec_arr": "$5,328",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "contact@genuinefoods.com",
+  "location_count": 1,
+  "location_names": [
+    "Chemeketa Community College"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

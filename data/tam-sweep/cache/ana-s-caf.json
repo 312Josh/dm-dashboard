@@ -1,0 +1,41 @@
+{
+  "parent": "Ana's Café - Parent Account",
+  "slug": "ana-s-caf",
+  "sfdc_account_id": "0014W00003MfrQsQAJ",
+  "total_headroom": "$20,208",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,500",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "analizarraga88@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ana's Cafe"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/anas-cafe-2401-south-plum-street"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/anas-cafe-2401-south-plum-street": {
+      "url": "https://order.toasttab.com/online/anas-cafe-2401-south-plum-street",
+      "html_bytes": 5718,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "The Night Deposit Parent",
+  "slug": "the-night-deposit",
+  "sfdc_account_id": "0014W00002mrNCxQAM",
+  "total_headroom": "$16,020",
+  "non_ec_headroom": "$16,020",
+  "est_ec_headroom": "$0",
+  "employee_count": "2",
+  "non_ec_arr": "$7,008",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "homegrown503su@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Vault Bar and Grill"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/the-night-deposit-195-commercial-street-northeast"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/the-night-deposit-195-commercial-street-northeast": {
+      "url": "https://www.toasttab.com/local/order/the-night-deposit-195-commercial-street-northeast",
+      "html_bytes": 5782,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

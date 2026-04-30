@@ -1,0 +1,51 @@
+{
+  "parent": "Le Panier",
+  "slug": "le-panier",
+  "sfdc_account_id": "0014W00002RpJeTQAV",
+  "total_headroom": "$21,804",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$3,864",
+  "employee_count": "23",
+  "non_ec_arr": "$4,200",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "kristi@lepanier.com",
+  "location_count": 1,
+  "location_names": [
+    "Le Panier"
+  ],
+  "websites": [
+    "https://lepanier.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lepanier.com/": {
+      "url": "https://lepanier.com/",
+      "html_bytes": 282709,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://lepanier.com/menu": {
+      "url": "https://lepanier.com/menu",
+      "html_bytes": 1038259,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

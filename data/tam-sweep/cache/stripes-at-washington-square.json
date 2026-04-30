@@ -1,0 +1,39 @@
+{
+  "parent": "Stripes (at Washington Square) - Parent Account",
+  "slug": "stripes-at-washington-square",
+  "sfdc_account_id": "001PV00000mlKAwYAM",
+  "total_headroom": "$19,152",
+  "non_ec_headroom": "$19,152",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$1,788",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "Unknown",
+  "contact_email": "rendonfrancois@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Stripes at Washington Square"
+  ],
+  "websites": [
+    "https://stripesatwashingtonsquare.toast.site/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://stripesatwashingtonsquare.toast.site/": {
+      "url": "https://stripesatwashingtonsquare.toast.site/",
+      "html_bytes": 5597,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

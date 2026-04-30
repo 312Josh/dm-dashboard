@@ -1,0 +1,51 @@
+{
+  "parent": "Old Stove Brewing - WA",
+  "slug": "old-stove-brewing-wa",
+  "sfdc_account_id": "0014W00003F3s3dQAB",
+  "total_headroom": "$48,684",
+  "non_ec_headroom": "$48,684",
+  "est_ec_headroom": "$0",
+  "employee_count": "110",
+  "non_ec_arr": "$28,439",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "bstan@oldstove.com",
+  "location_count": 3,
+  "location_names": [
+    "Old Stove Brewing - Ballard",
+    "Old Stove Brewing - Nickerson",
+    "Old Stove Brewing - Pike Place"
+  ],
+  "websites": [
+    "https://www.oldstove.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.oldstove.com/": {
+      "url": "https://www.oldstove.com/",
+      "html_bytes": 894775,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/old-stove-brewing-pike-place-1901-western-avenue-ste-a/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/old-stove-brewing-pike-place-1901-western-avenue-ste-a/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

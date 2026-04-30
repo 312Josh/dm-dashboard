@@ -1,0 +1,61 @@
+{
+  "parent": "Brian Clevenger- Harvest",
+  "slug": "brian-clevenger-harvest",
+  "sfdc_account_id": "001C000001YWBnLIAX",
+  "total_headroom": "$91,500",
+  "non_ec_headroom": "$91,500",
+  "est_ec_headroom": "$0",
+  "employee_count": "93",
+  "non_ec_arr": "$39,491",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "brian@generalharvestseattle.com",
+  "location_count": 6,
+  "location_names": [
+    "Raccolto",
+    "Haerfest",
+    "Vendemmia",
+    "ELDR",
+    "GH Pizza and Pasta",
+    "AUTUMN"
+  ],
+  "websites": [
+    "https://www.generalharvestseattle.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.generalharvestseattle.com": {
+      "url": "https://www.generalharvestseattle.com",
+      "html_bytes": 240942,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/haerfest/giftcards",
+        "toast_loyalty": "toasttab.com/vendemmia/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/haerfest/giftcards",
+    "toast_loyalty": "toasttab.com/vendemmia/rewardsSignup"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

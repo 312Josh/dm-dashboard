@@ -1,0 +1,30 @@
+{
+  "parent": "Ickabod's Bar & Grill - Parent Account",
+  "slug": "ickabod-s-bar-grill",
+  "sfdc_account_id": "001PV00001dRASYYA4",
+  "total_headroom": "$20,516",
+  "non_ec_headroom": "$17,100",
+  "est_ec_headroom": "$3,416",
+  "employee_count": "20",
+  "non_ec_arr": "$5,445",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ickabods@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ickabod's Bar & Grill"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

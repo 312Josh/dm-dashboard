@@ -1,0 +1,47 @@
+{
+  "parent": "Masonry Group",
+  "slug": "masonry-group",
+  "sfdc_account_id": "001C000001bxMjKIAU",
+  "total_headroom": "$58,044",
+  "non_ec_headroom": "$58,044",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$4,473",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "matt@themasonryseattle.com",
+  "location_count": 3,
+  "location_names": [
+    "The Masonry - QA",
+    "Fast Fashion Brewing",
+    "Fast Fashion SODO Tasting Room"
+  ],
+  "websites": [
+    "https://themasonryseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://themasonryseattle.com/": {
+      "url": "https://themasonryseattle.com/",
+      "html_bytes": 251410,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "opentable",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

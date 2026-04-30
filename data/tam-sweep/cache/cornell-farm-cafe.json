@@ -1,0 +1,87 @@
+{
+  "parent": "Cornell Farm Cafe - Parent Account",
+  "slug": "cornell-farm-cafe",
+  "sfdc_account_id": "0013c00001qpnK7AAI",
+  "total_headroom": "$22,904",
+  "non_ec_headroom": "$17,052",
+  "est_ec_headroom": "$5,852",
+  "employee_count": "35",
+  "non_ec_arr": "$3,900",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "zoe@cornellfarms.com",
+  "location_count": 1,
+  "location_names": [
+    "Cornell Farm Cafe"
+  ],
+  "websites": [
+    "https://cornellfarms.com/pages/cafe"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cornellfarms.com/pages/cafe": {
+      "url": "https://cornellfarms.com/pages/cafe",
+      "html_bytes": 145834,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "loyalty": "Marsello",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cornellfarm",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/4dd67946-e401-41dd-a564-3e31fad558d9"
+      }
+    },
+    "https://cornellfarms.com/pages/menu": {
+      "url": "https://cornellfarms.com/pages/menu",
+      "html_bytes": 129314,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "loyalty": "Marsello",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cornellfarm",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://cornellfarms.com/collections/gift-cards": {
+      "url": "https://cornellfarms.com/collections/gift-cards",
+      "html_bytes": 146455,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "loyalty": "Marsello",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cornellfarm",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/cornellfarm",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/4dd67946-e401-41dd-a564-3e31fad558d9"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

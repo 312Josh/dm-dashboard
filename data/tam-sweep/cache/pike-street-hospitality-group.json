@@ -1,0 +1,56 @@
+{
+  "parent": "Pike Street Hospitality Group",
+  "slug": "pike-street-hospitality-group",
+  "sfdc_account_id": "0013c00001p3aMIAAY",
+  "total_headroom": "$137,192",
+  "non_ec_headroom": "$110,256",
+  "est_ec_headroom": "$26,936",
+  "employee_count": "161",
+  "non_ec_arr": "$44,701",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "travis@pikestreethg.com",
+  "location_count": 6,
+  "location_names": [
+    "Agua Verde Cafe",
+    "Rumba-Inside Passage",
+    "Bar Tango & Uncle Dom's",
+    "Double O Burgers",
+    "HONEYHOLE PIKE PNTO",
+    "Cantina Del Sol"
+  ],
+  "websites": [
+    "https://www.pikestreethg.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.pikestreethg.com/": {
+      "url": "https://www.pikestreethg.com/",
+      "html_bytes": 1092927,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/aguaverdecafe/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/aguaverdecafe/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

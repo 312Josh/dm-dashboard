@@ -1,0 +1,42 @@
+{
+  "parent": "Craft Pour House - Parent",
+  "slug": "craft-pour-house",
+  "sfdc_account_id": "0014W00002xeTngQAE",
+  "total_headroom": "$19,380",
+  "non_ec_headroom": "$18,540",
+  "est_ec_headroom": "$840",
+  "employee_count": "5",
+  "non_ec_arr": "$2,568",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "justin@craftpourhouse.com",
+  "location_count": 1,
+  "location_names": [
+    "Craft Pour House"
+  ],
+  "websites": [
+    "https://www.craftpourhouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.craftpourhouse.com/": {
+      "url": "https://www.craftpourhouse.com/",
+      "html_bytes": 160915,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "Sonny And Flo’s",
+  "parent": "Sonny And Flo\u2019s",
   "slug": "sonny-and-flo-s",
   "total_headroom": "null",
   "non_ec_headroom": "$20,940",
@@ -12,7 +12,7 @@
   "contact_email": "melissa.sonnyandflos@gmail.com",
   "location_count": 1,
   "location_names": [
-    "Sonny And Flo’s"
+    "Sonny And Flo\u2019s"
   ],
   "websites": [],
   "website_discovery_status": "not_found",
@@ -24,8 +24,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "rieger",
-    "--rep"
+    "rieger"
   ],
   "sfdc_account_id": "001PV00001RWGj7YAH"
 }

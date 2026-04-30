@@ -1,0 +1,84 @@
+{
+  "parent": "Hattie's Hat - Parent",
+  "slug": "hattie-s-hat",
+  "sfdc_account_id": "001C000001iN3AyIAK",
+  "total_headroom": "$17,052",
+  "non_ec_headroom": "$17,052",
+  "est_ec_headroom": "$0",
+  "employee_count": "32",
+  "non_ec_arr": "$5,973",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "max@sunsettavern.com",
+  "location_count": 1,
+  "location_names": [
+    "Hattie's Hat"
+  ],
+  "websites": [
+    "https://hatties-hat.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hatties-hat.com/": {
+      "url": "https://hatties-hat.com/",
+      "html_bytes": 8538,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/hattieshat/giftcards"
+      }
+    },
+    "https://hatties-hat.com/menus/breakfast.pdf": {
+      "url": "https://hatties-hat.com/menus/breakfast.pdf",
+      "html_bytes": 3803280,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://hatties-hat.com/menus/brunch.pdf": {
+      "url": "https://hatties-hat.com/menus/brunch.pdf",
+      "html_bytes": 2911907,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://hatties-hat.com/menus/lunch.pdf": {
+      "url": "https://hatties-hat.com/menus/lunch.pdf",
+      "html_bytes": 3803280,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://hatties-hat.com/menus/dinner.pdf": {
+      "url": "https://hatties-hat.com/menus/dinner.pdf",
+      "html_bytes": 2445061,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://hatties-hat.com/menus/hhour.pdf": {
+      "url": "https://hatties-hat.com/menus/hhour.pdf",
+      "html_bytes": 806581,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://hatties-hat.com/menus/kids.pdf": {
+      "url": "https://hatties-hat.com/menus/kids.pdf",
+      "html_bytes": 3064938,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/hattieshat/giftcards"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

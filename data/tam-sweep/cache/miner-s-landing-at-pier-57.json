@@ -1,0 +1,67 @@
+{
+  "parent": "Miner's Landing at Pier 57 PARENT",
+  "slug": "miner-s-landing-at-pier-57",
+  "sfdc_account_id": "0014W000037Ylj1QAC",
+  "total_headroom": "$211,736",
+  "non_ec_headroom": "$130,032",
+  "est_ec_headroom": "$81,704",
+  "employee_count": "487",
+  "non_ec_arr": "$173,362",
+  "state": "CA",
+  "city": "San Clemente",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "colin@pier57seattle.com",
+  "location_count": 11,
+  "location_names": [
+    "The Fisherman's Restaurant & Bar - San Clemente",
+    "Miner's Landing at Pier 57",
+    "Pier 57 Events",
+    "Enzo's Bistro & Bar - La Quinta",
+    "Crab Pot San Clemente",
+    "The Crab Pot -Long Beach",
+    "Enzo's Bistro & Bar - Issaquah",
+    "Enzos HEG",
+    "The Salmon Cooker",
+    "Alaskan Sourdough Bakery",
+    "The Crab Pot - Bellevue"
+  ],
+  "websites": [
+    "https://www.minerslanding.com/",
+    "https://www.thecrabpotseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.minerslanding.com/": {
+      "url": "https://www.minerslanding.com/",
+      "html_bytes": 528673,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.thecrabpotseattle.com/": {
+      "url": "https://www.thecrabpotseattle.com/",
+      "html_bytes": 5523,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "pier 57": "https://www.minerslanding.com/",
+    "crab pot": "https://www.thecrabpotseattle.com/",
+    "miner's landing": "https://www.minerslanding.com/"
+  }
+}

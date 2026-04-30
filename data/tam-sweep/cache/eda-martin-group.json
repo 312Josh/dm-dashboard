@@ -1,0 +1,64 @@
+{
+  "parent": "Eda Martin Group - Parent",
+  "slug": "eda-martin-group",
+  "sfdc_account_id": "0014W00003MgfLcQAJ",
+  "total_headroom": "$38,760",
+  "non_ec_headroom": "$58,860",
+  "est_ec_headroom": "$840",
+  "employee_count": "5",
+  "non_ec_arr": "$0",
+  "state": "WA",
+  "city": "White Center",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "evesterman@mac.com",
+  "location_count": 3,
+  "location_names": [
+    "Psycho Sally's Sausage",
+    "Cocina Casera",
+    "Cocina casera market"
+  ],
+  "websites": [
+    "https://cocinacasera.me/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cocinacasera.me/": {
+      "url": "https://cocinacasera.me/",
+      "html_bytes": 239787,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cocina-casera",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://cocinacasera.me/menu/": {
+      "url": "https://cocinacasera.me/menu/",
+      "html_bytes": 321697,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/cocina-casera",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/cocina-casera",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

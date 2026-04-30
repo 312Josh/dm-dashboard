@@ -1,0 +1,59 @@
+{
+  "parent": "Belle Epicurean",
+  "slug": "belle-epicurean",
+  "sfdc_account_id": "0014W00002xeXXfQAM",
+  "total_headroom": "$37,080",
+  "non_ec_headroom": "$37,080",
+  "est_ec_headroom": "$0",
+  "employee_count": "15",
+  "non_ec_arr": "$3,853",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "howard@belleepicurean.com",
+  "location_count": 2,
+  "location_names": [
+    "Belle Epicurean - Downtown 2022",
+    "Belle Epicurean - East Madison St"
+  ],
+  "websites": [
+    "https://www.belleepicurean.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.belleepicurean.com/": {
+      "url": "https://www.belleepicurean.com/",
+      "html_bytes": 5520,
+      "fingerprints": {
+        "website_cms": "Popmenu",
+        "online_ordering": "Popmenu",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251130105009/https://www.belleepicurean.com/",
+        "html_bytes": 411815,
+        "vendors": {
+          "website_cms": "Popmenu",
+          "online_ordering": "Popmenu",
+          "reservations": "OpenTable",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "ezcater",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "parent": "Santiam Brewing Company Parent",
+  "slug": "santiam-brewing-company",
+  "sfdc_account_id": "0014W00002V1tMTQAZ",
+  "total_headroom": "$15,024",
+  "non_ec_headroom": "$15,024",
+  "est_ec_headroom": "$0",
+  "employee_count": "18",
+  "non_ec_arr": "$7,250",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jim@santiambrewing.com",
+  "location_count": 1,
+  "location_names": [
+    "Santiam Brewing Company"
+  ],
+  "websites": [
+    "https://www.santiambrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.santiambrewing.com/": {
+      "url": "https://www.santiambrewing.com/",
+      "html_bytes": 93934,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/santiambrewing/rewardsSignup"
+      }
+    },
+    "https://www.santiambrewing.com/menu.html": {
+      "url": "https://www.santiambrewing.com/menu.html",
+      "html_bytes": 85581,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty"
+      },
+      "toast": {
+        "toast_loyalty": "toasttab.com/santiambrewing/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_loyalty": "toasttab.com/santiambrewing/rewardsSignup"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

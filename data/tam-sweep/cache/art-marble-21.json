@@ -1,0 +1,43 @@
+{
+  "parent": "Art Marble 21 - Parent Account",
+  "slug": "art-marble-21",
+  "sfdc_account_id": "0013c00001phdUJAAY",
+  "total_headroom": "$20,640",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$0",
+  "employee_count": "30",
+  "non_ec_arr": "$11,340",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "danny@artmarble21.com",
+  "location_count": 1,
+  "location_names": [
+    "Art Marble 21"
+  ],
+  "websites": [
+    "https://www.artmarble21.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.artmarble21.com/": {
+      "url": "https://www.artmarble21.com/",
+      "html_bytes": 324973,
+      "fingerprints": {
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

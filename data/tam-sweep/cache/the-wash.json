@@ -1,0 +1,41 @@
+{
+  "parent": "The Wash - Parent Account",
+  "slug": "the-wash",
+  "sfdc_account_id": "0014W00003Mg5tzQAB",
+  "total_headroom": "$23,992",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$3,052",
+  "employee_count": "18",
+  "non_ec_arr": "$600",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "emilio@thewashseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "The Wash"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/the-wash-1801-e-olive-way"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/the-wash-1801-e-olive-way": {
+      "url": "https://www.toasttab.com/local/the-wash-1801-e-olive-way",
+      "html_bytes": 5627,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

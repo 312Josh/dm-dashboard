@@ -1,0 +1,42 @@
+{
+  "parent": "Piedmont - Parent Account",
+  "slug": "piedmont",
+  "sfdc_account_id": "0014W00003JUmreQAD",
+  "total_headroom": "$13,332",
+  "non_ec_headroom": "$13,332",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$8,160",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "charles@piedmontseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Piedmont"
+  ],
+  "websites": [
+    "https://piedmontseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://piedmontseattle.com/": {
+      "url": "https://piedmontseattle.com/",
+      "html_bytes": 120008,
+      "fingerprints": {
+        "website_cms": "GoDaddy",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

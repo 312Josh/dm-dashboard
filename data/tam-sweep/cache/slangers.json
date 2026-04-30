@@ -1,0 +1,43 @@
+{
+  "parent": "Slangers Parent",
+  "slug": "slangers",
+  "sfdc_account_id": "0014W00002xdC8OQAU",
+  "total_headroom": "$16,824",
+  "non_ec_headroom": "$16,824",
+  "est_ec_headroom": "$0",
+  "employee_count": "2",
+  "non_ec_arr": "$5,256",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "robert.s@slangersfood.com",
+  "location_count": 1,
+  "location_names": [
+    "Slangers"
+  ],
+  "websites": [
+    "https://slangersfood.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://slangersfood.com/": {
+      "url": "https://slangersfood.com/",
+      "html_bytes": 5513,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "parent": "Good Bar/Deadline Parent",
+  "slug": "good-bar-deadline",
+  "sfdc_account_id": "001C000001cGIQgIAO",
+  "total_headroom": "$31,116",
+  "non_ec_headroom": "$31,116",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$15,504",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@goodbarseattle.com",
+  "location_count": 2,
+  "location_names": [
+    "Good Bar 2",
+    "Deadline"
+  ],
+  "websites": [
+    "https://goodbarseattle.com/",
+    "https://deadlineseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://goodbarseattle.com/": {
+      "url": "https://goodbarseattle.com/",
+      "html_bytes": 92479,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://goodbarseattle.com/menu": {
+      "url": "https://goodbarseattle.com/menu",
+      "html_bytes": 85852,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://deadlineseattle.com/": {
+      "url": "https://deadlineseattle.com/",
+      "html_bytes": 297735,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/deadline-114-1st-avenue-south",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/764c95fa-a13b-405f-9190-a42bd607a4c3"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/deadline-114-1st-avenue-south",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/764c95fa-a13b-405f-9190-a42bd607a4c3"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "good bar": "https://goodbarseattle.com/",
+    "dead line": "https://deadlineseattle.com/"
+  }
+}

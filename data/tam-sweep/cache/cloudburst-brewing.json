@@ -1,0 +1,43 @@
+{
+  "parent": "Cloudburst Brewing - Parent",
+  "slug": "cloudburst-brewing",
+  "sfdc_account_id": "0014W000033t8jVQAQ",
+  "total_headroom": "$44,260",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$2,380",
+  "employee_count": "14",
+  "non_ec_arr": "$1,200",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "steve@cloudburstbrew.com",
+  "location_count": 2,
+  "location_names": [
+    "Cloudburst Brewing",
+    "Cloudburst Brewing - Shilshole"
+  ],
+  "websites": [
+    "https://cloudburstbrew.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://cloudburstbrew.com/": {
+      "url": "https://cloudburstbrew.com/",
+      "html_bytes": 201404,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

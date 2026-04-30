@@ -1,0 +1,45 @@
+{
+  "parent": "VARAMINI RESTAURANTS, LLC",
+  "slug": "varamini-restaurants-llc",
+  "sfdc_account_id": "001PV00001y9vvJYAQ",
+  "total_headroom": "$83,460",
+  "non_ec_headroom": "$83,460",
+  "est_ec_headroom": "$0",
+  "employee_count": "36",
+  "non_ec_arr": "$13,980",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "info@gantryseattle.com",
+  "location_count": 4,
+  "location_names": [
+    "Gantry Public House Expansion",
+    "Gantry Public House",
+    "Peoples Burger Truck 2",
+    "People's Burger Truck 1"
+  ],
+  "websites": [
+    "https://www.gantryseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.gantryseattle.com/": {
+      "url": "https://www.gantryseattle.com/",
+      "html_bytes": 111950,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

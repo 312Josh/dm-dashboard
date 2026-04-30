@@ -1,0 +1,47 @@
+{
+  "parent": "Seattle Center Food Hall - Parent Account",
+  "slug": "seattle-center-food-hall",
+  "sfdc_account_id": "0014W00003MfpiLQAR",
+  "total_headroom": "$62,556",
+  "non_ec_headroom": "$60,120",
+  "est_ec_headroom": "$2,436",
+  "employee_count": "15",
+  "non_ec_arr": "$11,460",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "tr.bigfoodmobile@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Seattle Center Food Hall",
+    "Wok",
+    "Big Mike"
+  ],
+  "websites": [
+    "https://seattlecenter.com/explore/attractions/armory"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://seattlecenter.com/explore/attractions/armory": {
+      "url": "https://seattlecenter.com/explore/attractions/armory",
+      "html_bytes": 69547,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://seattlecenter.com/connect/book-an-event": {
+      "url": "https://seattlecenter.com/connect/book-an-event",
+      "html_bytes": 53420,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

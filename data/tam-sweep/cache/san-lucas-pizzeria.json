@@ -1,0 +1,51 @@
+{
+  "parent": "San Lucas pizzeria - Parent Account",
+  "slug": "san-lucas-pizzeria",
+  "sfdc_account_id": "001PV00001OFtXKYA1",
+  "total_headroom": "$18,716",
+  "non_ec_headroom": "$18,324",
+  "est_ec_headroom": "$392",
+  "employee_count": "2",
+  "non_ec_arr": "$2,616",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "cristobalangel57@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "San Lucas Pizzeria"
+  ],
+  "websites": [
+    "https://sanlucaspizzeriapdx.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sanlucaspizzeriapdx.com/": {
+      "url": "https://sanlucaspizzeriapdx.com/",
+      "html_bytes": 5542,
+      "fingerprints": {
+        "website_cms": "GoDaddy"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20250415221030/https://sanlucaspizzeriapdx.com/",
+        "html_bytes": 92737,
+        "vendors": {
+          "website_cms": "GoDaddy"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

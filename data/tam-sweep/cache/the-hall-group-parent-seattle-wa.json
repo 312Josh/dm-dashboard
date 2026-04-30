@@ -1,0 +1,51 @@
+{
+  "parent": "The Hall Group Parent - Seattle, WA",
+  "slug": "the-hall-group-parent-seattle-wa",
+  "sfdc_account_id": "0014W00003GWeNvQAL",
+  "total_headroom": "$16,176",
+  "non_ec_headroom": "$16,176",
+  "est_ec_headroom": "$0",
+  "employee_count": "103",
+  "non_ec_arr": "$38,787",
+  "state": "WA",
+  "city": "Kirkland",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "juice@thehall.group",
+  "location_count": 2,
+  "location_names": [
+    "Moss Bay Beer Hall",
+    "The Hall at The Stadium"
+  ],
+  "websites": [
+    "https://thehall.group/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thehall.group/": {
+      "url": "https://thehall.group/",
+      "html_bytes": 5489,
+      "fingerprints": {
+        "reservations": "Tock",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260115051318/https://thehall.group/",
+        "html_bytes": 500000,
+        "vendors": {
+          "reservations": "Tock",
+          "catering_mention": "Private-events copy"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

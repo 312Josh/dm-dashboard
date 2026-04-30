@@ -1,5 +1,5 @@
 {
-  "parent": "Que’d up 615 pleasant view - Parent Account",
+  "parent": "Que\u2019d up 615 pleasant view - Parent Account",
   "slug": "que-d-up-615-pleasant-view",
   "total_headroom": "$20,940",
   "non_ec_headroom": "$20,940",
@@ -33,8 +33,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "0014W00003MgnFlQAJ"
 }

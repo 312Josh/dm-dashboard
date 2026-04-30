@@ -1,0 +1,30 @@
+{
+  "parent": "La Cora Taqueria LLC",
+  "slug": "la-cora-taqueria-llc",
+  "sfdc_account_id": "0014W00003MgZa9QAF",
+  "total_headroom": "$14,820",
+  "non_ec_headroom": "$14,652",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "OR",
+  "city": "Keizer",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "lacorasales@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "La Cora Taqueria LLC"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

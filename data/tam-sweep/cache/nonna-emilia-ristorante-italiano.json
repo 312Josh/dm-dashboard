@@ -1,0 +1,46 @@
+{
+  "parent": "Nonna Emilia Ristorante Italiano - Parent Account",
+  "slug": "nonna-emilia-ristorante-italiano",
+  "sfdc_account_id": "0014W00002mruKdQAI",
+  "total_headroom": "$21,092",
+  "non_ec_headroom": "$14,820",
+  "est_ec_headroom": "$6,272",
+  "employee_count": "37",
+  "non_ec_arr": "$11,275",
+  "state": "OR",
+  "city": "Aloha",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "sheri_acker@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Nonna Emilia Ristorante Italiano"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/nonna-emilia-ristorante-italiano-17210-sw-shaw-st"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/nonna-emilia-ristorante-italiano-17210-sw-shaw-st": {
+      "url": "https://order.toasttab.com/online/nonna-emilia-ristorante-italiano-17210-sw-shaw-st",
+      "html_bytes": 5790,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats",
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

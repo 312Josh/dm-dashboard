@@ -1,0 +1,42 @@
+{
+  "parent": "Unicorn2 - Parent Account",
+  "slug": "unicorn2",
+  "sfdc_account_id": "001PV00001rCLT6YAO",
+  "total_headroom": "$23,240",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$3,500",
+  "employee_count": "21",
+  "non_ec_arr": "$8,775",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "kaileigh@unicornseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Unicorn2"
+  ],
+  "websites": [
+    "http://www.unicornseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "http://www.unicornseattle.com/": {
+      "url": "http://www.unicornseattle.com/",
+      "html_bytes": 193748,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

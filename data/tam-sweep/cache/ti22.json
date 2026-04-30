@@ -1,0 +1,47 @@
+{
+  "parent": "Ti22 Parent",
+  "slug": "ti22",
+  "sfdc_account_id": "001PV00000mLLDtYAO",
+  "total_headroom": "$11,916",
+  "non_ec_headroom": "$11,916",
+  "est_ec_headroom": "$0",
+  "employee_count": "8",
+  "non_ec_arr": "$11,664",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "b3n.ev4ns@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pingyang Steakhouse"
+  ],
+  "websites": [
+    "https://ti22restaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://ti22restaurant.com/": {
+      "url": "https://ti22restaurant.com/",
+      "html_bytes": 140224,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ezcater",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

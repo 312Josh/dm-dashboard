@@ -1,0 +1,54 @@
+{
+  "parent": "Food Junction - Parent",
+  "slug": "food-junction",
+  "sfdc_account_id": "0014W00002xfaZCQAY",
+  "total_headroom": "$41,132",
+  "non_ec_headroom": "$39,900",
+  "est_ec_headroom": "$1,232",
+  "employee_count": "7",
+  "non_ec_arr": "$3,900",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Unknown",
+  "contact_email": "gurvinder.singh88@yahoo.com",
+  "location_count": 2,
+  "location_names": [
+    "Pride India Groceries",
+    "Food Junction Restaurant"
+  ],
+  "websites": [
+    "https://foodjunctionseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://foodjunctionseattle.com/": {
+      "url": "https://foodjunctionseattle.com/",
+      "html_bytes": 154189,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/food-junction-restaurant-1165-harrison-st-ste-a",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/food-junction-restaurant-1165-harrison-st-ste-a",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "parent": "Sassy Onion Parent",
+  "slug": "sassy-onion",
+  "sfdc_account_id": "0014W000037YihXQAS",
+  "total_headroom": "$134,772",
+  "non_ec_headroom": "$134,772",
+  "est_ec_headroom": "$0",
+  "employee_count": "75",
+  "non_ec_arr": "$21,373",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "kevin@sassyonion.com",
+  "location_count": 7,
+  "location_names": [
+    "Sassy Onion Catering",
+    "Sassy Onion - Corporate Office",
+    "Cafe at Oregon Tool",
+    "Cafe at SAIF",
+    "Sweetly Baked",
+    "Sassy Onion -State St.",
+    "Sassy Onion - Market Street"
+  ],
+  "websites": [
+    "https://sassyonion.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://sassyonion.com/": {
+      "url": "https://sassyonion.com/",
+      "html_bytes": 5490,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub",
+    "ubereats",
+    "doordash",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

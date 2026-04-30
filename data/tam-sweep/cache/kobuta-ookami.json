@@ -1,0 +1,60 @@
+{
+  "parent": "Kobuta & Ookami PARENT",
+  "slug": "kobuta-ookami",
+  "sfdc_account_id": "0014W000033tTQiQAM",
+  "total_headroom": "$44,500",
+  "non_ec_headroom": "$35,904",
+  "est_ec_headroom": "$8,596",
+  "employee_count": "51",
+  "non_ec_arr": "$4,920",
+  "state": "WA",
+  "city": "Redmond",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ko.mlt@kobutaandookami.com",
+  "location_count": 2,
+  "location_names": [
+    "Kobuta & Ookami - Redmond",
+    "Kobuta & Ookami Katsu and Sake House - Capitol Hill"
+  ],
+  "websites": [
+    "https://www.kobutaandookami.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.kobutaandookami.com/": {
+      "url": "https://www.kobutaandookami.com/",
+      "html_bytes": 831876,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/08fef0c5-9d08-4d54-9ac8-17ee368d05d9"
+      }
+    },
+    "https://www.kobutaandookami.com/menu": {
+      "url": "https://www.kobutaandookami.com/menu",
+      "html_bytes": 1286648,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/08fef0c5-9d08-4d54-9ac8-17ee368d05d9"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_tables": "tables.toasttab.com/restaurants/08fef0c5-9d08-4d54-9ac8-17ee368d05d9"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

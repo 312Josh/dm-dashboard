@@ -1,0 +1,59 @@
+{
+  "parent": "World Pizza - Parent",
+  "slug": "world-pizza",
+  "sfdc_account_id": "0014W00002LlJE1QAN",
+  "total_headroom": "$21,780",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$840",
+  "employee_count": "5",
+  "non_ec_arr": "-$3",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "mrs.crosleycone@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "World Pizza LLC"
+  ],
+  "websites": [
+    "https://www.worldpizzaseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.worldpizzaseattle.com/": {
+      "url": "https://www.worldpizzaseattle.com/",
+      "html_bytes": 66782,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    },
+    "https://www.worldpizzaseattle.com/menu": {
+      "url": "https://www.worldpizzaseattle.com/menu",
+      "html_bytes": 57701,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

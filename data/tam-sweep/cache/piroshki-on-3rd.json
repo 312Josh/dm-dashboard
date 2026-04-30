@@ -1,0 +1,111 @@
+{
+  "parent": "Piroshki on 3rd- Parent Account",
+  "slug": "piroshki-on-3rd",
+  "sfdc_account_id": "0014W00002xejlUQAQ",
+  "total_headroom": "$17,760",
+  "non_ec_headroom": "$17,760",
+  "est_ec_headroom": "$0",
+  "employee_count": "17",
+  "non_ec_arr": "$4,320",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "hohums@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Piroshki on 3rd"
+  ],
+  "websites": [
+    "https://pinoyshki.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pinoyshki.com/": {
+      "url": "https://pinoyshki.com/",
+      "html_bytes": 182205,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pinoyshki",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/pinoyshki/giftcards",
+        "toast_loyalty": "toasttab.com/pinoyshki/rewardsSignup"
+      }
+    },
+    "https://pinoyshki.com/pages/menu": {
+      "url": "https://pinoyshki.com/pages/menu",
+      "html_bytes": 99279,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pinoyshki",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/pinoyshki/giftcards",
+        "toast_loyalty": "toasttab.com/pinoyshki/rewardsSignup"
+      }
+    },
+    "https://pinoyshki.com/collections/gift-card": {
+      "url": "https://pinoyshki.com/collections/gift-card",
+      "html_bytes": 102886,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pinoyshki",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/pinoyshki/giftcards",
+        "toast_loyalty": "toasttab.com/pinoyshki/rewardsSignup"
+      }
+    },
+    "https://pinoyshki.com/pages/rewards": {
+      "url": "https://pinoyshki.com/pages/rewards",
+      "html_bytes": 97813,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "oo": "Toast OO (native)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/pinoyshki",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/pinoyshki/giftcards",
+        "toast_loyalty": "toasttab.com/pinoyshki/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/pinoyshki",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/pinoyshki/giftcards",
+    "toast_loyalty": "toasttab.com/pinoyshki/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

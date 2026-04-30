@@ -1,0 +1,43 @@
+{
+  "parent": "Familyfriend - Parent Account",
+  "slug": "familyfriend",
+  "sfdc_account_id": "0014W00003GWj6XQAT",
+  "total_headroom": "$16,164",
+  "non_ec_headroom": "$16,164",
+  "est_ec_headroom": "$0",
+  "employee_count": "13",
+  "non_ec_arr": "$6,996",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "elmerdulla@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Familyfriend"
+  ],
+  "websites": [
+    "https://www.toasttab.com/local/order/familyfriend-3315-beacon-avenue-south"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.toasttab.com/local/order/familyfriend-3315-beacon-avenue-south": {
+      "url": "https://www.toasttab.com/local/order/familyfriend-3315-beacon-avenue-south",
+      "html_bytes": 5703,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

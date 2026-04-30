@@ -1,0 +1,54 @@
+{
+  "parent": "Shawarma Hazard",
+  "slug": "shawarma-hazard",
+  "sfdc_account_id": "0014W00003P2nsxQAB",
+  "total_headroom": "$20,880",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$840",
+  "employee_count": "5",
+  "non_ec_arr": "$540",
+  "state": "OR",
+  "city": "Tigard",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "shawarmahazard@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Shawarma Hazard"
+  ],
+  "websites": [
+    "https://shawarmahazard.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://shawarmahazard.com/": {
+      "url": "https://shawarmahazard.com/",
+      "html_bytes": 197038,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://shawarmahazard.com/order-now/": {
+      "url": "https://shawarmahazard.com/order-now/",
+      "html_bytes": 95541,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "parent": "Tastebud PDX - Parent Account",
+  "slug": "tastebud-pdx",
+  "sfdc_account_id": "0014W00002mtoJFQAY",
+  "total_headroom": "$19,000",
+  "non_ec_headroom": "$16,620",
+  "est_ec_headroom": "$2,380",
+  "employee_count": "14",
+  "non_ec_arr": "$4,005",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "mark@tastebudpdx.com",
+  "location_count": 1,
+  "location_names": [
+    "Tastebud PDX"
+  ],
+  "websites": [
+    "https://tastebudpdx.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tastebudpdx.com/": {
+      "url": "https://tastebudpdx.com/",
+      "html_bytes": 198051,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://tastebudpdx.com/menu": {
+      "url": "https://tastebudpdx.com/menu",
+      "html_bytes": 153618,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://tastebudpdx.com/menu-1": {
+      "url": "https://tastebudpdx.com/menu-1",
+      "html_bytes": 185549,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

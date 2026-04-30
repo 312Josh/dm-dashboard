@@ -1,0 +1,63 @@
+{
+  "parent": "Ozzies in Seattle - Parent Account",
+  "slug": "ozzies-in-seattle",
+  "sfdc_account_id": "0014W000037YkgvQAC",
+  "total_headroom": "$14,316",
+  "non_ec_headroom": "$14,316",
+  "est_ec_headroom": "$0",
+  "employee_count": "43",
+  "non_ec_arr": "$14,064",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "joemahoney38@yahoo.com",
+  "location_count": 1,
+  "location_names": [
+    "Ozzies in Seattle"
+  ],
+  "websites": [
+    "https://www.ozziesinseattle.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ozziesinseattle.com": {
+      "url": "https://www.ozziesinseattle.com",
+      "html_bytes": 793302,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.ozziesinseattle.com/menu": {
+      "url": "https://www.ozziesinseattle.com/menu",
+      "html_bytes": 686645,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.ozziesinseattle.com/reservations": {
+      "url": "https://www.ozziesinseattle.com/reservations",
+      "html_bytes": 942878,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

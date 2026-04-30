@@ -1,0 +1,30 @@
+{
+  "parent": "Send Noods",
+  "slug": "send-noods",
+  "sfdc_account_id": "001PV00001inB3mYAE",
+  "total_headroom": "$16,034",
+  "non_ec_headroom": "$15,732",
+  "est_ec_headroom": "$302",
+  "employee_count": "2",
+  "non_ec_arr": "$0",
+  "state": "OR",
+  "city": "Bull Mountain",
+  "restaurant_type": "Unknown",
+  "contact_email": "adzwack@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Send Noods"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

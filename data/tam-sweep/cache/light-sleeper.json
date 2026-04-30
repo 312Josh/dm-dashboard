@@ -1,0 +1,43 @@
+{
+  "parent": "Light Sleeper Parent",
+  "slug": "light-sleeper",
+  "sfdc_account_id": "0013c00001scLI2AAM",
+  "total_headroom": "$19,781",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$941",
+  "employee_count": "6",
+  "non_ec_arr": "$2,100",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "norge.larson@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Light Sleeper"
+  ],
+  "websites": [
+    "https://www.lightsleeperseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.lightsleeperseattle.com/": {
+      "url": "https://www.lightsleeperseattle.com/",
+      "html_bytes": 13157,
+      "fingerprints": {
+        "reservations": "Resy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

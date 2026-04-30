@@ -1,0 +1,51 @@
+{
+  "parent": "The Lodge Sports Grille Parent",
+  "slug": "the-lodge-sports-grille",
+  "sfdc_account_id": "0013c00001tsdaGAAQ",
+  "total_headroom": "$25,056",
+  "non_ec_headroom": "$25,056",
+  "est_ec_headroom": "$0",
+  "employee_count": "52",
+  "non_ec_arr": "$11,736",
+  "state": "WA",
+  "city": "Mill Creek",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "alan@cbcpartnersllc.com",
+  "location_count": 2,
+  "location_names": [
+    "The Lodge Sports Grille - Mill Creek",
+    "The Lodge Sports Grille - Mukilteo"
+  ],
+  "websites": [
+    "https://thelodgesportsgrille.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://thelodgesportsgrille.com/": {
+      "url": "https://thelodgesportsgrille.com/",
+      "html_bytes": 151065,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

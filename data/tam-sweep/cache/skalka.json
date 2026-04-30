@@ -1,0 +1,56 @@
+{
+  "parent": "Skalka",
+  "slug": "skalka",
+  "sfdc_account_id": "0013c00001t62QhAAI",
+  "total_headroom": "$18,632",
+  "non_ec_headroom": "$16,560",
+  "est_ec_headroom": "$2,072",
+  "employee_count": "12",
+  "non_ec_arr": "$7,260",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sergey@skalkaseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Skalka"
+  ],
+  "websites": [
+    "https://www.skalkaseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.skalkaseattle.com/": {
+      "url": "https://www.skalkaseattle.com/",
+      "html_bytes": 149497,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Klaviyo",
+        "scheduling": "7shifts"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/skalka/giftcards",
+        "toast_loyalty": "toasttab.com/skalka/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/skalka/giftcards",
+    "toast_loyalty": "toasttab.com/skalka/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

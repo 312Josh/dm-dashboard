@@ -1,0 +1,54 @@
+{
+  "parent": "Hood Famous Parent",
+  "slug": "hood-famous",
+  "sfdc_account_id": "001C000001lj9CjIAI",
+  "total_headroom": "$16,572",
+  "non_ec_headroom": "$14,640",
+  "est_ec_headroom": "$1,932",
+  "employee_count": "12",
+  "non_ec_arr": "$7,626",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "chera@hoodfamousbakeshop.com",
+  "location_count": 1,
+  "location_names": [
+    "Hood Famous Cafe & Bar"
+  ],
+  "websites": [
+    "https://hoodfamousbakeshop.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://hoodfamousbakeshop.com/": {
+      "url": "https://hoodfamousbakeshop.com/",
+      "html_bytes": 0,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "online_ordering": "Toast",
+        "catering_mention": "Catering page"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260421021910/https://hoodfamousbakeshop.com/",
+        "html_bytes": 134954,
+        "vendors": {
+          "website_cms": "SpotHopper",
+          "online_ordering": "Toast",
+          "catering_mention": "Catering page"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

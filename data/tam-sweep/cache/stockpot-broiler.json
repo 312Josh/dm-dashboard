@@ -1,0 +1,45 @@
+{
+  "parent": "Stockpot Broiler PARENT ACCOUNT",
+  "slug": "stockpot-broiler",
+  "sfdc_account_id": "0014W00002W81sHQAR",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "55",
+  "non_ec_arr": "$2,520",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jessicahitt60@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Stockpot Broiler"
+  ],
+  "websites": [
+    "https://www.stockpotbroiler.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.stockpotbroiler.com/": {
+      "url": "https://www.stockpotbroiler.com/",
+      "html_bytes": 126945,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

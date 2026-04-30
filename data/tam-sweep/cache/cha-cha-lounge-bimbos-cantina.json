@@ -1,0 +1,43 @@
+{
+  "parent": "Cha Cha Lounge / Bimbos Cantina Parent",
+  "slug": "cha-cha-lounge-bimbos-cantina",
+  "sfdc_account_id": "0013c00001qENI0AAO",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$1,908",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "barryscottsmith@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cha Cha Lounge Bimbos Cantina"
+  ],
+  "websites": [
+    "https://chachaloungeseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://chachaloungeseattle.com/": {
+      "url": "https://chachaloungeseattle.com/",
+      "html_bytes": 6206,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

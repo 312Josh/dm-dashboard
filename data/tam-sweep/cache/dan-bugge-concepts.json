@@ -1,0 +1,48 @@
+{
+  "parent": "Dan Bugge Concepts",
+  "slug": "dan-bugge-concepts",
+  "sfdc_account_id": "0014W000037YM8xQAG",
+  "total_headroom": "$84,452",
+  "non_ec_headroom": "$70,368",
+  "est_ec_headroom": "$14,084",
+  "employee_count": "84",
+  "non_ec_arr": "$9,600",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "dan@mattsinthemarket.com",
+  "location_count": 4,
+  "location_names": [
+    "Matt's in the Market",
+    "Radiator Whiskey - Ballard",
+    "Radiator Whiskey",
+    "White Swan Public House"
+  ],
+  "websites": [
+    "https://www.mattsinthemarket.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.mattsinthemarket.com/": {
+      "url": "https://www.mattsinthemarket.com/",
+      "html_bytes": 318292,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

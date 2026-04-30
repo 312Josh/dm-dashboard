@@ -1,0 +1,80 @@
+{
+  "parent": "Marcus Lalario Concepts",
+  "slug": "marcus-lalario-concepts",
+  "sfdc_account_id": "0013c00001tnuBTAAY",
+  "total_headroom": "$146,376",
+  "non_ec_headroom": "$127,812",
+  "est_ec_headroom": "$18,564",
+  "employee_count": "111",
+  "non_ec_arr": "$21,576",
+  "state": "WA",
+  "city": "seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "marcus@sugarshackunlimited.com",
+  "location_count": 7,
+  "location_names": [
+    "Ciudad",
+    "Mezzanotte Seattle",
+    "Darkalino's Italian Deli",
+    "Lil Woody's - Capitol Hill",
+    "Lil Woody's - Ballard",
+    "Lil Woody's - White Center",
+    "Lil Woody's - Greenlake"
+  ],
+  "websites": [
+    "https://lilwoodys.com/",
+    "https://mezzanotteseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lilwoodys.com/": {
+      "url": "https://lilwoodys.com/",
+      "html_bytes": 2033343,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (native)",
+        "gift_cards": "Square Gift",
+        "pos_other": "Square"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/locations",
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://mezzanotteseattle.com/": {
+      "url": "https://mezzanotteseattle.com/",
+      "html_bytes": 160392,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/mezzanotte/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/locations",
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML",
+    "toast_gift": "toasttab.com/mezzanotte/giftcards"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "lil woody": "https://lilwoodys.com/",
+    "mezzanotte": "https://mezzanotteseattle.com/"
+  }
+}

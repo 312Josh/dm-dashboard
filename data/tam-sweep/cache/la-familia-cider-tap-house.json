@@ -1,0 +1,42 @@
+{
+  "parent": "La familia cider tap house - Parent Account",
+  "slug": "la-familia-cider-tap-house",
+  "sfdc_account_id": "0014W00002ZmxQ5QAJ",
+  "total_headroom": "$18,656",
+  "non_ec_headroom": "$18,012",
+  "est_ec_headroom": "$644",
+  "employee_count": "4",
+  "non_ec_arr": "$2,532",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "josegonzalezre@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "La Familia Cider Tap House"
+  ],
+  "websites": [
+    "https://lafamiliacider.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lafamiliacider.com/": {
+      "url": "https://lafamiliacider.com/",
+      "html_bytes": 176633,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

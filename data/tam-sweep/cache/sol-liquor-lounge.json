@@ -1,0 +1,49 @@
+{
+  "parent": "Sol Liquor Lounge Parent",
+  "slug": "sol-liquor-lounge",
+  "sfdc_account_id": "001C000001iTzcVIAS",
+  "total_headroom": "$21,320",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$980",
+  "employee_count": "6",
+  "non_ec_arr": "$300",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "andre@solliquor.com",
+  "location_count": 1,
+  "location_names": [
+    "Sol Liquor Lounge"
+  ],
+  "websites": [
+    "https://www.solliquor.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.solliquor.com/": {
+      "url": "https://www.solliquor.com/",
+      "html_bytes": 133159,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/solliquor/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/solliquor/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

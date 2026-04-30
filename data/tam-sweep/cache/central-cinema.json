@@ -1,0 +1,39 @@
+{
+  "parent": "Central Cinema - Parent Account",
+  "slug": "central-cinema",
+  "sfdc_account_id": "001C000001Zsq1IIAR",
+  "total_headroom": "$21,284",
+  "non_ec_headroom": "$19,212",
+  "est_ec_headroom": "$2,072",
+  "employee_count": "12",
+  "non_ec_arr": "$2,154",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "kevin@central-cinema.com",
+  "location_count": 1,
+  "location_names": [
+    "Central Cinema"
+  ],
+  "websites": [
+    "https://central-cinema.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://central-cinema.com/": {
+      "url": "https://central-cinema.com/",
+      "html_bytes": 8392,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

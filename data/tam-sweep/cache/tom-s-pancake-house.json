@@ -1,0 +1,46 @@
+{
+  "parent": "Tom’s Pancake House Parent",
+  "slug": "tom-s-pancake-house",
+  "sfdc_account_id": "0013c00001rDzr0AAC",
+  "total_headroom": "$16,860",
+  "non_ec_headroom": "$16,860",
+  "est_ec_headroom": "$0",
+  "employee_count": "41",
+  "non_ec_arr": "$5,955",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "gwhite0105@aol.com",
+  "location_count": 1,
+  "location_names": [
+    "Toms Pancake House"
+  ],
+  "websites": [
+    "https://tomspancakehouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tomspancakehouse.com/": {
+      "url": "https://tomspancakehouse.com/",
+      "html_bytes": 53298,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

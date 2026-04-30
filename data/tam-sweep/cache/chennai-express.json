@@ -1,0 +1,48 @@
+{
+  "parent": "Chennai Express - Parent Account",
+  "slug": "chennai-express",
+  "sfdc_account_id": "001PV00001ZGonNYAT",
+  "total_headroom": "$16,072",
+  "non_ec_headroom": "$15,540",
+  "est_ec_headroom": "$532",
+  "employee_count": "3",
+  "non_ec_arr": "$7,200",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Unknown",
+  "contact_email": "haribalaji26@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Chennai Express"
+  ],
+  "websites": [
+    "https://www.chennaiexpressonline.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.chennaiexpressonline.com/": {
+      "url": "https://www.chennaiexpressonline.com/",
+      "html_bytes": 63582,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "pos_other": "Square",
+        "delivery_platforms": "ChowNow Direct"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

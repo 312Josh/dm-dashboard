@@ -1,0 +1,30 @@
+{
+  "parent": "Keizer Elks Lodge - 2472",
+  "slug": "keizer-elks-lodge-2472",
+  "sfdc_account_id": "001C000001hp9quIAA",
+  "total_headroom": "$21,596",
+  "non_ec_headroom": "$17,592",
+  "est_ec_headroom": "$4,004",
+  "employee_count": "24",
+  "non_ec_arr": "$4,415",
+  "state": "OR",
+  "city": "Keizer",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "keizerelks@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "Keizer Elks Lodge - 2472"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

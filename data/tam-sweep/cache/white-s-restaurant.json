@@ -1,0 +1,56 @@
+{
+  "parent": "White's Restaurant - Parent Account",
+  "slug": "white-s-restaurant",
+  "sfdc_account_id": "0014W00003Mg6tuQAB",
+  "total_headroom": "$18,840",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$0",
+  "employee_count": "16",
+  "non_ec_arr": "$3,300",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mike@willametteequity.com",
+  "location_count": 1,
+  "location_names": [
+    "White's Restaurant"
+  ],
+  "websites": [
+    "https://whitesrestaurant1936.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://whitesrestaurant1936.com/": {
+      "url": "https://whitesrestaurant1936.com/",
+      "html_bytes": 48412,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/whites-restaurant-salem",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://whitesrestaurant1936.com/menu": {
+      "url": "https://whitesrestaurant1936.com/menu",
+      "html_bytes": 127686,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/whites-restaurant-salem",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

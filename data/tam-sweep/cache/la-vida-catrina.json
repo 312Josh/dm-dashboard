@@ -1,0 +1,62 @@
+{
+  "parent": "La Vida Catrina Parent",
+  "slug": "la-vida-catrina",
+  "sfdc_account_id": "0013c00001o7DU5AAM",
+  "total_headroom": "$20,784",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$1,344",
+  "employee_count": "8",
+  "non_ec_arr": "$4,080",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "lavidacatrina01@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "La Vida Catrina"
+  ],
+  "websites": [
+    "https://lavidacatrinasalem.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lavidacatrinasalem.com/": {
+      "url": "https://lavidacatrinasalem.com/",
+      "html_bytes": 140154,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    },
+    "https://lavidacatrinasalem.com/menus/": {
+      "url": "https://lavidacatrinasalem.com/menus/",
+      "html_bytes": 104787,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

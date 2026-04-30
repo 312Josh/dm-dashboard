@@ -1,0 +1,160 @@
+{
+  "parent": "Duke's Seafood Seattle PARENT",
+  "slug": "duke-s-seafood-seattle",
+  "sfdc_account_id": "0014W00003Mgrq3QAB",
+  "total_headroom": "$172,684",
+  "non_ec_headroom": "$112,092",
+  "est_ec_headroom": "$60,592",
+  "employee_count": "362",
+  "non_ec_arr": "$35,874",
+  "state": "WA",
+  "city": "Tacoma",
+  "restaurant_type": "FSR - Fine Dining",
+  "contact_email": "jm@dukesseafood.com",
+  "location_count": 7,
+  "location_names": [
+    "Duke's Seafood Seattle TACOMA",
+    "Duke's Seafood Seattle - SLU",
+    "Duke's Seafood Seattle BELLEVUE",
+    "Duke's Seafood Seattle SOUTHCENTER 2",
+    "Dockside at Duke's",
+    "Duke's Seafood Seattle GREEN LAKE",
+    "Duke's Seafood Seattle KENT"
+  ],
+  "websites": [
+    "https://dukesseafood.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://dukesseafood.com/": {
+      "url": "https://dukesseafood.com/",
+      "html_bytes": 158879,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/dukes-seafood-seattle-greenlake/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://dukesseafood.com/menus/": {
+      "url": "https://dukesseafood.com/menus/",
+      "html_bytes": 145249,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/dukes-seafood-seattle-greenlake/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://dukesseafood.com/menus/lunch-menu/": {
+      "url": "https://dukesseafood.com/menus/lunch-menu/",
+      "html_bytes": 249677,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/dukes-seafood-seattle-greenlake/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://dukesseafood.com/menus/specials/": {
+      "url": "https://dukesseafood.com/menus/specials/",
+      "html_bytes": 172667,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/dukes-seafood-seattle-greenlake/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://dukesseafood.com/menus/happy-hour-menu/": {
+      "url": "https://dukesseafood.com/menus/happy-hour-menu/",
+      "html_bytes": 188111,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/dukes-seafood-seattle-greenlake/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://dukesseafood.com/menus/dessert-menu/": {
+      "url": "https://dukesseafood.com/menus/dessert-menu/",
+      "html_bytes": 153269,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/dukes-seafood-seattle-greenlake/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://dukesseafood.com/menus/kids-menu/": {
+      "url": "https://dukesseafood.com/menus/kids-menu/",
+      "html_bytes": 158378,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_gift": "toasttab.com/dukes-seafood-seattle-greenlake/giftcards",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_gift": "toasttab.com/dukes-seafood-seattle-greenlake/giftcards",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

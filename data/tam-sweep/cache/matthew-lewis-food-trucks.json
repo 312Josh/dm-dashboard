@@ -1,0 +1,54 @@
+{
+  "parent": "Matthew Lewis Food Trucks",
+  "slug": "matthew-lewis-food-trucks",
+  "sfdc_account_id": "001PV00001x0NBtYAM",
+  "total_headroom": "$37,560",
+  "non_ec_headroom": "$37,560",
+  "est_ec_headroom": "$0",
+  "employee_count": "11",
+  "non_ec_arr": "$4,350",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "dvviche@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Empanadas el Pachi",
+    "Where ya at"
+  ],
+  "websites": [
+    "https://www.whereyaatmatt.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.whereyaatmatt.com/": {
+      "url": "https://www.whereyaatmatt.com/",
+      "html_bytes": 149110,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.whereyaatmatt.com/menu": {
+      "url": "https://www.whereyaatmatt.com/menu",
+      "html_bytes": 139969,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

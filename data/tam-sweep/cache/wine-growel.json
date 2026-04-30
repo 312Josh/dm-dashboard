@@ -1,0 +1,45 @@
+{
+  "parent": "Wine & Growel- Parent Account",
+  "slug": "wine-growel",
+  "sfdc_account_id": "0014W000033ttn6QAA",
+  "total_headroom": "$20,664",
+  "non_ec_headroom": "$19,740",
+  "est_ec_headroom": "$924",
+  "employee_count": "6",
+  "non_ec_arr": "$3,000",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "dlusby30@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Wine & Growel"
+  ],
+  "websites": [
+    "https://wineandgrowl.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://wineandgrowl.com/": {
+      "url": "https://wineandgrowl.com/",
+      "html_bytes": 86854,
+      "fingerprints": {
+        "website_cms": "SpotHopper",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

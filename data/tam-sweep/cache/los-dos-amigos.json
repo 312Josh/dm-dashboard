@@ -1,0 +1,43 @@
+{
+  "parent": "Los Dos Amigos Parent",
+  "slug": "los-dos-amigos",
+  "sfdc_account_id": "0014W000037VCD0QAO",
+  "total_headroom": "$21,676",
+  "non_ec_headroom": "$18,120",
+  "est_ec_headroom": "$3,556",
+  "employee_count": "21",
+  "non_ec_arr": "$8,992",
+  "state": "OR",
+  "city": "Keizer",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "oscarin1206@gmsil.con",
+  "location_count": 1,
+  "location_names": [
+    "Casa Los Dos Amigos"
+  ],
+  "websites": [
+    "https://casalosdosamigos.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://casalosdosamigos.com/": {
+      "url": "https://casalosdosamigos.com/",
+      "html_bytes": 114194,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

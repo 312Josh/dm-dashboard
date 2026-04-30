@@ -1,0 +1,30 @@
+{
+  "parent": "Joe's Bar & Grill - Parent Account",
+  "slug": "joe-s-bar-grill",
+  "sfdc_account_id": "001PV00002RA2rDYAT",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$0",
+  "employee_count": "9",
+  "non_ec_arr": "$1,800",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "dawnbergau@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Joe's Bar & Grill"
+  ],
+  "websites": [],
+  "website_discovery_status": "not_found",
+  "fingerprints": {},
+  "toast_products": {},
+  "marketplaces": {},
+  "marketplaces_status": "pending",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

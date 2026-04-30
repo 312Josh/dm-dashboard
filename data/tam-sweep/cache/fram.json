@@ -1,0 +1,62 @@
+{
+  "parent": "FRAM - Parent Account",
+  "slug": "fram",
+  "sfdc_account_id": "0014W00003P2y2wQAB",
+  "total_headroom": "$19,456",
+  "non_ec_headroom": "$18,252",
+  "est_ec_headroom": "$1,204",
+  "employee_count": "7",
+  "non_ec_arr": "$3,528",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "gabe@frambrews.com",
+  "location_count": 1,
+  "location_names": [
+    "FRAM"
+  ],
+  "websites": [
+    "https://www.frambrews.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.frambrews.com": {
+      "url": "https://www.frambrews.com",
+      "html_bytes": 124308,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/fram-2950-fairview-ave-e-unit-a",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://www.frambrews.com/menu": {
+      "url": "https://www.frambrews.com/menu",
+      "html_bytes": 155237,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/fram-2950-fairview-ave-e-unit-a",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/fram-2950-fairview-ave-e-unit-a",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

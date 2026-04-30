@@ -1,0 +1,49 @@
+{
+  "parent": "The Traveling Goat Parent",
+  "slug": "the-traveling-goat",
+  "sfdc_account_id": "0014W00002UkrchQAB",
+  "total_headroom": "$20,040",
+  "non_ec_headroom": "$20,040",
+  "est_ec_headroom": "$0",
+  "employee_count": "5",
+  "non_ec_arr": "$2,040",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "gock4@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Traveling Goat"
+  ],
+  "websites": [
+    "https://www.travelinggoatseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.travelinggoatseattle.com/": {
+      "url": "https://www.travelinggoatseattle.com/",
+      "html_bytes": 518755,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.travelinggoatseattle.com/menu": {
+      "url": "https://www.travelinggoatseattle.com/menu",
+      "html_bytes": 1143465,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "parent": "Turner Pizza & Taphouse",
+  "slug": "turner-pizza-taphouse",
+  "sfdc_account_id": "0014W000037WPS3QAO",
+  "total_headroom": "$19,692",
+  "non_ec_headroom": "$15,072",
+  "est_ec_headroom": "$4,620",
+  "employee_count": "28",
+  "non_ec_arr": "$7,404",
+  "state": "OR",
+  "city": "Turner",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "brianckaufman@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Turner Pizza & Taphouse"
+  ],
+  "websites": [
+    "https://turnerpizza.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://turnerpizza.com": {
+      "url": "https://turnerpizza.com",
+      "html_bytes": 210600,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/turnerpizza",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/turnerpizza/giftcards",
+        "toast_loyalty": "toasttab.com/turnerpizza/rewardsSignup"
+      }
+    },
+    "https://turnerpizza.com/menu": {
+      "url": "https://turnerpizza.com/menu",
+      "html_bytes": 401571,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "loyalty": "Toast Loyalty",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/turnerpizza",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/turnerpizza/giftcards",
+        "toast_loyalty": "toasttab.com/turnerpizza/rewardsSignup"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/turnerpizza",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/turnerpizza/giftcards",
+    "toast_loyalty": "toasttab.com/turnerpizza/rewardsSignup"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

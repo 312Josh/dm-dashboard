@@ -1,0 +1,42 @@
+{
+  "parent": "Aamrai Indian Kitchen and Bar - Parent Account",
+  "slug": "aamrai-indian-kitchen-and-bar",
+  "sfdc_account_id": "001PV00001mzuahYAA",
+  "total_headroom": "$14,256",
+  "non_ec_headroom": "$13,752",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$9,005",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "rupeshnaik13984@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Aamrai Indian Kitchen and Bar"
+  ],
+  "websites": [
+    "https://aamraiseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://aamraiseattle.com/": {
+      "url": "https://aamraiseattle.com/",
+      "html_bytes": 5515,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "parent": "Smith Seattle PARENT",
+  "slug": "smith-seattle",
+  "sfdc_account_id": "0014W00003F4DIYQA3",
+  "total_headroom": "$59,112",
+  "non_ec_headroom": "$59,112",
+  "est_ec_headroom": "$0",
+  "employee_count": "58",
+  "non_ec_arr": "$18,360",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "jorge@smithseattle.com",
+  "location_count": 3,
+  "location_names": [
+    "Cultura Seattle Nightclub",
+    "Cultura Portland",
+    "Smith Seattle"
+  ],
+  "websites": [
+    "https://smithseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://smithseattle.com/": {
+      "url": "https://smithseattle.com/",
+      "html_bytes": 178311,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/smith-seattle-332-15th-ave-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://smithseattle.com/menu": {
+      "url": "https://smithseattle.com/menu",
+      "html_bytes": 742806,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/smith-seattle-332-15th-ave-e",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/smith-seattle-332-15th-ave-e",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

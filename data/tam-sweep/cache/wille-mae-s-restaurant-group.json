@@ -12,7 +12,7 @@
   "contact_email": "wellington1021@gmail.com",
   "location_count": 1,
   "location_names": [
-    "Willie Mae’s Nola"
+    "Willie Mae\u2019s Nola"
   ],
   "websites": [
     "https://williemaesnola.com"
@@ -47,8 +47,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "rieger",
-    "--rep"
+    "rieger"
   ],
   "sfdc_account_id": "0014W00002XT3GLQA1"
 }

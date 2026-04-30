@@ -1,0 +1,50 @@
+{
+  "parent": "Tony's Taco Shop - Parent",
+  "slug": "tony-s-taco-shop",
+  "sfdc_account_id": "0014W00003MgMgxQAF",
+  "total_headroom": "$56,880",
+  "non_ec_headroom": "$56,880",
+  "est_ec_headroom": "$0",
+  "employee_count": "41",
+  "non_ec_arr": "$14,100",
+  "state": "OR",
+  "city": "Lebanon",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "tonystacomanager@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Tony's Taco Shop - franchise location 4",
+    "Tony's Taco Shop",
+    "Tony's Taco Shop II"
+  ],
+  "websites": [
+    "https://tonystacoshop.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://tonystacoshop.com/": {
+      "url": "https://tonystacoshop.com/",
+      "html_bytes": 95976,
+      "fingerprints": {
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/"
+  },
+  "marketplaces": [
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "parent": "Chira's Restaurant & Catering",
+  "slug": "chira-s-restaurant-catering",
+  "sfdc_account_id": "0014W000037YihBQAS",
+  "total_headroom": "$11,304",
+  "non_ec_headroom": "$11,304",
+  "est_ec_headroom": "$0",
+  "employee_count": "19",
+  "non_ec_arr": "$13,428",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mr.chira@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Chira's Restaurant & Catering"
+  ],
+  "websites": [
+    "https://chirasrestaurant.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://chirasrestaurant.com/": {
+      "url": "https://chirasrestaurant.com/",
+      "html_bytes": 163874,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_tables": "tables.toasttab.com/restaurants/008a6644-dea8-4ff0-bd5c-55b83633358e"
+      }
+    },
+    "https://chirasrestaurant.com/menu/": {
+      "url": "https://chirasrestaurant.com/menu/",
+      "html_bytes": 146915,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/008a6644-dea8-4ff0-bd5c-55b83633358e"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_tables": "tables.toasttab.com/restaurants/008a6644-dea8-4ff0-bd5c-55b83633358e"
+  },
+  "marketplaces": [
+    "opentable",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

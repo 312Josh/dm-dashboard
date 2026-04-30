@@ -1,0 +1,41 @@
+{
+  "parent": "Damn the Weather - Parent Account",
+  "slug": "damn-the-weather",
+  "sfdc_account_id": "0014W000037Y1cqQAC",
+  "total_headroom": "$23,560",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$3,220",
+  "employee_count": "19",
+  "non_ec_arr": "$1,800",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "brynlumsden@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Damn the Weather"
+  ],
+  "websites": [
+    "https://damntheweather.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://damntheweather.com/": {
+      "url": "https://damntheweather.com/",
+      "html_bytes": 15662,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

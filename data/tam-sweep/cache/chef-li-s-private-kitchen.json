@@ -1,5 +1,5 @@
 {
-  "parent": "Chef Li’s Private Kitchen",
+  "parent": "Chef Li\u2019s Private Kitchen",
   "slug": "chef-li-s-private-kitchen",
   "total_headroom": "$17,748",
   "non_ec_headroom": "$17,580",
@@ -12,7 +12,7 @@
   "contact_email": "mikaili.sturgis83@gmail.com",
   "location_count": 1,
   "location_names": [
-    "Chef Li’s Private Kitchen"
+    "Chef Li\u2019s Private Kitchen"
   ],
   "websites": [
     "https://order.toasttab.com/online/chef-lis-private-kitchen"
@@ -35,8 +35,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "0014W00003F46o9QAB"
 }

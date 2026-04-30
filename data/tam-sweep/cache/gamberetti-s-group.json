@@ -1,0 +1,78 @@
+{
+  "parent": "Gamberetti's Group",
+  "slug": "gamberetti-s-group",
+  "sfdc_account_id": "001C000001gogHZIAY",
+  "total_headroom": "$67,456",
+  "non_ec_headroom": "$54,660",
+  "est_ec_headroom": "$12,796",
+  "employee_count": "76",
+  "non_ec_arr": "$12,192",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "treva@gamberettis.com",
+  "location_count": 3,
+  "location_names": [
+    "Gamberetti's Italian Restaurant - High St",
+    "G3 - Aumsville",
+    "Vito's Trattoria"
+  ],
+  "websites": [
+    "https://www.gamberettis.com"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.gamberettis.com": {
+      "url": "https://www.gamberettis.com",
+      "html_bytes": 777619,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.gamberettis.com/order-online": {
+      "url": "https://www.gamberettis.com/order-online",
+      "html_bytes": 517547,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    },
+    "https://www.gamberettis.com/menus": {
+      "url": "https://www.gamberettis.com/menus",
+      "html_bytes": 520635,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {
+        "toast_oo_whitelabel_host": "https://order.online/",
+        "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_whitelabel_host": "https://order.online/",
+    "toast_oo_whitelabel_confirmed": "order.online + toasttab string in HTML"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

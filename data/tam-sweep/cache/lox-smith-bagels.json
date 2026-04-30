@@ -1,0 +1,54 @@
+{
+  "parent": "Lox Smith Bagels - Parent Account",
+  "slug": "lox-smith-bagels",
+  "sfdc_account_id": "0014W000037X6rCQAS",
+  "total_headroom": "$32,592",
+  "non_ec_headroom": "$32,592",
+  "est_ec_headroom": "$0",
+  "employee_count": "2",
+  "non_ec_arr": "$11,537",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "loxsmithbagels@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Lox Smith Bagels Delridge",
+    "Lox Smith Bagels Beacon Hill"
+  ],
+  "websites": [
+    "https://www.loxsmithseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.loxsmithseattle.com/": {
+      "url": "https://www.loxsmithseattle.com/",
+      "html_bytes": 32018,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Resy",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/loxsmithseattle/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/loxsmithseattle/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

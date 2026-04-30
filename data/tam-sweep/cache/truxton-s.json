@@ -12,7 +12,7 @@
   "contact_email": "lisahemmat@gmail.com",
   "location_count": 3,
   "location_names": [
-    "Georgia’s Lounge - Redondo Beach",
+    "Georgia\u2019s Lounge - Redondo Beach",
     "Truxton's - Torrance",
     "Truxton's - Westchester"
   ],
@@ -40,8 +40,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "rieger",
-    "--rep"
+    "rieger"
   ],
   "sfdc_account_id": "0013c00001uiq8zAAA"
 }

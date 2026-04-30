@@ -1,0 +1,56 @@
+{
+  "parent": "Mercato/Cantinetta/Chavez Group",
+  "slug": "mercato-cantinetta-chavez-group",
+  "sfdc_account_id": "001C000001d7DfBIAU",
+  "total_headroom": "$21,768",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$1,428",
+  "employee_count": "9",
+  "non_ec_arr": "$1,500",
+  "state": "WA",
+  "city": "Bellevue",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "william@violetseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Mercato Stellina - Bellevue"
+  ],
+  "websites": [
+    "https://www.cantinetta.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cantinetta.com/": {
+      "url": "https://www.cantinetta.com/",
+      "html_bytes": 233879,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    },
+    "https://www.cantinetta.com/gift-cards": {
+      "url": "https://www.cantinetta.com/gift-cards",
+      "html_bytes": 115959,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private events page"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "Rama Thai2 - Parent Account",
+  "slug": "rama-thai2",
+  "sfdc_account_id": "0014W00003MgVqQQAV",
+  "total_headroom": "$19,296",
+  "non_ec_headroom": "$18,960",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$3,000",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "ramathairestaurants@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Rama Thai2"
+  ],
+  "websites": [
+    "https://order.toasttab.com/online/rama-thai2-12874-southwest-canyon-road"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://order.toasttab.com/online/rama-thai2-12874-southwest-canyon-road": {
+      "url": "https://order.toasttab.com/online/rama-thai2-12874-southwest-canyon-road",
+      "html_bytes": 5736,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

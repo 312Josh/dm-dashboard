@@ -1,0 +1,47 @@
+{
+  "parent": "Salumi Meat Church",
+  "slug": "salumi-meat-church",
+  "sfdc_account_id": "001C000001kd0q2IAA",
+  "total_headroom": "$20,940",
+  "non_ec_headroom": "$18,420",
+  "est_ec_headroom": "$2,520",
+  "employee_count": "15",
+  "non_ec_arr": "$3,060",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "clara@salumideli.com",
+  "location_count": 1,
+  "location_names": [
+    "Salumi Deli"
+  ],
+  "websites": [
+    "https://salumideli.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://salumideli.com/": {
+      "url": "https://salumideli.com/",
+      "html_bytes": 15493,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

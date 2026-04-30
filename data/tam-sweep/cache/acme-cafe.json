@@ -1,0 +1,42 @@
+{
+  "parent": "Acme Cafe - Parent Account",
+  "slug": "acme-cafe",
+  "sfdc_account_id": "0014W00002mteiPQAQ",
+  "total_headroom": "$21,020",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$3,080",
+  "employee_count": "18",
+  "non_ec_arr": "$3,200",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "voegtle4@comcast.net",
+  "location_count": 1,
+  "location_names": [
+    "Acme Cafe"
+  ],
+  "websites": [
+    "https://acmecafe.co/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://acmecafe.co/": {
+      "url": "https://acmecafe.co/",
+      "html_bytes": 5487,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

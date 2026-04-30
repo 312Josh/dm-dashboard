@@ -1,0 +1,46 @@
+{
+  "parent": "Premier Group",
+  "slug": "premier-group",
+  "sfdc_account_id": "001C000001jETjVIAW",
+  "total_headroom": "$78,432",
+  "non_ec_headroom": "$78,432",
+  "est_ec_headroom": "$0",
+  "employee_count": "28",
+  "non_ec_arr": "$16,190",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "karenb@premiermeatpies.com",
+  "location_count": 4,
+  "location_names": [
+    "Premier Meat Pies - Pier 54",
+    "Premier Meat Pies - Seattle Center",
+    "Premier Pies - Renton",
+    "Ceres Roasting Company"
+  ],
+  "websites": [
+    "https://www.premiermeatpies.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.premiermeatpies.com/": {
+      "url": "https://www.premiermeatpies.com/",
+      "html_bytes": 32809,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "premier meat pies": "https://www.premiermeatpies.com/",
+    "ceres roasting": ""
+  }
+}

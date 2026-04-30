@@ -1,0 +1,51 @@
+{
+  "parent": "Glo's - Parent Account",
+  "slug": "glo-s",
+  "sfdc_account_id": "0014W00002xeXmpQAE",
+  "total_headroom": "$14,892",
+  "non_ec_headroom": "$14,892",
+  "est_ec_headroom": "$0",
+  "employee_count": "25",
+  "non_ec_arr": "$9,324",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "stevefrias@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Glo's - Brick & Mortar 2022"
+  ],
+  "websites": [
+    "https://www.glosseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.glosseattle.com/": {
+      "url": "https://www.glosseattle.com/",
+      "html_bytes": 281740,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/glos/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/glos/giftcards"
+  },
+  "marketplaces": [
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

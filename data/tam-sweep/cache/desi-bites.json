@@ -1,0 +1,57 @@
+{
+  "parent": "Desi Bites - Parent Account",
+  "slug": "desi-bites",
+  "sfdc_account_id": "0014W00003JUJNsQAP",
+  "total_headroom": "$42,636",
+  "non_ec_headroom": "$41,880",
+  "est_ec_headroom": "$756",
+  "employee_count": "5",
+  "non_ec_arr": "$0",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "desibitespdx@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Desi Bites",
+    "Desi Bite - Off Site"
+  ],
+  "websites": [
+    "https://desibitesportland.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://desibitesportland.com/": {
+      "url": "https://desibitesportland.com/",
+      "html_bytes": 149218,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://desibitesportland.com/menu": {
+      "url": "https://desibitesportland.com/menu",
+      "html_bytes": 225079,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://desibitesportland.com/ordernow": {
+      "url": "https://desibitesportland.com/ordernow",
+      "html_bytes": 36660,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

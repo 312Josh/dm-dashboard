@@ -1,0 +1,50 @@
+{
+  "parent": "Sisters and Brothers Seattle - Parent Account",
+  "slug": "sisters-and-brothers-seattle",
+  "sfdc_account_id": "0014W00003MfSzGQAV",
+  "total_headroom": "$19,492",
+  "non_ec_headroom": "$17,532",
+  "est_ec_headroom": "$1,960",
+  "employee_count": "12",
+  "non_ec_arr": "$3,420",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jakemanny@sistersandbrothersbar.com",
+  "location_count": 1,
+  "location_names": [
+    "Sisters and Brothers Seattle"
+  ],
+  "websites": [
+    "https://www.sistersandbrothersbar.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sistersandbrothersbar.com/": {
+      "url": "https://www.sistersandbrothersbar.com/",
+      "html_bytes": 64118,
+      "fingerprints": {
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/sisters-and-brothers-seattle-544-elliott-avenue-west",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/sisters-and-brothers-seattle-544-elliott-avenue-west",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

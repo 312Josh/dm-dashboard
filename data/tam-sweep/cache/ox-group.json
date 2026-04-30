@@ -1,0 +1,58 @@
+{
+  "parent": "Ox Group",
+  "slug": "ox-group",
+  "sfdc_account_id": "001PV00001MxX61YAF",
+  "total_headroom": "$50,944",
+  "non_ec_headroom": "$42,684",
+  "est_ec_headroom": "$8,260",
+  "employee_count": "49",
+  "non_ec_arr": "$24,096",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "thekandp@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Ox Burger",
+    "Ananas Pizzeria",
+    "Taurus Ox"
+  ],
+  "websites": [
+    "https://www.oxpdx.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.oxpdx.com/": {
+      "url": "https://www.oxpdx.com/",
+      "html_bytes": 87050,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.oxpdx.com/menu": {
+      "url": "https://www.oxpdx.com/menu",
+      "html_bytes": 90482,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

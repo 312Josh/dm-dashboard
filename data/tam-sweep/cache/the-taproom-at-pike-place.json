@@ -1,0 +1,41 @@
+{
+  "parent": "The Taproom at Pike Place - Parent Account",
+  "slug": "the-taproom-at-pike-place",
+  "sfdc_account_id": "0013c00001tuv4QAAQ",
+  "total_headroom": "$21,808",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$868",
+  "employee_count": "5",
+  "non_ec_arr": "$600",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "vuong1002@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "The Taproom at Pike Place"
+  ],
+  "websites": [
+    "https://taproomatpikeplace.wordpress.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://taproomatpikeplace.wordpress.com/": {
+      "url": "https://taproomatpikeplace.wordpress.com/",
+      "html_bytes": 109975,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

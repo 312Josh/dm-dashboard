@@ -1,0 +1,47 @@
+{
+  "parent": "Prime Tap House - Parent",
+  "slug": "prime-tap-house",
+  "sfdc_account_id": "0014W00003COydpQAD",
+  "total_headroom": "$35,664",
+  "non_ec_headroom": "$35,664",
+  "est_ec_headroom": "$0",
+  "employee_count": "27",
+  "non_ec_arr": "$7,196",
+  "state": "OR",
+  "city": "Hillsboro",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "primetaphouse@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Prime Taphouse - Tanasbourne",
+    "Prime Taphouse - West End"
+  ],
+  "websites": [
+    "https://www.primetaphouse.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.primetaphouse.com/": {
+      "url": "https://www.primetaphouse.com/",
+      "html_bytes": 332449,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub",
+    "doordash",
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

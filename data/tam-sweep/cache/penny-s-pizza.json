@@ -1,0 +1,42 @@
+{
+  "parent": "Penny's Pizza - Parent Account",
+  "slug": "penny-s-pizza",
+  "sfdc_account_id": "001PV00001nlJ7JYAU",
+  "total_headroom": "$19,320",
+  "non_ec_headroom": "$19,152",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$1,582",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "brian@pennys.pizza",
+  "location_count": 1,
+  "location_names": [
+    "Penny's Pizza"
+  ],
+  "websites": [
+    "https://pennys.pizza/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pennys.pizza/": {
+      "url": "https://pennys.pizza/",
+      "html_bytes": 5488,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

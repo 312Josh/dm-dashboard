@@ -1,0 +1,52 @@
+{
+  "parent": "Sugar Hill - Parent Account",
+  "slug": "sugar-hill",
+  "sfdc_account_id": "0014W000037YIMmQAO",
+  "total_headroom": "$19,456",
+  "non_ec_headroom": "$16,992",
+  "est_ec_headroom": "$2,464",
+  "employee_count": "15",
+  "non_ec_arr": "$6,884",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "guitar@sugarhillseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Sugar Hill"
+  ],
+  "websites": [
+    "https://www.sugarhillseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.sugarhillseattle.com/": {
+      "url": "https://www.sugarhillseattle.com/",
+      "html_bytes": 692623,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "Toast Tables",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_local": "toasttab.com/local/order"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_local": "toasttab.com/local/order"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

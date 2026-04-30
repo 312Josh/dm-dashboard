@@ -1,0 +1,42 @@
+{
+  "parent": "Room 122 - Parent Account",
+  "slug": "room-122",
+  "sfdc_account_id": "001C000001iMZ3WIAW",
+  "total_headroom": "$18,888",
+  "non_ec_headroom": "$18,720",
+  "est_ec_headroom": "$168",
+  "employee_count": "1",
+  "non_ec_arr": "$2,265",
+  "state": "OR",
+  "city": "Beaverton",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "marthabrooks15@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Room 122"
+  ],
+  "websites": [
+    "https://oregontaproom.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://oregontaproom.com/": {
+      "url": "https://oregontaproom.com/",
+      "html_bytes": 71517,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

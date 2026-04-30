@@ -1,0 +1,45 @@
+{
+  "parent": "Bar Del Corso - Parent Account",
+  "slug": "bar-del-corso",
+  "sfdc_account_id": "0014W00003JV45MQAT",
+  "total_headroom": "$24,196",
+  "non_ec_headroom": "$20,640",
+  "est_ec_headroom": "$3,556",
+  "employee_count": "21",
+  "non_ec_arr": "$1,500",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "jerry@bardelcorso.com",
+  "location_count": 1,
+  "location_names": [
+    "Bar Del Corso"
+  ],
+  "websites": [
+    "https://www.bardelcorso.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.bardelcorso.com/": {
+      "url": "https://www.bardelcorso.com/",
+      "html_bytes": 189174,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

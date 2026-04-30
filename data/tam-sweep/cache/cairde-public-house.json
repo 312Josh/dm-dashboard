@@ -1,0 +1,39 @@
+{
+  "parent": "Cairde Public House",
+  "slug": "cairde-public-house",
+  "sfdc_account_id": "0014W00002RpYlqQAF",
+  "total_headroom": "$20,148",
+  "non_ec_headroom": "$19,812",
+  "est_ec_headroom": "$336",
+  "employee_count": "2",
+  "non_ec_arr": "$2,928",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "mgf421@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Cairde Public House"
+  ],
+  "websites": [
+    "https://www.cphbarseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.cphbarseattle.com/": {
+      "url": "https://www.cphbarseattle.com/",
+      "html_bytes": 5519,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

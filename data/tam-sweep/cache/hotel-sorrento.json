@@ -1,0 +1,44 @@
+{
+  "parent": "Hotel Sorrento - Parent Account",
+  "slug": "hotel-sorrento",
+  "sfdc_account_id": "0014W00002RPS7vQAH",
+  "total_headroom": "$21,852",
+  "non_ec_headroom": "$18,240",
+  "est_ec_headroom": "$3,612",
+  "employee_count": "22",
+  "non_ec_arr": "$6,780",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "jberndt@hotelsorrento.com",
+  "location_count": 1,
+  "location_names": [
+    "Hotel Sorrento"
+  ],
+  "websites": [
+    "https://www.hotelsorrento.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.hotelsorrento.com/": {
+      "url": "https://www.hotelsorrento.com/",
+      "html_bytes": 201492,
+      "fingerprints": {
+        "reservations": "OpenTable",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

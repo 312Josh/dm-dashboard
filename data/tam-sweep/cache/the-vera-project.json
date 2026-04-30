@@ -1,0 +1,41 @@
+{
+  "parent": "The Vera Project - Parent Account",
+  "slug": "the-vera-project",
+  "sfdc_account_id": "001PV00001105oDYAQ",
+  "total_headroom": "$21,444",
+  "non_ec_headroom": "$20,940",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$600",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "ricky@theveraproject.org",
+  "location_count": 1,
+  "location_names": [
+    "The Vera Project"
+  ],
+  "websites": [
+    "https://theveraproject.org/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://theveraproject.org/": {
+      "url": "https://theveraproject.org/",
+      "html_bytes": 100822,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

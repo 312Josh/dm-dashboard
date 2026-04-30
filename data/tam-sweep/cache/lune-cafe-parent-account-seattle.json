@@ -1,0 +1,56 @@
+{
+  "parent": "Lune Cafe Parent account Seattle",
+  "slug": "lune-cafe-parent-account-seattle",
+  "sfdc_account_id": "0014W00003PXRMhQAP",
+  "total_headroom": "$34,188",
+  "non_ec_headroom": "$34,188",
+  "est_ec_headroom": "$0",
+  "employee_count": "53",
+  "non_ec_arr": "$61,257",
+  "state": "WA",
+  "city": "Auburn",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "karrarhamami@gmail.com",
+  "location_count": 5,
+  "location_names": [
+    "Lune Togo Auburn",
+    "Lune Cafe 5",
+    "Lune Cafe - Tacoma",
+    "Lune Cafe - U District",
+    "Lune cafe Pioneer Square 1st Location"
+  ],
+  "websites": [
+    "https://mylunecafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://mylunecafe.com/": {
+      "url": "https://mylunecafe.com/",
+      "html_bytes": 5490,
+      "fingerprints": {
+        "loyalty": "Punchh"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20251014091420/https://mylunecafe.com/",
+        "html_bytes": 387783,
+        "vendors": {
+          "loyalty": "Punchh"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

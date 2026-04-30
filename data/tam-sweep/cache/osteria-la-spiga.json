@@ -1,0 +1,88 @@
+{
+  "parent": "Osteria La Spiga - Parent Account",
+  "slug": "osteria-la-spiga",
+  "sfdc_account_id": "001C000001m5E30IAE",
+  "total_headroom": "$23,752",
+  "non_ec_headroom": "$19,440",
+  "est_ec_headroom": "$4,312",
+  "employee_count": "26",
+  "non_ec_arr": "$7,200",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "p.borghesi@laspiga.com",
+  "location_count": 1,
+  "location_names": [
+    "Osteria La Spiga"
+  ],
+  "websites": [
+    "https://www.laspiga.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.laspiga.com/": {
+      "url": "https://www.laspiga.com/",
+      "html_bytes": 51867,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/osteria-la-spiga-1429-12th-ave-suite-a",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/osteria-la-spiga-1429-12th-ave-suite-a/giftcards"
+      }
+    },
+    "https://www.laspiga.com/menus/": {
+      "url": "https://www.laspiga.com/menus/",
+      "html_bytes": 263219,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/osteria-la-spiga-1429-12th-ave-suite-a",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/osteria-la-spiga-1429-12th-ave-suite-a/giftcards"
+      }
+    },
+    "https://www.laspiga.com/store/gift-cards/": {
+      "url": "https://www.laspiga.com/store/gift-cards/",
+      "html_bytes": 40552,
+      "fingerprints": {
+        "website_cms": "BentoBox",
+        "oo": "Toast OO (native)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private events page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/osteria-la-spiga-1429-12th-ave-suite-a",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/osteria-la-spiga-1429-12th-ave-suite-a/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/osteria-la-spiga-1429-12th-ave-suite-a",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/osteria-la-spiga-1429-12th-ave-suite-a/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

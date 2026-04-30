@@ -1,0 +1,74 @@
+{
+  "parent": "Life On Mars",
+  "slug": "life-on-mars",
+  "sfdc_account_id": "001C000001nSH1JIAW",
+  "total_headroom": "$24,120",
+  "non_ec_headroom": "$20,340",
+  "est_ec_headroom": "$3,780",
+  "employee_count": "23",
+  "non_ec_arr": "$1,500",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "steven@neumos.com",
+  "location_count": 1,
+  "location_names": [
+    "Life On Mars"
+  ],
+  "websites": [
+    "https://lifeonmarsseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://lifeonmarsseattle.com/": {
+      "url": "https://lifeonmarsseattle.com/",
+      "html_bytes": 327596,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/life-on-mars/giftcards"
+      }
+    },
+    "https://lifeonmarsseattle.com/gift-cards/": {
+      "url": "https://lifeonmarsseattle.com/gift-cards/",
+      "html_bytes": 226143,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "marketing": "Mailchimp"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/life-on-mars/giftcards"
+      }
+    },
+    "https://lifeonmarsseattle.com/reservations/": {
+      "url": "https://lifeonmarsseattle.com/reservations/",
+      "html_bytes": 212931,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "marketing": "Mailchimp",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/life-on-mars/giftcards"
+  },
+  "marketplaces": [
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

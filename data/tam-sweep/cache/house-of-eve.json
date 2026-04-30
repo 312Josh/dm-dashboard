@@ -1,0 +1,82 @@
+{
+  "parent": "House of Eve - Parent Account",
+  "slug": "house-of-eve",
+  "sfdc_account_id": "0014W000037YgDrQAK",
+  "total_headroom": "$39,732",
+  "non_ec_headroom": "$39,732",
+  "est_ec_headroom": "$0",
+  "employee_count": "20",
+  "non_ec_arr": "$4,756",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "mikayla.benedict@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Evoke",
+    "House of Eve"
+  ],
+  "websites": [
+    "https://www.houseofeveseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.houseofeveseattle.com/": {
+      "url": "https://www.houseofeveseattle.com/",
+      "html_bytes": 106724,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/house-of-eve-730-blanchard-street/giftcards",
+        "toast_tables": "tables.toasttab.com/restaurants/c330b37e-0c1d-4e21-8622-ef585f3e4b54"
+      }
+    },
+    "https://www.houseofeveseattle.com/menu": {
+      "url": "https://www.houseofeveseattle.com/menu",
+      "html_bytes": 216271,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/house-of-eve-730-blanchard-street/giftcards"
+      }
+    },
+    "https://www.houseofeveseattle.com/reserve-1": {
+      "url": "https://www.houseofeveseattle.com/reserve-1",
+      "html_bytes": 133499,
+      "fingerprints": {
+        "website_cms": "Squarespace",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_tables": "tables.toasttab.com/restaurants/c330b37e-0c1d-4e21-8622-ef585f3e4b54",
+        "toast_gift": "toasttab.com/house-of-eve-730-blanchard-street/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/house-of-eve-730-blanchard-street/giftcards",
+    "toast_tables": "tables.toasttab.com/restaurants/c330b37e-0c1d-4e21-8622-ef585f3e4b54"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "QED Coffee- Parent",
+  "slug": "qed-coffee",
+  "sfdc_account_id": "0014W00003F3Zu0QAF",
+  "total_headroom": "$54,600",
+  "non_ec_headroom": "$54,600",
+  "est_ec_headroom": "$0",
+  "employee_count": "6",
+  "non_ec_arr": "$9,027",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "matt@qedcoffee.com",
+  "location_count": 3,
+  "location_names": [
+    "QED Coffee West Seattle",
+    "QED Coffee- Mt. Baker",
+    "QED coffee New"
+  ],
+  "websites": [
+    "https://qedcoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://qedcoffee.com/": {
+      "url": "https://qedcoffee.com/",
+      "html_bytes": 200687,
+      "fingerprints": {
+        "website_cms": "Shopify",
+        "marketing": "Klaviyo"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

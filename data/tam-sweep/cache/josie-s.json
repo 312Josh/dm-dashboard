@@ -1,5 +1,5 @@
 {
-  "parent": "Josie’s Parent",
+  "parent": "Josie\u2019s Parent",
   "slug": "josie-s",
   "total_headroom": "$47,156",
   "non_ec_headroom": "$36,012",
@@ -59,8 +59,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "0014W00002dasVrQAI"
 }

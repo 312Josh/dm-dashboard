@@ -16,7 +16,7 @@
     "Melisse",
     "Dear Jane's",
     "Charcoal",
-    "Augie’s LLC"
+    "Augie\u2019s LLC"
   ],
   "websites": [
     "https://www.dearjohnsla.com/",
@@ -192,8 +192,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "rieger",
-    "--rep"
+    "rieger"
   ],
   "brand_websites": {
     "dear john": "https://www.dearjohnsla.com/",

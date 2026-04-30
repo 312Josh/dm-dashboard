@@ -1,0 +1,45 @@
+{
+  "parent": "Jucivana Smoothies & Coffee",
+  "slug": "jucivana-smoothies-coffee",
+  "sfdc_account_id": "0013c00001xXQaKAAW",
+  "total_headroom": "$17,284",
+  "non_ec_headroom": "$16,332",
+  "est_ec_headroom": "$952",
+  "employee_count": "6",
+  "non_ec_arr": "$8,628",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sanjay.bhadu@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Jucivana Smoothies & Coffee"
+  ],
+  "websites": [
+    "https://jucivana.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://jucivana.com/": {
+      "url": "https://jucivana.com/",
+      "html_bytes": 213378,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

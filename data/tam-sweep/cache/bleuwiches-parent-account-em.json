@@ -1,0 +1,44 @@
+{
+  "parent": "Bleuwiches - Parent Account - EM",
+  "slug": "bleuwiches-parent-account-em",
+  "sfdc_account_id": "0014W00003GXSgVQAX",
+  "total_headroom": "$20,314",
+  "non_ec_headroom": "$20,112",
+  "est_ec_headroom": "$202",
+  "employee_count": "1",
+  "non_ec_arr": "$828",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Breakfast/Diner",
+  "contact_email": "jayhwang.chef@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Bleuwiches"
+  ],
+  "websites": [
+    "https://bleuwiches.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bleuwiches.com/": {
+      "url": "https://bleuwiches.com/",
+      "html_bytes": 5490,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "ezcater",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

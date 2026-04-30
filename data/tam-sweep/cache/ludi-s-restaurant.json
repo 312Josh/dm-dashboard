@@ -1,0 +1,39 @@
+{
+  "parent": "Ludi's Restaurant - Parent Account",
+  "slug": "ludi-s-restaurant",
+  "sfdc_account_id": "001PV00000sF0HEYA0",
+  "total_headroom": "$21,360",
+  "non_ec_headroom": "$18,840",
+  "est_ec_headroom": "$2,520",
+  "employee_count": "15",
+  "non_ec_arr": "$3,900",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "felicitas.rosas@hotmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Ludi's Restaurant"
+  ],
+  "websites": [
+    "https://www.ludisrestaurantwa.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.ludisrestaurantwa.com/": {
+      "url": "https://www.ludisrestaurantwa.com/",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "Silver Cloud Parent",
+  "slug": "silver-cloud",
+  "sfdc_account_id": "001PV00000yVI1PYAW",
+  "total_headroom": "$62,936",
+  "non_ec_headroom": "$57,420",
+  "est_ec_headroom": "$5,516",
+  "employee_count": "33",
+  "non_ec_arr": "$15,780",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "jim@silvercloud.com",
+  "location_count": 3,
+  "location_names": [
+    "Jimmy's on First",
+    "Ag47 at Silver Cloud",
+    "Silver Cloud Hotel- Portland Urban steel"
+  ],
+  "websites": [
+    "https://www.silvercloud.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.silvercloud.com/": {
+      "url": "https://www.silvercloud.com/",
+      "html_bytes": 208322,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "gift_cards": "Givex"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

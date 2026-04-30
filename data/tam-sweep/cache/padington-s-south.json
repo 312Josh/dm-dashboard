@@ -1,0 +1,64 @@
+{
+  "parent": "Padington's South - Parent Account",
+  "slug": "padington-s-south",
+  "sfdc_account_id": "0014W00002W70WtQAJ",
+  "total_headroom": "$24,444",
+  "non_ec_headroom": "$17,220",
+  "est_ec_headroom": "$7,224",
+  "employee_count": "43",
+  "non_ec_arr": "$5,700",
+  "state": "OR",
+  "city": "Salem",
+  "restaurant_type": "Pizzeria",
+  "contact_email": "tross1444@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Padington's South"
+  ],
+  "websites": [
+    "https://padingtonspizza.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://padingtonspizza.com/": {
+      "url": "https://padingtonspizza.com/",
+      "html_bytes": 79519,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/padingtons-pizza-south",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    },
+    "https://padingtonspizza.com/order": {
+      "url": "https://padingtonspizza.com/order",
+      "html_bytes": 171141,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (native)"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/padingtons-pizza-south",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/padingtons-pizza-south",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "ubereats",
+    "grubhub",
+    "doordash"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

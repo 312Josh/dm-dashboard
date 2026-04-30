@@ -1,0 +1,50 @@
+{
+  "parent": "Pegasus coffee bar",
+  "slug": "pegasus-coffee-bar",
+  "sfdc_account_id": "0014W000037VQxqQAG",
+  "total_headroom": "$18,164",
+  "non_ec_headroom": "$17,940",
+  "est_ec_headroom": "$224",
+  "employee_count": "1",
+  "non_ec_arr": "$0",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "e9park@gmail.com",
+  "location_count": 1,
+  "location_names": [
+    "Pegasus coffee bar"
+  ],
+  "websites": [
+    "https://pegasuscoffee.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://pegasuscoffee.com/": {
+      "url": "https://pegasuscoffee.com/",
+      "html_bytes": 0,
+      "fingerprints": {
+        "website_cms": "Shopify"
+      },
+      "toast": {},
+      "wayback": {
+        "snapshot": "http://web.archive.org/web/20260119023151/https://pegasuscoffee.com/",
+        "html_bytes": 182448,
+        "vendors": {
+          "website_cms": "Shopify"
+        }
+      }
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

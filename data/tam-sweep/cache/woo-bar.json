@@ -1,0 +1,63 @@
+{
+  "parent": "Woo Bar - Parent Account",
+  "slug": "woo-bar",
+  "sfdc_account_id": "0014W00003P2n8kQAB",
+  "total_headroom": "$18,192",
+  "non_ec_headroom": "$18,192",
+  "est_ec_headroom": "$0",
+  "employee_count": "28",
+  "non_ec_arr": "$5,407",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "andrew@woobarseattle.com",
+  "location_count": 1,
+  "location_names": [
+    "Woo Bar"
+  ],
+  "websites": [
+    "https://www.woobarseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.woobarseattle.com/": {
+      "url": "https://www.woobarseattle.com/",
+      "html_bytes": 963916,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Tock",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    },
+    "https://www.woobarseattle.com/menu": {
+      "url": "https://www.woobarseattle.com/menu",
+      "html_bytes": 901053,
+      "fingerprints": {
+        "website_cms": "Wix"
+      },
+      "toast": {}
+    },
+    "https://www.woobarseattle.com/reserveyourtable": {
+      "url": "https://www.woobarseattle.com/reserveyourtable",
+      "html_bytes": 1427479,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "Tock",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "ubereats"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

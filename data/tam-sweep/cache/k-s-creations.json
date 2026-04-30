@@ -1,5 +1,5 @@
 {
-  "parent": "K’s Creations",
+  "parent": "K\u2019s Creations",
   "slug": "k-s-creations",
   "total_headroom": "$14,988",
   "non_ec_headroom": "$14,652",
@@ -12,7 +12,7 @@
   "contact_email": "kscreations2024@hotmail.com",
   "location_count": 1,
   "location_names": [
-    "K’s Creations"
+    "K\u2019s Creations"
   ],
   "websites": [
     "https://kscreations.org/"
@@ -33,8 +33,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "001PV00002dZQZeYAO"
 }

@@ -1,0 +1,67 @@
+{
+  "parent": "CP Restaurants LLC",
+  "slug": "cp-restaurants-llc",
+  "sfdc_account_id": "0014W00002dbHiZQAU",
+  "total_headroom": "$37,476",
+  "non_ec_headroom": "$36,972",
+  "est_ec_headroom": "$504",
+  "employee_count": "3",
+  "non_ec_arr": "$7,260",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "cprestaurantsllc@gmail.com",
+  "location_count": 2,
+  "location_names": [
+    "Sole Repair Shop - Event Venue",
+    "Quinn's Pub"
+  ],
+  "websites": [
+    "https://www.solerepairshop.com/",
+    "https://www.quinnspubseattle.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.solerepairshop.com/": {
+      "url": "https://www.solerepairshop.com/",
+      "html_bytes": 388718,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "catering_mention": "Catering page"
+      },
+      "toast": {}
+    },
+    "https://www.quinnspubseattle.com/": {
+      "url": "https://www.quinnspubseattle.com/",
+      "html_bytes": 692181,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    },
+    "https://www.quinnspubseattle.com/menu": {
+      "url": "https://www.quinnspubseattle.com/menu",
+      "html_bytes": 601363,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "reservations": "OpenTable"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "sole repair": "https://www.solerepairshop.com/",
+    "quinn's pub": "https://www.quinnspubseattle.com/"
+  }
+}

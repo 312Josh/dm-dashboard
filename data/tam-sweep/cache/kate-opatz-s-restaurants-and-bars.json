@@ -1,0 +1,107 @@
+{
+  "parent": "Kate Opatz's Restaurants and Bars",
+  "slug": "kate-opatz-s-restaurants-and-bars",
+  "sfdc_account_id": "001PV00000hdQt9YAE",
+  "total_headroom": "$75,812",
+  "non_ec_headroom": "$72,144",
+  "est_ec_headroom": "$3,668",
+  "employee_count": "22",
+  "non_ec_arr": "$3,576",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "anais@ladiveseattle.com",
+  "location_count": 4,
+  "location_names": [
+    "Rich Rich",
+    "Laurel",
+    "Montana Badlands",
+    "Montana bar Capitol Hill"
+  ],
+  "websites": [
+    "https://richrichseattle.com/",
+    "https://laurelseattle.com/",
+    "https://montana.edan.io"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://richrichseattle.com/": {
+      "url": "https://richrichseattle.com/",
+      "html_bytes": 37922,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/rich-rich-532-queen-anne-avenue-north/giftcards"
+      }
+    },
+    "https://richrichseattle.com/menu/": {
+      "url": "https://richrichseattle.com/menu/",
+      "html_bytes": 60612,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/rich-rich-532-queen-anne-avenue-north/giftcards"
+      }
+    },
+    "https://richrichseattle.com/bookings/": {
+      "url": "https://richrichseattle.com/bookings/",
+      "html_bytes": 64853,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/rich-rich-532-queen-anne-avenue-north/giftcards"
+      }
+    },
+    "https://richrichseattle.com/contact/bookings-events/": {
+      "url": "https://richrichseattle.com/contact/bookings-events/",
+      "html_bytes": 68434,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/rich-rich-532-queen-anne-avenue-north/giftcards"
+      }
+    },
+    "https://laurelseattle.com/": {
+      "url": "https://laurelseattle.com/",
+      "html_bytes": 26557,
+      "fingerprints": {
+        "website_cms": "WordPress"
+      },
+      "toast": {}
+    },
+    "https://montana.edan.io": {
+      "url": "https://montana.edan.io",
+      "html_bytes": 5491,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/rich-rich-532-queen-anne-avenue-north/giftcards"
+  },
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "rich rich": "https://richrichseattle.com/",
+    "laurel": "https://laurelseattle.com/",
+    "montana": "https://montana.edan.io"
+  }
+}

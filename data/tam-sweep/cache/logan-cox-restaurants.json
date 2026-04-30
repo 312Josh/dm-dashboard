@@ -1,0 +1,40 @@
+{
+  "parent": "Logan Cox Restaurants",
+  "slug": "logan-cox-restaurants",
+  "sfdc_account_id": "0013c00001uiQ0eAAE",
+  "total_headroom": "$43,404",
+  "non_ec_headroom": "$35,760",
+  "est_ec_headroom": "$7,644",
+  "employee_count": "46",
+  "non_ec_arr": "$7,637",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "sara@restauranthomer.com",
+  "location_count": 2,
+  "location_names": [
+    "Homer",
+    "Milk Drunk"
+  ],
+  "websites": [
+    "https://bumbershoot.com/culinary/restaurant-homer/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bumbershoot.com/culinary/restaurant-homer/": {
+      "url": "https://bumbershoot.com/culinary/restaurant-homer/",
+      "html_bytes": 128714,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

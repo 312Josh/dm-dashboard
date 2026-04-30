@@ -1,0 +1,73 @@
+{
+  "parent": "Marco’s Cafe & Espresso Bar - Parent Account",
+  "slug": "marco-s-cafe-espresso-bar",
+  "sfdc_account_id": "0013c00001rE0b1AAC",
+  "total_headroom": "$16,080",
+  "non_ec_headroom": "$16,080",
+  "est_ec_headroom": "$0",
+  "employee_count": "34",
+  "non_ec_arr": "$9,408",
+  "state": "OR",
+  "city": "Portland",
+  "restaurant_type": "FSR - Casual",
+  "contact_email": "redplow@easystreet.net",
+  "location_count": 1,
+  "location_names": [
+    "Marcos Cafe and Espresso Bar"
+  ],
+  "websites": [
+    "https://www.marcoscafe.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.marcoscafe.com/": {
+      "url": "https://www.marcoscafe.com/",
+      "html_bytes": 546854,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "reservations": "OpenTable",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/marcoscafe/giftcards"
+      }
+    },
+    "https://www.marcoscafe.com/menus": {
+      "url": "https://www.marcoscafe.com/menus",
+      "html_bytes": 539383,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)"
+      },
+      "toast": {}
+    },
+    "https://www.marcoscafe.com/gift-card": {
+      "url": "https://www.marcoscafe.com/gift-card",
+      "html_bytes": 519724,
+      "fingerprints": {
+        "website_cms": "Wix",
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/marcoscafe/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_gift": "toasttab.com/marcoscafe/giftcards"
+  },
+  "marketplaces": [
+    "opentable",
+    "doordash",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

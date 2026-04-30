@@ -1,0 +1,73 @@
+{
+  "parent": "BB's - Parent",
+  "slug": "bb-s",
+  "sfdc_account_id": "001C000001ZrQrwIAF",
+  "total_headroom": "$71,772",
+  "non_ec_headroom": "$71,772",
+  "est_ec_headroom": "$0",
+  "employee_count": "28",
+  "non_ec_arr": "$12,808",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Fast Casual",
+  "contact_email": "michael@bbsteriyaki.com",
+  "location_count": 4,
+  "location_names": [
+    "BB's Teriyaki Grill - University Way",
+    "BB's Teriyaki - Issaquah",
+    "Nom House Vietnamese Kitchen",
+    "BB's Teriyaki - 210 Westlake Ave"
+  ],
+  "websites": [
+    "https://bbsteriyakigrill.gotoeat.net/",
+    "https://nomhousekitchen.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://bbsteriyakigrill.gotoeat.net/": {
+      "url": "https://bbsteriyakigrill.gotoeat.net/",
+      "html_bytes": 32721,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://bbsteriyakigrill.gotoeat.net/menu": {
+      "url": "https://bbsteriyakigrill.gotoeat.net/menu",
+      "html_bytes": 0,
+      "fingerprints": {},
+      "toast": {}
+    },
+    "https://nomhousekitchen.com/": {
+      "url": "https://nomhousekitchen.com/",
+      "html_bytes": 56918,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "catering_mention": "Catering page"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/nom-house-vietnamese-kitchen-1111-3rd-ave",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/nom-house-vietnamese-kitchen-1111-3rd-ave",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/"
+  },
+  "marketplaces": [
+    "doordash",
+    "ubereats",
+    "grubhub",
+    "ezcater"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ],
+  "brand_websites": {
+    "bb's teriyaki": "https://bbsteriyakigrill.gotoeat.net/",
+    "nom house": "https://nomhousekitchen.com/"
+  }
+}

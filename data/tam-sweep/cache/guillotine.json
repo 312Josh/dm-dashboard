@@ -1,0 +1,41 @@
+{
+  "parent": "guillotine - Parent Account",
+  "slug": "guillotine",
+  "sfdc_account_id": "0014W00003Mg1LsQAJ",
+  "total_headroom": "$15,504",
+  "non_ec_headroom": "$15,504",
+  "est_ec_headroom": "$0",
+  "employee_count": "1",
+  "non_ec_arr": "$6,288",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Bar/Lounge",
+  "contact_email": "colin_smith253@outlook.com",
+  "location_count": 1,
+  "location_names": [
+    "guillotine"
+  ],
+  "websites": [
+    "https://guillotine.restaurant/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://guillotine.restaurant/": {
+      "url": "https://guillotine.restaurant/",
+      "html_bytes": 40483,
+      "fingerprints": {},
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "resy"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

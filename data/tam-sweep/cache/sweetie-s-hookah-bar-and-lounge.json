@@ -1,5 +1,5 @@
 {
-  "parent": "Sweetie’s Hookah Bar and Lounge - Parent Account",
+  "parent": "Sweetie\u2019s Hookah Bar and Lounge - Parent Account",
   "slug": "sweetie-s-hookah-bar-and-lounge",
   "total_headroom": "$20,112",
   "non_ec_headroom": "$20,112",
@@ -12,7 +12,7 @@
   "contact_email": "trondawalker@hotmail.com",
   "location_count": 1,
   "location_names": [
-    "Sweetie’s Hookah Bar and Lounge"
+    "Sweetie\u2019s Hookah Bar and Lounge"
   ],
   "websites": [
     "https://www.facebook.com/p/Sweeties-Hookah-Bar-Lounge-61551649808195/"
@@ -33,8 +33,7 @@
   "hr_status": "pending",
   "notes": [],
   "reps": [
-    "stevens",
-    "--rep"
+    "stevens"
   ],
   "sfdc_account_id": "0014W00003JUZfRQAX"
 }

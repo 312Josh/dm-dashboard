@@ -1,0 +1,48 @@
+{
+  "parent": "Kells - Parent",
+  "slug": "kells",
+  "sfdc_account_id": "0014W00003MgoOkQAJ",
+  "total_headroom": "$50,844",
+  "non_ec_headroom": "$50,844",
+  "est_ec_headroom": "$0",
+  "employee_count": "39",
+  "non_ec_arr": "$18,590",
+  "state": "WA",
+  "city": "Seattle",
+  "restaurant_type": "Cafe/Bakery/Dessert",
+  "contact_email": "lieweheksie39@gmail.com",
+  "location_count": 3,
+  "location_names": [
+    "Karoo Cafe",
+    "Kells Irish Restaurant & Pub",
+    "Coltiva"
+  ],
+  "websites": [
+    "https://kellsirish.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://kellsirish.com/": {
+      "url": "https://kellsirish.com/",
+      "html_bytes": 70770,
+      "fingerprints": {
+        "website_cms": "WordPress",
+        "reservations": "Tock",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {}
+    }
+  },
+  "toast_products": {},
+  "marketplaces": [
+    "opentable",
+    "grubhub"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "parent": "Stoup Brewing - Parent",
+  "slug": "stoup-brewing",
+  "sfdc_account_id": "0013c00001tPxbWAAS",
+  "total_headroom": "$46,308",
+  "non_ec_headroom": "$46,308",
+  "est_ec_headroom": "$0",
+  "employee_count": "82",
+  "non_ec_arr": "$27,543",
+  "state": "WA",
+  "city": "Kenmore",
+  "restaurant_type": "Catering/Venue",
+  "contact_email": "jamesweimann@me.com",
+  "location_count": 3,
+  "location_names": [
+    "Stoup Brewing - Kenmore",
+    "Stoup Brewing - Cap Hill",
+    "Stoup Brewing - Ballard"
+  ],
+  "websites": [
+    "https://www.stoupbrewing.com/"
+  ],
+  "website_discovery_status": "found",
+  "fingerprints": {
+    "https://www.stoupbrewing.com/": {
+      "url": "https://www.stoupbrewing.com/",
+      "html_bytes": 47444,
+      "fingerprints": {
+        "oo": "Toast OO (native)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_oo_native": "order.toasttab.com/online/stoupkenmore",
+        "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+        "toast_gift": "toasttab.com/stoup-brewing-ballard-1108-nw-52nd-st/giftcards"
+      }
+    },
+    "https://www.stoupbrewing.com/book-a-party/": {
+      "url": "https://www.stoupbrewing.com/book-a-party/",
+      "html_bytes": 14575,
+      "fingerprints": {
+        "oo": "Toast OO (whitelabel candidate)",
+        "gift_cards": "Toast Gift Cards",
+        "catering_mention": "Private-events copy"
+      },
+      "toast": {
+        "toast_gift": "toasttab.com/stoup-brewing-ballard-1108-nw-52nd-st/giftcards"
+      }
+    }
+  },
+  "toast_products": {
+    "toast_oo_native": "order.toasttab.com/online/stoupkenmore",
+    "toast_oo_whitelabel_host": "https://order.toasttab.com/",
+    "toast_gift": "toasttab.com/stoup-brewing-ballard-1108-nw-52nd-st/giftcards"
+  },
+  "marketplaces": [
+    "opentable"
+  ],
+  "marketplaces_status": "done",
+  "hr_vendor": "",
+  "hr_status": "pending",
+  "notes": [],
+  "reps": [
+    "martinez"
+  ]
+}
