@@ -1,8 +1,8 @@
 {
   "date": "2026-04-30",
-  "team_arr": 433953.38,
+  "team_arr": 435505.5800000001,
   "team_quota": 447320,
-  "team_wins": 237,
+  "team_wins": 238,
   "team_pipeline": 437019.17999999964,
   "team_open_deals": 243,
   "reps": {
@@ -49,10 +49,10 @@
       "emails_replied": 11
     },
     "Eleni Lembesis": {
-      "arr": 53754.00000000001,
+      "arr": 55306.200000000004,
       "quota": 55440.0,
-      "arr_pct": 96.95887445887446,
-      "wins": 28,
+      "arr_pct": 99.75865800865802,
+      "wins": 29,
       "demos": 60,
       "opps": 61,
       "opp_demo": 98.3607,
