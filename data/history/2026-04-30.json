@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "team_arr": 442141.60000000003,
+  "team_arr": 448741.60000000003,
   "team_quota": 447320,
   "team_wins": 238,
   "team_pipeline": 437019.17999999964,
@@ -28,9 +28,9 @@
       "emails_replied": 14
     },
     "Danny Martinez": {
-      "arr": 45001.1,
+      "arr": 51601.1,
       "quota": 55440.0,
-      "arr_pct": 81.17081529581529,
+      "arr_pct": 93.0755772005772,
       "wins": 26,
       "demos": 33,
       "opps": 39,
