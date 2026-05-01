@@ -229,6 +229,25 @@ def generate(data_dir):
     # Rep order from metrics
     reps = [r["Rep Name"] for r in metrics]
 
+    # --- SF Won override (use SF "ARR Won This Month" instead of Sigma Total Booked Saas) ---
+    sf_won_path = Path(__file__).parent / "data" / "sf_won.csv"
+    sf_won_by_rep = {}
+    if sf_won_path.exists():
+        for r in read_csv(sf_won_path):
+            rep = normalize_name((r.get("Rep") or "").strip())
+            if not rep or rep not in reps:
+                continue
+            arr = parse_money(r.get("ARR", "0"))
+            if arr > 0:
+                sf_won_by_rep[rep] = arr
+    for r in metrics:
+        name = r.get("Rep Name", "")
+        if name in sf_won_by_rep:
+            r["Total Booked Saas ARR"] = str(sf_won_by_rep[name])
+            quota = parse_money(r.get("Booked SaaS Quota (Xactly)", "0"))
+            if quota:
+                r["ARR % to Goal (Xactly)"] = f"{sf_won_by_rep[name] / quota * 100}%"
+
     # --- UE Promo deals (not captured in Sigma/SF ARR — manually tracked) ---
     # Pull the most recent "UE Promo Deals {Month} - Sheet1*.csv" from Downloads
     # and inject $ into rep ARR so team sales reflect reality.

@@ -1,15 +1,15 @@
 {
   "date": "2026-04-30",
-  "team_arr": 435505.5800000001,
+  "team_arr": 442141.60000000003,
   "team_quota": 447320,
   "team_wins": 238,
   "team_pipeline": 437019.17999999964,
   "team_open_deals": 243,
   "reps": {
     "Chris Byrnes": {
-      "arr": 80988.56,
+      "arr": 80988.59999999999,
       "quota": 62000.0,
-      "arr_pct": 130.62670967741937,
+      "arr_pct": 130.62677419354839,
       "wins": 45,
       "demos": 52,
       "opps": 57,
@@ -28,9 +28,9 @@
       "emails_replied": 14
     },
     "Danny Martinez": {
-      "arr": 45001.14,
+      "arr": 45001.1,
       "quota": 55440.0,
-      "arr_pct": 81.17088744588744,
+      "arr_pct": 81.17081529581529,
       "wins": 26,
       "demos": 33,
       "opps": 39,
@@ -49,9 +49,9 @@
       "emails_replied": 11
     },
     "Eleni Lembesis": {
-      "arr": 55306.200000000004,
+      "arr": 59254.200000000004,
       "quota": 55440.0,
-      "arr_pct": 99.75865800865802,
+      "arr_pct": 106.87987012987014,
       "wins": 29,
       "demos": 60,
       "opps": 61,
@@ -70,9 +70,9 @@
       "emails_replied": 11
     },
     "Jasmine Rieger": {
-      "arr": 71466.0,
+      "arr": 74154.0,
       "quota": 62000.0,
-      "arr_pct": 115.26774193548388,
+      "arr_pct": 119.60322580645162,
       "wins": 38,
       "demos": 61,
       "opps": 64,
@@ -112,7 +112,7 @@
       "emails_replied": 3
     },
     "Thomas Jensen": {
-      "arr": 24816.96,
+      "arr": 24817.0,
       "quota": 0.0,
       "arr_pct": 0.0,
       "wins": 28,
@@ -133,9 +133,9 @@
       "emails_replied": 0
     },
     "Tyler Stevens": {
-      "arr": 99501.72,
+      "arr": 99501.7,
       "quota": 95000.0,
-      "arr_pct": 104.73865263157896,
+      "arr_pct": 104.73863157894736,
       "wins": 51,
       "demos": 71,
       "opps": 80,
